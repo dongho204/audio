@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.120" end="00:00:05.200" style="s2">AI Persona chatbots are one of the most</p>
+<p begin="00:00:02.879" end="00:00:08.200" style="s2">popular and lucrative opportunities in</p>
+<p begin="00:00:05.200" end="00:00:10.679" style="s2">the AI chatbot space right now and best</p>
+<p begin="00:00:08.200" end="00:00:13.040" style="s2">of all you don&#39;t have to be a developer</p>
+<p begin="00:00:10.679" end="00:00:15.320" style="s2">to build these Bots either using tools</p>
+<p begin="00:00:13.040" end="00:00:18.279" style="s2">like flow wise we can create a virtual</p>
+<p begin="00:00:15.320" end="00:00:20.480" style="s2">copy of a celebrity or influencer that</p>
+<p begin="00:00:18.279" end="00:00:22.600" style="s2">can be used as a personal assistant or</p>
+<p begin="00:00:20.480" end="00:00:25.320" style="s2">coach in this video we will create a</p>
+<p begin="00:00:22.600" end="00:00:27.560" style="s2">Persona chat bot of Mr Beast that we can</p>
+<p begin="00:00:25.320" end="00:00:30.279" style="s2">use to get instant and personalized</p>
+<p begin="00:00:27.560" end="00:00:32.520" style="s2">advice on content creation and ground gr</p>
+<p begin="00:00:30.279" end="00:00:34.800" style="s2">a YouTube channel we will set up flow</p>
+<p begin="00:00:32.520" end="00:00:37.360" style="s2">wise from scratch and I will show you</p>
+<p begin="00:00:34.800" end="00:00:40.360" style="s2">step by step how to create your very own</p>
+<p begin="00:00:37.360" end="00:00:42.520" style="s2">AI Persona chatbot let&#39;s get started in</p>
+<p begin="00:00:40.360" end="00:00:45.039" style="s2">order to install flow wise you will need</p>
+<p begin="00:00:42.520" end="00:00:47.160" style="s2">the following go over to this website</p>
+<p begin="00:00:45.039" end="00:00:49.480" style="s2">and download and install git for your</p>
+<p begin="00:00:47.160" end="00:00:52.199" style="s2">operating system then go over to this</p>
+<p begin="00:00:49.480" end="00:00:55.039" style="s2">website and install the LTS version of</p>
+<p begin="00:00:52.199" end="00:00:57.480" style="s2">node as well after installing git and</p>
+<p begin="00:00:55.039" end="00:01:00.920" style="s2">node go over to the flow wise repository</p>
+<p begin="00:00:57.480" end="00:01:03.719" style="s2">on GitHub on this page click on on code</p>
+<p begin="00:01:00.920" end="00:01:06.200" style="s2">then copy this URL then create a new</p>
+<p begin="00:01:03.719" end="00:01:08.439" style="s2">folder on your machine and open the</p>
+<p begin="00:01:06.200" end="00:01:10.360" style="s2">command prompt on Windows you can open</p>
+<p begin="00:01:08.439" end="00:01:13.840" style="s2">the command prompt by clicking on the</p>
+<p begin="00:01:10.360" end="00:01:16.280" style="s2">address bar and typing CMD and then</p>
+<p begin="00:01:13.840" end="00:01:19.600" style="s2">press enter now in the command prompt</p>
+<p begin="00:01:16.280" end="00:01:22.119" style="s2">type get clone and then paste in that</p>
+<p begin="00:01:19.600" end="00:01:24.560" style="s2">URL and press enter this will now</p>
+<p begin="00:01:22.119" end="00:01:26.560" style="s2">download flow wise to your machine next</p>
+<p begin="00:01:24.560" end="00:01:28.200" style="s2">we need to open the flow wise folder in</p>
+<p begin="00:01:26.560" end="00:01:31.880" style="s2">the command prom I&#39;ll do that by</p>
+<p begin="00:01:28.200" end="00:01:34.159" style="s2">entering CD flow wise and pressing enter</p>
+<p begin="00:01:31.880" end="00:01:36.920" style="s2">alternatively you could simply open the</p>
+<p begin="00:01:34.159" end="00:01:39.040" style="s2">flow wise folder and again run the CMD</p>
+<p begin="00:01:36.920" end="00:01:41.079" style="s2">command in the address bar now we need</p>
+<p begin="00:01:39.040" end="00:01:44.119" style="s2">to install the dependencies for flow</p>
+<p begin="00:01:41.079" end="00:01:46.520" style="s2">wise we can do that by typing yarn</p>
+<p begin="00:01:44.119" end="00:01:48.799" style="s2">install and then pressing enter if you</p>
+<p begin="00:01:46.520" end="00:01:50.920" style="s2">get an error message stating that yarn</p>
+<p begin="00:01:48.799" end="00:01:53.600" style="s2">is not a valid command then you can</p>
+<p begin="00:01:50.920" end="00:01:58.920" style="s2">install yarn on your machine by running</p>
+<p begin="00:01:53.600" end="00:02:00.840" style="s2">this command npm install D- Global yarn</p>
+<p begin="00:01:58.920" end="00:02:02.920" style="s2">and that should result olve that error</p>
+<p begin="00:02:00.840" end="00:02:05.880" style="s2">after installation is complete we just</p>
+<p begin="00:02:02.920" end="00:02:08.200" style="s2">have to run one more command and that is</p>
+<p begin="00:02:05.880" end="00:02:10.360" style="s2">yarn build and this will take a minute</p>
+<p begin="00:02:08.200" end="00:02:12.879" style="s2">to complete after build is complete we</p>
+<p begin="00:02:10.360" end="00:02:15.239" style="s2">can now finally go ahead and start flow</p>
+<p begin="00:02:12.879" end="00:02:17.239" style="s2">wise to start flow wise going forward</p>
+<p begin="00:02:15.239" end="00:02:20.879" style="s2">simply open the command prompt in this</p>
+<p begin="00:02:17.239" end="00:02:23.160" style="s2">flow wise folder and run yarn start we</p>
+<p begin="00:02:20.879" end="00:02:26.560" style="s2">can now run flow wise in our browser by</p>
+<p begin="00:02:23.160" end="00:02:28.599" style="s2">going to Local Host Port 3000 and you</p>
+<p begin="00:02:26.560" end="00:02:30.800" style="s2">should be presented with a dashboard</p>
+<p begin="00:02:28.599" end="00:02:32.720" style="s2">like this now that we have flow wise up</p>
+<p begin="00:02:30.800" end="00:02:35.680" style="s2">and running we need to start preparing</p>
+<p begin="00:02:32.720" end="00:02:38.360" style="s2">our data for our personal chatbot there</p>
+<p begin="00:02:35.680" end="00:02:41.080" style="s2">are many ways to Source this information</p>
+<p begin="00:02:38.360" end="00:02:43.920" style="s2">whether it&#39;s from blogs articles</p>
+<p begin="00:02:41.080" end="00:02:46.480" style="s2">podcasts or YouTube videos for this</p>
+<p begin="00:02:43.920" end="00:02:50.080" style="s2">example I&#39;m simply going to search for</p>
+<p begin="00:02:46.480" end="00:02:52.280" style="s2">Mr Beast advice videos on YouTube and</p>
+<p begin="00:02:50.080" end="00:02:55.800" style="s2">here we can find a video that is a</p>
+<p begin="00:02:52.280" end="00:02:57.599" style="s2">compilation of Mr Beast advice videos so</p>
+<p begin="00:02:55.800" end="00:03:00.280" style="s2">what we need to do is to download the</p>
+<p begin="00:02:57.599" end="00:03:02.599" style="s2">transcript of this video and we will add</p>
+<p begin="00:03:00.280" end="00:03:04.760" style="s2">that transcript to the knowledge base of</p>
+<p begin="00:03:02.599" end="00:03:07.959" style="s2">our chatbot to download the transcript</p>
+<p begin="00:03:04.760" end="00:03:09.840" style="s2">of any YouTube video Simply copy the URL</p>
+<p begin="00:03:07.959" end="00:03:13.200" style="s2">and then go over to YouTube</p>
+<p begin="00:03:09.840" end="00:03:15.840" style="s2">transcript.com and paste in that URL and</p>
+<p begin="00:03:13.200" end="00:03:18.519" style="s2">then click on go we will now have access</p>
+<p begin="00:03:15.840" end="00:03:21.560" style="s2">to the full transcript of that video so</p>
+<p begin="00:03:18.519" end="00:03:23.959" style="s2">to copy this text click on copy entire</p>
+<p begin="00:03:21.560" end="00:03:26.080" style="s2">transcript then create a new folder on</p>
+<p begin="00:03:23.959" end="00:03:28.480" style="s2">your machine for storing these</p>
+<p begin="00:03:26.080" end="00:03:30.959" style="s2">transcript files and then create a new</p>
+<p begin="00:03:28.480" end="00:03:33.080" style="s2">text file and paste in the transcript</p>
+<p begin="00:03:30.959" end="00:03:35.280" style="s2">text and let&#39;s go ahead and save this</p>
+<p begin="00:03:33.080" end="00:03:38.120" style="s2">file we can then simply repeat this</p>
+<p begin="00:03:35.280" end="00:03:40.799" style="s2">process for all other sources I&#39;ll go</p>
+<p begin="00:03:38.120" end="00:03:42.840" style="s2">ahead and grab one more video let&#39;s use</p>
+<p begin="00:03:40.799" end="00:03:45.760" style="s2">this one over here I&#39;ll simply copy the</p>
+<p begin="00:03:42.840" end="00:03:48.920" style="s2">URL head over to YouTube transcript by</p>
+<p begin="00:03:45.760" end="00:03:51.439" style="s2">in that URL and hit go let&#39;s copy this</p>
+<p begin="00:03:48.920" end="00:03:53.519" style="s2">transcript let&#39;s create a new text file</p>
+<p begin="00:03:51.439" end="00:03:55.439" style="s2">paste in the transcript and let&#39;s save</p>
+<p begin="00:03:53.519" end="00:03:57.439" style="s2">this file for this demo I&#39;ll stick with</p>
+<p begin="00:03:55.439" end="00:03:59.720" style="s2">these two files only but you can go</p>
+<p begin="00:03:57.439" end="00:04:02.400" style="s2">ahead and add as many files as you want</p>
+<p begin="00:03:59.720" end="00:04:04.560" style="s2">want now let&#39;s go back to flow wise and</p>
+<p begin="00:04:02.400" end="00:04:07.760" style="s2">let&#39;s create our first chat flow let&#39;s</p>
+<p begin="00:04:04.560" end="00:04:10.920" style="s2">click on add new and let&#39;s save our chat</p>
+<p begin="00:04:07.760" end="00:04:13.400" style="s2">flow I&#39;ll call mine AI beast and let&#39;s</p>
+<p begin="00:04:10.920" end="00:04:17.120" style="s2">save this we now need to add a note that</p>
+<p begin="00:04:13.400" end="00:04:19.400" style="s2">will allow us to chat to an AI model</p>
+<p begin="00:04:17.120" end="00:04:22.400" style="s2">which also has access to a knowledge</p>
+<p begin="00:04:19.400" end="00:04:25.040" style="s2">base so for this I&#39;ll click on nodes</p>
+<p begin="00:04:22.400" end="00:04:27.680" style="s2">then I&#39;ll click on chains and within</p>
+<p begin="00:04:25.040" end="00:04:30.880" style="s2">chains let&#39;s add the conversational</p>
+<p begin="00:04:27.680" end="00:04:34.039" style="s2">retrieval QA chain like so now let&#39;s</p>
+<p begin="00:04:30.880" end="00:04:37.199" style="s2">attach an AI model to this chain we can</p>
+<p begin="00:04:34.039" end="00:04:40.560" style="s2">do that by clicking on nodes then let&#39;s</p>
+<p begin="00:04:37.199" end="00:04:44.280" style="s2">open chat models and within chat models</p>
+<p begin="00:04:40.560" end="00:04:47.000" style="s2">let&#39;s add the chat open AI model like so</p>
+<p begin="00:04:44.280" end="00:04:49.639" style="s2">and then let&#39;s attach our model to our</p>
+<p begin="00:04:47.000" end="00:04:52.440" style="s2">chain like so for the model let&#39;s change</p>
+<p begin="00:04:49.639" end="00:04:54.800" style="s2">the temperature to 0.4 we&#39;ll come back</p>
+<p begin="00:04:52.440" end="00:04:57.600" style="s2">to the credentials in a second next</p>
+<p begin="00:04:54.800" end="00:04:59.080" style="s2">let&#39;s add a vector store retriever if</p>
+<p begin="00:04:57.600" end="00:05:01.560" style="s2">you would like to learn more about</p>
+<p begin="00:04:59.080" end="00:05:04.199" style="s2">vector stores then please have a look at</p>
+<p begin="00:05:01.560" end="00:05:06.400" style="s2">this video in this series but I&#39;ll also</p>
+<p begin="00:05:04.199" end="00:05:09.800" style="s2">briefly explain these in this video to</p>
+<p begin="00:05:06.400" end="00:05:12.520" style="s2">add a vector store let&#39;s click on nodes</p>
+<p begin="00:05:09.800" end="00:05:15.160" style="s2">then go to Vector stores and let&#39;s</p>
+<p begin="00:05:12.520" end="00:05:17.080" style="s2">simply add the inmemory vector store</p>
+<p begin="00:05:15.160" end="00:05:19.680" style="s2">effectively the vector store is a</p>
+<p begin="00:05:17.080" end="00:05:23.280" style="s2">database and the contents of those text</p>
+<p begin="00:05:19.680" end="00:05:25.440" style="s2">files will be stored in this database so</p>
+<p begin="00:05:23.280" end="00:05:28.160" style="s2">when we interact with our chat bot this</p>
+<p begin="00:05:25.440" end="00:05:29.919" style="s2">chain will look up the information from</p>
+<p begin="00:05:28.160" end="00:05:32.720" style="s2">this database let&#39;s con connect our</p>
+<p begin="00:05:29.919" end="00:05:35.039" style="s2">inmemory Vector store to the chain like</p>
+<p begin="00:05:32.720" end="00:05:37.520" style="s2">so we&#39;re not going to spend any time on</p>
+<p begin="00:05:35.039" end="00:05:40.720" style="s2">the memory node in this video the vector</p>
+<p begin="00:05:37.520" end="00:05:43.400" style="s2">store requires two inputs the documents</p>
+<p begin="00:05:40.720" end="00:05:45.520" style="s2">like our text files as well as the</p>
+<p begin="00:05:43.400" end="00:05:48.360" style="s2">embeddings embeddings can be quite a</p>
+<p begin="00:05:45.520" end="00:05:50.720" style="s2">tricky concept but effectively the text</p>
+<p begin="00:05:48.360" end="00:05:53.039" style="s2">files that we load into this Vector</p>
+<p begin="00:05:50.720" end="00:05:56.080" style="s2">store first need to be converted to</p>
+<p begin="00:05:53.039" end="00:06:00.160" style="s2">embeddings so to specify the embeddings</p>
+<p begin="00:05:56.080" end="00:06:03.039" style="s2">model click on nodes open embeddings and</p>
+<p begin="00:06:00.160" end="00:06:05.639" style="s2">add the open AI embeddings note to the</p>
+<p begin="00:06:03.039" end="00:06:08.080" style="s2">canvas and let&#39;s go ahead and connect</p>
+<p begin="00:06:05.639" end="00:06:10.160" style="s2">this embeddings note to the vector store</p>
+<p begin="00:06:08.080" end="00:06:12.280" style="s2">the embeddings note also requires</p>
+<p begin="00:06:10.160" end="00:06:14.840" style="s2">credentials but we will come back to</p>
+<p begin="00:06:12.280" end="00:06:17.840" style="s2">that in a second now finally let&#39;s load</p>
+<p begin="00:06:14.840" end="00:06:21.479" style="s2">our document loader let&#39;s click on nodes</p>
+<p begin="00:06:17.840" end="00:06:24.240" style="s2">then under document loaders go to folder</p>
+<p begin="00:06:21.479" end="00:06:25.960" style="s2">with files and add that to the canvas</p>
+<p begin="00:06:24.240" end="00:06:28.199" style="s2">and let&#39;s connect this note to the</p>
+<p begin="00:06:25.960" end="00:06:30.960" style="s2">vector store as well now we need to</p>
+<p begin="00:06:28.199" end="00:06:33.360" style="s2">specify the path to our text files so</p>
+<p begin="00:06:30.960" end="00:06:35.960" style="s2">let&#39;s go over to that folder and let&#39;s</p>
+<p begin="00:06:33.360" end="00:06:38.080" style="s2">copy this address and just a quick side</p>
+<p begin="00:06:35.960" end="00:06:40.360" style="s2">note this folder can contain different</p>
+<p begin="00:06:38.080" end="00:06:42.599" style="s2">file types it does not all have to be</p>
+<p begin="00:06:40.360" end="00:06:45.639" style="s2">text files you are welcome to mix it</p>
+<p begin="00:06:42.599" end="00:06:47.960" style="s2">with text files PDFs and Word Documents</p>
+<p begin="00:06:45.639" end="00:06:50.000" style="s2">and in flow wise let&#39;s paste in that</p>
+<p begin="00:06:47.960" end="00:06:52.319" style="s2">address there is one more note that I</p>
+<p begin="00:06:50.000" end="00:06:54.960" style="s2">would like to add to this and that is</p>
+<p begin="00:06:52.319" end="00:06:57.800" style="s2">the text splitter so instead of</p>
+<p begin="00:06:54.960" end="00:06:59.720" style="s2">uploading the entire content of each</p>
+<p begin="00:06:57.800" end="00:07:01.520" style="s2">file we will split that content content</p>
+<p begin="00:06:59.720" end="00:07:04.319" style="s2">into chunks that is a bit more</p>
+<p begin="00:07:01.520" end="00:07:07.520" style="s2">manageable for the AI to process let&#39;s</p>
+<p begin="00:07:04.319" end="00:07:10.319" style="s2">click on nodes then click on text</p>
+<p begin="00:07:07.520" end="00:07:12.039" style="s2">Splitters and let&#39;s add the recursive</p>
+<p begin="00:07:10.319" end="00:07:14.720" style="s2">character text splitter and let&#39;s</p>
+<p begin="00:07:12.039" end="00:07:17.400" style="s2">connect this to our document uploader</p>
+<p begin="00:07:14.720" end="00:07:20.639" style="s2">let&#39;s leave the chunk size as 1,000 but</p>
+<p begin="00:07:17.400" end="00:07:23.639" style="s2">let&#39;s add a chunk overlap of 200 so</p>
+<p begin="00:07:20.639" end="00:07:25.759" style="s2">zooming out we now have a view like this</p>
+<p begin="00:07:23.639" end="00:07:27.720" style="s2">first we&#39;ve added a document loader and</p>
+<p begin="00:07:25.759" end="00:07:30.120" style="s2">specified the folder containing our</p>
+<p begin="00:07:27.720" end="00:07:32.000" style="s2">documents so this note will load all of</p>
+<p begin="00:07:30.120" end="00:07:34.960" style="s2">those documents and then pass those</p>
+<p begin="00:07:32.000" end="00:07:36.599" style="s2">documents over to this node the contents</p>
+<p begin="00:07:34.960" end="00:07:38.759" style="s2">of those documents will then be</p>
+<p begin="00:07:36.599" end="00:07:41.160" style="s2">converted into embeddings using this</p>
+<p begin="00:07:38.759" end="00:07:43.440" style="s2">node and then stored in the vector store</p>
+<p begin="00:07:41.160" end="00:07:45.479" style="s2">so when we interact with our bot the</p>
+<p begin="00:07:43.440" end="00:07:47.599" style="s2">chatbot will try and find the answer to</p>
+<p begin="00:07:45.479" end="00:07:50.000" style="s2">the question in this Vector store and</p>
+<p begin="00:07:47.599" end="00:07:52.639" style="s2">then return a response all that&#39;s left</p>
+<p begin="00:07:50.000" end="00:07:55.680" style="s2">to do now is to add our open AI</p>
+<p begin="00:07:52.639" end="00:07:59.479" style="s2">credentials to get your open credentials</p>
+<p begin="00:07:55.680" end="00:08:03.080" style="s2">go to platform. open.com create your</p>
+<p begin="00:07:59.479" end="00:08:05.520" style="s2">account then click on personal view API</p>
+<p begin="00:08:03.080" end="00:08:08.159" style="s2">keys and you will be presented with this</p>
+<p begin="00:08:05.520" end="00:08:10.599" style="s2">screen click on create new secret key</p>
+<p begin="00:08:08.159" end="00:08:13.000" style="s2">give your key a name and click on create</p>
+<p begin="00:08:10.599" end="00:08:16.319" style="s2">secret key and go ahead and copy that</p>
+<p begin="00:08:13.000" end="00:08:18.960" style="s2">key then go back to flow wise save your</p>
+<p begin="00:08:16.319" end="00:08:21.840" style="s2">chat flow and click on back then click</p>
+<p begin="00:08:18.960" end="00:08:26.240" style="s2">on credentials then click on ADD</p>
+<p begin="00:08:21.840" end="00:08:29.479" style="s2">credential and search for open AI API</p>
+<p begin="00:08:26.240" end="00:08:32.440" style="s2">and paste in your API key also give this</p>
+<p begin="00:08:29.479" end="00:08:34.919" style="s2">a name I&#39;ll just call it open Ai and</p>
+<p begin="00:08:32.440" end="00:08:37.519" style="s2">click on ADD then go back to your chat</p>
+<p begin="00:08:34.919" end="00:08:39.599" style="s2">flows click on your chat flow and let&#39;s</p>
+<p begin="00:08:37.519" end="00:08:41.959" style="s2">add these credentials let&#39;s start with</p>
+<p begin="00:08:39.599" end="00:08:44.279" style="s2">the chat open AI node under connect</p>
+<p begin="00:08:41.959" end="00:08:47.640" style="s2">credentials click on the drop down and</p>
+<p begin="00:08:44.279" end="00:08:49.920" style="s2">select open AI then go to the open AI</p>
+<p begin="00:08:47.640" end="00:08:52.600" style="s2">embedding node click on the drop- down</p>
+<p begin="00:08:49.920" end="00:08:54.560" style="s2">and also select open AI we should now be</p>
+<p begin="00:08:52.600" end="00:08:56.640" style="s2">ready to test out this bot let&#39;s click</p>
+<p begin="00:08:54.560" end="00:08:58.800" style="s2">on Save and then click on this little</p>
+<p begin="00:08:56.640" end="00:09:00.920" style="s2">chat bubble on the top right this will</p>
+<p begin="00:08:58.800" end="00:09:03.480" style="s2">open up up your chat window Let&#39;s test</p>
+<p begin="00:09:00.920" end="00:09:05.480" style="s2">this by sending a message like hello the</p>
+<p begin="00:09:03.480" end="00:09:07.959" style="s2">first time you run this it does take a</p>
+<p begin="00:09:05.480" end="00:09:09.800" style="s2">second because the document loader is</p>
+<p begin="00:09:07.959" end="00:09:12.079" style="s2">first processing your documents and</p>
+<p begin="00:09:09.800" end="00:09:14.360" style="s2">adding it to the vector store after that</p>
+<p begin="00:09:12.079" end="00:09:16.279" style="s2">the chat responses should be quite quick</p>
+<p begin="00:09:14.360" end="00:09:18.640" style="s2">and we do get a response back from the</p>
+<p begin="00:09:16.279" end="00:09:20.880" style="s2">bot saying I don&#39;t know the answer which</p>
+<p begin="00:09:18.640" end="00:09:23.160" style="s2">is fine because it can&#39;t find an answer</p>
+<p begin="00:09:20.880" end="00:09:25.200" style="s2">for hello from the vector store but at</p>
+<p begin="00:09:23.160" end="00:09:28.040" style="s2">least we are getting response back from</p>
+<p begin="00:09:25.200" end="00:09:30.000" style="s2">our bot now let&#39;s fix this let&#39;s close</p>
+<p begin="00:09:28.040" end="00:09:32.480" style="s2">the chat window and let&#39;s tweak the</p>
+<p begin="00:09:30.000" end="00:09:34.440" style="s2">personality of this chatbot we can do</p>
+<p begin="00:09:32.480" end="00:09:36.720" style="s2">this by clicking on additional</p>
+<p begin="00:09:34.440" end="00:09:38.800" style="s2">parameters and now we can provide a</p>
+<p begin="00:09:36.720" end="00:09:41.399" style="s2">system message and this is how we can</p>
+<p begin="00:09:38.800" end="00:09:43.720" style="s2">control the personality of our chatbot</p>
+<p begin="00:09:41.399" end="00:09:45.880" style="s2">in order to get this chatbot to mimic Mr</p>
+<p begin="00:09:43.720" end="00:09:48.640" style="s2">Beast I&#39;m going to enter the following</p>
+<p begin="00:09:45.880" end="00:09:51.320" style="s2">prompt you are Jimmy Donaldson also</p>
+<p begin="00:09:48.640" end="00:09:53.399" style="s2">known as Mr Beast a YouTuber and content</p>
+<p begin="00:09:51.320" end="00:09:55.760" style="s2">creator I&#39;m not going to read the entire</p>
+<p begin="00:09:53.399" end="00:09:58.360" style="s2">thing in order to save time but you can</p>
+<p begin="00:09:55.760" end="00:10:00.120" style="s2">be as specific as you want at this stage</p>
+<p begin="00:09:58.360" end="00:10:02.760" style="s2">as this will great L affect the</p>
+<p begin="00:10:00.120" end="00:10:05.279" style="s2">responses from the bot effectively I&#39;m</p>
+<p begin="00:10:02.760" end="00:10:07.760" style="s2">just describing the personality of Mr</p>
+<p begin="00:10:05.279" end="00:10:10.079" style="s2">Beast what is important here though is</p>
+<p begin="00:10:07.760" end="00:10:12.399" style="s2">this section answer the user&#39;s questions</p>
+<p begin="00:10:10.079" end="00:10:14.839" style="s2">as if you are Mr Beast so that will</p>
+<p begin="00:10:12.399" end="00:10:17.160" style="s2">force the AI to respond in the first</p>
+<p begin="00:10:14.839" end="00:10:19.720" style="s2">person and only answer questions found</p>
+<p begin="00:10:17.160" end="00:10:22.160" style="s2">in the context in other words only</p>
+<p begin="00:10:19.720" end="00:10:24.240" style="s2">provide an answer if the answer was</p>
+<p begin="00:10:22.160" end="00:10:25.959" style="s2">found in the vector store if you don&#39;t</p>
+<p begin="00:10:24.240" end="00:10:28.440" style="s2">know the answer then respond with</p>
+<p begin="00:10:25.959" end="00:10:30.480" style="s2">something like I have no idea or could</p>
+<p begin="00:10:28.440" end="00:10:32.920" style="s2">you rephrase that do not make up your</p>
+<p begin="00:10:30.480" end="00:10:34.959" style="s2">own answers if you don&#39;t know the answer</p>
+<p begin="00:10:32.920" end="00:10:37.600" style="s2">let&#39;s go ahead and close this and let&#39;s</p>
+<p begin="00:10:34.959" end="00:10:39.800" style="s2">save this jat let&#39;s try this again and</p>
+<p begin="00:10:37.600" end="00:10:41.639" style="s2">let&#39;s say hello so we&#39;re getting a</p>
+<p begin="00:10:39.800" end="00:10:44.360" style="s2">message saying hello how can I assist</p>
+<p begin="00:10:41.639" end="00:10:46.519" style="s2">you today let&#39;s do this let&#39;s ask who</p>
+<p begin="00:10:44.360" end="00:10:49.560" style="s2">are you and now the B is saying it&#39;s</p>
+<p begin="00:10:46.519" end="00:10:51.680" style="s2">Jimmy also known as Mr Beast let&#39;s ask</p>
+<p begin="00:10:49.560" end="00:10:54.000" style="s2">it a few questions like how can I</p>
+<p begin="00:10:51.680" end="00:10:56.720" style="s2">improve my thumbnails and it&#39;s giving us</p>
+<p begin="00:10:54.000" end="00:10:58.720" style="s2">a very useful answer indeed and this is</p>
+<p begin="00:10:56.720" end="00:11:01.079" style="s2">information that was provided in those</p>
+<p begin="00:10:58.720" end="00:11:03.720" style="s2">YouTube videos let&#39;s ask it something</p>
+<p begin="00:11:01.079" end="00:11:06.480" style="s2">like what is your worst video and this</p>
+<p begin="00:11:03.720" end="00:11:08.200" style="s2">is a very Mr Beast type of answer I hope</p>
+<p begin="00:11:06.480" end="00:11:10.040" style="s2">you found this useful adding more</p>
+<p begin="00:11:08.200" end="00:11:11.880" style="s2">content to this bot is just greatly</p>
+<p begin="00:11:10.040" end="00:11:13.760" style="s2">going to improve the type of answers</p>
+<p begin="00:11:11.880" end="00:11:16.279" style="s2">that I get back if you enjoy this</p>
+<p begin="00:11:13.760" end="00:11:18.200" style="s2">content then please like this video And</p>
+<p begin="00:11:16.279" end="00:11:20.760" style="s2">subscribe to my Channel please let me</p>
+<p begin="00:11:18.200" end="00:11:23.880" style="s2">know in the comments below who you plan</p>
+<p begin="00:11:20.760" end="00:11:27.600" style="s2">to clone as an AI Persona I&#39;ll see you</p>
+<p begin="00:11:23.880" end="00:11:27.600" style="s2">in the next one bye-bye</p>
+</div>
+</body>
+</tt>
