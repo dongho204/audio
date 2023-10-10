@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:03.319" end="00:00:09.120" style="s2">python is a dynamically typed language</p>
+<p begin="00:00:06.839" end="00:00:12.360" style="s2">which means that with python you can do</p>
+<p begin="00:00:09.120" end="00:00:15.960" style="s2">crazy and silly things like this where</p>
+<p begin="00:00:12.360" end="00:00:18.300" style="s2">the name variable starts as a string and</p>
+<p begin="00:00:15.960" end="00:00:21.720" style="s2">then it becomes a number and finally</p>
+<p begin="00:00:18.300" end="00:00:24.660" style="s2">ends up as a Boolean that code might not</p>
+<p begin="00:00:21.720" end="00:00:27.180" style="s2">look so crazy to you but this python</p>
+<p begin="00:00:24.660" end="00:00:30.779" style="s2">feature that JavaScript shares as well</p>
+<p begin="00:00:27.180" end="00:00:32.940" style="s2">is the root of many runtime errors which</p>
+<p begin="00:00:30.779" end="00:00:35.480" style="s2">are errors that happen when the software</p>
+<p begin="00:00:32.940" end="00:00:37.440" style="s2">is running on the user&#39;s device</p>
+<p begin="00:00:35.480" end="00:00:40.020" style="s2">dynamically typed languages like</p>
+<p begin="00:00:37.440" end="00:00:42.480" style="s2">JavaScript or python are very beginner</p>
+<p begin="00:00:40.020" end="00:00:45.660" style="s2">friendly because they don&#39;t force the</p>
+<p begin="00:00:42.480" end="00:00:49.140" style="s2">developer to explicitly tell the program</p>
+<p begin="00:00:45.660" end="00:00:52.559" style="s2">the type of data it holds statically</p>
+<p begin="00:00:49.140" end="00:00:55.140" style="s2">typed languages like C C plus plus Java</p>
+<p begin="00:00:52.559" end="00:00:58.980" style="s2">C sharp typescript and go among many</p>
+<p begin="00:00:55.140" end="00:01:01.860" style="s2">others don&#39;t allow that in this c-sharp</p>
+<p begin="00:00:58.980" end="00:01:05.040" style="s2">code when I create a variable I first</p>
+<p begin="00:01:01.860" end="00:01:08.040" style="s2">have to indicate what type of data that</p>
+<p begin="00:01:05.040" end="00:01:10.860" style="s2">variable will hold because of this if I</p>
+<p begin="00:01:08.040" end="00:01:14.040" style="s2">later try to change the value of name to</p>
+<p begin="00:01:10.860" end="00:01:16.560" style="s2">a number I will get an error because the</p>
+<p begin="00:01:14.040" end="00:01:19.080" style="s2">language knows that name should be a</p>
+<p begin="00:01:16.560" end="00:01:22.439" style="s2">string and by trying to change it to a</p>
+<p begin="00:01:19.080" end="00:01:24.479" style="s2">number I might be making a mistake and</p>
+<p begin="00:01:22.439" end="00:01:27.299" style="s2">it is a mistake because changing the</p>
+<p begin="00:01:24.479" end="00:01:30.060" style="s2">type of a variable by accident can cause</p>
+<p begin="00:01:27.299" end="00:01:32.939" style="s2">other code that uses that variable to</p>
+<p begin="00:01:30.060" end="00:01:36.540" style="s2">fail take this python code for example</p>
+<p begin="00:01:32.939" end="00:01:40.079" style="s2">we have a function that takes a b and c</p>
+<p begin="00:01:36.540" end="00:01:43.320" style="s2">and Returns the result of a plus b plus</p>
+<p begin="00:01:40.079" end="00:01:45.840" style="s2">C we humans know that we should only</p>
+<p begin="00:01:43.320" end="00:01:48.780" style="s2">call this function with numbers but</p>
+<p begin="00:01:45.840" end="00:01:51.540" style="s2">python does not know that python does</p>
+<p begin="00:01:48.780" end="00:01:53.820" style="s2">not know what the type of a or b or c</p>
+<p begin="00:01:51.540" end="00:01:56.579" style="s2">should be and because of this it will</p>
+<p begin="00:01:53.820" end="00:01:59.220" style="s2">allow anything to go through so if</p>
+<p begin="00:01:56.579" end="00:02:02.579" style="s2">someone makes a tiny mistake and does</p>
+<p begin="00:01:59.220" end="00:02:05.520" style="s2">something like this sending the number 2</p>
+<p begin="00:02:02.579" end="00:02:08.280" style="s2">inside of a string python will still try</p>
+<p begin="00:02:05.520" end="00:02:10.679" style="s2">to run that code ending on an error</p>
+<p begin="00:02:08.280" end="00:02:13.440" style="s2">telling us that we cannot use the plus</p>
+<p begin="00:02:10.679" end="00:02:15.480" style="s2">sign between an integer and a string</p>
+<p begin="00:02:13.440" end="00:02:17.760" style="s2">statically typed languages like the ones</p>
+<p begin="00:02:15.480" end="00:02:20.700" style="s2">we mentioned before would not even allow</p>
+<p begin="00:02:17.760" end="00:02:23.459" style="s2">that code to run python of course is not</p>
+<p begin="00:02:20.700" end="00:02:25.080" style="s2">as strict and no one wants it to be but</p>
+<p begin="00:02:23.459" end="00:02:27.420" style="s2">wouldn&#39;t it be cool if we could get at</p>
+<p begin="00:02:25.080" end="00:02:29.879" style="s2">least a hint or a warning when we are</p>
+<p begin="00:02:27.420" end="00:02:32.099" style="s2">doing something dumb with types the good</p>
+<p begin="00:02:29.879" end="00:02:35.459" style="s2">news is that we can from python version</p>
+<p begin="00:02:32.099" end="00:02:38.220" style="s2">3.5 we can add type hints to our code</p>
+<p begin="00:02:35.459" end="00:02:41.040" style="s2">indicating what the types of things are</p>
+<p begin="00:02:38.220" end="00:02:43.739" style="s2">so next time you create a variable you</p>
+<p begin="00:02:41.040" end="00:02:47.099" style="s2">can add a type hint to it by using a</p>
+<p begin="00:02:43.739" end="00:02:49.080" style="s2">column and the python type so if we take</p>
+<p begin="00:02:47.099" end="00:02:51.360" style="s2">the code from the beginning and add type</p>
+<p begin="00:02:49.080" end="00:02:53.519" style="s2">hints we can then use a type Checker</p>
+<p begin="00:02:51.360" end="00:02:56.340" style="s2">like my pie to tell us where the</p>
+<p begin="00:02:53.519" end="00:02:58.260" style="s2">problems are my pie is a type Checker</p>
+<p begin="00:02:56.340" end="00:03:01.140" style="s2">that you can run in your console after</p>
+<p begin="00:02:58.260" end="00:03:03.599" style="s2">installing it doing fit insta though my</p>
+<p begin="00:03:01.140" end="00:03:04.980" style="s2">pipe or if you are using vs code and you</p>
+<p begin="00:03:03.599" end="00:03:07.379" style="s2">don&#39;t want to constantly have to be</p>
+<p begin="00:03:04.980" end="00:03:10.200" style="s2">running commands next time you are on a</p>
+<p begin="00:03:07.379" end="00:03:13.260" style="s2">python file go to the Bottom bar of your</p>
+<p begin="00:03:10.200" end="00:03:16.319" style="s2">vs code and switch type checking to on</p>
+<p begin="00:03:13.260" end="00:03:18.599" style="s2">when you do this vs code will warn you</p>
+<p begin="00:03:16.319" end="00:03:20.640" style="s2">after it checks your code using type</p>
+<p begin="00:03:18.599" end="00:03:23.400" style="s2">hints we can also fix the function we</p>
+<p begin="00:03:20.640" end="00:03:26.280" style="s2">created before to only accept integers</p>
+<p begin="00:03:23.400" end="00:03:29.400" style="s2">and we can even specify what is the type</p>
+<p begin="00:03:26.280" end="00:03:31.200" style="s2">the function returns so if we make a</p>
+<p begin="00:03:29.400" end="00:03:33.480" style="s2">mistake and send the wrong number of</p>
+<p begin="00:03:31.200" end="00:03:36.420" style="s2">argument or the wrong type our type</p>
+<p begin="00:03:33.480" end="00:03:38.940" style="s2">Checker can let us know when creating</p>
+<p begin="00:03:36.420" end="00:03:42.299" style="s2">arrays you can use type hints as well to</p>
+<p begin="00:03:38.940" end="00:03:44.760" style="s2">restrict them to one data type you can</p>
+<p begin="00:03:42.299" end="00:03:46.680" style="s2">also type dictionaries and using the</p>
+<p begin="00:03:44.760" end="00:03:50.099" style="s2">type in module you can express more</p>
+<p begin="00:03:46.680" end="00:03:52.319" style="s2">complicated types as well for example a</p>
+<p begin="00:03:50.099" end="00:03:55.200" style="s2">function that takes an optional string</p>
+<p begin="00:03:52.319" end="00:03:58.080" style="s2">parameter or a list that can have both</p>
+<p begin="00:03:55.200" end="00:04:01.799" style="s2">numbers and strings or when you don&#39;t</p>
+<p begin="00:03:58.080" end="00:04:04.140" style="s2">want a variable to ever be modified keep</p>
+<p begin="00:04:01.799" end="00:04:06.299" style="s2">in mind that this is all valid python</p>
+<p begin="00:04:04.140" end="00:04:08.700" style="s2">code it won&#39;t affect the speed of your</p>
+<p begin="00:04:06.299" end="00:04:10.799" style="s2">program and it&#39;s completely optional</p>
+<p begin="00:04:08.700" end="00:04:13.500" style="s2">even if your code has Type hints and</p>
+<p begin="00:04:10.799" end="00:04:15.840" style="s2">VSCO is warning you of an error but you</p>
+<p begin="00:04:13.500" end="00:04:17.940" style="s2">still choose to run the code python is</p>
+<p begin="00:04:15.840" end="00:04:20.940" style="s2">not going to stop you and you will still</p>
+<p begin="00:04:17.940" end="00:04:24.240" style="s2">get a runtime error type hints are just</p>
+<p begin="00:04:20.940" end="00:04:26.340" style="s2">hints clues for the type Checker python</p>
+<p begin="00:04:24.240" end="00:04:28.919" style="s2">will run your code with or without them</p>
+<p begin="00:04:26.340" end="00:04:31.380" style="s2">the hints are for us the developers as</p>
+<p begin="00:04:28.919" end="00:04:33.720" style="s2">well to write better code and to get</p>
+<p begin="00:04:31.380" end="00:04:36.180" style="s2">more help from our code editors and</p>
+<p begin="00:04:33.720" end="00:04:38.639" style="s2">better autocomplete type hints can be</p>
+<p begin="00:04:36.180" end="00:04:40.860" style="s2">added to your code incrementally you</p>
+<p begin="00:04:38.639" end="00:04:43.020" style="s2">don&#39;t have to do it all at once they are</p>
+<p begin="00:04:40.860" end="00:04:46.380" style="s2">completely optional and forever will be</p>
+<p begin="00:04:43.020" end="00:04:48.660" style="s2">as stated on the python website python</p>
+<p begin="00:04:46.380" end="00:04:52.020" style="s2">will remain a dynamically typed language</p>
+<p begin="00:04:48.660" end="00:04:55.139" style="s2">and the authors have no desire to ever</p>
+<p begin="00:04:52.020" end="00:04:57.240" style="s2">make type hint mandatory even by</p>
+<p begin="00:04:55.139" end="00:04:59.100" style="s2">convention now even though they are not</p>
+<p begin="00:04:57.240" end="00:05:01.199" style="s2">mandatory they will still increase the</p>
+<p begin="00:04:59.100" end="00:05:02.940" style="s2">quality of your code they will allow you</p>
+<p begin="00:05:01.199" end="00:05:04.979" style="s2">to read your code and understand what</p>
+<p begin="00:05:02.940" end="00:05:08.160" style="s2">it&#39;s doing faster they will help you</p>
+<p begin="00:05:04.979" end="00:05:09.419" style="s2">work with big code bases and big themes</p>
+<p begin="00:05:08.160" end="00:05:11.580" style="s2">and they will give you a better</p>
+<p begin="00:05:09.419" end="00:05:13.740" style="s2">developer experience on the text editor</p>
+<p begin="00:05:11.580" end="00:05:15.540" style="s2">of your choice to learn more about all</p>
+<p begin="00:05:13.740" end="00:05:17.280" style="s2">the type hints you can use in Python</p>
+<p begin="00:05:15.540" end="00:05:19.740" style="s2">check out the documentation of the</p>
+<p begin="00:05:17.280" end="00:05:22.259" style="s2">typing module on the official python</p>
+<p begin="00:05:19.740" end="00:05:24.660" style="s2">documentation website as well as the</p>
+<p begin="00:05:22.259" end="00:05:26.220" style="s2">mypai documentation website and don&#39;t</p>
+<p begin="00:05:24.660" end="00:05:28.440" style="s2">forget that if you want to learn to code</p>
+<p begin="00:05:26.220" end="00:05:30.780" style="s2">for free with me please click the link</p>
+<p begin="00:05:28.440" end="00:05:33.660" style="s2">below to join many of the free courses</p>
+<p begin="00:05:30.780" end="00:05:36.780" style="s2">on python JavaScript react react native</p>
+<p begin="00:05:33.660" end="00:05:39.600" style="s2">go and typescript among many others that</p>
+<p begin="00:05:36.780" end="00:05:41.759" style="s2">we have made for you with love for free</p>
+<p begin="00:05:39.600" end="00:05:44.220" style="s2">let me know in the comments what do you</p>
+<p begin="00:05:41.759" end="00:05:46.139" style="s2">think about type hint on python are you</p>
+<p begin="00:05:44.220" end="00:05:48.240" style="s2">going to use them are you using them</p>
+<p begin="00:05:46.139" end="00:05:50.039" style="s2">already write it down on the comments</p>
+<p begin="00:05:48.240" end="00:05:51.660" style="s2">I&#39;m going to be looking at them right</p>
+<p begin="00:05:50.039" end="00:05:56.160" style="s2">now thank you for watching see you in</p>
+<p begin="00:05:51.660" end="00:05:56.160" style="s2">the next one stay free love yourself bye</p>
+</div>
+</body>
+</tt>

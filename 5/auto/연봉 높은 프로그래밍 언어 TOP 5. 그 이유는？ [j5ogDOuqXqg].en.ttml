@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.030" end="00:00:05.190" style="s2">I know a jamika today we are going to</p>
+<p begin="00:00:02.250" end="00:00:10.920" style="s2">talk about the top five highest paid</p>
+<p begin="00:00:05.190" end="00:00:14.460" style="s2">programming languages according to Stack</p>
+<p begin="00:00:10.920" end="00:00:19.859" style="s2">Overflow developer survey of 2019</p>
+<p begin="00:00:14.460" end="00:00:21.660" style="s2">closure F sharp go Scala and elixir if</p>
+<p begin="00:00:19.859" end="00:00:25.980" style="s2">you are like me you maybe have never</p>
+<p begin="00:00:21.660" end="00:00:28.170" style="s2">ever heard of any of these programming</p>
+<p begin="00:00:25.980" end="00:00:30.929" style="s2">languages and that is okay because they</p>
+<p begin="00:00:28.170" end="00:00:32.489" style="s2">are very very weird these programming</p>
+<p begin="00:00:30.929" end="00:00:35.270" style="s2">languages are very good at something</p>
+<p begin="00:00:32.489" end="00:00:38.399" style="s2">called functional programming and</p>
+<p begin="00:00:35.270" end="00:00:41.100" style="s2">parallelism or concurrency functional</p>
+<p begin="00:00:38.399" end="00:00:44.730" style="s2">programming is just a different way of</p>
+<p begin="00:00:41.100" end="00:00:47.550" style="s2">thinking about your code so for example</p>
+<p begin="00:00:44.730" end="00:00:49.649" style="s2">if you look at Python or dart they&#39;re</p>
+<p begin="00:00:47.550" end="00:00:52.469" style="s2">very object oriented that means that</p>
+<p begin="00:00:49.649" end="00:00:56.100" style="s2">they have stuff called classes they have</p>
+<p begin="00:00:52.469" end="00:00:58.079" style="s2">stuff called this they have inheritance</p>
+<p begin="00:00:56.100" end="00:01:00.989" style="s2">they have extends they have all these</p>
+<p begin="00:00:58.079" end="00:01:03.690" style="s2">kind of things that is object-oriented</p>
+<p begin="00:01:00.989" end="00:01:05.610" style="s2">everything is an object and it has some</p>
+<p begin="00:01:03.690" end="00:01:07.350" style="s2">rules and whatever the same thing will</p>
+<p begin="00:01:05.610" end="00:01:09.240" style="s2">be with functional programming they have</p>
+<p begin="00:01:07.350" end="00:01:11.400" style="s2">functions they have pure functions they</p>
+<p begin="00:01:09.240" end="00:01:13.710" style="s2">have impure functions they have stuff</p>
+<p begin="00:01:11.400" end="00:01:16.140" style="s2">like state they have stuff like in</p>
+<p begin="00:01:13.710" end="00:01:18.060" style="s2">mutable and mutable state there are</p>
+<p begin="00:01:16.140" end="00:01:21.240" style="s2">different just different ways of</p>
+<p begin="00:01:18.060" end="00:01:23.729" style="s2">organizing your code the second thing is</p>
+<p begin="00:01:21.240" end="00:01:25.740" style="s2">concurrency or parallelism so for</p>
+<p begin="00:01:23.729" end="00:01:27.990" style="s2">example in the case of go the Creator</p>
+<p begin="00:01:25.740" end="00:01:29.759" style="s2">has said that they just wanted to build</p>
+<p begin="00:01:27.990" end="00:01:32.400" style="s2">a programming language a language that</p>
+<p begin="00:01:29.759" end="00:01:34.590" style="s2">takes advantage of a multi-core</p>
+<p begin="00:01:32.400" end="00:01:36.570" style="s2">processing to be able to do stuff at the</p>
+<p begin="00:01:34.590" end="00:01:39.420" style="s2">same time faster than ever before</p>
+<p begin="00:01:36.570" end="00:01:41.790" style="s2">that is concurrency and parallelism kind</p>
+<p begin="00:01:39.420" end="00:01:43.500" style="s2">of it is basically doing stuff at the</p>
+<p begin="00:01:41.790" end="00:01:46.530" style="s2">same time these languages are very good</p>
+<p begin="00:01:43.500" end="00:01:49.290" style="s2">at using threads using multi-core</p>
+<p begin="00:01:46.530" end="00:01:51.930" style="s2">processors to do things fast at the same</p>
+<p begin="00:01:49.290" end="00:01:54.420" style="s2">time which is something amazing closure</p>
+<p begin="00:01:51.930" end="00:01:56.180" style="s2">is the top highest one closure</p>
+<p begin="00:01:54.420" end="00:02:00.110" style="s2">we&#39;re gonna show you how it looks here</p>
+<p begin="00:01:56.180" end="00:02:06.210" style="s2">closure is being used to do the</p>
+<p begin="00:02:00.110" end="00:02:08.759" style="s2">diagnosis of the airplane&#39;s diagnosis</p>
+<p begin="00:02:06.210" end="00:02:11.560" style="s2">tool to diagnose how everything on the</p>
+<p begin="00:02:08.759" end="00:02:13.870" style="s2">plane is working so they made a program</p>
+<p begin="00:02:11.560" end="00:02:16.209" style="s2">they plug in the airplane in that</p>
+<p begin="00:02:13.870" end="00:02:18.610" style="s2">program that ignores is the airplane and</p>
+<p begin="00:02:16.209" end="00:02:20.380" style="s2">then it says okay this airplane comes</p>
+<p begin="00:02:18.610" end="00:02:21.880" style="s2">like that&#39;s basically what closure is</p>
+<p begin="00:02:20.380" end="00:02:23.200" style="s2">doing which is unbelievable</p>
+<p begin="00:02:21.880" end="00:02:25.000" style="s2">can you imagine that imagine if that</p>
+<p begin="00:02:23.200" end="00:02:26.920" style="s2">imagine if that program had an air</p>
+<p begin="00:02:25.000" end="00:02:30.519" style="s2">they&#39;ll be insane the second one is F</p>
+<p begin="00:02:26.920" end="00:02:33.610" style="s2">sharp F sharp was created by Microsoft</p>
+<p begin="00:02:30.519" end="00:02:35.980" style="s2">so and also was created on the with a</p>
+<p begin="00:02:33.610" end="00:02:38.620" style="s2">very good portability to the net</p>
+<p begin="00:02:35.980" end="00:02:41.170" style="s2">ecosystem that net is like a Microsoft</p>
+<p begin="00:02:38.620" end="00:02:44.319" style="s2">framework for doing stuff so F sharp is</p>
+<p begin="00:02:41.170" end="00:02:47.319" style="s2">like the faster functional way of doing</p>
+<p begin="00:02:44.319" end="00:02:49.239" style="s2">things and you can talk to that net the</p>
+<p begin="00:02:47.319" end="00:02:51.850" style="s2">applications are not so fun and when I</p>
+<p begin="00:02:49.239" end="00:02:55.540" style="s2">was researching for like who is hiring F</p>
+<p begin="00:02:51.850" end="00:02:57.760" style="s2">sharp programmers what I saw is Facebook</p>
+<p begin="00:02:55.540" end="00:03:00.040" style="s2">gaming for example was looking for F</p>
+<p begin="00:02:57.760" end="00:03:02.580" style="s2">sharp programmers the only one is go and</p>
+<p begin="00:03:00.040" end="00:03:05.380" style="s2">go is a very very popular nowadays</p>
+<p begin="00:03:02.580" end="00:03:07.030" style="s2">because go is very very sexy very easy</p>
+<p begin="00:03:05.380" end="00:03:09.040" style="s2">to learn it&#39;s not ugly at all and it&#39;s</p>
+<p begin="00:03:07.030" end="00:03:10.569" style="s2">super freakin fast so for example many</p>
+<p begin="00:03:09.040" end="00:03:14.049" style="s2">of the companies that we&#39;re running in</p>
+<p begin="00:03:10.569" end="00:03:16.239" style="s2">no jets are moving to go go is created</p>
+<p begin="00:03:14.049" end="00:03:19.120" style="s2">by Google so it&#39;s used a lot in Google</p>
+<p begin="00:03:16.239" end="00:03:22.810" style="s2">it&#39;s also used in YouTube and it&#39;s also</p>
+<p begin="00:03:19.120" end="00:03:26.320" style="s2">used for the download part of Google so</p>
+<p begin="00:03:22.810" end="00:03:29.530" style="s2">the server that handles the downloading</p>
+<p begin="00:03:26.320" end="00:03:31.450" style="s2">of files in Google that is built on go</p>
+<p begin="00:03:29.530" end="00:03:33.370" style="s2">so it&#39;s really really fast and people</p>
+<p begin="00:03:31.450" end="00:03:37.299" style="s2">are liking it because it doesn&#39;t look so</p>
+<p begin="00:03:33.370" end="00:03:41.620" style="s2">ugly the only one is color people say</p>
+<p begin="00:03:37.299" end="00:03:43.840" style="s2">that Scala is kind of like Java plus the</p>
+<p begin="00:03:41.620" end="00:03:47.730" style="s2">best features that&#39;s basically what</p>
+<p begin="00:03:43.840" end="00:03:50.260" style="s2">color will be so it&#39;s just like nice sir</p>
+<p begin="00:03:47.730" end="00:03:53.350" style="s2">functional Java Twitter for example</p>
+<p begin="00:03:50.260" end="00:03:55.209" style="s2">Twitter was created with Ruby on Rails</p>
+<p begin="00:03:53.350" end="00:03:57.519" style="s2">and eventually Ruby on Rails couldn&#39;t</p>
+<p begin="00:03:55.209" end="00:04:01.109" style="s2">handle so many people so they have to</p>
+<p begin="00:03:57.519" end="00:04:03.940" style="s2">move to something else and they moved to</p>
+<p begin="00:04:01.109" end="00:04:04.600" style="s2">Scala and the last thing my test last</p>
+<p begin="00:04:03.940" end="00:04:07.389" style="s2">time I checked</p>
+<p begin="00:04:04.600" end="00:04:09.400" style="s2">Scala was part of like 70% of the</p>
+<p begin="00:04:07.389" end="00:04:11.889" style="s2">codebase of Twitter so it&#39;s handling</p>
+<p begin="00:04:09.400" end="00:04:13.940" style="s2">pretty brief rocking well the last one</p>
+<p begin="00:04:11.889" end="00:04:17.180" style="s2">is a leak</p>
+<p begin="00:04:13.940" end="00:04:20.120" style="s2">and elixir is built on top of something</p>
+<p begin="00:04:17.180" end="00:04:23.390" style="s2">called Erlang virtual machine Erlang is</p>
+<p begin="00:04:20.120" end="00:04:28.490" style="s2">a programming language that is very good</p>
+<p begin="00:04:23.390" end="00:04:31.880" style="s2">a low latency is very good at fast speed</p>
+<p begin="00:04:28.490" end="00:04:34.930" style="s2">of transmission of data why are these</p>
+<p begin="00:04:31.880" end="00:04:37.940" style="s2">programming languages so well-paid and</p>
+<p begin="00:04:34.930" end="00:04:39.650" style="s2">should you learn them if you wanna have</p>
+<p begin="00:04:37.940" end="00:04:41.660" style="s2">a good Europe in a company what I think</p>
+<p begin="00:04:39.650" end="00:04:43.640" style="s2">in this case is that as you can see the</p>
+<p begin="00:04:41.660" end="00:04:46.700" style="s2">applications for these programming</p>
+<p begin="00:04:43.640" end="00:04:51.110" style="s2">languages are so specific and sub tiny</p>
+<p begin="00:04:46.700" end="00:04:53.720" style="s2">that I feel that the hiring pool is very</p>
+<p begin="00:04:51.110" end="00:04:56.450" style="s2">small as well as the talent pool is very</p>
+<p begin="00:04:53.720" end="00:04:59.240" style="s2">small so very few people are good are</p>
+<p begin="00:04:56.450" end="00:05:01.940" style="s2">good at closure and very few companies</p>
+<p begin="00:04:59.240" end="00:05:05.180" style="s2">need closure programmers that is the</p>
+<p begin="00:05:01.940" end="00:05:07.160" style="s2">recipe for highest paid because if</p>
+<p begin="00:05:05.180" end="00:05:08.930" style="s2">you&#39;re a good closure programmer I know</p>
+<p begin="00:05:07.160" end="00:05:10.760" style="s2">other companies out there that need only</p>
+<p begin="00:05:08.930" end="00:05:13.550" style="s2">closure programmers so they&#39;re going to</p>
+<p begin="00:05:10.760" end="00:05:16.160" style="s2">pay you really really well but should</p>
+<p begin="00:05:13.550" end="00:05:18.050" style="s2">you learn them if you are like me that</p>
+<p begin="00:05:16.160" end="00:05:20.000" style="s2">you like to get stuff done that you</p>
+<p begin="00:05:18.050" end="00:05:21.470" style="s2">don&#39;t enjoy programming for the sake of</p>
+<p begin="00:05:20.000" end="00:05:24.770" style="s2">programming that you don&#39;t have a</p>
+<p begin="00:05:21.470" end="00:05:27.590" style="s2">specific problem to solve then I would</p>
+<p begin="00:05:24.770" end="00:05:29.810" style="s2">say learn a more general-purpose</p>
+<p begin="00:05:27.590" end="00:05:32.540" style="s2">programming language such as Python or</p>
+<p begin="00:05:29.810" end="00:05:34.970" style="s2">JavaScript or C sharp or even Java in</p>
+<p begin="00:05:32.540" end="00:05:37.550" style="s2">that case not something so specific and</p>
+<p begin="00:05:34.970" end="00:05:38.780" style="s2">something so niche also the community</p>
+<p begin="00:05:37.550" end="00:05:40.520" style="s2">will be small and everything will be</p>
+<p begin="00:05:38.780" end="00:05:42.350" style="s2">small they&#39;re not bad for ramen</p>
+<p begin="00:05:40.520" end="00:05:44.060" style="s2">languages at all but it&#39;s not something</p>
+<p begin="00:05:42.350" end="00:05:45.530" style="s2">that beginners should look up to like oh</p>
+<p begin="00:05:44.060" end="00:05:47.750" style="s2">my god one day I want to be a coder</p>
+<p begin="00:05:45.530" end="00:05:50.510" style="s2">program in because that&#39;s not just not</p>
+<p begin="00:05:47.750" end="00:05:52.669" style="s2">greedy I would say definitely from the</p>
+<p begin="00:05:50.510" end="00:05:54.350" style="s2">description I gave you look into the</p>
+<p begin="00:05:52.669" end="00:05:55.850" style="s2">ones that you liked the most the ones</p>
+<p begin="00:05:54.350" end="00:05:57.530" style="s2">that you&#39;re interested in most and maybe</p>
+<p begin="00:05:55.850" end="00:05:59.419" style="s2">spend a couple of weekends learning them</p>
+<p begin="00:05:57.530" end="00:06:00.800" style="s2">to see if you like them or not because</p>
+<p begin="00:05:59.419" end="00:06:02.210" style="s2">also it can be fun it doesn&#39;t have to be</p>
+<p begin="00:06:00.800" end="00:06:03.950" style="s2">always about money it could be all about</p>
+<p begin="00:06:02.210" end="00:06:05.419" style="s2">fun thank you for watching let me know</p>
+<p begin="00:06:03.950" end="00:06:07.010" style="s2">what you think of this video let me know</p>
+<p begin="00:06:05.419" end="00:06:09.890" style="s2">what I like let me know with a comment</p>
+<p begin="00:06:07.010" end="00:06:12.050" style="s2">subscribe share to your friends be happy</p>
+<p begin="00:06:09.890" end="00:06:15.820" style="s2">it Kim G&#39;s and yourself beaming pop</p>
+<p begin="00:06:12.050" end="00:06:15.820" style="s2">everything love you bye bye</p>
+</div>
+</body>
+</tt>

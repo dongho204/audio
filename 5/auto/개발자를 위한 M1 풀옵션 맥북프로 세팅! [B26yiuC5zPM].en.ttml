@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.639" end="00:00:08.320" style="s2">this one is the newest m1 max macbook</p>
+<p begin="00:00:06.319" end="00:00:09.920" style="s2">pro as you can see i haven&#39;t even opened</p>
+<p begin="00:00:08.320" end="00:00:11.840" style="s2">it yet and that is because on today&#39;s</p>
+<p begin="00:00:09.920" end="00:00:13.040" style="s2">video we are going to do the unboxing</p>
+<p begin="00:00:11.840" end="00:00:15.759" style="s2">the configurations and the</p>
+<p begin="00:00:13.040" end="00:00:18.000" style="s2">customizations for developers with a new</p>
+<p begin="00:00:15.759" end="00:00:19.520" style="s2">macbook and when we are done customizing</p>
+<p begin="00:00:18.000" end="00:00:21.359" style="s2">this thing we are going to compare it</p>
+<p begin="00:00:19.520" end="00:00:23.519" style="s2">with the current intel macbook pro that</p>
+<p begin="00:00:21.359" end="00:00:25.359" style="s2">i have and we are going to see if the m1</p>
+<p begin="00:00:23.519" end="00:00:28.000" style="s2">macbooks are faster than intel macbook</p>
+<p begin="00:00:25.359" end="00:00:30.720" style="s2">pros and by how much now this video is</p>
+<p begin="00:00:28.000" end="00:00:32.640" style="s2">not only for m1 macbook owners if you</p>
+<p begin="00:00:30.720" end="00:00:33.760" style="s2">have an intel macbook pro you can still</p>
+<p begin="00:00:32.640" end="00:00:36.079" style="s2">follow these guys because it will</p>
+<p begin="00:00:33.760" end="00:00:37.520" style="s2">completely apply to you as well and if</p>
+<p begin="00:00:36.079" end="00:00:38.960" style="s2">you have a windows machine and you want</p>
+<p begin="00:00:37.520" end="00:00:41.120" style="s2">to configure your development</p>
+<p begin="00:00:38.960" end="00:00:42.800" style="s2">environment like a pro then please click</p>
+<p begin="00:00:41.120" end="00:00:44.480" style="s2">the link below because there you are</p>
+<p begin="00:00:42.800" end="00:00:46.559" style="s2">going to find a one hour and a half</p>
+<p begin="00:00:44.480" end="00:00:48.800" style="s2">guide into how to configure your windows</p>
+<p begin="00:00:46.559" end="00:00:51.360" style="s2">development environment using the wsl or</p>
+<p begin="00:00:48.800" end="00:00:53.680" style="s2">windows subsystem for linux let&#39;s get</p>
+<p begin="00:00:51.360" end="00:00:55.440" style="s2">started with the unboxing then the setup</p>
+<p begin="00:00:53.680" end="00:00:58.630" style="s2">and then the comparison between intel</p>
+<p begin="00:00:55.440" end="00:01:07.280" style="s2">and m1 let&#39;s go let&#39;s do this thing</p>
+<p begin="00:00:58.630" end="00:01:08.650" style="s2">[Music]</p>
+<p begin="00:01:07.280" end="00:01:15.779" style="s2">wow</p>
+<p begin="00:01:08.650" end="00:01:15.779" style="s2">[Music]</p>
+<p begin="00:01:19.119" end="00:01:22.080" style="s2">i&#39;m</p>
+<p begin="00:01:19.920" end="00:01:24.000" style="s2">very impressed already i didn&#39;t realize</p>
+<p begin="00:01:22.080" end="00:01:26.000" style="s2">how different it would feel but with my</p>
+<p begin="00:01:24.000" end="00:01:27.439" style="s2">hands it feels so different than the</p>
+<p begin="00:01:26.000" end="00:01:29.200" style="s2">other macbooks it really feels like a</p>
+<p begin="00:01:27.439" end="00:01:30.799" style="s2">different computer like seriously it&#39;s</p>
+<p begin="00:01:29.200" end="00:01:32.320" style="s2">thicker and</p>
+<p begin="00:01:30.799" end="00:01:33.920" style="s2">it feels like a tool it doesn&#39;t feel</p>
+<p begin="00:01:32.320" end="00:01:35.119" style="s2">like a pretty laptop it feels like a</p>
+<p begin="00:01:33.920" end="00:01:36.240" style="s2">tool</p>
+<p begin="00:01:35.119" end="00:01:38.320" style="s2">okay so</p>
+<p begin="00:01:36.240" end="00:01:39.680" style="s2">we&#39;re gonna plugged in the wi-fi</p>
+<p begin="00:01:38.320" end="00:01:42.240" style="s2">and that&#39;s it let&#39;s get started with the</p>
+<p begin="00:01:39.680" end="00:01:44.640" style="s2">setup first i am going to remove all the</p>
+<p begin="00:01:42.240" end="00:01:46.640" style="s2">icons from the dock i don&#39;t like having</p>
+<p begin="00:01:44.640" end="00:01:48.960" style="s2">so many icons on my dock and by default</p>
+<p begin="00:01:46.640" end="00:01:50.640" style="s2">apple puts everything there so i remove</p>
+<p begin="00:01:48.960" end="00:01:52.720" style="s2">them all to install different</p>
+<p begin="00:01:50.640" end="00:01:55.040" style="s2">applications without having to download</p>
+<p begin="00:01:52.720" end="00:01:57.280" style="s2">them from different websites separately</p>
+<p begin="00:01:55.040" end="00:02:00.320" style="s2">we&#39;re going to use homebrew we&#39;re going</p>
+<p begin="00:01:57.280" end="00:02:03.040" style="s2">to go to brew.sh and we&#39;re going to copy</p>
+<p begin="00:02:00.320" end="00:02:05.040" style="s2">paste this command in our</p>
+<p begin="00:02:03.040" end="00:02:07.360" style="s2">terminal once that&#39;s done we&#39;re going to</p>
+<p begin="00:02:05.040" end="00:02:09.759" style="s2">press enter to install the xcode command</p>
+<p begin="00:02:07.360" end="00:02:12.080" style="s2">line tools and when the installation is</p>
+<p begin="00:02:09.759" end="00:02:14.080" style="s2">complete we&#39;re going to paste these two</p>
+<p begin="00:02:12.080" end="00:02:16.800" style="s2">lines of code that will be on the next</p>
+<p begin="00:02:14.080" end="00:02:18.720" style="s2">steps section then we&#39;re going to quit</p>
+<p begin="00:02:16.800" end="00:02:21.920" style="s2">our terminal and we&#39;re going to restart</p>
+<p begin="00:02:18.720" end="00:02:23.680" style="s2">it again if you can run the brew command</p>
+<p begin="00:02:21.920" end="00:02:26.319" style="s2">that means that the installation was</p>
+<p begin="00:02:23.680" end="00:02:27.840" style="s2">successful with homebrew apart from</p>
+<p begin="00:02:26.319" end="00:02:30.480" style="s2">being able to install things like</p>
+<p begin="00:02:27.840" end="00:02:32.879" style="s2">node.js and python we can also install</p>
+<p begin="00:02:30.480" end="00:02:35.200" style="s2">applications as well so here i&#39;m going</p>
+<p begin="00:02:32.879" end="00:02:36.879" style="s2">to do brew install dash cask and i&#39;m</p>
+<p begin="00:02:35.200" end="00:02:39.440" style="s2">going to install some browsers i&#39;m going</p>
+<p begin="00:02:36.879" end="00:02:40.800" style="s2">to install visual studio code and i term</p>
+<p begin="00:02:39.440" end="00:02:42.800" style="s2">2.</p>
+<p begin="00:02:40.800" end="00:02:45.920" style="s2">once the installation is completed those</p>
+<p begin="00:02:42.800" end="00:02:47.599" style="s2">applications will be on my mac</p>
+<p begin="00:02:45.920" end="00:02:49.200" style="s2">if you ever want to know which</p>
+<p begin="00:02:47.599" end="00:02:50.640" style="s2">application you can install using</p>
+<p begin="00:02:49.200" end="00:02:52.720" style="s2">homebrew all you have to do is go to the</p>
+<p begin="00:02:50.640" end="00:02:54.480" style="s2">website and search for the name if you</p>
+<p begin="00:02:52.720" end="00:02:56.080" style="s2">find it on the website that means that</p>
+<p begin="00:02:54.480" end="00:02:57.760" style="s2">it can be installed here we have google</p>
+<p begin="00:02:56.080" end="00:02:59.280" style="s2">chrome and this is the command that we</p>
+<p begin="00:02:57.760" end="00:03:01.120" style="s2">have to do if we want to install it</p>
+<p begin="00:02:59.280" end="00:03:02.400" style="s2">without having to download it by</p>
+<p begin="00:03:01.120" end="00:03:04.319" style="s2">ourselves</p>
+<p begin="00:03:02.400" end="00:03:06.400" style="s2">to configure our terminal we&#39;re going to</p>
+<p begin="00:03:04.319" end="00:03:08.080" style="s2">open i term we&#39;re going to go to</p>
+<p begin="00:03:06.400" end="00:03:09.840" style="s2">preferences we&#39;re going to click on</p>
+<p begin="00:03:08.080" end="00:03:12.400" style="s2">appearance and we&#39;re going to change the</p>
+<p begin="00:03:09.840" end="00:03:14.560" style="s2">theme to minimal</p>
+<p begin="00:03:12.400" end="00:03:16.080" style="s2">then we&#39;re going to go to profiles</p>
+<p begin="00:03:14.560" end="00:03:17.760" style="s2">sessions we&#39;re going to enable the</p>
+<p begin="00:03:16.080" end="00:03:19.760" style="s2">status bar and we&#39;re going to configure</p>
+<p begin="00:03:17.760" end="00:03:21.680" style="s2">it here we can drag and drop the</p>
+<p begin="00:03:19.760" end="00:03:23.599" style="s2">elements that we want to see on top of</p>
+<p begin="00:03:21.680" end="00:03:26.799" style="s2">our terminal like for example battery</p>
+<p begin="00:03:23.599" end="00:03:28.560" style="s2">level cpu and memory then if we want to</p>
+<p begin="00:03:26.799" end="00:03:30.239" style="s2">we can change the colors</p>
+<p begin="00:03:28.560" end="00:03:32.959" style="s2">and as you can see that gives us a nice</p>
+<p begin="00:03:30.239" end="00:03:34.640" style="s2">status bar of our terminal if you want</p>
+<p begin="00:03:32.959" end="00:03:36.480" style="s2">to change the color styles of your</p>
+<p begin="00:03:34.640" end="00:03:39.120" style="s2">terminal all you have to do is go to</p>
+<p begin="00:03:36.480" end="00:03:41.519" style="s2">item2colorskins.com</p>
+<p begin="00:03:39.120" end="00:03:43.760" style="s2">here you can find a lot of color schemes</p>
+<p begin="00:03:41.519" end="00:03:45.599" style="s2">that you can use when you find the one</p>
+<p begin="00:03:43.760" end="00:03:48.319" style="s2">that you like you&#39;re going to click on</p>
+<p begin="00:03:45.599" end="00:03:51.200" style="s2">the name you&#39;re going to save that file</p>
+<p begin="00:03:48.319" end="00:03:52.720" style="s2">in your computer then you&#39;re going to go</p>
+<p begin="00:03:51.200" end="00:03:55.599" style="s2">to where you downloaded that file and</p>
+<p begin="00:03:52.720" end="00:03:56.720" style="s2">you are going to remove the txt from the</p>
+<p begin="00:03:55.599" end="00:03:58.879" style="s2">name</p>
+<p begin="00:03:56.720" end="00:04:01.200" style="s2">then you&#39;re going to open the file and</p>
+<p begin="00:03:58.879" end="00:04:03.920" style="s2">that will import the color scheme to</p>
+<p begin="00:04:01.200" end="00:04:06.000" style="s2">item then all you have to do is go to</p>
+<p begin="00:04:03.920" end="00:04:07.280" style="s2">preferences</p>
+<p begin="00:04:06.000" end="00:04:09.760" style="s2">profiles</p>
+<p begin="00:04:07.280" end="00:04:12.319" style="s2">colors and select the color scheme that</p>
+<p begin="00:04:09.760" end="00:04:14.239" style="s2">you just installed to customize our</p>
+<p begin="00:04:12.319" end="00:04:17.440" style="s2">terminal even more we are going to</p>
+<p begin="00:04:14.239" end="00:04:18.799" style="s2">install all my zsh we&#39;re going to go to</p>
+<p begin="00:04:17.440" end="00:04:20.880" style="s2">the website and we&#39;re going to copy</p>
+<p begin="00:04:18.799" end="00:04:23.440" style="s2">paste this command</p>
+<p begin="00:04:20.880" end="00:04:25.759" style="s2">here we are going to paste it in our</p>
+<p begin="00:04:23.440" end="00:04:27.600" style="s2">terminal and when we are done you will</p>
+<p begin="00:04:25.759" end="00:04:29.600" style="s2">see that the input of your terminal will</p>
+<p begin="00:04:27.600" end="00:04:31.919" style="s2">change then we&#39;re going to go to power</p>
+<p begin="00:04:29.600" end="00:04:35.919" style="s2">level 10k which allows us to customize</p>
+<p begin="00:04:31.919" end="00:04:37.280" style="s2">our terminal to make it look like this</p>
+<p begin="00:04:35.919" end="00:04:39.520" style="s2">then we&#39;re going to click on the</p>
+<p begin="00:04:37.280" end="00:04:42.479" style="s2">installation we&#39;re going to click on all</p>
+<p begin="00:04:39.520" end="00:04:44.479" style="s2">my zsh and we&#39;re going to copy that line</p>
+<p begin="00:04:42.479" end="00:04:46.400" style="s2">of code we&#39;re going to paste that in our</p>
+<p begin="00:04:44.479" end="00:04:48.639" style="s2">terminal and when we are done we are</p>
+<p begin="00:04:46.400" end="00:04:50.639" style="s2">going to open the configuration file of</p>
+<p begin="00:04:48.639" end="00:04:53.360" style="s2">our terminal in visual studio code we</p>
+<p begin="00:04:50.639" end="00:04:56.720" style="s2">are going to replace the default theme</p>
+<p begin="00:04:53.360" end="00:04:59.280" style="s2">of our console with the power level 10k</p>
+<p begin="00:04:56.720" end="00:05:01.919" style="s2">team we&#39;re going to save that file and</p>
+<p begin="00:04:59.280" end="00:05:03.840" style="s2">we&#39;re going to kill our terminal</p>
+<p begin="00:05:01.919" end="00:05:06.000" style="s2">when the application starts again you</p>
+<p begin="00:05:03.840" end="00:05:08.080" style="s2">are going to see the power level 10k</p>
+<p begin="00:05:06.000" end="00:05:09.360" style="s2">configuration wizard</p>
+<p begin="00:05:08.080" end="00:05:11.280" style="s2">this is going to ask you if you want to</p>
+<p begin="00:05:09.360" end="00:05:13.600" style="s2">install the fonts required to make your</p>
+<p begin="00:05:11.280" end="00:05:15.360" style="s2">console look good we&#39;re going to say yes</p>
+<p begin="00:05:13.600" end="00:05:17.680" style="s2">to this and that is going to download</p>
+<p begin="00:05:15.360" end="00:05:19.039" style="s2">and install the fonts for us after that</p>
+<p begin="00:05:17.680" end="00:05:21.360" style="s2">is finished we&#39;re going to kill the</p>
+<p begin="00:05:19.039" end="00:05:23.280" style="s2">console and when we open it again you&#39;re</p>
+<p begin="00:05:21.360" end="00:05:25.759" style="s2">going to see questions asking you to</p>
+<p begin="00:05:23.280" end="00:05:27.919" style="s2">confirm if you can see the icons</p>
+<p begin="00:05:25.759" end="00:05:29.759" style="s2">correctly if you can see all the icons</p>
+<p begin="00:05:27.919" end="00:05:32.000" style="s2">correctly you&#39;re going to answer yes to</p>
+<p begin="00:05:29.759" end="00:05:33.440" style="s2">all those questions and then you&#39;re</p>
+<p begin="00:05:32.000" end="00:05:35.680" style="s2">going to be able to configure your</p>
+<p begin="00:05:33.440" end="00:05:37.919" style="s2">prompt style there are many styles to</p>
+<p begin="00:05:35.680" end="00:05:40.400" style="s2">choose from and you can choose them</p>
+<p begin="00:05:37.919" end="00:05:42.720" style="s2">using the numbers in your keyboard you</p>
+<p begin="00:05:40.400" end="00:05:45.600" style="s2">can choose the shade you can choose the</p>
+<p begin="00:05:42.720" end="00:05:48.000" style="s2">time style you can choose the separator</p>
+<p begin="00:05:45.600" end="00:05:50.160" style="s2">you can choose the head you can choose</p>
+<p begin="00:05:48.000" end="00:05:52.000" style="s2">the tail there are many different styles</p>
+<p begin="00:05:50.160" end="00:05:54.800" style="s2">many different configurations so you can</p>
+<p begin="00:05:52.000" end="00:05:56.319" style="s2">choose whatever you want if at any point</p>
+<p begin="00:05:54.800" end="00:05:58.000" style="s2">in the process you feel like you made a</p>
+<p begin="00:05:56.319" end="00:06:00.400" style="s2">mistake and you want to start again all</p>
+<p begin="00:05:58.000" end="00:06:02.639" style="s2">you have to do is press the r</p>
+<p begin="00:06:00.400" end="00:06:04.160" style="s2">letter and that will restart the process</p>
+<p begin="00:06:02.639" end="00:06:06.240" style="s2">after you are done we are going to</p>
+<p begin="00:06:04.160" end="00:06:09.360" style="s2">choose verbose and we&#39;re going to choose</p>
+<p begin="00:06:06.240" end="00:06:12.160" style="s2">yes to apply the changes in our terminal</p>
+<p begin="00:06:09.360" end="00:06:14.400" style="s2">configuration file and we are done</p>
+<p begin="00:06:12.160" end="00:06:17.840" style="s2">now i&#39;m going to run the command brew</p>
+<p begin="00:06:14.400" end="00:06:19.440" style="s2">install python 3 go prepamp mvm and gh</p>
+<p begin="00:06:17.840" end="00:06:21.120" style="s2">to install all those things as you can</p>
+<p begin="00:06:19.440" end="00:06:25.120" style="s2">see because they&#39;re not applications i</p>
+<p begin="00:06:21.120" end="00:06:27.520" style="s2">am not using the dash dash cask flag nvm</p>
+<p begin="00:06:25.120" end="00:06:31.199" style="s2">is the node version manager and gh is</p>
+<p begin="00:06:27.520" end="00:06:33.680" style="s2">the github cli application to complete</p>
+<p begin="00:06:31.199" end="00:06:35.600" style="s2">the nvm installation i am going to copy</p>
+<p begin="00:06:33.680" end="00:06:37.759" style="s2">these lines of code that are going to</p>
+<p begin="00:06:35.600" end="00:06:40.319" style="s2">show up at the end of that installation</p>
+<p begin="00:06:37.759" end="00:06:45.199" style="s2">command and i&#39;m going to paste them in</p>
+<p begin="00:06:40.319" end="00:06:45.199" style="s2">the configuration file of my terminal</p>
+<p begin="00:06:45.280" end="00:06:51.199" style="s2">after i save that file then i am going</p>
+<p begin="00:06:48.080" end="00:06:54.880" style="s2">to kill my terminal again and i am going</p>
+<p begin="00:06:51.199" end="00:06:56.800" style="s2">to restart it one more time</p>
+<p begin="00:06:54.880" end="00:06:58.560" style="s2">there i will be able to run the nvm</p>
+<p begin="00:06:56.800" end="00:07:03.039" style="s2">command and now i am going to run the</p>
+<p begin="00:06:58.560" end="00:07:05.199" style="s2">mvm ls remote command this will allow me</p>
+<p begin="00:07:03.039" end="00:07:07.360" style="s2">to see all the different node.js</p>
+<p begin="00:07:05.199" end="00:07:09.520" style="s2">versions that are available for</p>
+<p begin="00:07:07.360" end="00:07:11.759" style="s2">installation this is very useful when</p>
+<p begin="00:07:09.520" end="00:07:13.520" style="s2">you need to run different programs in</p>
+<p begin="00:07:11.759" end="00:07:16.080" style="s2">different node.js versions because</p>
+<p begin="00:07:13.520" end="00:07:19.039" style="s2">sometimes things break i am going to</p>
+<p begin="00:07:16.080" end="00:07:23.840" style="s2">install the latest one for now by using</p>
+<p begin="00:07:19.039" end="00:07:23.840" style="s2">nvm install and the number that i want</p>
+<p begin="00:07:24.800" end="00:07:29.440" style="s2">and after that&#39;s done i&#39;m going to</p>
+<p begin="00:07:26.479" end="00:07:31.039" style="s2">install the other one the latest lts</p>
+<p begin="00:07:29.440" end="00:07:33.280" style="s2">long-term support</p>
+<p begin="00:07:31.039" end="00:07:37.520" style="s2">version so i&#39;m going to do mvm</p>
+<p begin="00:07:33.280" end="00:07:37.520" style="s2">install and the number one more time</p>
+<p begin="00:07:37.680" end="00:07:42.800" style="s2">now if i want to i will be able to</p>
+<p begin="00:07:40.240" end="00:07:44.560" style="s2">switch between those versions</p>
+<p begin="00:07:42.800" end="00:07:46.639" style="s2">as you can see my</p>
+<p begin="00:07:44.560" end="00:07:49.440" style="s2">console tells me the current node.js</p>
+<p begin="00:07:46.639" end="00:07:51.440" style="s2">version that i am at right now if i want</p>
+<p begin="00:07:49.440" end="00:07:54.879" style="s2">to switch to the default one i will do</p>
+<p begin="00:07:51.440" end="00:07:57.360" style="s2">nvm use default and if i want to go back</p>
+<p begin="00:07:54.879" end="00:07:59.360" style="s2">to the version 16 i&#39;m going to do mvm</p>
+<p begin="00:07:57.360" end="00:08:02.960" style="s2">use and then the number that i want to</p>
+<p begin="00:07:59.360" end="00:08:05.039" style="s2">use as you can see nvm is pretty cool</p>
+<p begin="00:08:02.960" end="00:08:08.080" style="s2">now i&#39;m going to run the gh command just</p>
+<p begin="00:08:05.039" end="00:08:12.560" style="s2">to check that the github cli works if it</p>
+<p begin="00:08:08.080" end="00:08:14.720" style="s2">works i am going to then run gh or login</p>
+<p begin="00:08:12.560" end="00:08:17.759" style="s2">here i&#39;m going to login into github.com</p>
+<p begin="00:08:14.720" end="00:08:20.240" style="s2">using https and my browser the good</p>
+<p begin="00:08:17.759" end="00:08:22.240" style="s2">thing about the gh cli is the fact that</p>
+<p begin="00:08:20.240" end="00:08:24.080" style="s2">after you log in into it you will be</p>
+<p begin="00:08:22.240" end="00:08:26.240" style="s2">able to interact with github from your</p>
+<p begin="00:08:24.080" end="00:08:29.120" style="s2">command line and you don&#39;t have to go to</p>
+<p begin="00:08:26.240" end="00:08:29.919" style="s2">github.com anymore which is super super</p>
+<p begin="00:08:29.120" end="00:08:32.399" style="s2">cool</p>
+<p begin="00:08:29.919" end="00:08:34.880" style="s2">after we are done we are going to run</p>
+<p begin="00:08:32.399" end="00:08:36.560" style="s2">the code command that is going to open</p>
+<p begin="00:08:34.880" end="00:08:38.240" style="s2">visual studio code and here i am going</p>
+<p begin="00:08:36.560" end="00:08:39.680" style="s2">to install some of the extensions that i</p>
+<p begin="00:08:38.240" end="00:08:41.519" style="s2">need because i know i need many so i&#39;m</p>
+<p begin="00:08:39.680" end="00:08:43.200" style="s2">going to skip that part but the ones</p>
+<p begin="00:08:41.519" end="00:08:46.000" style="s2">that i want to share with you are git</p>
+<p begin="00:08:43.200" end="00:08:48.480" style="s2">lens and the material icon theme they&#39;re</p>
+<p begin="00:08:46.000" end="00:08:50.800" style="s2">going to make your files look awesome</p>
+<p begin="00:08:48.480" end="00:08:52.720" style="s2">after this i&#39;m going to search for the</p>
+<p begin="00:08:50.800" end="00:08:55.360" style="s2">community material team that i really</p>
+<p begin="00:08:52.720" end="00:08:57.279" style="s2">like we&#39;re going to select the shade of</p>
+<p begin="00:08:55.360" end="00:08:59.360" style="s2">the theme and when we are done we&#39;re</p>
+<p begin="00:08:57.279" end="00:09:02.640" style="s2">going to open our console to find out</p>
+<p begin="00:08:59.360" end="00:09:05.200" style="s2">that we don&#39;t have icons in the terminal</p>
+<p begin="00:09:02.640" end="00:09:08.399" style="s2">so to fix this all we have to do is go</p>
+<p begin="00:09:05.200" end="00:09:10.800" style="s2">to the settings of visual studio code</p>
+<p begin="00:09:08.399" end="00:09:12.160" style="s2">we&#39;re going to search for terminal font</p>
+<p begin="00:09:10.800" end="00:09:15.120" style="s2">and we&#39;re going to see where it says</p>
+<p begin="00:09:12.160" end="00:09:17.279" style="s2">integrated font family here we are going</p>
+<p begin="00:09:15.120" end="00:09:20.240" style="s2">to write the name of the font that we</p>
+<p begin="00:09:17.279" end="00:09:23.040" style="s2">installed in our terminal the name is</p>
+<p begin="00:09:20.240" end="00:09:24.959" style="s2">meslo lgs and f</p>
+<p begin="00:09:23.040" end="00:09:27.600" style="s2">when we save and we finish as you can</p>
+<p begin="00:09:24.959" end="00:09:30.640" style="s2">see our terminal now has the icons that</p>
+<p begin="00:09:27.600" end="00:09:33.360" style="s2">we want and that&#39;s it we are done and</p>
+<p begin="00:09:30.640" end="00:09:36.160" style="s2">our visuals to the code looks awesome</p>
+<p begin="00:09:33.360" end="00:09:38.320" style="s2">now this part is only for the m1 users</p>
+<p begin="00:09:36.160" end="00:09:40.399" style="s2">if you want to be able to work with m1</p>
+<p begin="00:09:38.320" end="00:09:42.800" style="s2">without problems you have to enable</p>
+<p begin="00:09:40.399" end="00:09:45.279" style="s2">rosetta which is sort of the translation</p>
+<p begin="00:09:42.800" end="00:09:47.200" style="s2">engine that apple has created so all you</p>
+<p begin="00:09:45.279" end="00:09:49.519" style="s2">have to do is run this command right</p>
+<p begin="00:09:47.200" end="00:09:52.560" style="s2">here and that is going to allow you to</p>
+<p begin="00:09:49.519" end="00:09:54.959" style="s2">run intel applications in your new m1</p>
+<p begin="00:09:52.560" end="00:09:56.720" style="s2">macbook pro after you do this you are</p>
+<p begin="00:09:54.959" end="00:09:59.440" style="s2">ready to go</p>
+<p begin="00:09:56.720" end="00:10:01.760" style="s2">now it&#39;s time to compare between m1 and</p>
+<p begin="00:09:59.440" end="00:10:03.839" style="s2">intel macbook pro the task they&#39;re going</p>
+<p begin="00:10:01.760" end="00:10:06.560" style="s2">to be performing is going to be building</p>
+<p begin="00:10:03.839" end="00:10:08.880" style="s2">a next js typescript application which</p>
+<p begin="00:10:06.560" end="00:10:10.160" style="s2">is the nomad coders website before we</p>
+<p begin="00:10:08.880" end="00:10:12.160" style="s2">see the results of the comparison</p>
+<p begin="00:10:10.160" end="00:10:13.760" style="s2">between m1 and intel i just want to say</p>
+<p begin="00:10:12.160" end="00:10:15.680" style="s2">that i feel like the comparison is not</p>
+<p begin="00:10:13.760" end="00:10:17.120" style="s2">going to be very fair to the intel</p>
+<p begin="00:10:15.680" end="00:10:19.200" style="s2">macbook pro and this is because the</p>
+<p begin="00:10:17.120" end="00:10:22.240" style="s2">intel macbook pro doesn&#39;t have as much</p>
+<p begin="00:10:19.200" end="00:10:23.760" style="s2">ram memory as my new m1 macbook pro so</p>
+<p begin="00:10:22.240" end="00:10:25.519" style="s2">this is why i feel like it&#39;s not a</p>
+<p begin="00:10:23.760" end="00:10:28.160" style="s2">one-to-one comparison because we have a</p>
+<p begin="00:10:25.519" end="00:10:30.160" style="s2">difference in ram memory okay so time</p>
+<p begin="00:10:28.160" end="00:10:32.240" style="s2">for the truth we&#39;re gonna run npm run</p>
+<p begin="00:10:30.160" end="00:10:34.079" style="s2">build in both of the computers and we&#39;re</p>
+<p begin="00:10:32.240" end="00:10:36.880" style="s2">going to see which one finishes first</p>
+<p begin="00:10:34.079" end="00:10:38.480" style="s2">and by how much difference the npm rom</p>
+<p begin="00:10:36.880" end="00:10:40.160" style="s2">build command is going to build the</p>
+<p begin="00:10:38.480" end="00:10:41.920" style="s2">nexus application is going to check the</p>
+<p begin="00:10:40.160" end="00:10:47.160" style="s2">typescript types and it&#39;s going to</p>
+<p begin="00:10:41.920" end="00:10:47.160" style="s2">generate the static pages let&#39;s see</p>
+<p begin="00:10:48.680" end="00:11:16.560" style="s2">[Music]</p>
+<p begin="00:11:13.760" end="00:11:19.200" style="s2">that is impressive that was a long time</p>
+<p begin="00:11:16.560" end="00:11:20.959" style="s2">that was a very big difference again i</p>
+<p begin="00:11:19.200" end="00:11:23.440" style="s2">don&#39;t know if it&#39;s because of the m1 or</p>
+<p begin="00:11:20.959" end="00:11:25.279" style="s2">more ram memory or whatever but still</p>
+<p begin="00:11:23.440" end="00:11:27.360" style="s2">this is crazy and this is a task that i</p>
+<p begin="00:11:25.279" end="00:11:28.959" style="s2">perform very very often so i&#39;m super</p>
+<p begin="00:11:27.360" end="00:11:31.839" style="s2">happy that i&#39;m going to get all that</p>
+<p begin="00:11:28.959" end="00:11:33.360" style="s2">time efficiency now that&#39;s amazing thank</p>
+<p begin="00:11:31.839" end="00:11:35.279" style="s2">you so much for watching this video</p>
+<p begin="00:11:33.360" end="00:11:37.760" style="s2">today i am very very impressed with the</p>
+<p begin="00:11:35.279" end="00:11:39.440" style="s2">new m1 macbook pro i am going to be</p>
+<p begin="00:11:37.760" end="00:11:41.600" style="s2">reviewing it later i think because i</p>
+<p begin="00:11:39.440" end="00:11:42.959" style="s2">have to basically work with it so far i</p>
+<p begin="00:11:41.600" end="00:11:44.240" style="s2">haven&#39;t done anything with it i just</p>
+<p begin="00:11:42.959" end="00:11:45.839" style="s2">installed what you saw me installed and</p>
+<p begin="00:11:44.240" end="00:11:47.120" style="s2">i haven&#39;t done anything else so i&#39;m</p>
+<p begin="00:11:45.839" end="00:11:49.040" style="s2">going to work with it i&#39;m going to start</p>
+<p begin="00:11:47.120" end="00:11:50.560" style="s2">running flutter and android and ios</p>
+<p begin="00:11:49.040" end="00:11:51.600" style="s2">simulators and react native and all</p>
+<p begin="00:11:50.560" end="00:11:53.680" style="s2">those things and i&#39;m going to let you</p>
+<p begin="00:11:51.600" end="00:11:55.120" style="s2">know maybe later on a later video my</p>
+<p begin="00:11:53.680" end="00:11:57.440" style="s2">impressions and opinions about the</p>
+<p begin="00:11:55.120" end="00:11:59.760" style="s2">macbook pro m1</p>
+<p begin="00:11:57.440" end="00:12:01.120" style="s2">max so far that&#39;s it for this video</p>
+<p begin="00:11:59.760" end="00:12:02.880" style="s2">thank you so much for watching let me</p>
+<p begin="00:12:01.120" end="00:12:04.160" style="s2">know in the comments what do you think</p>
+<p begin="00:12:02.880" end="00:12:06.240" style="s2">what are your opinions do you want to</p>
+<p begin="00:12:04.160" end="00:12:08.160" style="s2">see a more configuration video do you</p>
+<p begin="00:12:06.240" end="00:12:09.839" style="s2">want to see the review what should i run</p>
+<p begin="00:12:08.160" end="00:12:11.279" style="s2">in this computer to check it out i don&#39;t</p>
+<p begin="00:12:09.839" end="00:12:13.200" style="s2">know about benchmarks you are better</p>
+<p begin="00:12:11.279" end="00:12:14.880" style="s2">than me at these things so thank you so</p>
+<p begin="00:12:13.200" end="00:12:16.800" style="s2">much for watching as always stay happy</p>
+<p begin="00:12:14.880" end="00:12:18.720" style="s2">stay free stay healthy eat kimchi</p>
+<p begin="00:12:16.800" end="00:12:22.120" style="s2">kamzamida salang hayo see you on the</p>
+<p begin="00:12:18.720" end="00:12:22.120" style="s2">next one bye</p>
+</div>
+</body>
+</tt>

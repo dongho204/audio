@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.120" end="00:00:09.420" style="s2">this video is about design patterns no</p>
+<p begin="00:00:06.060" end="00:00:11.400" style="s2">not UI ux design patterns this video has</p>
+<p begin="00:00:09.420" end="00:00:13.500" style="s2">nothing to do with figma or photoshop</p>
+<p begin="00:00:11.400" end="00:00:16.320" style="s2">today we&#39;re talking about software</p>
+<p begin="00:00:13.500" end="00:00:18.539" style="s2">design patterns we will learn what they</p>
+<p begin="00:00:16.320" end="00:00:21.060" style="s2">are why you should learn them and we&#39;re</p>
+<p begin="00:00:18.539" end="00:00:23.039" style="s2">going to see an example design patterns</p>
+<p begin="00:00:21.060" end="00:00:25.859" style="s2">help us architecture and structure our</p>
+<p begin="00:00:23.039" end="00:00:28.439" style="s2">code in a way that is cleaner scalable</p>
+<p begin="00:00:25.859" end="00:00:30.000" style="s2">and easier to maintain design patterns</p>
+<p begin="00:00:28.439" end="00:00:32.040" style="s2">in software development aren&#39;t something</p>
+<p begin="00:00:30.000" end="00:00:34.320" style="s2">you can just download or copy paste into</p>
+<p begin="00:00:32.040" end="00:00:36.180" style="s2">your code design patterns are solutions</p>
+<p begin="00:00:34.320" end="00:00:38.280" style="s2">to common problems on software</p>
+<p begin="00:00:36.180" end="00:00:40.140" style="s2">development solutions to problems that</p>
+<p begin="00:00:38.280" end="00:00:42.719" style="s2">developers in all programming languages</p>
+<p begin="00:00:40.140" end="00:00:45.000" style="s2">and industries face often design</p>
+<p begin="00:00:42.719" end="00:00:47.160" style="s2">patterns are best practices that have</p>
+<p begin="00:00:45.000" end="00:00:49.079" style="s2">become sort of standardized over time</p>
+<p begin="00:00:47.160" end="00:00:51.120" style="s2">they are known across the software</p>
+<p begin="00:00:49.079" end="00:00:54.719" style="s2">industry and they also have their own</p>
+<p begin="00:00:51.120" end="00:00:56.340" style="s2">names like Builder adapter facade this</p>
+<p begin="00:00:54.719" end="00:00:58.379" style="s2">means that if you learn them the next</p>
+<p begin="00:00:56.340" end="00:01:00.539" style="s2">time you change themes or join a company</p>
+<p begin="00:00:58.379" end="00:01:02.820" style="s2">you will be able to identify what</p>
+<p begin="00:01:00.539" end="00:01:05.339" style="s2">pattern is being used and understand the</p>
+<p begin="00:01:02.820" end="00:01:07.740" style="s2">code base quicker or if you start a new</p>
+<p begin="00:01:05.339" end="00:01:10.200" style="s2">project you will build it using solid</p>
+<p begin="00:01:07.740" end="00:01:12.060" style="s2">structural foundations design patterns</p>
+<p begin="00:01:10.200" end="00:01:14.939" style="s2">fall in one of three categories</p>
+<p begin="00:01:12.060" end="00:01:17.340" style="s2">creational structural and behavioral</p>
+<p begin="00:01:14.939" end="00:01:20.159" style="s2">creational design patterns give us</p>
+<p begin="00:01:17.340" end="00:01:22.500" style="s2">object creation mechanism for multiple</p>
+<p begin="00:01:20.159" end="00:01:24.600" style="s2">situations keeping the code flexible and</p>
+<p begin="00:01:22.500" end="00:01:26.880" style="s2">reusable they are a way to make a system</p>
+<p begin="00:01:24.600" end="00:01:29.520" style="s2">independent of how its objects are</p>
+<p begin="00:01:26.880" end="00:01:31.799" style="s2">created structural design patterns focus</p>
+<p begin="00:01:29.520" end="00:01:34.020" style="s2">on how we organize and combine multiple</p>
+<p begin="00:01:31.799" end="00:01:36.420" style="s2">classes when building a larger system</p>
+<p begin="00:01:34.020" end="00:01:38.400" style="s2">while keeping it flexible and scalable</p>
+<p begin="00:01:36.420" end="00:01:40.439" style="s2">they allow you to change the parts of a</p>
+<p begin="00:01:38.400" end="00:01:43.259" style="s2">system independently from each other</p>
+<p begin="00:01:40.439" end="00:01:45.180" style="s2">behavioral design patterns are about how</p>
+<p begin="00:01:43.259" end="00:01:48.180" style="s2">different objects communicate between</p>
+<p begin="00:01:45.180" end="00:01:50.399" style="s2">each other they provide guidelines for</p>
+<p begin="00:01:48.180" end="00:01:52.619" style="s2">how objects and classes should</p>
+<p begin="00:01:50.399" end="00:01:54.840" style="s2">communicate and behave on relation to</p>
+<p begin="00:01:52.619" end="00:01:57.060" style="s2">one another if those explanations sound</p>
+<p begin="00:01:54.840" end="00:01:59.100" style="s2">very abstract don&#39;t worry we are now</p>
+<p begin="00:01:57.060" end="00:02:01.079" style="s2">going to take a look at one pattern to</p>
+<p begin="00:01:59.100" end="00:02:03.360" style="s2">actually understand how they make our</p>
+<p begin="00:02:01.079" end="00:02:05.460" style="s2">code better from the creational category</p>
+<p begin="00:02:03.360" end="00:02:07.259" style="s2">let&#39;s take a look at the Builder pattern</p>
+<p begin="00:02:05.460" end="00:02:09.060" style="s2">the Builder pattern is used when there</p>
+<p begin="00:02:07.259" end="00:02:11.459" style="s2">are multiple ways of creating an object</p>
+<p begin="00:02:09.060" end="00:02:14.040" style="s2">when we need to create an object that</p>
+<p begin="00:02:11.459" end="00:02:16.500" style="s2">has lots of options imagine that we</p>
+<p begin="00:02:14.040" end="00:02:17.879" style="s2">wanted to create a house class houses</p>
+<p begin="00:02:16.500" end="00:02:20.459" style="s2">can have so many different</p>
+<p begin="00:02:17.879" end="00:02:24.060" style="s2">configurations some have a balconies</p>
+<p begin="00:02:20.459" end="00:02:27.120" style="s2">backyard basements different room number</p>
+<p begin="00:02:24.060" end="00:02:29.040" style="s2">different toilet number Etc that means</p>
+<p begin="00:02:27.120" end="00:02:31.440" style="s2">that our class Constructor will be</p>
+<p begin="00:02:29.040" end="00:02:33.360" style="s2">something like this we would have to</p>
+<p begin="00:02:31.440" end="00:02:35.459" style="s2">pack all the options on the Constructor</p>
+<p begin="00:02:33.360" end="00:02:37.920" style="s2">which is going to look worse the more</p>
+<p begin="00:02:35.459" end="00:02:40.620" style="s2">properties we have instantiating the</p>
+<p begin="00:02:37.920" end="00:02:43.019" style="s2">class will look like this which isn&#39;t</p>
+<p begin="00:02:40.620" end="00:02:44.940" style="s2">good if we follow the Builder pattern</p>
+<p begin="00:02:43.019" end="00:02:47.760" style="s2">instead of having one fat Constructor</p>
+<p begin="00:02:44.940" end="00:02:50.580" style="s2">function we will create a builder class</p>
+<p begin="00:02:47.760" end="00:02:52.920" style="s2">and method that set each one of the</p>
+<p begin="00:02:50.580" end="00:02:55.560" style="s2">configuration options using the Builder</p>
+<p begin="00:02:52.920" end="00:02:58.140" style="s2">pattern our code will look like this we</p>
+<p begin="00:02:55.560" end="00:03:01.200" style="s2">first create a class called house that</p>
+<p begin="00:02:58.140" end="00:03:02.940" style="s2">only has default property then we create</p>
+<p begin="00:03:01.200" end="00:03:05.340" style="s2">a house Builder class that will</p>
+<p begin="00:03:02.940" end="00:03:07.560" style="s2">instantiate a house the moment it is</p>
+<p begin="00:03:05.340" end="00:03:09.599" style="s2">constructed then we have methods that</p>
+<p begin="00:03:07.560" end="00:03:12.959" style="s2">set each one of the properties of the</p>
+<p begin="00:03:09.599" end="00:03:15.540" style="s2">house and return this which is the</p>
+<p begin="00:03:12.959" end="00:03:18.300" style="s2">Builder itself finally we have a build</p>
+<p begin="00:03:15.540" end="00:03:21.060" style="s2">method that just Returns the created</p>
+<p begin="00:03:18.300" end="00:03:23.159" style="s2">house with this code next time that we</p>
+<p begin="00:03:21.060" end="00:03:26.340" style="s2">have to create a house all we have to do</p>
+<p begin="00:03:23.159" end="00:03:28.500" style="s2">is instantiate the house Builder and</p>
+<p begin="00:03:26.340" end="00:03:31.620" style="s2">call the methods that set the properties</p>
+<p begin="00:03:28.500" end="00:03:34.080" style="s2">we want our house to have that will set</p>
+<p begin="00:03:31.620" end="00:03:36.300" style="s2">the properties of the house via the</p>
+<p begin="00:03:34.080" end="00:03:38.700" style="s2">Builder and when we are done we call the</p>
+<p begin="00:03:36.300" end="00:03:40.920" style="s2">build method to get the house we just</p>
+<p begin="00:03:38.700" end="00:03:43.739" style="s2">made as you can see that looks much</p>
+<p begin="00:03:40.920" end="00:03:46.560" style="s2">better we can now create houses with all</p>
+<p begin="00:03:43.739" end="00:03:49.680" style="s2">sorts of characteristics just by calling</p>
+<p begin="00:03:46.560" end="00:03:52.799" style="s2">the methods we need without the need for</p>
+<p begin="00:03:49.680" end="00:03:54.480" style="s2">a fat Constructor or ugly coat the</p>
+<p begin="00:03:52.799" end="00:03:57.000" style="s2">Builder pattern helps makes our code</p>
+<p begin="00:03:54.480" end="00:03:59.580" style="s2">cleaner and easier to manage plus it</p>
+<p begin="00:03:57.000" end="00:04:01.319" style="s2">adds flexibility for example if we</p>
+<p begin="00:03:59.580" end="00:04:03.900" style="s2">wanted to add a new feature to our house</p>
+<p begin="00:04:01.319" end="00:04:06.420" style="s2">class tomorrow we simply add the new</p>
+<p begin="00:04:03.900" end="00:04:08.340" style="s2">feature and a method to set it up we</p>
+<p begin="00:04:06.420" end="00:04:10.860" style="s2">don&#39;t need to change or fix any other</p>
+<p begin="00:04:08.340" end="00:04:12.540" style="s2">part of our code this easy way of adding</p>
+<p begin="00:04:10.860" end="00:04:14.519" style="s2">new things without messing up the</p>
+<p begin="00:04:12.540" end="00:04:16.979" style="s2">existing code is one of the biggest</p>
+<p begin="00:04:14.519" end="00:04:18.660" style="s2">benefits of the Builder pattern I hope</p>
+<p begin="00:04:16.979" end="00:04:20.579" style="s2">that by now you sort of understand what</p>
+<p begin="00:04:18.660" end="00:04:22.440" style="s2">design time patterns are and why</p>
+<p begin="00:04:20.579" end="00:04:24.960" style="s2">learning them will help you as I said</p>
+<p begin="00:04:22.440" end="00:04:27.780" style="s2">they&#39;re just best practices that have</p>
+<p begin="00:04:24.960" end="00:04:30.540" style="s2">helped developers over many years solve</p>
+<p begin="00:04:27.780" end="00:04:31.919" style="s2">problems we all often face I don&#39;t want</p>
+<p begin="00:04:30.540" end="00:04:33.780" style="s2">to make this video too long and I don&#39;t</p>
+<p begin="00:04:31.919" end="00:04:36.000" style="s2">know how many of you are interested on</p>
+<p begin="00:04:33.780" end="00:04:38.100" style="s2">learning design patterns but if you like</p>
+<p begin="00:04:36.000" end="00:04:40.080" style="s2">this video subscribe to the channel and</p>
+<p begin="00:04:38.100" end="00:04:42.479" style="s2">comment below I will make another video</p>
+<p begin="00:04:40.080" end="00:04:44.520" style="s2">or even a series of videos where we can</p>
+<p begin="00:04:42.479" end="00:04:46.560" style="s2">learn other patterns from the structural</p>
+<p begin="00:04:44.520" end="00:04:48.780" style="s2">and behavioral categories if you like</p>
+<p begin="00:04:46.560" end="00:04:50.639" style="s2">the way I explain things and you would</p>
+<p begin="00:04:48.780" end="00:04:53.639" style="s2">like to learn things like JavaScript</p>
+<p begin="00:04:50.639" end="00:04:56.699" style="s2">python react react native go dark</p>
+<p begin="00:04:53.639" end="00:04:58.800" style="s2">flutter among many others for absolutely</p>
+<p begin="00:04:56.699" end="00:05:00.780" style="s2">free all you have to do is click the</p>
+<p begin="00:04:58.800" end="00:05:02.759" style="s2">link below to join any of our many free</p>
+<p begin="00:05:00.780" end="00:05:04.860" style="s2">courses you can take right now for</p>
+<p begin="00:05:02.759" end="00:05:06.660" style="s2">absolutely free with me click the link</p>
+<p begin="00:05:04.860" end="00:05:12.120" style="s2">below and I will see you there anjana</p>
+<p begin="00:05:06.660" end="00:05:12.120" style="s2">comes see you on the next one bye</p>
+<p begin="00:05:13.550" end="00:05:21.580" style="s2">[Music]</p>
+<p begin="00:05:19.440" end="00:05:24.709" style="s2">thank you</p>
+<p begin="00:05:21.580" end="00:05:24.709" style="s2">[Music]</p>
+</div>
+</body>
+</tt>

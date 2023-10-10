@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.720" end="00:00:06.960" style="s2">welcome to the second video on this</p>
+<p begin="00:00:04.720" end="00:00:09.040" style="s2">series where we are becoming blockchain</p>
+<p begin="00:00:06.960" end="00:00:10.719" style="s2">developers before we start make sure you</p>
+<p begin="00:00:09.040" end="00:00:12.320" style="s2">watch our previous video that we did on</p>
+<p begin="00:00:10.719" end="00:00:14.320" style="s2">this series to understand all the</p>
+<p begin="00:00:12.320" end="00:00:15.759" style="s2">concepts and the fundamentals required</p>
+<p begin="00:00:14.320" end="00:00:18.560" style="s2">for blockchain development because</p>
+<p begin="00:00:15.759" end="00:00:19.920" style="s2">today&#39;s video is all about practice what</p>
+<p begin="00:00:18.560" end="00:00:21.840" style="s2">we&#39;re going to do today is we&#39;re going</p>
+<p begin="00:00:19.920" end="00:00:24.320" style="s2">to write a smart contract for a</p>
+<p begin="00:00:21.840" end="00:00:27.279" style="s2">fundraising application like what is or</p>
+<p begin="00:00:24.320" end="00:00:29.519" style="s2">kickstarter using solidity a very easy</p>
+<p begin="00:00:27.279" end="00:00:31.679" style="s2">to use and learn smart contract</p>
+<p begin="00:00:29.519" end="00:00:33.280" style="s2">programming language and using all that</p>
+<p begin="00:00:31.679" end="00:00:34.719" style="s2">note which are the sponsors of this</p>
+<p begin="00:00:33.280" end="00:00:38.000" style="s2">video we are going to learn how to</p>
+<p begin="00:00:34.719" end="00:00:40.480" style="s2">deploy our code to multiple chains in</p>
+<p begin="00:00:38.000" end="00:00:42.239" style="s2">record time as always please remember</p>
+<p begin="00:00:40.480" end="00:00:44.239" style="s2">that if i mention any project on this</p>
+<p begin="00:00:42.239" end="00:00:46.879" style="s2">video i am doing so for educational</p>
+<p begin="00:00:44.239" end="00:00:49.360" style="s2">purposes only now let&#39;s get started</p>
+<p begin="00:00:46.879" end="00:00:50.800" style="s2">writing our first smart contract as we</p>
+<p begin="00:00:49.360" end="00:00:52.640" style="s2">said on the previous video you can write</p>
+<p begin="00:00:50.800" end="00:00:54.399" style="s2">your smart contracts in a variety of</p>
+<p begin="00:00:52.640" end="00:00:55.920" style="s2">languages the one that is the most used</p>
+<p begin="00:00:54.399" end="00:00:58.559" style="s2">and the one that i believe has the</p>
+<p begin="00:00:55.920" end="00:01:00.480" style="s2">biggest community out there is solidity</p>
+<p begin="00:00:58.559" end="00:01:03.199" style="s2">solidity is a programming language</p>
+<p begin="00:01:00.480" end="00:01:05.360" style="s2">influenced by c plus plus javascript and</p>
+<p begin="00:01:03.199" end="00:01:07.520" style="s2">python that means that it has c plus</p>
+<p begin="00:01:05.360" end="00:01:10.400" style="s2">plus like syntax which means that if you</p>
+<p begin="00:01:07.520" end="00:01:12.720" style="s2">know typescript javascript c-sharp java</p>
+<p begin="00:01:10.400" end="00:01:14.799" style="s2">you&#39;re going to feel right at home a</p>
+<p begin="00:01:12.720" end="00:01:17.119" style="s2">smart contract sounds very scary but</p>
+<p begin="00:01:14.799" end="00:01:19.280" style="s2">actually it&#39;s just a class like a class</p>
+<p begin="00:01:17.119" end="00:01:20.960" style="s2">that you would find in java or c-sharp</p>
+<p begin="00:01:19.280" end="00:01:23.119" style="s2">or typescript or javascript or even</p>
+<p begin="00:01:20.960" end="00:01:25.119" style="s2">python smart contracts have a</p>
+<p begin="00:01:23.119" end="00:01:26.960" style="s2">constructor they have properties and</p>
+<p begin="00:01:25.119" end="00:01:29.280" style="s2">they have methods this means that if you</p>
+<p begin="00:01:26.960" end="00:01:31.600" style="s2">know oop you&#39;re going to fly when</p>
+<p begin="00:01:29.280" end="00:01:33.600" style="s2">learning solidity to create a smart</p>
+<p begin="00:01:31.600" end="00:01:35.119" style="s2">contract inside of a file called</p>
+<p begin="00:01:33.600" end="00:01:37.200" style="s2">fundraising.sol</p>
+<p begin="00:01:35.119" end="00:01:39.439" style="s2">that&#39;s all being the extension for</p>
+<p begin="00:01:37.200" end="00:01:42.320" style="s2">solidity files we are going to write</p>
+<p begin="00:01:39.439" end="00:01:44.560" style="s2">this line of code at the start of our</p>
+<p begin="00:01:42.320" end="00:01:46.560" style="s2">file here we are locking the version of</p>
+<p begin="00:01:44.560" end="00:01:49.200" style="s2">the compiler to make sure that our code</p>
+<p begin="00:01:46.560" end="00:01:51.759" style="s2">is not compiled by a compiler with a</p>
+<p begin="00:01:49.200" end="00:01:54.079" style="s2">higher version number and maybe breaking</p>
+<p begin="00:01:51.759" end="00:01:56.479" style="s2">changes we do this because solidity</p>
+<p begin="00:01:54.079" end="00:01:58.240" style="s2">changes fast and things break often now</p>
+<p begin="00:01:56.479" end="00:02:00.640" style="s2">we&#39;re going to create a smart contract</p>
+<p begin="00:01:58.240" end="00:02:02.719" style="s2">called fundraising by creating a class</p>
+<p begin="00:02:00.640" end="00:02:04.320" style="s2">called fundraising except that instead</p>
+<p begin="00:02:02.719" end="00:02:06.320" style="s2">of using the keyword class we&#39;re going</p>
+<p begin="00:02:04.320" end="00:02:08.560" style="s2">to use the keyword contract our</p>
+<p begin="00:02:06.320" end="00:02:11.520" style="s2">fundraising contract is going to have</p>
+<p begin="00:02:08.560" end="00:02:13.040" style="s2">properties like the owner of the project</p>
+<p begin="00:02:11.520" end="00:02:16.000" style="s2">which is the person that is trying to</p>
+<p begin="00:02:13.040" end="00:02:18.080" style="s2">raise money a target amount which is the</p>
+<p begin="00:02:16.000" end="00:02:20.560" style="s2">money that they&#39;re trying to collect a</p>
+<p begin="00:02:18.080" end="00:02:22.640" style="s2">list of all the people that donated to</p>
+<p begin="00:02:20.560" end="00:02:25.760" style="s2">the project and how much their donation</p>
+<p begin="00:02:22.640" end="00:02:28.640" style="s2">was the accumulated amount of total</p>
+<p begin="00:02:25.760" end="00:02:30.879" style="s2">donations and finally a deadline the</p>
+<p begin="00:02:28.640" end="00:02:33.120" style="s2">amount of time the project has to reach</p>
+<p begin="00:02:30.879" end="00:02:36.000" style="s2">the target if the project is over and</p>
+<p begin="00:02:33.120" end="00:02:38.959" style="s2">the total amount of donations is more or</p>
+<p begin="00:02:36.000" end="00:02:40.640" style="s2">equals than the target amount then the</p>
+<p begin="00:02:38.959" end="00:02:42.959" style="s2">money collected is going to be</p>
+<p begin="00:02:40.640" end="00:02:45.519" style="s2">transferred to the owner of the project</p>
+<p begin="00:02:42.959" end="00:02:48.160" style="s2">but if the campaign is over and the</p>
+<p begin="00:02:45.519" end="00:02:50.080" style="s2">amount of donations is less than the</p>
+<p begin="00:02:48.160" end="00:02:52.160" style="s2">target amount then the people that</p>
+<p begin="00:02:50.080" end="00:02:55.519" style="s2">donated to the project are going to be</p>
+<p begin="00:02:52.160" end="00:02:57.760" style="s2">able to get a full refund so let&#39;s write</p>
+<p begin="00:02:55.519" end="00:03:00.319" style="s2">these properties into code by first</p>
+<p begin="00:02:57.760" end="00:03:02.640" style="s2">specifying the type of the property then</p>
+<p begin="00:03:00.319" end="00:03:05.280" style="s2">if it&#39;s public or private then the name</p>
+<p begin="00:03:02.640" end="00:03:07.599" style="s2">and optionally an initial value we start</p>
+<p begin="00:03:05.280" end="00:03:09.760" style="s2">with the target amount this will be an</p>
+<p begin="00:03:07.599" end="00:03:14.319" style="s2">unsigned integer which means a</p>
+<p begin="00:03:09.760" end="00:03:17.440" style="s2">non-negative number with a size of 256</p>
+<p begin="00:03:14.319" end="00:03:19.120" style="s2">bits which is a size that can hold a</p>
+<p begin="00:03:17.440" end="00:03:21.120" style="s2">number as big as</p>
+<p begin="00:03:19.120" end="00:03:23.360" style="s2">this then we&#39;re going to add a property</p>
+<p begin="00:03:21.120" end="00:03:26.319" style="s2">called owner it&#39;s also public and the</p>
+<p begin="00:03:23.360" end="00:03:29.440" style="s2">type is of type address which looks like</p>
+<p begin="00:03:26.319" end="00:03:31.920" style="s2">a string but it has the correct format</p>
+<p begin="00:03:29.440" end="00:03:34.720" style="s2">to be an ethereum address so we can send</p>
+<p begin="00:03:31.920" end="00:03:37.120" style="s2">money to it this is the address of the</p>
+<p begin="00:03:34.720" end="00:03:39.519" style="s2">wallet of the owner of the project where</p>
+<p begin="00:03:37.120" end="00:03:41.519" style="s2">all the funds will go if the campaign is</p>
+<p begin="00:03:39.519" end="00:03:44.319" style="s2">successful now we&#39;re going to create a</p>
+<p begin="00:03:41.519" end="00:03:46.640" style="s2">public mapping of the addresses and the</p>
+<p begin="00:03:44.319" end="00:03:48.319" style="s2">amounts of the people that donated to</p>
+<p begin="00:03:46.640" end="00:03:50.640" style="s2">the campaign and we will call this</p>
+<p begin="00:03:48.319" end="00:03:53.040" style="s2">donation you can imagine a mapping like</p>
+<p begin="00:03:50.640" end="00:03:55.040" style="s2">a hash table or a dictionary where the</p>
+<p begin="00:03:53.040" end="00:03:57.280" style="s2">key is the address of the person that</p>
+<p begin="00:03:55.040" end="00:03:59.439" style="s2">donated and the value is how much money</p>
+<p begin="00:03:57.280" end="00:04:01.200" style="s2">they donated it could look something</p>
+<p begin="00:03:59.439" end="00:04:02.959" style="s2">like this</p>
+<p begin="00:04:01.200" end="00:04:05.040" style="s2">now we&#39;re going to add the total amount</p>
+<p begin="00:04:02.959" end="00:04:07.599" style="s2">of the campaign has raised and we&#39;re</p>
+<p begin="00:04:05.040" end="00:04:10.000" style="s2">going to initialize it to zero and</p>
+<p begin="00:04:07.599" end="00:04:12.640" style="s2">finally we&#39;re going to add a finish time</p>
+<p begin="00:04:10.000" end="00:04:15.519" style="s2">property that would hold the date in</p>
+<p begin="00:04:12.640" end="00:04:17.440" style="s2">seconds when the campaign will end here</p>
+<p begin="00:04:15.519" end="00:04:19.840" style="s2">as you can see we&#39;re using a variable</p>
+<p begin="00:04:17.440" end="00:04:22.400" style="s2">called block which is an object that we</p>
+<p begin="00:04:19.840" end="00:04:25.120" style="s2">didn&#39;t define before block will be</p>
+<p begin="00:04:22.400" end="00:04:27.759" style="s2">defined by the evm the ethereum virtual</p>
+<p begin="00:04:25.120" end="00:04:29.440" style="s2">machine when we deploy our contract it</p>
+<p begin="00:04:27.759" end="00:04:32.320" style="s2">will contain the information of the</p>
+<p begin="00:04:29.440" end="00:04:34.479" style="s2">block that is uploading our contract to</p>
+<p begin="00:04:32.320" end="00:04:36.560" style="s2">the network blocks have a time stamped</p>
+<p begin="00:04:34.479" end="00:04:38.880" style="s2">which is the date when they were created</p>
+<p begin="00:04:36.560" end="00:04:41.040" style="s2">in seconds so we are taking that date</p>
+<p begin="00:04:38.880" end="00:04:43.199" style="s2">and we are adding two weeks to it this</p>
+<p begin="00:04:41.040" end="00:04:46.000" style="s2">means our campaign will last two weeks</p>
+<p begin="00:04:43.199" end="00:04:48.320" style="s2">the weak unit is also provided for us by</p>
+<p begin="00:04:46.000" end="00:04:51.360" style="s2">the evm next up we will define the</p>
+<p begin="00:04:48.320" end="00:04:53.440" style="s2">constructure of our class or contract</p>
+<p begin="00:04:51.360" end="00:04:55.600" style="s2">inside of the constructor is where we</p>
+<p begin="00:04:53.440" end="00:04:57.520" style="s2">will initialize the target amount and</p>
+<p begin="00:04:55.600" end="00:05:00.000" style="s2">the owner of the contract properties</p>
+<p begin="00:04:57.520" end="00:05:02.400" style="s2">that haven&#39;t been initialized yet the</p>
+<p begin="00:05:00.000" end="00:05:03.840" style="s2">constructor will take one argument it is</p>
+<p begin="00:05:02.400" end="00:05:06.400" style="s2">a number and it will be called</p>
+<p begin="00:05:03.840" end="00:05:08.720" style="s2">underscore target amount we will then</p>
+<p begin="00:05:06.400" end="00:05:10.960" style="s2">set the target amount property of our</p>
+<p begin="00:05:08.720" end="00:05:13.199" style="s2">class to be equals to the underscore</p>
+<p begin="00:05:10.960" end="00:05:16.080" style="s2">target amount this means we will allow</p>
+<p begin="00:05:13.199" end="00:05:17.919" style="s2">the owner of the project to specify how</p>
+<p begin="00:05:16.080" end="00:05:20.160" style="s2">much money their campaign wants to</p>
+<p begin="00:05:17.919" end="00:05:22.639" style="s2">collect when the contract is being</p>
+<p begin="00:05:20.160" end="00:05:24.800" style="s2">deployed now to set the owner of our</p>
+<p begin="00:05:22.639" end="00:05:27.919" style="s2">contract we just have to add this line</p>
+<p begin="00:05:24.800" end="00:05:29.919" style="s2">of code now this msg or message object</p>
+<p begin="00:05:27.919" end="00:05:32.960" style="s2">is very similar to the block object that</p>
+<p begin="00:05:29.919" end="00:05:34.960" style="s2">we used before we did not define them at</p>
+<p begin="00:05:32.960" end="00:05:38.360" style="s2">all but they will be defined when our</p>
+<p begin="00:05:34.960" end="00:05:41.360" style="s2">code runs inside of the evm in this case</p>
+<p begin="00:05:38.360" end="00:05:43.840" style="s2">msg.sender or message sender will be the</p>
+<p begin="00:05:41.360" end="00:05:45.680" style="s2">address of the actor that is creating</p>
+<p begin="00:05:43.840" end="00:05:47.199" style="s2">the contract and we are done with the</p>
+<p begin="00:05:45.680" end="00:05:48.800" style="s2">constructure and the properties as you</p>
+<p begin="00:05:47.199" end="00:05:50.479" style="s2">can see so far is very easy to</p>
+<p begin="00:05:48.800" end="00:05:52.479" style="s2">understand now we&#39;re going to move on to</p>
+<p begin="00:05:50.479" end="00:05:54.160" style="s2">the methods of our contract we have to</p>
+<p begin="00:05:52.479" end="00:05:56.560" style="s2">remember from the previous video that</p>
+<p begin="00:05:54.160" end="00:05:59.280" style="s2">the evm compatible blockchains have two</p>
+<p begin="00:05:56.560" end="00:06:02.160" style="s2">kinds of accounts one is an externally</p>
+<p begin="00:05:59.280" end="00:06:04.160" style="s2">owned account eoa or human account and</p>
+<p begin="00:06:02.160" end="00:06:07.520" style="s2">the other one is a contract account</p>
+<p begin="00:06:04.160" end="00:06:10.240" style="s2">which is controlled by code now eoas aka</p>
+<p begin="00:06:07.520" end="00:06:12.960" style="s2">humans can send money to contract</p>
+<p begin="00:06:10.240" end="00:06:16.080" style="s2">accounts and also contract accounts can</p>
+<p begin="00:06:12.960" end="00:06:18.160" style="s2">transfer money to eos because we want</p>
+<p begin="00:06:16.080" end="00:06:20.560" style="s2">humans to be able to send code to the</p>
+<p begin="00:06:18.160" end="00:06:22.479" style="s2">contract account and we also want to run</p>
+<p begin="00:06:20.560" end="00:06:24.160" style="s2">some code when that happens because we</p>
+<p begin="00:06:22.479" end="00:06:26.720" style="s2">have to increase the counter of how much</p>
+<p begin="00:06:24.160" end="00:06:29.039" style="s2">money we have and we also have to write</p>
+<p begin="00:06:26.720" end="00:06:31.360" style="s2">down the address and the donation in our</p>
+<p begin="00:06:29.039" end="00:06:33.919" style="s2">donation list so we can maybe issue a</p>
+<p begin="00:06:31.360" end="00:06:36.319" style="s2">refund later we are going to write a</p>
+<p begin="00:06:33.919" end="00:06:38.880" style="s2">function called received and we have to</p>
+<p begin="00:06:36.319" end="00:06:41.280" style="s2">say that this function is external which</p>
+<p begin="00:06:38.880" end="00:06:43.280" style="s2">means it can only be called from outside</p>
+<p begin="00:06:41.280" end="00:06:46.000" style="s2">of the contract and we will finally add</p>
+<p begin="00:06:43.280" end="00:06:49.039" style="s2">the payable modifier to it to indicate</p>
+<p begin="00:06:46.000" end="00:06:51.120" style="s2">that this function can receive money and</p>
+<p begin="00:06:49.039" end="00:06:53.360" style="s2">that&#39;s it now when somebody sends money</p>
+<p begin="00:06:51.120" end="00:06:55.599" style="s2">to our contract the receive function</p>
+<p begin="00:06:53.360" end="00:06:58.000" style="s2">will run in the receive function we are</p>
+<p begin="00:06:55.599" end="00:07:00.479" style="s2">first going to check if our campaign is</p>
+<p begin="00:06:58.000" end="00:07:02.880" style="s2">not over yet for this we will use the</p>
+<p begin="00:07:00.479" end="00:07:05.440" style="s2">required function this is a function</p>
+<p begin="00:07:02.880" end="00:07:07.440" style="s2">that checks if a condition is true and</p>
+<p begin="00:07:05.440" end="00:07:09.599" style="s2">if it isn&#39;t it will throw an error with</p>
+<p begin="00:07:07.440" end="00:07:12.000" style="s2">a message and it will stop the execution</p>
+<p begin="00:07:09.599" end="00:07:14.720" style="s2">of our code so in the received function</p>
+<p begin="00:07:12.000" end="00:07:17.759" style="s2">we&#39;re going to say that we require the</p>
+<p begin="00:07:14.720" end="00:07:21.120" style="s2">block timestamp which is a date to be</p>
+<p begin="00:07:17.759" end="00:07:23.599" style="s2">smaller than the finished date of our</p>
+<p begin="00:07:21.120" end="00:07:26.479" style="s2">contract if the block timestamp is of a</p>
+<p begin="00:07:23.599" end="00:07:28.880" style="s2">bigger value that means that the current</p>
+<p begin="00:07:26.479" end="00:07:31.840" style="s2">date when this code is being called is</p>
+<p begin="00:07:28.880" end="00:07:33.680" style="s2">after the finishing date of our contract</p>
+<p begin="00:07:31.840" end="00:07:35.919" style="s2">if that&#39;s true we will show an error</p>
+<p begin="00:07:33.680" end="00:07:37.759" style="s2">saying that this campaign is over as you</p>
+<p begin="00:07:35.919" end="00:07:40.800" style="s2">can see here we are using the block</p>
+<p begin="00:07:37.759" end="00:07:43.120" style="s2">global variable again but inside of the</p>
+<p begin="00:07:40.800" end="00:07:46.080" style="s2">receive function the block that</p>
+<p begin="00:07:43.120" end="00:07:47.919" style="s2">timestamp will be the date of the blog</p>
+<p begin="00:07:46.080" end="00:07:50.800" style="s2">that is being used to save the</p>
+<p begin="00:07:47.919" end="00:07:53.440" style="s2">transaction created when a user sends</p>
+<p begin="00:07:50.800" end="00:07:55.520" style="s2">money to our contract if a human is</p>
+<p begin="00:07:53.440" end="00:07:58.160" style="s2">sending money to our contract and the</p>
+<p begin="00:07:55.520" end="00:08:00.160" style="s2">campaign isn&#39;t over we are going to add</p>
+<p begin="00:07:58.160" end="00:08:02.080" style="s2">the address of the human that is sending</p>
+<p begin="00:08:00.160" end="00:08:05.120" style="s2">us the money and the amount of money</p>
+<p begin="00:08:02.080" end="00:08:07.280" style="s2">being sent to our donations mapping we</p>
+<p begin="00:08:05.120" end="00:08:09.520" style="s2">are also going to increase the raised</p>
+<p begin="00:08:07.280" end="00:08:11.919" style="s2">amount counter again we are using the</p>
+<p begin="00:08:09.520" end="00:08:14.160" style="s2">global variable msg and a property</p>
+<p begin="00:08:11.919" end="00:08:16.800" style="s2">sender to know who is sending money to</p>
+<p begin="00:08:14.160" end="00:08:18.800" style="s2">the contract and you are using msg.value</p>
+<p begin="00:08:16.800" end="00:08:21.120" style="s2">to know how much money they are sending</p>
+<p begin="00:08:18.800" end="00:08:23.520" style="s2">to the contract we then save this info</p>
+<p begin="00:08:21.120" end="00:08:25.840" style="s2">in our mapping with the sender as the</p>
+<p begin="00:08:23.520" end="00:08:28.080" style="s2">key and the amount of money as the value</p>
+<p begin="00:08:25.840" end="00:08:30.479" style="s2">and we&#39;re doing plus equals instead of</p>
+<p begin="00:08:28.080" end="00:08:32.880" style="s2">equals because people can donate more</p>
+<p begin="00:08:30.479" end="00:08:35.039" style="s2">than one time if they want to next up</p>
+<p begin="00:08:32.880" end="00:08:37.200" style="s2">let&#39;s write the function to release the</p>
+<p begin="00:08:35.039" end="00:08:39.120" style="s2">funds to the owner of the campaign if</p>
+<p begin="00:08:37.200" end="00:08:41.120" style="s2">the campaign is successful for this</p>
+<p begin="00:08:39.120" end="00:08:43.440" style="s2">let&#39;s create a function called we draw</p>
+<p begin="00:08:41.120" end="00:08:45.200" style="s2">donations withdraw donations we&#39;ll check</p>
+<p begin="00:08:43.440" end="00:08:47.600" style="s2">if the person that is calling this</p>
+<p begin="00:08:45.200" end="00:08:50.080" style="s2">function is the same person that created</p>
+<p begin="00:08:47.600" end="00:08:52.720" style="s2">the contract by checking the message</p>
+<p begin="00:08:50.080" end="00:08:55.200" style="s2">that sender with the owner that we</p>
+<p begin="00:08:52.720" end="00:08:57.279" style="s2">defined on the constructor before if</p>
+<p begin="00:08:55.200" end="00:09:00.240" style="s2">they are not the same it will throw an</p>
+<p begin="00:08:57.279" end="00:09:02.399" style="s2">error and for this we also use require</p>
+<p begin="00:09:00.240" end="00:09:04.720" style="s2">now we have to check if the raised</p>
+<p begin="00:09:02.399" end="00:09:07.440" style="s2">amount is more than or equals to the</p>
+<p begin="00:09:04.720" end="00:09:09.040" style="s2">target of the campaign and if it isn&#39;t</p>
+<p begin="00:09:07.440" end="00:09:11.279" style="s2">we&#39;re going to throw an error using</p>
+<p begin="00:09:09.040" end="00:09:13.040" style="s2">require again the last check of this</p>
+<p begin="00:09:11.279" end="00:09:16.240" style="s2">function is to see if the campaign is</p>
+<p begin="00:09:13.040" end="00:09:18.480" style="s2">not over yet if it isn&#39;t over we won&#39;t</p>
+<p begin="00:09:16.240" end="00:09:20.560" style="s2">allow the withdrawal to happen if all</p>
+<p begin="00:09:18.480" end="00:09:22.160" style="s2">these conditions are true if the person</p>
+<p begin="00:09:20.560" end="00:09:24.800" style="s2">calling the withdrawal donations</p>
+<p begin="00:09:22.160" end="00:09:27.360" style="s2">function is the owner of the contract if</p>
+<p begin="00:09:24.800" end="00:09:29.120" style="s2">the raised amount is more than or equals</p>
+<p begin="00:09:27.360" end="00:09:31.200" style="s2">than the target amount and if the</p>
+<p begin="00:09:29.120" end="00:09:33.680" style="s2">campaign has finished we will release</p>
+<p begin="00:09:31.200" end="00:09:35.920" style="s2">the fund to the owner of the contract</p>
+<p begin="00:09:33.680" end="00:09:38.399" style="s2">we&#39;ll do this by calling the payable</p>
+<p begin="00:09:35.920" end="00:09:40.959" style="s2">function with the address of the owner</p>
+<p begin="00:09:38.399" end="00:09:42.800" style="s2">that we set in our constructor and then</p>
+<p begin="00:09:40.959" end="00:09:45.600" style="s2">we call the transfer function to</p>
+<p begin="00:09:42.800" end="00:09:48.000" style="s2">transfer the value of the raised amount</p>
+<p begin="00:09:45.600" end="00:09:50.399" style="s2">variable that is keeping track of how</p>
+<p begin="00:09:48.000" end="00:09:52.880" style="s2">much money has been sent to our</p>
+<p begin="00:09:50.399" end="00:09:54.640" style="s2">contract now we need to write a function</p>
+<p begin="00:09:52.880" end="00:09:57.519" style="s2">to give a refund to the people that</p>
+<p begin="00:09:54.640" end="00:10:00.320" style="s2">donated to our campaign if the campaign</p>
+<p begin="00:09:57.519" end="00:10:02.480" style="s2">is over and if the campaign didn&#39;t reach</p>
+<p begin="00:10:00.320" end="00:10:04.480" style="s2">the target amount and using require</p>
+<p begin="00:10:02.480" end="00:10:07.040" style="s2">again we will check if the campaign</p>
+<p begin="00:10:04.480" end="00:10:09.519" style="s2">reached its goal if it did then there</p>
+<p begin="00:10:07.040" end="00:10:11.760" style="s2">won&#39;t be a refund as well and finally we</p>
+<p begin="00:10:09.519" end="00:10:14.399" style="s2">will check if the user asking for a</p>
+<p begin="00:10:11.760" end="00:10:16.880" style="s2">refund is on the donations list if all</p>
+<p begin="00:10:14.399" end="00:10:19.360" style="s2">these conditions are true if the</p>
+<p begin="00:10:16.880" end="00:10:21.760" style="s2">campaign is over and if it didn&#39;t reach</p>
+<p begin="00:10:19.360" end="00:10:23.920" style="s2">the goal and if the user that is asking</p>
+<p begin="00:10:21.760" end="00:10:26.640" style="s2">for the refund did donate to the</p>
+<p begin="00:10:23.920" end="00:10:29.200" style="s2">campaign we will put the amount of money</p>
+<p begin="00:10:26.640" end="00:10:31.680" style="s2">that the user donated inside of a</p>
+<p begin="00:10:29.200" end="00:10:34.160" style="s2">variable then we will update our</p>
+<p begin="00:10:31.680" end="00:10:37.200" style="s2">donations list to make sure that the</p>
+<p begin="00:10:34.160" end="00:10:39.120" style="s2">same user cannot ask for a refund twice</p>
+<p begin="00:10:37.200" end="00:10:41.600" style="s2">and finally we will transfer the donated</p>
+<p begin="00:10:39.120" end="00:10:44.480" style="s2">money to the user giving them a full</p>
+<p begin="00:10:41.600" end="00:10:47.200" style="s2">refund and we are done now it&#39;s time to</p>
+<p begin="00:10:44.480" end="00:10:49.360" style="s2">deploy our contract for this video we</p>
+<p begin="00:10:47.200" end="00:10:52.320" style="s2">are going to use hard hat which as you</p>
+<p begin="00:10:49.360" end="00:10:56.160" style="s2">will see is very easy to use after we</p>
+<p begin="00:10:52.320" end="00:10:58.399" style="s2">run npm init inside of an empty folder</p>
+<p begin="00:10:56.160" end="00:11:00.240" style="s2">we are going to run this command to</p>
+<p begin="00:10:58.399" end="00:11:03.279" style="s2">install all the things that we need to</p>
+<p begin="00:11:00.240" end="00:11:05.200" style="s2">install then we will run mpx hardhat to</p>
+<p begin="00:11:03.279" end="00:11:08.959" style="s2">create a project and we will select the</p>
+<p begin="00:11:05.200" end="00:11:11.160" style="s2">option to create an empty hardhat config</p>
+<p begin="00:11:08.959" end="00:11:13.600" style="s2">js we will open</p>
+<p begin="00:11:11.160" end="00:11:15.839" style="s2">hardhat.config.js and we&#39;ll make sure</p>
+<p begin="00:11:13.600" end="00:11:18.800" style="s2">that the solidity version is the same as</p>
+<p begin="00:11:15.839" end="00:11:20.720" style="s2">the one in the pragma of our contract if</p>
+<p begin="00:11:18.800" end="00:11:22.720" style="s2">it isn&#39;t we will make the match and we</p>
+<p begin="00:11:20.720" end="00:11:25.200" style="s2">will also import all the things that we</p>
+<p begin="00:11:22.720" end="00:11:27.680" style="s2">need for later then we will create a</p>
+<p begin="00:11:25.200" end="00:11:30.240" style="s2">folder called contracts and there we</p>
+<p begin="00:11:27.680" end="00:11:33.200" style="s2">will put the fundraising that sold smart</p>
+<p begin="00:11:30.240" end="00:11:34.880" style="s2">contract that we wrote before now we</p>
+<p begin="00:11:33.200" end="00:11:37.279" style="s2">need to create an account on the</p>
+<p begin="00:11:34.880" end="00:11:39.200" style="s2">blockchain this is to be able to deploy</p>
+<p begin="00:11:37.279" end="00:11:42.240" style="s2">our contract but also to be able to</p>
+<p begin="00:11:39.200" end="00:11:44.000" style="s2">receive the donations to our wallet for</p>
+<p begin="00:11:42.240" end="00:11:46.399" style="s2">this we will install the metamask</p>
+<p begin="00:11:44.000" end="00:11:48.320" style="s2">extension in our browser because</p>
+<p begin="00:11:46.399" end="00:11:50.560" style="s2">deploying a contract to the ethereum</p>
+<p begin="00:11:48.320" end="00:11:53.440" style="s2">network costs real money we are going to</p>
+<p begin="00:11:50.560" end="00:11:55.600" style="s2">instead deploy our contract in a test</p>
+<p begin="00:11:53.440" end="00:11:58.240" style="s2">network where we can use test money to</p>
+<p begin="00:11:55.600" end="00:12:00.639" style="s2">pay for our test transactions on this</p>
+<p begin="00:11:58.240" end="00:12:03.120" style="s2">test network the cryptocurrency ether</p>
+<p begin="00:12:00.639" end="00:12:05.200" style="s2">has no value even though it has no value</p>
+<p begin="00:12:03.120" end="00:12:07.120" style="s2">in the test net we still have to get</p>
+<p begin="00:12:05.200" end="00:12:10.000" style="s2">some for this we&#39;re going to go to the</p>
+<p begin="00:12:07.120" end="00:12:12.399" style="s2">all that node faucet which is a service</p>
+<p begin="00:12:10.000" end="00:12:14.880" style="s2">where all that node will send you test</p>
+<p begin="00:12:12.399" end="00:12:17.120" style="s2">money to your test wallet after we go to</p>
+<p begin="00:12:14.880" end="00:12:19.519" style="s2">the ethereum faucet we will select the</p>
+<p begin="00:12:17.120" end="00:12:21.680" style="s2">gowerly network which is the test net we</p>
+<p begin="00:12:19.519" end="00:12:23.600" style="s2">are going to deploy our contract and we</p>
+<p begin="00:12:21.680" end="00:12:25.760" style="s2">will paste the wallet of the address</p>
+<p begin="00:12:23.600" end="00:12:27.279" style="s2">that we created in metamask after a</p>
+<p begin="00:12:25.760" end="00:12:29.680" style="s2">couple of minutes we can go back to</p>
+<p begin="00:12:27.279" end="00:12:31.760" style="s2">metamask and after selecting the gorly</p>
+<p begin="00:12:29.680" end="00:12:34.160" style="s2">network we can see that our testimony</p>
+<p begin="00:12:31.760" end="00:12:35.839" style="s2">has arrived to deploy our contract we of</p>
+<p begin="00:12:34.160" end="00:12:37.440" style="s2">course have to talk to the ethereum</p>
+<p begin="00:12:35.839" end="00:12:38.639" style="s2">network and for this we&#39;re going to use</p>
+<p begin="00:12:37.440" end="00:12:40.320" style="s2">all that node so we don&#39;t have to</p>
+<p begin="00:12:38.639" end="00:12:42.880" style="s2">download anything and instead we can</p>
+<p begin="00:12:40.320" end="00:12:44.720" style="s2">just use their api after we log into all</p>
+<p begin="00:12:42.880" end="00:12:46.800" style="s2">that node in our dashboard we will</p>
+<p begin="00:12:44.720" end="00:12:49.519" style="s2">create a new project and select the</p>
+<p begin="00:12:46.800" end="00:12:53.200" style="s2">ethereum network after the project is</p>
+<p begin="00:12:49.519" end="00:12:56.720" style="s2">created we will see multiple rpc urls we</p>
+<p begin="00:12:53.200" end="00:12:59.760" style="s2">will copy the go early rpc url we will</p>
+<p begin="00:12:56.720" end="00:13:02.560" style="s2">head back to our hardhat config.js and</p>
+<p begin="00:12:59.760" end="00:13:04.720" style="s2">we will modify our code a little bit to</p>
+<p begin="00:13:02.560" end="00:13:08.320" style="s2">tell hardhat that we want to talk to</p>
+<p begin="00:13:04.720" end="00:13:10.079" style="s2">girly by putting this code on the file</p>
+<p begin="00:13:08.320" end="00:13:12.160" style="s2">as you remember thanks to the awesome</p>
+<p begin="00:13:10.079" end="00:13:14.720" style="s2">people of all that note we received</p>
+<p begin="00:13:12.160" end="00:13:17.040" style="s2">testimony in our test wallet and we saw</p>
+<p begin="00:13:14.720" end="00:13:18.720" style="s2">that in metamask this means metamask is</p>
+<p begin="00:13:17.040" end="00:13:21.040" style="s2">the only one that is currently</p>
+<p begin="00:13:18.720" end="00:13:23.360" style="s2">controlling that wallet what i want to</p>
+<p begin="00:13:21.040" end="00:13:25.839" style="s2">do now is i want to allow hard hat to</p>
+<p begin="00:13:23.360" end="00:13:27.600" style="s2">control that wallet as well to allow</p>
+<p begin="00:13:25.839" end="00:13:29.360" style="s2">hard hat to control that account we&#39;re</p>
+<p begin="00:13:27.600" end="00:13:32.320" style="s2">going to go back to metamask and we will</p>
+<p begin="00:13:29.360" end="00:13:35.120" style="s2">click on account details and then we</p>
+<p begin="00:13:32.320" end="00:13:37.120" style="s2">will click on export private key this</p>
+<p begin="00:13:35.120" end="00:13:39.920" style="s2">will show you a key that can be used to</p>
+<p begin="00:13:37.120" end="00:13:42.560" style="s2">completely control your account you</p>
+<p begin="00:13:39.920" end="00:13:45.360" style="s2">should not show this to anyone and you</p>
+<p begin="00:13:42.560" end="00:13:47.360" style="s2">should not upload this key to github for</p>
+<p begin="00:13:45.360" end="00:13:49.760" style="s2">this tutorial we&#39;re going to copy paste</p>
+<p begin="00:13:47.360" end="00:13:52.079" style="s2">it right into the code but in real life</p>
+<p begin="00:13:49.760" end="00:13:55.120" style="s2">you should use at that emv environment</p>
+<p begin="00:13:52.079" end="00:13:58.079" style="s2">file inside of the girly object we will</p>
+<p begin="00:13:55.120" end="00:14:00.720" style="s2">copy paste our private key inside of an</p>
+<p begin="00:13:58.079" end="00:14:03.120" style="s2">account array now we are finally done</p>
+<p begin="00:14:00.720" end="00:14:05.839" style="s2">the setup is complete and we can finally</p>
+<p begin="00:14:03.120" end="00:14:08.000" style="s2">write the code to deploy our contract</p>
+<p begin="00:14:05.839" end="00:14:11.040" style="s2">inside of a folder called script let&#39;s</p>
+<p begin="00:14:08.000" end="00:14:13.519" style="s2">create a file called deploy.js and put</p>
+<p begin="00:14:11.040" end="00:14:14.959" style="s2">this code in there it&#39;s pretty easy to</p>
+<p begin="00:14:13.519" end="00:14:17.760" style="s2">understand what&#39;s going on here so let&#39;s</p>
+<p begin="00:14:14.959" end="00:14:19.760" style="s2">go through that using ethers which is a</p>
+<p begin="00:14:17.760" end="00:14:22.720" style="s2">javascript library to interact with</p>
+<p begin="00:14:19.760" end="00:14:26.000" style="s2">ethereum we are grabbing the fundraising</p>
+<p begin="00:14:22.720" end="00:14:28.399" style="s2">contract we are compiling that contract</p>
+<p begin="00:14:26.000" end="00:14:30.720" style="s2">and then we are deploying it with one</p>
+<p begin="00:14:28.399" end="00:14:33.839" style="s2">argument this is the argument that the</p>
+<p begin="00:14:30.720" end="00:14:36.320" style="s2">constructor in our contract needs as you</p>
+<p begin="00:14:33.839" end="00:14:38.480" style="s2">remember that argument is the target</p>
+<p begin="00:14:36.320" end="00:14:40.800" style="s2">amount of money that we want to raise in</p>
+<p begin="00:14:38.480" end="00:14:42.959" style="s2">our campaign as you can also see that</p>
+<p begin="00:14:40.800" end="00:14:44.800" style="s2">argument is a pretty big number and this</p>
+<p begin="00:14:42.959" end="00:14:47.680" style="s2">is because just like one dollar is</p>
+<p begin="00:14:44.800" end="00:14:51.199" style="s2">divided in a hundred cents one bitcoin</p>
+<p begin="00:14:47.680" end="00:14:54.399" style="s2">is divided in 100 million satoshis and</p>
+<p begin="00:14:51.199" end="00:14:57.360" style="s2">one ether is divided in one quintillion</p>
+<p begin="00:14:54.399" end="00:15:01.360" style="s2">way so that number is weight that&#39;s the</p>
+<p begin="00:14:57.360" end="00:15:03.440" style="s2">unit in those ways equal to 100 ether</p>
+<p begin="00:15:01.360" end="00:15:05.680" style="s2">which is the amount of money that i want</p>
+<p begin="00:15:03.440" end="00:15:08.079" style="s2">my campaign to receive so if i want to</p>
+<p begin="00:15:05.680" end="00:15:10.639" style="s2">raise 100 ether for my fundraising</p>
+<p begin="00:15:08.079" end="00:15:12.880" style="s2">campaign i need to create my contract</p>
+<p begin="00:15:10.639" end="00:15:15.360" style="s2">with that value onway which is this</p>
+<p begin="00:15:12.880" end="00:15:18.160" style="s2">number right here we can of course use</p>
+<p begin="00:15:15.360" end="00:15:19.600" style="s2">ethers to help us format this number now</p>
+<p begin="00:15:18.160" end="00:15:21.360" style="s2">the last thing that we&#39;re doing on this</p>
+<p begin="00:15:19.600" end="00:15:23.600" style="s2">code is that after our contract is</p>
+<p begin="00:15:21.360" end="00:15:25.040" style="s2">deployed we are console logging the</p>
+<p begin="00:15:23.600" end="00:15:26.800" style="s2">address of the contract on the</p>
+<p begin="00:15:25.040" end="00:15:29.519" style="s2">blockchain so we can go and check it out</p>
+<p begin="00:15:26.800" end="00:15:32.320" style="s2">on the blockchain explorer to deploy our</p>
+<p begin="00:15:29.519" end="00:15:33.759" style="s2">contract we&#39;re finally going to run this</p>
+<p begin="00:15:32.320" end="00:15:36.320" style="s2">command right here and if everything</p>
+<p begin="00:15:33.759" end="00:15:39.199" style="s2">goes well we will see the address of our</p>
+<p begin="00:15:36.320" end="00:15:41.440" style="s2">contract in our console now all we have</p>
+<p begin="00:15:39.199" end="00:15:43.519" style="s2">to do is go to the blockchain explorer</p>
+<p begin="00:15:41.440" end="00:15:45.920" style="s2">of the governly testnet and search for</p>
+<p begin="00:15:43.519" end="00:15:48.079" style="s2">the address of our contract as we will</p>
+<p begin="00:15:45.920" end="00:15:51.040" style="s2">see it will show up there which means</p>
+<p begin="00:15:48.079" end="00:15:53.360" style="s2">our contract is deployed and if we click</p>
+<p begin="00:15:51.040" end="00:15:56.320" style="s2">on the contract tab we will see our</p>
+<p begin="00:15:53.360" end="00:15:58.560" style="s2">contract code compiled to bytecode the</p>
+<p begin="00:15:56.320" end="00:16:00.720" style="s2">bytecode is what the evm will execute</p>
+<p begin="00:15:58.560" end="00:16:02.720" style="s2">and that&#39;s it our contract is live the</p>
+<p begin="00:16:00.720" end="00:16:04.639" style="s2">campaign is running now let&#39;s put some</p>
+<p begin="00:16:02.720" end="00:16:06.639" style="s2">money in our contract let&#39;s donate to</p>
+<p begin="00:16:04.639" end="00:16:08.480" style="s2">this campaign because the contract as</p>
+<p begin="00:16:06.639" end="00:16:10.399" style="s2">you can see is just an account with an</p>
+<p begin="00:16:08.480" end="00:16:12.959" style="s2">address like a human account we can just</p>
+<p begin="00:16:10.399" end="00:16:15.199" style="s2">send money to it with our wallet let&#39;s</p>
+<p begin="00:16:12.959" end="00:16:19.519" style="s2">copy the address of our contract go to</p>
+<p begin="00:16:15.199" end="00:16:19.519" style="s2">metamask and send some money to it</p>
+<p begin="00:16:21.759" end="00:16:25.360" style="s2">as you will see the contract received</p>
+<p begin="00:16:23.680" end="00:16:27.519" style="s2">some money you can see in the blockchain</p>
+<p begin="00:16:25.360" end="00:16:30.079" style="s2">explorer the contract has a balance and</p>
+<p begin="00:16:27.519" end="00:16:33.199" style="s2">that balance increased now let&#39;s see if</p>
+<p begin="00:16:30.079" end="00:16:35.680" style="s2">our receive function actually ran when</p>
+<p begin="00:16:33.199" end="00:16:37.040" style="s2">the contract received money for this</p>
+<p begin="00:16:35.680" end="00:16:39.839" style="s2">we&#39;re going to interact with our</p>
+<p begin="00:16:37.040" end="00:16:43.759" style="s2">contract via javascript so let&#39;s create</p>
+<p begin="00:16:39.839" end="00:16:45.920" style="s2">a new task in the hearthout.config.js</p>
+<p begin="00:16:43.759" end="00:16:48.240" style="s2">inside of that task we will get our</p>
+<p begin="00:16:45.920" end="00:16:50.880" style="s2">account and we will also paste the</p>
+<p begin="00:16:48.240" end="00:16:52.399" style="s2">address of our contract now the last</p>
+<p begin="00:16:50.880" end="00:16:54.480" style="s2">thing we need to be able to interact</p>
+<p begin="00:16:52.399" end="00:16:56.880" style="s2">with this contract using javascript is</p>
+<p begin="00:16:54.480" end="00:16:58.800" style="s2">something called the abi it is very</p>
+<p begin="00:16:56.880" end="00:17:01.199" style="s2">similar to api that we use to</p>
+<p begin="00:16:58.800" end="00:17:03.519" style="s2">communicate with a server in this case</p>
+<p begin="00:17:01.199" end="00:17:06.480" style="s2">we use the api to communicate with the</p>
+<p begin="00:17:03.519" end="00:17:08.799" style="s2">binary contract to get the api of our</p>
+<p begin="00:17:06.480" end="00:17:11.600" style="s2">contract we will go to the artifacts</p>
+<p begin="00:17:08.799" end="00:17:13.240" style="s2">folder and then contracts and then we</p>
+<p begin="00:17:11.600" end="00:17:16.240" style="s2">will find</p>
+<p begin="00:17:13.240" end="00:17:19.360" style="s2">fundraising.json there we will see the</p>
+<p begin="00:17:16.240" end="00:17:22.240" style="s2">api and as you can see it&#39;s just a json</p>
+<p begin="00:17:19.360" end="00:17:24.400" style="s2">description of our contract the</p>
+<p begin="00:17:22.240" end="00:17:26.799" style="s2">functions the return values and the</p>
+<p begin="00:17:24.400" end="00:17:29.120" style="s2">argument types we will copy paste this</p>
+<p begin="00:17:26.799" end="00:17:31.679" style="s2">api into our task in the</p>
+<p begin="00:17:29.120" end="00:17:33.760" style="s2">hearthout.config.js</p>
+<p begin="00:17:31.679" end="00:17:36.400" style="s2">and now we are ready to interact with</p>
+<p begin="00:17:33.760" end="00:17:39.440" style="s2">our contract all we have to do is send</p>
+<p begin="00:17:36.400" end="00:17:41.360" style="s2">the address of the contract the api and</p>
+<p begin="00:17:39.440" end="00:17:43.679" style="s2">the account of the human that wants to</p>
+<p begin="00:17:41.360" end="00:17:46.240" style="s2">interact with it and now we can call any</p>
+<p begin="00:17:43.679" end="00:17:48.240" style="s2">method in our contract using javascript</p>
+<p begin="00:17:46.240" end="00:17:50.320" style="s2">for example we can check what is the</p>
+<p begin="00:17:48.240" end="00:17:52.799" style="s2">target amount of our contract and we can</p>
+<p begin="00:17:50.320" end="00:17:55.520" style="s2">also check to see how much it has been</p>
+<p begin="00:17:52.799" end="00:17:58.000" style="s2">donated so far to execute this task all</p>
+<p begin="00:17:55.520" end="00:17:59.679" style="s2">we have to do is run this command in our</p>
+<p begin="00:17:58.000" end="00:18:02.720" style="s2">console and if it works we&#39;re going to</p>
+<p begin="00:17:59.679" end="00:18:05.760" style="s2">see the target amount of this contract</p>
+<p begin="00:18:02.720" end="00:18:08.400" style="s2">and also the amount that the contract</p>
+<p begin="00:18:05.760" end="00:18:10.880" style="s2">currently has and that&#39;s it we are done</p>
+<p begin="00:18:08.400" end="00:18:13.039" style="s2">we did it now if you wanted to deploy</p>
+<p begin="00:18:10.880" end="00:18:15.520" style="s2">this smart contract to another evm</p>
+<p begin="00:18:13.039" end="00:18:17.440" style="s2">blockchain like polygon or avalanche all</p>
+<p begin="00:18:15.520" end="00:18:19.520" style="s2">we have to do is create a new project on</p>
+<p begin="00:18:17.440" end="00:18:22.880" style="s2">the all that node dashboard to get a</p>
+<p begin="00:18:19.520" end="00:18:25.600" style="s2">free api key then get test money from</p>
+<p begin="00:18:22.880" end="00:18:27.679" style="s2">the all that node faucet and add the</p>
+<p begin="00:18:25.600" end="00:18:29.600" style="s2">network url to our hard hat</p>
+<p begin="00:18:27.679" end="00:18:30.799" style="s2">configuration file thank you to all the</p>
+<p begin="00:18:29.600" end="00:18:33.039" style="s2">nodes for sponsoring this video and</p>
+<p begin="00:18:30.799" end="00:18:34.240" style="s2">thank you for watching it please let me</p>
+<p begin="00:18:33.039" end="00:18:36.000" style="s2">know in the comments if you would like</p>
+<p begin="00:18:34.240" end="00:18:38.320" style="s2">me to keep making blockchain development</p>
+<p begin="00:18:36.000" end="00:18:40.720" style="s2">tutorials like maybe for example adding</p>
+<p begin="00:18:38.320" end="00:18:43.280" style="s2">a front end to this application using</p>
+<p begin="00:18:40.720" end="00:18:45.679" style="s2">react or maybe cloning our own</p>
+<p begin="00:18:43.280" end="00:18:47.440" style="s2">decentralized exchange or nfd</p>
+<p begin="00:18:45.679" end="00:18:48.640" style="s2">marketplace thank you so much for</p>
+<p begin="00:18:47.440" end="00:18:50.480" style="s2">watching this video let me know in the</p>
+<p begin="00:18:48.640" end="00:18:51.840" style="s2">comments what do you think of this video</p>
+<p begin="00:18:50.480" end="00:18:54.400" style="s2">do you have any questions i&#39;m gonna be</p>
+<p begin="00:18:51.840" end="00:18:56.480" style="s2">looking at them right now as always stay</p>
+<p begin="00:18:54.400" end="00:19:01.080" style="s2">free stay happy eat kimchi ham samida</p>
+<p begin="00:18:56.480" end="00:19:01.080" style="s2">salahyo see you on the next one bye</p>
+</div>
+</body>
+</tt>

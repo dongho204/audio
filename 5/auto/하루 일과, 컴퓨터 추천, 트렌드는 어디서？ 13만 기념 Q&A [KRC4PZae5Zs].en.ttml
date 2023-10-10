@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.030" end="00:00:04.950" style="s2">I know I said nikka Nicholas Amida on</p>
+<p begin="00:00:02.280" end="00:00:07.049" style="s2">this video we are gonna do a Q&amp;A last</p>
+<p begin="00:00:04.950" end="00:00:08.910" style="s2">week on our YouTube channel and on our</p>
+<p begin="00:00:07.049" end="00:00:10.110" style="s2">Instagram and on our slack channel we</p>
+<p begin="00:00:08.910" end="00:00:12.750" style="s2">announce that we&#39;re going to record this</p>
+<p begin="00:00:10.110" end="00:00:14.820" style="s2">video and we got too many questions so</p>
+<p begin="00:00:12.750" end="00:00:15.150" style="s2">I&#39;m going to try to answer as many as I</p>
+<p begin="00:00:14.820" end="00:00:18.150" style="s2">can</p>
+<p begin="00:00:15.150" end="00:00:20.520" style="s2">let&#39;s get started so my daily routine</p>
+<p begin="00:00:18.150" end="00:00:23.340" style="s2">before corner and after Corona changed</p>
+<p begin="00:00:20.520" end="00:00:26.189" style="s2">so now that is corona time I just wake</p>
+<p begin="00:00:23.340" end="00:00:28.109" style="s2">up walk this dog over here and then come</p>
+<p begin="00:00:26.189" end="00:00:30.660" style="s2">back home and literally work all the way</p>
+<p begin="00:00:28.109" end="00:00:33.090" style="s2">until the afternoon I eat one time per</p>
+<p begin="00:00:30.660" end="00:00:34.950" style="s2">day so I use cook dinner at night and</p>
+<p begin="00:00:33.090" end="00:00:37.050" style="s2">then I walk the dog again at night and</p>
+<p begin="00:00:34.950" end="00:00:39.510" style="s2">that&#39;s it I don&#39;t really have a hobby</p>
+<p begin="00:00:37.050" end="00:00:41.340" style="s2">apart from reading books I really like</p>
+<p begin="00:00:39.510" end="00:00:43.680" style="s2">reading books nowadays and also I enjoy</p>
+<p begin="00:00:41.340" end="00:00:45.480" style="s2">watching like really good movies I&#39;m not</p>
+<p begin="00:00:43.680" end="00:00:47.370" style="s2">so into serious but I&#39;d really like</p>
+<p begin="00:00:45.480" end="00:00:49.440" style="s2">cinema I have never been good at</p>
+<p begin="00:00:47.370" end="00:00:50.910" style="s2">mathematics at all I think the most</p>
+<p begin="00:00:49.440" end="00:00:52.500" style="s2">memorable project is the one I&#39;m</p>
+<p begin="00:00:50.910" end="00:00:54.539" style="s2">currently working on right now which is</p>
+<p begin="00:00:52.500" end="00:00:57.390" style="s2">I&#39;m trying to just make the whole</p>
+<p begin="00:00:54.539" end="00:01:00.090" style="s2">website of the academy of normal colors</p>
+<p begin="00:00:57.390" end="00:01:01.590" style="s2">again from zero and also I&#39;m gonna make</p>
+<p begin="00:01:00.090" end="00:01:03.030" style="s2">the new challenges and maybe a mobile</p>
+<p begin="00:01:01.590" end="00:01:05.010" style="s2">applications and that&#39;s a pretty big</p>
+<p begin="00:01:03.030" end="00:01:07.680" style="s2">massive project that I&#39;m very excited</p>
+<p begin="00:01:05.010" end="00:01:09.180" style="s2">about Papago because I need to translate</p>
+<p begin="00:01:07.680" end="00:01:13.110" style="s2">many things when I live when I when I</p>
+<p begin="00:01:09.180" end="00:01:14.850" style="s2">see Korean text-heavy that&#39;d be okay</p>
+<p begin="00:01:13.110" end="00:01:17.009" style="s2">people ask me this question a lot like</p>
+<p begin="00:01:14.850" end="00:01:19.560" style="s2">why do I say Anya has a gyro or why I&#39;d</p>
+<p begin="00:01:17.009" end="00:01:21.180" style="s2">say kimchi or why am I in Korea well the</p>
+<p begin="00:01:19.560" end="00:01:23.820" style="s2">answer is that I live in Korea I have a</p>
+<p begin="00:01:21.180" end="00:01:25.320" style="s2">Korean wife and her family is Korean and</p>
+<p begin="00:01:23.820" end="00:01:28.259" style="s2">I love that family and I also have</p>
+<p begin="00:01:25.320" end="00:01:30.630" style="s2">friends in Korea so yes that&#39;s why yes</p>
+<p begin="00:01:28.259" end="00:01:32.460" style="s2">there are many paid courses in my brain</p>
+<p begin="00:01:30.630" end="00:01:35.040" style="s2">coming soon I want to make a surrealist</p>
+<p begin="00:01:32.460" end="00:01:36.450" style="s2">course really where are you going there</p>
+<p begin="00:01:35.040" end="00:01:37.650" style="s2">many coaches I want to make but I just</p>
+<p begin="00:01:36.450" end="00:01:39.840" style="s2">don&#39;t have the time I want to make</p>
+<p begin="00:01:37.650" end="00:01:42.530" style="s2">serverless course I want to make also</p>
+<p begin="00:01:39.840" end="00:01:44.700" style="s2">more go long course I was thinking maybe</p>
+<p begin="00:01:42.530" end="00:01:46.320" style="s2">cloning and like a crypto currency</p>
+<p begin="00:01:44.700" end="00:01:48.960" style="s2">exchange in Golan that&#39;ll be super</p>
+<p begin="00:01:46.320" end="00:01:50.340" style="s2">exciting but yeah there is no time but</p>
+<p begin="00:01:48.960" end="00:01:52.079" style="s2">there are all coming slowly slowly</p>
+<p begin="00:01:50.340" end="00:01:54.630" style="s2">slowly and also have to update many</p>
+<p begin="00:01:52.079" end="00:01:56.939" style="s2">courses so also that thing as well I</p>
+<p begin="00:01:54.630" end="00:01:59.009" style="s2">don&#39;t know what I do I like learning</p>
+<p begin="00:01:56.939" end="00:02:02.070" style="s2">languages so maybe I&#39;ll be speaking many</p>
+<p begin="00:01:59.009" end="00:02:03.509" style="s2">languages but nothing else apart from</p>
+<p begin="00:02:02.070" end="00:02:05.909" style="s2">that I don&#39;t think I can do anything</p>
+<p begin="00:02:03.509" end="00:02:09.179" style="s2">else maybe taking photographs I don&#39;t</p>
+<p begin="00:02:05.909" end="00:02:10.679" style="s2">know okay development wise I really want</p>
+<p begin="00:02:09.179" end="00:02:12.620" style="s2">to finish the project that I&#39;m currently</p>
+<p begin="00:02:10.679" end="00:02:15.019" style="s2">working on which is making the whole</p>
+<p begin="00:02:12.620" end="00:02:18.159" style="s2">nomads coders and lifeWise I really</p>
+<p begin="00:02:15.019" end="00:02:20.510" style="s2">would like to I don&#39;t know become more</p>
+<p begin="00:02:18.159" end="00:02:22.220" style="s2">Korean I would like to be able to</p>
+<p begin="00:02:20.510" end="00:02:23.810" style="s2">understand the culture more I want to be</p>
+<p begin="00:02:22.220" end="00:02:25.549" style="s2">able to speak the language I want to be</p>
+<p begin="00:02:23.810" end="00:02:28.580" style="s2">able to have more Korean friends and</p>
+<p begin="00:02:25.549" end="00:02:35.150" style="s2">have like a normal Korean life sometime</p>
+<p begin="00:02:28.580" end="00:02:37.579" style="s2">that I don&#39;t know anything about coffee</p>
+<p begin="00:02:35.150" end="00:02:40.159" style="s2">whatsoever so I just drink any coffee a</p>
+<p begin="00:02:37.579" end="00:02:42.200" style="s2">favorite game is go stop but I really</p>
+<p begin="00:02:40.159" end="00:02:44.629" style="s2">enjoy playing cost of is really it give</p>
+<p begin="00:02:42.200" end="00:02:46.160" style="s2">me adrenaline rush it&#39;s really fun every</p>
+<p begin="00:02:44.629" end="00:02:48.829" style="s2">day as much as I can</p>
+<p begin="00:02:46.160" end="00:02:49.459" style="s2">correct I don&#39;t think I am going to</p>
+<p begin="00:02:48.829" end="00:02:51.049" style="s2">clean samgyupsal</p>
+<p begin="00:02:49.459" end="00:02:52.640" style="s2">I&#39;m good at eating samgyeopsal if you</p>
+<p begin="00:02:51.049" end="00:02:54.790" style="s2">want to go and have some pizza with me</p>
+<p begin="00:02:52.640" end="00:03:01.760" style="s2">let&#39;s go together</p>
+<p begin="00:02:54.790" end="00:03:04.310" style="s2">Pizza jumpin i deep black I only have</p>
+<p begin="00:03:01.760" end="00:03:05.950" style="s2">black panties yes I was born with long</p>
+<p begin="00:03:04.310" end="00:03:12.500" style="s2">hair you can ask my mom</p>
+<p begin="00:03:05.950" end="00:03:14.799" style="s2">any scratches fine this big lean of</p>
+<p begin="00:03:12.500" end="00:03:14.799" style="s2">course</p>
+<p begin="00:03:14.870" end="00:03:20.599" style="s2">I got a medium I go to Reddit I go to</p>
+<p begin="00:03:18.590" end="00:03:22.580" style="s2">hacker news especially in reddit because</p>
+<p begin="00:03:20.599" end="00:03:24.819" style="s2">there are many subreddits so that means</p>
+<p begin="00:03:22.580" end="00:03:27.440" style="s2">that you can follow JavaScript Python</p>
+<p begin="00:03:24.819" end="00:03:29.540" style="s2">react whatever that is there is where</p>
+<p begin="00:03:27.440" end="00:03:33.890" style="s2">everybody goes to like share anything</p>
+<p begin="00:03:29.540" end="00:03:35.900" style="s2">new in library and you write if you feel</p>
+<p begin="00:03:33.890" end="00:03:38.000" style="s2">overwhelmed with a new take the best</p>
+<p begin="00:03:35.900" end="00:03:39.709" style="s2">thing you can do is to stop learning new</p>
+<p begin="00:03:38.000" end="00:03:43.190" style="s2">tech you don&#39;t have to learn new tech</p>
+<p begin="00:03:39.709" end="00:03:45.500" style="s2">all the time using boring tech most of</p>
+<p begin="00:03:43.190" end="00:03:47.000" style="s2">the time is the best tool for the job so</p>
+<p begin="00:03:45.500" end="00:03:49.519" style="s2">you don&#39;t have to be learned keep on</p>
+<p begin="00:03:47.000" end="00:03:51.230" style="s2">learning many many things and updating</p>
+<p begin="00:03:49.519" end="00:03:53.810" style="s2">and updating you don&#39;t have to you just</p>
+<p begin="00:03:51.230" end="00:03:55.640" style="s2">just look at things for maybe a couple</p>
+<p begin="00:03:53.810" end="00:03:57.470" style="s2">hours look at what they are about but</p>
+<p begin="00:03:55.640" end="00:03:59.780" style="s2">you don&#39;t have to learn them all right</p>
+<p begin="00:03:57.470" end="00:04:00.140" style="s2">just focus on your core what is your</p>
+<p begin="00:03:59.780" end="00:04:01.549" style="s2">core</p>
+<p begin="00:04:00.140" end="00:04:03.200" style="s2">are you a Python developer are you a</p>
+<p begin="00:04:01.549" end="00:04:05.930" style="s2">goal developer are you a Java developer</p>
+<p begin="00:04:03.200" end="00:04:08.450" style="s2">and focus on your core the rest can be</p>
+<p begin="00:04:05.930" end="00:04:10.609" style="s2">on your radar but you should learn</p>
+<p begin="00:04:08.450" end="00:04:13.280" style="s2">everything new that&#39;s just the recipe</p>
+<p begin="00:04:10.609" end="00:04:16.280" style="s2">for Berna there are structures and</p>
+<p begin="00:04:13.280" end="00:04:18.229" style="s2">algorithms are important because be in a</p>
+<p begin="00:04:16.280" end="00:04:20.599" style="s2">programmer and being able to implement</p>
+<p begin="00:04:18.229" end="00:04:24.229" style="s2">your own data structures or being able</p>
+<p begin="00:04:20.599" end="00:04:27.500" style="s2">to be good at logic and algorithms it&#39;s</p>
+<p begin="00:04:24.229" end="00:04:29.450" style="s2">just good gym for your brain so that&#39;s</p>
+<p begin="00:04:27.500" end="00:04:32.630" style="s2">it if you are good at that you are going</p>
+<p begin="00:04:29.450" end="00:04:33.889" style="s2">to solve problems easier also people are</p>
+<p begin="00:04:32.630" end="00:04:35.510" style="s2">obsessed with data structures and</p>
+<p begin="00:04:33.889" end="00:04:37.520" style="s2">algorithms because that&#39;s what some</p>
+<p begin="00:04:35.510" end="00:04:39.530" style="s2">Korean companies ask on their interview</p>
+<p begin="00:04:37.520" end="00:04:41.539" style="s2">which sometimes is good sometimes it&#39;s</p>
+<p begin="00:04:39.530" end="00:04:43.130" style="s2">bad but even if you don&#39;t want to go on</p>
+<p begin="00:04:41.539" end="00:04:45.229" style="s2">an interview there are solution</p>
+<p begin="00:04:43.130" end="00:04:47.000" style="s2">algorithms are good to learn because</p>
+<p begin="00:04:45.229" end="00:04:49.940" style="s2">again they make they keep you&#39;re sharp</p>
+<p begin="00:04:47.000" end="00:04:51.620" style="s2">in your brain no you can be a Android</p>
+<p begin="00:04:49.940" end="00:04:53.780" style="s2">developer without knowing Java that&#39;s</p>
+<p begin="00:04:51.620" end="00:04:57.020" style="s2">what we have coding so going checkout</p>
+<p begin="00:04:53.780" end="00:04:58.789" style="s2">cotton Java the Java domination is</p>
+<p begin="00:04:57.020" end="00:05:06.020" style="s2">coming to an end on Android thankfully</p>
+<p begin="00:04:58.789" end="00:05:12.110" style="s2">right so this is a question gyah what</p>
+<p begin="00:05:06.020" end="00:05:14.120" style="s2">the heck mean this is a question that I</p>
+<p begin="00:05:12.110" end="00:05:16.610" style="s2">get a lot in that the answer is not</p>
+<p begin="00:05:14.120" end="00:05:18.710" style="s2">learn C or learn Python if you want to</p>
+<p begin="00:05:16.610" end="00:05:21.110" style="s2">become a security specialist you need to</p>
+<p begin="00:05:18.710" end="00:05:23.390" style="s2">understand how systems work you need to</p>
+<p begin="00:05:21.110" end="00:05:24.950" style="s2">understand how connections work need to</p>
+<p begin="00:05:23.390" end="00:05:27.229" style="s2">understand how servers work how</p>
+<p begin="00:05:24.950" end="00:05:28.639" style="s2">computers work how ports work you need</p>
+<p begin="00:05:27.229" end="00:05:30.349" style="s2">to understand basically in</p>
+<p begin="00:05:28.639" end="00:05:32.810" style="s2">firm antics like the computer science</p>
+<p begin="00:05:30.349" end="00:05:35.479" style="s2">part I will recommend you to learn Linux</p>
+<p begin="00:05:32.810" end="00:05:37.219" style="s2">become very good at Linux and not Kali</p>
+<p begin="00:05:35.479" end="00:05:38.300" style="s2">Linux but again there&#39;s not one</p>
+<p begin="00:05:37.219" end="00:05:39.499" style="s2">programming language Jesus</p>
+<p begin="00:05:38.300" end="00:05:41.180" style="s2">you could hug with any programming</p>
+<p begin="00:05:39.499" end="00:05:43.969" style="s2">language the point is in turn the</p>
+<p begin="00:05:41.180" end="00:05:46.039" style="s2">standard systems around it this question</p>
+<p begin="00:05:43.969" end="00:05:49.129" style="s2">is very specific like variable names and</p>
+<p begin="00:05:46.039" end="00:05:51.770" style="s2">how to name them but actually what this</p>
+<p begin="00:05:49.129" end="00:05:53.330" style="s2">is about is about software quality so</p>
+<p begin="00:05:51.770" end="00:05:56.150" style="s2">for this I will recommend you a book</p>
+<p begin="00:05:53.330" end="00:05:57.949" style="s2">that is called code complete code</p>
+<p begin="00:05:56.150" end="00:05:59.749" style="s2">complete talks about this talk about</p>
+<p begin="00:05:57.949" end="00:06:02.029" style="s2">software quality how to structure</p>
+<p begin="00:05:59.749" end="00:06:03.740" style="s2">projects how to name classes how to get</p>
+<p begin="00:06:02.029" end="00:06:06.319" style="s2">requirements from the client oh I will</p>
+<p begin="00:06:03.740" end="00:06:08.449" style="s2">100% recommend that book if you are</p>
+<p begin="00:06:06.319" end="00:06:10.370" style="s2">looking to improve your software quality</p>
+<p begin="00:06:08.449" end="00:06:11.689" style="s2">yes you should learn English 100 percent</p>
+<p begin="00:06:10.370" end="00:06:13.490" style="s2">there is no no question about it I</p>
+<p begin="00:06:11.689" end="00:06:15.139" style="s2">English is not my native language but</p>
+<p begin="00:06:13.490" end="00:06:16.639" style="s2">thanks to English I am able to do</p>
+<p begin="00:06:15.139" end="00:06:17.870" style="s2">everything that I&#39;m able to do and I&#39;m</p>
+<p begin="00:06:16.639" end="00:06:20.629" style="s2">able to learn everything that I know</p>
+<p begin="00:06:17.870" end="00:06:22.400" style="s2">because of English so 100 percent go out</p>
+<p begin="00:06:20.629" end="00:06:24.729" style="s2">and learn English I don&#39;t know how you</p>
+<p begin="00:06:22.400" end="00:06:27.710" style="s2">tell if somebody&#39;s feet for programming</p>
+<p begin="00:06:24.729" end="00:06:29.479" style="s2">it&#39;s not about your feet and you are not</p>
+<p begin="00:06:27.710" end="00:06:31.009" style="s2">it&#39;s about more like how do you feel</p>
+<p begin="00:06:29.479" end="00:06:32.870" style="s2">when your program do you feel like it&#39;s</p>
+<p begin="00:06:31.009" end="00:06:35.029" style="s2">your element do you feel passionate</p>
+<p begin="00:06:32.870" end="00:06:37.069" style="s2">about it do you like what you do do you</p>
+<p begin="00:06:35.029" end="00:06:39.349" style="s2">like the result do you like seeing</p>
+<p begin="00:06:37.069" end="00:06:41.120" style="s2">something on the screen are you good at</p>
+<p begin="00:06:39.349" end="00:06:43.279" style="s2">sitting down in a computer for 10 hours</p>
+<p begin="00:06:41.120" end="00:06:45.529" style="s2">every day those sorts of things are</p>
+<p begin="00:06:43.279" end="00:06:47.240" style="s2">better questions to us rather than say</p>
+<p begin="00:06:45.529" end="00:06:49.669" style="s2">are you good at programming or are you</p>
+<p begin="00:06:47.240" end="00:06:51.229" style="s2">fit for programming I think if you don&#39;t</p>
+<p begin="00:06:49.669" end="00:06:53.060" style="s2">want to be replaced yes you need to</p>
+<p begin="00:06:51.229" end="00:06:55.310" style="s2">start a little learn programming a</p>
+<p begin="00:06:53.060" end="00:06:58.490" style="s2">publishing is not enough anymore</p>
+<p begin="00:06:55.310" end="00:07:01.430" style="s2">unfortunately you need to at least be</p>
+<p begin="00:06:58.490" end="00:07:03.199" style="s2">able to know what JavaScript is also</p>
+<p begin="00:07:01.430" end="00:07:04.819" style="s2">it&#39;s a good it&#39;s a good thing to have if</p>
+<p begin="00:07:03.199" end="00:07:06.349" style="s2">you&#39;re a publisher and you know very</p>
+<p begin="00:07:04.819" end="00:07:07.370" style="s2">well CSS and you know how to make</p>
+<p begin="00:07:06.349" end="00:07:09.080" style="s2">beautiful designs</p>
+<p begin="00:07:07.370" end="00:07:10.939" style="s2">if you complement that with JavaScript</p>
+<p begin="00:07:09.080" end="00:07:13.099" style="s2">it&#39;s gonna be amazing you can build</p>
+<p begin="00:07:10.939" end="00:07:15.110" style="s2">beautiful interactive stuff the</p>
+<p begin="00:07:13.099" end="00:07:18.139" style="s2">programming language that you start with</p>
+<p begin="00:07:15.110" end="00:07:21.759" style="s2">does not matter the point is that you</p>
+<p begin="00:07:18.139" end="00:07:24.860" style="s2">should start so that&#39;s what people don&#39;t</p>
+<p begin="00:07:21.759" end="00:07:26.750" style="s2">realize you don&#39;t need to choose the</p>
+<p begin="00:07:24.860" end="00:07:28.490" style="s2">right programming language it is not a</p>
+<p begin="00:07:26.750" end="00:07:30.169" style="s2">marriage you are not gonna get married</p>
+<p begin="00:07:28.490" end="00:07:32.599" style="s2">to that programming language you can</p>
+<p begin="00:07:30.169" end="00:07:34.219" style="s2">learn Python first and then move to C or</p>
+<p begin="00:07:32.599" end="00:07:38.839" style="s2">you can start with rust and then move to</p>
+<p begin="00:07:34.219" end="00:07:40.610" style="s2">go do you don&#39;t need to overthink where</p>
+<p begin="00:07:38.839" end="00:07:41.350" style="s2">to start the point is you need to start</p>
+<p begin="00:07:40.610" end="00:07:43.330" style="s2">have</p>
+<p begin="00:07:41.350" end="00:07:46.170" style="s2">said this the easier programming</p>
+<p begin="00:07:43.330" end="00:07:49.180" style="s2">language to start with is even Python or</p>
+<p begin="00:07:46.170" end="00:07:51.610" style="s2">something more web focused like HTML CSS</p>
+<p begin="00:07:49.180" end="00:07:53.170" style="s2">JavaScript so yeah there&#39;s some</p>
+<p begin="00:07:51.610" end="00:07:54.880" style="s2">programming languages that are easier</p>
+<p begin="00:07:53.170" end="00:07:57.130" style="s2">for beginners I would never make a</p>
+<p begin="00:07:54.880" end="00:07:58.810" style="s2">beginner start with C or I would never</p>
+<p begin="00:07:57.130" end="00:08:00.480" style="s2">make a beginner start with Java that&#39;s</p>
+<p begin="00:07:58.810" end="00:08:02.920" style="s2">too much that&#39;s crazy</p>
+<p begin="00:08:00.480" end="00:08:05.620" style="s2">people ask the question about V J&#39;s</p>
+<p begin="00:08:02.920" end="00:08:07.570" style="s2">versus react listen I&#39;m a react guy my</p>
+<p begin="00:08:05.620" end="00:08:08.950" style="s2">courses aren&#39;t react and I love react</p>
+<p begin="00:08:07.570" end="00:08:11.200" style="s2">and that&#39;s the only thing I learned I</p>
+<p begin="00:08:08.950" end="00:08:14.230" style="s2">did learn of UGS and a look into V J&#39;s</p>
+<p begin="00:08:11.200" end="00:08:16.420" style="s2">but for me react put money on the table</p>
+<p begin="00:08:14.230" end="00:08:18.880" style="s2">many many companies are using react</p>
+<p begin="00:08:16.420" end="00:08:21.490" style="s2">react is powered by Facebook so the</p>
+<p begin="00:08:18.880" end="00:08:24.130" style="s2">community is amazing most of the startup</p>
+<p begin="00:08:21.490" end="00:08:25.960" style="s2">that I follow use react so I don&#39;t know</p>
+<p begin="00:08:24.130" end="00:08:28.540" style="s2">but if I had to choose I will choose to</p>
+<p begin="00:08:25.960" end="00:08:29.980" style="s2">start with react 100% ok many people are</p>
+<p begin="00:08:28.540" end="00:08:31.660" style="s2">not going to like this answer but I</p>
+<p begin="00:08:29.980" end="00:08:33.400" style="s2">prefer mark rather than Windows because</p>
+<p begin="00:08:31.660" end="00:08:34.750" style="s2">of the hardware because of the mouse and</p>
+<p begin="00:08:33.400" end="00:08:37.810" style="s2">because of the console because it&#39;s a</p>
+<p begin="00:08:34.750" end="00:08:39.340" style="s2">UNIX based system now I don&#39;t like Apple</p>
+<p begin="00:08:37.810" end="00:08:41.110" style="s2">as a company because they are doing</p>
+<p begin="00:08:39.340" end="00:08:43.630" style="s2">things that I don&#39;t agree with but</p>
+<p begin="00:08:41.110" end="00:08:46.810" style="s2">hardware wise and software wise and</p>
+<p begin="00:08:43.630" end="00:08:49.000" style="s2">console wise I really think Mac OS is</p>
+<p begin="00:08:46.810" end="00:08:50.680" style="s2">superior to Windows you can do</p>
+<p begin="00:08:49.000" end="00:08:52.210" style="s2">programming with MacBook Air MacBook Air</p>
+<p begin="00:08:50.680" end="00:08:53.500" style="s2">is a good computer I mean you can do</p>
+<p begin="00:08:52.210" end="00:08:56.080" style="s2">programming with slow computers</p>
+<p begin="00:08:53.500" end="00:08:57.790" style="s2">programming is just writing text on a</p>
+<p begin="00:08:56.080" end="00:09:00.010" style="s2">screen so there&#39;s nothing more</p>
+<p begin="00:08:57.790" end="00:09:02.200" style="s2">lightweight than that now the question</p>
+<p begin="00:09:00.010" end="00:09:04.000" style="s2">would be what kind of programming do you</p>
+<p begin="00:09:02.200" end="00:09:06.730" style="s2">want to do do you want to program video</p>
+<p begin="00:09:04.000" end="00:09:08.560" style="s2">games do you want to program iOS and</p>
+<p begin="00:09:06.730" end="00:09:10.360" style="s2">Android applications because if you need</p>
+<p begin="00:09:08.560" end="00:09:12.790" style="s2">one to do those things you&#39;re going to</p>
+<p begin="00:09:10.360" end="00:09:15.130" style="s2">have to run simulators and that&#39;s where</p>
+<p begin="00:09:12.790" end="00:09:16.750" style="s2">your computer will start to sweat if you</p>
+<p begin="00:09:15.130" end="00:09:18.850" style="s2">want to make websites if you want to</p>
+<p begin="00:09:16.750" end="00:09:21.340" style="s2">make backends in front and a MacBook Air</p>
+<p begin="00:09:18.850" end="00:09:24.400" style="s2">is more than perfect to program 13-inch</p>
+<p begin="00:09:21.340" end="00:09:26.530" style="s2">15 inch 17 inch go with the biggest</p>
+<p begin="00:09:24.400" end="00:09:28.480" style="s2">screen you can afford your eyes will</p>
+<p begin="00:09:26.530" end="00:09:31.090" style="s2">appreciate it I&#39;ll have a 15-inch</p>
+<p begin="00:09:28.480" end="00:09:33.400" style="s2">MacBook Pro but also I have a separate</p>
+<p begin="00:09:31.090" end="00:09:34.960" style="s2">display that I use I don&#39;t program on</p>
+<p begin="00:09:33.400" end="00:09:36.790" style="s2">the MacBook Pro only because now it&#39;s</p>
+<p begin="00:09:34.960" end="00:09:38.950" style="s2">too small for my eyes and I love big</p>
+<p begin="00:09:36.790" end="00:09:41.260" style="s2">screens so yeah maybe just a small</p>
+<p begin="00:09:38.950" end="00:09:43.180" style="s2">laptop but buy a big display so you can</p>
+<p begin="00:09:41.260" end="00:09:45.400" style="s2">program and your eyes will appreciate I</p>
+<p begin="00:09:43.180" end="00:09:46.360" style="s2">think to become a good developer you</p>
+<p begin="00:09:45.400" end="00:09:48.280" style="s2">need to be humble</p>
+<p begin="00:09:46.360" end="00:09:49.769" style="s2">always you always need to be learning</p>
+<p begin="00:09:48.280" end="00:09:52.230" style="s2">you should never be</p>
+<p begin="00:09:49.769" end="00:09:54.540" style="s2">that you know you should always be</p>
+<p begin="00:09:52.230" end="00:09:56.399" style="s2">studying you should always listen to</p>
+<p begin="00:09:54.540" end="00:09:58.739" style="s2">feedback and it doesn&#39;t matter if you</p>
+<p begin="00:09:56.399" end="00:10:01.290" style="s2">have 10 years of experience you still</p>
+<p begin="00:09:58.739" end="00:10:03.059" style="s2">can learn from somebody that has six</p>
+<p begin="00:10:01.290" end="00:10:04.589" style="s2">months of experience and I think that&#39;s</p>
+<p begin="00:10:03.059" end="00:10:07.079" style="s2">something that some developers forget</p>
+<p begin="00:10:04.589" end="00:10:09.839" style="s2">they forget that we should all stay with</p>
+<p begin="00:10:07.079" end="00:10:12.149" style="s2">a mindset of beginners we should always</p>
+<p begin="00:10:09.839" end="00:10:14.339" style="s2">ask questions we should always listen</p>
+<p begin="00:10:12.149" end="00:10:15.629" style="s2">listen it doesn&#39;t matter if you have</p>
+<p begin="00:10:14.339" end="00:10:16.980" style="s2">five years of experience ten years of</p>
+<p begin="00:10:15.629" end="00:10:18.749" style="s2">experience whatever it is we should</p>
+<p begin="00:10:16.980" end="00:10:20.699" style="s2">always be students always feel like a</p>
+<p begin="00:10:18.749" end="00:10:23.129" style="s2">newbie and always feel like you don&#39;t</p>
+<p begin="00:10:20.699" end="00:10:25.529" style="s2">know anything and be aware of the amount</p>
+<p begin="00:10:23.129" end="00:10:26.999" style="s2">of things you don&#39;t know that&#39;s very</p>
+<p begin="00:10:25.529" end="00:10:29.759" style="s2">important because that makes you a</p>
+<p begin="00:10:26.999" end="00:10:31.350" style="s2">humble person all right thank you so</p>
+<p begin="00:10:29.759" end="00:10:33.689" style="s2">much for all the comments thank you for</p>
+<p begin="00:10:31.350" end="00:10:35.009" style="s2">the questions I know there are many that</p>
+<p begin="00:10:33.689" end="00:10:36.389" style="s2">I didn&#39;t answer in the video but don&#39;t</p>
+<p begin="00:10:35.009" end="00:10:37.889" style="s2">worry I&#39;m gonna go in the comments and</p>
+<p begin="00:10:36.389" end="00:10:39.839" style="s2">answer them with my keyboard and now I</p>
+<p begin="00:10:37.889" end="00:10:41.879" style="s2">have a question for you my question</p>
+<p begin="00:10:39.839" end="00:10:43.860" style="s2">would be what sort of videos you would</p>
+<p begin="00:10:41.879" end="00:10:45.449" style="s2">like to see on the channel I can talk</p>
+<p begin="00:10:43.860" end="00:10:47.819" style="s2">about almost anything related to</p>
+<p begin="00:10:45.449" end="00:10:50.129" style="s2">computer programming languages advice</p>
+<p begin="00:10:47.819" end="00:10:52.889" style="s2">for programmers freelancing traveling as</p>
+<p begin="00:10:50.129" end="00:10:54.749" style="s2">a programmer hacking anything what do</p>
+<p begin="00:10:52.889" end="00:10:56.579" style="s2">you wanna learn let me know in the</p>
+<p begin="00:10:54.749" end="00:10:57.929" style="s2">comments thank you so much for your love</p>
+<p begin="00:10:56.579" end="00:11:00.569" style="s2">I appreciate it</p>
+<p begin="00:10:57.929" end="00:11:02.279" style="s2">stay safe don&#39;t forget to be happy don&#39;t</p>
+<p begin="00:11:00.569" end="00:11:04.999" style="s2">forget to the kimchi comes Anita Simon</p>
+<p begin="00:11:02.279" end="00:11:04.999" style="s2">hey-oh and bye bye</p>
+</div>
+</body>
+</tt>

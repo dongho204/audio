@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.840" end="00:00:08.460" style="s2">some days ago I received these two text</p>
+<p begin="00:00:05.940" end="00:00:10.500" style="s2">messages they are from okx a</p>
+<p begin="00:00:08.460" end="00:00:13.259" style="s2">cryptocurrency exchange and they are</p>
+<p begin="00:00:10.500" end="00:00:15.420" style="s2">telling me that my account was about to</p>
+<p begin="00:00:13.259" end="00:00:18.539" style="s2">be canceled and I needed to log in to</p>
+<p begin="00:00:15.420" end="00:00:21.060" style="s2">verify myself or I would not be able to</p>
+<p begin="00:00:18.539" end="00:00:23.039" style="s2">withdraw my money I got really worried</p>
+<p begin="00:00:21.060" end="00:00:25.680" style="s2">for a second but then I remembered I</p>
+<p begin="00:00:23.039" end="00:00:28.439" style="s2">don&#39;t have any money in okex because I</p>
+<p begin="00:00:25.680" end="00:00:31.199" style="s2">don&#39;t even have an account this message</p>
+<p begin="00:00:28.439" end="00:00:33.059" style="s2">is of course fake it&#39;s fishing which as</p>
+<p begin="00:00:31.199" end="00:00:35.760" style="s2">you know is a technique that scammers</p>
+<p begin="00:00:33.059" end="00:00:38.399" style="s2">use to steal our passwords they send you</p>
+<p begin="00:00:35.760" end="00:00:40.739" style="s2">a text that looks legit with a message</p>
+<p begin="00:00:38.399" end="00:00:43.320" style="s2">that makes you worried and with a link</p>
+<p begin="00:00:40.739" end="00:00:45.960" style="s2">to the page where you can log into your</p>
+<p begin="00:00:43.320" end="00:00:48.780" style="s2">account if you get scared go to the link</p>
+<p begin="00:00:45.960" end="00:00:51.539" style="s2">and login as many people do you will be</p>
+<p begin="00:00:48.780" end="00:00:54.239" style="s2">doing so on a fake website that looks</p>
+<p begin="00:00:51.539" end="00:00:56.520" style="s2">like an exact copy of the legit one both</p>
+<p begin="00:00:54.239" end="00:00:58.980" style="s2">controlled by the attacker who now has</p>
+<p begin="00:00:56.520" end="00:01:01.680" style="s2">your username and password the URL of</p>
+<p begin="00:00:58.980" end="00:01:04.519" style="s2">the website will also be not quite right</p>
+<p begin="00:01:01.680" end="00:01:07.439" style="s2">it might be something like Facebook</p>
+<p begin="00:01:04.519" end="00:01:09.780" style="s2">login.cc people fall for this kind of</p>
+<p begin="00:01:07.439" end="00:01:12.780" style="s2">attack very often and that is why it&#39;s</p>
+<p begin="00:01:09.780" end="00:01:14.700" style="s2">so common So to avoid falling for it if</p>
+<p begin="00:01:12.780" end="00:01:16.740" style="s2">you get a text message via website you</p>
+<p begin="00:01:14.700" end="00:01:19.080" style="s2">use telling you to log in immediately</p>
+<p begin="00:01:16.740" end="00:01:21.299" style="s2">and you don&#39;t know if it&#39;s real or not</p>
+<p begin="00:01:19.080" end="00:01:24.000" style="s2">but still want to check go to your</p>
+<p begin="00:01:21.299" end="00:01:26.220" style="s2">laptop open your browser and type the</p>
+<p begin="00:01:24.000" end="00:01:29.580" style="s2">address of the website manually whatever</p>
+<p begin="00:01:26.220" end="00:01:31.920" style="s2">you do don&#39;t click on the link which is</p>
+<p begin="00:01:29.580" end="00:01:33.720" style="s2">the opposite of what I did I clicked on</p>
+<p begin="00:01:31.920" end="00:01:36.299" style="s2">the link which took me to the scam</p>
+<p begin="00:01:33.720" end="00:01:38.280" style="s2">website that I then proceeded to analyze</p>
+<p begin="00:01:36.299" end="00:01:40.200" style="s2">and that is what this video is about</p>
+<p begin="00:01:38.280" end="00:01:42.119" style="s2">today I would like to show you what I</p>
+<p begin="00:01:40.200" end="00:01:44.939" style="s2">found out about the escam website and</p>
+<p begin="00:01:42.119" end="00:01:47.340" style="s2">who might be behind it as well as how we</p>
+<p begin="00:01:44.939" end="00:01:49.320" style="s2">can take down scam websites to protect</p>
+<p begin="00:01:47.340" end="00:01:51.720" style="s2">people that might click on the link and</p>
+<p begin="00:01:49.320" end="00:01:53.640" style="s2">fall on the track after clicking on the</p>
+<p begin="00:01:51.720" end="00:01:56.460" style="s2">link I was taken to the scam website</p>
+<p begin="00:01:53.640" end="00:01:58.619" style="s2">which really is a copy of the legit okx</p>
+<p begin="00:01:56.460" end="00:02:00.780" style="s2">website with a cookie banner and</p>
+<p begin="00:01:58.619" end="00:02:02.880" style="s2">everything it&#39;s also translated in</p>
+<p begin="00:02:00.780" end="00:02:05.579" style="s2">multiple languages the only difference</p>
+<p begin="00:02:02.880" end="00:02:07.799" style="s2">is that the moment I go to the website a</p>
+<p begin="00:02:05.579" end="00:02:10.259" style="s2">pop-up shows up telling me to log in</p>
+<p begin="00:02:07.799" end="00:02:11.700" style="s2">quickly to secure my account when I do</p>
+<p begin="00:02:10.259" end="00:02:14.160" style="s2">that it takes me to a page where I&#39;m</p>
+<p begin="00:02:11.700" end="00:02:16.680" style="s2">supposed to log in after I write down my</p>
+<p begin="00:02:14.160" end="00:02:19.980" style="s2">username and password and hit enter I</p>
+<p begin="00:02:16.680" end="00:02:22.319" style="s2">get a captcha to solve they really want</p>
+<p begin="00:02:19.980" end="00:02:25.200" style="s2">to look legit they are even pretending</p>
+<p begin="00:02:22.319" end="00:02:27.599" style="s2">to care to check if I am a bot or not</p>
+<p begin="00:02:25.200" end="00:02:29.940" style="s2">before we solve the captcha let&#39;s open</p>
+<p begin="00:02:27.599" end="00:02:32.700" style="s2">our browsers developer tools and go to</p>
+<p begin="00:02:29.940" end="00:02:36.060" style="s2">the network panel there we will filter</p>
+<p begin="00:02:32.700" end="00:02:38.760" style="s2">any requests with the word login after</p>
+<p begin="00:02:36.060" end="00:02:41.459" style="s2">we solve the captcha sure enough our</p>
+<p begin="00:02:38.760" end="00:02:44.700" style="s2">username and password were sent to a</p>
+<p begin="00:02:41.459" end="00:02:46.620" style="s2">server that is not okx.com they even</p>
+<p begin="00:02:44.700" end="00:02:49.800" style="s2">showed me a message saying my password</p>
+<p begin="00:02:46.620" end="00:02:52.019" style="s2">is wrong so I guess after I submit the</p>
+<p begin="00:02:49.800" end="00:02:54.360" style="s2">form on their server they go and check</p>
+<p begin="00:02:52.019" end="00:02:57.060" style="s2">with the real website to see if the</p>
+<p begin="00:02:54.360" end="00:02:59.640" style="s2">information works or it might be that</p>
+<p begin="00:02:57.060" end="00:03:01.560" style="s2">whatever I write does not matter and it</p>
+<p begin="00:02:59.640" end="00:03:03.959" style="s2">will always say a the password is wrong</p>
+<p begin="00:03:01.560" end="00:03:06.480" style="s2">because I was curious about the scam</p>
+<p begin="00:03:03.959" end="00:03:09.360" style="s2">server I tried to send wrong or</p>
+<p begin="00:03:06.480" end="00:03:11.819" style="s2">incomplete requests to it to see what</p>
+<p begin="00:03:09.360" end="00:03:14.280" style="s2">information they were exposing at first</p>
+<p begin="00:03:11.819" end="00:03:16.860" style="s2">I realized I could cause a 500 internal</p>
+<p begin="00:03:14.280" end="00:03:19.260" style="s2">server error but then the server started</p>
+<p begin="00:03:16.860" end="00:03:21.120" style="s2">speaking Chinese which was interesting</p>
+<p begin="00:03:19.260" end="00:03:23.819" style="s2">to see where the server was actually</p>
+<p begin="00:03:21.120" end="00:03:26.340" style="s2">located I went back to the network panel</p>
+<p begin="00:03:23.819" end="00:03:29.459" style="s2">and there on the login request we can</p>
+<p begin="00:03:26.340" end="00:03:31.980" style="s2">clearly see a remote address which is</p>
+<p begin="00:03:29.459" end="00:03:34.140" style="s2">the IP address the server is located at</p>
+<p begin="00:03:31.980" end="00:03:36.840" style="s2">after a quick Google search it turned</p>
+<p begin="00:03:34.140" end="00:03:40.200" style="s2">out that the IP of the scam server was</p>
+<p begin="00:03:36.840" end="00:03:41.879" style="s2">located in North Korea since I don&#39;t</p>
+<p begin="00:03:40.200" end="00:03:45.239" style="s2">know the email address to report has</p>
+<p begin="00:03:41.879" end="00:03:47.459" style="s2">come website in bukhan AKA North Korea i</p>
+<p begin="00:03:45.239" end="00:03:49.799" style="s2">instead run a who is search on the</p>
+<p begin="00:03:47.459" end="00:03:52.200" style="s2">people that registered the domain it</p>
+<p begin="00:03:49.799" end="00:03:54.959" style="s2">turns out they use a legit company for</p>
+<p begin="00:03:52.200" end="00:03:57.120" style="s2">this but they paid to have their records</p>
+<p begin="00:03:54.959" end="00:03:58.980" style="s2">private the good news is that this</p>
+<p begin="00:03:57.120" end="00:04:01.019" style="s2">search told us that they used a</p>
+<p begin="00:03:58.980" end="00:04:02.700" style="s2">Singapore company to buy by the domain</p>
+<p begin="00:04:01.019" end="00:04:04.920" style="s2">and we also found out that they are</p>
+<p begin="00:04:02.700" end="00:04:07.560" style="s2">using cloudzer name servers as well</p>
+<p begin="00:04:04.920" end="00:04:10.260" style="s2">domain companies in Claus there both</p>
+<p begin="00:04:07.560" end="00:04:11.879" style="s2">have pages to report abuse instead of</p>
+<p begin="00:04:10.260" end="00:04:14.040" style="s2">wasting time and trying to take this</p>
+<p begin="00:04:11.879" end="00:04:15.900" style="s2">website down by hacking it we can do</p>
+<p begin="00:04:14.040" end="00:04:18.419" style="s2">something more effective and that is</p>
+<p begin="00:04:15.900" end="00:04:20.280" style="s2">killing their domain name which means</p>
+<p begin="00:04:18.419" end="00:04:22.860" style="s2">that those thousands of messages they</p>
+<p begin="00:04:20.280" end="00:04:25.139" style="s2">send to the victims will be useless</p>
+<p begin="00:04:22.860" end="00:04:27.900" style="s2">because if someone clicks on the scam</p>
+<p begin="00:04:25.139" end="00:04:30.120" style="s2">link they will now see a not found error</p>
+<p begin="00:04:27.900" end="00:04:32.820" style="s2">feeling these abuse forms does not take</p>
+<p begin="00:04:30.120" end="00:04:35.280" style="s2">a long time and usually legit companies</p>
+<p begin="00:04:32.820" end="00:04:37.080" style="s2">act very quickly when an abuse report is</p>
+<p begin="00:04:35.280" end="00:04:38.780" style="s2">submitted it shouldn&#39;t take more than a</p>
+<p begin="00:04:37.080" end="00:04:41.520" style="s2">couple of days for the domain to be dead</p>
+<p begin="00:04:38.780" end="00:04:43.680" style="s2">reporting scam websites requires no</p>
+<p begin="00:04:41.520" end="00:04:46.139" style="s2">technical skills so next time that you</p>
+<p begin="00:04:43.680" end="00:04:47.940" style="s2">get a scam text message if you have some</p>
+<p begin="00:04:46.139" end="00:04:50.400" style="s2">time you want to help out click on the</p>
+<p begin="00:04:47.940" end="00:04:53.340" style="s2">link make sure it&#39;s a scam website by</p>
+<p begin="00:04:50.400" end="00:04:55.919" style="s2">looking at the URL go to who that is</p>
+<p begin="00:04:53.340" end="00:04:58.139" style="s2">make a search find the companies and</p>
+<p begin="00:04:55.919" end="00:05:00.720" style="s2">Report The Domain to their abuse page</p>
+<p begin="00:04:58.139" end="00:05:03.180" style="s2">these will be really annoying knowing</p>
+<p begin="00:05:00.720" end="00:05:05.759" style="s2">for the scammers usually after an abuse</p>
+<p begin="00:05:03.180" end="00:05:07.380" style="s2">report the whole account gets suspended</p>
+<p begin="00:05:05.759" end="00:05:09.840" style="s2">which means that if they are hosting</p>
+<p begin="00:05:07.380" end="00:05:11.880" style="s2">many websites on the same account or if</p>
+<p begin="00:05:09.840" end="00:05:14.220" style="s2">they use the same company for all their</p>
+<p begin="00:05:11.880" end="00:05:16.139" style="s2">domains they will all be taken down</p>
+<p begin="00:05:14.220" end="00:05:18.120" style="s2">thank you for watching this video please</p>
+<p begin="00:05:16.139" end="00:05:20.419" style="s2">leave a like And subscribe and let me</p>
+<p begin="00:05:18.120" end="00:05:24.539" style="s2">know in the comments what is the worst</p>
+<p begin="00:05:20.419" end="00:05:26.639" style="s2">weirdest or funniest scam message you</p>
+<p begin="00:05:24.539" end="00:05:28.020" style="s2">ever got and don&#39;t forget that if you</p>
+<p begin="00:05:26.639" end="00:05:29.820" style="s2">want to learn to code and you want to do</p>
+<p begin="00:05:28.020" end="00:05:32.220" style="s2">it for free with me all you have to do</p>
+<p begin="00:05:29.820" end="00:05:34.860" style="s2">is click the link below and I will see</p>
+<p begin="00:05:32.220" end="00:05:36.419" style="s2">you there thank you for watching take</p>
+<p begin="00:05:34.860" end="00:05:37.500" style="s2">care of one another see you on the next</p>
+<p begin="00:05:36.419" end="00:05:40.400" style="s2">one bye</p>
+<p begin="00:05:37.500" end="00:05:40.400" style="s2">foreign</p>
+</div>
+</body>
+</tt>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.300" end="00:00:08.639" style="s2">welcome to my review of the 16 inch</p>
+<p begin="00:00:05.520" end="00:00:10.800" style="s2">MacBook Pro with the M1 Max chip as you</p>
+<p begin="00:00:08.639" end="00:00:13.380" style="s2">know when Apple announced the new M1</p>
+<p begin="00:00:10.800" end="00:00:15.299" style="s2">MacBooks I didn&#39;t immediately buy one</p>
+<p begin="00:00:13.380" end="00:00:17.279" style="s2">because I always like to wait and see if</p>
+<p begin="00:00:15.299" end="00:00:19.199" style="s2">there is a problem with the new version</p>
+<p begin="00:00:17.279" end="00:00:21.359" style="s2">of anything and I also wanted to wait</p>
+<p begin="00:00:19.199" end="00:00:24.180" style="s2">and see if something more powerful</p>
+<p begin="00:00:21.359" end="00:00:26.279" style="s2">showed up later and I am very very happy</p>
+<p begin="00:00:24.180" end="00:00:28.920" style="s2">I waited because this thing is an</p>
+<p begin="00:00:26.279" end="00:00:30.359" style="s2">absolute Beast I&#39;ve been using this for</p>
+<p begin="00:00:28.920" end="00:00:31.859" style="s2">more than six months now and I want to</p>
+<p begin="00:00:30.359" end="00:00:34.020" style="s2">share with you the good parts the bad</p>
+<p begin="00:00:31.859" end="00:00:36.059" style="s2">parts and who do I think should buy this</p>
+<p begin="00:00:34.020" end="00:00:38.940" style="s2">starting with the good parts the speed</p>
+<p begin="00:00:36.059" end="00:00:40.800" style="s2">on this thing is insane my programs</p>
+<p begin="00:00:38.940" end="00:00:43.800" style="s2">compile two to three times faster</p>
+<p begin="00:00:40.800" end="00:00:45.719" style="s2">compared to the Intel MacBook Pro this</p>
+<p begin="00:00:43.800" end="00:00:47.879" style="s2">really hit me when I was recording the</p>
+<p begin="00:00:45.719" end="00:00:51.600" style="s2">free react native course I was running</p>
+<p begin="00:00:47.879" end="00:00:54.000" style="s2">iOS simulator Android simulator vs code</p>
+<p begin="00:00:51.600" end="00:00:56.100" style="s2">the browser and I was also recording my</p>
+<p begin="00:00:54.000" end="00:00:57.660" style="s2">screen recording the camera and the</p>
+<p begin="00:00:56.100" end="00:01:00.480" style="s2">microphone all those things combined</p>
+<p begin="00:00:57.660" end="00:01:02.579" style="s2">usually the Intel MacBook Pro had</p>
+<p begin="00:01:00.480" end="00:01:05.100" style="s2">problems with this it became very warm</p>
+<p begin="00:01:02.579" end="00:01:07.080" style="s2">the fan became very noisy and the cleats</p>
+<p begin="00:01:05.100" end="00:01:08.400" style="s2">weren&#39;t Snappy it was very laggy now</p>
+<p begin="00:01:07.080" end="00:01:10.320" style="s2">nothing really crashed and nothing</p>
+<p begin="00:01:08.400" end="00:01:12.360" style="s2">really stopped working but it was laggy</p>
+<p begin="00:01:10.320" end="00:01:14.939" style="s2">it was just slow sometimes they even the</p>
+<p begin="00:01:12.360" end="00:01:17.880" style="s2">video quality dropped now compare that</p>
+<p begin="00:01:14.939" end="00:01:18.780" style="s2">with this thing right here this the M1</p>
+<p begin="00:01:17.880" end="00:01:21.600" style="s2">Max</p>
+<p begin="00:01:18.780" end="00:01:24.180" style="s2">crazy insane I can run the i o simulator</p>
+<p begin="00:01:21.600" end="00:01:25.860" style="s2">Android simulator browser vs code record</p>
+<p begin="00:01:24.180" end="00:01:28.439" style="s2">my camera record my screen recording</p>
+<p begin="00:01:25.860" end="00:01:30.780" style="s2">audio all those things is like if it</p>
+<p begin="00:01:28.439" end="00:01:33.900" style="s2">wasn&#39;t doing any work at all I can</p>
+<p begin="00:01:30.780" end="00:01:36.240" style="s2">barely hear the fan it doesn&#39;t get warm</p>
+<p begin="00:01:33.900" end="00:01:38.280" style="s2">it&#39;s crazy it the clicks are still</p>
+<p begin="00:01:36.240" end="00:01:41.040" style="s2">Snappy the video quality is great it&#39;s</p>
+<p begin="00:01:38.280" end="00:01:42.479" style="s2">unbelievable how good this thing is the</p>
+<p begin="00:01:41.040" end="00:01:43.860" style="s2">thing that impressed me the most and the</p>
+<p begin="00:01:42.479" end="00:01:46.259" style="s2">thing that I love the most about this</p>
+<p begin="00:01:43.860" end="00:01:48.299" style="s2">laptop isn&#39;t actually the speed because</p>
+<p begin="00:01:46.259" end="00:01:50.880" style="s2">we all knew that M1 was faster than</p>
+<p begin="00:01:48.299" end="00:01:53.280" style="s2">Intel now the thing that I really really</p>
+<p begin="00:01:50.880" end="00:01:57.719" style="s2">didn&#39;t expect but I absolutely love is</p>
+<p begin="00:01:53.280" end="00:01:59.820" style="s2">the battery life it lasts so long it&#39;s</p>
+<p begin="00:01:57.719" end="00:02:02.040" style="s2">crazy when I&#39;m doing any programming</p>
+<p begin="00:01:59.820" end="00:02:04.439" style="s2">related tasks it can last for the whole</p>
+<p begin="00:02:02.040" end="00:02:07.740" style="s2">day not even going down to the 70</p>
+<p begin="00:02:04.439" end="00:02:09.539" style="s2">percent it&#39;s crazy there was a day when</p>
+<p begin="00:02:07.740" end="00:02:11.160" style="s2">I first noticed this when I didn&#39;t want</p>
+<p begin="00:02:09.539" end="00:02:13.500" style="s2">to work on my desk and instead I want to</p>
+<p begin="00:02:11.160" end="00:02:16.440" style="s2">work on my sofa so I charged the laptop</p>
+<p begin="00:02:13.500" end="00:02:18.420" style="s2">800 and went and worked on the sofa for</p>
+<p begin="00:02:16.440" end="00:02:20.520" style="s2">the whole day at least six to seven</p>
+<p begin="00:02:18.420" end="00:02:23.220" style="s2">hours I was doing Docker I was running</p>
+<p begin="00:02:20.520" end="00:02:24.840" style="s2">vs code I was compiling some stuff I was</p>
+<p begin="00:02:23.220" end="00:02:26.400" style="s2">also running the browser watching some</p>
+<p begin="00:02:24.840" end="00:02:28.020" style="s2">video so video playback and I was</p>
+<p begin="00:02:26.400" end="00:02:29.459" style="s2">running some electron applications that</p>
+<p begin="00:02:28.020" end="00:02:31.200" style="s2">as we know electron takes a lot of</p>
+<p begin="00:02:29.459" end="00:02:34.620" style="s2">memory and Battery like for example</p>
+<p begin="00:02:31.200" end="00:02:37.800" style="s2">slack and maybe figma or Spotify now</p>
+<p begin="00:02:34.620" end="00:02:40.319" style="s2">after six seven hours of this I looked</p>
+<p begin="00:02:37.800" end="00:02:43.920" style="s2">at the battery and I see that it was in</p>
+<p begin="00:02:40.319" end="00:02:46.680" style="s2">the high 60 almost 70 something percent</p>
+<p begin="00:02:43.920" end="00:02:49.620" style="s2">and that was after six seven or even</p>
+<p begin="00:02:46.680" end="00:02:52.680" style="s2">eight hours of work it didn&#39;t drop that</p>
+<p begin="00:02:49.620" end="00:02:56.099" style="s2">much I was so so surprised if that was</p>
+<p begin="00:02:52.680" end="00:02:57.599" style="s2">my Intel MacBook Pro I am sure the</p>
+<p begin="00:02:56.099" end="00:02:59.760" style="s2">battery wouldn&#39;t have lost that much or</p>
+<p begin="00:02:57.599" end="00:03:02.220" style="s2">at least it will be in the low 20s or</p>
+<p begin="00:02:59.760" end="00:03:03.420" style="s2">the low 10 percent now of course we</p>
+<p begin="00:03:02.220" end="00:03:06.000" style="s2">could say that this is because the</p>
+<p begin="00:03:03.420" end="00:03:07.980" style="s2">battery as well is new this is true the</p>
+<p begin="00:03:06.000" end="00:03:09.780" style="s2">internet good Pro doesn&#39;t have a new</p>
+<p begin="00:03:07.980" end="00:03:12.420" style="s2">battery so that&#39;s also something to</p>
+<p begin="00:03:09.780" end="00:03:15.180" style="s2">consider but still I can really feel how</p>
+<p begin="00:03:12.420" end="00:03:16.980" style="s2">having the M1 Max chip is better for</p>
+<p begin="00:03:15.180" end="00:03:19.620" style="s2">Apple because now they can optimize so</p>
+<p begin="00:03:16.980" end="00:03:22.920" style="s2">much that they require less power it&#39;s</p>
+<p begin="00:03:19.620" end="00:03:24.599" style="s2">insane onto the bad parts now I don&#39;t</p>
+<p begin="00:03:22.920" end="00:03:27.420" style="s2">really have anything bad to say about</p>
+<p begin="00:03:24.599" end="00:03:29.580" style="s2">the hardware of this laptop it&#39;s good</p>
+<p begin="00:03:27.420" end="00:03:32.280" style="s2">quality Apple builds good quality stuff</p>
+<p begin="00:03:29.580" end="00:03:35.940" style="s2">but what I have to say is that I found</p>
+<p begin="00:03:32.280" end="00:03:38.280" style="s2">some software crashing a lot sometimes</p>
+<p begin="00:03:35.940" end="00:03:39.840" style="s2">um yeah just crashed in the M1 just</p>
+<p begin="00:03:38.280" end="00:03:42.720" style="s2">things just crashed it crashed more</p>
+<p begin="00:03:39.840" end="00:03:44.640" style="s2">often than on the Intel MacBook Pro but</p>
+<p begin="00:03:42.720" end="00:03:46.560" style="s2">I have to say that it is getting better</p>
+<p begin="00:03:44.640" end="00:03:48.840" style="s2">these are just bugs and developers are</p>
+<p begin="00:03:46.560" end="00:03:51.120" style="s2">going to fix the box as the time passes</p>
+<p begin="00:03:48.840" end="00:03:53.580" style="s2">for example when I started using this</p>
+<p begin="00:03:51.120" end="00:03:55.920" style="s2">the first time for I think two weeks</p>
+<p begin="00:03:53.580" end="00:03:57.780" style="s2">Brave browser crashed at least once a</p>
+<p begin="00:03:55.920" end="00:03:58.980" style="s2">day it was really really annoying of</p>
+<p begin="00:03:57.780" end="00:04:00.239" style="s2">course it wasn&#39;t happening on the</p>
+<p begin="00:03:58.980" end="00:04:03.000" style="s2">internet it was something very specific</p>
+<p begin="00:04:00.239" end="00:04:04.799" style="s2">to the M1 but now it&#39;s fine so it&#39;s just</p>
+<p begin="00:04:03.000" end="00:04:07.860" style="s2">as time passes things just get better</p>
+<p begin="00:04:04.799" end="00:04:10.379" style="s2">with tech what really annoyed me was how</p>
+<p begin="00:04:07.860" end="00:04:12.900" style="s2">long it took me to get like my Dev setup</p>
+<p begin="00:04:10.379" end="00:04:15.000" style="s2">ready like in the Intel it didn&#39;t take</p>
+<p begin="00:04:12.900" end="00:04:18.000" style="s2">me that long to get my compilers my</p>
+<p begin="00:04:15.000" end="00:04:20.880" style="s2">simulators my virtual machines ready in</p>
+<p begin="00:04:18.000" end="00:04:22.979" style="s2">the M1 Book Pro it took me longer some</p>
+<p begin="00:04:20.880" end="00:04:25.080" style="s2">things like some python stuff it wasn&#39;t</p>
+<p begin="00:04:22.979" end="00:04:27.120" style="s2">able to be installed it just wouldn&#39;t</p>
+<p begin="00:04:25.080" end="00:04:28.860" style="s2">work so I had to use Docker for that it</p>
+<p begin="00:04:27.120" end="00:04:30.720" style="s2">was kind of annoying but it&#39;s not a big</p>
+<p begin="00:04:28.860" end="00:04:32.880" style="s2">deal and again it might get better with</p>
+<p begin="00:04:30.720" end="00:04:34.979" style="s2">time as people Port their libraries and</p>
+<p begin="00:04:32.880" end="00:04:36.419" style="s2">their software to the M1 chips another</p>
+<p begin="00:04:34.979" end="00:04:38.220" style="s2">cool thing about this laptop is of</p>
+<p begin="00:04:36.419" end="00:04:40.380" style="s2">course how many ports it has it doesn&#39;t</p>
+<p begin="00:04:38.220" end="00:04:43.020" style="s2">have a useless touch bar and the</p>
+<p begin="00:04:40.380" end="00:04:44.639" style="s2">keyboard is really really good but this</p>
+<p begin="00:04:43.020" end="00:04:47.280" style="s2">is not something to celebrate this</p>
+<p begin="00:04:44.639" end="00:04:49.680" style="s2">should be the minimum requirement for a</p>
+<p begin="00:04:47.280" end="00:04:51.540" style="s2">laptop with this price tag the reason</p>
+<p begin="00:04:49.680" end="00:04:53.280" style="s2">why I&#39;m happy about all the ports and</p>
+<p begin="00:04:51.540" end="00:04:56.460" style="s2">the keyboard and everything is because I</p>
+<p begin="00:04:53.280" end="00:04:58.680" style="s2">had to buy the 2016 Intel MacBook Pro</p>
+<p begin="00:04:56.460" end="00:05:01.080" style="s2">which was garbage personally it didn&#39;t</p>
+<p begin="00:04:58.680" end="00:05:03.000" style="s2">have ports the keyword was really bad it</p>
+<p begin="00:05:01.080" end="00:05:04.680" style="s2">had a really useless touch bar so now</p>
+<p begin="00:05:03.000" end="00:05:06.240" style="s2">I&#39;m glad we went back to the bare</p>
+<p begin="00:05:04.680" end="00:05:07.500" style="s2">minimum so I&#39;m gonna celebrate that I&#39;m</p>
+<p begin="00:05:06.240" end="00:05:09.180" style="s2">not going to compliment apple on that</p>
+<p begin="00:05:07.500" end="00:05:11.100" style="s2">it&#39;s not Innovation it&#39;s the bare</p>
+<p begin="00:05:09.180" end="00:05:13.800" style="s2">minimum for something with this price</p>
+<p begin="00:05:11.100" end="00:05:17.340" style="s2">tag so now the last question is who do I</p>
+<p begin="00:05:13.800" end="00:05:18.479" style="s2">think should buy this machine who is the</p>
+<p begin="00:05:17.340" end="00:05:21.780" style="s2">target audience for this and I</p>
+<p begin="00:05:18.479" end="00:05:23.699" style="s2">personally think that developers are not</p>
+<p begin="00:05:21.780" end="00:05:26.160" style="s2">the target audience for this machine</p>
+<p begin="00:05:23.699" end="00:05:28.080" style="s2">this is way too powerful I think this is</p>
+<p begin="00:05:26.160" end="00:05:30.419" style="s2">going to shine in the hands of an</p>
+<p begin="00:05:28.080" end="00:05:32.280" style="s2">architect that has to do 3D renders or</p>
+<p begin="00:05:30.419" end="00:05:35.100" style="s2">maybe maybe a developer working with</p>
+<p begin="00:05:32.280" end="00:05:37.860" style="s2">Unreal Engine having to load very heavy</p>
+<p begin="00:05:35.100" end="00:05:40.320" style="s2">3D scenes maybe somebody doing a lot of</p>
+<p begin="00:05:37.860" end="00:05:43.199" style="s2">graphic design with blender or I don&#39;t</p>
+<p begin="00:05:40.320" end="00:05:45.120" style="s2">know some really heavy graphic stuff I</p>
+<p begin="00:05:43.199" end="00:05:47.220" style="s2">don&#39;t think that developers need all</p>
+<p begin="00:05:45.120" end="00:05:49.500" style="s2">this power maybe the battery life is</p>
+<p begin="00:05:47.220" end="00:05:51.600" style="s2">amazing that is for sure but it&#39;s very</p>
+<p begin="00:05:49.500" end="00:05:53.880" style="s2">expensive and the power is not something</p>
+<p begin="00:05:51.600" end="00:05:55.319" style="s2">that developers can really harness in a</p>
+<p begin="00:05:53.880" end="00:05:57.600" style="s2">way I think if we&#39;re just doing</p>
+<p begin="00:05:55.319" end="00:05:59.699" style="s2">programming tasks like writing code</p>
+<p begin="00:05:57.600" end="00:06:02.759" style="s2">compiling stuff installing some packages</p>
+<p begin="00:05:59.699" end="00:06:03.900" style="s2">browsing the web and watching videos I</p>
+<p begin="00:06:02.759" end="00:06:05.580" style="s2">don&#39;t really think</p>
+<p begin="00:06:03.900" end="00:06:08.940" style="s2">we need something like this personally</p>
+<p begin="00:06:05.580" end="00:06:11.400" style="s2">personally if I didn&#39;t make courses if I</p>
+<p begin="00:06:08.940" end="00:06:12.960" style="s2">didn&#39;t render videos and edit videos and</p>
+<p begin="00:06:11.400" end="00:06:14.639" style="s2">do all those things I don&#39;t think I</p>
+<p begin="00:06:12.960" end="00:06:16.979" style="s2">would have bought this or at least I</p>
+<p begin="00:06:14.639" end="00:06:18.840" style="s2">wouldn&#39;t have maxed it out as much as I</p>
+<p begin="00:06:16.979" end="00:06:20.460" style="s2">did but that&#39;s just what I think if you</p>
+<p begin="00:06:18.840" end="00:06:22.139" style="s2">have the money and you want to Splash on</p>
+<p begin="00:06:20.460" end="00:06:23.880" style="s2">something like this then of course go</p>
+<p begin="00:06:22.139" end="00:06:25.979" style="s2">ahead it is a good machine it is</p>
+<p begin="00:06:23.880" end="00:06:28.860" style="s2">incredibly fast and the battery is</p>
+<p begin="00:06:25.979" end="00:06:30.120" style="s2">amazing and also if you are curious and</p>
+<p begin="00:06:28.860" end="00:06:31.500" style="s2">you want to check out the courses that I</p>
+<p begin="00:06:30.120" end="00:06:33.300" style="s2">recorded on this machine and on the</p>
+<p begin="00:06:31.500" end="00:06:35.220" style="s2">Intel machine then please click the link</p>
+<p begin="00:06:33.300" end="00:06:38.280" style="s2">below because there you will find free</p>
+<p begin="00:06:35.220" end="00:06:41.160" style="s2">courses on JavaScript python go react</p>
+<p begin="00:06:38.280" end="00:06:43.680" style="s2">react native redox graphql Apollo</p>
+<p begin="00:06:41.160" end="00:06:45.720" style="s2">nesters next year is among many other</p>
+<p begin="00:06:43.680" end="00:06:47.280" style="s2">things thank you as always for watching</p>
+<p begin="00:06:45.720" end="00:06:49.319" style="s2">let me know what you think about my</p>
+<p begin="00:06:47.280" end="00:06:51.120" style="s2">review this is the first time I do any</p>
+<p begin="00:06:49.319" end="00:06:52.680" style="s2">sort of tech review in this channel so I</p>
+<p begin="00:06:51.120" end="00:06:54.000" style="s2">apologize if it&#39;s not what you were</p>
+<p begin="00:06:52.680" end="00:06:55.860" style="s2">expecting I don&#39;t know how to do reviews</p>
+<p begin="00:06:54.000" end="00:06:58.560" style="s2">and I don&#39;t watch review channels so</p>
+<p begin="00:06:55.860" end="00:07:00.240" style="s2">this is as good as it gets let me know</p>
+<p begin="00:06:58.560" end="00:07:01.740" style="s2">in the comments also if you purchase one</p>
+<p begin="00:07:00.240" end="00:07:03.180" style="s2">of these are you happy with it are you</p>
+<p begin="00:07:01.740" end="00:07:05.099" style="s2">gonna take it back what do you think</p>
+<p begin="00:07:03.180" end="00:07:07.139" style="s2">about the other ones the you buy the M2</p>
+<p begin="00:07:05.099" end="00:07:08.699" style="s2">should we buy them too because I&#39;ve seen</p>
+<p begin="00:07:07.139" end="00:07:09.720" style="s2">some people having problems with it let</p>
+<p begin="00:07:08.699" end="00:07:11.460" style="s2">me know in the comments I&#39;m going to be</p>
+<p begin="00:07:09.720" end="00:07:14.240" style="s2">looking at them right now as always stay</p>
+<p begin="00:07:11.460" end="00:07:14.240" style="s2">free stay happy</p>
+</div>
+</body>
+</tt>

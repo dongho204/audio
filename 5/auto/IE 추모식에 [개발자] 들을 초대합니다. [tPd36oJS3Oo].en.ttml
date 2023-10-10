@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:03.439" end="00:00:10.480" style="s2">welcome to the internet explorer is that</p>
+<p begin="00:00:06.720" end="00:00:13.120" style="s2">party a 27 years old internet explorer</p>
+<p begin="00:00:10.480" end="00:00:15.599" style="s2">is finally retiring and its final</p>
+<p begin="00:00:13.120" end="00:00:18.160" style="s2">resting place can be found here in south</p>
+<p begin="00:00:15.599" end="00:00:20.720" style="s2">korea as it says on the gravestone made</p>
+<p begin="00:00:18.160" end="00:00:23.199" style="s2">by a south korean developer internet</p>
+<p begin="00:00:20.720" end="00:00:26.080" style="s2">explorer will be remembered by the best</p>
+<p begin="00:00:23.199" end="00:00:28.080" style="s2">tool to download other browsers to</p>
+<p begin="00:00:26.080" end="00:00:29.760" style="s2">celebrate the retirement of internet</p>
+<p begin="00:00:28.080" end="00:00:32.160" style="s2">explorer on today&#39;s video we are going</p>
+<p begin="00:00:29.760" end="00:00:34.480" style="s2">to take a look at some browsers that are</p>
+<p begin="00:00:32.160" end="00:00:37.680" style="s2">not internet explorer and that many of</p>
+<p begin="00:00:34.480" end="00:00:39.280" style="s2">you might have not heard of until today</p>
+<p begin="00:00:37.680" end="00:00:42.160" style="s2">we&#39;re going to look at browsers made</p>
+<p begin="00:00:39.280" end="00:00:44.480" style="s2">only for gamers or only for web</p>
+<p begin="00:00:42.160" end="00:00:47.120" style="s2">developers browsers focused only on</p>
+<p begin="00:00:44.480" end="00:00:49.360" style="s2">productivity and even browsers without</p>
+<p begin="00:00:47.120" end="00:00:52.160" style="s2">taps</p>
+<p begin="00:00:49.360" end="00:00:55.039" style="s2">opera gx is a browser made for gamers</p>
+<p begin="00:00:52.160" end="00:00:58.480" style="s2">and is one of the coolest looking</p>
+<p begin="00:00:55.039" end="00:01:01.280" style="s2">browsers i have ever tried it has tons</p>
+<p begin="00:00:58.480" end="00:01:03.520" style="s2">of features built around gaming</p>
+<p begin="00:01:01.280" end="00:01:05.760" style="s2">it comes with something called the gx</p>
+<p begin="00:01:03.520" end="00:01:08.799" style="s2">corner which is a tab where we can find</p>
+<p begin="00:01:05.760" end="00:01:12.720" style="s2">free games games on sale a game release</p>
+<p begin="00:01:08.799" end="00:01:16.320" style="s2">calendar gaming news a new game trailers</p>
+<p begin="00:01:12.720" end="00:01:19.439" style="s2">it lets us limit how much bandwidth cpu</p>
+<p begin="00:01:16.320" end="00:01:21.840" style="s2">and ram the browser can use it has</p>
+<p begin="00:01:19.439" end="00:01:24.479" style="s2">twitch and discord integrated on the</p>
+<p begin="00:01:21.840" end="00:01:27.680" style="s2">sidebar as well as telegram whatsapp and</p>
+<p begin="00:01:24.479" end="00:01:30.159" style="s2">facebook messenger it also has a player</p>
+<p begin="00:01:27.680" end="00:01:32.640" style="s2">tab to connect to apple music spotify</p>
+<p begin="00:01:30.159" end="00:01:34.960" style="s2">and youtube music as well it comes with</p>
+<p begin="00:01:32.640" end="00:01:37.520" style="s2">something called pin boards where we can</p>
+<p begin="00:01:34.960" end="00:01:40.000" style="s2">save organize and share links from all</p>
+<p begin="00:01:37.520" end="00:01:41.840" style="s2">around the web the colors can be</p>
+<p begin="00:01:40.000" end="00:01:44.159" style="s2">customized it has very cool looking</p>
+<p begin="00:01:41.840" end="00:01:46.320" style="s2">things and we can even add sound effects</p>
+<p begin="00:01:44.159" end="00:01:48.960" style="s2">when we type on the keyboard or when our</p>
+<p begin="00:01:46.320" end="00:01:51.920" style="s2">mouse is on top of a button or when we</p>
+<p begin="00:01:48.960" end="00:01:54.640" style="s2">click something and it comes with a vpn</p>
+<p begin="00:01:51.920" end="00:01:56.799" style="s2">and an ad blocker included and because</p>
+<p begin="00:01:54.640" end="00:01:59.040" style="s2">it&#39;s based on chromium you can install</p>
+<p begin="00:01:56.799" end="00:02:01.280" style="s2">any chrome extension like you normally</p>
+<p begin="00:01:59.040" end="00:02:04.320" style="s2">would</p>
+<p begin="00:02:01.280" end="00:02:07.040" style="s2">lte browser is a browser i did not know</p>
+<p begin="00:02:04.320" end="00:02:10.000" style="s2">i needed until i tried it out it&#39;s a</p>
+<p begin="00:02:07.040" end="00:02:12.879" style="s2">browser specifically made to build debug</p>
+<p begin="00:02:10.000" end="00:02:15.680" style="s2">and test mobile websites it allows us to</p>
+<p begin="00:02:12.879" end="00:02:18.720" style="s2">test our website in a variety of devices</p>
+<p begin="00:02:15.680" end="00:02:21.920" style="s2">with different screen sizes from phones</p>
+<p begin="00:02:18.720" end="00:02:24.319" style="s2">to tablets laptops and desktops we can</p>
+<p begin="00:02:21.920" end="00:02:26.879" style="s2">test in two devices at the same time we</p>
+<p begin="00:02:24.319" end="00:02:29.920" style="s2">can add our own devices and we can also</p>
+<p begin="00:02:26.879" end="00:02:32.480" style="s2">record a video of the testing session if</p>
+<p begin="00:02:29.920" end="00:02:34.400" style="s2">we need to when testing in two devices</p>
+<p begin="00:02:32.480" end="00:02:37.120" style="s2">the interactions are synchronized which</p>
+<p begin="00:02:34.400" end="00:02:39.599" style="s2">makes testing so much easier it can also</p>
+<p begin="00:02:37.120" end="00:02:41.599" style="s2">simulate slow connections so we can see</p>
+<p begin="00:02:39.599" end="00:02:44.640" style="s2">how our website will load in a phone</p>
+<p begin="00:02:41.599" end="00:02:47.120" style="s2">with bad internet and it also generates</p>
+<p begin="00:02:44.640" end="00:02:50.160" style="s2">lighthouse performance reports</p>
+<p begin="00:02:47.120" end="00:02:52.720" style="s2">it also allows us to take and edit</p>
+<p begin="00:02:50.160" end="00:02:55.040" style="s2">screenshots of box on our website to</p>
+<p begin="00:02:52.720" end="00:02:56.319" style="s2">share them with our team before we keep</p>
+<p begin="00:02:55.040" end="00:02:58.080" style="s2">going i want to remind you that if you</p>
+<p begin="00:02:56.319" end="00:03:00.480" style="s2">want to learn to code and you want to do</p>
+<p begin="00:02:58.080" end="00:03:02.640" style="s2">it for free with me and in hangul then</p>
+<p begin="00:03:00.480" end="00:03:04.959" style="s2">please click the link below there you</p>
+<p begin="00:03:02.640" end="00:03:06.879" style="s2">will find free courses on many many</p>
+<p begin="00:03:04.959" end="00:03:10.159" style="s2">things from javascript to react react</p>
+<p begin="00:03:06.879" end="00:03:12.400" style="s2">native go python redox graphql many many</p>
+<p begin="00:03:10.159" end="00:03:15.680" style="s2">things for free with me click the link</p>
+<p begin="00:03:12.400" end="00:03:18.080" style="s2">below and i will see you there</p>
+<p begin="00:03:15.680" end="00:03:20.800" style="s2">firefox developer edition is also a</p>
+<p begin="00:03:18.080" end="00:03:22.319" style="s2">browser targeted towards developers it</p>
+<p begin="00:03:20.800" end="00:03:25.760" style="s2">has the</p>
+<p begin="00:03:22.319" end="00:03:28.319" style="s2">best debugger for css grid i have ever</p>
+<p begin="00:03:25.760" end="00:03:31.440" style="s2">seen it&#39;s absolutely fantastic it&#39;s</p>
+<p begin="00:03:28.319" end="00:03:33.760" style="s2">great it also has a killer font panel</p>
+<p begin="00:03:31.440" end="00:03:37.120" style="s2">that i&#39;m sure many of us have needed</p>
+<p begin="00:03:33.760" end="00:03:40.480" style="s2">before and a very nice css debugger for</p>
+<p begin="00:03:37.120" end="00:03:43.519" style="s2">inactive css code that explains why the</p>
+<p begin="00:03:40.480" end="00:03:45.680" style="s2">css is not being applied to an element</p>
+<p begin="00:03:43.519" end="00:03:47.599" style="s2">it also comes with a world-class</p>
+<p begin="00:03:45.680" end="00:03:51.120" style="s2">javascript debugger that i think</p>
+<p begin="00:03:47.599" end="00:03:53.439" style="s2">deserves its own video</p>
+<p begin="00:03:51.120" end="00:03:56.000" style="s2">sidekiq and sigma os are two browsers</p>
+<p begin="00:03:53.439" end="00:03:58.239" style="s2">that focus on productivity sidekick</p>
+<p begin="00:03:56.000" end="00:04:01.120" style="s2">allows us to install the work apps that</p>
+<p begin="00:03:58.239" end="00:04:03.360" style="s2">we use the most in our sidebar we can</p>
+<p begin="00:04:01.120" end="00:04:06.080" style="s2">also be logged in multiple accounts of</p>
+<p begin="00:04:03.360" end="00:04:08.080" style="s2">the same website at the same time we can</p>
+<p begin="00:04:06.080" end="00:04:10.640" style="s2">use their beautiful search bar to search</p>
+<p begin="00:04:08.080" end="00:04:12.879" style="s2">across apps tabs and our browsing</p>
+<p begin="00:04:10.640" end="00:04:14.959" style="s2">history and something that i think it&#39;s</p>
+<p begin="00:04:12.879" end="00:04:18.000" style="s2">pretty cool is that it allows us to</p>
+<p begin="00:04:14.959" end="00:04:19.840" style="s2">organize our tabs in sessions so we can</p>
+<p begin="00:04:18.000" end="00:04:22.160" style="s2">have a group of tabs that we open when</p>
+<p begin="00:04:19.840" end="00:04:24.240" style="s2">it&#39;s work time other group when we do</p>
+<p begin="00:04:22.160" end="00:04:26.479" style="s2">shopping and other one we want to have</p>
+<p begin="00:04:24.240" end="00:04:28.800" style="s2">fun and we want to kill some time sigma</p>
+<p begin="00:04:26.479" end="00:04:31.120" style="s2">always is very similar to sidekick it</p>
+<p begin="00:04:28.800" end="00:04:33.680" style="s2">has a very nice search bar and it allows</p>
+<p begin="00:04:31.120" end="00:04:36.880" style="s2">you to organize your tabs in workspaces</p>
+<p begin="00:04:33.680" end="00:04:39.759" style="s2">it syncs across multiple devices it also</p>
+<p begin="00:04:36.880" end="00:04:42.720" style="s2">supports a split screen and it has a</p>
+<p begin="00:04:39.759" end="00:04:45.680" style="s2">very cool keyboard shortcuts for even</p>
+<p begin="00:04:42.720" end="00:04:49.040" style="s2">more productivity</p>
+<p begin="00:04:45.680" end="00:04:51.520" style="s2">stack is a very ambitious browser they</p>
+<p begin="00:04:49.040" end="00:04:54.160" style="s2">have a team of 13 people working there</p>
+<p begin="00:04:51.520" end="00:04:57.759" style="s2">and they raised more than 2 million</p>
+<p begin="00:04:54.160" end="00:05:00.400" style="s2">dollars stack does not have tabs instead</p>
+<p begin="00:04:57.759" end="00:05:02.560" style="s2">websites are open next to each other in</p>
+<p begin="00:05:00.400" end="00:05:04.960" style="s2">cards you can make groups of cards for</p>
+<p begin="00:05:02.560" end="00:05:06.800" style="s2">different moments in your day for work</p>
+<p begin="00:05:04.960" end="00:05:09.360" style="s2">you can create a stack that has your</p>
+<p begin="00:05:06.800" end="00:05:12.000" style="s2">email your calendar and slack next to</p>
+<p begin="00:05:09.360" end="00:05:13.840" style="s2">each other or for study you can create a</p>
+<p begin="00:05:12.000" end="00:05:16.560" style="s2">stack that has youtube and notion</p>
+<p begin="00:05:13.840" end="00:05:18.720" style="s2">together all these browsers sidekiq</p>
+<p begin="00:05:16.560" end="00:05:21.280" style="s2">sigma os and stack have something in</p>
+<p begin="00:05:18.720" end="00:05:24.080" style="s2">common and that is that they are free up</p>
+<p begin="00:05:21.280" end="00:05:27.120" style="s2">to a point if you want to have more</p>
+<p begin="00:05:24.080" end="00:05:29.520" style="s2">workspaces or sync across devices or add</p>
+<p begin="00:05:27.120" end="00:05:32.400" style="s2">more apps to your sidebar you&#39;re going</p>
+<p begin="00:05:29.520" end="00:05:34.479" style="s2">to have to pay around eight dollars per</p>
+<p begin="00:05:32.400" end="00:05:35.840" style="s2">month</p>
+<p begin="00:05:34.479" end="00:05:38.160" style="s2">but now there&#39;s something i would like</p>
+<p begin="00:05:35.840" end="00:05:40.479" style="s2">to know and that is from today&#39;s video</p>
+<p begin="00:05:38.160" end="00:05:42.479" style="s2">which browser picked your interest the</p>
+<p begin="00:05:40.479" end="00:05:45.360" style="s2">most which one are you going to download</p>
+<p begin="00:05:42.479" end="00:05:48.160" style="s2">which one are you going to test and also</p>
+<p begin="00:05:45.360" end="00:05:50.240" style="s2">would you pay for a browser because we</p>
+<p begin="00:05:48.160" end="00:05:51.919" style="s2">are used to using browsers for free</p>
+<p begin="00:05:50.240" end="00:05:54.240" style="s2">brave browser google chrome neighbor</p>
+<p begin="00:05:51.919" end="00:05:56.080" style="s2">whale but maybe we should pay for a</p>
+<p begin="00:05:54.240" end="00:05:57.600" style="s2">browser because if we don&#39;t pay for</p>
+<p begin="00:05:56.080" end="00:05:59.919" style="s2">something with money we&#39;re paying for</p>
+<p begin="00:05:57.600" end="00:06:01.759" style="s2">something with our data so let me know</p>
+<p begin="00:05:59.919" end="00:06:04.240" style="s2">what do you think in the comments for me</p>
+<p begin="00:06:01.759" end="00:06:06.080" style="s2">personally i really like the lte browser</p>
+<p begin="00:06:04.240" end="00:06:09.039" style="s2">i have been using it for a while and</p>
+<p begin="00:06:06.080" end="00:06:12.400" style="s2">it&#39;s great to test browsers in every</p>
+<p begin="00:06:09.039" end="00:06:14.880" style="s2">mobile device is just amazing and also</p>
+<p begin="00:06:12.400" end="00:06:16.800" style="s2">the opera gaming one it looks super</p>
+<p begin="00:06:14.880" end="00:06:18.240" style="s2">super sweet let me know the answer to</p>
+<p begin="00:06:16.800" end="00:06:20.000" style="s2">these questions in the comments i&#39;m</p>
+<p begin="00:06:18.240" end="00:06:21.759" style="s2">gonna be looking at them right now thank</p>
+<p begin="00:06:20.000" end="00:06:23.120" style="s2">you as always for watching if you like</p>
+<p begin="00:06:21.759" end="00:06:24.800" style="s2">this channel if you want to support the</p>
+<p begin="00:06:23.120" end="00:06:26.720" style="s2">content please leave a like and</p>
+<p begin="00:06:24.800" end="00:06:28.960" style="s2">subscribe it&#39;s two links is for free for</p>
+<p begin="00:06:26.720" end="00:06:30.720" style="s2">you but it helps us a lot thank you so</p>
+<p begin="00:06:28.960" end="00:06:33.039" style="s2">much for watching stay free stay happy</p>
+<p begin="00:06:30.720" end="00:06:36.759" style="s2">eat kimchi i&#39;m samidah salaam heyo see</p>
+<p begin="00:06:33.039" end="00:06:36.759" style="s2">you on the next one bye</p>
+</div>
+</body>
+</tt>

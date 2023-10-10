@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.060" end="00:00:06.779" style="s2">because it&#39;s Christmas today we&#39;re going</p>
+<p begin="00:00:04.799" end="00:00:09.720" style="s2">to learn how you can add a snowfall</p>
+<p begin="00:00:06.779" end="00:00:11.700" style="s2">animation to your website using CSS and</p>
+<p begin="00:00:09.720" end="00:00:13.799" style="s2">a little bit of JavaScript first what we</p>
+<p begin="00:00:11.700" end="00:00:17.520" style="s2">are going to do in our HTML is to create</p>
+<p begin="00:00:13.799" end="00:00:19.859" style="s2">a div with a snowflake class on a</p>
+<p begin="00:00:17.520" end="00:00:23.039" style="s2">style we&#39;re going to style our snowflake</p>
+<p begin="00:00:19.859" end="00:00:25.439" style="s2">we will make it tiny eight by eight</p>
+<p begin="00:00:23.039" end="00:00:29.460" style="s2">pixels and we will make it into a circle</p>
+<p begin="00:00:25.439" end="00:00:31.740" style="s2">with a white background color done we</p>
+<p begin="00:00:29.460" end="00:00:33.600" style="s2">now have a snowflake to hide the</p>
+<p begin="00:00:31.740" end="00:00:36.059" style="s2">snowflake we will make it absolute and</p>
+<p begin="00:00:33.600" end="00:00:38.520" style="s2">we will move it off the screen now we</p>
+<p begin="00:00:36.059" end="00:00:40.200" style="s2">need to animate our snowflake we want</p>
+<p begin="00:00:38.520" end="00:00:42.660" style="s2">the flake to go from the top of the</p>
+<p begin="00:00:40.200" end="00:00:44.820" style="s2">screen all the way down and we also want</p>
+<p begin="00:00:42.660" end="00:00:47.640" style="s2">to make it disappear for this let&#39;s</p>
+<p begin="00:00:44.820" end="00:00:49.320" style="s2">create an animation called fall we will</p>
+<p begin="00:00:47.640" end="00:00:52.800" style="s2">start the animation from where our</p>
+<p begin="00:00:49.320" end="00:00:54.899" style="s2">snowflake is so we will leave from empty</p>
+<p begin="00:00:52.800" end="00:00:56.760" style="s2">and we will animate our snowflake by</p>
+<p begin="00:00:54.899" end="00:00:59.340" style="s2">moving it all the way to the end of the</p>
+<p begin="00:00:56.760" end="00:01:01.860" style="s2">screen and by setting the opacity to</p>
+<p begin="00:00:59.340" end="00:01:05.220" style="s2">zero then we will add the full animation</p>
+<p begin="00:01:01.860" end="00:01:08.200" style="s2">we just created to our snowflake set it</p>
+<p begin="00:01:05.220" end="00:01:10.080" style="s2">to 10 seconds and see how it looks</p>
+<p begin="00:01:08.200" end="00:01:12.060" style="s2">[Music]</p>
+<p begin="00:01:10.080" end="00:01:13.860" style="s2">awesome now that we are done with the</p>
+<p begin="00:01:12.060" end="00:01:16.740" style="s2">animation we can remove the snowflake</p>
+<p begin="00:01:13.860" end="00:01:19.320" style="s2">from our HTML because the next step is</p>
+<p begin="00:01:16.740" end="00:01:21.780" style="s2">to use JavaScript to dynamically create</p>
+<p begin="00:01:19.320" end="00:01:24.600" style="s2">snowflakes and randomize their starting</p>
+<p begin="00:01:21.780" end="00:01:26.580" style="s2">point before we write any JavaScript we</p>
+<p begin="00:01:24.600" end="00:01:29.640" style="s2">first have to be comfortable using the</p>
+<p begin="00:01:26.580" end="00:01:31.619" style="s2">mat that random function the math that</p>
+<p begin="00:01:29.640" end="00:01:34.439" style="s2">random function will give us a random</p>
+<p begin="00:01:31.619" end="00:01:37.200" style="s2">number between 0 and 1. a number that</p>
+<p begin="00:01:34.439" end="00:01:39.780" style="s2">looks like this for example so if we</p>
+<p begin="00:01:37.200" end="00:01:42.240" style="s2">want a random number between let&#39;s say 0</p>
+<p begin="00:01:39.780" end="00:01:44.520" style="s2">and 10 all we have to do is call Matt</p>
+<p begin="00:01:42.240" end="00:01:46.799" style="s2">data random and multiply the result by</p>
+<p begin="00:01:44.520" end="00:01:49.200" style="s2">10. now that we are masters of the math</p>
+<p begin="00:01:46.799" end="00:01:51.600" style="s2">that random function let&#39;s create a</p>
+<p begin="00:01:49.200" end="00:01:53.880" style="s2">function called make snowflake in our</p>
+<p begin="00:01:51.600" end="00:01:56.399" style="s2">JavaScript on that function we will</p>
+<p begin="00:01:53.880" end="00:01:58.860" style="s2">create a div element and we will give it</p>
+<p begin="00:01:56.399" end="00:02:01.860" style="s2">this no free class so it gets the Styles</p>
+<p begin="00:01:58.860" end="00:02:04.979" style="s2">and animations we wrote before then we</p>
+<p begin="00:02:01.860" end="00:02:07.380" style="s2">will call math.random and multiply it by</p>
+<p begin="00:02:04.979" end="00:02:10.739" style="s2">the width of the screen and we will use</p>
+<p begin="00:02:07.380" end="00:02:13.080" style="s2">that value to move our snowflake to the</p>
+<p begin="00:02:10.739" end="00:02:15.300" style="s2">left finally we will get the body of the</p>
+<p begin="00:02:13.080" end="00:02:17.640" style="s2">document and we will add the snowflake</p>
+<p begin="00:02:15.300" end="00:02:19.739" style="s2">to it now it&#39;s time to call this</p>
+<p begin="00:02:17.640" end="00:02:22.319" style="s2">function to call it multiple times we</p>
+<p begin="00:02:19.739" end="00:02:24.900" style="s2">will call it inside of a for Loop that</p>
+<p begin="00:02:22.319" end="00:02:27.780" style="s2">should run 50 times as you can see it</p>
+<p begin="00:02:24.900" end="00:02:29.879" style="s2">works we now have 50 snowflakes falling</p>
+<p begin="00:02:27.780" end="00:02:32.400" style="s2">down because they&#39;re all starting at the</p>
+<p begin="00:02:29.879" end="00:02:34.860" style="s2">same time and that looks weird we need a</p>
+<p begin="00:02:32.400" end="00:02:37.379" style="s2">random value between 0 and 10 that we</p>
+<p begin="00:02:34.860" end="00:02:39.599" style="s2">will use to delay the animation now as</p>
+<p begin="00:02:37.379" end="00:02:42.540" style="s2">you can see they fall at different times</p>
+<p begin="00:02:39.599" end="00:02:44.580" style="s2">to get a sense of depth we also want to</p>
+<p begin="00:02:42.540" end="00:02:46.920" style="s2">randomize the opacity we want to make</p>
+<p begin="00:02:44.580" end="00:02:50.099" style="s2">some snowflakes brighter than others</p>
+<p begin="00:02:46.920" end="00:02:52.620" style="s2">let&#39;s get a value between 0 and 1 which</p>
+<p begin="00:02:50.099" end="00:02:55.319" style="s2">are also the minimum and maximum values</p>
+<p begin="00:02:52.620" end="00:02:57.780" style="s2">for the opacity property and give that</p>
+<p begin="00:02:55.319" end="00:03:00.720" style="s2">to the snowflake we are looking much</p>
+<p begin="00:02:57.780" end="00:03:03.120" style="s2">better now we want some snowflakes to</p>
+<p begin="00:03:00.720" end="00:03:05.280" style="s2">fall faster than others for this we have</p>
+<p begin="00:03:03.120" end="00:03:07.620" style="s2">to change the duration of the animation</p>
+<p begin="00:03:05.280" end="00:03:10.440" style="s2">so let&#39;s delete the animation from our</p>
+<p begin="00:03:07.620" end="00:03:12.900" style="s2">snowflake on the CSS and back in our</p>
+<p begin="00:03:10.440" end="00:03:14.760" style="s2">JavaScript we will create a constant of</p>
+<p begin="00:03:12.900" end="00:03:17.340" style="s2">the minimum duration we want the</p>
+<p begin="00:03:14.760" end="00:03:19.739" style="s2">animation to be which is 10 seconds and</p>
+<p begin="00:03:17.340" end="00:03:22.920" style="s2">we will add that constant to another</p>
+<p begin="00:03:19.739" end="00:03:25.440" style="s2">random value between 0 and 20 which will</p>
+<p begin="00:03:22.920" end="00:03:27.360" style="s2">be the duration of our animation all</p>
+<p begin="00:03:25.440" end="00:03:29.700" style="s2">that is left is to set the snowflake</p>
+<p begin="00:03:27.360" end="00:03:32.459" style="s2">animation with the dynamic duration</p>
+<p begin="00:03:29.700" end="00:03:34.739" style="s2">value as you can see now some snowflakes</p>
+<p begin="00:03:32.459" end="00:03:36.300" style="s2">are falling faster than others when the</p>
+<p begin="00:03:34.739" end="00:03:38.280" style="s2">animation has completed and the</p>
+<p begin="00:03:36.300" end="00:03:40.440" style="s2">snowflake has disappeared we want to</p>
+<p begin="00:03:38.280" end="00:03:43.440" style="s2">remove it from the page we don&#39;t want to</p>
+<p begin="00:03:40.440" end="00:03:45.720" style="s2">pollute our HTML full of that snowflakes</p>
+<p begin="00:03:43.440" end="00:03:48.180" style="s2">for this we will set a timeout using the</p>
+<p begin="00:03:45.720" end="00:03:50.400" style="s2">set timeout function the set timeout</p>
+<p begin="00:03:48.180" end="00:03:52.860" style="s2">function allows us to run our code only</p>
+<p begin="00:03:50.400" end="00:03:55.019" style="s2">after a certain amount of milliseconds</p>
+<p begin="00:03:52.860" end="00:03:57.659" style="s2">has passed for this we will call set</p>
+<p begin="00:03:55.019" end="00:04:00.180" style="s2">timeout with the code to remove the</p>
+<p begin="00:03:57.659" end="00:04:02.940" style="s2">snowflake from the page after the</p>
+<p begin="00:04:00.180" end="00:04:04.860" style="s2">animation has finished to know when the</p>
+<p begin="00:04:02.940" end="00:04:06.840" style="s2">animation has finished we can take the</p>
+<p begin="00:04:04.860" end="00:04:09.180" style="s2">duration plus the delay of the animation</p>
+<p begin="00:04:06.840" end="00:04:12.599" style="s2">and to turn it into milliseconds we can</p>
+<p begin="00:04:09.180" end="00:04:14.159" style="s2">just multiply it by 1000 with this tiny</p>
+<p begin="00:04:12.599" end="00:04:16.079" style="s2">code we can now be sure that the</p>
+<p begin="00:04:14.159" end="00:04:18.060" style="s2">snowflake will be removed from the page</p>
+<p begin="00:04:16.079" end="00:04:20.280" style="s2">when it has fallen down and when the</p>
+<p begin="00:04:18.060" end="00:04:21.540" style="s2">user can&#39;t see it if we open our</p>
+<p begin="00:04:20.280" end="00:04:24.180" style="s2">developer tools we can see the</p>
+<p begin="00:04:21.540" end="00:04:26.880" style="s2">snowflakes being removed one by one to</p>
+<p begin="00:04:24.180" end="00:04:29.100" style="s2">make our snowflakes infinite just after</p>
+<p begin="00:04:26.880" end="00:04:31.199" style="s2">we remove the snowflake from the page we</p>
+<p begin="00:04:29.100" end="00:04:33.960" style="s2">will call the make snowflake function</p>
+<p begin="00:04:31.199" end="00:04:36.300" style="s2">again this way when one snowflake dies</p>
+<p begin="00:04:33.960" end="00:04:38.400" style="s2">another one is created giving us</p>
+<p begin="00:04:36.300" end="00:04:40.680" style="s2">infinite snow to make everything feel</p>
+<p begin="00:04:38.400" end="00:04:42.419" style="s2">even more natural in the for Loop that</p>
+<p begin="00:04:40.680" end="00:04:45.060" style="s2">calls the make snowflake function the</p>
+<p begin="00:04:42.419" end="00:04:47.160" style="s2">first time 50 times we can use set</p>
+<p begin="00:04:45.060" end="00:04:49.560" style="s2">timeout again to not create all</p>
+<p begin="00:04:47.160" end="00:04:52.620" style="s2">snowflakes at once and instead to create</p>
+<p begin="00:04:49.560" end="00:04:55.020" style="s2">them after a tiny delay and that&#39;s it we</p>
+<p begin="00:04:52.620" end="00:04:57.960" style="s2">are done we now have snowflakes falling</p>
+<p begin="00:04:55.020" end="00:05:01.320" style="s2">down our page at random speeds opacities</p>
+<p begin="00:04:57.960" end="00:05:02.940" style="s2">and delays and it looks awesome thank</p>
+<p begin="00:05:01.320" end="00:05:05.100" style="s2">you for watching this video I wish you a</p>
+<p begin="00:05:02.940" end="00:05:06.840" style="s2">happy and merry Christmas I hope you are</p>
+<p begin="00:05:05.100" end="00:05:08.340" style="s2">surrounded by the people you love if you</p>
+<p begin="00:05:06.840" end="00:05:09.720" style="s2">enjoy the way I explain code and you</p>
+<p begin="00:05:08.340" end="00:05:11.759" style="s2">would like to learn how to do this sort</p>
+<p begin="00:05:09.720" end="00:05:13.860" style="s2">of thing to buy yourself then please</p>
+<p begin="00:05:11.759" end="00:05:16.320" style="s2">click the link below where you will find</p>
+<p begin="00:05:13.860" end="00:05:18.600" style="s2">an 8 hour free Javascript course where</p>
+<p begin="00:05:16.320" end="00:05:21.419" style="s2">you will build things like clocks to-do</p>
+<p begin="00:05:18.600" end="00:05:23.520" style="s2">lists weather with geolocation among</p>
+<p begin="00:05:21.419" end="00:05:26.280" style="s2">many other things that course is for</p>
+<p begin="00:05:23.520" end="00:05:29.419" style="s2">absolute beginners and it is free click</p>
+<p begin="00:05:26.280" end="00:05:32.310" style="s2">the link below and I will see you there</p>
+<p begin="00:05:29.419" end="00:05:35.560" style="s2">see you on the next one bye</p>
+<p begin="00:05:32.310" end="00:05:35.560" style="s2">[Music]</p>
+<p begin="00:05:42.000" end="00:05:44.720" style="s2">foreign</p>
+</div>
+</body>
+</tt>

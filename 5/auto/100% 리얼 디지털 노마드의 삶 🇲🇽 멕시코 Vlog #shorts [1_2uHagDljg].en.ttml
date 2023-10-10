@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:09.750" end="00:00:16.090" style="s2">[Music]</p>
+<p begin="00:00:13.200" end="00:00:22.440" style="s2">oh</p>
+<p begin="00:00:16.090" end="00:00:22.440" style="s2">[Music]</p>
+<p begin="00:00:24.850" end="00:00:27.969" style="s2">[Music]</p>
+<p begin="00:00:34.210" end="00:00:46.539" style="s2">[Music]</p>
+<p begin="00:00:46.960" end="00:00:50.440" style="s2">oh my god</p>
+<p begin="00:00:50.550" end="00:01:00.790" style="s2">[Music]</p>
+</div>
+</body>
+</tt>

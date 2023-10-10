@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:03.199" end="00:00:08.400" style="s2">we are going to talk about the four most</p>
+<p begin="00:00:05.520" end="00:00:10.719" style="s2">important concepts the four pillars of</p>
+<p begin="00:00:08.400" end="00:00:13.440" style="s2">object oriented programming and those</p>
+<p begin="00:00:10.719" end="00:00:16.240" style="s2">are encapsulation inheritance</p>
+<p begin="00:00:13.440" end="00:00:17.359" style="s2">abstraction and polymorphism now i know</p>
+<p begin="00:00:16.240" end="00:00:19.439" style="s2">those words might sound very</p>
+<p begin="00:00:17.359" end="00:00:21.680" style="s2">intimidating at first but trust me when</p>
+<p begin="00:00:19.439" end="00:00:24.240" style="s2">i say that the actual concepts behind</p>
+<p begin="00:00:21.680" end="00:00:25.920" style="s2">those scary words are actually very easy</p>
+<p begin="00:00:24.240" end="00:00:27.599" style="s2">to understand but before you continue</p>
+<p begin="00:00:25.920" end="00:00:30.160" style="s2">watching make sure you watch the first</p>
+<p begin="00:00:27.599" end="00:00:32.160" style="s2">video i posted about oop because there i</p>
+<p begin="00:00:30.160" end="00:00:34.320" style="s2">wanted to introduce oop in a more</p>
+<p begin="00:00:32.160" end="00:00:37.040" style="s2">practical way i wanted to show you how</p>
+<p begin="00:00:34.320" end="00:00:39.040" style="s2">oop helps you organize and reason about</p>
+<p begin="00:00:37.040" end="00:00:41.040" style="s2">your code without looking into the</p>
+<p begin="00:00:39.040" end="00:00:43.440" style="s2">theory too much but in this video we are</p>
+<p begin="00:00:41.040" end="00:00:45.120" style="s2">going to look into the theory of oop</p>
+<p begin="00:00:43.440" end="00:00:47.360" style="s2">because that&#39;s something that you might</p>
+<p begin="00:00:45.120" end="00:00:50.000" style="s2">need in a coding interview so let&#39;s get</p>
+<p begin="00:00:47.360" end="00:00:52.559" style="s2">started with encapsulation encapsulation</p>
+<p begin="00:00:50.000" end="00:00:55.280" style="s2">is the idea of placing data and</p>
+<p begin="00:00:52.559" end="00:00:58.399" style="s2">functions that use the data inside of a</p>
+<p begin="00:00:55.280" end="00:01:01.039" style="s2">container inside of a capsule in our</p>
+<p begin="00:00:58.399" end="00:01:03.359" style="s2">case the capsules are classes take this</p>
+<p begin="00:01:01.039" end="00:01:06.400" style="s2">example here we have data which is an</p>
+<p begin="00:01:03.359" end="00:01:09.360" style="s2">elon mosque object and we also have a</p>
+<p begin="00:01:06.400" end="00:01:11.439" style="s2">function that calculates his net worth</p>
+<p begin="00:01:09.360" end="00:01:13.920" style="s2">by multiplying his shares with the share</p>
+<p begin="00:01:11.439" end="00:01:16.479" style="s2">price because the function and the data</p>
+<p begin="00:01:13.920" end="00:01:19.040" style="s2">are conceptually related we can improve</p>
+<p begin="00:01:16.479" end="00:01:21.119" style="s2">this code by using encapsulation with</p>
+<p begin="00:01:19.040" end="00:01:24.000" style="s2">encapsulation we will put the data and</p>
+<p begin="00:01:21.119" end="00:01:26.720" style="s2">the function inside of a class making</p>
+<p begin="00:01:24.000" end="00:01:28.799" style="s2">the code look something like this the</p>
+<p begin="00:01:26.720" end="00:01:30.799" style="s2">advantage now is that the code is more</p>
+<p begin="00:01:28.799" end="00:01:32.880" style="s2">organized and also the functions or</p>
+<p begin="00:01:30.799" end="00:01:34.960" style="s2">methods don&#39;t have to take any arguments</p>
+<p begin="00:01:32.880" end="00:01:37.759" style="s2">because they all have access to the data</p>
+<p begin="00:01:34.960" end="00:01:39.680" style="s2">of the class using this keyword using</p>
+<p begin="00:01:37.759" end="00:01:41.439" style="s2">encapsulation we can also choose what</p>
+<p begin="00:01:39.680" end="00:01:43.280" style="s2">properties of the class we want to</p>
+<p begin="00:01:41.439" end="00:01:45.759" style="s2">expose and which properties we want to</p>
+<p begin="00:01:43.280" end="00:01:48.159" style="s2">keep hidden in this case because all the</p>
+<p begin="00:01:45.759" end="00:01:50.960" style="s2">fields of the class are private no one</p>
+<p begin="00:01:48.159" end="00:01:54.720" style="s2">can access or modify them from the</p>
+<p begin="00:01:50.960" end="00:01:56.399" style="s2">outside this is why this code won&#39;t work</p>
+<p begin="00:01:54.720" end="00:01:58.560" style="s2">encapsulation gives us the power to</p>
+<p begin="00:01:56.399" end="00:02:01.360" style="s2">decide how the information about the</p>
+<p begin="00:01:58.560" end="00:02:03.200" style="s2">class should be accessed or modified so</p>
+<p begin="00:02:01.360" end="00:02:05.439" style="s2">for example if you want to expose the</p>
+<p begin="00:02:03.200" end="00:02:07.920" style="s2">name of our entrepreneur we can make a</p>
+<p begin="00:02:05.439" end="00:02:10.319" style="s2">method to do so all the examples on this</p>
+<p begin="00:02:07.920" end="00:02:12.239" style="s2">video are typescript codes by the way if</p>
+<p begin="00:02:10.319" end="00:02:14.879" style="s2">you know javascript but you don&#39;t know</p>
+<p begin="00:02:12.239" end="00:02:17.440" style="s2">typescript please click the link below</p>
+<p begin="00:02:14.879" end="00:02:19.680" style="s2">to learn it for free with me and with</p>
+<p begin="00:02:17.440" end="00:02:22.080" style="s2">subtitles in google typescript makes</p>
+<p begin="00:02:19.680" end="00:02:24.319" style="s2">javascript developers more productive</p>
+<p begin="00:02:22.080" end="00:02:26.080" style="s2">happier and less stressed so if you want</p>
+<p begin="00:02:24.319" end="00:02:27.920" style="s2">to be like that please click the link</p>
+<p begin="00:02:26.080" end="00:02:29.920" style="s2">below where you will find a typescript</p>
+<p begin="00:02:27.920" end="00:02:32.800" style="s2">course i will see you there</p>
+<p begin="00:02:29.920" end="00:02:35.519" style="s2">and that&#39;s it that is encapsulation it</p>
+<p begin="00:02:32.800" end="00:02:38.319" style="s2">is the act of organizing data and</p>
+<p begin="00:02:35.519" end="00:02:40.800" style="s2">functions that use that data inside of</p>
+<p begin="00:02:38.319" end="00:02:43.120" style="s2">classes and thanks to that we are able</p>
+<p begin="00:02:40.800" end="00:02:45.519" style="s2">to do data hiding which allows us to</p>
+<p begin="00:02:43.120" end="00:02:48.959" style="s2">choose which data to expose and which</p>
+<p begin="00:02:45.519" end="00:02:50.959" style="s2">data to hide next we have inheritance we</p>
+<p begin="00:02:48.959" end="00:02:52.239" style="s2">saw inheritance on the first oop video</p>
+<p begin="00:02:50.959" end="00:02:54.640" style="s2">that we made but anyways we&#39;re going to</p>
+<p begin="00:02:52.239" end="00:02:57.200" style="s2">look at it again inheritance allows us</p>
+<p begin="00:02:54.640" end="00:03:00.239" style="s2">to divide our code in smaller classes in</p>
+<p begin="00:02:57.200" end="00:03:02.080" style="s2">smaller units and to reuse them if apart</p>
+<p begin="00:03:00.239" end="00:03:04.319" style="s2">from having an entrepreneur class we</p>
+<p begin="00:03:02.080" end="00:03:06.480" style="s2">also want to have an actor class our</p>
+<p begin="00:03:04.319" end="00:03:08.560" style="s2">actor class will also need to have first</p>
+<p begin="00:03:06.480" end="00:03:10.800" style="s2">name and last name just like the</p>
+<p begin="00:03:08.560" end="00:03:12.640" style="s2">entrepreneur class does without</p>
+<p begin="00:03:10.800" end="00:03:14.959" style="s2">inheritance we will have to create two</p>
+<p begin="00:03:12.640" end="00:03:17.440" style="s2">separate classes with two duplicate</p>
+<p begin="00:03:14.959" end="00:03:19.680" style="s2">first name and last name properties if</p>
+<p begin="00:03:17.440" end="00:03:22.560" style="s2">we take a look at the code that doesn&#39;t</p>
+<p begin="00:03:19.680" end="00:03:24.560" style="s2">look so good using inheritance since we</p>
+<p begin="00:03:22.560" end="00:03:26.879" style="s2">know that the entrepreneur and the actor</p>
+<p begin="00:03:24.560" end="00:03:29.440" style="s2">classes both need a first name and a</p>
+<p begin="00:03:26.879" end="00:03:32.000" style="s2">last name we can move those duplicate</p>
+<p begin="00:03:29.440" end="00:03:34.799" style="s2">properties first name and last name to</p>
+<p begin="00:03:32.000" end="00:03:37.440" style="s2">another class called person and then we</p>
+<p begin="00:03:34.799" end="00:03:40.319" style="s2">can say that both entrepreneur and actor</p>
+<p begin="00:03:37.440" end="00:03:42.799" style="s2">both inherit the first name and last</p>
+<p begin="00:03:40.319" end="00:03:44.879" style="s2">name from the personal class we do this</p>
+<p begin="00:03:42.799" end="00:03:48.159" style="s2">by using the extends keyword in</p>
+<p begin="00:03:44.879" end="00:03:50.159" style="s2">typescript the syntax to extend a class</p>
+<p begin="00:03:48.159" end="00:03:53.840" style="s2">changes between languages but the</p>
+<p begin="00:03:50.159" end="00:03:57.760" style="s2">concept is the same by extending a class</p>
+<p begin="00:03:53.840" end="00:04:01.120" style="s2">the child class will inherit or receive</p>
+<p begin="00:03:57.760" end="00:04:03.200" style="s2">all the properties from the parent class</p>
+<p begin="00:04:01.120" end="00:04:06.000" style="s2">this means that now entrepreneur and</p>
+<p begin="00:04:03.200" end="00:04:08.319" style="s2">person classes both have first and last</p>
+<p begin="00:04:06.000" end="00:04:12.000" style="s2">name properties and also this means that</p>
+<p begin="00:04:08.319" end="00:04:14.720" style="s2">if we implement the say hi method in the</p>
+<p begin="00:04:12.000" end="00:04:17.680" style="s2">person class both our entrepreneur and</p>
+<p begin="00:04:14.720" end="00:04:20.239" style="s2">our actor classes will also be able to</p>
+<p begin="00:04:17.680" end="00:04:22.560" style="s2">say hello inheritance allows us to</p>
+<p begin="00:04:20.239" end="00:04:24.960" style="s2">divide and conquer with inheritance we</p>
+<p begin="00:04:22.560" end="00:04:27.520" style="s2">can divide our classes into small pieces</p>
+<p begin="00:04:24.960" end="00:04:29.919" style="s2">and we can compose them as if they were</p>
+<p begin="00:04:27.520" end="00:04:32.800" style="s2">lego blocks let&#39;s now keep going with</p>
+<p begin="00:04:29.919" end="00:04:35.040" style="s2">abstraction the father of c plus plus</p>
+<p begin="00:04:32.800" end="00:04:38.600" style="s2">defines abstraction as the act of</p>
+<p begin="00:04:35.040" end="00:04:40.160" style="s2">specifying a general interface hiding</p>
+<p begin="00:04:38.600" end="00:04:41.199" style="s2">implementation</p>
+<p begin="00:04:40.160" end="00:04:43.120" style="s2">details</p>
+<p begin="00:04:41.199" end="00:04:44.720" style="s2">with that definition and before jumping</p>
+<p begin="00:04:43.120" end="00:04:47.040" style="s2">into the code let&#39;s look at some</p>
+<p begin="00:04:44.720" end="00:04:49.759" style="s2">examples of abstraction in the real</p>
+<p begin="00:04:47.040" end="00:04:52.479" style="s2">world when you drive a car you are using</p>
+<p begin="00:04:49.759" end="00:04:54.479" style="s2">an interface to control the car that</p>
+<p begin="00:04:52.479" end="00:04:56.800" style="s2">interface the steering wheel and the</p>
+<p begin="00:04:54.479" end="00:04:59.840" style="s2">pedals and the buttons all those things</p>
+<p begin="00:04:56.800" end="00:05:02.400" style="s2">are exposed by the maker of the car so</p>
+<p begin="00:04:59.840" end="00:05:03.600" style="s2">we can use that interface to communicate</p>
+<p begin="00:05:02.400" end="00:05:05.440" style="s2">with the machine</p>
+<p begin="00:05:03.600" end="00:05:08.639" style="s2">the car interface hides the</p>
+<p begin="00:05:05.440" end="00:05:10.240" style="s2">implementation details from the driver</p>
+<p begin="00:05:08.639" end="00:05:12.800" style="s2">which means that you are able to drive</p>
+<p begin="00:05:10.240" end="00:05:15.039" style="s2">the car without actually knowing how the</p>
+<p begin="00:05:12.800" end="00:05:17.600" style="s2">engine works internally</p>
+<p begin="00:05:15.039" end="00:05:20.639" style="s2">all that is hidden from you for a code</p>
+<p begin="00:05:17.600" end="00:05:22.400" style="s2">example let&#39;s build our own abstraction</p>
+<p begin="00:05:20.639" end="00:05:24.960" style="s2">let&#39;s say that we don&#39;t like the way we</p>
+<p begin="00:05:22.400" end="00:05:27.759" style="s2">work with arrays in javascript so we</p>
+<p begin="00:05:24.960" end="00:05:30.000" style="s2">want to build our own abstraction on top</p>
+<p begin="00:05:27.759" end="00:05:32.880" style="s2">of them for this let&#39;s create a class</p>
+<p begin="00:05:30.000" end="00:05:35.440" style="s2">called better array better array will</p>
+<p begin="00:05:32.880" end="00:05:37.440" style="s2">have an array inside of it but instead</p>
+<p begin="00:05:35.440" end="00:05:39.919" style="s2">of exposing the array we are going to</p>
+<p begin="00:05:37.440" end="00:05:42.240" style="s2">create and expose methods as an</p>
+<p begin="00:05:39.919" end="00:05:44.560" style="s2">interface to interact with the array in</p>
+<p begin="00:05:42.240" end="00:05:47.759" style="s2">a more comfortable way this class will</p>
+<p begin="00:05:44.560" end="00:05:51.039" style="s2">have methods to get add remove and</p>
+<p begin="00:05:47.759" end="00:05:53.919" style="s2">modify items inside of the array</p>
+<p begin="00:05:51.039" end="00:05:56.479" style="s2">now when someone uses our better array</p>
+<p begin="00:05:53.919" end="00:05:59.120" style="s2">they just have to use the methods we</p>
+<p begin="00:05:56.479" end="00:06:00.720" style="s2">exposed as an interface to interact with</p>
+<p begin="00:05:59.120" end="00:06:03.199" style="s2">the array they don&#39;t have to know the</p>
+<p begin="00:06:00.720" end="00:06:05.039" style="s2">implementation details of each method</p>
+<p begin="00:06:03.199" end="00:06:08.000" style="s2">and for example they need to know how</p>
+<p begin="00:06:05.039" end="00:06:10.720" style="s2">index off or filter works and just like</p>
+<p begin="00:06:08.000" end="00:06:13.440" style="s2">that we created our own abstraction we</p>
+<p begin="00:06:10.720" end="00:06:16.960" style="s2">defined a general interface for a better</p>
+<p begin="00:06:13.440" end="00:06:19.680" style="s2">array hiding the implementation details</p>
+<p begin="00:06:16.960" end="00:06:22.000" style="s2">another big benefit of using abstraction</p>
+<p begin="00:06:19.680" end="00:06:25.360" style="s2">is that if tomorrow for example i change</p>
+<p begin="00:06:22.000" end="00:06:26.960" style="s2">the way modify item method works to make</p>
+<p begin="00:06:25.360" end="00:06:29.680" style="s2">it faster</p>
+<p begin="00:06:26.960" end="00:06:31.840" style="s2">no one that is using the modify method</p>
+<p begin="00:06:29.680" end="00:06:34.319" style="s2">will have to change anything because</p>
+<p begin="00:06:31.840" end="00:06:36.800" style="s2">even though the implementation change</p>
+<p begin="00:06:34.319" end="00:06:38.280" style="s2">the interface remains the same now to</p>
+<p begin="00:06:36.800" end="00:06:41.520" style="s2">finish this let&#39;s talk about</p>
+<p begin="00:06:38.280" end="00:06:44.560" style="s2">polymorphism poly means multiple like</p>
+<p begin="00:06:41.520" end="00:06:47.280" style="s2">polygons many sites and morphos means</p>
+<p begin="00:06:44.560" end="00:06:50.160" style="s2">shape or form like amorphous something</p>
+<p begin="00:06:47.280" end="00:06:52.080" style="s2">without a form or morphology the study</p>
+<p begin="00:06:50.160" end="00:06:55.280" style="s2">of the shape of the words so</p>
+<p begin="00:06:52.080" end="00:06:58.160" style="s2">polymorphism multiple forms multiple</p>
+<p begin="00:06:55.280" end="00:06:59.440" style="s2">shapes to understand polymorphism in oop</p>
+<p begin="00:06:58.160" end="00:07:01.680" style="s2">we have to remember that with</p>
+<p begin="00:06:59.440" end="00:07:04.400" style="s2">inheritance all the properties and</p>
+<p begin="00:07:01.680" end="00:07:07.120" style="s2">methods of the parent class go to the</p>
+<p begin="00:07:04.400" end="00:07:09.199" style="s2">child class as well in this example both</p>
+<p begin="00:07:07.120" end="00:07:12.240" style="s2">the hangukin and the italian classes</p>
+<p begin="00:07:09.199" end="00:07:13.919" style="s2">extend from a person class</p>
+<p begin="00:07:12.240" end="00:07:16.639" style="s2">this means that objects from the</p>
+<p begin="00:07:13.919" end="00:07:19.280" style="s2">hangukin class and italian class both</p>
+<p begin="00:07:16.639" end="00:07:21.759" style="s2">have the method say hi</p>
+<p begin="00:07:19.280" end="00:07:23.919" style="s2">polymorphism comes into play when i want</p>
+<p begin="00:07:21.759" end="00:07:26.800" style="s2">my hangouting class to extend from</p>
+<p begin="00:07:23.919" end="00:07:29.840" style="s2">person but i want my hangouting class to</p>
+<p begin="00:07:26.800" end="00:07:33.120" style="s2">change the way it says hi for this we</p>
+<p begin="00:07:29.840" end="00:07:35.360" style="s2">would have to write our own say hi</p>
+<p begin="00:07:33.120" end="00:07:38.080" style="s2">method in the handguging class this is</p>
+<p begin="00:07:35.360" end="00:07:40.479" style="s2">called method overriding we use the same</p>
+<p begin="00:07:38.080" end="00:07:43.120" style="s2">name say hi but a different</p>
+<p begin="00:07:40.479" end="00:07:45.199" style="s2">implementation so now if we call the say</p>
+<p begin="00:07:43.120" end="00:07:47.680" style="s2">hi method from an object from the</p>
+<p begin="00:07:45.199" end="00:07:49.680" style="s2">handbooking class it will say hello in a</p>
+<p begin="00:07:47.680" end="00:07:51.919" style="s2">different way than if we call the say</p>
+<p begin="00:07:49.680" end="00:07:54.160" style="s2">hive method from a member of the italian</p>
+<p begin="00:07:51.919" end="00:07:56.560" style="s2">class but that is not all with</p>
+<p begin="00:07:54.160" end="00:07:58.400" style="s2">polymorphism the say high method of the</p>
+<p begin="00:07:56.560" end="00:08:01.599" style="s2">hanguking class should have the same</p>
+<p begin="00:07:58.400" end="00:08:03.759" style="s2">result as the one in the person class in</p>
+<p begin="00:08:01.599" end="00:08:05.520" style="s2">the person class the say hi method</p>
+<p begin="00:08:03.759" end="00:08:07.520" style="s2">returns a string</p>
+<p begin="00:08:05.520" end="00:08:10.240" style="s2">this means that if the handbook in class</p>
+<p begin="00:08:07.520" end="00:08:13.280" style="s2">that is extending from person wants to</p>
+<p begin="00:08:10.240" end="00:08:16.720" style="s2">override the say hive method it can do</p>
+<p begin="00:08:13.280" end="00:08:19.599" style="s2">so but it should also return a string if</p>
+<p begin="00:08:16.720" end="00:08:21.759" style="s2">i try to return a number from the say hi</p>
+<p begin="00:08:19.599" end="00:08:24.479" style="s2">method in the handbooking class</p>
+<p begin="00:08:21.759" end="00:08:26.319" style="s2">typescript will stop me because say hi</p>
+<p begin="00:08:24.479" end="00:08:28.800" style="s2">is not doing what it&#39;s supposed to be</p>
+<p begin="00:08:26.319" end="00:08:31.759" style="s2">doing which is returning a string and</p>
+<p begin="00:08:28.800" end="00:08:34.159" style="s2">that is polymorphism in oop as you can</p>
+<p begin="00:08:31.759" end="00:08:36.320" style="s2">see it allows us to override methods</p>
+<p begin="00:08:34.159" end="00:08:38.880" style="s2">from parent classes but it makes us a</p>
+<p begin="00:08:36.320" end="00:08:41.440" style="s2">strict two contracts on how the methods</p>
+<p begin="00:08:38.880" end="00:08:43.680" style="s2">should work this way the essence of the</p>
+<p begin="00:08:41.440" end="00:08:45.920" style="s2">class stays the same even though the</p>
+<p begin="00:08:43.680" end="00:08:48.240" style="s2">shape of the implementation is different</p>
+<p begin="00:08:45.920" end="00:08:50.880" style="s2">using polymorphism we can be sure that</p>
+<p begin="00:08:48.240" end="00:08:53.440" style="s2">both the hanging and the italian classes</p>
+<p begin="00:08:50.880" end="00:08:55.600" style="s2">say hello they just do it in a different</p>
+<p begin="00:08:53.440" end="00:08:57.120" style="s2">way and that&#39;s it for this video these</p>
+<p begin="00:08:55.600" end="00:08:58.959" style="s2">have been the four pillars of</p>
+<p begin="00:08:57.120" end="00:09:01.120" style="s2">object-oriented programming</p>
+<p begin="00:08:58.959" end="00:09:03.680" style="s2">encapsulation inheritance abstraction</p>
+<p begin="00:09:01.120" end="00:09:05.279" style="s2">and polymorphism if you found this video</p>
+<p begin="00:09:03.680" end="00:09:07.279" style="s2">useful then please leave a like and</p>
+<p begin="00:09:05.279" end="00:09:09.200" style="s2">subscribe it&#39;s free for you but it helps</p>
+<p begin="00:09:07.279" end="00:09:11.120" style="s2">me a lot and don&#39;t forget if you want to</p>
+<p begin="00:09:09.200" end="00:09:13.279" style="s2">learn to code for free with me and</p>
+<p begin="00:09:11.120" end="00:09:15.200" style="s2">subtitles in hangul please click the</p>
+<p begin="00:09:13.279" end="00:09:18.320" style="s2">link below there you&#39;re going to find</p>
+<p begin="00:09:15.200" end="00:09:20.800" style="s2">free javascript python go react react</p>
+<p begin="00:09:18.320" end="00:09:23.040" style="s2">native courses among many many other</p>
+<p begin="00:09:20.800" end="00:09:25.440" style="s2">things thank you so so much for watching</p>
+<p begin="00:09:23.040" end="00:09:28.000" style="s2">stay free stay healthy stay happy eat</p>
+<p begin="00:09:25.440" end="00:09:31.640" style="s2">kimchi kamzamira salang hayo see you in</p>
+<p begin="00:09:28.000" end="00:09:31.640" style="s2">the next one bye-bye</p>
+<p begin="00:09:33.600" end="00:09:36.600" style="s2">good</p>
+<p begin="00:09:40.080" end="00:09:42.160" style="s2">you</p>
+</div>
+</body>
+</tt>

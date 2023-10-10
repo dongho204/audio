@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.030" end="00:00:05.250" style="s2">a new agenda car nicolas i needa this</p>
+<p begin="00:00:02.700" end="00:00:07.649" style="s2">language is more popular than java in</p>
+<p begin="00:00:05.250" end="00:00:10.260" style="s2">that python it&#39;s a language that just by</p>
+<p begin="00:00:07.649" end="00:00:13.080" style="s2">understanding it will help you so much</p>
+<p begin="00:00:10.260" end="00:00:15.750" style="s2">when building a web related product also</p>
+<p begin="00:00:13.080" end="00:00:18.330" style="s2">it&#39;s a great on the resume and it could</p>
+<p begin="00:00:15.750" end="00:00:20.580" style="s2">save you so much on a technical</p>
+<p begin="00:00:18.330" end="00:00:22.890" style="s2">interview the crazy part is that is not</p>
+<p begin="00:00:20.580" end="00:00:25.760" style="s2">even a programming language this</p>
+<p begin="00:00:22.890" end="00:00:29.609" style="s2">language that I&#39;m talking about is SQL</p>
+<p begin="00:00:25.760" end="00:00:32.040" style="s2">yes SQL is more popular than Java in the</p>
+<p begin="00:00:29.609" end="00:00:33.989" style="s2">Python in the mind-blown thing is that</p>
+<p begin="00:00:32.040" end="00:00:37.500" style="s2">some full-stack developers have never</p>
+<p begin="00:00:33.989" end="00:00:42.000" style="s2">ever ever written a single line of SQL</p>
+<p begin="00:00:37.500" end="00:00:44.730" style="s2">code SQL means a structured query</p>
+<p begin="00:00:42.000" end="00:00:47.520" style="s2">language it is a language specifically</p>
+<p begin="00:00:44.730" end="00:00:50.010" style="s2">designed to talk to databases as you</p>
+<p begin="00:00:47.520" end="00:00:53.070" style="s2">know almost everything needs a database</p>
+<p begin="00:00:50.010" end="00:00:55.530" style="s2">databases are where we store our data so</p>
+<p begin="00:00:53.070" end="00:00:58.079" style="s2">we need to understand as developers how</p>
+<p begin="00:00:55.530" end="00:01:00.449" style="s2">to actually talk to letter basis this is</p>
+<p begin="00:00:58.079" end="00:01:03.359" style="s2">when SQL comes in there are two</p>
+<p begin="00:01:00.449" end="00:01:06.090" style="s2">categories of databases relational</p>
+<p begin="00:01:03.359" end="00:01:10.229" style="s2">databases in non-relational databases</p>
+<p begin="00:01:06.090" end="00:01:12.720" style="s2">also known as SQL and non SQL on the SQL</p>
+<p begin="00:01:10.229" end="00:01:16.020" style="s2">corner we have stuff like MySQL</p>
+<p begin="00:01:12.720" end="00:01:18.290" style="s2">PostgreSQL SQLite and on the know SQL</p>
+<p begin="00:01:16.020" end="00:01:22.080" style="s2">corner we have things like like MongoDB</p>
+<p begin="00:01:18.290" end="00:01:23.970" style="s2">dynamo DB and couchdb on this video I&#39;m</p>
+<p begin="00:01:22.080" end="00:01:27.119" style="s2">not gonna make a comparison between no</p>
+<p begin="00:01:23.970" end="00:01:28.799" style="s2">SQL and SQL but if you want that video</p>
+<p begin="00:01:27.119" end="00:01:31.500" style="s2">leave it on the comment because it&#39;s a</p>
+<p begin="00:01:28.799" end="00:01:33.540" style="s2">really fun fight to have SQL databases</p>
+<p begin="00:01:31.500" end="00:01:36.060" style="s2">have been the default choice for most</p>
+<p begin="00:01:33.540" end="00:01:38.450" style="s2">companies and most use cases</p>
+<p begin="00:01:36.060" end="00:01:41.820" style="s2">most companies governments Bank</p>
+<p begin="00:01:38.450" end="00:01:44.070" style="s2">Enterprise legacy systems run on SQL</p>
+<p begin="00:01:41.820" end="00:01:48.390" style="s2">that&#39;s why a school is the industry</p>
+<p begin="00:01:44.070" end="00:01:50.369" style="s2">standard now how do SQL databases look</p>
+<p begin="00:01:48.390" end="00:01:54.030" style="s2">like in holiday work an SQL database</p>
+<p begin="00:01:50.369" end="00:01:56.969" style="s2">looks just like an Excel document so a</p>
+<p begin="00:01:54.030" end="00:02:01.829" style="s2">database has tables an Excel document</p>
+<p begin="00:01:56.969" end="00:02:04.710" style="s2">has sheet a table has rows and columns</p>
+<p begin="00:02:01.829" end="00:02:06.509" style="s2">an excel sheet has rows and columns so</p>
+<p begin="00:02:04.710" end="00:02:09.360" style="s2">let&#39;s pretend that we have a database</p>
+<p begin="00:02:06.509" end="00:02:11.110" style="s2">and the database has four columns</p>
+<p begin="00:02:09.360" end="00:02:14.410" style="s2">those are ID name</p>
+<p begin="00:02:11.110" end="00:02:17.170" style="s2">email in H and on the roads let&#39;s say we</p>
+<p begin="00:02:14.410" end="00:02:20.710" style="s2">have five users now let&#39;s take a look at</p>
+<p begin="00:02:17.170" end="00:02:23.260" style="s2">some basic SQL commands select let&#39;s say</p>
+<p begin="00:02:20.710" end="00:02:26.470" style="s2">that I want to get all the emails from</p>
+<p begin="00:02:23.260" end="00:02:29.770" style="s2">the users on the table students so what</p>
+<p begin="00:02:26.470" end="00:02:32.860" style="s2">I&#39;m gonna do is write select email from</p>
+<p begin="00:02:29.770" end="00:02:35.740" style="s2">students and that&#39;s it as you can see I</p>
+<p begin="00:02:32.860" end="00:02:38.620" style="s2">am using select and from those to our</p>
+<p begin="00:02:35.740" end="00:02:40.150" style="s2">SQL commands but they are much just like</p>
+<p begin="00:02:38.620" end="00:02:41.770" style="s2">English I told you this is not a</p>
+<p begin="00:02:40.150" end="00:02:43.690" style="s2">programming language is a query language</p>
+<p begin="00:02:41.770" end="00:02:46.810" style="s2">and it looks just like normal English</p>
+<p begin="00:02:43.690" end="00:02:51.490" style="s2">now let&#39;s try to get the emails from the</p>
+<p begin="00:02:46.810" end="00:02:55.570" style="s2">users that are older than 21 so now we</p>
+<p begin="00:02:51.490" end="00:02:59.500" style="s2">say select email from the table students</p>
+<p begin="00:02:55.570" end="00:03:01.930" style="s2">where the H is more than 21 again this</p>
+<p begin="00:02:59.500" end="00:03:04.360" style="s2">statement looks really really much like</p>
+<p begin="00:03:01.930" end="00:03:06.550" style="s2">normal English and we can just read it</p>
+<p begin="00:03:04.360" end="00:03:09.850" style="s2">and understand what&#39;s going on now</p>
+<p begin="00:03:06.550" end="00:03:14.650" style="s2">let&#39;s get the ages of the users that</p>
+<p begin="00:03:09.850" end="00:03:18.010" style="s2">have an email that ends with never calm</p>
+<p begin="00:03:14.650" end="00:03:22.330" style="s2">so now we&#39;re going to say select H from</p>
+<p begin="00:03:18.010" end="00:03:26.350" style="s2">the table students where the email like</p>
+<p begin="00:03:22.330" end="00:03:28.870" style="s2">and then with never calm in this case we</p>
+<p begin="00:03:26.350" end="00:03:30.580" style="s2">are using this percentage sign and that</p>
+<p begin="00:03:28.870" end="00:03:33.700" style="s2">means that we are looking for something</p>
+<p begin="00:03:30.580" end="00:03:36.040" style="s2">that ends with never calm what if we</p>
+<p begin="00:03:33.700" end="00:03:38.080" style="s2">want to delete the student with the ID</p>
+<p begin="00:03:36.040" end="00:03:41.170" style="s2">number two or we&#39;ll have to do is say</p>
+<p begin="00:03:38.080" end="00:03:44.110" style="s2">delete from the table students where the</p>
+<p begin="00:03:41.170" end="00:03:46.720" style="s2">ID is the number two whatever you want</p>
+<p begin="00:03:44.110" end="00:03:49.239" style="s2">to get the students that are between 15</p>
+<p begin="00:03:46.720" end="00:03:52.450" style="s2">and 18 years old all we have to do is do</p>
+<p begin="00:03:49.239" end="00:03:56.680" style="s2">select email from the table students</p>
+<p begin="00:03:52.450" end="00:03:59.380" style="s2">where the age is between 15 and 18 as</p>
+<p begin="00:03:56.680" end="00:04:02.200" style="s2">you can see here were using select from</p>
+<p begin="00:03:59.380" end="00:04:04.810" style="s2">where between and and these are all</p>
+<p begin="00:04:02.200" end="00:04:06.940" style="s2">commands provided to us by SQL and as</p>
+<p begin="00:04:04.810" end="00:04:10.709" style="s2">you can see it&#39;s so much like English is</p>
+<p begin="00:04:06.940" end="00:04:14.709" style="s2">incredibly incredibly easy to understand</p>
+<p begin="00:04:10.709" end="00:04:17.230" style="s2">so why so many programmers avoid SQL or</p>
+<p begin="00:04:14.709" end="00:04:20.289" style="s2">they just don&#39;t know SQL the answer is</p>
+<p begin="00:04:17.230" end="00:04:23.440" style="s2">ORM this is basically a thing that takes</p>
+<p begin="00:04:20.289" end="00:04:24.250" style="s2">my favorite code for example Python code</p>
+<p begin="00:04:23.440" end="00:04:28.120" style="s2">and turn</p>
+<p begin="00:04:24.250" end="00:04:31.300" style="s2">into SQL so I write code on Python and I</p>
+<p begin="00:04:28.120" end="00:04:33.880" style="s2">get SQL our aims are used really really</p>
+<p begin="00:04:31.300" end="00:04:37.240" style="s2">often for example on Python I have the</p>
+<p begin="00:04:33.880" end="00:04:40.600" style="s2">jungle or em on laravel we have eloquent</p>
+<p begin="00:04:37.240" end="00:04:43.060" style="s2">ORM or no js&#39; we have sacralized or type</p>
+<p begin="00:04:40.600" end="00:04:45.640" style="s2">RM these are all super super good</p>
+<p begin="00:04:43.060" end="00:04:48.460" style="s2">products and they save time the problem</p>
+<p begin="00:04:45.640" end="00:04:50.920" style="s2">is that they make the developers depend</p>
+<p begin="00:04:48.460" end="00:04:53.110" style="s2">on the RM because the developer doesn&#39;t</p>
+<p begin="00:04:50.920" end="00:04:55.450" style="s2">want to switch between Python and SQL</p>
+<p begin="00:04:53.110" end="00:04:59.410" style="s2">PHP and SQL it will be better if I could</p>
+<p begin="00:04:55.450" end="00:05:02.500" style="s2">just stay only on Python and get SQL via</p>
+<p begin="00:04:59.410" end="00:05:03.580" style="s2">my ORM now this is good because this</p>
+<p begin="00:05:02.500" end="00:05:05.560" style="s2">saves time</p>
+<p begin="00:05:03.580" end="00:05:08.470" style="s2">the problem is that people become</p>
+<p begin="00:05:05.560" end="00:05:11.140" style="s2">dependent on the oil and if something</p>
+<p begin="00:05:08.470" end="00:05:13.750" style="s2">breaks if they need something faster if</p>
+<p begin="00:05:11.140" end="00:05:15.700" style="s2">the ORM is not big enough then they</p>
+<p begin="00:05:13.750" end="00:05:18.430" style="s2">don&#39;t know what to do now this is why</p>
+<p begin="00:05:15.700" end="00:05:21.730" style="s2">every serious full-time developer should</p>
+<p begin="00:05:18.430" end="00:05:24.310" style="s2">learn SQL because eventually the ORM</p>
+<p begin="00:05:21.730" end="00:05:27.130" style="s2">might not be enough now I&#39;m not saying</p>
+<p begin="00:05:24.310" end="00:05:29.740" style="s2">stop using orange I use orange all the</p>
+<p begin="00:05:27.130" end="00:05:32.650" style="s2">time I don&#39;t write SQL code every day</p>
+<p begin="00:05:29.740" end="00:05:34.750" style="s2">but when something breaks when the ORM</p>
+<p begin="00:05:32.650" end="00:05:36.940" style="s2">is kind of slow when there is something</p>
+<p begin="00:05:34.750" end="00:05:40.479" style="s2">I need to do what I can&#39;t do it with the</p>
+<p begin="00:05:36.940" end="00:05:43.360" style="s2">ORM I go in and I write raw SQL code and</p>
+<p begin="00:05:40.479" end="00:05:45.460" style="s2">that will be always so much better than</p>
+<p begin="00:05:43.360" end="00:05:47.770" style="s2">not knowing what to do in trying to work</p>
+<p begin="00:05:45.460" end="00:05:49.419" style="s2">around the issues keep in mind I&#39;m not</p>
+<p begin="00:05:47.770" end="00:05:51.040" style="s2">saying that you should become an SQL</p>
+<p begin="00:05:49.419" end="00:05:53.890" style="s2">expert I&#39;m just saying you should</p>
+<p begin="00:05:51.040" end="00:05:56.680" style="s2">understand at least how SQL works so at</p>
+<p begin="00:05:53.890" end="00:05:59.620" style="s2">least you understand what is your or I&#39;m</p>
+<p begin="00:05:56.680" end="00:06:01.990" style="s2">doing for you this will help you</p>
+<p begin="00:05:59.620" end="00:06:04.600" style="s2">understand how databases work it will</p>
+<p begin="00:06:01.990" end="00:06:06.910" style="s2">help you model your data if you just</p>
+<p begin="00:06:04.600" end="00:06:09.460" style="s2">learn a little bit of SQL it would go a</p>
+<p begin="00:06:06.910" end="00:06:13.030" style="s2">long long way you are going to see the</p>
+<p begin="00:06:09.460" end="00:06:14.530" style="s2">benefits way way into the future thank</p>
+<p begin="00:06:13.030" end="00:06:16.780" style="s2">you so much for watching this video I</p>
+<p begin="00:06:14.530" end="00:06:19.240" style="s2">hope that you are now a little bit more</p>
+<p begin="00:06:16.780" end="00:06:20.710" style="s2">curious about SQL like I said you don&#39;t</p>
+<p begin="00:06:19.240" end="00:06:22.660" style="s2">have to be an expert you just need to</p>
+<p begin="00:06:20.710" end="00:06:24.910" style="s2">understand how it works but I promise</p>
+<p begin="00:06:22.660" end="00:06:27.550" style="s2">you the effort of learning right now is</p>
+<p begin="00:06:24.910" end="00:06:28.960" style="s2">going to pay in the long term thank you</p>
+<p begin="00:06:27.550" end="00:06:30.880" style="s2">for your support thank you for your</p>
+<p begin="00:06:28.960" end="00:06:33.970" style="s2">comments we&#39;re almost there in 100k as</p>
+<p begin="00:06:30.880" end="00:06:36.490" style="s2">always don&#39;t forget to be happy be warm</p>
+<p begin="00:06:33.970" end="00:06:39.330" style="s2">on the winter come Sameera sound hey-oh</p>
+<p begin="00:06:36.490" end="00:06:39.330" style="s2">don&#39;t forget to eat kimchi</p>
+</div>
+</body>
+</tt>

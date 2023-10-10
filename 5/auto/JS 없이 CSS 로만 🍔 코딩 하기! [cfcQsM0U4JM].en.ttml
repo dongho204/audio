@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.240" end="00:00:07.259" style="s2">many of us think that if we want to add</p>
+<p begin="00:00:05.040" end="00:00:10.019" style="s2">interactivity to our websites we must</p>
+<p begin="00:00:07.259" end="00:00:12.540" style="s2">use JavaScript but what we forget is</p>
+<p begin="00:00:10.019" end="00:00:15.059" style="s2">that because of how powerful CSS can be</p>
+<p begin="00:00:12.540" end="00:00:17.039" style="s2">sometimes we don&#39;t need JavaScript at</p>
+<p begin="00:00:15.059" end="00:00:19.080" style="s2">all so in this video we are going to</p>
+<p begin="00:00:17.039" end="00:00:22.740" style="s2">implement a feature that you would think</p>
+<p begin="00:00:19.080" end="00:00:24.420" style="s2">needs JavaScript using only CSS we will</p>
+<p begin="00:00:22.740" end="00:00:28.019" style="s2">learn how to build this beautiful</p>
+<p begin="00:00:24.420" end="00:00:30.720" style="s2">animated hamburger menu only with CSS</p>
+<p begin="00:00:28.019" end="00:00:32.940" style="s2">let&#39;s start with the HTML here we have a</p>
+<p begin="00:00:30.720" end="00:00:34.800" style="s2">header that contains three elements the</p>
+<p begin="00:00:32.940" end="00:00:36.780" style="s2">first one is a label element that has</p>
+<p begin="00:00:34.800" end="00:00:38.880" style="s2">three spans inside of it here is where</p>
+<p begin="00:00:36.780" end="00:00:41.940" style="s2">we will build and animate the lines of</p>
+<p begin="00:00:38.880" end="00:00:44.040" style="s2">the burger menu using the four attribute</p>
+<p begin="00:00:41.940" end="00:00:46.200" style="s2">we are connecting the label with the</p>
+<p begin="00:00:44.040" end="00:00:48.239" style="s2">checkbox input which means that when the</p>
+<p begin="00:00:46.200" end="00:00:50.160" style="s2">label is clicked the input will be</p>
+<p begin="00:00:48.239" end="00:00:52.440" style="s2">checked then we have the title of our</p>
+<p begin="00:00:50.160" end="00:00:54.480" style="s2">page and finally after the header we</p>
+<p begin="00:00:52.440" end="00:00:57.480" style="s2">have a nav with the links that the user</p>
+<p begin="00:00:54.480" end="00:00:59.399" style="s2">will see when the menu is open it does</p>
+<p begin="00:00:57.480" end="00:01:02.100" style="s2">not look pretty so let&#39;s get right to it</p>
+<p begin="00:00:59.399" end="00:01:04.860" style="s2">with cs first we&#39;re going to style the</p>
+<p begin="00:01:02.100" end="00:01:07.140" style="s2">label and create the lines here all we</p>
+<p begin="00:01:04.860" end="00:01:10.320" style="s2">are doing is turning the label into a</p>
+<p begin="00:01:07.140" end="00:01:13.200" style="s2">flex container with a width of 35 pixels</p>
+<p begin="00:01:10.320" end="00:01:15.840" style="s2">and a height of 25 pixels then we are</p>
+<p begin="00:01:13.200" end="00:01:18.900" style="s2">making each span into a black line that</p>
+<p begin="00:01:15.840" end="00:01:21.180" style="s2">is 5 pixels tall with a nice border</p>
+<p begin="00:01:18.900" end="00:01:23.640" style="s2">radius and a transition for</p>
+<p begin="00:01:21.180" end="00:01:26.159" style="s2">Transformations as you can see because</p>
+<p begin="00:01:23.640" end="00:01:28.439" style="s2">the label and the input are connected</p>
+<p begin="00:01:26.159" end="00:01:31.439" style="s2">when we click on the label on the lines</p>
+<p begin="00:01:28.439" end="00:01:34.200" style="s2">the input is checked now we are going to</p>
+<p begin="00:01:31.439" end="00:01:36.240" style="s2">hide the input from the user next we are</p>
+<p begin="00:01:34.200" end="00:01:38.400" style="s2">going to transform the lines inside of</p>
+<p begin="00:01:36.240" end="00:01:40.680" style="s2">the label depending if the input is</p>
+<p begin="00:01:38.400" end="00:01:43.439" style="s2">checked or not to do this we use the has</p>
+<p begin="00:01:40.680" end="00:01:45.960" style="s2">sudo class here we are checking if the</p>
+<p begin="00:01:43.439" end="00:01:48.420" style="s2">header that contains all of our elements</p>
+<p begin="00:01:45.960" end="00:01:50.220" style="s2">has an input that is checked if the</p>
+<p begin="00:01:48.420" end="00:01:52.560" style="s2">header has an input that is checked we</p>
+<p begin="00:01:50.220" end="00:01:55.439" style="s2">are rotating the first line 37 degrees</p>
+<p begin="00:01:52.560" end="00:01:57.840" style="s2">on this Z axis we are scaling the second</p>
+<p begin="00:01:55.439" end="00:02:01.380" style="s2">line to zero and the third line we are</p>
+<p begin="00:01:57.840" end="00:02:03.540" style="s2">rotating minus 37 degrees on this Z axis</p>
+<p begin="00:02:01.380" end="00:02:05.399" style="s2">as well here is how it looks like as you</p>
+<p begin="00:02:03.540" end="00:02:07.439" style="s2">can see the second line is disappearing</p>
+<p begin="00:02:05.399" end="00:02:10.080" style="s2">and the first and last one are being</p>
+<p begin="00:02:07.439" end="00:02:12.540" style="s2">rotated because we want them to be</p>
+<p begin="00:02:10.080" end="00:02:14.879" style="s2">rotated and form an X we are going to</p>
+<p begin="00:02:12.540" end="00:02:17.819" style="s2">change their transform Origins by adding</p>
+<p begin="00:02:14.879" end="00:02:20.400" style="s2">this code before the rotation code as</p>
+<p begin="00:02:17.819" end="00:02:22.560" style="s2">you can see it looks awesome and next up</p>
+<p begin="00:02:20.400" end="00:02:24.900" style="s2">we are going to style our Header by</p>
+<p begin="00:02:22.560" end="00:02:27.180" style="s2">making it into a flex container and</p>
+<p begin="00:02:24.900" end="00:02:29.580" style="s2">giving it a bit of padding and Shadow</p>
+<p begin="00:02:27.180" end="00:02:32.340" style="s2">then we are going to add this code all</p>
+<p begin="00:02:29.580" end="00:02:34.560" style="s2">it does is style the nav the UL and the</p>
+<p begin="00:02:32.340" end="00:02:36.720" style="s2">links inside of it we give some box</p>
+<p begin="00:02:34.560" end="00:02:39.420" style="s2">Shadow to the nav and make it have a</p>
+<p begin="00:02:36.720" end="00:02:42.000" style="s2">width of 30 percent of the size of the</p>
+<p begin="00:02:39.420" end="00:02:44.760" style="s2">screen we make the UL into a flex</p>
+<p begin="00:02:42.000" end="00:02:48.180" style="s2">container with paddings and gaps getting</p>
+<p begin="00:02:44.760" end="00:02:50.280" style="s2">this result next because we want to hide</p>
+<p begin="00:02:48.180" end="00:02:52.739" style="s2">the navigation we are going to add</p>
+<p begin="00:02:50.280" end="00:02:55.739" style="s2">transform translate X to move it</p>
+<p begin="00:02:52.739" end="00:02:57.900" style="s2">horizontally outside of the view of the</p>
+<p begin="00:02:55.739" end="00:03:00.180" style="s2">user and we are also going to give it a</p>
+<p begin="00:02:57.900" end="00:03:02.640" style="s2">transition now all is left is to display</p>
+<p begin="00:03:00.180" end="00:03:04.980" style="s2">the nav when the user clicks on the</p>
+<p begin="00:03:02.640" end="00:03:07.739" style="s2">hamburger just to remind you this is how</p>
+<p begin="00:03:04.980" end="00:03:09.840" style="s2">our HTML roughly looks like we have a</p>
+<p begin="00:03:07.739" end="00:03:11.940" style="s2">header that has an input as a child and</p>
+<p begin="00:03:09.840" end="00:03:14.220" style="s2">next to the header we have enough what</p>
+<p begin="00:03:11.940" end="00:03:16.800" style="s2">we want to do is check if the input</p>
+<p begin="00:03:14.220" end="00:03:19.140" style="s2">inside of the header is checked and if</p>
+<p begin="00:03:16.800" end="00:03:21.540" style="s2">it is we want to select the brother of</p>
+<p begin="00:03:19.140" end="00:03:24.420" style="s2">the header the nav and show it to the</p>
+<p begin="00:03:21.540" end="00:03:26.280" style="s2">users that condition might sound like a</p>
+<p begin="00:03:24.420" end="00:03:29.220" style="s2">job for the JavaScript but it actually</p>
+<p begin="00:03:26.280" end="00:03:31.920" style="s2">isn&#39;t just by writing this code we can</p>
+<p begin="00:03:29.220" end="00:03:34.800" style="s2">accomplish the exact same thing here we</p>
+<p begin="00:03:31.920" end="00:03:37.440" style="s2">are checking if there is a header with a</p>
+<p begin="00:03:34.800" end="00:03:39.420" style="s2">checked input inside of it and using the</p>
+<p begin="00:03:37.440" end="00:03:42.720" style="s2">general sibling combinator we are</p>
+<p begin="00:03:39.420" end="00:03:45.599" style="s2">selecting the nav sibling of the header</p>
+<p begin="00:03:42.720" end="00:03:50.360" style="s2">then what is left is to unhide the</p>
+<p begin="00:03:45.599" end="00:03:50.360" style="s2">navigation to get a result like this</p>
+<p begin="00:03:50.400" end="00:03:56.280" style="s2">and we&#39;re done we just built an animated</p>
+<p begin="00:03:53.280" end="00:03:59.580" style="s2">interactive hamburger menu using only</p>
+<p begin="00:03:56.280" end="00:04:00.959" style="s2">CSS no JavaScript at all let me know in</p>
+<p begin="00:03:59.580" end="00:04:03.120" style="s2">the comments if you thought today&#39;s</p>
+<p begin="00:04:00.959" end="00:04:04.980" style="s2">project was only possible using</p>
+<p begin="00:04:03.120" end="00:04:06.780" style="s2">JavaScript and let me know if you would</p>
+<p begin="00:04:04.980" end="00:04:08.879" style="s2">like to see me make more videos like</p>
+<p begin="00:04:06.780" end="00:04:12.959" style="s2">this we could build image galleries</p>
+<p begin="00:04:08.879" end="00:04:14.879" style="s2">sliders models and more all in pure CSS</p>
+<p begin="00:04:12.959" end="00:04:16.320" style="s2">thank you for watching as always and</p>
+<p begin="00:04:14.879" end="00:04:18.359" style="s2">don&#39;t forget that if you want to learn</p>
+<p begin="00:04:16.320" end="00:04:21.419" style="s2">things like JavaScript python react</p>
+<p begin="00:04:18.359" end="00:04:24.419" style="s2">react native go dark flutter among many</p>
+<p begin="00:04:21.419" end="00:04:26.520" style="s2">others for absolutely free all you have</p>
+<p begin="00:04:24.419" end="00:04:28.680" style="s2">to do is click the link below to join</p>
+<p begin="00:04:26.520" end="00:04:31.139" style="s2">any of our many free courses that you</p>
+<p begin="00:04:28.680" end="00:04:33.540" style="s2">can take right now for absolutely free</p>
+<p begin="00:04:31.139" end="00:04:35.720" style="s2">with me click the link below and I will</p>
+<p begin="00:04:33.540" end="00:04:39.919" style="s2">see you there</p>
+<p begin="00:04:35.720" end="00:04:39.919" style="s2">see you on the next one bye</p>
+</div>
+</body>
+</tt>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.060" end="00:00:05.520" style="s2">and us in the car today we are going to</p>
+<p begin="00:00:02.460" end="00:00:09.120" style="s2">talk about AI machine learning and deep</p>
+<p begin="00:00:05.520" end="00:00:12.990" style="s2">learning the reason why is because AI is</p>
+<p begin="00:00:09.120" end="00:00:15.839" style="s2">everywhere in the news the government</p>
+<p begin="00:00:12.990" end="00:00:18.330" style="s2">loves to put money on AI project a pinch</p>
+<p begin="00:00:15.839" end="00:00:21.320" style="s2">of cube todo investors love to put money</p>
+<p begin="00:00:18.330" end="00:00:24.570" style="s2">on machine learning powered companies</p>
+<p begin="00:00:21.320" end="00:00:27.810" style="s2">investment and everybody&#39;s talking about</p>
+<p begin="00:00:24.570" end="00:00:30.060" style="s2">deep learning algorithms we are going to</p>
+<p begin="00:00:27.810" end="00:00:32.219" style="s2">define what is AI what is machine</p>
+<p begin="00:00:30.060" end="00:00:34.170" style="s2">learning what is good learning at the</p>
+<p begin="00:00:32.219" end="00:00:36.360" style="s2">end I&#39;m going to tell you how a</p>
+<p begin="00:00:34.170" end="00:00:38.460" style="s2">full-stack programmer like me that</p>
+<p begin="00:00:36.360" end="00:00:40.620" style="s2">doesn&#39;t like math and a dozen really</p>
+<p begin="00:00:38.460" end="00:00:42.629" style="s2">like calculus in all that can get</p>
+<p begin="00:00:40.620" end="00:00:44.219" style="s2">started working with artificial</p>
+<p begin="00:00:42.629" end="00:00:48.140" style="s2">intelligence and machine learning</p>
+<p begin="00:00:44.219" end="00:00:51.230" style="s2">ai ai is divided in two categories</p>
+<p begin="00:00:48.140" end="00:00:54.000" style="s2">narrow AI in general area</p>
+<p begin="00:00:51.230" end="00:00:57.960" style="s2">Hollywood and Netflix and all the movies</p>
+<p begin="00:00:54.000" end="00:00:59.850" style="s2">are in general AI general AI is machines</p>
+<p begin="00:00:57.960" end="00:01:02.910" style="s2">that do everything that humans do and</p>
+<p begin="00:00:59.850" end="00:01:06.420" style="s2">better that can do a general purpose AI</p>
+<p begin="00:01:02.910" end="00:01:08.100" style="s2">that can do anything so it can talk it</p>
+<p begin="00:01:06.420" end="00:01:11.159" style="s2">can learn to play games it can</p>
+<p begin="00:01:08.100" end="00:01:13.229" style="s2">communicate it can make a judgment it</p>
+<p begin="00:01:11.159" end="00:01:16.920" style="s2">can just be exactly like a human in</p>
+<p begin="00:01:13.229" end="00:01:19.970" style="s2">varies general AI right now in the world</p>
+<p begin="00:01:16.920" end="00:01:23.130" style="s2">in the industry we are in a narrow AI</p>
+<p begin="00:01:19.970" end="00:01:25.890" style="s2">narrow AI are machines that can only do</p>
+<p begin="00:01:23.130" end="00:01:27.600" style="s2">one thing and one thing very well where</p>
+<p begin="00:01:25.890" end="00:01:29.909" style="s2">the focus of the machine is narrow</p>
+<p begin="00:01:27.600" end="00:01:32.490" style="s2">the applications are narrow the machine</p>
+<p begin="00:01:29.909" end="00:01:35.070" style="s2">can do one thing well and one thing only</p>
+<p begin="00:01:32.490" end="00:01:37.920" style="s2">an example of narrow AI would be for</p>
+<p begin="00:01:35.070" end="00:01:41.939" style="s2">example the Facebook AI at finding out</p>
+<p begin="00:01:37.920" end="00:01:45.210" style="s2">faces in photos but that&#39;s it this AI is</p>
+<p begin="00:01:41.939" end="00:01:48.329" style="s2">not able to learn how to find out dogs</p>
+<p begin="00:01:45.210" end="00:01:50.790" style="s2">in photos because is narrow is general</p>
+<p begin="00:01:48.329" end="00:01:53.310" style="s2">is narrow AI it can only do one thing</p>
+<p begin="00:01:50.790" end="00:01:55.680" style="s2">well and one thing only</p>
+<p begin="00:01:53.310" end="00:01:58.469" style="s2">that&#39;s what we are right now but now we</p>
+<p begin="00:01:55.680" end="00:02:01.710" style="s2">need to understand how we teach those</p>
+<p begin="00:01:58.469" end="00:02:05.549" style="s2">hey guys here is where machine learning</p>
+<p begin="00:02:01.710" end="00:02:07.110" style="s2">is the way to accomplish a a I so how</p>
+<p begin="00:02:05.549" end="00:02:09.270" style="s2">the machines learn there are many</p>
+<p begin="00:02:07.110" end="00:02:12.550" style="s2">categories of machine learning but the</p>
+<p begin="00:02:09.270" end="00:02:15.400" style="s2">most famous ones are to</p>
+<p begin="00:02:12.550" end="00:02:17.319" style="s2">on supervised learning and supervised</p>
+<p begin="00:02:15.400" end="00:02:20.590" style="s2">learning let&#39;s say that we are going to</p>
+<p begin="00:02:17.319" end="00:02:32.950" style="s2">make an application that detects if a</p>
+<p begin="00:02:20.590" end="00:02:35.650" style="s2">food is a hot dog or not a hot dog if we</p>
+<p begin="00:02:32.950" end="00:02:39.730" style="s2">did it in a supervised way what we will</p>
+<p begin="00:02:35.650" end="00:02:45.010" style="s2">do is that we will label what a hot dog</p>
+<p begin="00:02:39.730" end="00:02:48.819" style="s2">is okay a hot dog is a sausage a hot dog</p>
+<p begin="00:02:45.010" end="00:02:53.290" style="s2">is long a hot dog has some sauce on top</p>
+<p begin="00:02:48.819" end="00:02:56.080" style="s2">a hot dog has is between a bun that is a</p>
+<p begin="00:02:53.290" end="00:02:57.700" style="s2">label we&#39;re going to label what a hot</p>
+<p begin="00:02:56.080" end="00:03:00.880" style="s2">dog is we&#39;re going to tell the Machine</p>
+<p begin="00:02:57.700" end="00:03:03.489" style="s2">what a hot dog is right and then we are</p>
+<p begin="00:03:00.880" end="00:03:05.860" style="s2">going to get millions of photos of any</p>
+<p begin="00:03:03.489" end="00:03:09.099" style="s2">kind of food we&#39;re going to put that</p>
+<p begin="00:03:05.860" end="00:03:12.459" style="s2">into the machine in the machine based in</p>
+<p begin="00:03:09.099" end="00:03:16.989" style="s2">our labels the machine is going to say</p>
+<p begin="00:03:12.459" end="00:03:19.150" style="s2">ok this photo has 60% chance of being a</p>
+<p begin="00:03:16.989" end="00:03:21.040" style="s2">hot dog so the machine is not thinking</p>
+<p begin="00:03:19.150" end="00:03:23.260" style="s2">the machine is just telling us in a</p>
+<p begin="00:03:21.040" end="00:03:25.739" style="s2">probability way with statistics and</p>
+<p begin="00:03:23.260" end="00:03:29.380" style="s2">mathematics it just train us this has</p>
+<p begin="00:03:25.739" end="00:03:31.720" style="s2">95% chance of being a hot dog based on</p>
+<p begin="00:03:29.380" end="00:03:35.470" style="s2">the labels that the humans gave to the</p>
+<p begin="00:03:31.720" end="00:03:37.810" style="s2">machine one example of supervised</p>
+<p begin="00:03:35.470" end="00:03:40.829" style="s2">machine learning will be for example a</p>
+<p begin="00:03:37.810" end="00:03:45.130" style="s2">music recommendation system the user US</p>
+<p begin="00:03:40.829" end="00:03:46.840" style="s2">will label the songs a good night so we</p>
+<p begin="00:03:45.130" end="00:03:48.609" style="s2">will tell the Machine these are the snow</p>
+<p begin="00:03:46.840" end="00:03:50.560" style="s2">that I enjoy this is the ton of beat</p>
+<p begin="00:03:48.609" end="00:03:52.870" style="s2">that I enjoy this is the kind of artists</p>
+<p begin="00:03:50.560" end="00:03:55.510" style="s2">that I like next time a new song comes</p>
+<p begin="00:03:52.870" end="00:03:58.239" style="s2">the Machine now has labeled data into</p>
+<p begin="00:03:55.510" end="00:04:00.790" style="s2">what is a song that Nikolas likes and</p>
+<p begin="00:03:58.239" end="00:04:03.400" style="s2">then you will know if Nikolas has a 90%</p>
+<p begin="00:04:00.790" end="00:04:05.910" style="s2">chance of liking this new song that&#39;s</p>
+<p begin="00:04:03.400" end="00:04:09.480" style="s2">coming up that is supervised learning</p>
+<p begin="00:04:05.910" end="00:04:12.519" style="s2">humans label the data now in</p>
+<p begin="00:04:09.480" end="00:04:15.160" style="s2">unsupervised learning the humans do not</p>
+<p begin="00:04:12.519" end="00:04:17.500" style="s2">label the data so for example to do this</p>
+<p begin="00:04:15.160" end="00:04:19.030" style="s2">hot dog app what we are going to do is</p>
+<p begin="00:04:17.500" end="00:04:21.549" style="s2">that we are going to give to the Machine</p>
+<p begin="00:04:19.030" end="00:04:23.349" style="s2">millions of photos of only hot dogs</p>
+<p begin="00:04:21.549" end="00:04:25.450" style="s2">we&#39;re going to give that to the Machine</p>
+<p begin="00:04:23.349" end="00:04:28.030" style="s2">we&#39;re gonna give the machine any leg</p>
+<p begin="00:04:25.450" end="00:04:31.930" style="s2">and we are going to let the Machine by</p>
+<p begin="00:04:28.030" end="00:04:33.970" style="s2">itself figure out a label that makes a</p>
+<p begin="00:04:31.930" end="00:04:35.320" style="s2">hot dog so when you&#39;re going to tell any</p>
+<p begin="00:04:33.970" end="00:04:37.750" style="s2">description of a hot dog we&#39;re just</p>
+<p begin="00:04:35.320" end="00:04:40.540" style="s2">gonna give the Machine a lot of hot dog</p>
+<p begin="00:04:37.750" end="00:04:43.390" style="s2">photos in the machine we&#39;ll figure out</p>
+<p begin="00:04:40.540" end="00:04:46.000" style="s2">by itself after a lot of time and a lot</p>
+<p begin="00:04:43.390" end="00:04:49.750" style="s2">of processing power and a lot a lot of</p>
+<p begin="00:04:46.000" end="00:04:51.580" style="s2">data all right now of course I know this</p>
+<p begin="00:04:49.750" end="00:04:53.680" style="s2">is just a very simple explanation if you</p>
+<p begin="00:04:51.580" end="00:04:55.330" style="s2">want this if you like this topic we can</p>
+<p begin="00:04:53.680" end="00:04:57.100" style="s2">talk more about it in super in future</p>
+<p begin="00:04:55.330" end="00:05:00.160" style="s2">videos but now I need to move on to the</p>
+<p begin="00:04:57.100" end="00:05:02.800" style="s2">last topic which is learning deep</p>
+<p begin="00:05:00.160" end="00:05:04.930" style="s2">learning is just a way to accomplish</p>
+<p begin="00:05:02.800" end="00:05:09.550" style="s2">machine learning machine learning is a</p>
+<p begin="00:05:04.930" end="00:05:11.710" style="s2">way to accomplish a deep learning is</p>
+<p begin="00:05:09.550" end="00:05:15.250" style="s2">called deep learning because it makes</p>
+<p begin="00:05:11.710" end="00:05:17.620" style="s2">use of something called neural networks</p>
+<p begin="00:05:15.250" end="00:05:19.750" style="s2">very smart scientists very smart</p>
+<p begin="00:05:17.620" end="00:05:21.340" style="s2">mathematicians and computer scientists</p>
+<p begin="00:05:19.750" end="00:05:26.380" style="s2">and all that they came up with this</p>
+<p begin="00:05:21.340" end="00:05:28.750" style="s2">algorithm that works like a brain you</p>
+<p begin="00:05:26.380" end="00:05:30.400" style="s2">need a lot of data to train that and you</p>
+<p begin="00:05:28.750" end="00:05:34.810" style="s2">need a lot of processing power because</p>
+<p begin="00:05:30.400" end="00:05:37.480" style="s2">it&#39;s a very long and computer intensive</p>
+<p begin="00:05:34.810" end="00:05:38.980" style="s2">process but that&#39;s it deep learning is a</p>
+<p begin="00:05:37.480" end="00:05:40.300" style="s2">way to accomplish machine learning</p>
+<p begin="00:05:38.980" end="00:05:41.170" style="s2">machine learning is a way to accomplish</p>
+<p begin="00:05:40.300" end="00:05:43.450" style="s2">AI</p>
+<p begin="00:05:41.170" end="00:05:45.130" style="s2">all right now deep learning is being</p>
+<p begin="00:05:43.450" end="00:05:48.940" style="s2">used by companies for example like</p>
+<p begin="00:05:45.130" end="00:05:50.680" style="s2">Google or Google or Tesla for example</p>
+<p begin="00:05:48.940" end="00:05:53.170" style="s2">because they can process and have</p>
+<p begin="00:05:50.680" end="00:05:56.590" style="s2">massive amounts of data and they have</p>
+<p begin="00:05:53.170" end="00:05:59.050" style="s2">massive amounts of money so how does a</p>
+<p begin="00:05:56.590" end="00:06:00.730" style="s2">full-stack programmer come up and start</p>
+<p begin="00:05:59.050" end="00:06:02.170" style="s2">working with machine learning and deep</p>
+<p begin="00:06:00.730" end="00:06:03.580" style="s2">learning well if you want to get started</p>
+<p begin="00:06:02.170" end="00:06:07.150" style="s2">in machine learning you have to learn</p>
+<p begin="00:06:03.580" end="00:06:09.130" style="s2">Python that is like the best way to get</p>
+<p begin="00:06:07.150" end="00:06:10.750" style="s2">started if you know Python then you can</p>
+<p begin="00:06:09.130" end="00:06:11.410" style="s2">move on and look into something called</p>
+<p begin="00:06:10.750" end="00:06:13.120" style="s2">tensorflow</p>
+<p begin="00:06:11.410" end="00:06:15.370" style="s2">thankfully you don&#39;t have to do all</p>
+<p begin="00:06:13.120" end="00:06:16.930" style="s2">these things by yourself manually you</p>
+<p begin="00:06:15.370" end="00:06:19.180" style="s2">don&#39;t have to create a neural networks</p>
+<p begin="00:06:16.930" end="00:06:22.090" style="s2">by OSHA the community has already built</p>
+<p begin="00:06:19.180" end="00:06:24.160" style="s2">tons and tons of things the most popular</p>
+<p begin="00:06:22.090" end="00:06:26.770" style="s2">framework for artificial intelligence is</p>
+<p begin="00:06:24.160" end="00:06:28.840" style="s2">called tensor flow tensor flow is in</p>
+<p begin="00:06:26.770" end="00:06:30.790" style="s2">JavaScript and Python so those two</p>
+<p begin="00:06:28.840" end="00:06:32.350" style="s2">languages are super super easy to do get</p>
+<p begin="00:06:30.790" end="00:06:34.300" style="s2">start to do it and you can get started</p>
+<p begin="00:06:32.350" end="00:06:36.970" style="s2">tomorrow if you wanted to also there is</p>
+<p begin="00:06:34.300" end="00:06:39.020" style="s2">this thing called brain jail on brain</p>
+<p begin="00:06:36.970" end="00:06:40.789" style="s2">j/s they already have neural net</p>
+<p begin="00:06:39.020" end="00:06:43.340" style="s2">works deep learning algorithms</p>
+<p begin="00:06:40.789" end="00:06:45.500" style="s2">activation functions I&#39;ll on the</p>
+<p begin="00:06:43.340" end="00:06:48.740" style="s2">things already done for you to work with</p>
+<p begin="00:06:45.500" end="00:06:50.810" style="s2">deep learning and no GS so if you ask me</p>
+<p begin="00:06:48.740" end="00:06:53.090" style="s2">it&#39;s an amazing thing like I said the</p>
+<p begin="00:06:50.810" end="00:06:54.699" style="s2">community has already built so many</p>
+<p begin="00:06:53.090" end="00:06:56.930" style="s2">things so if you&#39;re scared of math</p>
+<p begin="00:06:54.699" end="00:06:58.639" style="s2">calculation on that you can go and start</p>
+<p begin="00:06:56.930" end="00:07:00.650" style="s2">playing around with tensorflow</p>
+<p begin="00:06:58.639" end="00:07:02.300" style="s2">or with brain shaders and that will just</p>
+<p begin="00:07:00.650" end="00:07:03.889" style="s2">give you an introduction of what is</p>
+<p begin="00:07:02.300" end="00:07:05.900" style="s2">machine learning without having to take</p>
+<p begin="00:07:03.889" end="00:07:08.030" style="s2">care of all the math in the calculus</p>
+<p begin="00:07:05.900" end="00:07:09.949" style="s2">Python and JavaScript those two</p>
+<p begin="00:07:08.030" end="00:07:11.750" style="s2">languages are gonna be big big big big</p>
+<p begin="00:07:09.949" end="00:07:13.849" style="s2">on machine learning I think Python</p>
+<p begin="00:07:11.750" end="00:07:15.409" style="s2">already is it&#39;s a massive in JavaScript</p>
+<p begin="00:07:13.849" end="00:07:17.900" style="s2">is a start in there because it&#39;s on the</p>
+<p begin="00:07:15.409" end="00:07:20.000" style="s2">web thank you for watching I hope that</p>
+<p begin="00:07:17.900" end="00:07:21.650" style="s2">you enjoyed this video let me know what</p>
+<p begin="00:07:20.000" end="00:07:23.750" style="s2">you think let me know in the comments</p>
+<p begin="00:07:21.650" end="00:07:25.610" style="s2">just keep in mind that this concept is</p>
+<p begin="00:07:23.750" end="00:07:27.650" style="s2">for newbies and I&#39;m not trying to be</p>
+<p begin="00:07:25.610" end="00:07:29.870" style="s2">super correct and specific in all the</p>
+<p begin="00:07:27.650" end="00:07:31.849" style="s2">things I say so if you think actually</p>
+<p begin="00:07:29.870" end="00:07:34.280" style="s2">that was wrong you just remember that</p>
+<p begin="00:07:31.849" end="00:07:36.800" style="s2">I&#39;m just trying to explain this into the</p>
+<p begin="00:07:34.280" end="00:07:38.240" style="s2">easiest terms icon let me know what you</p>
+<p begin="00:07:36.800" end="00:07:40.370" style="s2">think leave a like leave a comment</p>
+<p begin="00:07:38.240" end="00:07:42.949" style="s2">subscribe share to your friends and as</p>
+<p begin="00:07:40.370" end="00:07:45.069" style="s2">always don&#39;t forget to eat kimchi bye</p>
+<p begin="00:07:42.949" end="00:07:45.069" style="s2">bye</p>
+</div>
+</body>
+</tt>

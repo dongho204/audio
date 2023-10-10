@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.030" end="00:00:05.700" style="s2">I know I see everybody today we&#39;re going</p>
+<p begin="00:00:02.220" end="00:00:07.730" style="s2">to talk about api&#39;s this video is one of</p>
+<p begin="00:00:05.700" end="00:00:12.509" style="s2">the first videos of the series called</p>
+<p begin="00:00:07.730" end="00:00:14.429" style="s2">new big questions let&#39;s get started what</p>
+<p begin="00:00:12.509" end="00:00:16.859" style="s2">is an API why so many people talk about</p>
+<p begin="00:00:14.429" end="00:00:19.020" style="s2">API so why are they so important why</p>
+<p begin="00:00:16.859" end="00:00:23.670" style="s2">does everybody have an API what is a</p>
+<p begin="00:00:19.020" end="00:00:25.320" style="s2">Facebook API Instagram API an API is</p>
+<p begin="00:00:23.670" end="00:00:27.689" style="s2">just basically like this keyboard light</p>
+<p begin="00:00:25.320" end="00:00:30.060" style="s2">right here with this keyword we interact</p>
+<p begin="00:00:27.689" end="00:00:33.110" style="s2">with a computer when I press a button</p>
+<p begin="00:00:30.060" end="00:00:35.940" style="s2">here beautiful button that I can press</p>
+<p begin="00:00:33.110" end="00:00:38.250" style="s2">something happens inside of this</p>
+<p begin="00:00:35.940" end="00:00:40.649" style="s2">something happens inside of my computer</p>
+<p begin="00:00:38.250" end="00:00:41.730" style="s2">and that showed me the text on the</p>
+<p begin="00:00:40.649" end="00:00:44.030" style="s2">screen all right</p>
+<p begin="00:00:41.730" end="00:00:46.680" style="s2">I&#39;m interacting with the computer</p>
+<p begin="00:00:44.030" end="00:00:49.469" style="s2">through the keyboard that&#39;s how I am</p>
+<p begin="00:00:46.680" end="00:00:51.960" style="s2">inputting information with the keys that</p>
+<p begin="00:00:49.469" end="00:00:54.510" style="s2">they have provided this is the only way</p>
+<p begin="00:00:51.960" end="00:00:59.579" style="s2">I can interact with my computer now an</p>
+<p begin="00:00:54.510" end="00:01:02.850" style="s2">API is something like this an API is how</p>
+<p begin="00:00:59.579" end="00:01:05.489" style="s2">do programs interact with each other an</p>
+<p begin="00:01:02.850" end="00:01:07.740" style="s2">API is made for code to be able to</p>
+<p begin="00:01:05.489" end="00:01:09.510" style="s2">interact with basically other code or</p>
+<p begin="00:01:07.740" end="00:01:12.510" style="s2">other technology an API is just</p>
+<p begin="00:01:09.510" end="00:01:14.340" style="s2">basically this keyword that you make</p>
+<p begin="00:01:12.510" end="00:01:17.970" style="s2">from your server and you give that</p>
+<p begin="00:01:14.340" end="00:01:19.650" style="s2">keyword to the iOS application boom with</p>
+<p begin="00:01:17.970" end="00:01:21.299" style="s2">this key you&#39;re going to login with this</p>
+<p begin="00:01:19.650" end="00:01:23.549" style="s2">key you&#39;re going to log out with this</p>
+<p begin="00:01:21.299" end="00:01:24.930" style="s2">key you&#39;re going to upload a photo with</p>
+<p begin="00:01:23.549" end="00:01:28.530" style="s2">this key you&#39;re going to follow somebody</p>
+<p begin="00:01:24.930" end="00:01:30.240" style="s2">and when the iOS or Android presses</p>
+<p begin="00:01:28.530" end="00:01:33.329" style="s2">these keys that is going to have an</p>
+<p begin="00:01:30.240" end="00:01:36.720" style="s2">effect on the database back there on</p>
+<p begin="00:01:33.329" end="00:01:39.299" style="s2">your servers far away that is basically</p>
+<p begin="00:01:36.720" end="00:01:41.729" style="s2">an API now what is a REST API what is a</p>
+<p begin="00:01:39.299" end="00:01:44.250" style="s2">graph to the API what is a soap API what</p>
+<p begin="00:01:41.729" end="00:01:46.560" style="s2">is an XML API these are just different</p>
+<p begin="00:01:44.250" end="00:01:47.399" style="s2">shapes of keyboards but they accomplish</p>
+<p begin="00:01:46.560" end="00:01:50.939" style="s2">the same thing</p>
+<p begin="00:01:47.399" end="00:01:52.740" style="s2">they let programs communicate with each</p>
+<p begin="00:01:50.939" end="00:01:54.119" style="s2">other but this is not the only API that</p>
+<p begin="00:01:52.740" end="00:01:56.280" style="s2">you can find you can also find public</p>
+<p begin="00:01:54.119" end="00:01:58.380" style="s2">API so there is weathers a weather API</p>
+<p begin="00:01:56.280" end="00:02:00.960" style="s2">which is a server that has the weather</p>
+<p begin="00:01:58.380" end="00:02:03.719" style="s2">of everywhere in the world and when you</p>
+<p begin="00:02:00.960" end="00:02:06.659" style="s2">press the button get weather of Korea is</p>
+<p begin="00:02:03.719" end="00:02:09.060" style="s2">going to show you that weather also we</p>
+<p begin="00:02:06.659" end="00:02:11.069" style="s2">have Instagram API we have Facebook APs</p>
+<p begin="00:02:09.060" end="00:02:13.410" style="s2">those are just keyboards that your</p>
+<p begin="00:02:11.069" end="00:02:16.350" style="s2">program can use to interact we</p>
+<p begin="00:02:13.410" end="00:02:19.170" style="s2">those applications with those servers</p>
+<p begin="00:02:16.350" end="00:02:21.390" style="s2">now api&#39;s are designed by the people</p>
+<p begin="00:02:19.170" end="00:02:24.210" style="s2">that have the server and that are making</p>
+<p begin="00:02:21.390" end="00:02:25.560" style="s2">the API so for example some api&#39;s they</p>
+<p begin="00:02:24.210" end="00:02:27.030" style="s2">don&#39;t allow you to do everything</p>
+<p begin="00:02:25.560" end="00:02:28.830" style="s2">sometimes the API is come with</p>
+<p begin="00:02:27.030" end="00:02:30.720" style="s2">limitations sometimes you have to pay</p>
+<p begin="00:02:28.830" end="00:02:34.260" style="s2">for access to the key word sometimes you</p>
+<p begin="00:02:30.720" end="00:02:36.270" style="s2">can only send maybe ten requests per</p>
+<p begin="00:02:34.260" end="00:02:39.030" style="s2">second there is another kind of API</p>
+<p begin="00:02:36.270" end="00:02:42.420" style="s2">which is for example the Web API where</p>
+<p begin="00:02:39.030" end="00:02:45.360" style="s2">api&#39;s our API is made for the browser</p>
+<p begin="00:02:42.420" end="00:02:47.790" style="s2">for Google Chrome for Firefox for all</p>
+<p begin="00:02:45.360" end="00:02:50.610" style="s2">that and those are the same thing they</p>
+<p begin="00:02:47.790" end="00:02:53.880" style="s2">the chrome team the Firefox team the</p>
+<p begin="00:02:50.610" end="00:02:55.980" style="s2">Safari team they all exposed buttons for</p>
+<p begin="00:02:53.880" end="00:02:59.070" style="s2">you to use every time there is a new</p>
+<p begin="00:02:55.980" end="00:03:01.070" style="s2">button popping up and before the API was</p>
+<p begin="00:02:59.070" end="00:03:04.620" style="s2">really really small like this is Moe</p>
+<p begin="00:03:01.070" end="00:03:06.360" style="s2">only this part was the API but now it&#39;s</p>
+<p begin="00:03:04.620" end="00:03:08.160" style="s2">being growing so now we have buttons for</p>
+<p begin="00:03:06.360" end="00:03:11.160" style="s2">example that if I press this button I</p>
+<p begin="00:03:08.160" end="00:03:13.350" style="s2">can request access to the user</p>
+<p begin="00:03:11.160" end="00:03:16.440" style="s2">microphone if I play if I press this</p>
+<p begin="00:03:13.350" end="00:03:17.790" style="s2">button I can also request access to the</p>
+<p begin="00:03:16.440" end="00:03:20.250" style="s2">user camera</p>
+<p begin="00:03:17.790" end="00:03:22.860" style="s2">if I press another button I request</p>
+<p begin="00:03:20.250" end="00:03:26.460" style="s2">access to the geolocation so those are</p>
+<p begin="00:03:22.860" end="00:03:28.650" style="s2">all just buttons that you press to have</p>
+<p begin="00:03:26.460" end="00:03:31.620" style="s2">some result you don&#39;t see the internals</p>
+<p begin="00:03:28.650" end="00:03:34.500" style="s2">of that job you don&#39;t see the internals</p>
+<p begin="00:03:31.620" end="00:03:36.540" style="s2">of how Chrome is getting my location you</p>
+<p begin="00:03:34.500" end="00:03:38.610" style="s2">don&#39;t see the internals of how Firefox</p>
+<p begin="00:03:36.540" end="00:03:40.380" style="s2">is getting my audio you don&#39;t do any of</p>
+<p begin="00:03:38.610" end="00:03:42.570" style="s2">that they just give you a button and</p>
+<p begin="00:03:40.380" end="00:03:44.340" style="s2">when you press it many things happen</p>
+<p begin="00:03:42.570" end="00:03:46.080" style="s2">under it but that&#39;s not your problem and</p>
+<p begin="00:03:44.340" end="00:03:48.090" style="s2">that&#39;s why everybody loves an API they</p>
+<p begin="00:03:46.080" end="00:03:50.580" style="s2">have different purposes but they do the</p>
+<p begin="00:03:48.090" end="00:03:53.180" style="s2">same thing they just expose buttons that</p>
+<p begin="00:03:50.580" end="00:03:57.450" style="s2">then you can press with your code and</p>
+<p begin="00:03:53.180" end="00:03:59.400" style="s2">that will have some result at the end so</p>
+<p begin="00:03:57.450" end="00:04:01.200" style="s2">do you need an API you don&#39;t need an API</p>
+<p begin="00:03:59.400" end="00:04:03.900" style="s2">it&#39;ll depends on your needs should you</p>
+<p begin="00:04:01.200" end="00:04:05.520" style="s2">build an API 11-hour it depends on your</p>
+<p begin="00:04:03.900" end="00:04:07.709" style="s2">needs should you learn how to make an</p>
+<p begin="00:04:05.520" end="00:04:09.810" style="s2">API of course you should you can learn</p>
+<p begin="00:04:07.709" end="00:04:11.610" style="s2">that in our courses or everywhere in the</p>
+<p begin="00:04:09.810" end="00:04:13.620" style="s2">world thank you for watching I hope that</p>
+<p begin="00:04:11.610" end="00:04:15.180" style="s2">you liked this tiny tiny explanation let</p>
+<p begin="00:04:13.620" end="00:04:16.859" style="s2">me know what other new big questions you</p>
+<p begin="00:04:15.180" end="00:04:19.380" style="s2">have I would love to answer them on the</p>
+<p begin="00:04:16.859" end="00:04:23.010" style="s2">comments or on another video and that&#39;s</p>
+<p begin="00:04:19.380" end="00:04:27.040" style="s2">it again thank you and I will see you on</p>
+<p begin="00:04:23.010" end="00:04:29.580" style="s2">the next one don&#39;t forget as always</p>
+<p begin="00:04:27.040" end="00:04:29.580" style="s2">80 mg</p>
+</div>
+</body>
+</tt>

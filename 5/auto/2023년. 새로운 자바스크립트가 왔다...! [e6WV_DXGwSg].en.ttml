@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:01.520" end="00:00:05.400" style="s2">on this video we are going to take a</p>
+<p begin="00:00:03.720" end="00:00:07.560" style="s2">look at six new features that are coming</p>
+<p begin="00:00:05.400" end="00:00:09.780" style="s2">to JavaScript this year these new</p>
+<p begin="00:00:07.560" end="00:00:11.880" style="s2">features are part of the ekma 2023</p>
+<p begin="00:00:09.780" end="00:00:13.980" style="s2">specification which is the document that</p>
+<p begin="00:00:11.880" end="00:00:16.440" style="s2">specifies how JavaScript should work and</p>
+<p begin="00:00:13.980" end="00:00:18.539" style="s2">what features it has I like this year&#39;s</p>
+<p begin="00:00:16.440" end="00:00:21.000" style="s2">updates a lot because they help us write</p>
+<p begin="00:00:18.539" end="00:00:23.400" style="s2">codes that is more predictable has less</p>
+<p begin="00:00:21.000" end="00:00:25.500" style="s2">bugs and is easier to maintain that is</p>
+<p begin="00:00:23.400" end="00:00:28.019" style="s2">because array methods in JavaScript can</p>
+<p begin="00:00:25.500" end="00:00:30.539" style="s2">sometimes be confusing for example take</p>
+<p begin="00:00:28.019" end="00:00:32.520" style="s2">a look at this code X contains one two</p>
+<p begin="00:00:30.539" end="00:00:35.280" style="s2">and three then we have white whose value</p>
+<p begin="00:00:32.520" end="00:00:39.420" style="s2">is equals to X both reversed and finally</p>
+<p begin="00:00:35.280" end="00:00:42.239" style="s2">we are doing why that push adding 0 to Y</p>
+<p begin="00:00:39.420" end="00:00:44.640" style="s2">the final value of y is easy to know it</p>
+<p begin="00:00:42.239" end="00:00:47.280" style="s2">will be three two one zero which is the</p>
+<p begin="00:00:44.640" end="00:00:50.820" style="s2">reverse of X plus the zero we pushed at</p>
+<p begin="00:00:47.280" end="00:00:54.300" style="s2">the end now the question is what is the</p>
+<p begin="00:00:50.820" end="00:00:59.280" style="s2">final value of x choose option A</p>
+<p begin="00:00:54.300" end="00:01:01.620" style="s2">or option b the correct option is B</p>
+<p begin="00:00:59.280" end="00:01:04.199" style="s2">if we read the code again you could</p>
+<p begin="00:01:01.620" end="00:01:05.700" style="s2">think that X remains as 1 2 and 3</p>
+<p begin="00:01:04.199" end="00:01:08.460" style="s2">because it looks like we are only</p>
+<p begin="00:01:05.700" end="00:01:12.240" style="s2">working with Y since we assigned x dot</p>
+<p begin="00:01:08.460" end="00:01:14.700" style="s2">reverse to Y and then pushed 0 to Y and</p>
+<p begin="00:01:12.240" end="00:01:17.640" style="s2">not X but because the reverse method</p>
+<p begin="00:01:14.700" end="00:01:19.860" style="s2">does not create a new array and it</p>
+<p begin="00:01:17.640" end="00:01:22.619" style="s2">actually modifies the original array</p>
+<p begin="00:01:19.860" end="00:01:25.920" style="s2">that is called on which in this case is</p>
+<p begin="00:01:22.619" end="00:01:29.400" style="s2">X this means that X is reversed along</p>
+<p begin="00:01:25.920" end="00:01:31.740" style="s2">with Y then when we push zero onto y</p>
+<p begin="00:01:29.400" end="00:01:34.020" style="s2">it&#39;s like we are also pushing 0 onto X</p>
+<p begin="00:01:31.740" end="00:01:36.720" style="s2">because they are both references to the</p>
+<p begin="00:01:34.020" end="00:01:39.119" style="s2">same array even though by reading the</p>
+<p begin="00:01:36.720" end="00:01:41.340" style="s2">code it does not seem like it the code</p>
+<p begin="00:01:39.119" end="00:01:43.979" style="s2">has a box that will be hard to catch if</p>
+<p begin="00:01:41.340" end="00:01:46.560" style="s2">we are not aware that the reverse method</p>
+<p begin="00:01:43.979" end="00:01:48.299" style="s2">is mutating our program&#39;s State because</p>
+<p begin="00:01:46.560" end="00:01:50.040" style="s2">of these types of box there are many</p>
+<p begin="00:01:48.299" end="00:01:53.040" style="s2">programming languages like Haskell</p>
+<p begin="00:01:50.040" end="00:01:55.920" style="s2">clutcher Scala erlang and Rost among</p>
+<p begin="00:01:53.040" end="00:01:58.140" style="s2">many others that completely forbid or</p>
+<p begin="00:01:55.920" end="00:02:00.600" style="s2">discourage mutations those languages</p>
+<p begin="00:01:58.140" end="00:02:03.119" style="s2">don&#39;t allow you or or help you avoid</p>
+<p begin="00:02:00.600" end="00:02:05.100" style="s2">mutating a variable instead they make</p>
+<p begin="00:02:03.119" end="00:02:07.439" style="s2">you create a modified copy of the</p>
+<p begin="00:02:05.100" end="00:02:09.840" style="s2">original one mutations can lead to a</p>
+<p begin="00:02:07.439" end="00:02:12.060" style="s2">variety of books that are often hard to</p>
+<p begin="00:02:09.840" end="00:02:13.980" style="s2">spot and debug even react has this</p>
+<p begin="00:02:12.060" end="00:02:15.780" style="s2">concept if you are a react developer you</p>
+<p begin="00:02:13.980" end="00:02:17.879" style="s2">know that we should never mutate the</p>
+<p begin="00:02:15.780" end="00:02:20.220" style="s2">state we should always create a new one</p>
+<p begin="00:02:17.879" end="00:02:22.260" style="s2">to make things even worse JavaScript is</p>
+<p begin="00:02:20.220" end="00:02:24.540" style="s2">not really consistent on which methods</p>
+<p begin="00:02:22.260" end="00:02:27.060" style="s2">mutate and which methods don&#39;t for</p>
+<p begin="00:02:24.540" end="00:02:30.000" style="s2">example the sort method used to order an</p>
+<p begin="00:02:27.060" end="00:02:32.340" style="s2">array changes the array in place it</p>
+<p begin="00:02:30.000" end="00:02:35.400" style="s2">mutates it but the filter method used to</p>
+<p begin="00:02:32.340" end="00:02:38.400" style="s2">remove unwanted items from an array does</p>
+<p begin="00:02:35.400" end="00:02:41.640" style="s2">not mutate it it returns a copy because</p>
+<p begin="00:02:38.400" end="00:02:43.200" style="s2">mirability is okay in JavaScript you as</p>
+<p begin="00:02:41.640" end="00:02:44.940" style="s2">a developer have to remember which</p>
+<p begin="00:02:43.200" end="00:02:47.040" style="s2">methods mutate and which methods don&#39;t</p>
+<p begin="00:02:44.940" end="00:02:49.319" style="s2">and you also have to do the copying of</p>
+<p begin="00:02:47.040" end="00:02:51.420" style="s2">the arrays manually to avoid mutating</p>
+<p begin="00:02:49.319" end="00:02:54.720" style="s2">the state so to fix the problem with our</p>
+<p begin="00:02:51.420" end="00:02:57.300" style="s2">code we have to first copy X into y</p>
+<p begin="00:02:54.720" end="00:03:00.060" style="s2">making a whole new array and then we can</p>
+<p begin="00:02:57.300" end="00:03:03.000" style="s2">proceed to mutate or we can use the new</p>
+<p begin="00:03:00.060" end="00:03:06.000" style="s2">to reversed method that does not mutate</p>
+<p begin="00:03:03.000" end="00:03:08.879" style="s2">the array it returns a modified copy of</p>
+<p begin="00:03:06.000" end="00:03:11.879" style="s2">it so now our code can look like this</p>
+<p begin="00:03:08.879" end="00:03:14.040" style="s2">and it will be bug free apart from two</p>
+<p begin="00:03:11.879" end="00:03:16.440" style="s2">reverse we also have two sorted and two</p>
+<p begin="00:03:14.040" end="00:03:19.620" style="s2">spliced to sort it we&#39;ll sort an array</p>
+<p begin="00:03:16.440" end="00:03:21.959" style="s2">but unlike sort it will not mutate it it</p>
+<p begin="00:03:19.620" end="00:03:24.000" style="s2">will instead return a modified copy to</p>
+<p begin="00:03:21.959" end="00:03:26.400" style="s2">spliced is a bit different from the</p>
+<p begin="00:03:24.000" end="00:03:28.500" style="s2">original mutation loving splice let&#39;s do</p>
+<p begin="00:03:26.400" end="00:03:30.540" style="s2">a recap real quick using this price you</p>
+<p begin="00:03:28.500" end="00:03:33.000" style="s2">can delete items in an array starting</p>
+<p begin="00:03:30.540" end="00:03:34.920" style="s2">from a specific index so for example</p>
+<p begin="00:03:33.000" end="00:03:36.840" style="s2">here we have an array with four letters</p>
+<p begin="00:03:34.920" end="00:03:38.940" style="s2">and then we call splice the first</p>
+<p begin="00:03:36.840" end="00:03:41.459" style="s2">argument of splice tells it on which</p>
+<p begin="00:03:38.940" end="00:03:43.860" style="s2">index to start removing items in our</p>
+<p begin="00:03:41.459" end="00:03:46.019" style="s2">case we say index number one which means</p>
+<p begin="00:03:43.860" end="00:03:48.120" style="s2">the second item the second argument is</p>
+<p begin="00:03:46.019" end="00:03:50.580" style="s2">how many items to delete in our case we</p>
+<p begin="00:03:48.120" end="00:03:53.220" style="s2">say we want to remove two items so with</p>
+<p begin="00:03:50.580" end="00:03:56.400" style="s2">this code the b and c letters will be</p>
+<p begin="00:03:53.220" end="00:03:58.860" style="s2">removed splice will mutate the array in</p>
+<p begin="00:03:56.400" end="00:04:01.500" style="s2">place and it will return another array</p>
+<p begin="00:03:58.860" end="00:04:04.140" style="s2">with with the deleted items two splice</p>
+<p begin="00:04:01.500" end="00:04:06.720" style="s2">does not do this it does not mutate the</p>
+<p begin="00:04:04.140" end="00:04:08.640" style="s2">array and it does not return an array of</p>
+<p begin="00:04:06.720" end="00:04:10.860" style="s2">the deleted items it Returns the</p>
+<p begin="00:04:08.640" end="00:04:12.840" style="s2">modified copy of the original array</p>
+<p begin="00:04:10.860" end="00:04:15.120" style="s2">sometimes you want to know which items</p>
+<p begin="00:04:12.840" end="00:04:17.340" style="s2">were deleted so for this reason you</p>
+<p begin="00:04:15.120" end="00:04:19.680" style="s2">might want to keep using splice rather</p>
+<p begin="00:04:17.340" end="00:04:22.260" style="s2">than to splice if you don&#39;t need the</p>
+<p begin="00:04:19.680" end="00:04:24.240" style="s2">deleted items then moving to two splice</p>
+<p begin="00:04:22.260" end="00:04:27.060" style="s2">will keep your code immutable inside</p>
+<p begin="00:04:24.240" end="00:04:29.520" style="s2">effect free another Super useful new</p>
+<p begin="00:04:27.060" end="00:04:31.560" style="s2">method is wheat wheat allows you to</p>
+<p begin="00:04:29.520" end="00:04:33.900" style="s2">modify the item inside of an array</p>
+<p begin="00:04:31.560" end="00:04:36.180" style="s2">without mutating the original so for</p>
+<p begin="00:04:33.900" end="00:04:38.820" style="s2">example if we had this array and we</p>
+<p begin="00:04:36.180" end="00:04:40.800" style="s2">wanted to change the X for ad without</p>
+<p begin="00:04:38.820" end="00:04:42.780" style="s2">the new width method we would do</p>
+<p begin="00:04:40.800" end="00:04:45.240" style="s2">something like this but that would</p>
+<p begin="00:04:42.780" end="00:04:47.280" style="s2">mutate the original array instead we can</p>
+<p begin="00:04:45.240" end="00:04:50.100" style="s2">use the wheat method we will pass the</p>
+<p begin="00:04:47.280" end="00:04:52.139" style="s2">index of the item we want to change and</p>
+<p begin="00:04:50.100" end="00:04:54.419" style="s2">the new value and we will get a copy of</p>
+<p begin="00:04:52.139" end="00:04:57.060" style="s2">the original array with the modified</p>
+<p begin="00:04:54.419" end="00:04:59.520" style="s2">value and last but not least we have the</p>
+<p begin="00:04:57.060" end="00:05:01.860" style="s2">find last and find last in the index</p>
+<p begin="00:04:59.520" end="00:05:04.320" style="s2">methods they are a mirror to the already</p>
+<p begin="00:05:01.860" end="00:05:06.720" style="s2">existing find and find index methods</p>
+<p begin="00:05:04.320" end="00:05:08.759" style="s2">find will give you the first item on an</p>
+<p begin="00:05:06.720" end="00:05:10.199" style="s2">array that matches your search and you</p>
+<p begin="00:05:08.759" end="00:05:12.540" style="s2">find the index will give you the index</p>
+<p begin="00:05:10.199" end="00:05:15.180" style="s2">where that item is find the last and</p>
+<p begin="00:05:12.540" end="00:05:17.460" style="s2">find the last index work and look the</p>
+<p begin="00:05:15.180" end="00:05:19.440" style="s2">same way except that they search for the</p>
+<p begin="00:05:17.460" end="00:05:21.060" style="s2">last item and not the first one and</p>
+<p begin="00:05:19.440" end="00:05:23.280" style="s2">that&#39;s it for this video I hope you</p>
+<p begin="00:05:21.060" end="00:05:24.660" style="s2">found it useful and I hope that this new</p>
+<p begin="00:05:23.280" end="00:05:27.360" style="s2">method can help you make your code</p>
+<p begin="00:05:24.660" end="00:05:29.400" style="s2">better and reduce unexpected box in your</p>
+<p begin="00:05:27.360" end="00:05:32.039" style="s2">code I always get the questions of where</p>
+<p begin="00:05:29.400" end="00:05:34.199" style="s2">and how do these JavaScript updates get</p>
+<p begin="00:05:32.039" end="00:05:36.000" style="s2">decided who comes up with them and who</p>
+<p begin="00:05:34.199" end="00:05:37.560" style="s2">decides to implement them if that&#39;s</p>
+<p begin="00:05:36.000" end="00:05:38.639" style="s2">something you&#39;re curious about let me</p>
+<p begin="00:05:37.560" end="00:05:41.100" style="s2">know in the comments and I&#39;ll make a</p>
+<p begin="00:05:38.639" end="00:05:42.419" style="s2">video about how JavaScript is made also</p>
+<p begin="00:05:41.100" end="00:05:44.820" style="s2">let me know in the comments what your</p>
+<p begin="00:05:42.419" end="00:05:46.979" style="s2">favorite method is on this list and if</p>
+<p begin="00:05:44.820" end="00:05:49.259" style="s2">you have had any boxes view to mutations</p>
+<p begin="00:05:46.979" end="00:05:51.600" style="s2">before and please remember that you can</p>
+<p begin="00:05:49.259" end="00:05:53.940" style="s2">take our free JavaScript for beginners</p>
+<p begin="00:05:51.600" end="00:05:56.039" style="s2">course where we spend 8 hours learning</p>
+<p begin="00:05:53.940" end="00:05:58.560" style="s2">JavaScript together and where we build</p>
+<p begin="00:05:56.039" end="00:06:00.840" style="s2">things like clocks to-do lists weather</p>
+<p begin="00:05:58.560" end="00:06:02.460" style="s2">geology location and more to join just</p>
+<p begin="00:06:00.840" end="00:06:05.360" style="s2">click the link below and roll for free</p>
+<p begin="00:06:02.460" end="00:06:09.440" style="s2">and I will see you there alone</p>
+<p begin="00:06:05.360" end="00:06:09.440" style="s2">see you on the next one bye</p>
+<p begin="00:06:14.639" end="00:06:17.300" style="s2">foreign</p>
+</div>
+</body>
+</tt>

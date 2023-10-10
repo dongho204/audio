@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:04.160" end="00:00:07.759" style="s2">if you don&#39;t know what it is it&#39;s a</p>
+<p begin="00:00:05.920" end="00:00:10.800" style="s2">wonderful tool that allows us to</p>
+<p begin="00:00:07.759" end="00:00:13.679" style="s2">basically organize our life we can use</p>
+<p begin="00:00:10.800" end="00:00:16.560" style="s2">it to write down our notes create task</p>
+<p begin="00:00:13.679" end="00:00:19.600" style="s2">force to do lists wikis documentation</p>
+<p begin="00:00:16.560" end="00:00:21.920" style="s2">pages calendars collaborate on themes</p>
+<p begin="00:00:19.600" end="00:00:23.600" style="s2">among many other things but what many</p>
+<p begin="00:00:21.920" end="00:00:26.640" style="s2">people actually don&#39;t know is that</p>
+<p begin="00:00:23.600" end="00:00:30.160" style="s2">notion has a really sweet api that we</p>
+<p begin="00:00:26.640" end="00:00:32.399" style="s2">can use to access notion with our code</p>
+<p begin="00:00:30.160" end="00:00:35.200" style="s2">thanks to this api we can use notion as</p>
+<p begin="00:00:32.399" end="00:00:38.399" style="s2">our cms or content management system and</p>
+<p begin="00:00:35.200" end="00:00:40.480" style="s2">even as a database for our data</p>
+<p begin="00:00:38.399" end="00:00:43.520" style="s2">basically we can use the notion website</p>
+<p begin="00:00:40.480" end="00:00:46.640" style="s2">to input the data and later we can use</p>
+<p begin="00:00:43.520" end="00:00:49.360" style="s2">the notion api to consume this data and</p>
+<p begin="00:00:46.640" end="00:00:51.760" style="s2">display it however we want to and that</p>
+<p begin="00:00:49.360" end="00:00:53.600" style="s2">is exactly what we&#39;re going to do today</p>
+<p begin="00:00:51.760" end="00:00:56.239" style="s2">on today&#39;s video we are going to see how</p>
+<p begin="00:00:53.600" end="00:00:58.879" style="s2">we can use notion and its api as our</p>
+<p begin="00:00:56.239" end="00:01:01.920" style="s2">admin panel and database for a web</p>
+<p begin="00:00:58.879" end="00:01:04.320" style="s2">application to get started we are going</p>
+<p begin="00:01:01.920" end="00:01:06.400" style="s2">to go to notion and after creating an</p>
+<p begin="00:01:04.320" end="00:01:09.280" style="s2">account or logging in we are going to</p>
+<p begin="00:01:06.400" end="00:01:11.439" style="s2">create a table database we are going to</p>
+<p begin="00:01:09.280" end="00:01:13.200" style="s2">choose a name for our database and then</p>
+<p begin="00:01:11.439" end="00:01:16.000" style="s2">we&#39;re going to get started entering the</p>
+<p begin="00:01:13.200" end="00:01:18.240" style="s2">data what we&#39;re building today is a web</p>
+<p begin="00:01:16.000" end="00:01:20.320" style="s2">app that we can use to find good places</p>
+<p begin="00:01:18.240" end="00:01:21.920" style="s2">to work from in seoul</p>
+<p begin="00:01:20.320" end="00:01:24.640" style="s2">for this we&#39;re going to add three</p>
+<p begin="00:01:21.920" end="00:01:27.439" style="s2">columns to our notion database the name</p>
+<p begin="00:01:24.640" end="00:01:30.079" style="s2">of the place the address of the place</p>
+<p begin="00:01:27.439" end="00:01:32.880" style="s2">and then a link to either the website of</p>
+<p begin="00:01:30.079" end="00:01:34.560" style="s2">the place or maybe the map url after</p>
+<p begin="00:01:32.880" end="00:01:37.680" style="s2">that is done we&#39;re going to head to</p>
+<p begin="00:01:34.560" end="00:01:40.640" style="s2">notion that so slash my integrations to</p>
+<p begin="00:01:37.680" end="00:01:42.799" style="s2">get an api key we will click on create</p>
+<p begin="00:01:40.640" end="00:01:45.040" style="s2">new integration and after giving it a</p>
+<p begin="00:01:42.799" end="00:01:47.600" style="s2">name and pressing submit we will see our</p>
+<p begin="00:01:45.040" end="00:01:49.680" style="s2">api key now we need to copy this key</p>
+<p begin="00:01:47.600" end="00:01:51.439" style="s2">because we&#39;re going to need it later</p>
+<p begin="00:01:49.680" end="00:01:53.119" style="s2">after that is done we&#39;re going to go</p>
+<p begin="00:01:51.439" end="00:01:55.520" style="s2">back to our notion database and we&#39;re</p>
+<p begin="00:01:53.119" end="00:01:57.840" style="s2">going to click on share we&#39;re going to</p>
+<p begin="00:01:55.520" end="00:02:00.880" style="s2">share the database with the integration</p>
+<p begin="00:01:57.840" end="00:02:04.399" style="s2">we just created and that is it</p>
+<p begin="00:02:00.880" end="00:02:06.960" style="s2">now our api key has access to that</p>
+<p begin="00:02:04.399" end="00:02:09.360" style="s2">database so we are now ready to call the</p>
+<p begin="00:02:06.960" end="00:02:11.920" style="s2">notion api but before we do that we have</p>
+<p begin="00:02:09.360" end="00:02:14.640" style="s2">to know that we cannot call the notion</p>
+<p begin="00:02:11.920" end="00:02:16.319" style="s2">api from a browser this is of course for</p>
+<p begin="00:02:14.640" end="00:02:18.879" style="s2">security reasons so this is why we need</p>
+<p begin="00:02:16.319" end="00:02:21.120" style="s2">to call it from a server if we go to the</p>
+<p begin="00:02:18.879" end="00:02:23.440" style="s2">notion api documentation we can see a</p>
+<p begin="00:02:21.120" end="00:02:25.120" style="s2">list of all the actions we can perform</p>
+<p begin="00:02:23.440" end="00:02:27.520" style="s2">we will click on the one that we are</p>
+<p begin="00:02:25.120" end="00:02:29.840" style="s2">interested on and that is query a</p>
+<p begin="00:02:27.520" end="00:02:31.280" style="s2">database if we look at the documentation</p>
+<p begin="00:02:29.840" end="00:02:33.360" style="s2">we are going to see that there are two</p>
+<p begin="00:02:31.280" end="00:02:36.000" style="s2">options on how we can call this api</p>
+<p begin="00:02:33.360" end="00:02:38.640" style="s2">route one is with the official notion</p>
+<p begin="00:02:36.000" end="00:02:41.599" style="s2">javascript sdk and the other one is with</p>
+<p begin="00:02:38.640" end="00:02:44.640" style="s2">a simple http call with authorization</p>
+<p begin="00:02:41.599" end="00:02:46.879" style="s2">and notion version headers all we need</p>
+<p begin="00:02:44.640" end="00:02:50.080" style="s2">for this request is the api secret that</p>
+<p begin="00:02:46.879" end="00:02:52.959" style="s2">we received before and the id of our</p>
+<p begin="00:02:50.080" end="00:02:55.440" style="s2">database the id of the database is on</p>
+<p begin="00:02:52.959" end="00:02:57.920" style="s2">the url bar when you are in the database</p>
+<p begin="00:02:55.440" end="00:03:00.400" style="s2">page in the notion website to call this</p>
+<p begin="00:02:57.920" end="00:03:02.800" style="s2">api like we said you need a server and</p>
+<p begin="00:03:00.400" end="00:03:04.959" style="s2">as a server you can use whatever you</p>
+<p begin="00:03:02.800" end="00:03:07.920" style="s2">want but today we&#39;re going to use</p>
+<p begin="00:03:04.959" end="00:03:10.640" style="s2">klausler workers which is in my opinion</p>
+<p begin="00:03:07.920" end="00:03:13.440" style="s2">one of the easiest ways to create a</p>
+<p begin="00:03:10.640" end="00:03:16.239" style="s2">serverless api and the code is also very</p>
+<p begin="00:03:13.440" end="00:03:18.400" style="s2">easy to understand as well for this</p>
+<p begin="00:03:16.239" end="00:03:20.640" style="s2">video we are not going to be using the</p>
+<p begin="00:03:18.400" end="00:03:22.640" style="s2">sdk of notion because i want you to be</p>
+<p begin="00:03:20.640" end="00:03:24.799" style="s2">able to do this in whatever language you</p>
+<p begin="00:03:22.640" end="00:03:26.799" style="s2">want maybe you have a server on python</p>
+<p begin="00:03:24.799" end="00:03:29.519" style="s2">or in java so for this we&#39;re going to</p>
+<p begin="00:03:26.799" end="00:03:32.640" style="s2">use the rest api of notion which is just</p>
+<p begin="00:03:29.519" end="00:03:34.799" style="s2">a url that we have to hit the code of</p>
+<p begin="00:03:32.640" end="00:03:36.159" style="s2">the cluster workers is going to be on</p>
+<p begin="00:03:34.799" end="00:03:38.720" style="s2">javascript which is very easy to</p>
+<p begin="00:03:36.159" end="00:03:42.400" style="s2">understand and the way it works is like</p>
+<p begin="00:03:38.720" end="00:03:45.760" style="s2">this when our api receives a get request</p>
+<p begin="00:03:42.400" end="00:03:49.599" style="s2">we will hit the notion api with the id</p>
+<p begin="00:03:45.760" end="00:03:53.840" style="s2">of our page and we will send the headers</p>
+<p begin="00:03:49.599" end="00:03:56.239" style="s2">with our secret token and the notion api</p>
+<p begin="00:03:53.840" end="00:03:58.239" style="s2">version when we receive this data from</p>
+<p begin="00:03:56.239" end="00:04:01.840" style="s2">the notion api we&#39;re going to send it</p>
+<p begin="00:03:58.239" end="00:04:03.920" style="s2">back to the user that is calling our api</p>
+<p begin="00:04:01.840" end="00:04:06.720" style="s2">so now let&#39;s take a look at the data</p>
+<p begin="00:04:03.920" end="00:04:09.840" style="s2">that we receive from notion now all the</p>
+<p begin="00:04:06.720" end="00:04:13.120" style="s2">rows in our notion database are actually</p>
+<p begin="00:04:09.840" end="00:04:16.239" style="s2">a page in notion so what we receive when</p>
+<p begin="00:04:13.120" end="00:04:19.120" style="s2">we query our database is an array or a</p>
+<p begin="00:04:16.239" end="00:04:22.000" style="s2">list of pages as you can see each page</p>
+<p begin="00:04:19.120" end="00:04:24.400" style="s2">has the columns that we defined before</p>
+<p begin="00:04:22.000" end="00:04:27.680" style="s2">now all we have to do is paint this data</p>
+<p begin="00:04:24.400" end="00:04:30.400" style="s2">in our ui for this step we can use any</p>
+<p begin="00:04:27.680" end="00:04:33.199" style="s2">framework we want i in my case i&#39;m going</p>
+<p begin="00:04:30.400" end="00:04:36.240" style="s2">to use next.js with tailwind css but</p>
+<p begin="00:04:33.199" end="00:04:38.960" style="s2">whatever you use is completely fine and</p>
+<p begin="00:04:36.240" end="00:04:42.800" style="s2">we are done as you can see the data that</p>
+<p begin="00:04:38.960" end="00:04:46.880" style="s2">we wrote in our notion database is now</p>
+<p begin="00:04:42.800" end="00:04:49.280" style="s2">being displayed in our custom made ui</p>
+<p begin="00:04:46.880" end="00:04:52.080" style="s2">all we had to do was write a tiny little</p>
+<p begin="00:04:49.280" end="00:04:54.400" style="s2">server code and the rest was just css</p>
+<p begin="00:04:52.080" end="00:04:56.880" style="s2">our users won&#39;t be able to even imagine</p>
+<p begin="00:04:54.400" end="00:05:00.000" style="s2">that what they are looking at is a page</p>
+<p begin="00:04:56.880" end="00:05:01.840" style="s2">powered by notion as a backend to finish</p>
+<p begin="00:05:00.000" end="00:05:04.639" style="s2">with a bank what i want to do now is</p>
+<p begin="00:05:01.840" end="00:05:08.639" style="s2">allow the users to upload data to the</p>
+<p begin="00:05:04.639" end="00:05:10.800" style="s2">notion database but from my website if</p>
+<p begin="00:05:08.639" end="00:05:12.880" style="s2">we go back to the notion documentation</p>
+<p begin="00:05:10.800" end="00:05:15.199" style="s2">we will see that there is a rest api</p>
+<p begin="00:05:12.880" end="00:05:18.320" style="s2">endpoint that we can use to create a</p>
+<p begin="00:05:15.199" end="00:05:21.280" style="s2">page and we can also link that page to</p>
+<p begin="00:05:18.320" end="00:05:24.320" style="s2">our notion database now all we have to</p>
+<p begin="00:05:21.280" end="00:05:27.840" style="s2">do is make a form for people to submit a</p>
+<p begin="00:05:24.320" end="00:05:30.560" style="s2">place to our database and push that data</p>
+<p begin="00:05:27.840" end="00:05:32.400" style="s2">all the way to the notion api this is</p>
+<p begin="00:05:30.560" end="00:05:34.960" style="s2">because remember we cannot call the</p>
+<p begin="00:05:32.400" end="00:05:38.080" style="s2">notion api from our browser we have to</p>
+<p begin="00:05:34.960" end="00:05:40.160" style="s2">call it from our api the code to send</p>
+<p begin="00:05:38.080" end="00:05:41.840" style="s2">the data to the notion api is very</p>
+<p begin="00:05:40.160" end="00:05:44.240" style="s2">similar to the one that we used when we</p>
+<p begin="00:05:41.840" end="00:05:47.520" style="s2">wanted to get data from the notion api</p>
+<p begin="00:05:44.240" end="00:05:50.240" style="s2">we have to hit a notion api url with the</p>
+<p begin="00:05:47.520" end="00:05:53.039" style="s2">authentication headers and we need to</p>
+<p begin="00:05:50.240" end="00:05:56.960" style="s2">specify the parent of the page which</p>
+<p begin="00:05:53.039" end="00:05:59.600" style="s2">will be the id of the database and then</p>
+<p begin="00:05:56.960" end="00:06:02.560" style="s2">the properties which are the name of the</p>
+<p begin="00:05:59.600" end="00:06:04.560" style="s2">columns in our database and now it&#39;s the</p>
+<p begin="00:06:02.560" end="00:06:07.199" style="s2">moment of truth let&#39;s go back to our</p>
+<p begin="00:06:04.560" end="00:06:09.280" style="s2">application and submit the form</p>
+<p begin="00:06:07.199" end="00:06:12.479" style="s2">after we do that let&#39;s go back to our</p>
+<p begin="00:06:09.280" end="00:06:15.520" style="s2">notion database and see if the data was</p>
+<p begin="00:06:12.479" end="00:06:18.479" style="s2">uploaded and as you can see it&#39;s there</p>
+<p begin="00:06:15.520" end="00:06:22.000" style="s2">we are using notion as our database and</p>
+<p begin="00:06:18.479" end="00:06:24.400" style="s2">our admin panel how cool is that this</p>
+<p begin="00:06:22.000" end="00:06:27.120" style="s2">makes the prototyping of projects so</p>
+<p begin="00:06:24.400" end="00:06:29.120" style="s2">much easier and because of notions super</p>
+<p begin="00:06:27.120" end="00:06:32.160" style="s2">cool team collaboration features we can</p>
+<p begin="00:06:29.120" end="00:06:34.400" style="s2">invite non-developers to this notion</p>
+<p begin="00:06:32.160" end="00:06:37.199" style="s2">database and they can input the data</p>
+<p begin="00:06:34.400" end="00:06:40.560" style="s2">there without touching a single line of</p>
+<p begin="00:06:37.199" end="00:06:42.880" style="s2">code this notion api unlocks a lot of</p>
+<p begin="00:06:40.560" end="00:06:45.440" style="s2">new possibilities this current stack</p>
+<p begin="00:06:42.880" end="00:06:47.600" style="s2">will take us very far away i believe but</p>
+<p begin="00:06:45.440" end="00:06:51.120" style="s2">one thing to notice is that notion api</p>
+<p begin="00:06:47.600" end="00:06:53.360" style="s2">has a limit of 3 requests per second if</p>
+<p begin="00:06:51.120" end="00:06:55.280" style="s2">the project that we built today grew</p>
+<p begin="00:06:53.360" end="00:06:57.680" style="s2">bigger than that we would have to start</p>
+<p begin="00:06:55.280" end="00:07:00.880" style="s2">thinking about adding a caching layer in</p>
+<p begin="00:06:57.680" end="00:07:03.039" style="s2">front of our api still this is more than</p>
+<p begin="00:07:00.880" end="00:07:05.759" style="s2">enough to get our side projects up and</p>
+<p begin="00:07:03.039" end="00:07:07.840" style="s2">running in record time thank you so much</p>
+<p begin="00:07:05.759" end="00:07:09.680" style="s2">to notion for sponsoring this video we</p>
+<p begin="00:07:07.840" end="00:07:11.680" style="s2">absolutely love notion here at nomad</p>
+<p begin="00:07:09.680" end="00:07:13.440" style="s2">colors and now with this api i&#39;m already</p>
+<p begin="00:07:11.680" end="00:07:15.599" style="s2">thinking of all the cool things that i</p>
+<p begin="00:07:13.440" end="00:07:17.440" style="s2">want to build thank you for watching as</p>
+<p begin="00:07:15.599" end="00:07:18.960" style="s2">always let me know what do you think of</p>
+<p begin="00:07:17.440" end="00:07:20.880" style="s2">this video in the comments i&#39;m going to</p>
+<p begin="00:07:18.960" end="00:07:24.880" style="s2">be looking at them right now stay</p>
+<p begin="00:07:20.880" end="00:07:28.680" style="s2">healthy stay free stay happy eat kimchi</p>
+<p begin="00:07:24.880" end="00:07:28.680" style="s2">see you in the next one bye</p>
+</div>
+</body>
+</tt>

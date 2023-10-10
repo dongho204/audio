@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.879" end="00:00:07.279" style="s2">today i want to show you a comment that</p>
+<p begin="00:00:04.880" end="00:00:09.200" style="s2">i think everyone that uses mac os</p>
+<p begin="00:00:07.279" end="00:00:11.120" style="s2">developer or non-developer should be</p>
+<p begin="00:00:09.200" end="00:00:13.440" style="s2">aware of that command is called</p>
+<p begin="00:00:11.120" end="00:00:15.759" style="s2">caffeinate with caffeinate you can stop</p>
+<p begin="00:00:13.440" end="00:00:17.039" style="s2">your macos from going to sleep this is</p>
+<p begin="00:00:15.759" end="00:00:19.199" style="s2">very useful for when you are in</p>
+<p begin="00:00:17.039" end="00:00:21.439" style="s2">situations like for example downloading</p>
+<p begin="00:00:19.199" end="00:00:23.119" style="s2">or uploading a very heavy file or</p>
+<p begin="00:00:21.439" end="00:00:24.880" style="s2">reading a book in your computer or</p>
+<p begin="00:00:23.119" end="00:00:27.279" style="s2">looking at a spreadsheet or running a</p>
+<p begin="00:00:24.880" end="00:00:29.199" style="s2">command line application and you don&#39;t</p>
+<p begin="00:00:27.279" end="00:00:31.199" style="s2">want your computer to go to sleep and</p>
+<p begin="00:00:29.199" end="00:00:33.200" style="s2">also you don&#39;t want to have to be always</p>
+<p begin="00:00:31.199" end="00:00:35.200" style="s2">moving your mouse to keep the computer</p>
+<p begin="00:00:33.200" end="00:00:37.680" style="s2">awake the caffeinated command comes</p>
+<p begin="00:00:35.200" end="00:00:39.840" style="s2">pre-installed in every mac os so you</p>
+<p begin="00:00:37.680" end="00:00:42.160" style="s2">don&#39;t have to download anything to use</p>
+<p begin="00:00:39.840" end="00:00:43.280" style="s2">it to use cabinet just open the terminal</p>
+<p begin="00:00:42.160" end="00:00:44.960" style="s2">whatever you use the terminal</p>
+<p begin="00:00:43.280" end="00:00:46.559" style="s2">application or itune if you are a</p>
+<p begin="00:00:44.960" end="00:00:49.120" style="s2">developer and just write the word</p>
+<p begin="00:00:46.559" end="00:00:51.280" style="s2">caffeinate and press enter and that&#39;s it</p>
+<p begin="00:00:49.120" end="00:00:53.440" style="s2">for as long as caffenet is running and</p>
+<p begin="00:00:51.280" end="00:00:55.840" style="s2">for as long as your computer has battery</p>
+<p begin="00:00:53.440" end="00:00:57.039" style="s2">your computer is not going to sleep now</p>
+<p begin="00:00:55.840" end="00:00:58.480" style="s2">if you want to stop caffeine from</p>
+<p begin="00:00:57.039" end="00:01:01.120" style="s2">running all you have to do is go back to</p>
+<p begin="00:00:58.480" end="00:01:02.239" style="s2">the terminal and press ctrl c that will</p>
+<p begin="00:01:01.120" end="00:01:04.239" style="s2">kill the process and that will allow</p>
+<p begin="00:01:02.239" end="00:01:06.400" style="s2">your computer to go to sleep normally</p>
+<p begin="00:01:04.239" end="00:01:08.880" style="s2">confident also has some extra functions</p>
+<p begin="00:01:06.400" end="00:01:10.960" style="s2">that you might find useful using the t</p>
+<p begin="00:01:08.880" end="00:01:12.960" style="s2">argument you&#39;re going to specify for how</p>
+<p begin="00:01:10.960" end="00:01:15.280" style="s2">long you want to run caffeinate in</p>
+<p begin="00:01:12.960" end="00:01:17.680" style="s2">seconds you can specify a timeout a time</p>
+<p begin="00:01:15.280" end="00:01:18.880" style="s2">when caffeinate will automatically stop</p>
+<p begin="00:01:17.680" end="00:01:20.560" style="s2">so if you are downloading something</p>
+<p begin="00:01:18.880" end="00:01:22.400" style="s2">that&#39;s going to take maybe 30 minutes to</p>
+<p begin="00:01:20.560" end="00:01:24.400" style="s2">finish but you want to go to sleep right</p>
+<p begin="00:01:22.400" end="00:01:26.479" style="s2">now because you&#39;re tired you cannot wait</p>
+<p begin="00:01:24.400" end="00:01:29.759" style="s2">then what you do is you run caffeinate</p>
+<p begin="00:01:26.479" end="00:01:32.560" style="s2">followed by dash t and then 30 minutes</p>
+<p begin="00:01:29.759" end="00:01:34.240" style="s2">in two seconds which is going to be 1800</p>
+<p begin="00:01:32.560" end="00:01:36.240" style="s2">and that&#39;s it catherine will keep the</p>
+<p begin="00:01:34.240" end="00:01:38.159" style="s2">computer awake for 30 minutes and after</p>
+<p begin="00:01:36.240" end="00:01:40.079" style="s2">that time has passed then caffenet will</p>
+<p begin="00:01:38.159" end="00:01:42.000" style="s2">exit will kill the process and your</p>
+<p begin="00:01:40.079" end="00:01:44.159" style="s2">computer will go to sleep normally there</p>
+<p begin="00:01:42.000" end="00:01:46.560" style="s2">are also other commands like dash m that</p>
+<p begin="00:01:44.159" end="00:01:49.600" style="s2">stops your disk from falling asleep and</p>
+<p begin="00:01:46.560" end="00:01:51.200" style="s2">dash d that keeps your display always on</p>
+<p begin="00:01:49.600" end="00:01:53.200" style="s2">but most of the time for me running</p>
+<p begin="00:01:51.200" end="00:01:54.479" style="s2">caffeinate is more than enough just make</p>
+<p begin="00:01:53.200" end="00:01:56.000" style="s2">sure you have enough power in your</p>
+<p begin="00:01:54.479" end="00:01:57.840" style="s2">battery when you call caffenet because</p>
+<p begin="00:01:56.000" end="00:02:00.000" style="s2">caffeinate is going to absolutely</p>
+<p begin="00:01:57.840" end="00:02:02.240" style="s2">consume all of it until your computer</p>
+<p begin="00:02:00.000" end="00:02:03.600" style="s2">has no power left and that&#39;s it for this</p>
+<p begin="00:02:02.240" end="00:02:05.040" style="s2">video let me know in the comments if you</p>
+<p begin="00:02:03.600" end="00:02:06.960" style="s2">knew about caffeinated and if you didn&#39;t</p>
+<p begin="00:02:05.040" end="00:02:08.640" style="s2">let me know what did you use to do to</p>
+<p begin="00:02:06.960" end="00:02:10.399" style="s2">keep your computer awake were you just</p>
+<p begin="00:02:08.640" end="00:02:12.560" style="s2">moving them out over and over and over</p>
+<p begin="00:02:10.399" end="00:02:14.400" style="s2">again i did that a lot so thank you for</p>
+<p begin="00:02:12.560" end="00:02:16.239" style="s2">watching stay healthy stay free</p>
+<p begin="00:02:14.400" end="00:02:19.239" style="s2">come to me hey yo see you on the next</p>
+<p begin="00:02:16.239" end="00:02:19.239" style="s2">one</p>
+</div>
+</body>
+</tt>

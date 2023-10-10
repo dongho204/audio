@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:01.879" end="00:00:06.600" style="s2">on this video I would like to show you a</p>
+<p begin="00:00:04.620" end="00:00:09.300" style="s2">super useful new language that anyone</p>
+<p begin="00:00:06.600" end="00:00:11.940" style="s2">can learn and start to use in 10 minutes</p>
+<p begin="00:00:09.300" end="00:00:13.200" style="s2">or less the name of the language is D2</p>
+<p begin="00:00:11.940" end="00:00:15.900" style="s2">and it&#39;s a language we can use to</p>
+<p begin="00:00:13.200" end="00:00:18.359" style="s2">generate cool looking diagrams in no</p>
+<p begin="00:00:15.900" end="00:00:21.359" style="s2">time whether you are a developer product</p>
+<p begin="00:00:18.359" end="00:00:23.460" style="s2">manager marketer office worker or</p>
+<p begin="00:00:21.359" end="00:00:25.980" style="s2">student I am sure that in your career</p>
+<p begin="00:00:23.460" end="00:00:28.199" style="s2">you have needed to make a diagram a</p>
+<p begin="00:00:25.980" end="00:00:31.140" style="s2">diagram to explain a server architecture</p>
+<p begin="00:00:28.199" end="00:00:34.260" style="s2">a user flow a customer acquisition</p>
+<p begin="00:00:31.140" end="00:00:36.239" style="s2">funnel hiring process whatever we can</p>
+<p begin="00:00:34.260" end="00:00:38.160" style="s2">use a visual builder for this when we</p>
+<p begin="00:00:36.239" end="00:00:40.500" style="s2">drag and drop some boxes and connect</p>
+<p begin="00:00:38.160" end="00:00:43.200" style="s2">them with arrows and all that which I</p>
+<p begin="00:00:40.500" end="00:00:45.899" style="s2">find very time consuming or we can use</p>
+<p begin="00:00:43.200" end="00:00:48.719" style="s2">D2 to just describe what we want and get</p>
+<p begin="00:00:45.899" end="00:00:50.879" style="s2">an image out of it so let&#39;s see how the</p>
+<p begin="00:00:48.719" end="00:00:53.039" style="s2">language looks and what kind of diagrams</p>
+<p begin="00:00:50.879" end="00:00:56.039" style="s2">we can make we will start by defining</p>
+<p begin="00:00:53.039" end="00:00:58.559" style="s2">the actors in our diagram just by doing</p>
+<p begin="00:00:56.039" end="00:01:01.199" style="s2">this D2 will generate an image with each</p>
+<p begin="00:00:58.559" end="00:01:02.879" style="s2">actor inside of a Square now we can</p>
+<p begin="00:01:01.199" end="00:01:05.100" style="s2">create the connections between our</p>
+<p begin="00:01:02.879" end="00:01:07.020" style="s2">actors we can say that Steve Jobs is</p>
+<p begin="00:01:05.100" end="00:01:09.420" style="s2">connected to Apple as a Founder team</p>
+<p begin="00:01:07.020" end="00:01:11.280" style="s2">Cook is also connected to Apple as a CEO</p>
+<p begin="00:01:09.420" end="00:01:13.500" style="s2">apple is connected to the App Store as</p>
+<p begin="00:01:11.280" end="00:01:15.659" style="s2">their Monopoly Elon Musk is the owner of</p>
+<p begin="00:01:13.500" end="00:01:17.939" style="s2">Twitter which is distributed by the App</p>
+<p begin="00:01:15.659" end="00:01:21.000" style="s2">Store and finally we can say that both</p>
+<p begin="00:01:17.939" end="00:01:23.520" style="s2">Elon Musk and Tim Cook are friends that</p>
+<p begin="00:01:21.000" end="00:01:26.460" style="s2">code will generate an image Like This</p>
+<p begin="00:01:23.520" end="00:01:29.100" style="s2">Isn&#39;t that cool we are just writing down</p>
+<p begin="00:01:26.460" end="00:01:31.799" style="s2">names connections and labels and we are</p>
+<p begin="00:01:29.100" end="00:01:34.439" style="s2">getting a cool looking diagram with well</p>
+<p begin="00:01:31.799" end="00:01:36.600" style="s2">positioned arrows and boxes to connect</p>
+<p begin="00:01:34.439" end="00:01:39.659" style="s2">actors we have four options we can make</p>
+<p begin="00:01:36.600" end="00:01:41.880" style="s2">an arrow from A to B or no Arrow just a</p>
+<p begin="00:01:39.659" end="00:01:44.640" style="s2">connection between a and b and arrow</p>
+<p begin="00:01:41.880" end="00:01:46.979" style="s2">from B to a or a bi-directional arrow</p>
+<p begin="00:01:44.640" end="00:01:48.900" style="s2">between A and B to make our life easier</p>
+<p begin="00:01:46.979" end="00:01:51.600" style="s2">and clean up our code we can add</p>
+<p begin="00:01:48.900" end="00:01:54.180" style="s2">nicknames to our actors we can also</p>
+<p begin="00:01:51.600" end="00:01:57.060" style="s2">change the shapes of our actors if we</p>
+<p begin="00:01:54.180" end="00:01:59.280" style="s2">want to by doing nickname dot shape</p>
+<p begin="00:01:57.060" end="00:02:01.140" style="s2">here&#39;s a list of all the icons you can</p>
+<p begin="00:01:59.280" end="00:02:04.079" style="s2">use but if you don&#39;t like any of them</p>
+<p begin="00:02:01.140" end="00:02:05.939" style="s2">you can use your own images as well we</p>
+<p begin="00:02:04.079" end="00:02:08.220" style="s2">can also have containers which is a</p>
+<p begin="00:02:05.939" end="00:02:09.539" style="s2">shape inside of another shape like in</p>
+<p begin="00:02:08.220" end="00:02:11.700" style="s2">this example where we are grouping</p>
+<p begin="00:02:09.539" end="00:02:14.640" style="s2">compiled and interpreted programming</p>
+<p begin="00:02:11.700" end="00:02:16.739" style="s2">languages using container.child like for</p>
+<p begin="00:02:14.640" end="00:02:18.780" style="s2">example compiled that rust or</p>
+<p begin="00:02:16.739" end="00:02:20.520" style="s2">interpreted that JavaScript we can</p>
+<p begin="00:02:18.780" end="00:02:23.360" style="s2">connect items that are in separate</p>
+<p begin="00:02:20.520" end="00:02:25.800" style="s2">containers getting some cool looking</p>
+<p begin="00:02:23.360" end="00:02:28.080" style="s2">diagrams if we want to we can also</p>
+<p begin="00:02:25.800" end="00:02:30.060" style="s2">customize the style of our objects the</p>
+<p begin="00:02:28.080" end="00:02:32.220" style="s2">boxes as well as the style of the</p>
+<p begin="00:02:30.060" end="00:02:36.300" style="s2">connections the arrows we can make the</p>
+<p begin="00:02:32.220" end="00:02:38.819" style="s2">rust box the orange white text and 3D</p>
+<p begin="00:02:36.300" end="00:02:41.640" style="s2">and the connections to JavaScript to be</p>
+<p begin="00:02:38.819" end="00:02:43.980" style="s2">golden yellow and dashed if we want to</p>
+<p begin="00:02:41.640" end="00:02:46.140" style="s2">we can also add extra text to our</p>
+<p begin="00:02:43.980" end="00:02:48.959" style="s2">diagram we can use markdown and we can</p>
+<p begin="00:02:46.140" end="00:02:51.480" style="s2">even specify where we would like to put</p>
+<p begin="00:02:48.959" end="00:02:53.819" style="s2">it D2 is also super useful if you want</p>
+<p begin="00:02:51.480" end="00:02:56.940" style="s2">to make entity relationship diagrams for</p>
+<p begin="00:02:53.819" end="00:02:59.519" style="s2">SQL databases using the SQL table shape</p>
+<p begin="00:02:56.940" end="00:03:02.400" style="s2">we can diagram for example a simple SQL</p>
+<p begin="00:02:59.519" end="00:03:04.260" style="s2">that base with users and their tweets we</p>
+<p begin="00:03:02.400" end="00:03:06.060" style="s2">can specify the name of the columns</p>
+<p begin="00:03:04.260" end="00:03:08.760" style="s2">their type and we can also specify</p>
+<p begin="00:03:06.060" end="00:03:10.560" style="s2">constraints like primary key unique and</p>
+<p begin="00:03:08.760" end="00:03:13.200" style="s2">foreign key and we will get a</p>
+<p begin="00:03:10.560" end="00:03:15.420" style="s2">professional looking output like this</p>
+<p begin="00:03:13.200" end="00:03:17.159" style="s2">likewise if you are working with classes</p>
+<p begin="00:03:15.420" end="00:03:19.860" style="s2">and you need to create</p>
+<p begin="00:03:17.159" end="00:03:22.920" style="s2">uml diagrams for them you can use the</p>
+<p begin="00:03:19.860" end="00:03:25.200" style="s2">class shape D2 will automatically detect</p>
+<p begin="00:03:22.920" end="00:03:27.959" style="s2">what is a property and what is a method</p>
+<p begin="00:03:25.200" end="00:03:30.360" style="s2">it will also render void on methods with</p>
+<p begin="00:03:27.959" end="00:03:33.180" style="s2">no return value another kind of diagram</p>
+<p begin="00:03:30.360" end="00:03:35.280" style="s2">that is a pain to create manually is a</p>
+<p begin="00:03:33.180" end="00:03:38.040" style="s2">sequence diagram which thankfully is</p>
+<p begin="00:03:35.280" end="00:03:39.840" style="s2">really easy to make using D2 first we</p>
+<p begin="00:03:38.040" end="00:03:41.580" style="s2">have to use the shape sequence diagram</p>
+<p begin="00:03:39.840" end="00:03:43.980" style="s2">and then we can just write down</p>
+<p begin="00:03:41.580" end="00:03:46.080" style="s2">connections and their labels and after</p>
+<p begin="00:03:43.980" end="00:03:48.420" style="s2">that all the connections between objects</p>
+<p begin="00:03:46.080" end="00:03:51.599" style="s2">and their labels will be displayed in a</p>
+<p begin="00:03:48.420" end="00:03:53.519" style="s2">sequence D2 is very customizable you can</p>
+<p begin="00:03:51.599" end="00:03:55.980" style="s2">customize the direction of your diagram</p>
+<p begin="00:03:53.519" end="00:03:57.959" style="s2">and choose between up down left and</p>
+<p begin="00:03:55.980" end="00:04:00.659" style="s2">right you can also choose between</p>
+<p begin="00:03:57.959" end="00:04:03.000" style="s2">different color themes and my favorite</p>
+<p begin="00:04:00.659" end="00:04:05.819" style="s2">thing of oil you can also give your</p>
+<p begin="00:04:03.000" end="00:04:08.580" style="s2">diagrams the sketch style which makes it</p>
+<p begin="00:04:05.819" end="00:04:10.620" style="s2">look like it has been hand drawn V2</p>
+<p begin="00:04:08.580" end="00:04:12.659" style="s2">supports all the layout engines as well</p>
+<p begin="00:04:10.620" end="00:04:15.360" style="s2">the default one is called dagger they</p>
+<p begin="00:04:12.659" end="00:04:17.459" style="s2">also have elk and they have tala which</p>
+<p begin="00:04:15.360" end="00:04:20.040" style="s2">is paid but it makes the diagrams look</p>
+<p begin="00:04:17.459" end="00:04:21.540" style="s2">very very good to get started with D2</p>
+<p begin="00:04:20.040" end="00:04:24.440" style="s2">you can download it to your machine</p>
+<p begin="00:04:21.540" end="00:04:26.820" style="s2">using the terminal or you can go to</p>
+<p begin="00:04:24.440" end="00:04:28.680" style="s2">play.d2lang.com where you can write a</p>
+<p begin="00:04:26.820" end="00:04:30.540" style="s2">code on the browser and Export images</p>
+<p begin="00:04:28.680" end="00:04:32.759" style="s2">without having to download anything</p>
+<p begin="00:04:30.540" end="00:04:35.220" style="s2">thank you for watching this video I hope</p>
+<p begin="00:04:32.759" end="00:04:38.040" style="s2">you found it useful I was so happy to</p>
+<p begin="00:04:35.220" end="00:04:40.080" style="s2">discover D2 and I&#39;m sure I will be using</p>
+<p begin="00:04:38.040" end="00:04:41.580" style="s2">it when explaining things on videos for</p>
+<p begin="00:04:40.080" end="00:04:44.160" style="s2">the channel let me know in the comments</p>
+<p begin="00:04:41.580" end="00:04:46.500" style="s2">what do you think about Vito and if you</p>
+<p begin="00:04:44.160" end="00:04:48.720" style="s2">see yourself using it anytime soon and</p>
+<p begin="00:04:46.500" end="00:04:50.580" style="s2">please don&#39;t forget that if you want to</p>
+<p begin="00:04:48.720" end="00:04:52.979" style="s2">learn things like JavaScript python</p>
+<p begin="00:04:50.580" end="00:04:55.500" style="s2">react react native gold Dart flutter</p>
+<p begin="00:04:52.979" end="00:04:57.180" style="s2">among many others for absolutely free</p>
+<p begin="00:04:55.500" end="00:04:59.400" style="s2">all you have to do is click the link</p>
+<p begin="00:04:57.180" end="00:05:01.560" style="s2">below to join any of our many free</p>
+<p begin="00:04:59.400" end="00:05:04.259" style="s2">course courses that you can take right</p>
+<p begin="00:05:01.560" end="00:05:07.340" style="s2">now for free with me click the link</p>
+<p begin="00:05:04.259" end="00:05:11.300" style="s2">below and I will see you there</p>
+<p begin="00:05:07.340" end="00:05:11.300" style="s2">see you on the next one bye</p>
+<p begin="00:05:21.090" end="00:05:24.210" style="s2">[Music]</p>
+</div>
+</body>
+</tt>

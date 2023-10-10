@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.120" end="00:00:07.140" style="s2">and today we&#39;re going to learn how to</p>
+<p begin="00:00:04.319" end="00:00:09.000" style="s2">use the newly announced chat GPT API and</p>
+<p begin="00:00:07.140" end="00:00:11.040" style="s2">we are also going to see what kind of</p>
+<p begin="00:00:09.000" end="00:00:13.200" style="s2">products we can build with it I&#39;m sure</p>
+<p begin="00:00:11.040" end="00:00:15.299" style="s2">that by now you know about cha GB3 and</p>
+<p begin="00:00:13.200" end="00:00:17.160" style="s2">how mind-blowing it is but what you may</p>
+<p begin="00:00:15.299" end="00:00:20.220" style="s2">not know is that you can actually build</p>
+<p begin="00:00:17.160" end="00:00:22.439" style="s2">products on top of chatgpt or integrate</p>
+<p begin="00:00:20.220" end="00:00:24.960" style="s2">charge GPT in your already existing</p>
+<p begin="00:00:22.439" end="00:00:27.599" style="s2">websites and apps by using the chat GPT</p>
+<p begin="00:00:24.960" end="00:00:29.939" style="s2">API you can not only call chargeivity</p>
+<p begin="00:00:27.599" end="00:00:32.220" style="s2">from within your code but you can also</p>
+<p begin="00:00:29.939" end="00:00:34.200" style="s2">customize and fine-tune chat GPT</p>
+<p begin="00:00:32.220" end="00:00:35.520" style="s2">according to what your business needs</p>
+<p begin="00:00:34.200" end="00:00:37.739" style="s2">are this means that you can have a</p>
+<p begin="00:00:35.520" end="00:00:39.899" style="s2">chatbot with the power of chat GPT that</p>
+<p begin="00:00:37.739" end="00:00:42.180" style="s2">also knows how to reply to your users or</p>
+<p begin="00:00:39.899" end="00:00:44.340" style="s2">customers about specific questions about</p>
+<p begin="00:00:42.180" end="00:00:46.320" style="s2">your business to get inspiration on what</p>
+<p begin="00:00:44.340" end="00:00:48.840" style="s2">we can build with this API we can look</p>
+<p begin="00:00:46.320" end="00:00:50.460" style="s2">at instacart a grocery delivery app they</p>
+<p begin="00:00:48.840" end="00:00:52.260" style="s2">are using charge gbt and their own</p>
+<p begin="00:00:50.460" end="00:00:54.420" style="s2">product data to build a better search</p>
+<p begin="00:00:52.260" end="00:00:57.480" style="s2">experience where the users can ask for</p>
+<p begin="00:00:54.420" end="00:00:59.640" style="s2">ideas about what to cook or what is a</p>
+<p begin="00:00:57.480" end="00:01:02.219" style="s2">healthy meal and receive an answer by</p>
+<p begin="00:00:59.640" end="00:01:04.860" style="s2">charge GPT with ideas that use products</p>
+<p begin="00:01:02.219" end="00:01:07.799" style="s2">they can shop for Shopify is also using</p>
+<p begin="00:01:04.860" end="00:01:09.659" style="s2">charge gbt on their own app shop as a</p>
+<p begin="00:01:07.799" end="00:01:11.760" style="s2">shopping assistant the extended charge</p>
+<p begin="00:01:09.659" end="00:01:13.560" style="s2">GPT and added the products on their</p>
+<p begin="00:01:11.760" end="00:01:15.960" style="s2">database which makes it possible for</p>
+<p begin="00:01:13.560" end="00:01:18.060" style="s2">chatgpt to search the store database and</p>
+<p begin="00:01:15.960" end="00:01:20.640" style="s2">recommend products that the user is</p>
+<p begin="00:01:18.060" end="00:01:22.200" style="s2">looking for and is able to buy I hope</p>
+<p begin="00:01:20.640" end="00:01:24.180" style="s2">this gives you an idea of the kind of</p>
+<p begin="00:01:22.200" end="00:01:26.040" style="s2">things you can build with this API so</p>
+<p begin="00:01:24.180" end="00:01:28.020" style="s2">let&#39;s talk about it and see how we can</p>
+<p begin="00:01:26.040" end="00:01:30.540" style="s2">use it open AI the company behind</p>
+<p begin="00:01:28.020" end="00:01:32.580" style="s2">chargeupt has had an API for a while but</p>
+<p begin="00:01:30.540" end="00:01:36.299" style="s2">what they announced some days ago is the</p>
+<p begin="00:01:32.580" end="00:01:38.520" style="s2">release of the model GPT 3.5 turbo which</p>
+<p begin="00:01:36.299" end="00:01:40.560" style="s2">is the same model used on the chat GPT</p>
+<p begin="00:01:38.520" end="00:01:42.360" style="s2">product that we have all seen before the</p>
+<p begin="00:01:40.560" end="00:01:44.340" style="s2">reason why this model is making news is</p>
+<p begin="00:01:42.360" end="00:01:46.320" style="s2">because of how cheap it is to use it</p>
+<p begin="00:01:44.340" end="00:01:48.420" style="s2">according to open AI thanks to some</p>
+<p begin="00:01:46.320" end="00:01:50.640" style="s2">optimizations that they made the new</p>
+<p begin="00:01:48.420" end="00:01:54.020" style="s2">model is 10 times cheaper than the</p>
+<p begin="00:01:50.640" end="00:01:58.259" style="s2">previous one bringing the price to</p>
+<p begin="00:01:54.020" end="00:02:00.479" style="s2">0.002 dollars per 1000 tokens when you</p>
+<p begin="00:01:58.259" end="00:02:02.399" style="s2">send a question to chat GPT that</p>
+<p begin="00:02:00.479" end="00:02:05.280" style="s2">question is chopped into pieces called</p>
+<p begin="00:02:02.399" end="00:02:07.740" style="s2">tokens sometimes a word is a token and</p>
+<p begin="00:02:05.280" end="00:02:10.020" style="s2">sometimes a long word will be split on</p>
+<p begin="00:02:07.740" end="00:02:12.300" style="s2">multiple tokens a token is just a</p>
+<p begin="00:02:10.020" end="00:02:14.760" style="s2">sequence of characters and chat Deputy</p>
+<p begin="00:02:12.300" end="00:02:17.099" style="s2">is very good at predicting what the next</p>
+<p begin="00:02:14.760" end="00:02:19.020" style="s2">token on a sequence of tokens will be</p>
+<p begin="00:02:17.099" end="00:02:21.300" style="s2">here you can see how the question what</p>
+<p begin="00:02:19.020" end="00:02:23.520" style="s2">is the distance between the Moon and the</p>
+<p begin="00:02:21.300" end="00:02:26.879" style="s2">Sun plus the answer that we receive</p>
+<p begin="00:02:23.520" end="00:02:28.739" style="s2">gives us a total of 54 tokens with those</p>
+<p begin="00:02:26.879" end="00:02:31.440" style="s2">numbers we can ask questions like that</p>
+<p begin="00:02:28.739" end="00:02:34.739" style="s2">thousands of times before we pay the</p>
+<p begin="00:02:31.440" end="00:02:37.400" style="s2">first two dollars that is super cheap to</p>
+<p begin="00:02:34.739" end="00:02:39.599" style="s2">get started with the API jump on</p>
+<p begin="00:02:37.400" end="00:02:41.519" style="s2">platform.openai.com and either log in or</p>
+<p begin="00:02:39.599" end="00:02:44.040" style="s2">create an account and then go to the API</p>
+<p begin="00:02:41.519" end="00:02:46.379" style="s2">Keys page and generate your API key they</p>
+<p begin="00:02:44.040" end="00:02:48.000" style="s2">will only show you the API key once so</p>
+<p begin="00:02:46.379" end="00:02:50.040" style="s2">make sure to copy paste it somewhere</p>
+<p begin="00:02:48.000" end="00:02:52.140" style="s2">safe after that on a computer that has</p>
+<p begin="00:02:50.040" end="00:02:55.440" style="s2">python installed open your console and</p>
+<p begin="00:02:52.140" end="00:02:57.780" style="s2">run pip install open AI all these left</p>
+<p begin="00:02:55.440" end="00:02:59.819" style="s2">is to start talking to chargeipity using</p>
+<p begin="00:02:57.780" end="00:03:02.519" style="s2">our code on a new python file we will</p>
+<p begin="00:02:59.819" end="00:03:05.220" style="s2">will import openai we will set our API</p>
+<p begin="00:03:02.519" end="00:03:07.379" style="s2">key which by the way is secret so make</p>
+<p begin="00:03:05.220" end="00:03:09.300" style="s2">sure to protect it and after we will</p>
+<p begin="00:03:07.379" end="00:03:13.140" style="s2">create a new chat completion we will</p>
+<p begin="00:03:09.300" end="00:03:15.959" style="s2">choose the latest GPT 3.5 durable model</p>
+<p begin="00:03:13.140" end="00:03:18.360" style="s2">and then we will write down a message as</p>
+<p begin="00:03:15.959" end="00:03:20.700" style="s2">you can see the message has a role which</p>
+<p begin="00:03:18.360" end="00:03:22.319" style="s2">we will talk about later and a Content</p>
+<p begin="00:03:20.700" end="00:03:24.840" style="s2">which is where we will put our question</p>
+<p begin="00:03:22.319" end="00:03:27.239" style="s2">finally we will print the completion to</p>
+<p begin="00:03:24.840" end="00:03:29.099" style="s2">the console to get an output like this</p>
+<p begin="00:03:27.239" end="00:03:31.620" style="s2">as you can see we receive a choice</p>
+<p begin="00:03:29.099" end="00:03:34.140" style="s2">inside of a list of choices with the</p>
+<p begin="00:03:31.620" end="00:03:36.300" style="s2">response from chat GPT we can also see</p>
+<p begin="00:03:34.140" end="00:03:38.580" style="s2">on the usage key the amount of tokens</p>
+<p begin="00:03:36.300" end="00:03:41.400" style="s2">our question took the amount the</p>
+<p begin="00:03:38.580" end="00:03:43.620" style="s2">response took and the total tokens that</p>
+<p begin="00:03:41.400" end="00:03:45.959" style="s2">we spend as you saw before when we are</p>
+<p begin="00:03:43.620" end="00:03:49.200" style="s2">sending a message to chat GPT we are</p>
+<p begin="00:03:45.959" end="00:03:50.879" style="s2">specifying a role for each message there</p>
+<p begin="00:03:49.200" end="00:03:54.420" style="s2">are three kinds of roles that we can use</p>
+<p begin="00:03:50.879" end="00:03:56.519" style="s2">system user and assistant we use the</p>
+<p begin="00:03:54.420" end="00:03:59.519" style="s2">user role when we want to ask something</p>
+<p begin="00:03:56.519" end="00:04:01.799" style="s2">directly to chat GPT as if you were a</p>
+<p begin="00:03:59.519" end="00:04:04.560" style="s2">user chatting with we use the system</p>
+<p begin="00:04:01.799" end="00:04:07.560" style="s2">role when we want to initialize or</p>
+<p begin="00:04:04.560" end="00:04:09.900" style="s2">configure the model before it receives a</p>
+<p begin="00:04:07.560" end="00:04:11.879" style="s2">message from the user for example in</p>
+<p begin="00:04:09.900" end="00:04:14.220" style="s2">this code you can see how we are sending</p>
+<p begin="00:04:11.879" end="00:04:16.680" style="s2">two messages one with system role and</p>
+<p begin="00:04:14.220" end="00:04:18.780" style="s2">one with user role we use the system</p>
+<p begin="00:04:16.680" end="00:04:20.699" style="s2">role to initialize the assistant telling</p>
+<p begin="00:04:18.780" end="00:04:22.860" style="s2">it that it is a helpful kindergarten</p>
+<p begin="00:04:20.699" end="00:04:25.860" style="s2">teacher talking to children so when we</p>
+<p begin="00:04:22.860" end="00:04:28.020" style="s2">ask it to explain what AI is we get a</p>
+<p begin="00:04:25.860" end="00:04:29.940" style="s2">response like this one that starts by</p>
+<p begin="00:04:28.020" end="00:04:32.280" style="s2">saying hello kids today we&#39;re going to</p>
+<p begin="00:04:29.940" end="00:04:35.100" style="s2">learn blah blah blah uses easy language</p>
+<p begin="00:04:32.280" end="00:04:38.280" style="s2">and examples tailored for kids and</p>
+<p begin="00:04:35.100" end="00:04:40.320" style="s2">finishes with isn&#39;t that amazing if we</p>
+<p begin="00:04:38.280" end="00:04:42.840" style="s2">instead change the code to look like</p>
+<p begin="00:04:40.320" end="00:04:45.540" style="s2">this and we set up our model as if it</p>
+<p begin="00:04:42.840" end="00:04:48.419" style="s2">was a PhD teacher talking to students</p>
+<p begin="00:04:45.540" end="00:04:51.060" style="s2">the response will be more complex using</p>
+<p begin="00:04:48.419" end="00:04:53.400" style="s2">more complex words and telling us that</p>
+<p begin="00:04:51.060" end="00:04:55.680" style="s2">PhD students should have a basic</p>
+<p begin="00:04:53.400" end="00:04:57.780" style="s2">understanding of AI the other role we</p>
+<p begin="00:04:55.680" end="00:04:59.699" style="s2">can use is the assistant role that one</p>
+<p begin="00:04:57.780" end="00:05:02.400" style="s2">we can use to indicate that the message</p>
+<p begin="00:04:59.699" end="00:05:04.860" style="s2">it was a message previously sent by chat</p>
+<p begin="00:05:02.400" end="00:05:06.660" style="s2">GPT it is useful for when we are saving</p>
+<p begin="00:05:04.860" end="00:05:08.580" style="s2">the conversation between the user and</p>
+<p begin="00:05:06.660" end="00:05:10.800" style="s2">the assistant and we want to provide the</p>
+<p begin="00:05:08.580" end="00:05:13.139" style="s2">previous messages to the assistant which</p>
+<p begin="00:05:10.800" end="00:05:14.820" style="s2">might influence their response so with</p>
+<p begin="00:05:13.139" end="00:05:18.060" style="s2">this code we are telling chargeivity</p>
+<p begin="00:05:14.820" end="00:05:20.280" style="s2">that the user previously asked who owns</p>
+<p begin="00:05:18.060" end="00:05:22.800" style="s2">Tesla and that charge GPT previously</p>
+<p begin="00:05:20.280" end="00:05:25.560" style="s2">answered that Elon Musk owns it and then</p>
+<p begin="00:05:22.800" end="00:05:27.960" style="s2">we ask how much did he pay for it if we</p>
+<p begin="00:05:25.560" end="00:05:29.820" style="s2">only asked how much did he pay for it</p>
+<p begin="00:05:27.960" end="00:05:32.220" style="s2">the AI won&#39;t know what we are talking</p>
+<p begin="00:05:29.820" end="00:05:33.900" style="s2">about but using the assistant role we</p>
+<p begin="00:05:32.220" end="00:05:36.300" style="s2">can provide messages of a previous</p>
+<p begin="00:05:33.900" end="00:05:38.820" style="s2">conversation getting an answer that</p>
+<p begin="00:05:36.300" end="00:05:40.500" style="s2">talks about Elon and Tesla roles are</p>
+<p begin="00:05:38.820" end="00:05:42.900" style="s2">pretty cool and all but the thing that I</p>
+<p begin="00:05:40.500" end="00:05:45.180" style="s2">like the most and what I think many</p>
+<p begin="00:05:42.900" end="00:05:48.240" style="s2">businesses are going to be using is the</p>
+<p begin="00:05:45.180" end="00:05:51.960" style="s2">fine tuning API which as of today is not</p>
+<p begin="00:05:48.240" end="00:05:54.539" style="s2">supported on the new GPT 3.5 models but</p>
+<p begin="00:05:51.960" end="00:05:57.600" style="s2">it is supported with the other gpd3</p>
+<p begin="00:05:54.539" end="00:06:00.120" style="s2">models like Da Vinci Curry and babach</p>
+<p begin="00:05:57.600" end="00:06:02.340" style="s2">using fine tuning you can sort of train</p>
+<p begin="00:06:00.120" end="00:06:04.199" style="s2">the model with your own custom data so</p>
+<p begin="00:06:02.340" end="00:06:06.180" style="s2">for example if you wanted to train a</p>
+<p begin="00:06:04.199" end="00:06:08.460" style="s2">model to detect if a customer is happy</p>
+<p begin="00:06:06.180" end="00:06:10.979" style="s2">or not you will first get the data from</p>
+<p begin="00:06:08.460" end="00:06:13.259" style="s2">your database and write down what the</p>
+<p begin="00:06:10.979" end="00:06:15.000" style="s2">ideal completion will be like here for</p>
+<p begin="00:06:13.259" end="00:06:17.100" style="s2">example we are explicitly telling the</p>
+<p begin="00:06:15.000" end="00:06:19.740" style="s2">model what a positive and negative</p>
+<p begin="00:06:17.100" end="00:06:22.080" style="s2">review is when the motor sees a similar</p>
+<p begin="00:06:19.740" end="00:06:23.759" style="s2">review it can detect if it&#39;s positive or</p>
+<p begin="00:06:22.080" end="00:06:25.919" style="s2">negative of course we need hundreds of</p>
+<p begin="00:06:23.759" end="00:06:28.139" style="s2">examples to achieve a better quality but</p>
+<p begin="00:06:25.919" end="00:06:30.360" style="s2">being able to fine-tune the model is</p>
+<p begin="00:06:28.139" end="00:06:32.880" style="s2">great you don&#39;t have to build a language</p>
+<p begin="00:06:30.360" end="00:06:35.580" style="s2">model yourself you can inherit all the</p>
+<p begin="00:06:32.880" end="00:06:37.979" style="s2">power of the gpt3 and add the extra</p>
+<p begin="00:06:35.580" end="00:06:40.740" style="s2">things that are specific to your company</p>
+<p begin="00:06:37.979" end="00:06:42.660" style="s2">or business needs fine tuning a model is</p>
+<p begin="00:06:40.740" end="00:06:44.699" style="s2">a little bit more complex and takes more</p>
+<p begin="00:06:42.660" end="00:06:46.080" style="s2">steps so let me know in the comments if</p>
+<p begin="00:06:44.699" end="00:06:49.020" style="s2">you would like me to make a full</p>
+<p begin="00:06:46.080" end="00:06:51.660" style="s2">tutorial on how to use the open AI API</p>
+<p begin="00:06:49.020" end="00:06:53.940" style="s2">and other models as wet as you can see</p>
+<p begin="00:06:51.660" end="00:06:56.039" style="s2">it is pretty easy to talk to chat GPT</p>
+<p begin="00:06:53.940" end="00:06:58.259" style="s2">from your code and the things you can</p>
+<p begin="00:06:56.039" end="00:06:59.639" style="s2">build with it are super cool all you</p>
+<p begin="00:06:58.259" end="00:07:01.919" style="s2">have to know is know a little bit of</p>
+<p begin="00:06:59.639" end="00:07:04.319" style="s2">Python and you are good to go if you</p>
+<p begin="00:07:01.919" end="00:07:06.960" style="s2">want to Learn Python for absolutely free</p>
+<p begin="00:07:04.319" end="00:07:09.720" style="s2">with me then click the link below there</p>
+<p begin="00:07:06.960" end="00:07:12.300" style="s2">you will find a free six hour course</p>
+<p begin="00:07:09.720" end="00:07:14.759" style="s2">where you will learn python from xero</p>
+<p begin="00:07:12.300" end="00:07:16.979" style="s2">the course is for absolute beginners and</p>
+<p begin="00:07:14.759" end="00:07:19.020" style="s2">you can join right now for free by</p>
+<p begin="00:07:16.979" end="00:07:21.620" style="s2">clicking the link below join now for</p>
+<p begin="00:07:19.020" end="00:07:26.060" style="s2">free and I will see you there</p>
+<p begin="00:07:21.620" end="00:07:26.060" style="s2">mobile see you on the next one bye</p>
+<p begin="00:07:37.280" end="00:07:40.280" style="s2">thank you</p>
+</div>
+</body>
+</tt>

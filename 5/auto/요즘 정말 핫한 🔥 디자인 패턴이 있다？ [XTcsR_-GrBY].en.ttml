@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:01.940" end="00:00:05.940" style="s2">on this video we are going to learn</p>
+<p begin="00:00:04.020" end="00:00:08.519" style="s2">about a design pattern that is</p>
+<p begin="00:00:05.940" end="00:00:10.679" style="s2">incredibly helpful easy to apply and</p>
+<p begin="00:00:08.519" end="00:00:12.179" style="s2">that will make your code Shine the</p>
+<p begin="00:00:10.679" end="00:00:14.519" style="s2">pattern we will learn about on this</p>
+<p begin="00:00:12.179" end="00:00:16.500" style="s2">video is from the structural category if</p>
+<p begin="00:00:14.519" end="00:00:18.180" style="s2">you don&#39;t know what that means I suggest</p>
+<p begin="00:00:16.500" end="00:00:19.800" style="s2">you check out our previous video where</p>
+<p begin="00:00:18.180" end="00:00:22.080" style="s2">we introduced the concept of design</p>
+<p begin="00:00:19.800" end="00:00:24.660" style="s2">patterns and learned about their</p>
+<p begin="00:00:22.080" end="00:00:26.880" style="s2">categories today&#39;s pattern is the facade</p>
+<p begin="00:00:24.660" end="00:00:29.279" style="s2">pattern just like the facade of a</p>
+<p begin="00:00:26.880" end="00:00:31.560" style="s2">building hides its complex structure and</p>
+<p begin="00:00:29.279" end="00:00:33.480" style="s2">details the facade pattern in software</p>
+<p begin="00:00:31.560" end="00:00:36.420" style="s2">design is used when we need to make a</p>
+<p begin="00:00:33.480" end="00:00:39.239" style="s2">complex system simpler and easier for</p>
+<p begin="00:00:36.420" end="00:00:41.520" style="s2">the user to interact with when using the</p>
+<p begin="00:00:39.239" end="00:00:43.140" style="s2">facade pattern we create a class that</p>
+<p begin="00:00:41.520" end="00:00:45.300" style="s2">has a set of methods that are</p>
+<p begin="00:00:43.140" end="00:00:47.100" style="s2">straightforward and easy to use these</p>
+<p begin="00:00:45.300" end="00:00:49.860" style="s2">methods interact with the system&#39;s</p>
+<p begin="00:00:47.100" end="00:00:52.320" style="s2">internal components handling the complex</p>
+<p begin="00:00:49.860" end="00:00:54.420" style="s2">operations and offering the user an</p>
+<p begin="00:00:52.320" end="00:00:56.879" style="s2">easier way to interact with the system</p>
+<p begin="00:00:54.420" end="00:00:59.280" style="s2">for example let&#39;s pretend that we have a</p>
+<p begin="00:00:56.879" end="00:01:01.980" style="s2">smart home a home where the lights</p>
+<p begin="00:00:59.280" end="00:01:04.199" style="s2">thermostat security and TV are all</p>
+<p begin="00:01:01.980" end="00:01:05.880" style="s2">connected whenever we leave the house we</p>
+<p begin="00:01:04.199" end="00:01:08.580" style="s2">have to remember to turn off the air con</p>
+<p begin="00:01:05.880" end="00:01:11.580" style="s2">dim the lights arm the alarm system and</p>
+<p begin="00:01:08.580" end="00:01:14.159" style="s2">turn off the TV one action requires many</p>
+<p begin="00:01:11.580" end="00:01:16.740" style="s2">other small actions that sounds like the</p>
+<p begin="00:01:14.159" end="00:01:20.159" style="s2">perfect use case for a facade let&#39;s</p>
+<p begin="00:01:16.740" end="00:01:22.439" style="s2">create a smart home facade class first</p>
+<p begin="00:01:20.159" end="00:01:24.360" style="s2">when the class is initialized in the</p>
+<p begin="00:01:22.439" end="00:01:26.280" style="s2">Constructor it is going to initialize</p>
+<p begin="00:01:24.360" end="00:01:28.799" style="s2">the subsystems it will be controlling</p>
+<p begin="00:01:26.280" end="00:01:30.540" style="s2">lights aircon security and television</p>
+<p begin="00:01:28.799" end="00:01:32.400" style="s2">when we leave our house we want to turn</p>
+<p begin="00:01:30.540" end="00:01:33.840" style="s2">off all the lights switch off the air</p>
+<p begin="00:01:32.400" end="00:01:36.060" style="s2">conditioning and start the security</p>
+<p begin="00:01:33.840" end="00:01:37.860" style="s2">system when we return home we want to</p>
+<p begin="00:01:36.060" end="00:01:39.600" style="s2">light up the entrance turn on the air</p>
+<p begin="00:01:37.860" end="00:01:42.420" style="s2">conditioning and stop the security</p>
+<p begin="00:01:39.600" end="00:01:44.340" style="s2">system if we decided to watch a movie we</p>
+<p begin="00:01:42.420" end="00:01:46.380" style="s2">would like to lower the brightness in</p>
+<p begin="00:01:44.340" end="00:01:48.000" style="s2">the living room change the TV to the</p>
+<p begin="00:01:46.380" end="00:01:50.340" style="s2">movie channel and turn on the air</p>
+<p begin="00:01:48.000" end="00:01:52.320" style="s2">conditioning before heading to sleep we</p>
+<p begin="00:01:50.340" end="00:01:54.180" style="s2">turn off all the lights switch off the</p>
+<p begin="00:01:52.320" end="00:01:57.180" style="s2">air conditioning and start the security</p>
+<p begin="00:01:54.180" end="00:01:59.280" style="s2">system again now our smart home has a</p>
+<p begin="00:01:57.180" end="00:02:01.259" style="s2">facade and as you can see thanks to the</p>
+<p begin="00:01:59.280" end="00:02:03.840" style="s2">facade pattern we can hide all the</p>
+<p begin="00:02:01.259" end="00:02:05.880" style="s2">complexity and we can get an easy to use</p>
+<p begin="00:02:03.840" end="00:02:07.259" style="s2">interface where all we have to do is</p>
+<p begin="00:02:05.880" end="00:02:10.440" style="s2">call the methods we need and forget</p>
+<p begin="00:02:07.259" end="00:02:12.599" style="s2">about what goes on behind the scenes for</p>
+<p begin="00:02:10.440" end="00:02:14.879" style="s2">a more realistic example you can use the</p>
+<p begin="00:02:12.599" end="00:02:17.459" style="s2">facade pattern like I do when you are</p>
+<p begin="00:02:14.879" end="00:02:20.400" style="s2">fetching from or sending a lot of data</p>
+<p begin="00:02:17.459" end="00:02:22.319" style="s2">to an API instead of having a bunch of</p>
+<p begin="00:02:20.400" end="00:02:24.060" style="s2">fetch courses spread throughout your</p>
+<p begin="00:02:22.319" end="00:02:26.340" style="s2">application which can be difficult to</p>
+<p begin="00:02:24.060" end="00:02:28.920" style="s2">maintain and understand you can hide all</p>
+<p begin="00:02:26.340" end="00:02:31.739" style="s2">these operations behind a single facade</p>
+<p begin="00:02:28.920" end="00:02:34.500" style="s2">we first create an API facade class that</p>
+<p begin="00:02:31.739" end="00:02:36.420" style="s2">will have a base URL property passed on</p>
+<p begin="00:02:34.500" end="00:02:39.120" style="s2">the construction then we can create a</p>
+<p begin="00:02:36.420" end="00:02:42.239" style="s2">method to send or get data to and from</p>
+<p begin="00:02:39.120" end="00:02:45.060" style="s2">our API the post method is going to send</p>
+<p begin="00:02:42.239" end="00:02:47.700" style="s2">the post requests and the get method is</p>
+<p begin="00:02:45.060" end="00:02:50.280" style="s2">going to just do normal fetch get</p>
+<p begin="00:02:47.700" end="00:02:53.040" style="s2">requests now we can use this facade by</p>
+<p begin="00:02:50.280" end="00:02:55.980" style="s2">first setting the base URL and then call</p>
+<p begin="00:02:53.040" end="00:02:57.840" style="s2">in the method with the pads and data you</p>
+<p begin="00:02:55.980" end="00:03:00.720" style="s2">could go one step further and create</p>
+<p begin="00:02:57.840" end="00:03:03.060" style="s2">methods for every API action like here</p>
+<p begin="00:03:00.720" end="00:03:05.640" style="s2">where we now have the get users and</p>
+<p begin="00:03:03.060" end="00:03:07.980" style="s2">create user method so when we use the</p>
+<p begin="00:03:05.640" end="00:03:09.840" style="s2">facade it looks even better and that&#39;s</p>
+<p begin="00:03:07.980" end="00:03:11.400" style="s2">it for this video I hope you found it</p>
+<p begin="00:03:09.840" end="00:03:13.620" style="s2">useful and I hope you can see how</p>
+<p begin="00:03:11.400" end="00:03:15.540" style="s2">helpful and easy to use the facade</p>
+<p begin="00:03:13.620" end="00:03:17.040" style="s2">pattern is if you like this video and</p>
+<p begin="00:03:15.540" end="00:03:19.019" style="s2">comment below that you want to learn</p>
+<p begin="00:03:17.040" end="00:03:21.239" style="s2">more the next video I&#39;ll make will be</p>
+<p begin="00:03:19.019" end="00:03:22.319" style="s2">about behavioral design patterns so let</p>
+<p begin="00:03:21.239" end="00:03:23.879" style="s2">me know in the comments if that is</p>
+<p begin="00:03:22.319" end="00:03:25.440" style="s2">something you would like to see if you</p>
+<p begin="00:03:23.879" end="00:03:26.459" style="s2">like the way I explain things and you</p>
+<p begin="00:03:25.440" end="00:03:29.459" style="s2">will like to learn things like</p>
+<p begin="00:03:26.459" end="00:03:32.940" style="s2">JavaScript python react react native go</p>
+<p begin="00:03:29.459" end="00:03:35.459" style="s2">dark flutter among many many others for</p>
+<p begin="00:03:32.940" end="00:03:37.440" style="s2">absolutely free all you have to do is</p>
+<p begin="00:03:35.459" end="00:03:39.120" style="s2">click the link below to join any of our</p>
+<p begin="00:03:37.440" end="00:03:41.819" style="s2">many free courses that you can take</p>
+<p begin="00:03:39.120" end="00:03:43.560" style="s2">right now for absolutely free with me</p>
+<p begin="00:03:41.819" end="00:03:44.659" style="s2">click the link below and I will see you</p>
+<p begin="00:03:43.560" end="00:03:49.200" style="s2">there</p>
+<p begin="00:03:44.659" end="00:03:49.200" style="s2">see you on the next one bye</p>
+<p begin="00:03:55.459" end="00:03:58.580" style="s2">thank you</p>
+</div>
+</body>
+</tt>

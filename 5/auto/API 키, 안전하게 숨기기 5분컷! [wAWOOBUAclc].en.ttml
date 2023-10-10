@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:01.940" end="00:00:06.960" style="s2">and today I want to show you how you can</p>
+<p begin="00:00:04.380" end="00:00:09.420" style="s2">secure your API keys for free in less</p>
+<p begin="00:00:06.960" end="00:00:12.179" style="s2">than 5 minutes when we build a project</p>
+<p begin="00:00:09.420" end="00:00:14.160" style="s2">and we use a third-party API most of the</p>
+<p begin="00:00:12.179" end="00:00:16.560" style="s2">time they give us an API key so we can</p>
+<p begin="00:00:14.160" end="00:00:17.699" style="s2">use their services the thing is that if</p>
+<p begin="00:00:16.560" end="00:00:19.800" style="s2">you don&#39;t have a server and you&#39;re</p>
+<p begin="00:00:17.699" end="00:00:22.439" style="s2">building a web application or a mobile</p>
+<p begin="00:00:19.800" end="00:00:24.660" style="s2">application you might end up putting</p>
+<p begin="00:00:22.439" end="00:00:26.760" style="s2">those API keys on the code that is going</p>
+<p begin="00:00:24.660" end="00:00:29.460" style="s2">to go to the browser or to the phone of</p>
+<p begin="00:00:26.760" end="00:00:31.619" style="s2">the user which means that someone with a</p>
+<p begin="00:00:29.460" end="00:00:33.480" style="s2">little bit of technical skills can</p>
+<p begin="00:00:31.619" end="00:00:36.600" style="s2">inspect your code or look at the network</p>
+<p begin="00:00:33.480" end="00:00:38.100" style="s2">call and extract your API Keys the only</p>
+<p begin="00:00:36.600" end="00:00:40.620" style="s2">place where your API keys will be</p>
+<p begin="00:00:38.100" end="00:00:43.079" style="s2">protected is on your server but making</p>
+<p begin="00:00:40.620" end="00:00:45.360" style="s2">and managing a server just to protect a</p>
+<p begin="00:00:43.079" end="00:00:49.140" style="s2">couple of API Keys is a lot of effort</p>
+<p begin="00:00:45.360" end="00:00:51.059" style="s2">enter cloudflare workers cluster workers</p>
+<p begin="00:00:49.140" end="00:00:53.460" style="s2">is the easiest and fastest way I found</p>
+<p begin="00:00:51.059" end="00:00:55.320" style="s2">of deploying code to the cloud all we</p>
+<p begin="00:00:53.460" end="00:00:58.320" style="s2">have to do is write a JavaScript or</p>
+<p begin="00:00:55.320" end="00:01:00.360" style="s2">typescript function run one command and</p>
+<p begin="00:00:58.320" end="00:01:02.640" style="s2">boom the code will be deployed on class</p>
+<p begin="00:01:00.360" end="00:01:05.220" style="s2">first Network and we will get a URL to</p>
+<p begin="00:01:02.640" end="00:01:07.799" style="s2">run it even though it might look like it</p>
+<p begin="00:01:05.220" end="00:01:09.659" style="s2">this video isn&#39;t sponsored by cluster I</p>
+<p begin="00:01:07.799" end="00:01:12.060" style="s2">just really like their workers product</p>
+<p begin="00:01:09.659" end="00:01:14.520" style="s2">and it has become my go-to service when</p>
+<p begin="00:01:12.060" end="00:01:16.680" style="s2">I need to build an API or run some code</p>
+<p begin="00:01:14.520" end="00:01:18.960" style="s2">on the cloud they actually have all</p>
+<p begin="00:01:16.680" end="00:01:22.500" style="s2">their cool products like R2 for cheap</p>
+<p begin="00:01:18.960" end="00:01:24.960" style="s2">file storage the one a serverless SQL</p>
+<p begin="00:01:22.500" end="00:01:26.759" style="s2">database Chrome jobs a key value</p>
+<p begin="00:01:24.960" end="00:01:27.960" style="s2">database and more let me know in the</p>
+<p begin="00:01:26.759" end="00:01:29.880" style="s2">comments if you would like me to make</p>
+<p begin="00:01:27.960" end="00:01:32.220" style="s2">tutorials about those products as well</p>
+<p begin="00:01:29.880" end="00:01:34.380" style="s2">for now let&#39;s get started protecting our</p>
+<p begin="00:01:32.220" end="00:01:37.140" style="s2">case with cloudstar workers keep in mind</p>
+<p begin="00:01:34.380" end="00:01:40.380" style="s2">that cluster workers is free you get a</p>
+<p begin="00:01:37.140" end="00:01:42.479" style="s2">hundred thousand requests per day at no</p>
+<p begin="00:01:40.380" end="00:01:45.119" style="s2">cost and after that you will pay 15</p>
+<p begin="00:01:42.479" end="00:01:47.220" style="s2">cents per million requests after</p>
+<p begin="00:01:45.119" end="00:01:50.399" style="s2">creating a cluster account in your</p>
+<p begin="00:01:47.220" end="00:01:52.979" style="s2">console you will run npm install GE</p>
+<p begin="00:01:50.399" end="00:01:55.680" style="s2">Wrangler after that from your console</p>
+<p begin="00:01:52.979" end="00:01:57.659" style="s2">you will run Wrangler login which will</p>
+<p begin="00:01:55.680" end="00:02:00.020" style="s2">log in our console with cloudstar after</p>
+<p begin="00:01:57.659" end="00:02:04.200" style="s2">that we are going to run Wrangler init</p>
+<p begin="00:02:00.020" end="00:02:06.240" style="s2">Keys Dash y to create a keys folder</p>
+<p begin="00:02:04.200" end="00:02:09.360" style="s2">after we open the keys folder we will</p>
+<p begin="00:02:06.240" end="00:02:11.459" style="s2">find a node.js project with an index.ts</p>
+<p begin="00:02:09.360" end="00:02:14.040" style="s2">file that contains the code of our</p>
+<p begin="00:02:11.459" end="00:02:16.020" style="s2">function all this code does for now is</p>
+<p begin="00:02:14.040" end="00:02:18.900" style="s2">to say hello world when somebody goes to</p>
+<p begin="00:02:16.020" end="00:02:21.060" style="s2">the URL to test it just run Wrangler Dev</p>
+<p begin="00:02:18.900" end="00:02:23.099" style="s2">on the console and you will get a URL</p>
+<p begin="00:02:21.060" end="00:02:25.680" style="s2">that you can open in your browser where</p>
+<p begin="00:02:23.099" end="00:02:27.120" style="s2">you will see Hello work so now let&#39;s</p>
+<p begin="00:02:25.680" end="00:02:29.400" style="s2">pretend that we are building an app that</p>
+<p begin="00:02:27.120" end="00:02:31.980" style="s2">is using the movie database API and that</p>
+<p begin="00:02:29.400" end="00:02:33.840" style="s2">is the API key we want to protect what</p>
+<p begin="00:02:31.980" end="00:02:36.120" style="s2">we want to do is we want to mirror the</p>
+<p begin="00:02:33.840" end="00:02:37.860" style="s2">same structure of the movie database API</p>
+<p begin="00:02:36.120" end="00:02:40.379" style="s2">which means that we will still be able</p>
+<p begin="00:02:37.860" end="00:02:42.239" style="s2">to read the API documentation but</p>
+<p begin="00:02:40.379" end="00:02:44.459" style="s2">instead of sending requests directly to</p>
+<p begin="00:02:42.239" end="00:02:47.400" style="s2">the movie database API we are going to</p>
+<p begin="00:02:44.459" end="00:02:50.280" style="s2">send them to our worker and our worker</p>
+<p begin="00:02:47.400" end="00:02:52.680" style="s2">will forward the request lost the API</p>
+<p begin="00:02:50.280" end="00:02:55.200" style="s2">key to note which path the user is going</p>
+<p begin="00:02:52.680" end="00:02:57.540" style="s2">we will extract the path name of the URL</p>
+<p begin="00:02:55.200" end="00:02:59.640" style="s2">as well as the search parameter so if</p>
+<p begin="00:02:57.540" end="00:03:01.800" style="s2">you have a request like this one the</p>
+<p begin="00:02:59.640" end="00:03:04.200" style="s2">best thing is going to be slash movie</p>
+<p begin="00:03:01.800" end="00:03:07.319" style="s2">slash popular and the search programs</p>
+<p begin="00:03:04.200" end="00:03:09.900" style="s2">will be the page equals to what we want</p>
+<p begin="00:03:07.319" end="00:03:12.180" style="s2">to do next is to relay the path name and</p>
+<p begin="00:03:09.900" end="00:03:16.200" style="s2">the search parameters to the actual the</p>
+<p begin="00:03:12.180" end="00:03:18.540" style="s2">movie database API plus our API key next</p>
+<p begin="00:03:16.200" end="00:03:21.360" style="s2">step is to actually fetch that URL we</p>
+<p begin="00:03:18.540" end="00:03:23.400" style="s2">just created and get the Json out of the</p>
+<p begin="00:03:21.360" end="00:03:25.739" style="s2">response and to finish up we&#39;re going to</p>
+<p begin="00:03:23.400" end="00:03:28.440" style="s2">take that Json we will stringify it and</p>
+<p begin="00:03:25.739" end="00:03:30.239" style="s2">send it in our response as Json and now</p>
+<p begin="00:03:28.440" end="00:03:32.760" style="s2">we can go to slash movie slash popular</p>
+<p begin="00:03:30.239" end="00:03:34.980" style="s2">in our browser and that request will be</p>
+<p begin="00:03:32.760" end="00:03:37.019" style="s2">forwarded to the movie database API</p>
+<p begin="00:03:34.980" end="00:03:39.239" style="s2">server and we will get the resulting</p>
+<p begin="00:03:37.019" end="00:03:42.180" style="s2">data without having to rebuild our API</p>
+<p begin="00:03:39.239" end="00:03:44.819" style="s2">key to enable fetch to that API from our</p>
+<p begin="00:03:42.180" end="00:03:46.920" style="s2">browser we need to enable course which</p>
+<p begin="00:03:44.819" end="00:03:49.319" style="s2">we can do just by sending the correct</p>
+<p begin="00:03:46.920" end="00:03:52.019" style="s2">headers now all we have to do is run</p>
+<p begin="00:03:49.319" end="00:03:54.060" style="s2">Wrangler publish in our console and</p>
+<p begin="00:03:52.019" end="00:03:56.159" style="s2">after waiting for a bit we will get the</p>
+<p begin="00:03:54.060" end="00:03:58.739" style="s2">URL where our worker will leave and</p>
+<p begin="00:03:56.159" end="00:04:01.260" style="s2">that&#39;s it we can now use that URL which</p>
+<p begin="00:03:58.739" end="00:04:03.480" style="s2">in my case is keys that Nomad colors</p>
+<p begin="00:04:01.260" end="00:04:05.760" style="s2">that workers that Dev in our websites</p>
+<p begin="00:04:03.480" end="00:04:07.500" style="s2">and apps that&#39;s it for this video thank</p>
+<p begin="00:04:05.760" end="00:04:09.540" style="s2">you for watching I hope you found it</p>
+<p begin="00:04:07.500" end="00:04:12.000" style="s2">useful let me know in the comments what</p>
+<p begin="00:04:09.540" end="00:04:13.200" style="s2">do you think about cluster workers and</p>
+<p begin="00:04:12.000" end="00:04:15.480" style="s2">let me know you would like to see more</p>
+<p begin="00:04:13.200" end="00:04:16.859" style="s2">videos about other Cloud products and</p>
+<p begin="00:04:15.480" end="00:04:18.780" style="s2">don&#39;t forget that if you want to learn</p>
+<p begin="00:04:16.859" end="00:04:21.239" style="s2">things like JavaScript python react</p>
+<p begin="00:04:18.780" end="00:04:24.120" style="s2">react native gold Dart flutter among</p>
+<p begin="00:04:21.239" end="00:04:26.280" style="s2">many others for absolutely free all you</p>
+<p begin="00:04:24.120" end="00:04:29.280" style="s2">have to do is click the link below to</p>
+<p begin="00:04:26.280" end="00:04:31.020" style="s2">join any of our many free courses that</p>
+<p begin="00:04:29.280" end="00:04:33.479" style="s2">you can take right now for absolutely</p>
+<p begin="00:04:31.020" end="00:04:35.840" style="s2">free with me click on the link below and</p>
+<p begin="00:04:33.479" end="00:04:39.860" style="s2">I will see you there</p>
+<p begin="00:04:35.840" end="00:04:39.860" style="s2">see you on the next one bye</p>
+<p begin="00:04:43.020" end="00:04:45.740" style="s2">thank you</p>
+<p begin="00:04:49.480" end="00:04:54.639" style="s2">[Music]</p>
+</div>
+</body>
+</tt>

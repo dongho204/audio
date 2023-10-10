@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.480" end="00:00:06.960" style="s2">today we&#39;re going to talk about ai image</p>
+<p begin="00:00:05.040" end="00:00:10.080" style="s2">generators and we&#39;re going to try to</p>
+<p begin="00:00:06.960" end="00:00:11.440" style="s2">understand how they work when i say ai</p>
+<p begin="00:00:10.080" end="00:00:14.240" style="s2">image generators i&#39;m talking</p>
+<p begin="00:00:11.440" end="00:00:16.800" style="s2">specifically about open ai&#39;s daily 2 and</p>
+<p begin="00:00:14.240" end="00:00:19.439" style="s2">google&#39;s imaging they&#39;re both ai&#39;s that</p>
+<p begin="00:00:16.800" end="00:00:22.320" style="s2">will generate a photorealistic image</p>
+<p begin="00:00:19.439" end="00:00:26.160" style="s2">from a text input and the results are</p>
+<p begin="00:00:22.320" end="00:00:29.039" style="s2">mind blowing valley 2 will give us this</p>
+<p begin="00:00:26.160" end="00:00:31.599" style="s2">image if we input the text an astronaut</p>
+<p begin="00:00:29.039" end="00:00:34.480" style="s2">riding a horse in a photo realistic</p>
+<p begin="00:00:31.599" end="00:00:37.120" style="s2">style or if we write teddy bears</p>
+<p begin="00:00:34.480" end="00:00:39.600" style="s2">shopping for groceries in ancient egypt</p>
+<p begin="00:00:37.120" end="00:00:41.280" style="s2">we won&#39;t only get an image like this one</p>
+<p begin="00:00:39.600" end="00:00:44.160" style="s2">which is one of my favorites but we will</p>
+<p begin="00:00:41.280" end="00:00:46.879" style="s2">also get different variations as well</p>
+<p begin="00:00:44.160" end="00:00:49.120" style="s2">google&#39;s imaging is equally or more</p>
+<p begin="00:00:46.879" end="00:00:51.920" style="s2">impressive than dali 2 according to</p>
+<p begin="00:00:49.120" end="00:00:55.039" style="s2">google&#39;s researchers in terms of image</p>
+<p begin="00:00:51.920" end="00:00:57.039" style="s2">quality with the input a photo of a</p>
+<p begin="00:00:55.039" end="00:00:59.280" style="s2">raccoon wearing an astronaut helmet</p>
+<p begin="00:00:57.039" end="00:01:01.840" style="s2">looking out of the window at night</p>
+<p begin="00:00:59.280" end="00:01:04.720" style="s2">imaging comes up with this</p>
+<p begin="00:01:01.840" end="00:01:06.799" style="s2">or if we input the text a dragon fruit</p>
+<p begin="00:01:04.720" end="00:01:09.920" style="s2">wearing a karate belt in the snow we</p>
+<p begin="00:01:06.799" end="00:01:12.080" style="s2">will receive a picture like this one as</p>
+<p begin="00:01:09.920" end="00:01:14.400" style="s2">you can see both dali and imaging are</p>
+<p begin="00:01:12.080" end="00:01:17.200" style="s2">equally mind-blowing but where imagine</p>
+<p begin="00:01:14.400" end="00:01:20.080" style="s2">might have an edge over dali tu is on</p>
+<p begin="00:01:17.200" end="00:01:24.000" style="s2">drawing text when asked to create a sign</p>
+<p begin="00:01:20.080" end="00:01:26.720" style="s2">that says burger king or welcome dal e2</p>
+<p begin="00:01:24.000" end="00:01:29.520" style="s2">makes images that look real except they</p>
+<p begin="00:01:26.720" end="00:01:31.680" style="s2">don&#39;t have the correct text in them</p>
+<p begin="00:01:29.520" end="00:01:34.240" style="s2">in contrast google&#39;s imaging seems to be</p>
+<p begin="00:01:31.680" end="00:01:36.799" style="s2">able to draw text without a problem with</p>
+<p begin="00:01:34.240" end="00:01:39.280" style="s2">the input of sprouts in the shape of</p>
+<p begin="00:01:36.799" end="00:01:42.640" style="s2">text imaging coming out of a fairy tale</p>
+<p begin="00:01:39.280" end="00:01:45.119" style="s2">book the output looks pretty good keep</p>
+<p begin="00:01:42.640" end="00:01:48.159" style="s2">in mind that since google hasn&#39;t allowed</p>
+<p begin="00:01:45.119" end="00:01:50.560" style="s2">public access to imaging this might be a</p>
+<p begin="00:01:48.159" end="00:01:53.600" style="s2">cherry picked example that might not</p>
+<p begin="00:01:50.560" end="00:01:55.840" style="s2">hold true after a lot of testing both of</p>
+<p begin="00:01:53.600" end="00:01:58.880" style="s2">these ais seem to work better with</p>
+<p begin="00:01:55.840" end="00:02:02.079" style="s2">longer text inputs the prompt to imaging</p>
+<p begin="00:01:58.880" end="00:02:04.560" style="s2">for this image is an art gallery</p>
+<p begin="00:02:02.079" end="00:02:07.280" style="s2">displaying monet paintings the art</p>
+<p begin="00:02:04.560" end="00:02:10.160" style="s2">gallery is flooded robots are going</p>
+<p begin="00:02:07.280" end="00:02:11.280" style="s2">around the art gallery using paddle</p>
+<p begin="00:02:10.160" end="00:02:13.760" style="s2">boards</p>
+<p begin="00:02:11.280" end="00:02:16.720" style="s2">as you can see imaging delivered very</p>
+<p begin="00:02:13.760" end="00:02:19.680" style="s2">well and the prompt to daily2 for this</p>
+<p begin="00:02:16.720" end="00:02:22.160" style="s2">image was a shipping container with</p>
+<p begin="00:02:19.680" end="00:02:24.560" style="s2">solar panels on top and a propeller on</p>
+<p begin="00:02:22.160" end="00:02:27.120" style="s2">one end that can drive through the ocean</p>
+<p begin="00:02:24.560" end="00:02:28.959" style="s2">by itself the self-driving shipping</p>
+<p begin="00:02:27.120" end="00:02:30.879" style="s2">container is driving under the golden</p>
+<p begin="00:02:28.959" end="00:02:34.319" style="s2">gate bridge during a beautiful sunset</p>
+<p begin="00:02:30.879" end="00:02:38.239" style="s2">with dolphins jumping all around it as</p>
+<p begin="00:02:34.319" end="00:02:39.920" style="s2">long as hell and dali delivered it only</p>
+<p begin="00:02:38.239" end="00:02:42.000" style="s2">missed on the dolphins because they&#39;re</p>
+<p begin="00:02:39.920" end="00:02:44.640" style="s2">not there but actually if you zoom in to</p>
+<p begin="00:02:42.000" end="00:02:47.840" style="s2">the propeller of the ship you can see a</p>
+<p begin="00:02:44.640" end="00:02:50.319" style="s2">tiny little dolphin tail there i could</p>
+<p begin="00:02:47.840" end="00:02:52.720" style="s2">personally look at images made by dali</p>
+<p begin="00:02:50.319" end="00:02:55.440" style="s2">or imagine all they because it&#39;s</p>
+<p begin="00:02:52.720" end="00:02:57.920" style="s2">mind-blowing and mesmerizing what these</p>
+<p begin="00:02:55.440" end="00:03:00.879" style="s2">ais can do imagine people that make</p>
+<p begin="00:02:57.920" end="00:03:03.440" style="s2">animations movies or video games</p>
+<p begin="00:03:00.879" end="00:03:05.760" style="s2">prototyping their ideas using this kind</p>
+<p begin="00:03:03.440" end="00:03:08.159" style="s2">of ai&#39;s we could also say that thanks to</p>
+<p begin="00:03:05.760" end="00:03:10.560" style="s2">this kind of ais like daddy 2 and imogen</p>
+<p begin="00:03:08.159" end="00:03:13.120" style="s2">the idea of humans being out of a job</p>
+<p begin="00:03:10.560" end="00:03:15.360" style="s2">because of ai can become a reality</p>
+<p begin="00:03:13.120" end="00:03:17.760" style="s2">pretty pretty soon in the case of daddy</p>
+<p begin="00:03:15.360" end="00:03:19.599" style="s2">2 and imaging there may be a direct</p>
+<p begin="00:03:17.760" end="00:03:21.599" style="s2">threat to graphic designers or</p>
+<p begin="00:03:19.599" end="00:03:23.680" style="s2">photographers now of course in the case</p>
+<p begin="00:03:21.599" end="00:03:25.920" style="s2">of photographers or designers maybe they</p>
+<p begin="00:03:23.680" end="00:03:28.319" style="s2">will be able to use this ai as a tool to</p>
+<p begin="00:03:25.920" end="00:03:30.239" style="s2">make their job faster and better but i</p>
+<p begin="00:03:28.319" end="00:03:32.560" style="s2">can also see companies that prefer to</p>
+<p begin="00:03:30.239" end="00:03:34.239" style="s2">use ai generated images for their</p>
+<p begin="00:03:32.560" end="00:03:36.239" style="s2">website rather than hiring a</p>
+<p begin="00:03:34.239" end="00:03:38.480" style="s2">photographer for example imagine a</p>
+<p begin="00:03:36.239" end="00:03:40.720" style="s2">fashion brand taking a daily generated</p>
+<p begin="00:03:38.480" end="00:03:43.440" style="s2">image like this one right here and</p>
+<p begin="00:03:40.720" end="00:03:45.519" style="s2">putting it on a shirt now since i have a</p>
+<p begin="00:03:43.440" end="00:03:47.760" style="s2">very peculiar style of shirts as you can</p>
+<p begin="00:03:45.519" end="00:03:50.159" style="s2">realize i would probably end up buying</p>
+<p begin="00:03:47.760" end="00:03:52.720" style="s2">that shirt whether it was made by human</p>
+<p begin="00:03:50.159" end="00:03:54.720" style="s2">or an ai the fashion brand would have</p>
+<p begin="00:03:52.720" end="00:03:57.040" style="s2">reduced the human cost and the designer</p>
+<p begin="00:03:54.720" end="00:03:59.519" style="s2">would have not been needed at all that</p>
+<p begin="00:03:57.040" end="00:04:02.480" style="s2">reality is inspiring and scary at the</p>
+<p begin="00:03:59.519" end="00:04:04.560" style="s2">same time so many questions come up for</p>
+<p begin="00:04:02.480" end="00:04:06.720" style="s2">example who owns the copyright of the</p>
+<p begin="00:04:04.560" end="00:04:09.120" style="s2">image is it the person that wrote the</p>
+<p begin="00:04:06.720" end="00:04:12.400" style="s2">text is it the company that trained the</p>
+<p begin="00:04:09.120" end="00:04:15.680" style="s2">ai is it the artist whose image was used</p>
+<p begin="00:04:12.400" end="00:04:17.759" style="s2">to train the ai or how easy is it to</p>
+<p begin="00:04:15.680" end="00:04:21.359" style="s2">know if an image presented in the court</p>
+<p begin="00:04:17.759" end="00:04:23.199" style="s2">of law was created using an ai now it</p>
+<p begin="00:04:21.359" end="00:04:25.919" style="s2">makes sense why google and open ai</p>
+<p begin="00:04:23.199" end="00:04:28.240" style="s2">haven&#39;t actually released these apis</p>
+<p begin="00:04:25.919" end="00:04:30.240" style="s2">with 100 public access for everybody to</p>
+<p begin="00:04:28.240" end="00:04:32.880" style="s2">use because the consequences might not</p>
+<p begin="00:04:30.240" end="00:04:34.960" style="s2">be so good now let&#39;s move on to see a</p>
+<p begin="00:04:32.880" end="00:04:37.360" style="s2">little bit of how daddy 2 works from the</p>
+<p begin="00:04:34.960" end="00:04:40.000" style="s2">inside this won&#39;t be an in-depth</p>
+<p begin="00:04:37.360" end="00:04:42.000" style="s2">explanation of everything but instead</p>
+<p begin="00:04:40.000" end="00:04:44.080" style="s2">what i want to do is just see what are</p>
+<p begin="00:04:42.000" end="00:04:46.800" style="s2">the ingredients that make up that it</p>
+<p begin="00:04:44.080" end="00:04:48.720" style="s2">doing how sort of works so we can see</p>
+<p begin="00:04:46.800" end="00:04:50.960" style="s2">that there is no magic involved it&#39;s</p>
+<p begin="00:04:48.720" end="00:04:53.440" style="s2">actually the work brains and mass of</p>
+<p begin="00:04:50.960" end="00:04:55.120" style="s2">some of the most brilliant people around</p>
+<p begin="00:04:53.440" end="00:04:57.199" style="s2">to understand how valley 2 works we</p>
+<p begin="00:04:55.120" end="00:04:58.880" style="s2">first need to talk about clip which is a</p>
+<p begin="00:04:57.199" end="00:05:01.759" style="s2">model that some people say is</p>
+<p begin="00:04:58.880" end="00:05:03.759" style="s2">revolutionizing computer vision computer</p>
+<p begin="00:05:01.759" end="00:05:06.000" style="s2">vision is a field of ai that focuses on</p>
+<p begin="00:05:03.759" end="00:05:08.080" style="s2">how computers can extract information</p>
+<p begin="00:05:06.000" end="00:05:09.759" style="s2">from images and video</p>
+<p begin="00:05:08.080" end="00:05:12.080" style="s2">usually what we are used to seeing in</p>
+<p begin="00:05:09.759" end="00:05:13.919" style="s2">computer vision are ais that label</p>
+<p begin="00:05:12.080" end="00:05:16.560" style="s2">images you show them a photo and they</p>
+<p begin="00:05:13.919" end="00:05:19.360" style="s2">can tell you if there is a cat or house</p>
+<p begin="00:05:16.560" end="00:05:22.240" style="s2">or a horse clip is different in that it</p>
+<p begin="00:05:19.360" end="00:05:24.800" style="s2">doesn&#39;t label images instead clip is</p>
+<p begin="00:05:22.240" end="00:05:27.199" style="s2">able to relate images with their correct</p>
+<p begin="00:05:24.800" end="00:05:30.000" style="s2">image caption now captions and labels</p>
+<p begin="00:05:27.199" end="00:05:33.280" style="s2">are different a label is like a house a</p>
+<p begin="00:05:30.000" end="00:05:36.320" style="s2">cut a door a face and models that use</p>
+<p begin="00:05:33.280" end="00:05:38.880" style="s2">labels require a lot of human effort in</p>
+<p begin="00:05:36.320" end="00:05:41.360" style="s2">labeling each photo to be able to train</p>
+<p begin="00:05:38.880" end="00:05:44.080" style="s2">the model an image caption in contrast</p>
+<p begin="00:05:41.360" end="00:05:46.960" style="s2">is something like two people sitting on</p>
+<p begin="00:05:44.080" end="00:05:49.120" style="s2">the beach in the sunset the advantage of</p>
+<p begin="00:05:46.960" end="00:05:51.360" style="s2">training your model with captions over</p>
+<p begin="00:05:49.120" end="00:05:53.120" style="s2">labels is that you don&#39;t need humans to</p>
+<p begin="00:05:51.360" end="00:05:55.840" style="s2">caption the images because there are</p>
+<p begin="00:05:53.120" end="00:05:58.319" style="s2">many images already with their captions</p>
+<p begin="00:05:55.840" end="00:06:01.520" style="s2">in news websites in blogs and instagram</p>
+<p begin="00:05:58.319" end="00:06:03.840" style="s2">is full of image caption pairs now clip</p>
+<p begin="00:06:01.520" end="00:06:06.160" style="s2">was trained with 4 million of these</p>
+<p begin="00:06:03.840" end="00:06:08.800" style="s2">image and caption pairs so clip is very</p>
+<p begin="00:06:06.160" end="00:06:11.120" style="s2">good as we said at taking an image and</p>
+<p begin="00:06:08.800" end="00:06:13.919" style="s2">choosing the right caption for the image</p>
+<p begin="00:06:11.120" end="00:06:15.759" style="s2">which is the opposite of what dali does</p>
+<p begin="00:06:13.919" end="00:06:18.319" style="s2">what opening i wanted was to take a</p>
+<p begin="00:06:15.759" end="00:06:20.960" style="s2">caption and return an image doing an</p>
+<p begin="00:06:18.319" end="00:06:22.720" style="s2">unclip basically reversing the clip</p>
+<p begin="00:06:20.960" end="00:06:25.520" style="s2">process to understand it&#39;s better let&#39;s</p>
+<p begin="00:06:22.720" end="00:06:27.600" style="s2">see how clip was trained how does it see</p>
+<p begin="00:06:25.520" end="00:06:29.840" style="s2">images and captions and how it knows</p>
+<p begin="00:06:27.600" end="00:06:32.160" style="s2">when a caption corresponds to an image</p>
+<p begin="00:06:29.840" end="00:06:34.400" style="s2">clip has two encoders an image encoder</p>
+<p begin="00:06:32.160" end="00:06:36.479" style="s2">and a text encoder the text encoder and</p>
+<p begin="00:06:34.400" end="00:06:38.000" style="s2">the image encoder transform the text and</p>
+<p begin="00:06:36.479" end="00:06:41.039" style="s2">the image into something called</p>
+<p begin="00:06:38.000" end="00:06:42.880" style="s2">embeddings which are vectors of numbers</p>
+<p begin="00:06:41.039" end="00:06:44.560" style="s2">vectors you can imagine them like long</p>
+<p begin="00:06:42.880" end="00:06:46.639" style="s2">arrays these vectors are the</p>
+<p begin="00:06:44.560" end="00:06:48.800" style="s2">mathematical representation of the text</p>
+<p begin="00:06:46.639" end="00:06:50.560" style="s2">and the image for example and this isn&#39;t</p>
+<p begin="00:06:48.800" end="00:06:53.759" style="s2">a real example just to illustrate the</p>
+<p begin="00:06:50.560" end="00:06:55.840" style="s2">point if we had these images and we</p>
+<p begin="00:06:53.759" end="00:06:58.720" style="s2">turned these images into vectors using</p>
+<p begin="00:06:55.840" end="00:07:01.360" style="s2">our custom image encoder let&#39;s say that</p>
+<p begin="00:06:58.720" end="00:07:03.840" style="s2">we get something like this the first</p>
+<p begin="00:07:01.360" end="00:07:06.240" style="s2">item of the array is a score of how cute</p>
+<p begin="00:07:03.840" end="00:07:08.400" style="s2">the image is the second one is how</p>
+<p begin="00:07:06.240" end="00:07:10.880" style="s2">lovely and the third one is how hairy</p>
+<p begin="00:07:08.400" end="00:07:13.520" style="s2">with this vector representation of our</p>
+<p begin="00:07:10.880" end="00:07:15.759" style="s2">images the computer will know that the</p>
+<p begin="00:07:13.520" end="00:07:18.639" style="s2">first and last image are closer to each</p>
+<p begin="00:07:15.759" end="00:07:20.240" style="s2">other than closer to the second image</p>
+<p begin="00:07:18.639" end="00:07:22.960" style="s2">now of course the vectors that clip</p>
+<p begin="00:07:20.240" end="00:07:24.720" style="s2">makes have way more dimensions than our</p>
+<p begin="00:07:22.960" end="00:07:26.960" style="s2">example because they extract all sorts</p>
+<p begin="00:07:24.720" end="00:07:29.039" style="s2">of features from the text and the images</p>
+<p begin="00:07:26.960" end="00:07:30.560" style="s2">after clip has the text and the image</p>
+<p begin="00:07:29.039" end="00:07:32.560" style="s2">embeddings which remember is just a</p>
+<p begin="00:07:30.560" end="00:07:34.160" style="s2">mathematical representation of both of</p>
+<p begin="00:07:32.560" end="00:07:36.160" style="s2">them it will try to find the text</p>
+<p begin="00:07:34.160" end="00:07:38.639" style="s2">vectors or embeddings that are closer to</p>
+<p begin="00:07:36.160" end="00:07:41.440" style="s2">the image vectors or embeddings as well</p>
+<p begin="00:07:38.639" end="00:07:44.319" style="s2">now back to dali too when we write an</p>
+<p begin="00:07:41.440" end="00:07:46.800" style="s2">input for dali clip will be used to</p>
+<p begin="00:07:44.319" end="00:07:48.800" style="s2">generate only the text embeddings which</p>
+<p begin="00:07:46.800" end="00:07:51.280" style="s2">means the mathematical representation of</p>
+<p begin="00:07:48.800" end="00:07:53.840" style="s2">those words those embeddings the array</p>
+<p begin="00:07:51.280" end="00:07:56.800" style="s2">of numbers the vectors that is given to</p>
+<p begin="00:07:53.840" end="00:07:59.120" style="s2">a model called the prior model prior</p>
+<p begin="00:07:56.800" end="00:08:01.840" style="s2">model will take this text embeddings and</p>
+<p begin="00:07:59.120" end="00:08:03.360" style="s2">will output image embeddings so it&#39;s</p>
+<p begin="00:08:01.840" end="00:08:05.280" style="s2">basically taking the mathematical</p>
+<p begin="00:08:03.360" end="00:08:06.960" style="s2">representation of a sentence and</p>
+<p begin="00:08:05.280" end="00:08:09.520" style="s2">generating from that sentence the</p>
+<p begin="00:08:06.960" end="00:08:11.759" style="s2">mathematical representation of an image</p>
+<p begin="00:08:09.520" end="00:08:15.039" style="s2">finally the image embeddings are given</p>
+<p begin="00:08:11.759" end="00:08:17.360" style="s2">to a decoder that has the job of turning</p>
+<p begin="00:08:15.039" end="00:08:19.360" style="s2">image embeddings into an actual image</p>
+<p begin="00:08:17.360" end="00:08:21.280" style="s2">this decoder and also the prior that we</p>
+<p begin="00:08:19.360" end="00:08:23.680" style="s2">talked about before are both something</p>
+<p begin="00:08:21.280" end="00:08:25.759" style="s2">called diffusion models when training a</p>
+<p begin="00:08:23.680" end="00:08:28.960" style="s2">diffusion model this model will take an</p>
+<p begin="00:08:25.759" end="00:08:32.399" style="s2">image and slowly step by step add noise</p>
+<p begin="00:08:28.960" end="00:08:35.039" style="s2">to it until the image is lost not</p>
+<p begin="00:08:32.399" end="00:08:37.839" style="s2">visible and then it learns to fix that</p>
+<p begin="00:08:35.039" end="00:08:39.919" style="s2">image by removing the noise step by step</p>
+<p begin="00:08:37.839" end="00:08:42.640" style="s2">until it arrives to the initial state of</p>
+<p begin="00:08:39.919" end="00:08:44.480" style="s2">the image effectively fixing it this is</p>
+<p begin="00:08:42.640" end="00:08:46.640" style="s2">the model in charge of taking those</p>
+<p begin="00:08:44.480" end="00:08:48.880" style="s2">image embeddings and turning them into</p>
+<p begin="00:08:46.640" end="00:08:50.880" style="s2">something that humans can actually see</p>
+<p begin="00:08:48.880" end="00:08:53.519" style="s2">now if your head spinning don&#39;t worry</p>
+<p begin="00:08:50.880" end="00:08:55.360" style="s2">mine is also as well explaining and</p>
+<p begin="00:08:53.519" end="00:08:58.399" style="s2">understanding all this is very hard</p>
+<p begin="00:08:55.360" end="00:09:00.399" style="s2">especially because open ai hasn&#39;t open</p>
+<p begin="00:08:58.399" end="00:09:02.880" style="s2">source valley too it&#39;s close to source</p>
+<p begin="00:09:00.399" end="00:09:04.800" style="s2">so we cannot look at the code and see</p>
+<p begin="00:09:02.880" end="00:09:07.120" style="s2">what techniques and what is opening are</p>
+<p begin="00:09:04.800" end="00:09:09.680" style="s2">doing under the hood but nevertheless</p>
+<p begin="00:09:07.120" end="00:09:12.720" style="s2">open ai&#39;s dali 2 and google&#39;s imaging</p>
+<p begin="00:09:09.680" end="00:09:14.560" style="s2">are both gigantic leaps of progress on</p>
+<p begin="00:09:12.720" end="00:09:16.640" style="s2">the fields of natural language</p>
+<p begin="00:09:14.560" end="00:09:19.360" style="s2">processing computer vision image</p>
+<p begin="00:09:16.640" end="00:09:21.279" style="s2">generation basically ai as a whole which</p>
+<p begin="00:09:19.360" end="00:09:24.080" style="s2">is something that thanks to the sponsor</p>
+<p begin="00:09:21.279" end="00:09:26.200" style="s2">of this video you can learn as well</p>
+<p begin="00:09:24.080" end="00:09:30.160" style="s2">naver connect foundation is recruiting</p>
+<p begin="00:09:26.200" end="00:09:33.120" style="s2">250 people to join a free ai education</p>
+<p begin="00:09:30.160" end="00:09:35.519" style="s2">program called boost camp ai tech boost</p>
+<p begin="00:09:33.120" end="00:09:38.640" style="s2">camp ai tech is an intensive program</p>
+<p begin="00:09:35.519" end="00:09:42.160" style="s2">that runs for five months monday to</p>
+<p begin="00:09:38.640" end="00:09:45.680" style="s2">friday from 10 a.m to 7 00 p.m covering</p>
+<p begin="00:09:42.160" end="00:09:47.920" style="s2">a to set of ai production students will</p>
+<p begin="00:09:45.680" end="00:09:49.760" style="s2">start learning from the very basics and</p>
+<p begin="00:09:47.920" end="00:09:52.640" style="s2">then they will get to choose from three</p>
+<p begin="00:09:49.760" end="00:09:55.279" style="s2">tracks computer vision natural language</p>
+<p begin="00:09:52.640" end="00:09:57.279" style="s2">processing and recommendation systems</p>
+<p begin="00:09:55.279" end="00:09:59.920" style="s2">the program consists of projects</p>
+<p begin="00:09:57.279" end="00:10:02.079" style="s2">designed with real life data and</p>
+<p begin="00:09:59.920" end="00:10:04.399" style="s2">problems allowing the students to</p>
+<p begin="00:10:02.079" end="00:10:06.959" style="s2">experience development of ai models with</p>
+<p begin="00:10:04.399" end="00:10:09.680" style="s2">real life tasks</p>
+<p begin="00:10:06.959" end="00:10:12.079" style="s2">so by the end of the 20 weeks students</p>
+<p begin="00:10:09.680" end="00:10:14.560" style="s2">will be able to make an ai model into an</p>
+<p begin="00:10:12.079" end="00:10:17.120" style="s2">actual service that can be distributed</p>
+<p begin="00:10:14.560" end="00:10:20.000" style="s2">and used by people the program will</p>
+<p begin="00:10:17.120" end="00:10:22.320" style="s2">provide high-powered gpus to students</p>
+<p begin="00:10:20.000" end="00:10:25.440" style="s2">there will be 82 mentors to help you and</p>
+<p begin="00:10:22.320" end="00:10:28.640" style="s2">there will be also 30 to 40 business</p>
+<p begin="00:10:25.440" end="00:10:30.560" style="s2">partners to help and guide students also</p>
+<p begin="00:10:28.640" end="00:10:32.560" style="s2">there will be various community events</p>
+<p begin="00:10:30.560" end="00:10:34.959" style="s2">and peer sessions to enable students to</p>
+<p begin="00:10:32.560" end="00:10:37.600" style="s2">grow within the developer community this</p>
+<p begin="00:10:34.959" end="00:10:40.160" style="s2">program is a hundred percent free and</p>
+<p begin="00:10:37.600" end="00:10:42.720" style="s2">anyone can apply but only those with a</p>
+<p begin="00:10:40.160" end="00:10:45.600" style="s2">strong passion and will to learn will be</p>
+<p begin="00:10:42.720" end="00:10:47.360" style="s2">accepted applications are open right now</p>
+<p begin="00:10:45.600" end="00:10:49.760" style="s2">and there is not a lot of time left so</p>
+<p begin="00:10:47.360" end="00:10:51.600" style="s2">click the link below to apply and be</p>
+<p begin="00:10:49.760" end="00:10:52.880" style="s2">part of the program thank you as always</p>
+<p begin="00:10:51.600" end="00:10:54.720" style="s2">for watching let me know what do you</p>
+<p begin="00:10:52.880" end="00:10:56.640" style="s2">think of this video on the comments and</p>
+<p begin="00:10:54.720" end="00:10:59.920" style="s2">what videos you would like to see next</p>
+<p begin="00:10:56.640" end="00:11:03.720" style="s2">stay happy stay free it&#39;s kimchi santa</p>
+<p begin="00:10:59.920" end="00:11:03.720" style="s2">see you on the next one bye</p>
+</div>
+</body>
+</tt>

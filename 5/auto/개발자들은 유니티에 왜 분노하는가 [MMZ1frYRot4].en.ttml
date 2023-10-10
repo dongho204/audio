@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.000" end="00:00:05.160" style="s2">Unity engine is an incredibly popular</p>
+<p begin="00:00:02.399" end="00:00:07.740" style="s2">video game and 3D engine that is used by</p>
+<p begin="00:00:05.160" end="00:00:11.160" style="s2">tons and tons of mobile and desktop</p>
+<p begin="00:00:07.740" end="00:00:14.219" style="s2">games like Among Us or Fall Guys among</p>
+<p begin="00:00:11.160" end="00:00:16.500" style="s2">many many others are made using Unity</p>
+<p begin="00:00:14.219" end="00:00:19.080" style="s2">the unity engine is so popular that is</p>
+<p begin="00:00:16.500" end="00:00:22.199" style="s2">calculated that 70 of all mobile games</p>
+<p begin="00:00:19.080" end="00:00:24.060" style="s2">are built on Unity it also has a huge</p>
+<p begin="00:00:22.199" end="00:00:26.519" style="s2">online community that is full of</p>
+<p begin="00:00:24.060" end="00:00:28.800" style="s2">tutorials courses forums YouTube</p>
+<p begin="00:00:26.519" end="00:00:30.779" style="s2">channels and books it&#39;s also very</p>
+<p begin="00:00:28.800" end="00:00:32.820" style="s2">popular among Indie developers and</p>
+<p begin="00:00:30.779" end="00:00:34.860" style="s2">students because it uses an easy to</p>
+<p begin="00:00:32.820" end="00:00:36.840" style="s2">learn programming language C sharp but</p>
+<p begin="00:00:34.860" end="00:00:39.420" style="s2">the most important thing is free to get</p>
+<p begin="00:00:36.840" end="00:00:41.280" style="s2">started with if a game makes less than</p>
+<p begin="00:00:39.420" end="00:00:43.379" style="s2">one hundred thousand dollars a year</p>
+<p begin="00:00:41.280" end="00:00:45.239" style="s2">which is the case for most students</p>
+<p begin="00:00:43.379" end="00:00:47.160" style="s2">hobbyists and Indie developers the</p>
+<p begin="00:00:45.239" end="00:00:49.739" style="s2">personal license of the unity engine is</p>
+<p begin="00:00:47.160" end="00:00:51.600" style="s2">absolutely free if a game makes more</p>
+<p begin="00:00:49.739" end="00:00:52.980" style="s2">than that or if the developers want to</p>
+<p begin="00:00:51.600" end="00:00:55.379" style="s2">deploy the game on consoles like</p>
+<p begin="00:00:52.980" end="00:00:58.199" style="s2">Nintendo switch PlayStation and Xbox</p>
+<p begin="00:00:55.379" end="00:00:59.699" style="s2">they will need to get a pro license that</p>
+<p begin="00:00:58.199" end="00:01:01.980" style="s2">is around two thousand dollars a year</p>
+<p begin="00:00:59.699" end="00:01:04.500" style="s2">it&#39;s a flat fee so for example if you</p>
+<p begin="00:01:01.980" end="00:01:06.479" style="s2">made a game with unity and sold it and</p>
+<p begin="00:01:04.500" end="00:01:08.580" style="s2">made 10 million dollars your only cost</p>
+<p begin="00:01:06.479" end="00:01:10.260" style="s2">will be the license the two thousand</p>
+<p begin="00:01:08.580" end="00:01:12.420" style="s2">dollars if you build the same game with</p>
+<p begin="00:01:10.260" end="00:01:13.860" style="s2">Unreal Engine another 3D engine the</p>
+<p begin="00:01:12.420" end="00:01:15.960" style="s2">license would be free but you will have</p>
+<p begin="00:01:13.860" end="00:01:17.880" style="s2">to pay them five percent after your</p>
+<p begin="00:01:15.960" end="00:01:20.280" style="s2">first million dollars five percent of 9</p>
+<p begin="00:01:17.880" end="00:01:22.320" style="s2">million is more than 400 Grand so it&#39;s</p>
+<p begin="00:01:20.280" end="00:01:24.119" style="s2">easy to see why the pricing of unity was</p>
+<p begin="00:01:22.320" end="00:01:26.640" style="s2">so attractive for so many people and why</p>
+<p begin="00:01:24.119" end="00:01:29.400" style="s2">it is so popular Unity has been very</p>
+<p begin="00:01:26.640" end="00:01:31.680" style="s2">generous for a long time but as it was</p>
+<p begin="00:01:29.400" end="00:01:33.240" style="s2">announced on September 12th that is</p>
+<p begin="00:01:31.680" end="00:01:35.400" style="s2">going to change and that is the reason</p>
+<p begin="00:01:33.240" end="00:01:38.040" style="s2">why so many game developers from Big to</p>
+<p begin="00:01:35.400" end="00:01:39.900" style="s2">small companies are outraged with unity</p>
+<p begin="00:01:38.040" end="00:01:42.180" style="s2">this has got to be one of the worst</p>
+<p begin="00:01:39.900" end="00:01:44.159" style="s2">price changes in history and it&#39;s not</p>
+<p begin="00:01:42.180" end="00:01:45.900" style="s2">even about money it&#39;s about trust and</p>
+<p begin="00:01:44.159" end="00:01:47.520" style="s2">how Unity broke it which is why it&#39;s</p>
+<p begin="00:01:45.900" end="00:01:49.380" style="s2">going to be so hard for them to recover</p>
+<p begin="00:01:47.520" end="00:01:51.240" style="s2">from this even if they do a complete</p>
+<p begin="00:01:49.380" end="00:01:53.040" style="s2">U-turn and cancel their plan price</p>
+<p begin="00:01:51.240" end="00:01:54.659" style="s2">changes happen all the time and most</p>
+<p begin="00:01:53.040" end="00:01:56.700" style="s2">people understand that companies need to</p>
+<p begin="00:01:54.659" end="00:01:58.200" style="s2">make money Unity is an amazing product</p>
+<p begin="00:01:56.700" end="00:01:59.939" style="s2">and it&#39;s understandable that they need</p>
+<p begin="00:01:58.200" end="00:02:02.220" style="s2">money to keep developing it and to keep</p>
+<p begin="00:01:59.939" end="00:02:04.259" style="s2">the light on so the problem isn&#39;t that</p>
+<p begin="00:02:02.220" end="00:02:06.060" style="s2">the price is changing it is the way it</p>
+<p begin="00:02:04.259" end="00:02:07.680" style="s2">is changing and how this connected the</p>
+<p begin="00:02:06.060" end="00:02:09.539" style="s2">management of unity is from the</p>
+<p begin="00:02:07.680" end="00:02:11.940" style="s2">developer Community people that spend</p>
+<p begin="00:02:09.539" end="00:02:14.580" style="s2">Years Learning the software and building</p>
+<p begin="00:02:11.940" end="00:02:16.200" style="s2">businesses that rely on Unity are</p>
+<p begin="00:02:14.580" end="00:02:18.060" style="s2">feeling like The Rock was pulled from</p>
+<p begin="00:02:16.200" end="00:02:20.940" style="s2">underneath them and are feeling totally</p>
+<p begin="00:02:18.060" end="00:02:22.980" style="s2">betrayed it is a mess hundreds of game</p>
+<p begin="00:02:20.940" end="00:02:24.420" style="s2">studios including some of the big guys</p>
+<p begin="00:02:22.980" end="00:02:26.280" style="s2">have announced that they will be</p>
+<p begin="00:02:24.420" end="00:02:28.140" style="s2">switching to another game engine and</p>
+<p begin="00:02:26.280" end="00:02:30.180" style="s2">have made public statements on how bad</p>
+<p begin="00:02:28.140" end="00:02:31.800" style="s2">this change is so let&#39;s unpack the price</p>
+<p begin="00:02:30.180" end="00:02:33.540" style="s2">change as well as the events that</p>
+<p begin="00:02:31.800" end="00:02:35.340" style="s2">followed to understand how big of a</p>
+<p begin="00:02:33.540" end="00:02:36.959" style="s2">catastrophe this is on the opening</p>
+<p begin="00:02:35.340" end="00:02:38.640" style="s2">paragraph of the announcement the</p>
+<p begin="00:02:36.959" end="00:02:41.040" style="s2">company wrote that the unity engine is</p>
+<p begin="00:02:38.640" end="00:02:43.019" style="s2">actually two pieces of software one is</p>
+<p begin="00:02:41.040" end="00:02:45.239" style="s2">the editor where you make the game and</p>
+<p begin="00:02:43.019" end="00:02:47.160" style="s2">another one is the unity runtime the</p>
+<p begin="00:02:45.239" end="00:02:48.959" style="s2">unity runtime is the wrapper that makes</p>
+<p begin="00:02:47.160" end="00:02:51.360" style="s2">it possible for your game to work on</p>
+<p begin="00:02:48.959" end="00:02:53.099" style="s2">Xbox PlayStation IOS and Android it</p>
+<p begin="00:02:51.360" end="00:02:54.840" style="s2">wraps your game and your code and it</p>
+<p begin="00:02:53.099" end="00:02:57.000" style="s2">makes sure that it can be run on any</p>
+<p begin="00:02:54.840" end="00:02:58.860" style="s2">platform including the web and that is</p>
+<p begin="00:02:57.000" end="00:03:01.620" style="s2">what Unity wants to start charging for</p>
+<p begin="00:02:58.860" end="00:03:02.940" style="s2">they will now charge Unity runtime fee</p>
+<p begin="00:03:01.620" end="00:03:05.940" style="s2">where developers will have to start</p>
+<p begin="00:03:02.940" end="00:03:07.800" style="s2">paying per install which is insane here</p>
+<p begin="00:03:05.940" end="00:03:10.200" style="s2">is a table that calculates how much a</p>
+<p begin="00:03:07.800" end="00:03:11.940" style="s2">game would pay so let&#39;s pretend we are a</p>
+<p begin="00:03:10.200" end="00:03:13.860" style="s2">small in the depth first let&#39;s check</p>
+<p begin="00:03:11.940" end="00:03:16.500" style="s2">eligibility we will have to pay this fee</p>
+<p begin="00:03:13.860" end="00:03:19.200" style="s2">if and only if our game made more than</p>
+<p begin="00:03:16.500" end="00:03:20.819" style="s2">200 Grand on the last 12 months and if</p>
+<p begin="00:03:19.200" end="00:03:22.200" style="s2">our game has been installed more than</p>
+<p begin="00:03:20.819" end="00:03:24.060" style="s2">200</p>
+<p begin="00:03:22.200" end="00:03:26.459" style="s2">000 times if any of those conditions is</p>
+<p begin="00:03:24.060" end="00:03:28.379" style="s2">not met we don&#39;t have to pay a thing but</p>
+<p begin="00:03:26.459" end="00:03:30.959" style="s2">if both of those things are true then we</p>
+<p begin="00:03:28.379" end="00:03:32.940" style="s2">will have to pay 20 cents per install at</p>
+<p begin="00:03:30.959" end="00:03:35.099" style="s2">a first glance it seems reasonable since</p>
+<p begin="00:03:32.940" end="00:03:37.560" style="s2">most games will not hit those thresholds</p>
+<p begin="00:03:35.099" end="00:03:39.659" style="s2">but at a Second Glance this pricing is</p>
+<p begin="00:03:37.560" end="00:03:41.340" style="s2">actually horrible for mobile games and</p>
+<p begin="00:03:39.659" end="00:03:43.379" style="s2">it could end up on us going bankrupt</p>
+<p begin="00:03:41.340" end="00:03:45.780" style="s2">most mobile games are free and they have</p>
+<p begin="00:03:43.379" end="00:03:47.879" style="s2">either ads or in-app purchases ads don&#39;t</p>
+<p begin="00:03:45.780" end="00:03:49.500" style="s2">pay that much and not everyone that</p>
+<p begin="00:03:47.879" end="00:03:51.180" style="s2">plays the game spends money on in-app</p>
+<p begin="00:03:49.500" end="00:03:53.640" style="s2">purchases so let&#39;s say that we make a</p>
+<p begin="00:03:51.180" end="00:03:55.980" style="s2">game that goes viral with 2 million</p>
+<p begin="00:03:53.640" end="00:03:58.260" style="s2">downloads and we managed to make 250 000</p>
+<p begin="00:03:55.980" end="00:04:00.480" style="s2">of in-app purchases that means we will</p>
+<p begin="00:03:58.260" end="00:04:02.760" style="s2">hit both thresholds and have to to pay</p>
+<p begin="00:04:00.480" end="00:04:05.099" style="s2">the fee paying 20 cents for one million</p>
+<p begin="00:04:02.760" end="00:04:07.260" style="s2">800 000 installations since the first</p>
+<p begin="00:04:05.099" end="00:04:10.799" style="s2">two hundred thousand are free will mean</p>
+<p begin="00:04:07.260" end="00:04:14.340" style="s2">that we now owe Unity 360</p>
+<p begin="00:04:10.799" end="00:04:16.139" style="s2">000 when we only made 250 000 on the</p>
+<p begin="00:04:14.340" end="00:04:17.940" style="s2">first place we have to give unity all</p>
+<p begin="00:04:16.139" end="00:04:20.160" style="s2">the money we made with in-app purchases</p>
+<p begin="00:04:17.940" end="00:04:21.959" style="s2">plus more money from our own pocket we</p>
+<p begin="00:04:20.160" end="00:04:24.479" style="s2">will end up losing money because our</p>
+<p begin="00:04:21.959" end="00:04:27.000" style="s2">game went viral in contrast if we made</p>
+<p begin="00:04:24.479" end="00:04:28.800" style="s2">that same game with Unreal Engine we</p>
+<p begin="00:04:27.000" end="00:04:30.120" style="s2">would not have to pay a thing and it</p>
+<p begin="00:04:28.800" end="00:04:32.220" style="s2">gets even worse if we think about</p>
+<p begin="00:04:30.120" end="00:04:34.139" style="s2">computer games you could say these</p>
+<p begin="00:04:32.220" end="00:04:36.419" style="s2">pricing sort of works for computer games</p>
+<p begin="00:04:34.139" end="00:04:38.580" style="s2">where if you are above the threshold and</p>
+<p begin="00:04:36.419" end="00:04:41.340" style="s2">let&#39;s say your game is 30 bucks giving</p>
+<p begin="00:04:38.580" end="00:04:43.380" style="s2">20 cents doesn&#39;t seem like a big cut but</p>
+<p begin="00:04:41.340" end="00:04:45.360" style="s2">still charging per install is a horrible</p>
+<p begin="00:04:43.380" end="00:04:47.580" style="s2">idea because it leaves the door open for</p>
+<p begin="00:04:45.360" end="00:04:49.080" style="s2">Bad actors to attack in bankrupt game</p>
+<p begin="00:04:47.580" end="00:04:50.880" style="s2">developers people could literally</p>
+<p begin="00:04:49.080" end="00:04:53.460" style="s2">coordinate attacks to install your game</p>
+<p begin="00:04:50.880" end="00:04:55.919" style="s2">out of Sprite to cost you money and even</p>
+<p begin="00:04:53.460" end="00:04:57.840" style="s2">worse if the game is pirated the</p>
+<p begin="00:04:55.919" end="00:05:00.300" style="s2">developer will still have to pay every</p>
+<p begin="00:04:57.840" end="00:05:02.460" style="s2">time a copy of the stolen game is is</p>
+<p begin="00:05:00.300" end="00:05:04.080" style="s2">installed so now the question is how are</p>
+<p begin="00:05:02.460" end="00:05:06.900" style="s2">installs going to be tracked will app</p>
+<p begin="00:05:04.080" end="00:05:09.419" style="s2">stores do it or steam no Unity</p>
+<p begin="00:05:06.900" end="00:05:12.060" style="s2">themselves will count the installs using</p>
+<p begin="00:05:09.419" end="00:05:14.340" style="s2">what they call a proprietary data model</p>
+<p begin="00:05:12.060" end="00:05:16.139" style="s2">they&#39;re basically saying trust us we</p>
+<p begin="00:05:14.340" end="00:05:17.880" style="s2">will know how much to charge you and we</p>
+<p begin="00:05:16.139" end="00:05:20.340" style="s2">will be accurate when asked questions</p>
+<p begin="00:05:17.880" end="00:05:22.320" style="s2">about reinstalls the company said that</p>
+<p begin="00:05:20.340" end="00:05:24.060" style="s2">reinstalled on the same device will not</p>
+<p begin="00:05:22.320" end="00:05:25.680" style="s2">come if that is true that means I will</p>
+<p begin="00:05:24.060" end="00:05:28.380" style="s2">have to collect identifiable information</p>
+<p begin="00:05:25.680" end="00:05:30.240" style="s2">of the player&#39;s device which might be a</p>
+<p begin="00:05:28.380" end="00:05:32.699" style="s2">privacy violation in places like Europe</p>
+<p begin="00:05:30.240" end="00:05:35.039" style="s2">they did clarify that if a user installs</p>
+<p begin="00:05:32.699" end="00:05:36.900" style="s2">your game in two separate devices maybe</p>
+<p begin="00:05:35.039" end="00:05:38.280" style="s2">because they change their computer you</p>
+<p begin="00:05:36.900" end="00:05:40.259" style="s2">will have to pay the installation fee</p>
+<p begin="00:05:38.280" end="00:05:42.300" style="s2">twice if that sounds bad it gets even</p>
+<p begin="00:05:40.259" end="00:05:43.919" style="s2">worse you could make the case that Unity</p>
+<p begin="00:05:42.300" end="00:05:45.600" style="s2">is a private company and they have the</p>
+<p begin="00:05:43.919" end="00:05:48.060" style="s2">right to change the price going forward</p>
+<p begin="00:05:45.600" end="00:05:49.740" style="s2">and if they gave sufficient notice game</p>
+<p begin="00:05:48.060" end="00:05:52.080" style="s2">studios could have time to choose to</p>
+<p begin="00:05:49.740" end="00:05:54.060" style="s2">release in new games using Unity or go</p>
+<p begin="00:05:52.080" end="00:05:55.919" style="s2">to another engine for their next games</p>
+<p begin="00:05:54.060" end="00:05:58.680" style="s2">the problem and what makes this price</p>
+<p begin="00:05:55.919" end="00:06:01.320" style="s2">change so incredibly bad is that it will</p>
+<p begin="00:05:58.680" end="00:06:04.080" style="s2">not only apply for new games made after</p>
+<p begin="00:06:01.320" end="00:06:06.660" style="s2">the price change Unity has decided to</p>
+<p begin="00:06:04.080" end="00:06:08.220" style="s2">apply These Chains retroactively that</p>
+<p begin="00:06:06.660" end="00:06:10.860" style="s2">means for games that are already</p>
+<p begin="00:06:08.220" end="00:06:12.600" style="s2">released games that were made years ago</p>
+<p begin="00:06:10.860" end="00:06:14.400" style="s2">will have to start paying the runtime</p>
+<p begin="00:06:12.600" end="00:06:16.500" style="s2">fee imagine that you pay for a Photoshop</p>
+<p begin="00:06:14.400" end="00:06:18.539" style="s2">license years ago and well into the</p>
+<p begin="00:06:16.500" end="00:06:20.220" style="s2">future Adobe decides that you have to</p>
+<p begin="00:06:18.539" end="00:06:22.020" style="s2">start paying them money for all the</p>
+<p begin="00:06:20.220" end="00:06:23.699" style="s2">photos you make with Photoshop and all</p>
+<p begin="00:06:22.020" end="00:06:25.400" style="s2">the photos you made 10 years ago</p>
+<p begin="00:06:23.699" end="00:06:28.560" style="s2">changing the terms and conditions</p>
+<p begin="00:06:25.400" end="00:06:30.419" style="s2">retroactively is such a mean move and as</p>
+<p begin="00:06:28.560" end="00:06:32.639" style="s2">some people have pointed out it might</p>
+<p begin="00:06:30.419" end="00:06:34.800" style="s2">not be entirely illegal drugs takes</p>
+<p begin="00:06:32.639" end="00:06:37.020" style="s2">years to build seconds to break and</p>
+<p begin="00:06:34.800" end="00:06:38.940" style="s2">forever to repair and unity has broken</p>
+<p begin="00:06:37.020" end="00:06:40.620" style="s2">the trust of developers it has shown</p>
+<p begin="00:06:38.940" end="00:06:42.960" style="s2">what they can do and how far they will</p>
+<p begin="00:06:40.620" end="00:06:45.000" style="s2">go to charge developers more money after</p>
+<p begin="00:06:42.960" end="00:06:47.220" style="s2">a week of announcing the price change</p>
+<p begin="00:06:45.000" end="00:06:48.360" style="s2">Unity seems to finally be listening and</p>
+<p begin="00:06:47.220" end="00:06:50.400" style="s2">they have announced they will be making</p>
+<p begin="00:06:48.360" end="00:06:52.139" style="s2">changes to the policy after talking to</p>
+<p begin="00:06:50.400" end="00:06:53.880" style="s2">their team Community customers and</p>
+<p begin="00:06:52.139" end="00:06:56.160" style="s2">partners even if they do a complete</p>
+<p begin="00:06:53.880" end="00:06:58.020" style="s2">U-turn and cancel their plans a hundred</p>
+<p begin="00:06:56.160" end="00:06:59.699" style="s2">percent the trust is gone who is going</p>
+<p begin="00:06:58.020" end="00:07:02.220" style="s2">to build a game Studio that relies on</p>
+<p begin="00:06:59.699" end="00:07:04.020" style="s2">Unity again in how can game developers</p>
+<p begin="00:07:02.220" end="00:07:05.759" style="s2">trust that Unity won&#39;t try to do this</p>
+<p begin="00:07:04.020" end="00:07:08.039" style="s2">again in the future the creator of</p>
+<p begin="00:07:05.759" end="00:07:10.979" style="s2">Gary&#39;s mod and the rust game said it</p>
+<p begin="00:07:08.039" end="00:07:12.960" style="s2">best in a blog post titled Unity can get</p>
+<p begin="00:07:10.979" end="00:07:15.300" style="s2"> he says we used the engine</p>
+<p begin="00:07:12.960" end="00:07:17.100" style="s2">because you pay up front and then ship</p>
+<p begin="00:07:15.300" end="00:07:19.319" style="s2">your product we have spent 10 years</p>
+<p begin="00:07:17.100" end="00:07:21.479" style="s2">making rust on unity&#39;s engine we have</p>
+<p begin="00:07:19.319" end="00:07:23.460" style="s2">paid them every year and now they change</p>
+<p begin="00:07:21.479" end="00:07:26.160" style="s2">the rule he says the trust is gone and</p>
+<p begin="00:07:23.460" end="00:07:27.900" style="s2">that Rost 2 will definitely not be a</p>
+<p begin="00:07:26.160" end="00:07:29.639" style="s2">unity game it is really hard to tell</p>
+<p begin="00:07:27.900" end="00:07:31.500" style="s2">what happens right now even if Unity</p>
+<p begin="00:07:29.639" end="00:07:33.720" style="s2">changes the policy and allows game</p>
+<p begin="00:07:31.500" end="00:07:35.220" style="s2">developers themselves to self-report</p>
+<p begin="00:07:33.720" end="00:07:37.259" style="s2">installations that is just giving</p>
+<p begin="00:07:35.220" end="00:07:39.300" style="s2">developers a new job to do track and</p>
+<p begin="00:07:37.259" end="00:07:41.039" style="s2">install even if they lower the fee it is</p>
+<p begin="00:07:39.300" end="00:07:43.500" style="s2">a new fee that did not existed before</p>
+<p begin="00:07:41.039" end="00:07:45.599" style="s2">that many people see as unfair anyways</p>
+<p begin="00:07:43.500" end="00:07:47.099" style="s2">or if they make the thresholds higher</p>
+<p begin="00:07:45.599" end="00:07:49.080" style="s2">that will still mean that it will be</p>
+<p begin="00:07:47.099" end="00:07:51.599" style="s2">scary as a game developer to succeed</p>
+<p begin="00:07:49.080" end="00:07:53.580" style="s2">when using Unity 3D many people are</p>
+<p begin="00:07:51.599" end="00:07:55.979" style="s2">saying that by doing this Unity has</p>
+<p begin="00:07:53.580" end="00:07:57.900" style="s2">single-handedly given Victory 2 Unreal</p>
+<p begin="00:07:55.979" end="00:08:00.060" style="s2">Engine an engine with just a five</p>
+<p begin="00:07:57.900" end="00:08:03.000" style="s2">percent fee no thresholds installed all</p>
+<p begin="00:08:00.060" end="00:08:04.979" style="s2">tracking tiers licenses Etc also this is</p>
+<p begin="00:08:03.000" end="00:08:07.020" style="s2">a super win for open source engines like</p>
+<p begin="00:08:04.979" end="00:08:09.060" style="s2">Godot where many developers of the unity</p>
+<p begin="00:08:07.020" end="00:08:10.919" style="s2">cam are moving too overall I feel sorry</p>
+<p begin="00:08:09.060" end="00:08:12.660" style="s2">for the people working with unity it</p>
+<p begin="00:08:10.919" end="00:08:14.460" style="s2">must feel incredibly infuriating to go</p>
+<p begin="00:08:12.660" end="00:08:16.080" style="s2">through something like this I also feel</p>
+<p begin="00:08:14.460" end="00:08:18.479" style="s2">sorry for the people that published</p>
+<p begin="00:08:16.080" end="00:08:20.340" style="s2">courses or tutorials and they voted lots</p>
+<p begin="00:08:18.479" end="00:08:22.500" style="s2">of time to teaching and learning a</p>
+<p begin="00:08:20.340" end="00:08:24.539" style="s2">software that became almost radioactive</p>
+<p begin="00:08:22.500" end="00:08:25.860" style="s2">for the game industry overnight all the</p>
+<p begin="00:08:24.539" end="00:08:28.199" style="s2">people that were in the middle of making</p>
+<p begin="00:08:25.860" end="00:08:29.879" style="s2">a game in unity will they finish and</p>
+<p begin="00:08:28.199" end="00:08:31.440" style="s2">release the game or will they have to</p>
+<p begin="00:08:29.879" end="00:08:33.959" style="s2">move to a different engine and refactor</p>
+<p begin="00:08:31.440" end="00:08:35.039" style="s2">the game completely what a nightmare I</p>
+<p begin="00:08:33.959" end="00:08:36.599" style="s2">want to know what you think on the</p>
+<p begin="00:08:35.039" end="00:08:38.339" style="s2">comments let me know what your opinion</p>
+<p begin="00:08:36.599" end="00:08:40.260" style="s2">is of all this and let me know after</p>
+<p begin="00:08:38.339" end="00:08:42.539" style="s2">everything that has happened if you</p>
+<p begin="00:08:40.260" end="00:08:44.580" style="s2">would still trust Unity even if they do</p>
+<p begin="00:08:42.539" end="00:08:46.500" style="s2">a complete U-turn and cancel their plans</p>
+<p begin="00:08:44.580" end="00:08:48.660" style="s2">I don&#39;t know if I could companies should</p>
+<p begin="00:08:46.500" end="00:08:49.920" style="s2">not take Developers for granted no one</p>
+<p begin="00:08:48.660" end="00:08:51.720" style="s2">likes it when you mix with their</p>
+<p begin="00:08:49.920" end="00:08:53.880" style="s2">livelihoods if a tool is not reliable</p>
+<p begin="00:08:51.720" end="00:08:55.740" style="s2">developers will find a different better</p>
+<p begin="00:08:53.880" end="00:08:57.600" style="s2">one I hope you liked the video and found</p>
+<p begin="00:08:55.740" end="00:08:59.339" style="s2">it informative and useful if you did</p>
+<p begin="00:08:57.600" end="00:09:00.839" style="s2">please like the video share it with your</p>
+<p begin="00:08:59.339" end="00:09:02.220" style="s2">friends and subscribe to the Channel</p>
+<p begin="00:09:00.839" end="00:09:03.839" style="s2">please don&#39;t forget that if you want to</p>
+<p begin="00:09:02.220" end="00:09:05.580" style="s2">learn to code for free all you have to</p>
+<p begin="00:09:03.839" end="00:09:07.980" style="s2">do is click the link below where you can</p>
+<p begin="00:09:05.580" end="00:09:10.380" style="s2">take free courses on JavaScript python</p>
+<p begin="00:09:07.980" end="00:09:13.260" style="s2">react react native go dark flutter</p>
+<p begin="00:09:10.380" end="00:09:14.820" style="s2">next.js and many others all for free</p>
+<p begin="00:09:13.260" end="00:09:15.920" style="s2">click the link below and I will see you</p>
+<p begin="00:09:14.820" end="00:09:20.459" style="s2">there</p>
+<p begin="00:09:15.920" end="00:09:20.459" style="s2">see you on the next one bye</p>
+<p begin="00:09:22.200" end="00:09:24.500" style="s2">foreign</p>
+<p begin="00:09:28.620" end="00:09:30.800" style="s2">foreign</p>
+</div>
+</body>
+</tt>

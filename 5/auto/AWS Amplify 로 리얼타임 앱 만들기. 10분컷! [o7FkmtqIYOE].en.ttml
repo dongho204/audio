@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:03.199" end="00:00:09.040" style="s2">i want to show you how we can use aws</p>
+<p begin="00:00:05.600" end="00:00:11.759" style="s2">amplify to build real-time serverless</p>
+<p begin="00:00:09.040" end="00:00:14.000" style="s2">applications in as little time as</p>
+<p begin="00:00:11.759" end="00:00:16.720" style="s2">possible</p>
+<p begin="00:00:14.000" end="00:00:18.800" style="s2">aws amplify is a set of tools and</p>
+<p begin="00:00:16.720" end="00:00:21.199" style="s2">features that we can use to generate</p>
+<p begin="00:00:18.800" end="00:00:24.000" style="s2">applications with user authentication</p>
+<p begin="00:00:21.199" end="00:00:27.439" style="s2">backends with rest and graphql apis</p>
+<p begin="00:00:24.000" end="00:00:30.320" style="s2">notifications file storage and even ai</p>
+<p begin="00:00:27.439" end="00:00:32.719" style="s2">all this by writing a very minimal</p>
+<p begin="00:00:30.320" end="00:00:34.719" style="s2">amount of code before we get started i</p>
+<p begin="00:00:32.719" end="00:00:38.160" style="s2">would like to invite you to the biggest</p>
+<p begin="00:00:34.719" end="00:00:40.320" style="s2">i.t conference in korea aws summit korea</p>
+<p begin="00:00:38.160" end="00:00:43.040" style="s2">is a free online conference that will</p>
+<p begin="00:00:40.320" end="00:00:44.399" style="s2">have more than 90 talks for developers</p>
+<p begin="00:00:43.040" end="00:00:46.399" style="s2">of all levels</p>
+<p begin="00:00:44.399" end="00:00:49.360" style="s2">where you can learn about the newest and</p>
+<p begin="00:00:46.399" end="00:00:52.079" style="s2">most useful aws products like the one we</p>
+<p begin="00:00:49.360" end="00:00:54.640" style="s2">are going to be using today this summit</p>
+<p begin="00:00:52.079" end="00:00:57.120" style="s2">is for developers of any level from</p>
+<p begin="00:00:54.640" end="00:00:58.719" style="s2">beginners to advanced it will also have</p>
+<p begin="00:00:57.120" end="00:01:01.039" style="s2">keynotes for business leaders and</p>
+<p begin="00:00:58.719" end="00:01:03.120" style="s2">decision makers and we will also be able</p>
+<p begin="00:01:01.039" end="00:01:07.000" style="s2">to listen to keynotes from legends like</p>
+<p begin="00:01:03.120" end="00:01:07.000" style="s2">the cto of amazon.com</p>
+<p begin="00:01:09.840" end="00:01:14.400" style="s2">the summit is a hundred percent free so</p>
+<p begin="00:01:12.560" end="00:01:18.560" style="s2">all you have to do is to click the link</p>
+<p begin="00:01:14.400" end="00:01:22.479" style="s2">below to register and be able to watch</p>
+<p begin="00:01:18.560" end="00:01:25.119" style="s2">first we install the aws amplify cli</p>
+<p begin="00:01:22.479" end="00:01:27.759" style="s2">using mpm then we run the command</p>
+<p begin="00:01:25.119" end="00:01:30.960" style="s2">amplify configure and that is going to</p>
+<p begin="00:01:27.759" end="00:01:32.960" style="s2">open the aws website we have to log in</p>
+<p begin="00:01:30.960" end="00:01:35.200" style="s2">and when we are logged in we press enter</p>
+<p begin="00:01:32.960" end="00:01:37.200" style="s2">then we choose the region i am going to</p>
+<p begin="00:01:35.200" end="00:01:40.400" style="s2">choose korea and then we are going to</p>
+<p begin="00:01:37.200" end="00:01:43.439" style="s2">choose a username for our api key after</p>
+<p begin="00:01:40.400" end="00:01:45.280" style="s2">we do that we are going to go to a form</p>
+<p begin="00:01:43.439" end="00:01:47.520" style="s2">to create our api key we&#39;re going to</p>
+<p begin="00:01:45.280" end="00:01:49.040" style="s2">click next next next next and then</p>
+<p begin="00:01:47.520" end="00:01:51.280" style="s2">create user</p>
+<p begin="00:01:49.040" end="00:01:53.280" style="s2">there we&#39;re going to copy the access key</p>
+<p begin="00:01:51.280" end="00:01:55.439" style="s2">id</p>
+<p begin="00:01:53.280" end="00:01:57.920" style="s2">and we are also going to copy paste the</p>
+<p begin="00:01:55.439" end="00:02:01.280" style="s2">secret access key</p>
+<p begin="00:01:57.920" end="00:02:03.360" style="s2">after that we will create a profile name</p>
+<p begin="00:02:01.280" end="00:02:06.960" style="s2">using create react app we are going to</p>
+<p begin="00:02:03.360" end="00:02:08.560" style="s2">create a new application</p>
+<p begin="00:02:06.960" end="00:02:10.720" style="s2">then we&#39;re going to go inside of the</p>
+<p begin="00:02:08.560" end="00:02:12.160" style="s2">folder and we&#39;re going to run amplify</p>
+<p begin="00:02:10.720" end="00:02:14.640" style="s2">init</p>
+<p begin="00:02:12.160" end="00:02:17.120" style="s2">there we are going to say yes to all the</p>
+<p begin="00:02:14.640" end="00:02:17.120" style="s2">questions</p>
+<p begin="00:02:18.000" end="00:02:24.640" style="s2">and we&#39;re going to choose the aws</p>
+<p begin="00:02:20.480" end="00:02:24.640" style="s2">profile that we created before</p>
+<p begin="00:02:26.400" end="00:02:32.239" style="s2">after that we&#39;re going to run amplify</p>
+<p begin="00:02:28.480" end="00:02:34.840" style="s2">add api to create a new api</p>
+<p begin="00:02:32.239" end="00:02:36.400" style="s2">we are going to select graph</p>
+<p begin="00:02:34.840" end="00:02:38.560" style="s2">ql</p>
+<p begin="00:02:36.400" end="00:02:41.360" style="s2">we&#39;re going to say continue</p>
+<p begin="00:02:38.560" end="00:02:43.760" style="s2">we&#39;re going to choose the blank schema</p>
+<p begin="00:02:41.360" end="00:02:47.760" style="s2">and then we will say yes to open our</p>
+<p begin="00:02:43.760" end="00:02:51.200" style="s2">schema in visual studio code</p>
+<p begin="00:02:47.760" end="00:02:52.400" style="s2">the schema will be in amplify backend</p>
+<p begin="00:02:51.200" end="00:02:53.319" style="s2">api</p>
+<p begin="00:02:52.400" end="00:02:55.840" style="s2">and</p>
+<p begin="00:02:53.319" end="00:02:58.560" style="s2">schema.graphql in this schema we will</p>
+<p begin="00:02:55.840" end="00:03:00.640" style="s2">create a new model type called tweet and</p>
+<p begin="00:02:58.560" end="00:03:02.080" style="s2">we&#39;re going to say that the tweet is</p>
+<p begin="00:03:00.640" end="00:03:05.280" style="s2">going to have id</p>
+<p begin="00:03:02.080" end="00:03:07.440" style="s2">text and author</p>
+<p begin="00:03:05.280" end="00:03:09.440" style="s2">after that&#39;s done we&#39;re going to run</p>
+<p begin="00:03:07.440" end="00:03:11.840" style="s2">amplify push</p>
+<p begin="00:03:09.440" end="00:03:13.440" style="s2">we will say yes to everything</p>
+<p begin="00:03:11.840" end="00:03:16.000" style="s2">and we will tell</p>
+<p begin="00:03:13.440" end="00:03:19.120" style="s2">amplify to generate</p>
+<p begin="00:03:16.000" end="00:03:23.280" style="s2">javascript code for the mutations</p>
+<p begin="00:03:19.120" end="00:03:24.959" style="s2">queries and subscriptions of our api</p>
+<p begin="00:03:23.280" end="00:03:29.680" style="s2">then we will wait for a couple of</p>
+<p begin="00:03:24.959" end="00:03:29.680" style="s2">minutes and our api will be ready</p>
+<p begin="00:03:30.159" end="00:03:36.319" style="s2">then we will run amplify console api to</p>
+<p begin="00:03:33.040" end="00:03:39.680" style="s2">open our graphql console</p>
+<p begin="00:03:36.319" end="00:03:42.080" style="s2">and there it is we have a playground for</p>
+<p begin="00:03:39.680" end="00:03:44.319" style="s2">our api where we can already get started</p>
+<p begin="00:03:42.080" end="00:03:46.959" style="s2">calling mutations like for example</p>
+<p begin="00:03:44.319" end="00:03:51.519" style="s2">create tweet these mutations have been</p>
+<p begin="00:03:46.959" end="00:03:51.519" style="s2">automatically generated for us</p>
+<p begin="00:03:52.400" end="00:03:56.400" style="s2">we also have queries as well</p>
+<p begin="00:03:56.480" end="00:04:01.920" style="s2">and here we can see the queries the</p>
+<p begin="00:03:59.040" end="00:04:05.120" style="s2">mutations and the subscriptions that</p>
+<p begin="00:04:01.920" end="00:04:08.159" style="s2">have been created for us automatically</p>
+<p begin="00:04:05.120" end="00:04:11.920" style="s2">by aws amplify</p>
+<p begin="00:04:08.159" end="00:04:13.920" style="s2">and that&#39;s it we now have a graphql api</p>
+<p begin="00:04:11.920" end="00:04:17.120" style="s2">as you saw we didn&#39;t have to write</p>
+<p begin="00:04:13.920" end="00:04:20.639" style="s2">almost any code everything was generated</p>
+<p begin="00:04:17.120" end="00:04:22.479" style="s2">for us automatically by aws amplify if</p>
+<p begin="00:04:20.639" end="00:04:24.400" style="s2">you want to learn more about aws</p>
+<p begin="00:04:22.479" end="00:04:26.720" style="s2">amplifying all the things it can do on</p>
+<p begin="00:04:24.400" end="00:04:28.880" style="s2">the aws summit korea there will be a</p>
+<p begin="00:04:26.720" end="00:04:31.600" style="s2">talk where we will learn how to build</p>
+<p begin="00:04:28.880" end="00:04:35.199" style="s2">cool things like a serverless call</p>
+<p begin="00:04:31.600" end="00:04:36.960" style="s2">center using amazon connect and amplify</p>
+<p begin="00:04:35.199" end="00:04:38.960" style="s2">in addition to the amplify session there</p>
+<p begin="00:04:36.960" end="00:04:40.800" style="s2">will be other sessions on other i.t</p>
+<p begin="00:04:38.960" end="00:04:43.840" style="s2">trends and technologies like for example</p>
+<p begin="00:04:40.800" end="00:04:48.800" style="s2">how korean airlines used blockchain to</p>
+<p begin="00:04:43.840" end="00:04:48.800" style="s2">digitize logistics how cool is that</p>
+<p begin="00:04:48.960" end="00:04:54.479" style="s2">to connect amplify with our react</p>
+<p begin="00:04:51.520" end="00:04:57.840" style="s2">application we are going to install aws</p>
+<p begin="00:04:54.479" end="00:04:57.840" style="s2">amplify in our project</p>
+<p begin="00:05:00.000" end="00:05:05.199" style="s2">then we configure amplify by importing</p>
+<p begin="00:05:02.960" end="00:05:08.320" style="s2">amplify in a generated file that was</p>
+<p begin="00:05:05.199" end="00:05:11.759" style="s2">created for us with our keys to make the</p>
+<p begin="00:05:08.320" end="00:05:14.320" style="s2">ui pretty we are going to include pico</p>
+<p begin="00:05:11.759" end="00:05:14.320" style="s2">css</p>
+<p begin="00:05:17.919" end="00:05:22.560" style="s2">for the ui of our application we are</p>
+<p begin="00:05:20.000" end="00:05:24.320" style="s2">going to have two sections one will be a</p>
+<p begin="00:05:22.560" end="00:05:26.880" style="s2">form where the user is going to write</p>
+<p begin="00:05:24.320" end="00:05:29.680" style="s2">their name and their tweet and a button</p>
+<p begin="00:05:26.880" end="00:05:29.680" style="s2">to post it</p>
+<p begin="00:05:30.639" end="00:05:34.160" style="s2">and on the other section we are going to</p>
+<p begin="00:05:32.240" end="00:05:36.320" style="s2">have the timeline where the user will</p>
+<p begin="00:05:34.160" end="00:05:39.280" style="s2">see their tweets</p>
+<p begin="00:05:36.320" end="00:05:41.680" style="s2">to bring the tweets from our api we are</p>
+<p begin="00:05:39.280" end="00:05:43.919" style="s2">going to import amplify and we are also</p>
+<p begin="00:05:41.680" end="00:05:46.080" style="s2">going to import a query called list</p>
+<p begin="00:05:43.919" end="00:05:48.320" style="s2">tweets this query was generated</p>
+<p begin="00:05:46.080" end="00:05:51.199" style="s2">automatically for us we also have</p>
+<p begin="00:05:48.320" end="00:05:53.840" style="s2">mutations generated automatically and we</p>
+<p begin="00:05:51.199" end="00:05:56.560" style="s2">also have subscriptions generated</p>
+<p begin="00:05:53.840" end="00:05:59.520" style="s2">automatically as well when we pushed our</p>
+<p begin="00:05:56.560" end="00:06:01.440" style="s2">api before the tweets are going to live</p>
+<p begin="00:05:59.520" end="00:06:03.919" style="s2">on the state and i am going to make a</p>
+<p begin="00:06:01.440" end="00:06:06.720" style="s2">function to fetch the tweets from the</p>
+<p begin="00:06:03.919" end="00:06:08.720" style="s2">api and put them in the state this</p>
+<p begin="00:06:06.720" end="00:06:12.479" style="s2">function is going to run only once when</p>
+<p begin="00:06:08.720" end="00:06:14.960" style="s2">our application loads for the first time</p>
+<p begin="00:06:12.479" end="00:06:17.919" style="s2">then we are going to render the tweets</p>
+<p begin="00:06:14.960" end="00:06:20.880" style="s2">using array.map and as you can see the</p>
+<p begin="00:06:17.919" end="00:06:24.080" style="s2">tweet that we created before it&#39;s now in</p>
+<p begin="00:06:20.880" end="00:06:26.400" style="s2">our ui the form to upload a tweet is</p>
+<p begin="00:06:24.080" end="00:06:28.479" style="s2">also going to live on the state so we</p>
+<p begin="00:06:26.400" end="00:06:31.039" style="s2">have to create unchanged event handlers</p>
+<p begin="00:06:28.479" end="00:06:34.160" style="s2">and we have to connect them to our input</p>
+<p begin="00:06:31.039" end="00:06:36.720" style="s2">and our text area then we import the</p>
+<p begin="00:06:34.160" end="00:06:39.199" style="s2">create to it mutation that was generated</p>
+<p begin="00:06:36.720" end="00:06:41.120" style="s2">for us before and on the unsubmit</p>
+<p begin="00:06:39.199" end="00:06:45.360" style="s2">function we&#39;re going to call that</p>
+<p begin="00:06:41.120" end="00:06:47.440" style="s2">mutation when the form is submitted</p>
+<p begin="00:06:45.360" end="00:06:49.280" style="s2">now we should go to the page fill out</p>
+<p begin="00:06:47.440" end="00:06:51.199" style="s2">the form and when we press post the</p>
+<p begin="00:06:49.280" end="00:06:53.840" style="s2">mutation should be called so if we</p>
+<p begin="00:06:51.199" end="00:06:56.319" style="s2">refresh we would see our newest tweet on</p>
+<p begin="00:06:53.840" end="00:06:58.479" style="s2">top of the list to make everything real</p>
+<p begin="00:06:56.319" end="00:07:00.240" style="s2">time we are going to import the own</p>
+<p begin="00:06:58.479" end="00:07:02.960" style="s2">create tweet subscription that was</p>
+<p begin="00:07:00.240" end="00:07:04.800" style="s2">generated before then we&#39;re going to</p>
+<p begin="00:07:02.960" end="00:07:06.960" style="s2">create a new function where we are going</p>
+<p begin="00:07:04.800" end="00:07:09.199" style="s2">to subscribe to those updates and when</p>
+<p begin="00:07:06.960" end="00:07:12.319" style="s2">there is a new tweet coming in we&#39;re</p>
+<p begin="00:07:09.199" end="00:07:15.039" style="s2">going to put it in our state now we can</p>
+<p begin="00:07:12.319" end="00:07:17.360" style="s2">open our page in two different browsers</p>
+<p begin="00:07:15.039" end="00:07:20.080" style="s2">and we can see that the messages sent</p>
+<p begin="00:07:17.360" end="00:07:21.919" style="s2">from firefox appear in the brave browser</p>
+<p begin="00:07:20.080" end="00:07:26.479" style="s2">and the messages from brave browser</p>
+<p begin="00:07:21.919" end="00:07:29.919" style="s2">appear in firefox in real time</p>
+<p begin="00:07:26.479" end="00:07:31.840" style="s2">and we are done we now have a real-time</p>
+<p begin="00:07:29.919" end="00:07:33.840" style="s2">serverless application that before would</p>
+<p begin="00:07:31.840" end="00:07:36.479" style="s2">have taken us hours to build and that</p>
+<p begin="00:07:33.840" end="00:07:38.880" style="s2">instead took us minutes to finish and</p>
+<p begin="00:07:36.479" end="00:07:40.800" style="s2">this is not all amplify can do if we</p>
+<p begin="00:07:38.880" end="00:07:43.199" style="s2">want to add authentication to our</p>
+<p begin="00:07:40.800" end="00:07:45.680" style="s2">application it will take us minutes to</p>
+<p begin="00:07:43.199" end="00:07:48.400" style="s2">do so amplifier will give us a user</p>
+<p begin="00:07:45.680" end="00:07:50.240" style="s2">backend using aws cognito and cognito</p>
+<p begin="00:07:48.400" end="00:07:52.879" style="s2">will handle wrong passwords email</p>
+<p begin="00:07:50.240" end="00:07:55.759" style="s2">confirmations and even phone login as</p>
+<p begin="00:07:52.879" end="00:07:58.160" style="s2">well and also if you wanted to save even</p>
+<p begin="00:07:55.759" end="00:08:00.639" style="s2">more time when making the ui of our</p>
+<p begin="00:07:58.160" end="00:08:04.400" style="s2">application we could use a set of</p>
+<p begin="00:08:00.639" end="00:08:06.879" style="s2">pre-made cloud-connected angular view</p>
+<p begin="00:08:04.400" end="00:08:09.280" style="s2">react and flutter components called</p>
+<p begin="00:08:06.879" end="00:08:10.879" style="s2">amplify ui let me know in the comments</p>
+<p begin="00:08:09.280" end="00:08:12.720" style="s2">if you&#39;d like to see more amplified</p>
+<p begin="00:08:10.879" end="00:08:14.240" style="s2">content maybe we take this app and we</p>
+<p begin="00:08:12.720" end="00:08:16.319" style="s2">develop it a little bit more we add</p>
+<p begin="00:08:14.240" end="00:08:18.160" style="s2">authentication we have notifications i</p>
+<p begin="00:08:16.319" end="00:08:20.400" style="s2">don&#39;t know you let me know and don&#39;t</p>
+<p begin="00:08:18.160" end="00:08:23.120" style="s2">forget to register to the aws summit</p>
+<p begin="00:08:20.400" end="00:08:24.960" style="s2">korea it&#39;s a hundred percent free and a</p>
+<p begin="00:08:23.120" end="00:08:27.360" style="s2">hundred percent online all you have to</p>
+<p begin="00:08:24.960" end="00:08:29.680" style="s2">do is click the link below to sign up</p>
+<p begin="00:08:27.360" end="00:08:31.840" style="s2">see you there stay free stay happy stay</p>
+<p begin="00:08:29.680" end="00:08:35.479" style="s2">healthy come zamida san angelo see you</p>
+<p begin="00:08:31.840" end="00:08:35.479" style="s2">on the next one bye</p>
+<p begin="00:08:45.630" end="00:08:48.789" style="s2">[Music]</p>
+<p begin="00:09:30.080" end="00:09:32.160" style="s2">you</p>
+</div>
+</body>
+</tt>

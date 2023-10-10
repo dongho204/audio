@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:01.879" end="00:00:07.440" style="s2">in this video I would like to tell you</p>
+<p begin="00:00:04.200" end="00:00:09.720" style="s2">the reasons why I think this year 2023</p>
+<p begin="00:00:07.440" end="00:00:12.480" style="s2">should be the year when you finally</p>
+<p begin="00:00:09.720" end="00:00:14.160" style="s2">learn flutter first I would like to sell</p>
+<p begin="00:00:12.480" end="00:00:16.859" style="s2">you flutter a little bit and tell you</p>
+<p begin="00:00:14.160" end="00:00:19.140" style="s2">the reasons why I think learning it is a</p>
+<p begin="00:00:16.859" end="00:00:20.580" style="s2">great way to invest your time then</p>
+<p begin="00:00:19.140" end="00:00:22.680" style="s2">because I want to be intellectually</p>
+<p begin="00:00:20.580" end="00:00:24.720" style="s2">honest with you we are going to see some</p>
+<p begin="00:00:22.680" end="00:00:27.000" style="s2">of the shortcomings the framework has</p>
+<p begin="00:00:24.720" end="00:00:28.619" style="s2">because everything has its trade-offs</p>
+<p begin="00:00:27.000" end="00:00:30.300" style="s2">when working with flutter we have to</p>
+<p begin="00:00:28.619" end="00:00:32.340" style="s2">make some compromises and we&#39;re going to</p>
+<p begin="00:00:30.300" end="00:00:34.320" style="s2">see what they are and finally I am going</p>
+<p begin="00:00:32.340" end="00:00:36.780" style="s2">to tell you what is the number one</p>
+<p begin="00:00:34.320" end="00:00:39.480" style="s2">biggest mistake that people make when</p>
+<p begin="00:00:36.780" end="00:00:41.820" style="s2">learning flutter and how to avoid it if</p>
+<p begin="00:00:39.480" end="00:00:43.559" style="s2">you&#39;re ready I&#39;m ready let&#39;s get started</p>
+<p begin="00:00:41.820" end="00:00:45.660" style="s2">flutter if you don&#39;t know what it is is</p>
+<p begin="00:00:43.559" end="00:00:47.399" style="s2">a framework made by Google that allows</p>
+<p begin="00:00:45.660" end="00:00:49.620" style="s2">developers to build multi-platform</p>
+<p begin="00:00:47.399" end="00:00:51.719" style="s2">applications using only one programming</p>
+<p begin="00:00:49.620" end="00:00:52.940" style="s2">language when I first tried flutter back</p>
+<p begin="00:00:51.719" end="00:00:56.219" style="s2">in 2018</p>
+<p begin="00:00:52.940" end="00:00:58.920" style="s2">multi-platform and IOS and Android but</p>
+<p begin="00:00:56.219" end="00:01:01.739" style="s2">the flutter team did not stop there and</p>
+<p begin="00:00:58.920" end="00:01:07.740" style="s2">now multi-platform means iOS</p>
+<p begin="00:01:01.739" end="00:01:10.680" style="s2">Android Mac OS Linux windows web and</p>
+<p begin="00:01:07.740" end="00:01:13.020" style="s2">embedded devices that is an incredible</p>
+<p begin="00:01:10.680" end="00:01:15.720" style="s2">value proposition especially for people</p>
+<p begin="00:01:13.020" end="00:01:17.280" style="s2">that like to build things for makers and</p>
+<p begin="00:01:15.720" end="00:01:20.520" style="s2">entrepreneurs that want to be able to</p>
+<p begin="00:01:17.280" end="00:01:22.920" style="s2">build prototypes and test ideas on</p>
+<p begin="00:01:20.520" end="00:01:24.960" style="s2">multiple platforms as quick as possible</p>
+<p begin="00:01:22.920" end="00:01:27.420" style="s2">being able to build something for all of</p>
+<p begin="00:01:24.960" end="00:01:29.820" style="s2">these platforms using only one framework</p>
+<p begin="00:01:27.420" end="00:01:32.100" style="s2">and one programming language gives</p>
+<p begin="00:01:29.820" end="00:01:35.100" style="s2">creative people an incredible power</p>
+<p begin="00:01:32.100" end="00:01:37.799" style="s2">flutter is a force multiplier now</p>
+<p begin="00:01:35.100" end="00:01:40.020" style="s2">flutter is the framework Dart is the</p>
+<p begin="00:01:37.799" end="00:01:42.060" style="s2">programming language zart has a great</p>
+<p begin="00:01:40.020" end="00:01:44.100" style="s2">developer experience and is incredibly</p>
+<p begin="00:01:42.060" end="00:01:47.100" style="s2">easy to learn if you already know</p>
+<p begin="00:01:44.100" end="00:01:49.259" style="s2">JavaScript Java kotlin and even c-sharp</p>
+<p begin="00:01:47.100" end="00:01:50.579" style="s2">the cool thing about Dart and flutter is</p>
+<p begin="00:01:49.259" end="00:01:53.399" style="s2">that because they&#39;re both Google</p>
+<p begin="00:01:50.579" end="00:01:55.380" style="s2">products their teams can work very close</p>
+<p begin="00:01:53.399" end="00:01:57.240" style="s2">to each other this is great because that</p>
+<p begin="00:01:55.380" end="00:01:59.700" style="s2">means that when flutter needs a feature</p>
+<p begin="00:01:57.240" end="00:02:01.439" style="s2">and dart doesn&#39;t have that feature the</p>
+<p begin="00:01:59.700" end="00:02:04.079" style="s2">Dark theme can just build it for them</p>
+<p begin="00:02:01.439" end="00:02:06.600" style="s2">for for example initially Dart did not</p>
+<p begin="00:02:04.079" end="00:02:08.880" style="s2">have ahead of time compilation but now</p>
+<p begin="00:02:06.600" end="00:02:11.160" style="s2">it does because flutter needed it to</p>
+<p begin="00:02:08.880" end="00:02:13.620" style="s2">produce faster apps other Frameworks</p>
+<p begin="00:02:11.160" end="00:02:15.239" style="s2">usually don&#39;t have this Advantage they</p>
+<p begin="00:02:13.620" end="00:02:16.739" style="s2">don&#39;t have this level of influence over</p>
+<p begin="00:02:15.239" end="00:02:19.260" style="s2">the language and the virtual machine</p>
+<p begin="00:02:16.739" end="00:02:21.120" style="s2">they use but Slaughter thus the</p>
+<p begin="00:02:19.260" end="00:02:23.400" style="s2">developer experience in flutter is also</p>
+<p begin="00:02:21.120" end="00:02:25.500" style="s2">something to highlight developer tools</p>
+<p begin="00:02:23.400" end="00:02:27.959" style="s2">of the framework are almost at the same</p>
+<p begin="00:02:25.500" end="00:02:30.720" style="s2">level with Native development on</p>
+<p begin="00:02:27.959" end="00:02:32.819" style="s2">developer tools flutter blows react</p>
+<p begin="00:02:30.720" end="00:02:34.800" style="s2">native out of the water on the</p>
+<p begin="00:02:32.819" end="00:02:38.040" style="s2">commercial side many big companies are</p>
+<p begin="00:02:34.800" end="00:02:41.780" style="s2">betting heavily on flutter from BMW to</p>
+<p begin="00:02:38.040" end="00:02:45.239" style="s2">byte dance tencent eBay new bank Toyota</p>
+<p begin="00:02:41.780" end="00:02:47.519" style="s2">and even Google themselves they</p>
+<p begin="00:02:45.239" end="00:02:50.340" style="s2">literally rewrote the Google pay app</p>
+<p begin="00:02:47.519" end="00:02:53.580" style="s2">used by millions of users from scratch</p>
+<p begin="00:02:50.340" end="00:02:57.599" style="s2">with flutter the new app has 35 percent</p>
+<p begin="00:02:53.580" end="00:03:01.200" style="s2">less lines of code down to 1.1 million</p>
+<p begin="00:02:57.599" end="00:03:03.120" style="s2">from 1.7 million and they estimate that</p>
+<p begin="00:03:01.200" end="00:03:05.760" style="s2">they have saved between 60 and 70</p>
+<p begin="00:03:03.120" end="00:03:07.680" style="s2">percent of the engineers time this shows</p>
+<p begin="00:03:05.760" end="00:03:10.140" style="s2">you the commitment and trust that Google</p>
+<p begin="00:03:07.680" end="00:03:12.120" style="s2">has on the framework and it eases the</p>
+<p begin="00:03:10.140" end="00:03:14.040" style="s2">fears of lots of people including me</p>
+<p begin="00:03:12.120" end="00:03:16.200" style="s2">that thought maybe Google was going to</p>
+<p begin="00:03:14.040" end="00:03:18.060" style="s2">kill Slaughter the way it kills many of</p>
+<p begin="00:03:16.200" end="00:03:19.260" style="s2">its products because I know I make it</p>
+<p begin="00:03:18.060" end="00:03:20.940" style="s2">sound like Florida is the perfect</p>
+<p begin="00:03:19.260" end="00:03:22.920" style="s2">framework let&#39;s now talk about the</p>
+<p begin="00:03:20.940" end="00:03:25.560" style="s2">issues it has because if something is</p>
+<p begin="00:03:22.920" end="00:03:27.180" style="s2">too good to be true it probably is at</p>
+<p begin="00:03:25.560" end="00:03:29.040" style="s2">the end of the day flutter is a</p>
+<p begin="00:03:27.180" end="00:03:30.900" style="s2">cross-platform framework and just like</p>
+<p begin="00:03:29.040" end="00:03:32.700" style="s2">with the other cross-platform Frameworks</p>
+<p begin="00:03:30.900" end="00:03:34.620" style="s2">you won&#39;t have the same level of control</p>
+<p begin="00:03:32.700" end="00:03:37.019" style="s2">that you would have if you were building</p>
+<p begin="00:03:34.620" end="00:03:38.280" style="s2">a native app while building your app you</p>
+<p begin="00:03:37.019" end="00:03:40.379" style="s2">might find out that there are some</p>
+<p begin="00:03:38.280" end="00:03:42.959" style="s2">things the framework doesn&#39;t officially</p>
+<p begin="00:03:40.379" end="00:03:44.879" style="s2">support but from experience usually you</p>
+<p begin="00:03:42.959" end="00:03:47.159" style="s2">will be able to find a community made</p>
+<p begin="00:03:44.879" end="00:03:49.019" style="s2">plugin that does what you need this has</p>
+<p begin="00:03:47.159" end="00:03:50.879" style="s2">always been the case for me when working</p>
+<p begin="00:03:49.019" end="00:03:53.099" style="s2">with flutter because of how big and</p>
+<p begin="00:03:50.879" end="00:03:55.080" style="s2">active the community is but nevertheless</p>
+<p begin="00:03:53.099" end="00:03:57.540" style="s2">nothing compares to being able to use</p>
+<p begin="00:03:55.080" end="00:03:59.400" style="s2">the apis that the phone has directly</p>
+<p begin="00:03:57.540" end="00:04:01.379" style="s2">rather than trying to find Community</p>
+<p begin="00:03:59.400" end="00:04:03.360" style="s2">packages and hoping that they work and</p>
+<p begin="00:04:01.379" end="00:04:05.400" style="s2">that they are up to date The Wave</p>
+<p begin="00:04:03.360" end="00:04:08.040" style="s2">flutter works is by basically rendering</p>
+<p begin="00:04:05.400" end="00:04:10.560" style="s2">a canvas on the screen of the user and</p>
+<p begin="00:04:08.040" end="00:04:12.900" style="s2">painting the UI of the app using a</p>
+<p begin="00:04:10.560" end="00:04:15.360" style="s2">custom graphics engine which is what</p>
+<p begin="00:04:12.900" end="00:04:17.579" style="s2">makes flutter so cross-platform anywhere</p>
+<p begin="00:04:15.360" end="00:04:20.100" style="s2">it goes the framework paints a canvas</p>
+<p begin="00:04:17.579" end="00:04:22.019" style="s2">and builds its own UI but because of</p>
+<p begin="00:04:20.100" end="00:04:24.360" style="s2">these two things happen number one</p>
+<p begin="00:04:22.019" end="00:04:26.639" style="s2">flutter apps are a bit heavier than</p>
+<p begin="00:04:24.360" end="00:04:28.979" style="s2">normal apps because your app has to be</p>
+<p begin="00:04:26.639" end="00:04:31.620" style="s2">packaged and distributed with your code</p>
+<p begin="00:04:28.979" end="00:04:33.600" style="s2">plus the graphics engine code and number</p>
+<p begin="00:04:31.620" end="00:04:35.759" style="s2">two may or may not be a problem</p>
+<p begin="00:04:33.600" end="00:04:37.979" style="s2">depending on your goals if we take a</p>
+<p begin="00:04:35.759" end="00:04:40.440" style="s2">look at Apple music we can see that this</p>
+<p begin="00:04:37.979" end="00:04:42.720" style="s2">is an app that looks feels and smells</p>
+<p begin="00:04:40.440" end="00:04:45.660" style="s2">like apple it&#39;s using apple design</p>
+<p begin="00:04:42.720" end="00:04:48.780" style="s2">language buttons animations navigation</p>
+<p begin="00:04:45.660" end="00:04:51.660" style="s2">gestures Etc because as we said flutter</p>
+<p begin="00:04:48.780" end="00:04:54.960" style="s2">has its own Graphics engine flutter apps</p>
+<p begin="00:04:51.660" end="00:04:56.940" style="s2">can&#39;t use any of the host platforms UI</p>
+<p begin="00:04:54.960" end="00:04:58.979" style="s2">components you could recreate all the</p>
+<p begin="00:04:56.940" end="00:05:01.199" style="s2">Styles manually and try to make a button</p>
+<p begin="00:04:58.979" end="00:05:03.300" style="s2">that looks just like an iOS button or</p>
+<p begin="00:05:01.199" end="00:05:06.240" style="s2">you can use any of the pre-made</p>
+<p begin="00:05:03.300" end="00:05:08.100" style="s2">components that try to look like iOS but</p>
+<p begin="00:05:06.240" end="00:05:10.380" style="s2">they are not the real deal and it&#39;s easy</p>
+<p begin="00:05:08.100" end="00:05:12.780" style="s2">to notice so if you want to build apps</p>
+<p begin="00:05:10.380" end="00:05:15.419" style="s2">that look and feel native to the phone</p>
+<p begin="00:05:12.780" end="00:05:18.060" style="s2">and the host platform maybe flutter</p>
+<p begin="00:05:15.419" end="00:05:19.860" style="s2">isn&#39;t a good choice but this isn&#39;t a</p>
+<p begin="00:05:18.060" end="00:05:22.440" style="s2">problem and it&#39;s actually good news when</p>
+<p begin="00:05:19.860" end="00:05:24.300" style="s2">your app has a design language of its</p>
+<p begin="00:05:22.440" end="00:05:27.840" style="s2">own if we take a look at the Duolingo</p>
+<p begin="00:05:24.300" end="00:05:30.060" style="s2">for example or Tick Tock or grab or</p>
+<p begin="00:05:27.840" end="00:05:32.460" style="s2">waking up we can see that these apps are</p>
+<p begin="00:05:30.060" end="00:05:34.500" style="s2">apps that do not use the design language</p>
+<p begin="00:05:32.460" end="00:05:37.500" style="s2">of the platform they are in they have</p>
+<p begin="00:05:34.500" end="00:05:39.960" style="s2">custom made designs of their own and on</p>
+<p begin="00:05:37.500" end="00:05:42.300" style="s2">this floor excels with flutter you own</p>
+<p begin="00:05:39.960" end="00:05:44.160" style="s2">every pixel of the screen because you</p>
+<p begin="00:05:42.300" end="00:05:45.960" style="s2">are not bound to the constraints of the</p>
+<p begin="00:05:44.160" end="00:05:48.960" style="s2">platform you are in you can Implement</p>
+<p begin="00:05:45.960" end="00:05:50.940" style="s2">whatever crazy UI your designer made</p>
+<p begin="00:05:48.960" end="00:05:54.000" style="s2">like what you are looking at right now</p>
+<p begin="00:05:50.940" end="00:05:57.000" style="s2">that is an app built with flutter with a</p>
+<p begin="00:05:54.000" end="00:05:59.639" style="s2">very custom UI animations and gestures</p>
+<p begin="00:05:57.000" end="00:06:02.340" style="s2">created to showcase the new graphics</p>
+<p begin="00:05:59.639" end="00:06:04.560" style="s2">engine flutter is going to get so to</p>
+<p begin="00:06:02.340" end="00:06:06.060" style="s2">conclude the shortcomings of flutter are</p>
+<p begin="00:06:04.560" end="00:06:08.280" style="s2">the shortcomings of many other</p>
+<p begin="00:06:06.060" end="00:06:10.860" style="s2">cross-platform Frameworks that suffer</p>
+<p begin="00:06:08.280" end="00:06:13.380" style="s2">from a lack of official API support and</p>
+<p begin="00:06:10.860" end="00:06:15.900" style="s2">make us rely on not so stable community</p>
+<p begin="00:06:13.380" end="00:06:17.820" style="s2">plugin and also because of how flutter</p>
+<p begin="00:06:15.900" end="00:06:20.340" style="s2">is built our app won&#39;t be able to use</p>
+<p begin="00:06:17.820" end="00:06:22.380" style="s2">the UI components of the host platform</p>
+<p begin="00:06:20.340" end="00:06:24.479" style="s2">which depending on how you look at it it</p>
+<p begin="00:06:22.380" end="00:06:25.919" style="s2">might or may not be a good thing because</p>
+<p begin="00:06:24.479" end="00:06:28.740" style="s2">that gives us the chance to implement</p>
+<p begin="00:06:25.919" end="00:06:31.259" style="s2">our own custom UI at the end of the day</p>
+<p begin="00:06:28.740" end="00:06:33.840" style="s2">a cross platform app will always be a</p>
+<p begin="00:06:31.259" end="00:06:36.120" style="s2">guest on the phone and not a first class</p>
+<p begin="00:06:33.840" end="00:06:38.039" style="s2">citizen which may or may not be a deal</p>
+<p begin="00:06:36.120" end="00:06:40.199" style="s2">breaker for you depending on what your</p>
+<p begin="00:06:38.039" end="00:06:42.120" style="s2">app needs this is of course not a</p>
+<p begin="00:06:40.199" end="00:06:43.860" style="s2">complete list of the good and the bad of</p>
+<p begin="00:06:42.120" end="00:06:45.600" style="s2">the flutter framework and you should not</p>
+<p begin="00:06:43.860" end="00:06:47.699" style="s2">base your opinions on what people on the</p>
+<p begin="00:06:45.600" end="00:06:49.139" style="s2">internet say anyways before you read the</p>
+<p begin="00:06:47.699" end="00:06:51.479" style="s2">comments of people telling you how good</p>
+<p begin="00:06:49.139" end="00:06:53.880" style="s2">or bad flutter is just try it out and</p>
+<p begin="00:06:51.479" end="00:06:55.560" style="s2">evaluate it by yourself the framework is</p>
+<p begin="00:06:53.880" end="00:06:57.900" style="s2">so easy to learn the community and</p>
+<p begin="00:06:55.560" end="00:07:00.419" style="s2">documentation are so good that there</p>
+<p begin="00:06:57.900" end="00:07:01.560" style="s2">isn&#39;t a reason not to try it if you&#39;re</p>
+<p begin="00:07:00.419" end="00:07:03.780" style="s2">still watching and you want to learn</p>
+<p begin="00:07:01.560" end="00:07:06.240" style="s2">floater you need to avoid the mistake</p>
+<p begin="00:07:03.780" end="00:07:08.160" style="s2">many people including me make when</p>
+<p begin="00:07:06.240" end="00:07:10.440" style="s2">learning Slaughter and that is learning</p>
+<p begin="00:07:08.160" end="00:07:12.060" style="s2">flutter first because flutter sounds so</p>
+<p begin="00:07:10.440" end="00:07:13.919" style="s2">exciting people just go to the flutter</p>
+<p begin="00:07:12.060" end="00:07:15.780" style="s2">website or buy a flutter course and</p>
+<p begin="00:07:13.919" end="00:07:17.639" style="s2">start learning right away the problem</p>
+<p begin="00:07:15.780" end="00:07:20.340" style="s2">with doing that is that there&#39;s giving a</p>
+<p begin="00:07:17.639" end="00:07:22.620" style="s2">very important part and that is that</p>
+<p begin="00:07:20.340" end="00:07:24.599" style="s2">that is the language that powers flutter</p>
+<p begin="00:07:22.620" end="00:07:26.880" style="s2">and if you skip that completely and just</p>
+<p begin="00:07:24.599" end="00:07:28.500" style="s2">go and try to learn flutter you&#39;re still</p>
+<p begin="00:07:26.880" end="00:07:30.720" style="s2">going to learn Slaughter but your</p>
+<p begin="00:07:28.500" end="00:07:33.240" style="s2">progress will be very slow if you skip</p>
+<p begin="00:07:30.720" end="00:07:35.160" style="s2">Dart and jump straight into flutter when</p>
+<p begin="00:07:33.240" end="00:07:37.380" style="s2">you see flutter code for the first time</p>
+<p begin="00:07:35.160" end="00:07:40.020" style="s2">you won&#39;t know if this weird looking</p>
+<p begin="00:07:37.380" end="00:07:42.300" style="s2">code is weird because of the syntax of</p>
+<p begin="00:07:40.020" end="00:07:45.120" style="s2">dark or is it something related to</p>
+<p begin="00:07:42.300" end="00:07:46.740" style="s2">flutter itself I did this I jumped</p>
+<p begin="00:07:45.120" end="00:07:49.319" style="s2">straight to flutter without First</p>
+<p begin="00:07:46.740" end="00:07:51.240" style="s2">Learning at least the basics of dark and</p>
+<p begin="00:07:49.319" end="00:07:53.280" style="s2">because of this it took me a longer time</p>
+<p begin="00:07:51.240" end="00:07:55.800" style="s2">to be productive in floor than I would</p>
+<p begin="00:07:53.280" end="00:07:57.720" style="s2">like to admit this is why I created two</p>
+<p begin="00:07:55.800" end="00:08:00.240" style="s2">courses aimed at people that are</p>
+<p begin="00:07:57.720" end="00:08:03.599" style="s2">absolute flutter beginners the first</p>
+<p begin="00:08:00.240" end="00:08:05.460" style="s2">course is Dart 4 begins this is a free</p>
+<p begin="00:08:03.599" end="00:08:08.400" style="s2">2-hour course where we don&#39;t talk about</p>
+<p begin="00:08:05.460" end="00:08:09.840" style="s2">flutter we just write dark code we</p>
+<p begin="00:08:08.400" end="00:08:12.419" style="s2">learned the basics and we understand</p>
+<p begin="00:08:09.840" end="00:08:14.580" style="s2">what makes dark special and different</p>
+<p begin="00:08:12.419" end="00:08:16.259" style="s2">from other programming languages and we</p>
+<p begin="00:08:14.580" end="00:08:18.960" style="s2">learn the features of the language that</p>
+<p begin="00:08:16.259" end="00:08:20.520" style="s2">Slaughter uses the most it is not a full</p>
+<p begin="00:08:18.960" end="00:08:23.340" style="s2">guide into the dark language because</p>
+<p begin="00:08:20.520" end="00:08:26.039" style="s2">Dart is too big instead it is just a</p>
+<p begin="00:08:23.340" end="00:08:27.840" style="s2">guide that gives you exactly what you</p>
+<p begin="00:08:26.039" end="00:08:30.120" style="s2">need to feel comfortable when learning</p>
+<p begin="00:08:27.840" end="00:08:31.919" style="s2">flutter for the first time nothing else</p>
+<p begin="00:08:30.120" end="00:08:33.360" style="s2">and nothing more when you finish that</p>
+<p begin="00:08:31.919" end="00:08:35.880" style="s2">course you will be ready to jump into</p>
+<p begin="00:08:33.360" end="00:08:39.080" style="s2">the second course flutter for beginners</p>
+<p begin="00:08:35.880" end="00:08:42.000" style="s2">that is a free free free</p>
+<p begin="00:08:39.080" end="00:08:44.099" style="s2">seven hour course where you will go from</p>
+<p begin="00:08:42.000" end="00:08:46.320" style="s2">not knowing anything about flutter to</p>
+<p begin="00:08:44.099" end="00:08:49.080" style="s2">building three apps including a</p>
+<p begin="00:08:46.320" end="00:08:51.420" style="s2">productivity app and a webtoon discovery</p>
+<p begin="00:08:49.080" end="00:08:54.180" style="s2">app we will learn how to build uis with</p>
+<p begin="00:08:51.420" end="00:08:56.640" style="s2">flutter interactivity widgets life</p>
+<p begin="00:08:54.180" end="00:08:59.100" style="s2">cycles data fetching navigation and more</p>
+<p begin="00:08:56.640" end="00:09:01.200" style="s2">you can enroll to both courses right now</p>
+<p begin="00:08:59.100" end="00:09:05.300" style="s2">for free all you have to do is click the</p>
+<p begin="00:09:01.200" end="00:09:08.160" style="s2">link below that&#39;s it for this video</p>
+<p begin="00:09:05.300" end="00:09:11.720" style="s2">thank you for watching in 2022 I wish</p>
+<p begin="00:09:08.160" end="00:09:11.720" style="s2">you a normal Hamburg Khan</p>
+<p begin="00:09:12.920" end="00:09:17.300" style="s2">2023o see you on the next one bye</p>
+</div>
+</body>
+</tt>

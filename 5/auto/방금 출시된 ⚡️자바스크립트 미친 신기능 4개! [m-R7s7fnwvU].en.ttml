@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:03.280" end="00:00:07.839" style="s2">i want to share with you four of the</p>
+<p begin="00:00:05.440" end="00:00:11.120" style="s2">newest javascript features that were</p>
+<p begin="00:00:07.839" end="00:00:14.360" style="s2">just released this month these features</p>
+<p begin="00:00:11.120" end="00:00:17.199" style="s2">are from the ecmascript 2022 or</p>
+<p begin="00:00:14.360" end="00:00:20.000" style="s2">es2022 standard which is the latest</p>
+<p begin="00:00:17.199" end="00:00:22.960" style="s2">javascript specification released first</p>
+<p begin="00:00:20.000" end="00:00:25.439" style="s2">we have the top level await before if we</p>
+<p begin="00:00:22.960" end="00:00:28.720" style="s2">wanted to use a weight we had to do it</p>
+<p begin="00:00:25.439" end="00:00:32.160" style="s2">inside of an async function that was the</p>
+<p begin="00:00:28.720" end="00:00:34.399" style="s2">rule with es2022 that rule is gone and</p>
+<p begin="00:00:32.160" end="00:00:37.440" style="s2">now we can use a weight in our modules</p>
+<p begin="00:00:34.399" end="00:00:39.920" style="s2">without having to use async functions so</p>
+<p begin="00:00:37.440" end="00:00:42.399" style="s2">instead of doing something like this</p>
+<p begin="00:00:39.920" end="00:00:44.399" style="s2">we can now just do something like this</p>
+<p begin="00:00:42.399" end="00:00:47.440" style="s2">it looks so much better now</p>
+<p begin="00:00:44.399" end="00:00:49.280" style="s2">next we have error costs with error</p>
+<p begin="00:00:47.440" end="00:00:51.760" style="s2">costs we can create better error</p>
+<p begin="00:00:49.280" end="00:00:55.039" style="s2">messages by explaining what the cause of</p>
+<p begin="00:00:51.760" end="00:00:57.920" style="s2">the error was before when creating an</p>
+<p begin="00:00:55.039" end="00:01:00.480" style="s2">error all we could do was write an error</p>
+<p begin="00:00:57.920" end="00:01:03.039" style="s2">message but now we can explain what</p>
+<p begin="00:01:00.480" end="00:01:05.920" style="s2">caused the error by doing something like</p>
+<p begin="00:01:03.039" end="00:01:08.640" style="s2">this the error code allows us to specify</p>
+<p begin="00:01:05.920" end="00:01:10.720" style="s2">exactly what went wrong but it also</p>
+<p begin="00:01:08.640" end="00:01:14.000" style="s2">makes it possible to reuse the same</p>
+<p begin="00:01:10.720" end="00:01:16.880" style="s2">error message but specify a different</p>
+<p begin="00:01:14.000" end="00:01:19.360" style="s2">cost and to access the cost of the error</p>
+<p begin="00:01:16.880" end="00:01:22.000" style="s2">just like we do ever that message we can</p>
+<p begin="00:01:19.360" end="00:01:24.400" style="s2">now do error that cost</p>
+<p begin="00:01:22.000" end="00:01:27.600" style="s2">next we have that at</p>
+<p begin="00:01:24.400" end="00:01:30.320" style="s2">that ad allows us to access any index of</p>
+<p begin="00:01:27.600" end="00:01:32.240" style="s2">an array now i know we could do this</p>
+<p begin="00:01:30.320" end="00:01:34.479" style="s2">before all we had to do was use the</p>
+<p begin="00:01:32.240" end="00:01:37.119" style="s2">square brackets but the difference</p>
+<p begin="00:01:34.479" end="00:01:39.520" style="s2">between square brackets and that ad is</p>
+<p begin="00:01:37.119" end="00:01:43.200" style="s2">that with that ad we can also search</p>
+<p begin="00:01:39.520" end="00:01:45.920" style="s2">backwards i can use that ad with -1 and</p>
+<p begin="00:01:43.200" end="00:01:48.399" style="s2">that will give me the last item it will</p>
+<p begin="00:01:45.920" end="00:01:50.880" style="s2">search backwards from the end to the</p>
+<p begin="00:01:48.399" end="00:01:53.439" style="s2">start of the array to finish up we have</p>
+<p begin="00:01:50.880" end="00:01:55.439" style="s2">class fields which makes javascript</p>
+<p begin="00:01:53.439" end="00:01:57.240" style="s2">finally feel like a grown-up</p>
+<p begin="00:01:55.439" end="00:01:59.600" style="s2">professional language to do</p>
+<p begin="00:01:57.240" end="00:02:01.920" style="s2">object-oriented programming with now</p>
+<p begin="00:01:59.600" end="00:02:03.600" style="s2">classes in javascript can have private</p>
+<p begin="00:02:01.920" end="00:02:06.320" style="s2">methods and properties which was</p>
+<p begin="00:02:03.600" end="00:02:09.200" style="s2">something that wasn&#39;t possible before</p>
+<p begin="00:02:06.320" end="00:02:11.120" style="s2">they can also have static methods and we</p>
+<p begin="00:02:09.200" end="00:02:13.440" style="s2">don&#39;t have to use constructor to</p>
+<p begin="00:02:11.120" end="00:02:15.840" style="s2">initialize properties which again was</p>
+<p begin="00:02:13.440" end="00:02:17.360" style="s2">something that wasn&#39;t possible before</p>
+<p begin="00:02:15.840" end="00:02:20.640" style="s2">now let&#39;s take a look at these features</p>
+<p begin="00:02:17.360" end="00:02:22.800" style="s2">one by one to make a private method or</p>
+<p begin="00:02:20.640" end="00:02:26.000" style="s2">property all we have to do is put the</p>
+<p begin="00:02:22.800" end="00:02:28.319" style="s2">hashtag sign before their name here we</p>
+<p begin="00:02:26.000" end="00:02:30.959" style="s2">have a private method</p>
+<p begin="00:02:28.319" end="00:02:33.920" style="s2">now if we try to call it as you can see</p>
+<p begin="00:02:30.959" end="00:02:36.720" style="s2">it won&#39;t work because it&#39;s private it is</p>
+<p begin="00:02:33.920" end="00:02:39.599" style="s2">the same with properties here we are</p>
+<p begin="00:02:36.720" end="00:02:42.640" style="s2">creating a message class with a private</p>
+<p begin="00:02:39.599" end="00:02:46.319" style="s2">text property and as you can also see we</p>
+<p begin="00:02:42.640" end="00:02:48.800" style="s2">are not using constructor at all before</p>
+<p begin="00:02:46.319" end="00:02:51.519" style="s2">we could not have created a private</p>
+<p begin="00:02:48.800" end="00:02:54.720" style="s2">property and we would have had to use</p>
+<p begin="00:02:51.519" end="00:02:57.200" style="s2">constructor to initialize a property as</p>
+<p begin="00:02:54.720" end="00:02:58.239" style="s2">you can see now the code looks so much</p>
+<p begin="00:02:57.200" end="00:03:00.560" style="s2">better</p>
+<p begin="00:02:58.239" end="00:03:02.560" style="s2">finally we can also create static</p>
+<p begin="00:03:00.560" end="00:03:04.560" style="s2">methods before we would have to do</p>
+<p begin="00:03:02.560" end="00:03:07.360" style="s2">something like this</p>
+<p begin="00:03:04.560" end="00:03:10.000" style="s2">now all we have to do is this and if we</p>
+<p begin="00:03:07.360" end="00:03:12.280" style="s2">want to we can make it private as well</p>
+<p begin="00:03:10.000" end="00:03:14.800" style="s2">these are not all the features from the</p>
+<p begin="00:03:12.280" end="00:03:17.120" style="s2">es2022 specification but these are the</p>
+<p begin="00:03:14.800" end="00:03:18.319" style="s2">ones that i wanted to share with you if</p>
+<p begin="00:03:17.120" end="00:03:20.400" style="s2">you like this content and you want to</p>
+<p begin="00:03:18.319" end="00:03:22.000" style="s2">support the channel and myself please</p>
+<p begin="00:03:20.400" end="00:03:23.920" style="s2">leave a like and subscribe just two</p>
+<p begin="00:03:22.000" end="00:03:26.400" style="s2">clicks is free for you but it helps me a</p>
+<p begin="00:03:23.920" end="00:03:28.879" style="s2">lot and what it&#39;s also for free are our</p>
+<p begin="00:03:26.400" end="00:03:31.200" style="s2">javascript react react native typescript</p>
+<p begin="00:03:28.879" end="00:03:32.560" style="s2">and graphql courses among many many</p>
+<p begin="00:03:31.200" end="00:03:34.239" style="s2">others so please if you want to become a</p>
+<p begin="00:03:32.560" end="00:03:36.239" style="s2">developer and you want to do it for free</p>
+<p begin="00:03:34.239" end="00:03:38.400" style="s2">with me please click the link below and</p>
+<p begin="00:03:36.239" end="00:03:40.560" style="s2">i will see you there stay healthy stay</p>
+<p begin="00:03:38.400" end="00:03:44.760" style="s2">happy eat kimchi kamzamita salad hey yo</p>
+<p begin="00:03:40.560" end="00:03:44.760" style="s2">see you on the next one bye</p>
+</div>
+</body>
+</tt>

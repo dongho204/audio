@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.030" end="00:00:04.950" style="s2">hello everybody I&#39;m today in this video</p>
+<p begin="00:00:02.700" end="00:00:08.160" style="s2">I want to talk or not talk I&#39;m gonna</p>
+<p begin="00:00:04.950" end="00:00:09.780" style="s2">just give you my advice in the path that</p>
+<p begin="00:00:08.160" end="00:00:12.240" style="s2">you should follow when you&#39;re learning</p>
+<p begin="00:00:09.780" end="00:00:13.950" style="s2">to program and when you are learning to</p>
+<p begin="00:00:12.240" end="00:00:16.160" style="s2">become a front-end or a full-stack</p>
+<p begin="00:00:13.950" end="00:00:16.160" style="s2">developer</p>
+<p begin="00:00:19.990" end="00:00:23.800" style="s2">[Music]</p>
+<p begin="00:00:24.570" end="00:00:29.140" style="s2">if you are new to everything and you</p>
+<p begin="00:00:27.400" end="00:00:31.060" style="s2">want to make websites you wanna make you</p>
+<p begin="00:00:29.140" end="00:00:33.610" style="s2">wanna make your idea come true and you</p>
+<p begin="00:00:31.060" end="00:00:35.890" style="s2">want to be a freelancer or whatever the</p>
+<p begin="00:00:33.610" end="00:00:37.600" style="s2">first thing that you should start</p>
+<p begin="00:00:35.890" end="00:00:39.940" style="s2">programming learning sorry</p>
+<p begin="00:00:37.600" end="00:00:42.820" style="s2">it&#39;s a HTML and CSS that is like the</p>
+<p begin="00:00:39.940" end="00:00:46.809" style="s2">cornerstone of all the front-end and web</p>
+<p begin="00:00:42.820" end="00:00:48.940" style="s2">development that you want to do HTML CSS</p>
+<p begin="00:00:46.809" end="00:00:53.110" style="s2">is like the first thing that everybody</p>
+<p begin="00:00:48.940" end="00:00:57.430" style="s2">must learn because that teaches you a</p>
+<p begin="00:00:53.110" end="00:00:59.649" style="s2">little bit of text editors a little bit</p>
+<p begin="00:00:57.430" end="00:01:01.570" style="s2">of how the browser&#39;s work a little bit</p>
+<p begin="00:00:59.649" end="00:01:04.710" style="s2">or how the files work it is not</p>
+<p begin="00:01:01.570" end="00:01:05.920" style="s2">programming but still is a very good</p>
+<p begin="00:01:04.710" end="00:01:06.850" style="s2">start</p>
+<p begin="00:01:05.920" end="00:01:16.610" style="s2">right</p>
+<p begin="00:01:06.850" end="00:01:21.200" style="s2">[Music]</p>
+<p begin="00:01:16.610" end="00:01:24.290" style="s2">so after you touch html/css</p>
+<p begin="00:01:21.200" end="00:01:27.440" style="s2">then the next step is to learn a bit of</p>
+<p begin="00:01:24.290" end="00:01:29.870" style="s2">JavaScript and by a bit I don&#39;t mean by</p>
+<p begin="00:01:27.440" end="00:01:32.180" style="s2">a book of JavaScript or like get some</p>
+<p begin="00:01:29.870" end="00:01:35.180" style="s2">crazy course in JavaScript no just do</p>
+<p begin="00:01:32.180" end="00:01:38.030" style="s2">very small stuff on JavaScript stuff</p>
+<p begin="00:01:35.180" end="00:01:41.750" style="s2">that you can understand and don&#39;t learn</p>
+<p begin="00:01:38.030" end="00:01:43.220" style="s2">stuff that you don&#39;t need so when you</p>
+<p begin="00:01:41.750" end="00:01:44.810" style="s2">say learn JavaScript there is people</p>
+<p begin="00:01:43.220" end="00:01:47.990" style="s2">that learn JavaScript for the whole life</p>
+<p begin="00:01:44.810" end="00:01:49.580" style="s2">even mean I still don&#39;t know how to do</p>
+<p begin="00:01:47.990" end="00:01:52.040" style="s2">something I still discover something new</p>
+<p begin="00:01:49.580" end="00:01:53.810" style="s2">so it&#39;s really big to say you learn</p>
+<p begin="00:01:52.040" end="00:01:55.850" style="s2">JavaScript right well you should learn</p>
+<p begin="00:01:53.810" end="00:01:57.860" style="s2">what you should focus is learn vanilla</p>
+<p begin="00:01:55.850" end="00:02:01.430" style="s2">JavaScript vanilla JavaScript is the</p>
+<p begin="00:01:57.860" end="00:02:03.950" style="s2">term that we use for JavaScript without</p>
+<p begin="00:02:01.430" end="00:02:07.550" style="s2">any libraries javascript without any</p>
+<p begin="00:02:03.950" end="00:02:10.550" style="s2">makeup just ugly raw JavaScript all</p>
+<p begin="00:02:07.550" end="00:02:14.660" style="s2">right learn it on the way that you feel</p>
+<p begin="00:02:10.550" end="00:02:17.090" style="s2">constable modifying HTML with JavaScript</p>
+<p begin="00:02:14.660" end="00:02:19.250" style="s2">this means making HTML interactive we&#39;d</p>
+<p begin="00:02:17.090" end="00:02:21.670" style="s2">only directly we know help from a</p>
+<p begin="00:02:19.250" end="00:02:21.670" style="s2">library</p>
+<p begin="00:02:27.800" end="00:02:32.850" style="s2">this is my second point</p>
+<p begin="00:02:29.880" end="00:02:35.610" style="s2">you shouldn&#39;t learn libraries at the</p>
+<p begin="00:02:32.850" end="00:02:37.500" style="s2">beginning because what you learn is the</p>
+<p begin="00:02:35.610" end="00:02:38.160" style="s2">library but you don&#39;t understand how it</p>
+<p begin="00:02:37.500" end="00:02:42.060" style="s2">works</p>
+<p begin="00:02:38.160" end="00:02:44.510" style="s2">under it and what&#39;s happening behind the</p>
+<p begin="00:02:42.060" end="00:02:46.860" style="s2">curtain right so if you start learning</p>
+<p begin="00:02:44.510" end="00:02:48.600" style="s2">jQuery for example you&#39;re going to</p>
+<p begin="00:02:46.860" end="00:02:50.970" style="s2">understand how jQuery works you&#39;re going</p>
+<p begin="00:02:48.600" end="00:02:53.190" style="s2">to understand how to make a fading in</p>
+<p begin="00:02:50.970" end="00:02:55.140" style="s2">jQuery or something like that we&#39;re not</p>
+<p begin="00:02:53.190" end="00:02:57.780" style="s2">going to understand how does the fading</p>
+<p begin="00:02:55.140" end="00:02:58.890" style="s2">happen or what is this function doing</p>
+<p begin="00:02:57.780" end="00:03:01.050" style="s2">you don&#39;t know what the is a</p>
+<p begin="00:02:58.890" end="00:03:03.900" style="s2">function all you know is jQuery stuff</p>
+<p begin="00:03:01.050" end="00:03:06.140" style="s2">right so try to stay away from libraries</p>
+<p begin="00:03:03.900" end="00:03:08.130" style="s2">try to stay away from any kind of</p>
+<p begin="00:03:06.140" end="00:03:10.560" style="s2">framework and all that stuff</p>
+<p begin="00:03:08.130" end="00:03:12.510" style="s2">learn vanilla JavaScript first right and</p>
+<p begin="00:03:10.560" end="00:03:14.460" style="s2">I have three projects for you that will</p>
+<p begin="00:03:12.510" end="00:03:16.800" style="s2">show you that you know JavaScript pretty</p>
+<p begin="00:03:14.460" end="00:03:19.530" style="s2">well the phrasing will be make a</p>
+<p begin="00:03:16.800" end="00:03:22.130" style="s2">to-do list that is like the hello world</p>
+<p begin="00:03:19.530" end="00:03:25.380" style="s2">of JavaScript or I make a to-do list</p>
+<p begin="00:03:22.130" end="00:03:27.960" style="s2">that way the first thing okay that to-do</p>
+<p begin="00:03:25.380" end="00:03:30.780" style="s2">list and you good now bit next thing</p>
+<p begin="00:03:27.960" end="00:03:34.080" style="s2">that you could do is try to learn how to</p>
+<p begin="00:03:30.780" end="00:03:36.720" style="s2">make small as more interactions on your</p>
+<p begin="00:03:34.080" end="00:03:39.300" style="s2">website this means add some animations</p>
+<p begin="00:03:36.720" end="00:03:41.850" style="s2">when somebody clicks this means when</p>
+<p begin="00:03:39.300" end="00:03:44.010" style="s2">somebody Scrolls maybe show the header</p>
+<p begin="00:03:41.850" end="00:03:49.170" style="s2">of the website in a different way maybe</p>
+<p begin="00:03:44.010" end="00:03:51.960" style="s2">make a video player maybe somebody</p>
+<p begin="00:03:49.170" end="00:03:53.760" style="s2">stuff we can do maybe make a yeah just</p>
+<p begin="00:03:51.960" end="00:03:55.740" style="s2">interactions interactions interactions</p>
+<p begin="00:03:53.760" end="00:03:57.780" style="s2">on your website very small stuff all</p>
+<p begin="00:03:55.740" end="00:04:00.900" style="s2">right don&#39;t don&#39;t try to make a</p>
+<p begin="00:03:57.780" end="00:04:02.580" style="s2">nano Facebook which makes something</p>
+<p begin="00:04:00.900" end="00:04:04.260" style="s2">small just I click this button and you</p>
+<p begin="00:04:02.580" end="00:04:06.810" style="s2">show me a small pop-up small</p>
+<p begin="00:04:04.260" end="00:04:09.300" style="s2">notifications place a small chat window</p>
+<p begin="00:04:06.810" end="00:04:10.890" style="s2">some stuff like that that would be very</p>
+<p begin="00:04:09.300" end="00:04:12.900" style="s2">very small and it will be very very</p>
+<p begin="00:04:10.890" end="00:04:15.150" style="s2">simple for you to learn and also that</p>
+<p begin="00:04:12.900" end="00:04:16.670" style="s2">you will actually see on the screen</p>
+<p begin="00:04:15.150" end="00:04:19.260" style="s2">while you&#39;re learning all right never</p>
+<p begin="00:04:16.670" end="00:04:22.490" style="s2">never study something that you&#39;re not</p>
+<p begin="00:04:19.260" end="00:04:35.870" style="s2">going to use that is my advice to you</p>
+<p begin="00:04:22.490" end="00:04:38.240" style="s2">I always do a small stuff when you do</p>
+<p begin="00:04:35.870" end="00:04:42.400" style="s2">small stuff and you feel comfortable</p>
+<p begin="00:04:38.240" end="00:04:44.900" style="s2">without script then you can move on to</p>
+<p begin="00:04:42.400" end="00:04:47.150" style="s2">becoming a little bit more comfortable</p>
+<p begin="00:04:44.900" end="00:04:49.039" style="s2">but now with more complication a script</p>
+<p begin="00:04:47.150" end="00:04:52.340" style="s2">and you can open the door through small</p>
+<p begin="00:04:49.039" end="00:04:54.530" style="s2">libraries such as you can test a little</p>
+<p begin="00:04:52.340" end="00:04:57.349" style="s2">bit of jQuery you can test a little bit</p>
+<p begin="00:04:54.530" end="00:04:59.449" style="s2">of react and you can understand why</p>
+<p begin="00:04:57.349" end="00:05:01.669" style="s2">people use them and maybe when you are</p>
+<p begin="00:04:59.449" end="00:05:04.159" style="s2">doing for example the to-do list on</p>
+<p begin="00:05:01.669" end="00:05:07.729" style="s2">vanilla JavaScript but you realize like</p>
+<p begin="00:05:04.159" end="00:05:10.909" style="s2">hey this is no some part is complicated</p>
+<p begin="00:05:07.729" end="00:05:12.800" style="s2">this parts is repetitive maybe this is a</p>
+<p begin="00:05:10.909" end="00:05:14.599" style="s2">pain point and maybe later when you go</p>
+<p begin="00:05:12.800" end="00:05:17.120" style="s2">to react you&#39;re going to see how react</p>
+<p begin="00:05:14.599" end="00:05:20.419" style="s2">solves that pain point and this is going</p>
+<p begin="00:05:17.120" end="00:05:23.270" style="s2">to make you understand why people like</p>
+<p begin="00:05:20.419" end="00:05:24.740" style="s2">react because you suffered what</p>
+<p begin="00:05:23.270" end="00:05:26.690" style="s2">everybody suffered with vanilla</p>
+<p begin="00:05:24.740" end="00:05:29.570" style="s2">JavaScript and now you understand what</p>
+<p begin="00:05:26.690" end="00:05:31.490" style="s2">we act can do for you and this is when</p>
+<p begin="00:05:29.570" end="00:05:33.050" style="s2">it&#39;s good you don&#39;t do react because I</p>
+<p begin="00:05:31.490" end="00:05:34.849" style="s2">tell you to or because it&#39;s trendy is</p>
+<p begin="00:05:33.050" end="00:05:36.620" style="s2">because you actually understand the pain</p>
+<p begin="00:05:34.849" end="00:05:38.509" style="s2">points of making a JavaScript</p>
+<p begin="00:05:36.620" end="00:05:41.080" style="s2">application without a framework for</p>
+<p begin="00:05:38.509" end="00:05:41.080" style="s2">example</p>
+<p begin="00:05:46.330" end="00:05:50.630" style="s2">so now that you understand frameworks</p>
+<p begin="00:05:48.620" end="00:05:52.400" style="s2">it&#39;s time for you to do a little bit of</p>
+<p begin="00:05:50.630" end="00:05:53.960" style="s2">back end because you even if you don&#39;t</p>
+<p begin="00:05:52.400" end="00:05:56.000" style="s2">want to do it forever you need to</p>
+<p begin="00:05:53.960" end="00:05:57.950" style="s2">understand how backing works right so</p>
+<p begin="00:05:56.000" end="00:05:59.090" style="s2">now that you&#39;ve been learning JavaScript</p>
+<p begin="00:05:57.950" end="00:06:00.530" style="s2">and now that you know a little bit of</p>
+<p begin="00:05:59.090" end="00:06:02.840" style="s2">libraries and you&#39;re comfortable with</p>
+<p begin="00:06:00.530" end="00:06:05.750" style="s2">the console and everything starting to</p>
+<p begin="00:06:02.840" end="00:06:08.450" style="s2">look into nowadays look into Express and</p>
+<p begin="00:06:05.750" end="00:06:10.190" style="s2">look into how to make a small server to</p>
+<p begin="00:06:08.450" end="00:06:12.230" style="s2">show your website this is all very</p>
+<p begin="00:06:10.190" end="00:06:14.900" style="s2">simple stuff all right but it&#39;s gonna</p>
+<p begin="00:06:12.230" end="00:06:16.700" style="s2">give you a very good view and what you</p>
+<p begin="00:06:14.900" end="00:06:18.440" style="s2">can do with JavaScript and what you can</p>
+<p begin="00:06:16.700" end="00:06:21.530" style="s2">do with the front end and with the back</p>
+<p begin="00:06:18.440" end="00:06:23.690" style="s2">end and after you do all this so for</p>
+<p begin="00:06:21.530" end="00:06:26.300" style="s2">this HTML CSS then vanilla JavaScript</p>
+<p begin="00:06:23.690" end="00:06:28.220" style="s2">then one library then back end with</p>
+<p begin="00:06:26.300" end="00:06:30.440" style="s2">node.js and Express for example there&#39;s</p>
+<p begin="00:06:28.220" end="00:06:33.290" style="s2">a lot of tutorials and it&#39;s a very solid</p>
+<p begin="00:06:30.440" end="00:06:36.740" style="s2">project after you&#39;re done with all these</p>
+<p begin="00:06:33.290" end="00:06:37.490" style="s2">things then ask yourself do I like</p>
+<p begin="00:06:36.740" end="00:06:40.610" style="s2">JavaScript</p>
+<p begin="00:06:37.490" end="00:06:43.160" style="s2">do I like react do I like node.js</p>
+<p begin="00:06:40.610" end="00:06:45.980" style="s2">if the answer is no at least you already</p>
+<p begin="00:06:43.160" end="00:06:48.530" style="s2">have this framework of how to learn</p>
+<p begin="00:06:45.980" end="00:06:49.970" style="s2">something and you understand what is</p>
+<p begin="00:06:48.530" end="00:06:51.980" style="s2">required on the back end what is</p>
+<p begin="00:06:49.970" end="00:06:53.030" style="s2">required on the front end and then you</p>
+<p begin="00:06:51.980" end="00:06:54.770" style="s2">can say you know what I don&#39;t like</p>
+<p begin="00:06:53.030" end="00:06:56.870" style="s2">node.js I hate your script I&#39;m gonna</p>
+<p begin="00:06:54.770" end="00:06:58.669" style="s2">learn Python but now at least you</p>
+<p begin="00:06:56.870" end="00:07:00.200" style="s2">understand how you can make a website on</p>
+<p begin="00:06:58.669" end="00:07:02.720" style="s2">the front end and you can put back a</p>
+<p begin="00:07:00.200" end="00:07:04.700" style="s2">Python on the back end all right</p>
+<p begin="00:07:02.720" end="00:07:07.010" style="s2">don&#39;t learn Python just we could learn</p>
+<p begin="00:07:04.700" end="00:07:07.520" style="s2">Python out of a necessity don&#39;t learn</p>
+<p begin="00:07:07.010" end="00:07:10.250" style="s2">react</p>
+<p begin="00:07:07.520" end="00:07:12.770" style="s2">just because learn react out of a pain</p>
+<p begin="00:07:10.250" end="00:07:14.210" style="s2">point that you have before and now</p>
+<p begin="00:07:12.770" end="00:07:15.680" style="s2">you&#39;re solving all right so when</p>
+<p begin="00:07:14.210" end="00:07:18.190" style="s2">JavaScript becomes a pain in the ass for</p>
+<p begin="00:07:15.680" end="00:07:21.710" style="s2">you then you learn Python for example</p>
+<p begin="00:07:18.190" end="00:07:23.270" style="s2">when vanilla JavaScript becomes a</p>
+<p begin="00:07:21.710" end="00:07:25.220" style="s2">praying they ask for you then you learn</p>
+<p begin="00:07:23.270" end="00:07:28.070" style="s2">react this is the approach that I will</p>
+<p begin="00:07:25.220" end="00:07:31.010" style="s2">suggest you to do don&#39;t in my opinion</p>
+<p begin="00:07:28.070" end="00:07:33.260" style="s2">don&#39;t waste a time focusing too much on</p>
+<p begin="00:07:31.010" end="00:07:36.020" style="s2">databases focusing too much in Linux</p>
+<p begin="00:07:33.260" end="00:07:38.780" style="s2">focusing too much in consoles focusing</p>
+<p begin="00:07:36.020" end="00:07:40.400" style="s2">too much on speed and all that stuff</p>
+<p begin="00:07:38.780" end="00:07:42.410" style="s2">don&#39;t waste time on this this can come</p>
+<p begin="00:07:40.400" end="00:07:44.810" style="s2">later but first just get up quick</p>
+<p begin="00:07:42.410" end="00:07:48.620" style="s2">landscape what you can do and do stuff</p>
+<p begin="00:07:44.810" end="00:07:50.570" style="s2">so that would be my roadmap for</p>
+<p begin="00:07:48.620" end="00:07:51.919" style="s2">JavaScript and for front-end and</p>
+<p begin="00:07:50.570" end="00:07:53.930" style="s2">back-end development if you wanna become</p>
+<p begin="00:07:51.919" end="00:07:56.210" style="s2">a full spec go ahead I think is more fun</p>
+<p begin="00:07:53.930" end="00:07:58.580" style="s2">but that&#39;ll be my advice let me know if</p>
+<p begin="00:07:56.210" end="00:08:00.740" style="s2">you agree or if you don&#39;t agree and let</p>
+<p begin="00:07:58.580" end="00:08:03.720" style="s2">me know what you think on the comments</p>
+<p begin="00:08:00.740" end="00:08:14.769" style="s2">thank you for watching and bye bye</p>
+<p begin="00:08:03.720" end="00:08:14.769" style="s2">[Music]</p>
+</div>
+</body>
+</tt>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:01.700" end="00:00:07.080" style="s2">and today we are going to dive into the</p>
+<p begin="00:00:04.380" end="00:00:09.540" style="s2">world of building web browser extensions</p>
+<p begin="00:00:07.080" end="00:00:12.000" style="s2">making extensions is not only incredibly</p>
+<p begin="00:00:09.540" end="00:00:14.280" style="s2">fun but super easy to do you can make</p>
+<p begin="00:00:12.000" end="00:00:16.619" style="s2">browser extensions as a side projects</p>
+<p begin="00:00:14.280" end="00:00:18.600" style="s2">just for fun to build something useful</p>
+<p begin="00:00:16.619" end="00:00:21.359" style="s2">for you and your friends or you can even</p>
+<p begin="00:00:18.600" end="00:00:23.699" style="s2">build whole businesses around them like</p>
+<p begin="00:00:21.359" end="00:00:26.279" style="s2">many companies have done by using the</p>
+<p begin="00:00:23.699" end="00:00:29.220" style="s2">browser as a distribution Channel you</p>
+<p begin="00:00:26.279" end="00:00:31.679" style="s2">can reach millions of users worldwide</p>
+<p begin="00:00:29.220" end="00:00:34.140" style="s2">and make an impact on how they interact</p>
+<p begin="00:00:31.679" end="00:00:36.300" style="s2">with the web extensions are also super</p>
+<p begin="00:00:34.140" end="00:00:38.640" style="s2">easy to install which means a higher</p>
+<p begin="00:00:36.300" end="00:00:41.399" style="s2">adoption rate and they also offer an</p>
+<p begin="00:00:38.640" end="00:00:43.440" style="s2">incredible level of integration they</p>
+<p begin="00:00:41.399" end="00:00:46.079" style="s2">allow you to enhance and modify your</p>
+<p begin="00:00:43.440" end="00:00:48.719" style="s2">users browsing experience with features</p>
+<p begin="00:00:46.079" end="00:00:50.579" style="s2">that work seamlessly with the websites</p>
+<p begin="00:00:48.719" end="00:00:52.860" style="s2">they visit there are two kinds of</p>
+<p begin="00:00:50.579" end="00:00:55.680" style="s2">extensions we can make pop-up extensions</p>
+<p begin="00:00:52.860" end="00:00:57.780" style="s2">and code injecting extensions pop-up</p>
+<p begin="00:00:55.680" end="00:00:59.940" style="s2">extensions are designed to display a</p>
+<p begin="00:00:57.780" end="00:01:01.920" style="s2">small user interface that appears when</p>
+<p begin="00:00:59.940" end="00:01:04.440" style="s2">and the user clicks on the extensions</p>
+<p begin="00:01:01.920" end="00:01:07.080" style="s2">icon on the browser&#39;s toolbar these</p>
+<p begin="00:01:04.440" end="00:01:09.720" style="s2">pop-ups contain a Mini web page built</p>
+<p begin="00:01:07.080" end="00:01:11.760" style="s2">with HTML CSS and JavaScript they are</p>
+<p begin="00:01:09.720" end="00:01:13.820" style="s2">perfect for providing quick access to</p>
+<p begin="00:01:11.760" end="00:01:17.159" style="s2">specific functionality or information</p>
+<p begin="00:01:13.820" end="00:01:19.439" style="s2">without requiring users to navigate away</p>
+<p begin="00:01:17.159" end="00:01:22.380" style="s2">from the current page on this category</p>
+<p begin="00:01:19.439" end="00:01:24.240" style="s2">we have extensions like pocket an</p>
+<p begin="00:01:22.380" end="00:01:26.939" style="s2">extension that lets you save articles</p>
+<p begin="00:01:24.240" end="00:01:30.060" style="s2">videos and other content to read or</p>
+<p begin="00:01:26.939" end="00:01:31.740" style="s2">watch later even offline to do is an</p>
+<p begin="00:01:30.060" end="00:01:34.439" style="s2">extension that helps you manage your</p>
+<p begin="00:01:31.740" end="00:01:36.720" style="s2">to-do list and track your progress and</p>
+<p begin="00:01:34.439" end="00:01:38.759" style="s2">Forest an extension that helps you stay</p>
+<p begin="00:01:36.720" end="00:01:40.560" style="s2">focused and increase productivity by</p>
+<p begin="00:01:38.759" end="00:01:42.600" style="s2">using the popular technique of planting</p>
+<p begin="00:01:40.560" end="00:01:45.119" style="s2">virtual trees and avoiding distraction</p>
+<p begin="00:01:42.600" end="00:01:47.579" style="s2">code injecting extensions are where I</p>
+<p begin="00:01:45.119" end="00:01:50.159" style="s2">think things get more exciting for us</p>
+<p begin="00:01:47.579" end="00:01:52.140" style="s2">developers as they can unleash our</p>
+<p begin="00:01:50.159" end="00:01:55.020" style="s2">creativity code injecting extensions</p>
+<p begin="00:01:52.140" end="00:01:58.680" style="s2">modify the content or behavior of a web</p>
+<p begin="00:01:55.020" end="00:02:01.140" style="s2">page by injecting JavaScript CSS or HTML</p>
+<p begin="00:01:58.680" end="00:02:03.000" style="s2">into the page the this allows developers</p>
+<p begin="00:02:01.140" end="00:02:05.219" style="s2">to customize and enhance the</p>
+<p begin="00:02:03.000" end="00:02:07.079" style="s2">functionality of websites beyond what</p>
+<p begin="00:02:05.219" end="00:02:09.239" style="s2">the maker of the website originally</p>
+<p begin="00:02:07.079" end="00:02:11.280" style="s2">planned it opens up a world of</p>
+<p begin="00:02:09.239" end="00:02:13.739" style="s2">possibilities on creating powerful and</p>
+<p begin="00:02:11.280" end="00:02:16.020" style="s2">unique experiences with code injecting</p>
+<p begin="00:02:13.739" end="00:02:18.599" style="s2">extensions developers can dynamically</p>
+<p begin="00:02:16.020" end="00:02:20.819" style="s2">modify the page content add new features</p>
+<p begin="00:02:18.599" end="00:02:23.340" style="s2">and functionality and even integrate</p>
+<p begin="00:02:20.819" end="00:02:26.459" style="s2">with external apis on this category we</p>
+<p begin="00:02:23.340" end="00:02:28.080" style="s2">have extensions like unlock plus an</p>
+<p begin="00:02:26.459" end="00:02:30.720" style="s2">extension that prevents advertisement</p>
+<p begin="00:02:28.080" end="00:02:32.940" style="s2">from appearing on websites interestingly</p>
+<p begin="00:02:30.720" end="00:02:35.700" style="s2">the company responsible for developing</p>
+<p begin="00:02:32.940" end="00:02:39.480" style="s2">this extension reportedly earned more</p>
+<p begin="00:02:35.700" end="00:02:41.640" style="s2">than 55 million euros last year a dark</p>
+<p begin="00:02:39.480" end="00:02:44.580" style="s2">reader an extension that allows users to</p>
+<p begin="00:02:41.640" end="00:02:47.700" style="s2">inject custom CSS to enable dark mode on</p>
+<p begin="00:02:44.580" end="00:02:49.680" style="s2">web pages refined GitHub an extension</p>
+<p begin="00:02:47.700" end="00:02:51.840" style="s2">that enhances the GitHub interface with</p>
+<p begin="00:02:49.680" end="00:02:54.120" style="s2">added features improvements and time</p>
+<p begin="00:02:51.840" end="00:02:57.000" style="s2">saving shortcuts for a better user</p>
+<p begin="00:02:54.120" end="00:02:59.280" style="s2">experience what font an easy to use</p>
+<p begin="00:02:57.000" end="00:03:01.379" style="s2">extension that identifies fonts used on</p>
+<p begin="00:02:59.280" end="00:03:03.540" style="s2">any web page giving designers and</p>
+<p begin="00:03:01.379" end="00:03:06.480" style="s2">typography enthusiasts quick access to</p>
+<p begin="00:03:03.540" end="00:03:08.519" style="s2">font information honey a shopping</p>
+<p begin="00:03:06.480" end="00:03:11.220" style="s2">extension that automatically applies</p>
+<p begin="00:03:08.519" end="00:03:13.680" style="s2">coupon codes to your online purchases</p>
+<p begin="00:03:11.220" end="00:03:16.080" style="s2">saving you money grammarly a popular</p>
+<p begin="00:03:13.680" end="00:03:17.700" style="s2">extension that checks your writing for</p>
+<p begin="00:03:16.080" end="00:03:20.700" style="s2">spelling and grammatical errors</p>
+<p begin="00:03:17.700" end="00:03:23.879" style="s2">suggesting corrections as you type and</p>
+<p begin="00:03:20.700" end="00:03:26.040" style="s2">my favorite one language reactor this</p>
+<p begin="00:03:23.879" end="00:03:28.140" style="s2">extension completely modified the way</p>
+<p begin="00:03:26.040" end="00:03:30.659" style="s2">the Netflix player looks like for people</p>
+<p begin="00:03:28.140" end="00:03:33.300" style="s2">that are learning a second language it</p>
+<p begin="00:03:30.659" end="00:03:36.000" style="s2">transforms the Netflix player by adding</p>
+<p begin="00:03:33.300" end="00:03:38.940" style="s2">features like dual subtitles interactive</p>
+<p begin="00:03:36.000" end="00:03:41.400" style="s2">transcripts and build in dictionary it</p>
+<p begin="00:03:38.940" end="00:03:43.739" style="s2">also allows you to create an account to</p>
+<p begin="00:03:41.400" end="00:03:46.019" style="s2">save words and set your vocabulary level</p>
+<p begin="00:03:43.739" end="00:03:48.360" style="s2">as well to show you how easy and good it</p>
+<p begin="00:03:46.019" end="00:03:50.099" style="s2">is to make browser extensions on this</p>
+<p begin="00:03:48.360" end="00:03:52.860" style="s2">video we are going to make an extension</p>
+<p begin="00:03:50.099" end="00:03:55.019" style="s2">that I named katify this extension is</p>
+<p begin="00:03:52.860" end="00:03:57.060" style="s2">going to be both a pop-up extension and</p>
+<p begin="00:03:55.019" end="00:03:59.459" style="s2">a code injecting extension here is how</p>
+<p begin="00:03:57.060" end="00:04:01.560" style="s2">katify works first it will show you some</p>
+<p begin="00:03:59.459" end="00:04:03.959" style="s2">cat food photos and when we choose a</p>
+<p begin="00:04:01.560" end="00:04:06.599" style="s2">photo the extension will set that photo</p>
+<p begin="00:04:03.959" end="00:04:09.000" style="s2">as the background for every website we</p>
+<p begin="00:04:06.599" end="00:04:10.739" style="s2">visit let&#39;s get started by going to an</p>
+<p begin="00:04:09.000" end="00:04:12.840" style="s2">empty folder and creating the most</p>
+<p begin="00:04:10.739" end="00:04:13.640" style="s2">important file that an extension will</p>
+<p begin="00:04:12.840" end="00:04:15.780" style="s2">have</p>
+<p begin="00:04:13.640" end="00:04:17.459" style="s2">manifest.json this file will tell</p>
+<p begin="00:04:15.780" end="00:04:19.680" style="s2">browsers while your extension is about</p>
+<p begin="00:04:17.459" end="00:04:22.019" style="s2">it will ask for permissions it will</p>
+<p begin="00:04:19.680" end="00:04:23.699" style="s2">register the code to be injected and it</p>
+<p begin="00:04:22.019" end="00:04:25.340" style="s2">will register the pop-up to be opened</p>
+<p begin="00:04:23.699" end="00:04:27.419" style="s2">when the user clicks on our</p>
+<p begin="00:04:25.340" end="00:04:29.280" style="s2">manifest.json we are going to write the</p>
+<p begin="00:04:27.419" end="00:04:31.919" style="s2">name of the extension the description</p>
+<p begin="00:04:29.280" end="00:04:36.000" style="s2">and the version as well as the paths to</p>
+<p begin="00:04:31.919" end="00:04:40.800" style="s2">the icons of the extension on 16 32 48</p>
+<p begin="00:04:36.000" end="00:04:42.360" style="s2">and 128 pixel sizes this is the icon of</p>
+<p begin="00:04:40.800" end="00:04:45.300" style="s2">the extension that I created before</p>
+<p begin="00:04:42.360" end="00:04:47.160" style="s2">using mid journey to test the extension</p>
+<p begin="00:04:45.300" end="00:04:49.500" style="s2">in Chrome we are going to go to the</p>
+<p begin="00:04:47.160" end="00:04:52.080" style="s2">Chrome menu then select more tools and</p>
+<p begin="00:04:49.500" end="00:04:54.240" style="s2">click on extensions next we will enable</p>
+<p begin="00:04:52.080" end="00:04:56.280" style="s2">developer mode and click on load</p>
+<p begin="00:04:54.240" end="00:04:58.080" style="s2">unpacked extension finally we will</p>
+<p begin="00:04:56.280" end="00:05:00.540" style="s2">navigate to the folder containing the</p>
+<p begin="00:04:58.080" end="00:05:02.479" style="s2">extension files and select the folder to</p>
+<p begin="00:05:00.540" end="00:05:05.520" style="s2">load it into Chrome as you can see the</p>
+<p begin="00:05:02.479" end="00:05:07.680" style="s2">manifest.json file is being read showing</p>
+<p begin="00:05:05.520" end="00:05:10.080" style="s2">us the name description and icon of the</p>
+<p begin="00:05:07.680" end="00:05:12.840" style="s2">extension next to the other extensions</p>
+<p begin="00:05:10.080" end="00:05:14.940" style="s2">we installed before so far our extension</p>
+<p begin="00:05:12.840" end="00:05:16.620" style="s2">does not do anything to change that</p>
+<p begin="00:05:14.940" end="00:05:18.960" style="s2">we&#39;re first going to build the pop-up</p>
+<p begin="00:05:16.620" end="00:05:21.419" style="s2">that will show up when the user clicks</p>
+<p begin="00:05:18.960" end="00:05:24.180" style="s2">the extension icon next to the URL bar</p>
+<p begin="00:05:21.419" end="00:05:26.759" style="s2">we&#39;re going to expand our manifest.json</p>
+<p begin="00:05:24.180" end="00:05:28.500" style="s2">to include this code here we are telling</p>
+<p begin="00:05:26.759" end="00:05:30.780" style="s2">the browser that our extension has an</p>
+<p begin="00:05:28.500" end="00:05:33.660" style="s2">action when clicked we tell the browser</p>
+<p begin="00:05:30.780" end="00:05:36.380" style="s2">what icon and title to show and we also</p>
+<p begin="00:05:33.660" end="00:05:38.940" style="s2">provide the path to a file called</p>
+<p begin="00:05:36.380" end="00:05:42.060" style="s2">popup.html that will be inside of a</p>
+<p begin="00:05:38.940" end="00:05:45.120" style="s2">pop-up folder that HTML file will have</p>
+<p begin="00:05:42.060" end="00:05:47.400" style="s2">an H1 and many images along with a bit</p>
+<p begin="00:05:45.120" end="00:05:49.800" style="s2">of CSS that you don&#39;t need to see for</p>
+<p begin="00:05:47.400" end="00:05:51.780" style="s2">now after we save that file and reload</p>
+<p begin="00:05:49.800" end="00:05:53.580" style="s2">the extension we will be able to see the</p>
+<p begin="00:05:51.780" end="00:05:55.680" style="s2">icon and name of the extension on the</p>
+<p begin="00:05:53.580" end="00:05:57.900" style="s2">Chrome toolbar indicating that our</p>
+<p begin="00:05:55.680" end="00:06:00.419" style="s2">extension is active and ready for use</p>
+<p begin="00:05:57.900" end="00:06:03.180" style="s2">when we click on the icon the pop up</p>
+<p begin="00:06:00.419" end="00:06:05.580" style="s2">that we just created will be displayed</p>
+<p begin="00:06:03.180" end="00:06:08.039" style="s2">as you can see we can click on the cats</p>
+<p begin="00:06:05.580" end="00:06:10.139" style="s2">but when we do nothing happens to change</p>
+<p begin="00:06:08.039" end="00:06:12.680" style="s2">that we are going to import a script</p>
+<p begin="00:06:10.139" end="00:06:16.740" style="s2">called popup.js from our</p>
+<p begin="00:06:12.680" end="00:06:19.139" style="s2">pop-up.html our pop-up.js will know when</p>
+<p begin="00:06:16.740" end="00:06:21.060" style="s2">an image of a cat is clicked and when it</p>
+<p begin="00:06:19.139" end="00:06:23.639" style="s2">is it is going to save that choice on</p>
+<p begin="00:06:21.060" end="00:06:25.800" style="s2">the user&#39;s disk to be able to save data</p>
+<p begin="00:06:23.639" end="00:06:28.259" style="s2">on the disk of the user as an extension</p>
+<p begin="00:06:25.800" end="00:06:30.539" style="s2">we have to ask for a storage permission</p>
+<p begin="00:06:28.259" end="00:06:33.780" style="s2">to do this all we have to do is add the</p>
+<p begin="00:06:30.539" end="00:06:36.900" style="s2">permissions keyword to our manifest now</p>
+<p begin="00:06:33.780" end="00:06:39.720" style="s2">in our pop-up.js file we are going to</p>
+<p begin="00:06:36.900" end="00:06:42.120" style="s2">grab all the images and for each one of</p>
+<p begin="00:06:39.720" end="00:06:44.280" style="s2">them we are going to listen for click</p>
+<p begin="00:06:42.120" end="00:06:47.220" style="s2">event and when the click happens we are</p>
+<p begin="00:06:44.280" end="00:06:49.800" style="s2">going to save the image URL to the</p>
+<p begin="00:06:47.220" end="00:06:52.139" style="s2">storage of the browser having enabled</p>
+<p begin="00:06:49.800" end="00:06:54.300" style="s2">the user to select a cut and now that we</p>
+<p begin="00:06:52.139" end="00:06:56.220" style="s2">are saving their choice we now have to</p>
+<p begin="00:06:54.300" end="00:06:58.500" style="s2">write the code that will load that</p>
+<p begin="00:06:56.220" end="00:07:01.080" style="s2">choice and put the cut as a background</p>
+<p begin="00:06:58.500" end="00:07:03.419" style="s2">image of the page to inject the code on</p>
+<p begin="00:07:01.080" end="00:07:06.180" style="s2">each website we go to we have to modify</p>
+<p begin="00:07:03.419" end="00:07:08.520" style="s2">our manifest.json file a bit here we are</p>
+<p begin="00:07:06.180" end="00:07:11.100" style="s2">saying that on any URL the user goes to</p>
+<p begin="00:07:08.520" end="00:07:14.520" style="s2">we want to inject the file located on</p>
+<p begin="00:07:11.100" end="00:07:17.639" style="s2">the folder scripts named inject.js the</p>
+<p begin="00:07:14.520" end="00:07:19.620" style="s2">code of inject.js is super simple first</p>
+<p begin="00:07:17.639" end="00:07:22.259" style="s2">we search for the image key that we</p>
+<p begin="00:07:19.620" end="00:07:24.780" style="s2">saved before when the user chose the cut</p>
+<p begin="00:07:22.259" end="00:07:27.120" style="s2">if we find it we set it as the</p>
+<p begin="00:07:24.780" end="00:07:30.060" style="s2">background image of the body of the page</p>
+<p begin="00:07:27.120" end="00:07:32.759" style="s2">we set it to 200 pixels and we make it</p>
+<p begin="00:07:30.060" end="00:07:35.160" style="s2">repeat and now after we reload the</p>
+<p begin="00:07:32.759" end="00:07:37.500" style="s2">extension and select a cut everywhere we</p>
+<p begin="00:07:35.160" end="00:07:40.319" style="s2">go our code will be injected on every</p>
+<p begin="00:07:37.500" end="00:07:42.960" style="s2">page which will change the background to</p>
+<p begin="00:07:40.319" end="00:07:45.539" style="s2">the cut and we&#39;re done we successfully</p>
+<p begin="00:07:42.960" end="00:07:47.819" style="s2">build the catify extension that will</p>
+<p begin="00:07:45.539" end="00:07:51.900" style="s2">work on Google Chrome Microsoft Edge</p>
+<p begin="00:07:47.819" end="00:07:54.120" style="s2">Opera Brave neverwell and even Firefox</p>
+<p begin="00:07:51.900" end="00:07:55.860" style="s2">with a few modifications as you saw it</p>
+<p begin="00:07:54.120" end="00:07:58.080" style="s2">is very easy and fun to make browser</p>
+<p begin="00:07:55.860" end="00:07:59.819" style="s2">extensions we can do almost whatever we</p>
+<p begin="00:07:58.080" end="00:08:02.940" style="s2">can think of on the browser of the user</p>
+<p begin="00:07:59.819" end="00:08:04.500" style="s2">sir and the pages they visit as with I</p>
+<p begin="00:08:02.940" end="00:08:06.539" style="s2">hope you enjoyed following along with</p>
+<p begin="00:08:04.500" end="00:08:07.979" style="s2">this tutorial and learn something new if</p>
+<p begin="00:08:06.539" end="00:08:09.720" style="s2">you found this video useful please</p>
+<p begin="00:08:07.979" end="00:08:11.220" style="s2">consider liking it and subscribing to</p>
+<p begin="00:08:09.720" end="00:08:12.960" style="s2">the channel let me know in the comments</p>
+<p begin="00:08:11.220" end="00:08:15.000" style="s2">if you have built a browser extension</p>
+<p begin="00:08:12.960" end="00:08:17.220" style="s2">before or if you have an idea of</p>
+<p begin="00:08:15.000" end="00:08:18.720" style="s2">something you want to build and don&#39;t</p>
+<p begin="00:08:17.220" end="00:08:20.879" style="s2">forget that if you want to learn things</p>
+<p begin="00:08:18.720" end="00:08:23.940" style="s2">like JavaScript python react react</p>
+<p begin="00:08:20.879" end="00:08:26.220" style="s2">native go dark flutter among many others</p>
+<p begin="00:08:23.940" end="00:08:29.039" style="s2">for absolutely free all you have to do</p>
+<p begin="00:08:26.220" end="00:08:30.960" style="s2">is click the link below to join any of</p>
+<p begin="00:08:29.039" end="00:08:33.899" style="s2">our many free courses that you can take</p>
+<p begin="00:08:30.960" end="00:08:35.779" style="s2">right now for absolutely free with me</p>
+<p begin="00:08:33.899" end="00:08:37.990" style="s2">only though</p>
+<p begin="00:08:35.779" end="00:08:45.680" style="s2">see you on the next one bye</p>
+<p begin="00:08:37.990" end="00:08:48.980" style="s2">[Music]</p>
+<p begin="00:08:45.680" end="00:08:48.980" style="s2">thank you</p>
+<p begin="00:08:49.260" end="00:08:52.370" style="s2">[Music]</p>
+</div>
+</body>
+</tt>

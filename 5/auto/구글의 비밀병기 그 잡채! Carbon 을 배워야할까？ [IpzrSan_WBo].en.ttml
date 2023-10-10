@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.160" end="00:00:03.600" style="s2">google released a new programming</p>
+<p begin="00:00:01.680" end="00:00:05.040" style="s2">language and we should probably ignore</p>
+<p begin="00:00:03.600" end="00:00:08.720" style="s2">it anonymous</p>
+<p begin="00:00:05.040" end="00:00:11.759" style="s2">nicolas inidan welcome to a new video c</p>
+<p begin="00:00:08.720" end="00:00:14.080" style="s2">plus plus has been around since 1985 and</p>
+<p begin="00:00:11.759" end="00:00:16.000" style="s2">to this day it still remains as the most</p>
+<p begin="00:00:14.080" end="00:00:18.080" style="s2">popular programming language when</p>
+<p begin="00:00:16.000" end="00:00:20.640" style="s2">building performance critical</p>
+<p begin="00:00:18.080" end="00:00:22.880" style="s2">applications which means software that</p>
+<p begin="00:00:20.640" end="00:00:26.400" style="s2">has to run fast</p>
+<p begin="00:00:22.880" end="00:00:30.960" style="s2">in 2015 the size of google&#39;s code base</p>
+<p begin="00:00:26.400" end="00:00:34.079" style="s2">was of 86 terabytes consisting of two</p>
+<p begin="00:00:30.960" end="00:00:34.880" style="s2">billion lines of code is spread across</p>
+<p begin="00:00:34.079" end="00:00:37.680" style="s2">nine</p>
+<p begin="00:00:34.880" end="00:00:40.399" style="s2">million files and a lot of that code is</p>
+<p begin="00:00:37.680" end="00:00:42.879" style="s2">written on c plus plus as you would</p>
+<p begin="00:00:40.399" end="00:00:45.520" style="s2">expect google has run into some problems</p>
+<p begin="00:00:42.879" end="00:00:47.520" style="s2">with c plus plus but improving c plus</p>
+<p begin="00:00:45.520" end="00:00:49.920" style="s2">plus the way google wants to improve it</p>
+<p begin="00:00:47.520" end="00:00:52.239" style="s2">is not an easy thing google wants to</p>
+<p begin="00:00:49.920" end="00:00:54.160" style="s2">improve c plus plus but the c plus plus</p>
+<p begin="00:00:52.239" end="00:00:58.000" style="s2">committee which is a group of people</p>
+<p begin="00:00:54.160" end="00:01:00.719" style="s2">from nvidia intel bloomberg oracle among</p>
+<p begin="00:00:58.000" end="00:01:02.719" style="s2">others prefers to focus on backwards</p>
+<p begin="00:01:00.719" end="00:01:04.720" style="s2">compatibility which means they don&#39;t</p>
+<p begin="00:01:02.719" end="00:01:07.360" style="s2">want to change the language so much that</p>
+<p begin="00:01:04.720" end="00:01:09.600" style="s2">all code will stop working because many</p>
+<p begin="00:01:07.360" end="00:01:11.680" style="s2">companies depend on c plus plus they</p>
+<p begin="00:01:09.600" end="00:01:13.840" style="s2">rather keep the language stable and</p>
+<p begin="00:01:11.680" end="00:01:16.320" style="s2">backwards compatible rather than</p>
+<p begin="00:01:13.840" end="00:01:18.400" style="s2">constantly evolving it because google</p>
+<p begin="00:01:16.320" end="00:01:20.960" style="s2">already has millions and millions of</p>
+<p begin="00:01:18.400" end="00:01:23.119" style="s2">lines of c plus plus code they cannot</p>
+<p begin="00:01:20.960" end="00:01:25.680" style="s2">just switch programming languages and</p>
+<p begin="00:01:23.119" end="00:01:28.159" style="s2">rewrite everything in rust for example</p>
+<p begin="00:01:25.680" end="00:01:30.960" style="s2">that will be crazy they need something</p>
+<p begin="00:01:28.159" end="00:01:33.520" style="s2">that is interoperable with c plus plus</p>
+<p begin="00:01:30.960" end="00:01:36.560" style="s2">and this is why they created carbon</p>
+<p begin="00:01:33.520" end="00:01:39.439" style="s2">carbon is as fast as c plus plus and it</p>
+<p begin="00:01:36.560" end="00:01:42.079" style="s2">has bi-directional interoperability with</p>
+<p begin="00:01:39.439" end="00:01:45.119" style="s2">c plus plus carbon code is able to call</p>
+<p begin="00:01:42.079" end="00:01:46.560" style="s2">c plus plus code and vice versa this is</p>
+<p begin="00:01:45.119" end="00:01:49.119" style="s2">huge because this means that they are</p>
+<p begin="00:01:46.560" end="00:01:51.520" style="s2">able to write new code using carbon but</p>
+<p begin="00:01:49.119" end="00:01:54.560" style="s2">they can still reuse old c plus plus</p>
+<p begin="00:01:51.520" end="00:01:56.960" style="s2">code carbon wants to do for c plus plus</p>
+<p begin="00:01:54.560" end="00:01:59.680" style="s2">what typescript did for javascript or</p>
+<p begin="00:01:56.960" end="00:02:01.759" style="s2">what kotlin did for java the syntax</p>
+<p begin="00:01:59.680" end="00:02:04.240" style="s2">difference between c plus plus code and</p>
+<p begin="00:02:01.759" end="00:02:06.079" style="s2">carbon code is not that big which means</p>
+<p begin="00:02:04.240" end="00:02:08.800" style="s2">c plus plus developers will have an easy</p>
+<p begin="00:02:06.079" end="00:02:11.200" style="s2">time when writing new carbon code and</p>
+<p begin="00:02:08.800" end="00:02:14.000" style="s2">calling carbon code from a c plus plus</p>
+<p begin="00:02:11.200" end="00:02:16.480" style="s2">file is trivial as well all we have to</p>
+<p begin="00:02:14.000" end="00:02:18.879" style="s2">do is write the function in carbon and</p>
+<p begin="00:02:16.480" end="00:02:21.200" style="s2">then import it in a c plus plus file and</p>
+<p begin="00:02:18.879" end="00:02:24.000" style="s2">we are good to go so why should we</p>
+<p begin="00:02:21.200" end="00:02:26.000" style="s2">ignore carbon as it says on carbon&#39;s</p>
+<p begin="00:02:24.000" end="00:02:28.560" style="s2">homepage if you can use any other</p>
+<p begin="00:02:26.000" end="00:02:31.760" style="s2">established programming language like go</p>
+<p begin="00:02:28.560" end="00:02:34.080" style="s2">swift kotlin or rust you should ignore</p>
+<p begin="00:02:31.760" end="00:02:36.640" style="s2">carbon carbon is for organizations that</p>
+<p begin="00:02:34.080" end="00:02:39.920" style="s2">have a lot of c plus plus code or use</p>
+<p begin="00:02:36.640" end="00:02:42.560" style="s2">many third party c plus plus libraries</p>
+<p begin="00:02:39.920" end="00:02:45.360" style="s2">carbon is fixing a very special problem</p>
+<p begin="00:02:42.560" end="00:02:48.080" style="s2">that not many companies have carbon is</p>
+<p begin="00:02:45.360" end="00:02:49.599" style="s2">also experimental it is years away and</p>
+<p begin="00:02:48.080" end="00:02:52.560" style="s2">even though it doesn&#39;t say in the</p>
+<p begin="00:02:49.599" end="00:02:54.640" style="s2">project homepage carbon is a google</p>
+<p begin="00:02:52.560" end="00:02:57.200" style="s2">product which means that as we know it</p>
+<p begin="00:02:54.640" end="00:02:58.959" style="s2">can be killed at any second let me know</p>
+<p begin="00:02:57.200" end="00:03:00.560" style="s2">in the comments what do you think about</p>
+<p begin="00:02:58.959" end="00:03:02.560" style="s2">carbon do you see yourself or your</p>
+<p begin="00:03:00.560" end="00:03:04.720" style="s2">company using carbon or do you think</p>
+<p begin="00:03:02.560" end="00:03:06.400" style="s2">google is going to kill it very very</p>
+<p begin="00:03:04.720" end="00:03:07.840" style="s2">soon thank you for watching as always</p>
+<p begin="00:03:06.400" end="00:03:09.360" style="s2">and don&#39;t forget if you want to learn to</p>
+<p begin="00:03:07.840" end="00:03:11.120" style="s2">code and you want to do it for free then</p>
+<p begin="00:03:09.360" end="00:03:13.360" style="s2">please click the link below and i will</p>
+<p begin="00:03:11.120" end="00:03:14.959" style="s2">see you there you will find lots of free</p>
+<p begin="00:03:13.360" end="00:03:18.239" style="s2">courses to teach you to code from</p>
+<p begin="00:03:14.959" end="00:03:19.920" style="s2">javascript to python react go redux</p>
+<p begin="00:03:18.239" end="00:03:21.680" style="s2">among many other things thank you as</p>
+<p begin="00:03:19.920" end="00:03:23.599" style="s2">always for your support i will see you</p>
+<p begin="00:03:21.680" end="00:03:27.799" style="s2">on the next video stay free eat kimchi</p>
+<p begin="00:03:23.599" end="00:03:27.799" style="s2">be happy see you next time bye</p>
+</div>
+</body>
+</tt>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.300" end="00:00:06.839" style="s2">today we are going to talk about a</p>
+<p begin="00:00:04.799" end="00:00:09.540" style="s2">magical HTML element that has been</p>
+<p begin="00:00:06.839" end="00:00:12.540" style="s2">around for a long time but that not many</p>
+<p begin="00:00:09.540" end="00:00:14.280" style="s2">of us know about or use thanks to this</p>
+<p begin="00:00:12.540" end="00:00:17.160" style="s2">element we can make our website a lot</p>
+<p begin="00:00:14.280" end="00:00:19.380" style="s2">faster just by writing a few lines of</p>
+<p begin="00:00:17.160" end="00:00:21.660" style="s2">code that element is the picture element</p>
+<p begin="00:00:19.380" end="00:00:23.640" style="s2">and if you use it well it can do wonders</p>
+<p begin="00:00:21.660" end="00:00:25.859" style="s2">for you it is crazy to me that this</p>
+<p begin="00:00:23.640" end="00:00:28.500" style="s2">element is not used more often it is</p>
+<p begin="00:00:25.859" end="00:00:31.260" style="s2">supported by all major browsers so there</p>
+<p begin="00:00:28.500" end="00:00:32.880" style="s2">is really no excuse for not using it as</p>
+<p begin="00:00:31.260" end="00:00:35.280" style="s2">you can guess the picture element is</p>
+<p begin="00:00:32.880" end="00:00:36.840" style="s2">used to display images in our website I</p>
+<p begin="00:00:35.280" end="00:00:38.940" style="s2">know what you&#39;re thinking we already</p>
+<p begin="00:00:36.840" end="00:00:40.980" style="s2">know how to put pictures on a website</p>
+<p begin="00:00:38.940" end="00:00:43.020" style="s2">all we have to do is use the image</p>
+<p begin="00:00:40.980" end="00:00:44.940" style="s2">element well that might be true the</p>
+<p begin="00:00:43.020" end="00:00:47.700" style="s2">image element is kind of old and the web</p>
+<p begin="00:00:44.940" end="00:00:50.039" style="s2">and its users have evolved a lot we now</p>
+<p begin="00:00:47.700" end="00:00:53.039" style="s2">have devices of all sizes and kinds</p>
+<p begin="00:00:50.039" end="00:00:55.320" style="s2">users on Wi-Fi and mobile networks some</p>
+<p begin="00:00:53.039" end="00:00:57.180" style="s2">with fast and some with slow speeds and</p>
+<p begin="00:00:55.320" end="00:01:01.020" style="s2">we also have new and better image</p>
+<p begin="00:00:57.180" end="00:01:02.940" style="s2">formats like web P jpeg XL and and avaf</p>
+<p begin="00:01:01.020" end="00:01:04.739" style="s2">what this means for us developers is</p>
+<p begin="00:01:02.940" end="00:01:06.659" style="s2">that we have to optimize our websites as</p>
+<p begin="00:01:04.739" end="00:01:09.900" style="s2">much as we can we have to be mindful</p>
+<p begin="00:01:06.659" end="00:01:12.060" style="s2">about screen sizes browser support file</p>
+<p begin="00:01:09.900" end="00:01:13.979" style="s2">sizes download speed and more having</p>
+<p begin="00:01:12.060" end="00:01:16.020" style="s2">said this if you don&#39;t use the picture</p>
+<p begin="00:01:13.979" end="00:01:17.760" style="s2">element and you stick to the image</p>
+<p begin="00:01:16.020" end="00:01:19.439" style="s2">element there are still a couple of</p>
+<p begin="00:01:17.760" end="00:01:21.540" style="s2">things that you can do to optimize the</p>
+<p begin="00:01:19.439" end="00:01:24.000" style="s2">way your image is load so let&#39;s start</p>
+<p begin="00:01:21.540" end="00:01:26.280" style="s2">from there let&#39;s say we have an image in</p>
+<p begin="00:01:24.000" end="00:01:28.140" style="s2">our website and we want to optimize the</p>
+<p begin="00:01:26.280" end="00:01:30.840" style="s2">way it loads the first thing we can do</p>
+<p begin="00:01:28.140" end="00:01:33.540" style="s2">is change how and when the image is</p>
+<p begin="00:01:30.840" end="00:01:36.540" style="s2">loaded by the browser we do this by</p>
+<p begin="00:01:33.540" end="00:01:38.820" style="s2">setting the attribute loading to be lazy</p>
+<p begin="00:01:36.540" end="00:01:41.220" style="s2">what this does is it tells the browser</p>
+<p begin="00:01:38.820" end="00:01:44.100" style="s2">that you do not want to load your image</p>
+<p begin="00:01:41.220" end="00:01:46.320" style="s2">right away but rather only when the user</p>
+<p begin="00:01:44.100" end="00:01:48.659" style="s2">is actually going to see it in this</p>
+<p begin="00:01:46.320" end="00:01:51.360" style="s2">example we can see how as the user</p>
+<p begin="00:01:48.659" end="00:01:53.939" style="s2">Scrolls on the network panel the browser</p>
+<p begin="00:01:51.360" end="00:01:56.939" style="s2">is fetching each image one by one</p>
+<p begin="00:01:53.939" end="00:01:59.579" style="s2">instead of loading all of them at the</p>
+<p begin="00:01:56.939" end="00:02:02.220" style="s2">same time that is awesome this way you</p>
+<p begin="00:01:59.579" end="00:02:04.439" style="s2">only load the images that your user is</p>
+<p begin="00:02:02.220" end="00:02:06.420" style="s2">actually going to see you don&#39;t have to</p>
+<p begin="00:02:04.439" end="00:02:08.280" style="s2">write any JavaScript to enable this</p>
+<p begin="00:02:06.420" end="00:02:10.200" style="s2">feature all you need to do is set the</p>
+<p begin="00:02:08.280" end="00:02:12.599" style="s2">loading attribute to lazy and you are</p>
+<p begin="00:02:10.200" end="00:02:14.520" style="s2">good to go the browser will detect when</p>
+<p begin="00:02:12.599" end="00:02:17.580" style="s2">the image is about to enter the screen</p>
+<p begin="00:02:14.520" end="00:02:19.680" style="s2">of the user and we load it automatically</p>
+<p begin="00:02:17.580" end="00:02:22.560" style="s2">without the user seeing a blank square</p>
+<p begin="00:02:19.680" end="00:02:24.840" style="s2">or a loading image lazy loading can make</p>
+<p begin="00:02:22.560" end="00:02:27.000" style="s2">your website a lot faster but we must</p>
+<p begin="00:02:24.840" end="00:02:29.400" style="s2">think about the picture sizes we are</p>
+<p begin="00:02:27.000" end="00:02:31.440" style="s2">giving to our users even with lazy</p>
+<p begin="00:02:29.400" end="00:02:34.319" style="s2">loading if the images and their sizes</p>
+<p begin="00:02:31.440" end="00:02:37.260" style="s2">are not optimized the website will load</p>
+<p begin="00:02:34.319" end="00:02:39.239" style="s2">slow thankfully the image element allows</p>
+<p begin="00:02:37.260" end="00:02:41.700" style="s2">us to choose when to show a high</p>
+<p begin="00:02:39.239" end="00:02:43.920" style="s2">definition image to our users and when</p>
+<p begin="00:02:41.700" end="00:02:46.739" style="s2">to show a smaller one so that we give</p>
+<p begin="00:02:43.920" end="00:02:49.500" style="s2">our users only the images they need this</p>
+<p begin="00:02:46.739" end="00:02:51.780" style="s2">is by using the source set and the sizes</p>
+<p begin="00:02:49.500" end="00:02:54.480" style="s2">attributes Source said allows us to</p>
+<p begin="00:02:51.780" end="00:02:57.239" style="s2">Define different images to be loaded on</p>
+<p begin="00:02:54.480" end="00:03:00.480" style="s2">different devices based on screen size</p>
+<p begin="00:02:57.239" end="00:03:03.060" style="s2">resolution or type of device you using</p>
+<p begin="00:03:00.480" end="00:03:06.000" style="s2">Source set we can load a smaller low</p>
+<p begin="00:03:03.060" end="00:03:08.220" style="s2">resolution image on a mobile device with</p>
+<p begin="00:03:06.000" end="00:03:10.500" style="s2">a small screen but a larger high</p>
+<p begin="00:03:08.220" end="00:03:13.019" style="s2">definition image on a desktop computer</p>
+<p begin="00:03:10.500" end="00:03:15.300" style="s2">with a big screen Source set makes your</p>
+<p begin="00:03:13.019" end="00:03:18.060" style="s2">website load faster because it allows</p>
+<p begin="00:03:15.300" end="00:03:20.519" style="s2">each device to load the most suitable</p>
+<p begin="00:03:18.060" end="00:03:22.560" style="s2">image on this example we are using</p>
+<p begin="00:03:20.519" end="00:03:25.620" style="s2">Source set to tell the browser that we</p>
+<p begin="00:03:22.560" end="00:03:29.159" style="s2">have an image called cut small.jpg that</p>
+<p begin="00:03:25.620" end="00:03:31.800" style="s2">is 500 pixels wide a cut medium.jpg that</p>
+<p begin="00:03:29.159" end="00:03:35.640" style="s2">is a thousand pixels wide and a cut</p>
+<p begin="00:03:31.800" end="00:03:37.379" style="s2">large JPEG that is 2 000 pixels wide we</p>
+<p begin="00:03:35.640" end="00:03:40.260" style="s2">are also using the source attribute</p>
+<p begin="00:03:37.379" end="00:03:42.599" style="s2">which acts like a default in case the</p>
+<p begin="00:03:40.260" end="00:03:45.120" style="s2">user is on a browser that does not</p>
+<p begin="00:03:42.599" end="00:03:47.040" style="s2">support source which is almost never</p>
+<p begin="00:03:45.120" end="00:03:50.519" style="s2">going to happen since sources is</p>
+<p begin="00:03:47.040" end="00:03:52.379" style="s2">supported by 90 of all browsers as you</p>
+<p begin="00:03:50.519" end="00:03:54.120" style="s2">can see on the code all we are doing is</p>
+<p begin="00:03:52.379" end="00:03:56.220" style="s2">communicating to the browser that we</p>
+<p begin="00:03:54.120" end="00:03:59.159" style="s2">have three different versions of the</p>
+<p begin="00:03:56.220" end="00:04:01.379" style="s2">same image and stating their sizes it is</p>
+<p begin="00:03:59.159" end="00:04:03.840" style="s2">then the browser job to choose which</p>
+<p begin="00:04:01.379" end="00:04:06.120" style="s2">image to load if the user is on a small</p>
+<p begin="00:04:03.840" end="00:04:07.980" style="s2">screen on a mobile device the browser</p>
+<p begin="00:04:06.120" end="00:04:09.720" style="s2">will choose to load the smallest image</p>
+<p begin="00:04:07.980" end="00:04:11.340" style="s2">and if the user is on a desktop screen</p>
+<p begin="00:04:09.720" end="00:04:13.739" style="s2">the browser will load the biggest one</p>
+<p begin="00:04:11.340" end="00:04:16.380" style="s2">the image is also chosen depending on</p>
+<p begin="00:04:13.739" end="00:04:18.840" style="s2">the pixel density of the screen meaning</p>
+<p begin="00:04:16.380" end="00:04:21.720" style="s2">that if the user is on a device with an</p>
+<p begin="00:04:18.840" end="00:04:23.940" style="s2">HD screen like a retina display Apple</p>
+<p begin="00:04:21.720" end="00:04:26.520" style="s2">computer the browser might choose to</p>
+<p begin="00:04:23.940" end="00:04:28.560" style="s2">load the highest resolution image so the</p>
+<p begin="00:04:26.520" end="00:04:30.900" style="s2">user doesn&#39;t see a blurry one to help</p>
+<p begin="00:04:28.560" end="00:04:33.419" style="s2">the browser decide which image to load</p>
+<p begin="00:04:30.900" end="00:04:35.580" style="s2">from The Source set we can use the sizes</p>
+<p begin="00:04:33.419" end="00:04:37.199" style="s2">attribute with the sizes attribute we</p>
+<p begin="00:04:35.580" end="00:04:39.720" style="s2">can give the browser extra information</p>
+<p begin="00:04:37.199" end="00:04:41.759" style="s2">about how the image will be displayed on</p>
+<p begin="00:04:39.720" end="00:04:43.380" style="s2">different screen sizes this is how it</p>
+<p begin="00:04:41.759" end="00:04:46.199" style="s2">works here we are telling the browser</p>
+<p begin="00:04:43.380" end="00:04:49.139" style="s2">that if the viewport width is 600 pixels</p>
+<p begin="00:04:46.199" end="00:04:51.440" style="s2">or less the image will display at 400</p>
+<p begin="00:04:49.139" end="00:04:55.320" style="s2">pixels wide if the viewport is between</p>
+<p begin="00:04:51.440" end="00:04:58.020" style="s2">601 and 1200 pixels the image will</p>
+<p begin="00:04:55.320" end="00:05:01.620" style="s2">display at 800 pixels wide and for</p>
+<p begin="00:04:58.020" end="00:05:04.919" style="s2">viewports larger than 12 100 pixels the</p>
+<p begin="00:05:01.620" end="00:05:07.080" style="s2">image will display at 1400 pixels wide</p>
+<p begin="00:05:04.919" end="00:05:09.840" style="s2">then the browser uses this information</p>
+<p begin="00:05:07.080" end="00:05:12.000" style="s2">along with the widths provided by The</p>
+<p begin="00:05:09.840" end="00:05:13.919" style="s2">Source set attribute to choose the most</p>
+<p begin="00:05:12.000" end="00:05:16.199" style="s2">suitable image to load as you can see</p>
+<p begin="00:05:13.919" end="00:05:18.300" style="s2">the image element is very powerful and</p>
+<p begin="00:05:16.199" end="00:05:20.460" style="s2">it can help us optimize a loading speed</p>
+<p begin="00:05:18.300" end="00:05:22.259" style="s2">if we use it with the correct attributes</p>
+<p begin="00:05:20.460" end="00:05:24.180" style="s2">with the image element we just give</p>
+<p begin="00:05:22.259" end="00:05:25.860" style="s2">information to the browser and the</p>
+<p begin="00:05:24.180" end="00:05:28.199" style="s2">browser is the one that makes the</p>
+<p begin="00:05:25.860" end="00:05:30.900" style="s2">decision on which image to load If</p>
+<p begin="00:05:28.199" end="00:05:32.400" style="s2">instead of that you want to have all</p>
+<p begin="00:05:30.900" end="00:05:34.740" style="s2">control and you want to be the one</p>
+<p begin="00:05:32.400" end="00:05:37.080" style="s2">choosing which image to load and when</p>
+<p begin="00:05:34.740" end="00:05:39.419" style="s2">you can use the picture element the</p>
+<p begin="00:05:37.080" end="00:05:41.400" style="s2">picture element itself isn&#39;t exciting at</p>
+<p begin="00:05:39.419" end="00:05:43.259" style="s2">all what&#39;s exciting is what you put</p>
+<p begin="00:05:41.400" end="00:05:45.720" style="s2">inside of it inside of the picture</p>
+<p begin="00:05:43.259" end="00:05:47.880" style="s2">element we can put many Source elements</p>
+<p begin="00:05:45.720" end="00:05:50.160" style="s2">the browser will look at each one of the</p>
+<p begin="00:05:47.880" end="00:05:52.320" style="s2">source elements and display the one that</p>
+<p begin="00:05:50.160" end="00:05:54.660" style="s2">matches the conditions that you specify</p>
+<p begin="00:05:52.320" end="00:05:57.300" style="s2">like in this example here we have a</p>
+<p begin="00:05:54.660" end="00:05:59.639" style="s2">picture element with two Source elements</p>
+<p begin="00:05:57.300" end="00:06:01.699" style="s2">inside of it the First Source tag points</p>
+<p begin="00:05:59.639" end="00:06:04.199" style="s2">to the image cut</p>
+<p begin="00:06:01.699" end="00:06:07.560" style="s2">vertical.jpg which will be used when the</p>
+<p begin="00:06:04.199" end="00:06:10.259" style="s2">device orientation is Portrait the media</p>
+<p begin="00:06:07.560" end="00:06:12.360" style="s2">attribute orientation portrait specifies</p>
+<p begin="00:06:10.259" end="00:06:14.120" style="s2">this condition the Second Source tag</p>
+<p begin="00:06:12.360" end="00:06:16.199" style="s2">points to the image cut</p>
+<p begin="00:06:14.120" end="00:06:18.900" style="s2">horizontal.jpg which will be used when</p>
+<p begin="00:06:16.199" end="00:06:21.060" style="s2">the device orientation is landscape this</p>
+<p begin="00:06:18.900" end="00:06:23.819" style="s2">is specified by the media attribute</p>
+<p begin="00:06:21.060" end="00:06:26.460" style="s2">orientation landscape finally there is</p>
+<p begin="00:06:23.819" end="00:06:29.819" style="s2">an image tag with the SRC attribute set</p>
+<p begin="00:06:26.460" end="00:06:31.979" style="s2">to cut default.jpg this acts as a</p>
+<p begin="00:06:29.819" end="00:06:34.020" style="s2">fallback and will be used if neither of</p>
+<p begin="00:06:31.979" end="00:06:36.479" style="s2">the conditions of the source Stacks are</p>
+<p begin="00:06:34.020" end="00:06:38.460" style="s2">met or if the browser doesn&#39;t support</p>
+<p begin="00:06:36.479" end="00:06:40.440" style="s2">the picture and Source stacks on the</p>
+<p begin="00:06:38.460" end="00:06:43.259" style="s2">media attribute of the source element we</p>
+<p begin="00:06:40.440" end="00:06:45.900" style="s2">can write any CSS media query we want we</p>
+<p begin="00:06:43.259" end="00:06:48.539" style="s2">could for example show a different image</p>
+<p begin="00:06:45.900" end="00:06:50.340" style="s2">depending on the size of the screen of</p>
+<p begin="00:06:48.539" end="00:06:53.580" style="s2">the user we can show a different image</p>
+<p begin="00:06:50.340" end="00:06:55.440" style="s2">based on dark mode or light mode we can</p>
+<p begin="00:06:53.580" end="00:06:58.259" style="s2">load images depending on the resolution</p>
+<p begin="00:06:55.440" end="00:06:59.580" style="s2">of the screen remember on the media</p>
+<p begin="00:06:58.259" end="00:07:02.280" style="s2">attribute you can write the media query</p>
+<p begin="00:06:59.580" end="00:07:04.319" style="s2">is you would write on CSS so you can</p>
+<p begin="00:07:02.280" end="00:07:06.960" style="s2">show different images depending on</p>
+<p begin="00:07:04.319" end="00:07:09.180" style="s2">screen height or you could combine the</p>
+<p begin="00:07:06.960" end="00:07:11.520" style="s2">media queries as well like here where we</p>
+<p begin="00:07:09.180" end="00:07:13.860" style="s2">are loading images depending on both the</p>
+<p begin="00:07:11.520" end="00:07:15.780" style="s2">screen orientation and width of the</p>
+<p begin="00:07:13.860" end="00:07:17.880" style="s2">device we can also use the source</p>
+<p begin="00:07:15.780" end="00:07:19.919" style="s2">element to load images depending on</p>
+<p begin="00:07:17.880" end="00:07:22.020" style="s2">their file format like on this example</p>
+<p begin="00:07:19.919" end="00:07:25.259" style="s2">where the browser will try to load the</p>
+<p begin="00:07:22.020" end="00:07:27.180" style="s2">jpeg XL image first if it can support or</p>
+<p begin="00:07:25.259" end="00:07:29.880" style="s2">find the format it will attempt to load</p>
+<p begin="00:07:27.180" end="00:07:32.639" style="s2">the webp image next if that also isn&#39;t</p>
+<p begin="00:07:29.880" end="00:07:35.039" style="s2">supported it will then try the avif</p>
+<p begin="00:07:32.639" end="00:07:37.440" style="s2">image if none of these formats are</p>
+<p begin="00:07:35.039" end="00:07:40.620" style="s2">supported or found it will finally load</p>
+<p begin="00:07:37.440" end="00:07:44.280" style="s2">the jpeg image as a folder jpeg Excel</p>
+<p begin="00:07:40.620" end="00:07:46.380" style="s2">webp and avif are all fairly new image</p>
+<p begin="00:07:44.280" end="00:07:48.120" style="s2">formats jpeg Excel has better</p>
+<p begin="00:07:46.380" end="00:07:51.660" style="s2">compression and is designed to replace</p>
+<p begin="00:07:48.120" end="00:07:54.300" style="s2">the jpeg PNG and GIF although it&#39;s not</p>
+<p begin="00:07:51.660" end="00:07:56.400" style="s2">supported by most browsers webp is</p>
+<p begin="00:07:54.300" end="00:07:58.199" style="s2">developed by Google it&#39;s fairly well</p>
+<p begin="00:07:56.400" end="00:08:01.139" style="s2">supported and is also designed to</p>
+<p begin="00:07:58.199" end="00:08:04.620" style="s2">replace jpeg PNG in GIF according to</p>
+<p begin="00:08:01.139" end="00:08:08.280" style="s2">Google the average web P file size is 25</p>
+<p begin="00:08:04.620" end="00:08:10.800" style="s2">to 34 percent smaller compared to a JPEG</p>
+<p begin="00:08:08.280" end="00:08:13.800" style="s2">file of equivalent quality avif is</p>
+<p begin="00:08:10.800" end="00:08:17.099" style="s2">derived from the av-1 video Codec in</p>
+<p begin="00:08:13.800" end="00:08:20.699" style="s2">some tests avif has been able to save 50</p>
+<p begin="00:08:17.099" end="00:08:23.280" style="s2">on file sizes compared to jpeg with</p>
+<p begin="00:08:20.699" end="00:08:24.780" style="s2">similar perceptual quality avif also</p>
+<p begin="00:08:23.280" end="00:08:27.000" style="s2">supports animation so it can replace</p>
+<p begin="00:08:24.780" end="00:08:29.340" style="s2">gifs and it supports transparent images</p>
+<p begin="00:08:27.000" end="00:08:31.440" style="s2">which means it can replace pngs it is</p>
+<p begin="00:08:29.340" end="00:08:32.880" style="s2">not as well supported as webpable is</p>
+<p begin="00:08:31.440" end="00:08:34.500" style="s2">getting there and that&#39;s it for this</p>
+<p begin="00:08:32.880" end="00:08:37.140" style="s2">video you now know how to make your</p>
+<p begin="00:08:34.500" end="00:08:38.700" style="s2">website faster and more responsive you</p>
+<p begin="00:08:37.140" end="00:08:42.060" style="s2">are now equipped to handle different</p>
+<p begin="00:08:38.700" end="00:08:44.219" style="s2">screen sizes and network speeds and file</p>
+<p begin="00:08:42.060" end="00:08:45.899" style="s2">formats like a pro so go ahead</p>
+<p begin="00:08:44.219" end="00:08:47.459" style="s2">experiment with these new tools and see</p>
+<p begin="00:08:45.899" end="00:08:49.440" style="s2">the difference they make if you found</p>
+<p begin="00:08:47.459" end="00:08:51.240" style="s2">this video useful please consider liking</p>
+<p begin="00:08:49.440" end="00:08:52.740" style="s2">it and subscribing to the channel and</p>
+<p begin="00:08:51.240" end="00:08:54.839" style="s2">don&#39;t forget that if you want to learn</p>
+<p begin="00:08:52.740" end="00:08:57.360" style="s2">things like JavaScript python react</p>
+<p begin="00:08:54.839" end="00:09:01.200" style="s2">react native gold Dart flutter among</p>
+<p begin="00:08:57.360" end="00:09:02.880" style="s2">many many others for absolutely free all</p>
+<p begin="00:09:01.200" end="00:09:05.339" style="s2">you have to do is click the link below</p>
+<p begin="00:09:02.880" end="00:09:06.899" style="s2">to join any of our many free courses</p>
+<p begin="00:09:05.339" end="00:09:09.360" style="s2">that you can take right now for</p>
+<p begin="00:09:06.899" end="00:09:12.200" style="s2">absolutely free with me click the link</p>
+<p begin="00:09:09.360" end="00:09:16.339" style="s2">below and I will see you there alone</p>
+<p begin="00:09:12.200" end="00:09:16.339" style="s2">see you on the next one bye</p>
+<p begin="00:09:17.220" end="00:09:21.860" style="s2">foreign</p>
+<p begin="00:09:18.610" end="00:09:21.860" style="s2">[Music]</p>
+<p begin="00:09:24.140" end="00:09:31.339" style="s2">[Music]</p>
+<p begin="00:09:29.160" end="00:09:31.339" style="s2">foreign</p>
+</div>
+</body>
+</tt>

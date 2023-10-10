@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:03.199" end="00:00:09.280" style="s2">we are going to take a look at the</p>
+<p begin="00:00:04.640" end="00:00:11.519" style="s2">future of css the google io 2022 just</p>
+<p begin="00:00:09.280" end="00:00:13.599" style="s2">finished and it was packed with sessions</p>
+<p begin="00:00:11.519" end="00:00:15.440" style="s2">and keynotes about browsers and the</p>
+<p begin="00:00:13.599" end="00:00:19.279" style="s2">future of the web</p>
+<p begin="00:00:15.440" end="00:00:21.760" style="s2">really cool super new or coming soon css</p>
+<p begin="00:00:19.279" end="00:00:23.439" style="s2">features were announced i made a list of</p>
+<p begin="00:00:21.760" end="00:00:25.359" style="s2">the ones that i like the most and that</p>
+<p begin="00:00:23.439" end="00:00:27.599" style="s2">is exactly what i want to share with you</p>
+<p begin="00:00:25.359" end="00:00:30.480" style="s2">today</p>
+<p begin="00:00:27.599" end="00:00:33.360" style="s2">color mix allows you to mix colors on</p>
+<p begin="00:00:30.480" end="00:00:35.600" style="s2">the browser and it looks like this here</p>
+<p begin="00:00:33.360" end="00:00:36.800" style="s2">we are getting a color that is 50 red</p>
+<p begin="00:00:35.600" end="00:00:38.879" style="s2">and 50</p>
+<p begin="00:00:36.800" end="00:00:40.640" style="s2">blue but if we want to we can also</p>
+<p begin="00:00:38.879" end="00:00:43.280" style="s2">choose the ratios of the mix by</p>
+<p begin="00:00:40.640" end="00:00:46.320" style="s2">specifying a percent so here we would be</p>
+<p begin="00:00:43.280" end="00:00:48.719" style="s2">mixing 30 red and 70</p>
+<p begin="00:00:46.320" end="00:00:51.920" style="s2">blue like it was said on the keynote</p>
+<p begin="00:00:48.719" end="00:00:54.879" style="s2">color mix is especially useful to derive</p>
+<p begin="00:00:51.920" end="00:00:56.719" style="s2">other colors from a brown color maybe</p>
+<p begin="00:00:54.879" end="00:00:59.520" style="s2">mixing it with white or with black to</p>
+<p begin="00:00:56.719" end="00:01:02.239" style="s2">make it lighter or darker by saving the</p>
+<p begin="00:00:59.520" end="00:01:06.880" style="s2">brown color in a css variable and using</p>
+<p begin="00:01:02.239" end="00:01:08.880" style="s2">it later inside of color mix</p>
+<p begin="00:01:06.880" end="00:01:11.280" style="s2">accent color allows you to change the</p>
+<p begin="00:01:08.880" end="00:01:13.760" style="s2">color of those html elements that have</p>
+<p begin="00:01:11.280" end="00:01:16.159" style="s2">been historically very hard to customize</p>
+<p begin="00:01:13.760" end="00:01:18.880" style="s2">like radio buttons or check boxes</p>
+<p begin="00:01:16.159" end="00:01:20.560" style="s2">progress bars and range sliders</p>
+<p begin="00:01:18.880" end="00:01:22.880" style="s2">if we want to change the colors of those</p>
+<p begin="00:01:20.560" end="00:01:24.560" style="s2">elements we have to do it by ourselves</p>
+<p begin="00:01:22.880" end="00:01:26.799" style="s2">manually by changing the background</p>
+<p begin="00:01:24.560" end="00:01:29.040" style="s2">color and the border color the hover</p>
+<p begin="00:01:26.799" end="00:01:31.759" style="s2">stays the focus states among many other</p>
+<p begin="00:01:29.040" end="00:01:33.759" style="s2">things that is hard to remember with</p>
+<p begin="00:01:31.759" end="00:01:36.159" style="s2">accent color all we have to do is tell</p>
+<p begin="00:01:33.759" end="00:01:38.240" style="s2">to the browser what is the accent color</p>
+<p begin="00:01:36.159" end="00:01:39.920" style="s2">of those elements in the browser we</p>
+<p begin="00:01:38.240" end="00:01:42.399" style="s2">change the background color the border</p>
+<p begin="00:01:39.920" end="00:01:44.159" style="s2">color and all those things for us if we</p>
+<p begin="00:01:42.399" end="00:01:46.399" style="s2">have these elements for example and i</p>
+<p begin="00:01:44.159" end="00:01:48.479" style="s2">want to make them pink or red or blue</p>
+<p begin="00:01:46.399" end="00:01:50.960" style="s2">all i have to do is change the accent</p>
+<p begin="00:01:48.479" end="00:01:54.240" style="s2">color property and with one line all</p>
+<p begin="00:01:50.960" end="00:01:56.320" style="s2">their styles will be changed</p>
+<p begin="00:01:54.240" end="00:01:58.000" style="s2">for text to be easy to read there has to</p>
+<p begin="00:01:56.320" end="00:02:00.320" style="s2">be a good contrast between the</p>
+<p begin="00:01:58.000" end="00:02:03.040" style="s2">background color and the text color</p>
+<p begin="00:02:00.320" end="00:02:06.320" style="s2">black on top of blue or white on top of</p>
+<p begin="00:02:03.040" end="00:02:08.479" style="s2">yellow does not look good instead of us</p>
+<p begin="00:02:06.320" end="00:02:10.640" style="s2">having to pick what color has the best</p>
+<p begin="00:02:08.479" end="00:02:13.360" style="s2">contrast with our background color we</p>
+<p begin="00:02:10.640" end="00:02:16.239" style="s2">can instead use color contrast to let</p>
+<p begin="00:02:13.360" end="00:02:19.120" style="s2">the browser do it for us here we have a</p>
+<p begin="00:02:16.239" end="00:02:20.959" style="s2">box with a background color of red</p>
+<p begin="00:02:19.120" end="00:02:23.360" style="s2">now we want to do is we want to set the</p>
+<p begin="00:02:20.959" end="00:02:26.800" style="s2">color of the text of that box to</p>
+<p begin="00:02:23.360" end="00:02:29.680" style="s2">whatever color the browser thinks has a</p>
+<p begin="00:02:26.800" end="00:02:32.560" style="s2">better contrast with red so we call</p>
+<p begin="00:02:29.680" end="00:02:35.840" style="s2">color contrast and we give it the red</p>
+<p begin="00:02:32.560" end="00:02:38.560" style="s2">color then the browser will see if white</p>
+<p begin="00:02:35.840" end="00:02:41.120" style="s2">has a good contrast with red or if black</p>
+<p begin="00:02:38.560" end="00:02:43.519" style="s2">has a good contrast with red the best</p>
+<p begin="00:02:41.120" end="00:02:46.319" style="s2">color with the best contrast is going to</p>
+<p begin="00:02:43.519" end="00:02:49.040" style="s2">be what the text color of our box will</p>
+<p begin="00:02:46.319" end="00:02:52.560" style="s2">be color contrast by default is going to</p>
+<p begin="00:02:49.040" end="00:02:54.239" style="s2">return either white or black no more but</p>
+<p begin="00:02:52.560" end="00:02:56.239" style="s2">this is already good because the browser</p>
+<p begin="00:02:54.239" end="00:02:58.640" style="s2">knows what looks good so for example the</p>
+<p begin="00:02:56.239" end="00:03:01.519" style="s2">browser is not going to give you black</p>
+<p begin="00:02:58.640" end="00:03:03.360" style="s2">text on top of a blue background or</p>
+<p begin="00:03:01.519" end="00:03:05.519" style="s2">yellow text on top of a yellow</p>
+<p begin="00:03:03.360" end="00:03:08.480" style="s2">background but that is not the best</p>
+<p begin="00:03:05.519" end="00:03:10.480" style="s2">part instead of only getting white or</p>
+<p begin="00:03:08.480" end="00:03:12.879" style="s2">black from color contrast we can also</p>
+<p begin="00:03:10.480" end="00:03:15.519" style="s2">provide options for the browser to</p>
+<p begin="00:03:12.879" end="00:03:17.920" style="s2">choose from the way you use it is like</p>
+<p begin="00:03:15.519" end="00:03:20.000" style="s2">this first we write the background color</p>
+<p begin="00:03:17.920" end="00:03:22.879" style="s2">in this case it will be blue then we do</p>
+<p begin="00:03:20.000" end="00:03:25.120" style="s2">vs or versus and then we write the color</p>
+<p begin="00:03:22.879" end="00:03:27.040" style="s2">options that the browser can choose from</p>
+<p begin="00:03:25.120" end="00:03:30.239" style="s2">so here the browser will check and</p>
+<p begin="00:03:27.040" end="00:03:33.599" style="s2">choose among the colors pink yellow and</p>
+<p begin="00:03:30.239" end="00:03:36.640" style="s2">green to see who has the best contrast</p>
+<p begin="00:03:33.599" end="00:03:38.400" style="s2">against a background of color blue and</p>
+<p begin="00:03:36.640" end="00:03:41.120" style="s2">then the browser is going to give us the</p>
+<p begin="00:03:38.400" end="00:03:41.120" style="s2">winner color</p>
+<p begin="00:03:41.200" end="00:03:46.159" style="s2">inert is not really a css properties</p>
+<p begin="00:03:43.440" end="00:03:48.400" style="s2">more like an html attribute inert allows</p>
+<p begin="00:03:46.159" end="00:03:51.440" style="s2">you to basically freeze sections of your</p>
+<p begin="00:03:48.400" end="00:03:53.920" style="s2">page any html element with the inert</p>
+<p begin="00:03:51.440" end="00:03:56.720" style="s2">attribute will not receive any clicks</p>
+<p begin="00:03:53.920" end="00:03:58.799" style="s2">focus events interactions nothing from</p>
+<p begin="00:03:56.720" end="00:04:01.040" style="s2">the user this is very useful if for</p>
+<p begin="00:03:58.799" end="00:04:03.680" style="s2">example you want to freeze a button</p>
+<p begin="00:04:01.040" end="00:04:05.519" style="s2">after the user clicked it once or if you</p>
+<p begin="00:04:03.680" end="00:04:07.599" style="s2">are sending a form and you don&#39;t want</p>
+<p begin="00:04:05.519" end="00:04:09.840" style="s2">the user to click anywhere else you can</p>
+<p begin="00:04:07.599" end="00:04:12.640" style="s2">freeze the whole form by adding the</p>
+<p begin="00:04:09.840" end="00:04:14.159" style="s2">inert attribute to the form html element</p>
+<p begin="00:04:12.640" end="00:04:15.599" style="s2">now before we continue with the rest of</p>
+<p begin="00:04:14.159" end="00:04:18.000" style="s2">the list please remember that if you</p>
+<p begin="00:04:15.599" end="00:04:19.840" style="s2">want to learn to code for free with me</p>
+<p begin="00:04:18.000" end="00:04:22.479" style="s2">in hangout and please click the link</p>
+<p begin="00:04:19.840" end="00:04:25.600" style="s2">below because there we have free courses</p>
+<p begin="00:04:22.479" end="00:04:27.759" style="s2">on javascript python go react react</p>
+<p begin="00:04:25.600" end="00:04:29.919" style="s2">native redux</p>
+<p begin="00:04:27.759" end="00:04:31.840" style="s2">many many other things all of them for</p>
+<p begin="00:04:29.919" end="00:04:34.160" style="s2">free click the link below and i will see</p>
+<p begin="00:04:31.840" end="00:04:34.160" style="s2">you there</p>
+<p begin="00:04:34.479" end="00:04:40.240" style="s2">has allowed you to style a parent</p>
+<p begin="00:04:37.040" end="00:04:43.280" style="s2">depending if it contains a specific</p>
+<p begin="00:04:40.240" end="00:04:46.000" style="s2">child this wasn&#39;t possible before before</p>
+<p begin="00:04:43.280" end="00:04:48.800" style="s2">we could only a style a child if it was</p>
+<p begin="00:04:46.000" end="00:04:52.479" style="s2">inside of a parent here we could apply</p>
+<p begin="00:04:48.800" end="00:04:55.840" style="s2">styles to a button if it was inside of a</p>
+<p begin="00:04:52.479" end="00:04:59.199" style="s2">form but we couldn&#39;t add a styles to the</p>
+<p begin="00:04:55.840" end="00:05:02.400" style="s2">form if it contained a button has</p>
+<p begin="00:04:59.199" end="00:05:05.039" style="s2">completely fixes this to add styles to a</p>
+<p begin="00:05:02.400" end="00:05:06.800" style="s2">form if it contains a button all we have</p>
+<p begin="00:05:05.039" end="00:05:10.000" style="s2">to do is this</p>
+<p begin="00:05:06.800" end="00:05:12.960" style="s2">and that is super super useful you can</p>
+<p begin="00:05:10.000" end="00:05:17.039" style="s2">now for example add styles to a list</p>
+<p begin="00:05:12.960" end="00:05:19.120" style="s2">item if the list item contains a link or</p>
+<p begin="00:05:17.039" end="00:05:22.160" style="s2">you can change the way a link looks like</p>
+<p begin="00:05:19.120" end="00:05:23.919" style="s2">if the link is around an image or you</p>
+<p begin="00:05:22.160" end="00:05:27.199" style="s2">can go a little crazy and you can change</p>
+<p begin="00:05:23.919" end="00:05:29.600" style="s2">the style of a form if the form has a</p>
+<p begin="00:05:27.199" end="00:05:32.080" style="s2">button and the button has the mouse on</p>
+<p begin="00:05:29.600" end="00:05:34.080" style="s2">top of it</p>
+<p begin="00:05:32.080" end="00:05:37.520" style="s2">there are two viewport units that are</p>
+<p begin="00:05:34.080" end="00:05:39.680" style="s2">very well known vw and vh vw gives you</p>
+<p begin="00:05:37.520" end="00:05:42.320" style="s2">the viewport width and vh gives you the</p>
+<p begin="00:05:39.680" end="00:05:44.400" style="s2">viewport height viewport is the area or</p>
+<p begin="00:05:42.320" end="00:05:47.120" style="s2">the window from which the website is</p>
+<p begin="00:05:44.400" end="00:05:50.560" style="s2">being seen in a mobile screen since we</p>
+<p begin="00:05:47.120" end="00:05:52.400" style="s2">can&#39;t resize windows in mobile 100 vh</p>
+<p begin="00:05:50.560" end="00:05:55.360" style="s2">will give you the total</p>
+<p begin="00:05:52.400" end="00:05:58.000" style="s2">height of the screen and 100 vw will</p>
+<p begin="00:05:55.360" end="00:06:00.000" style="s2">give you the total width of the screen</p>
+<p begin="00:05:58.000" end="00:06:03.360" style="s2">but now we have even more units for</p>
+<p begin="00:06:00.000" end="00:06:05.919" style="s2">mobile sizes we have lvh which is</p>
+<p begin="00:06:03.360" end="00:06:07.919" style="s2">largest viewport height we have svh</p>
+<p begin="00:06:05.919" end="00:06:10.240" style="s2">which is the smallest viewport height</p>
+<p begin="00:06:07.919" end="00:06:12.720" style="s2">and we have the vh which is dynamic</p>
+<p begin="00:06:10.240" end="00:06:15.600" style="s2">viewport height largest will be the size</p>
+<p begin="00:06:12.720" end="00:06:17.680" style="s2">of the screen without the navigation bar</p>
+<p begin="00:06:15.600" end="00:06:20.400" style="s2">smallest will be the size of the screen</p>
+<p begin="00:06:17.680" end="00:06:22.880" style="s2">with the navigation bar and dynamic will</p>
+<p begin="00:06:20.400" end="00:06:27.199" style="s2">be a size that changes depending if the</p>
+<p begin="00:06:22.880" end="00:06:27.199" style="s2">navigation bar is shown or not</p>
+<p begin="00:06:27.280" end="00:06:31.520" style="s2">this code might look very familiar to</p>
+<p begin="00:06:29.360" end="00:06:33.520" style="s2">you when we do css we have to repeat</p>
+<p begin="00:06:31.520" end="00:06:35.759" style="s2">ourselves sometimes we want to make sure</p>
+<p begin="00:06:33.520" end="00:06:38.240" style="s2">that we only apply some styles to the</p>
+<p begin="00:06:35.759" end="00:06:40.639" style="s2">children of certain parents in our</p>
+<p begin="00:06:38.240" end="00:06:42.720" style="s2">example we repeat the nav selector three</p>
+<p begin="00:06:40.639" end="00:06:45.120" style="s2">times when we want to target the list</p>
+<p begin="00:06:42.720" end="00:06:47.600" style="s2">inside of the nav and the list item</p>
+<p begin="00:06:45.120" end="00:06:49.840" style="s2">inside of the list inside of the nut the</p>
+<p begin="00:06:47.600" end="00:06:52.319" style="s2">nest rule allows you to turn our code</p>
+<p begin="00:06:49.840" end="00:06:54.639" style="s2">from what we just seen to something like</p>
+<p begin="00:06:52.319" end="00:06:56.400" style="s2">this as you can see it looks much much</p>
+<p begin="00:06:54.639" end="00:06:58.880" style="s2">better is way easier to read and we</p>
+<p begin="00:06:56.400" end="00:07:00.960" style="s2">don&#39;t have to repeat enough even once we</p>
+<p begin="00:06:58.880" end="00:07:04.000" style="s2">write it one time and then we write the</p>
+<p begin="00:07:00.960" end="00:07:06.639" style="s2">children inside of it nested and what we</p>
+<p begin="00:07:04.000" end="00:07:08.960" style="s2">used so far is the nested selector sign</p>
+<p begin="00:07:06.639" end="00:07:12.560" style="s2">which is this ampersand sign but we can</p>
+<p begin="00:07:08.960" end="00:07:14.479" style="s2">also use the add nest rule the add nest</p>
+<p begin="00:07:12.560" end="00:07:16.560" style="s2">rule gives us more power when nesting</p>
+<p begin="00:07:14.479" end="00:07:19.199" style="s2">selectors that do not start with an</p>
+<p begin="00:07:16.560" end="00:07:21.120" style="s2">ampersand with the nest rule we could do</p>
+<p begin="00:07:19.199" end="00:07:24.479" style="s2">something like this</p>
+<p begin="00:07:21.120" end="00:07:26.319" style="s2">and that is the same as doing this</p>
+<p begin="00:07:24.479" end="00:07:28.720" style="s2">as you can see the ampersand sign</p>
+<p begin="00:07:26.319" end="00:07:32.639" style="s2">becomes a placeholder which is very cool</p>
+<p begin="00:07:28.720" end="00:07:32.639" style="s2">because you can do very exciting stuff</p>
+<p begin="00:07:32.720" end="00:07:37.360" style="s2">the scope rule allows you to scope your</p>
+<p begin="00:07:35.039" end="00:07:40.240" style="s2">styles or basically isolate them into</p>
+<p begin="00:07:37.360" end="00:07:42.720" style="s2">their own style bubble take this code</p>
+<p begin="00:07:40.240" end="00:07:44.879" style="s2">for example as you can see here we are</p>
+<p begin="00:07:42.720" end="00:07:47.759" style="s2">changing the styles of the navigation</p>
+<p begin="00:07:44.879" end="00:07:51.520" style="s2">and the title class depending on them</p>
+<p begin="00:07:47.759" end="00:07:54.479" style="s2">being inside of a header or inside of an</p>
+<p begin="00:07:51.520" end="00:07:56.560" style="s2">aside tag or for example if we want to</p>
+<p begin="00:07:54.479" end="00:07:58.479" style="s2">create a dark theme and then maybe a</p>
+<p begin="00:07:56.560" end="00:08:01.360" style="s2">lighter theme and maybe a purple theme</p>
+<p begin="00:07:58.479" end="00:08:04.400" style="s2">we could do something like this as you</p>
+<p begin="00:08:01.360" end="00:08:07.599" style="s2">can see a scope makes it so much easier</p>
+<p begin="00:08:04.400" end="00:08:09.840" style="s2">to write isolate and think about our</p>
+<p begin="00:08:07.599" end="00:08:12.160" style="s2">styles so please compare what we just</p>
+<p begin="00:08:09.840" end="00:08:14.160" style="s2">did using scope and dark light and</p>
+<p begin="00:08:12.160" end="00:08:16.879" style="s2">purple theme with what we would have to</p>
+<p begin="00:08:14.160" end="00:08:18.879" style="s2">do if we didn&#39;t use a scope at all now</p>
+<p begin="00:08:16.879" end="00:08:21.280" style="s2">you tell me what looks better and you</p>
+<p begin="00:08:18.879" end="00:08:23.840" style="s2">tell me what is easier to read and</p>
+<p begin="00:08:21.280" end="00:08:23.840" style="s2">understand</p>
+<p begin="00:08:23.919" end="00:08:28.960" style="s2">before the container rule css elements</p>
+<p begin="00:08:26.400" end="00:08:30.720" style="s2">could only respond to changes in the</p>
+<p begin="00:08:28.960" end="00:08:33.120" style="s2">width of the window this is how we do</p>
+<p begin="00:08:30.720" end="00:08:35.200" style="s2">responsive design if the screen becomes</p>
+<p begin="00:08:33.120" end="00:08:37.919" style="s2">smaller then we modify and move things</p>
+<p begin="00:08:35.200" end="00:08:40.399" style="s2">inside of the page but that was only by</p>
+<p begin="00:08:37.919" end="00:08:43.120" style="s2">listening to the changes in the width of</p>
+<p begin="00:08:40.399" end="00:08:45.680" style="s2">the window with the container rule</p>
+<p begin="00:08:43.120" end="00:08:48.480" style="s2">elements can listen for changes not on</p>
+<p begin="00:08:45.680" end="00:08:50.720" style="s2">the window but on their parents here we</p>
+<p begin="00:08:48.480" end="00:08:52.640" style="s2">are creating a container we name it</p>
+<p begin="00:08:50.720" end="00:08:55.519" style="s2">header container and we say that we want</p>
+<p begin="00:08:52.640" end="00:08:57.040" style="s2">to know about the changes to its size</p>
+<p begin="00:08:55.519" end="00:09:00.080" style="s2">then we say that when the header</p>
+<p begin="00:08:57.040" end="00:09:02.480" style="s2">container has a minimum width of 600</p>
+<p begin="00:09:00.080" end="00:09:06.640" style="s2">pixels the display property of the</p>
+<p begin="00:09:02.480" end="00:09:08.800" style="s2">navigation must be flex</p>
+<p begin="00:09:06.640" end="00:09:11.360" style="s2">with the custom media rule we can create</p>
+<p begin="00:09:08.800" end="00:09:13.519" style="s2">media query variables and just reuse</p>
+<p begin="00:09:11.360" end="00:09:15.760" style="s2">them here we are creating dark mode</p>
+<p begin="00:09:13.519" end="00:09:17.680" style="s2">variable light mode variable landscape</p>
+<p begin="00:09:15.760" end="00:09:19.839" style="s2">portrait iphone variable whatever we</p>
+<p begin="00:09:17.680" end="00:09:21.279" style="s2">want and then all we have to do is reuse</p>
+<p begin="00:09:19.839" end="00:09:23.600" style="s2">them when we&#39;re writing our media</p>
+<p begin="00:09:21.279" end="00:09:25.839" style="s2">queries without this new feature our</p>
+<p begin="00:09:23.600" end="00:09:27.440" style="s2">code would look something like this</p>
+<p begin="00:09:25.839" end="00:09:30.640" style="s2">there will be a lot of copy pasting and</p>
+<p begin="00:09:27.440" end="00:09:32.800" style="s2">maybe many mistakes now you tell me what</p>
+<p begin="00:09:30.640" end="00:09:35.440" style="s2">looks best now please let me know in the</p>
+<p begin="00:09:32.800" end="00:09:37.600" style="s2">comments which one is your favorite css</p>
+<p begin="00:09:35.440" end="00:09:39.519" style="s2">property mines are all the color ones i</p>
+<p begin="00:09:37.600" end="00:09:40.959" style="s2">like accent colors i like contrast color</p>
+<p begin="00:09:39.519" end="00:09:43.040" style="s2">i like color mixing i think they&#39;re</p>
+<p begin="00:09:40.959" end="00:09:45.360" style="s2">pretty pretty cool and i really like the</p>
+<p begin="00:09:43.040" end="00:09:47.200" style="s2">media query variables they&#39;re very very</p>
+<p begin="00:09:45.360" end="00:09:48.880" style="s2">sexy let me know what you think what was</p>
+<p begin="00:09:47.200" end="00:09:50.800" style="s2">your favorite as always stay happy stay</p>
+<p begin="00:09:48.880" end="00:09:54.680" style="s2">free it kimchi come hamidah salmon heyo</p>
+<p begin="00:09:50.800" end="00:09:54.680" style="s2">see you on the next one bye</p>
+</div>
+</body>
+</tt>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.120" end="00:00:07.319" style="s2">today I would like to share with you my</p>
+<p begin="00:00:04.620" end="00:00:09.059" style="s2">favorite books of all time it is not an</p>
+<p begin="00:00:07.319" end="00:00:11.460" style="s2">exaggeration to say that the books I&#39;m</p>
+<p begin="00:00:09.059" end="00:00:14.160" style="s2">about to share with you changed my life</p>
+<p begin="00:00:11.460" end="00:00:17.039" style="s2">they changed the way I approach work how</p>
+<p begin="00:00:14.160" end="00:00:19.440" style="s2">I treat people how I see things how I</p>
+<p begin="00:00:17.039" end="00:00:22.020" style="s2">judge things how I make decisions</p>
+<p begin="00:00:19.440" end="00:00:24.240" style="s2">everything and the first book is one of</p>
+<p begin="00:00:22.020" end="00:00:26.519" style="s2">the greatest books of all time it was</p>
+<p begin="00:00:24.240" end="00:00:29.220" style="s2">written by what was one of the most</p>
+<p begin="00:00:26.519" end="00:00:31.619" style="s2">powerful men in the history of the world</p>
+<p begin="00:00:29.220" end="00:00:34.200" style="s2">he controlled the largest army in the</p>
+<p begin="00:00:31.619" end="00:00:37.260" style="s2">world could do whatever he wanted and</p>
+<p begin="00:00:34.200" end="00:00:39.660" style="s2">was infinitely Rich yet the book he</p>
+<p begin="00:00:37.260" end="00:00:41.700" style="s2">wrote is incredibly relatable even</p>
+<p begin="00:00:39.660" end="00:00:43.800" style="s2">though it has been thousands of years</p>
+<p begin="00:00:41.700" end="00:00:45.600" style="s2">since it was published you can pick it</p>
+<p begin="00:00:43.800" end="00:00:47.579" style="s2">up right now and get something useful</p>
+<p begin="00:00:45.600" end="00:00:50.399" style="s2">out of it the book is called meditations</p>
+<p begin="00:00:47.579" end="00:00:52.920" style="s2">and it was written by Marcos Aurelius a</p>
+<p begin="00:00:50.399" end="00:00:54.960" style="s2">Roman Emperor this book was never meant</p>
+<p begin="00:00:52.920" end="00:00:57.719" style="s2">to be published it is a book of notes</p>
+<p begin="00:00:54.960" end="00:00:59.940" style="s2">that Marcos wrote for himself on how to</p>
+<p begin="00:00:57.719" end="00:01:02.520" style="s2">be a good person how to live a good life</p>
+<p begin="00:00:59.940" end="00:01:04.619" style="s2">life how to control your ego how to stay</p>
+<p begin="00:01:02.520" end="00:01:06.900" style="s2">humble and how to make better choices</p>
+<p begin="00:01:04.619" end="00:01:09.420" style="s2">following the principles of the stoic</p>
+<p begin="00:01:06.900" end="00:01:11.460" style="s2">philosophy he held the highest office in</p>
+<p begin="00:01:09.420" end="00:01:14.100" style="s2">the Roman Empire the same office that</p>
+<p begin="00:01:11.460" end="00:01:16.860" style="s2">monsters like Caligula and Nero help yet</p>
+<p begin="00:01:14.100" end="00:01:19.320" style="s2">he was not corrupted by power and he is</p>
+<p begin="00:01:16.860" end="00:01:22.320" style="s2">remembered to be one of the greatest and</p>
+<p begin="00:01:19.320" end="00:01:24.600" style="s2">wisest Emperors Rome ever had he also</p>
+<p begin="00:01:22.320" end="00:01:26.580" style="s2">dealt with the death of eight of his</p>
+<p begin="00:01:24.600" end="00:01:30.119" style="s2">children people trying to assassinate</p>
+<p begin="00:01:26.580" end="00:01:31.920" style="s2">him multiple Works a pandemic and all</p>
+<p begin="00:01:30.119" end="00:01:34.439" style="s2">the stress a person can feel when trying</p>
+<p begin="00:01:31.920" end="00:01:36.420" style="s2">to run an Empire yet he took the time to</p>
+<p begin="00:01:34.439" end="00:01:38.520" style="s2">write himself notes on how to be good</p>
+<p begin="00:01:36.420" end="00:01:40.920" style="s2">and it&#39;s crazy to think that thousands</p>
+<p begin="00:01:38.520" end="00:01:42.900" style="s2">of years later we can read the thoughts</p>
+<p begin="00:01:40.920" end="00:01:45.180" style="s2">that were going to the head of one of</p>
+<p begin="00:01:42.900" end="00:01:47.100" style="s2">the greatest and wisest men of all time</p>
+<p begin="00:01:45.180" end="00:01:49.619" style="s2">even though the emperor was worshiped as</p>
+<p begin="00:01:47.100" end="00:01:51.780" style="s2">a God he knew he wasn&#39;t one so he wrote</p>
+<p begin="00:01:49.619" end="00:01:54.060" style="s2">a note to himself on things that we all</p>
+<p begin="00:01:51.780" end="00:01:56.100" style="s2">struggle with for example how hard it is</p>
+<p begin="00:01:54.060" end="00:01:58.380" style="s2">to wake up early in the morning he</p>
+<p begin="00:01:56.100" end="00:02:00.899" style="s2">writes are done when you have trouble</p>
+<p begin="00:01:58.380" end="00:02:03.479" style="s2">getting out of bed tell yourself I have</p>
+<p begin="00:02:00.899" end="00:02:05.520" style="s2">to go to work as a human being what do I</p>
+<p begin="00:02:03.479" end="00:02:07.259" style="s2">have to complain of if I am going to do</p>
+<p begin="00:02:05.520" end="00:02:09.420" style="s2">what I was born for to do the things</p>
+<p begin="00:02:07.259" end="00:02:11.459" style="s2">that I was brought into the world to do</p>
+<p begin="00:02:09.420" end="00:02:13.739" style="s2">or is this what I was created for to</p>
+<p begin="00:02:11.459" end="00:02:16.319" style="s2">huddle under the blankets and stay warm</p>
+<p begin="00:02:13.739" end="00:02:18.300" style="s2">were you born to feel nice instead of</p>
+<p begin="00:02:16.319" end="00:02:20.760" style="s2">doing things and experiencing them don&#39;t</p>
+<p begin="00:02:18.300" end="00:02:23.099" style="s2">you see the plans the birds the ants and</p>
+<p begin="00:02:20.760" end="00:02:25.020" style="s2">the spiders and bees going about their</p>
+<p begin="00:02:23.099" end="00:02:27.420" style="s2">individual tasks putting the word in</p>
+<p begin="00:02:25.020" end="00:02:29.340" style="s2">order as best they can and you are not</p>
+<p begin="00:02:27.420" end="00:02:31.680" style="s2">willing to do your job as a human being</p>
+<p begin="00:02:29.340" end="00:02:34.440" style="s2">why aren&#39;t you running to do what your</p>
+<p begin="00:02:31.680" end="00:02:36.300" style="s2">nature demands I love this quote for me</p>
+<p begin="00:02:34.440" end="00:02:38.580" style="s2">it means that we weren&#39;t built to be</p>
+<p begin="00:02:36.300" end="00:02:41.099" style="s2">comfortable our body and brain is an</p>
+<p begin="00:02:38.580" end="00:02:42.840" style="s2">incredible machine we can&#39;t grow if we</p>
+<p begin="00:02:41.099" end="00:02:45.180" style="s2">are comfortable we have to rise every</p>
+<p begin="00:02:42.840" end="00:02:46.920" style="s2">morning ready to face the day and do</p>
+<p begin="00:02:45.180" end="00:02:48.480" style="s2">what we are here for even though</p>
+<p begin="00:02:46.920" end="00:02:50.940" style="s2">smartphones were not a thing in the</p>
+<p begin="00:02:48.480" end="00:02:53.239" style="s2">Roman Empire Marcos also struggled like</p>
+<p begin="00:02:50.940" end="00:02:55.920" style="s2">we do with concentration here right</p>
+<p begin="00:02:53.239" end="00:02:57.660" style="s2">concentrate every minute like a Roman on</p>
+<p begin="00:02:55.920" end="00:03:00.120" style="s2">doing what is in front of view with</p>
+<p begin="00:02:57.660" end="00:03:02.640" style="s2">precise and genuine seriousness tenderly</p>
+<p begin="00:03:00.120" end="00:03:04.739" style="s2">willingly with Justice and referring</p>
+<p begin="00:03:02.640" end="00:03:06.420" style="s2">yourself from all other distractions do</p>
+<p begin="00:03:04.739" end="00:03:08.280" style="s2">everything as if it were the last thing</p>
+<p begin="00:03:06.420" end="00:03:10.560" style="s2">you were doing in your life and stop</p>
+<p begin="00:03:08.280" end="00:03:12.840" style="s2">being aimless stop letting your emotions</p>
+<p begin="00:03:10.560" end="00:03:14.879" style="s2">override what your mind tells you stop</p>
+<p begin="00:03:12.840" end="00:03:17.040" style="s2">being hypocritical self-centered</p>
+<p begin="00:03:14.879" end="00:03:19.739" style="s2">irritable you see how few things you</p>
+<p begin="00:03:17.040" end="00:03:21.959" style="s2">have to do to live a satisfying life if</p>
+<p begin="00:03:19.739" end="00:03:24.120" style="s2">you can manage this that&#39;s all even the</p>
+<p begin="00:03:21.959" end="00:03:26.099" style="s2">gods can ask of you there is so much</p>
+<p begin="00:03:24.120" end="00:03:28.260" style="s2">truth in this quote if we really</p>
+<p begin="00:03:26.099" end="00:03:30.840" style="s2">concentrated only on the task at hand</p>
+<p begin="00:03:28.260" end="00:03:33.180" style="s2">and nothing else imagine how far we</p>
+<p begin="00:03:30.840" end="00:03:35.580" style="s2">would go how productive we would be and</p>
+<p begin="00:03:33.180" end="00:03:38.220" style="s2">how simple life would get on worrying</p>
+<p begin="00:03:35.580" end="00:03:40.560" style="s2">about what other people think he writes</p>
+<p begin="00:03:38.220" end="00:03:42.780" style="s2">I have often wondered how is that every</p>
+<p begin="00:03:40.560" end="00:03:45.840" style="s2">man loves himself more than all the rest</p>
+<p begin="00:03:42.780" end="00:03:47.760" style="s2">of men but yet sets less value on his</p>
+<p begin="00:03:45.840" end="00:03:49.500" style="s2">own opinions of himself than on the</p>
+<p begin="00:03:47.760" end="00:03:51.599" style="s2">opinions of others how much time he</p>
+<p begin="00:03:49.500" end="00:03:54.000" style="s2">gains who does not look to see what his</p>
+<p begin="00:03:51.599" end="00:03:56.459" style="s2">neighbor says or does or think but only</p>
+<p begin="00:03:54.000" end="00:03:59.519" style="s2">as what he does himself to make it just</p>
+<p begin="00:03:56.459" end="00:04:01.560" style="s2">and Hall If any man despises me that is</p>
+<p begin="00:03:59.519" end="00:04:04.080" style="s2">his problem my only concern is not doing</p>
+<p begin="00:04:01.560" end="00:04:06.599" style="s2">or saying anything the serving of</p>
+<p begin="00:04:04.080" end="00:04:08.760" style="s2">content you always own the option of</p>
+<p begin="00:04:06.599" end="00:04:11.040" style="s2">having no opinion there is never any</p>
+<p begin="00:04:08.760" end="00:04:13.080" style="s2">need to get worked up or to trouble your</p>
+<p begin="00:04:11.040" end="00:04:15.540" style="s2">soul about things you can&#39;t control</p>
+<p begin="00:04:13.080" end="00:04:18.479" style="s2">these things are not asked to be judged</p>
+<p begin="00:04:15.540" end="00:04:22.019" style="s2">by you leave them alone on living life</p>
+<p begin="00:04:18.479" end="00:04:24.900" style="s2">fully he writes do not act as if you had</p>
+<p begin="00:04:22.019" end="00:04:26.400" style="s2">10 000 years to throw away that stands</p>
+<p begin="00:04:24.900" end="00:04:28.259" style="s2">at your elbow be good for something</p>
+<p begin="00:04:26.400" end="00:04:30.240" style="s2">while you leave and it&#39;s in your power</p>
+<p begin="00:04:28.259" end="00:04:32.520" style="s2">think of yourself as death you have</p>
+<p begin="00:04:30.240" end="00:04:34.860" style="s2">lived your life now take what&#39;s left and</p>
+<p begin="00:04:32.520" end="00:04:37.020" style="s2">leave it properly death is something the</p>
+<p begin="00:04:34.860" end="00:04:38.940" style="s2">stories meditate on a lot it is</p>
+<p begin="00:04:37.020" end="00:04:41.580" style="s2">something I also think about a lot I</p>
+<p begin="00:04:38.940" end="00:04:43.560" style="s2">even have a tattoo reminding me of it we</p>
+<p begin="00:04:41.580" end="00:04:46.259" style="s2">all act and live like we&#39;re going to</p>
+<p begin="00:04:43.560" end="00:04:49.080" style="s2">live forever which as the next book says</p>
+<p begin="00:04:46.259" end="00:04:51.780" style="s2">it&#39;s a very arrogant thing to do how do</p>
+<p begin="00:04:49.080" end="00:04:55.680" style="s2">we know we have five years more to live</p>
+<p begin="00:04:51.780" end="00:04:58.560" style="s2">or 10 or 20. we can&#39;t be sure yet we act</p>
+<p begin="00:04:55.680" end="00:05:01.440" style="s2">like we are as Seneca says life isn&#39;t</p>
+<p begin="00:04:58.560" end="00:05:03.120" style="s2">short we just waste a lot of it on being</p>
+<p begin="00:05:01.440" end="00:05:06.060" style="s2">humble which is something you wouldn&#39;t</p>
+<p begin="00:05:03.120" end="00:05:08.820" style="s2">expect a Roman Emperor to be Marcos</p>
+<p begin="00:05:06.060" end="00:05:10.620" style="s2">Aurelius writes if someone can prove me</p>
+<p begin="00:05:08.820" end="00:05:13.199" style="s2">wrong and show me my mistake in any</p>
+<p begin="00:05:10.620" end="00:05:16.020" style="s2">thought or action I shall gladly change</p>
+<p begin="00:05:13.199" end="00:05:19.020" style="s2">I seek the truth which never harmed</p>
+<p begin="00:05:16.020" end="00:05:21.120" style="s2">anyone the harm is to persist in one&#39;s</p>
+<p begin="00:05:19.020" end="00:05:23.580" style="s2">own self-deception and ignorance</p>
+<p begin="00:05:21.120" end="00:05:25.380" style="s2">meditations is a book full of quotes</p>
+<p begin="00:05:23.580" end="00:05:27.840" style="s2">that you can ponder upon and apply to</p>
+<p begin="00:05:25.380" end="00:05:30.240" style="s2">your own life it is very easy to read as</p>
+<p begin="00:05:27.840" end="00:05:31.979" style="s2">it is just a collection of notes which</p>
+<p begin="00:05:30.240" end="00:05:33.720" style="s2">means that you can open a random page on</p>
+<p begin="00:05:31.979" end="00:05:35.639" style="s2">a random day or you can read the book</p>
+<p begin="00:05:33.720" end="00:05:37.740" style="s2">over and over again and you will get</p>
+<p begin="00:05:35.639" end="00:05:39.900" style="s2">something different out of it every time</p>
+<p begin="00:05:37.740" end="00:05:41.460" style="s2">as this video is already too long I</p>
+<p begin="00:05:39.900" end="00:05:43.020" style="s2">would like to ask you to let me know in</p>
+<p begin="00:05:41.460" end="00:05:44.940" style="s2">the comments if you will be interested</p>
+<p begin="00:05:43.020" end="00:05:47.039" style="s2">in a part two of this video talking</p>
+<p begin="00:05:44.940" end="00:05:48.479" style="s2">about the other books I highly recommend</p>
+<p begin="00:05:47.039" end="00:05:50.460" style="s2">you get your hands on a copy of</p>
+<p begin="00:05:48.479" end="00:05:52.919" style="s2">meditations and I hope it is as helpful</p>
+<p begin="00:05:50.460" end="00:05:55.560" style="s2">to you as it was to me but don&#39;t rush to</p>
+<p begin="00:05:52.919" end="00:05:57.900" style="s2">finish it as is not too long but instead</p>
+<p begin="00:05:55.560" end="00:05:59.759" style="s2">read a couple of quotes every day and</p>
+<p begin="00:05:57.900" end="00:06:01.860" style="s2">reflect on them I know this kind of</p>
+<p begin="00:05:59.759" end="00:06:03.600" style="s2">video is very off topic but don&#39;t worry</p>
+<p begin="00:06:01.860" end="00:06:05.940" style="s2">next week we will be back talking about</p>
+<p begin="00:06:03.600" end="00:06:07.500" style="s2">code programming and all that stuff and</p>
+<p begin="00:06:05.940" end="00:06:09.419" style="s2">don&#39;t forget that if you want to learn</p>
+<p begin="00:06:07.500" end="00:06:12.000" style="s2">things like JavaScript python react</p>
+<p begin="00:06:09.419" end="00:06:15.300" style="s2">react native go dark flutter among many</p>
+<p begin="00:06:12.000" end="00:06:16.860" style="s2">many others for absolutely free all you</p>
+<p begin="00:06:15.300" end="00:06:19.500" style="s2">have to do is click the link below to</p>
+<p begin="00:06:16.860" end="00:06:21.720" style="s2">join any of our many free courses that</p>
+<p begin="00:06:19.500" end="00:06:24.539" style="s2">you can take right now for absolutely</p>
+<p begin="00:06:21.720" end="00:06:26.660" style="s2">free winning click the link below and I</p>
+<p begin="00:06:24.539" end="00:06:30.600" style="s2">will see you there</p>
+<p begin="00:06:26.660" end="00:06:32.330" style="s2">see you on the next one bye</p>
+<p begin="00:06:30.600" end="00:06:45.480" style="s2">thank you</p>
+<p begin="00:06:32.330" end="00:06:45.480" style="s2">[Music]</p>
+</div>
+</body>
+</tt>

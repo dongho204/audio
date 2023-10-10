@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.060" end="00:00:06.319" style="s2">today we are going to discuss what could</p>
+<p begin="00:00:04.440" end="00:00:09.720" style="s2">potentially be one of the most</p>
+<p begin="00:00:06.319" end="00:00:12.360" style="s2">revolutionary programming languages Mojo</p>
+<p begin="00:00:09.720" end="00:00:14.400" style="s2">it&#39;s been a long time since I&#39;ve seen so</p>
+<p begin="00:00:12.360" end="00:00:16.260" style="s2">many people excited about a programming</p>
+<p begin="00:00:14.400" end="00:00:18.660" style="s2">language So today we&#39;re going to learn</p>
+<p begin="00:00:16.260" end="00:00:21.180" style="s2">what Mojo is why people are losing their</p>
+<p begin="00:00:18.660" end="00:00:23.580" style="s2">minds over it and what the code looks</p>
+<p begin="00:00:21.180" end="00:00:25.140" style="s2">like but first let&#39;s talk about python</p>
+<p begin="00:00:23.580" end="00:00:27.060" style="s2">python is one of the most used</p>
+<p begin="00:00:25.140" end="00:00:29.640" style="s2">programming languages in the world</p>
+<p begin="00:00:27.060" end="00:00:31.679" style="s2">because it&#39;s very beginner friendly and</p>
+<p begin="00:00:29.640" end="00:00:33.660" style="s2">easy to read and write because of this</p>
+<p begin="00:00:31.679" end="00:00:37.260" style="s2">it&#39;s used by all sorts of communities</p>
+<p begin="00:00:33.660" end="00:00:40.920" style="s2">web developers data scientists marketers</p>
+<p begin="00:00:37.260" end="00:00:44.760" style="s2">AI enthusiasts Etc but python is slow</p>
+<p begin="00:00:40.920" end="00:00:47.520" style="s2">super slow hundreds of times slower than</p>
+<p begin="00:00:44.760" end="00:00:50.039" style="s2">C plus plus or rust C plus plus and rust</p>
+<p begin="00:00:47.520" end="00:00:52.320" style="s2">among others are what we use when we</p>
+<p begin="00:00:50.039" end="00:00:54.600" style="s2">want speed when we want to be as close</p>
+<p begin="00:00:52.320" end="00:00:57.000" style="s2">to the metal as possible when we want to</p>
+<p begin="00:00:54.600" end="00:00:59.640" style="s2">use all the cores when we want to have</p>
+<p begin="00:00:57.000" end="00:01:01.739" style="s2">full control another problem with python</p>
+<p begin="00:00:59.640" end="00:01:03.539" style="s2">is that is hard to distribute if I</p>
+<p begin="00:01:01.739" end="00:01:05.580" style="s2">finish a Python program and I want to</p>
+<p begin="00:01:03.539" end="00:01:07.500" style="s2">give it to you to run it you will have</p>
+<p begin="00:01:05.580" end="00:01:09.060" style="s2">to install python in your machine as</p>
+<p begin="00:01:07.500" end="00:01:12.780" style="s2">well as all the other packages my</p>
+<p begin="00:01:09.060" end="00:01:14.700" style="s2">program needs to run enter Mojo Mojo is</p>
+<p begin="00:01:12.780" end="00:01:17.700" style="s2">not a completely new programming</p>
+<p begin="00:01:14.700" end="00:01:20.460" style="s2">language Mojo is a super set of python</p>
+<p begin="00:01:17.700" end="00:01:23.040" style="s2">being a superset of python means that it</p>
+<p begin="00:01:20.460" end="00:01:25.020" style="s2">builds on top of python it uses all the</p>
+<p begin="00:01:23.040" end="00:01:27.780" style="s2">python features and syntax that</p>
+<p begin="00:01:25.020" end="00:01:30.840" style="s2">everybody knows and it adds a ton of new</p>
+<p begin="00:01:27.780" end="00:01:33.780" style="s2">much powerful features to it Mojo makes</p>
+<p begin="00:01:30.840" end="00:01:36.360" style="s2">python as fast and Powerful as C plus</p>
+<p begin="00:01:33.780" end="00:01:39.420" style="s2">and rust apart from a couple of things</p>
+<p begin="00:01:36.360" end="00:01:42.119" style="s2">Mojo and python syntax are the same this</p>
+<p begin="00:01:39.420" end="00:01:45.180" style="s2">code will run in both Mojo and python</p>
+<p begin="00:01:42.119" end="00:01:47.460" style="s2">just fine Mojo also aims to be fully</p>
+<p begin="00:01:45.180" end="00:01:50.040" style="s2">python compatible which means that only</p>
+<p begin="00:01:47.460" end="00:01:52.680" style="s2">already existing python packages in</p>
+<p begin="00:01:50.040" end="00:01:55.560" style="s2">libraries will all work in Mojo by</p>
+<p begin="00:01:52.680" end="00:01:58.320" style="s2">default this is how we can import python</p>
+<p begin="00:01:55.560" end="00:02:01.680" style="s2">libraries in the case of numpy from a</p>
+<p begin="00:01:58.320" end="00:02:04.560" style="s2">Mojo program module uses that that Mojo</p>
+<p begin="00:02:01.680" end="00:02:07.079" style="s2">file extension as well as the dot fire</p>
+<p begin="00:02:04.560" end="00:02:09.539" style="s2">Emoji extension which I think is pretty</p>
+<p begin="00:02:07.079" end="00:02:11.520" style="s2">cool even though Mojo understands python</p>
+<p begin="00:02:09.539" end="00:02:14.099" style="s2">code that doesn&#39;t mean that the code</p>
+<p begin="00:02:11.520" end="00:02:16.440" style="s2">will automatically run fast if we want</p>
+<p begin="00:02:14.099" end="00:02:19.140" style="s2">to enable fast mode in Mojo we have to</p>
+<p begin="00:02:16.440" end="00:02:21.780" style="s2">use different keywords for example this</p>
+<p begin="00:02:19.140" end="00:02:24.120" style="s2">python function will run in module but</p>
+<p begin="00:02:21.780" end="00:02:26.160" style="s2">it won&#39;t run fast to make it faster to</p>
+<p begin="00:02:24.120" end="00:02:28.620" style="s2">enable fast mode we have to change the</p>
+<p begin="00:02:26.160" end="00:02:31.200" style="s2">code to this as you can see instead of</p>
+<p begin="00:02:28.620" end="00:02:33.420" style="s2">using def to define a function we use</p>
+<p begin="00:02:31.200" end="00:02:35.879" style="s2">the new keyword FN and as you can also</p>
+<p begin="00:02:33.420" end="00:02:39.540" style="s2">see we have to tell Mojo that the name</p>
+<p begin="00:02:35.879" end="00:02:41.340" style="s2">parameter is of type string the if and</p>
+<p begin="00:02:39.540" end="00:02:43.739" style="s2">keyword is very powerful when you</p>
+<p begin="00:02:41.340" end="00:02:46.200" style="s2">declare a function with FN the Mojo</p>
+<p begin="00:02:43.739" end="00:02:48.900" style="s2">compiler can make strong guarantees</p>
+<p begin="00:02:46.200" end="00:02:51.720" style="s2">about the function&#39;s behavior and it can</p>
+<p begin="00:02:48.900" end="00:02:53.879" style="s2">optimize it at compile time it is the</p>
+<p begin="00:02:51.720" end="00:02:56.400" style="s2">same with classes instead of writing our</p>
+<p begin="00:02:53.879" end="00:02:59.400" style="s2">classes like this we can use the new</p>
+<p begin="00:02:56.400" end="00:03:02.519" style="s2">struct keyword by swapping class for</p>
+<p begin="00:02:59.400" end="00:03:05.280" style="s2">struct and death for FN Mojo can</p>
+<p begin="00:03:02.519" end="00:03:08.280" style="s2">optimize our data structures at compile</p>
+<p begin="00:03:05.280" end="00:03:10.379" style="s2">time Mojo also introduces two new</p>
+<p begin="00:03:08.280" end="00:03:13.500" style="s2">keywords that python did not have before</p>
+<p begin="00:03:10.379" end="00:03:15.959" style="s2">let&#39;s Environ using let nvar we can</p>
+<p begin="00:03:13.500" end="00:03:18.300" style="s2">create immutable and mutable variable we</p>
+<p begin="00:03:15.959" end="00:03:20.760" style="s2">can use let for immutable variables and</p>
+<p begin="00:03:18.300" end="00:03:23.580" style="s2">we can use VAR for mutable ones another</p>
+<p begin="00:03:20.760" end="00:03:25.800" style="s2">cool thing about Mojo is that because it</p>
+<p begin="00:03:23.580" end="00:03:28.560" style="s2">is compiled when you finish a Mojo</p>
+<p begin="00:03:25.800" end="00:03:31.019" style="s2">program you can package it all into one</p>
+<p begin="00:03:28.560" end="00:03:33.120" style="s2">file and deploy module also comes with</p>
+<p begin="00:03:31.019" end="00:03:35.580" style="s2">an ownership and borrow checker for</p>
+<p begin="00:03:33.120" end="00:03:38.640" style="s2">memory safety following the ideas of Ros</p>
+<p begin="00:03:35.580" end="00:03:40.799" style="s2">and because it uses mlir a compiler</p>
+<p begin="00:03:38.640" end="00:03:43.379" style="s2">infrastructure Mojo is able to do</p>
+<p begin="00:03:40.799" end="00:03:45.299" style="s2">parallel processing compared to python</p>
+<p begin="00:03:43.379" end="00:03:48.299" style="s2">that is single threaded making mojo</p>
+<p begin="00:03:45.299" end="00:03:51.180" style="s2">super appealing for AI Mojo is created</p>
+<p begin="00:03:48.299" end="00:03:53.940" style="s2">by Chris Ladner a legendary developer</p>
+<p begin="00:03:51.180" end="00:03:56.040" style="s2">that in the past co-founded llvm the</p>
+<p begin="00:03:53.940" end="00:03:58.620" style="s2">silang compiler and the Swift</p>
+<p begin="00:03:56.040" end="00:04:01.860" style="s2">programming language Mojo is still</p>
+<p begin="00:03:58.620" end="00:04:04.080" style="s2">pretty new the current version is 0.1 it</p>
+<p begin="00:04:01.860" end="00:04:06.360" style="s2">does not Support classes yet and it&#39;s</p>
+<p begin="00:04:04.080" end="00:04:07.920" style="s2">not even open source to try Mojo you</p>
+<p begin="00:04:06.360" end="00:04:09.599" style="s2">have to sign up with your email to get</p>
+<p begin="00:04:07.920" end="00:04:11.760" style="s2">an invitation for the Mojo playground</p>
+<p begin="00:04:09.599" end="00:04:14.040" style="s2">the project is in its infancy but</p>
+<p begin="00:04:11.760" end="00:04:16.199" style="s2">nevertheless people are very excited at</p>
+<p begin="00:04:14.040" end="00:04:18.959" style="s2">the idea of being able to ride super</p>
+<p begin="00:04:16.199" end="00:04:21.660" style="s2">fast code using a syntax that is easy</p>
+<p begin="00:04:18.959" end="00:04:25.139" style="s2">and familiar without compromising access</p>
+<p begin="00:04:21.660" end="00:04:26.639" style="s2">to the gigantic python ecosystem now I</p>
+<p begin="00:04:25.139" end="00:04:28.380" style="s2">want to know what you think are you</p>
+<p begin="00:04:26.639" end="00:04:30.120" style="s2">excited about Mojo what do you think</p>
+<p begin="00:04:28.380" end="00:04:31.860" style="s2">about it did you try it are you gonna</p>
+<p begin="00:04:30.120" end="00:04:33.240" style="s2">try it let me know in the comments below</p>
+<p begin="00:04:31.860" end="00:04:34.979" style="s2">and don&#39;t forget that if you want to</p>
+<p begin="00:04:33.240" end="00:04:37.560" style="s2">learn things like JavaScript python</p>
+<p begin="00:04:34.979" end="00:04:40.080" style="s2">react react native gold dark flutter</p>
+<p begin="00:04:37.560" end="00:04:42.060" style="s2">among many many others for absolutely</p>
+<p begin="00:04:40.080" end="00:04:44.520" style="s2">free all you have to do is click the</p>
+<p begin="00:04:42.060" end="00:04:46.440" style="s2">link below to join any of our many free</p>
+<p begin="00:04:44.520" end="00:04:49.080" style="s2">courses that you can take right now for</p>
+<p begin="00:04:46.440" end="00:04:51.380" style="s2">absolutely free with me click the link</p>
+<p begin="00:04:49.080" end="00:04:55.919" style="s2">below and I will see you there</p>
+<p begin="00:04:51.380" end="00:04:55.919" style="s2">see you on the next one bye</p>
+<p begin="00:05:03.900" end="00:05:06.860" style="s2">thanks</p>
+</div>
+</body>
+</tt>

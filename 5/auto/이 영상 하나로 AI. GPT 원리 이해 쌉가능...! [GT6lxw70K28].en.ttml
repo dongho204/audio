@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.040" end="00:00:03.000" style="s2">on this video I would like to share with</p>
+<p begin="00:00:01.360" end="00:00:05.920" style="s2">you an explanation that will make you</p>
+<p begin="00:00:03.000" end="00:00:09.480" style="s2">understand once and for all how llms</p>
+<p begin="00:00:05.920" end="00:00:11.360" style="s2">large language models like chat GPT work</p>
+<p begin="00:00:09.480" end="00:00:14.000" style="s2">I realized that the less we know about</p>
+<p begin="00:00:11.360" end="00:00:16.039" style="s2">AI the more magical it seems but when we</p>
+<p begin="00:00:14.000" end="00:00:18.920" style="s2">study and we learn more about it that</p>
+<p begin="00:00:16.039" end="00:00:20.960" style="s2">layer of magic and mystery goes away and</p>
+<p begin="00:00:18.920" end="00:00:23.439" style="s2">we end up realizing that it&#39;s a very</p>
+<p begin="00:00:20.960" end="00:00:25.640" style="s2">impressive technical accomplishment for</p>
+<p begin="00:00:23.439" end="00:00:27.800" style="s2">sure but that it is not magical or</p>
+<p begin="00:00:25.640" end="00:00:30.599" style="s2">intelligent at all this video and its</p>
+<p begin="00:00:27.800" end="00:00:33.040" style="s2">explanations are inspired by a great 1</p>
+<p begin="00:00:30.599" end="00:00:35.320" style="s2">hour and a half talk that I watched on</p>
+<p begin="00:00:33.040" end="00:00:37.079" style="s2">understanding AI given by the CTO of</p>
+<p begin="00:00:35.320" end="00:00:38.920" style="s2">Spotify which I recommend you watch if</p>
+<p begin="00:00:37.079" end="00:00:41.000" style="s2">you have the time because I know many of</p>
+<p begin="00:00:38.920" end="00:00:42.600" style="s2">you don&#39;t have the time to watch it I</p>
+<p begin="00:00:41.000" end="00:00:44.760" style="s2">decided to make this video where I&#39;m</p>
+<p begin="00:00:42.600" end="00:00:47.039" style="s2">hoping to distill and summarize the talk</p>
+<p begin="00:00:44.760" end="00:00:49.239" style="s2">as much as possible so we can understand</p>
+<p begin="00:00:47.039" end="00:00:52.120" style="s2">on record time how chpt works from the</p>
+<p begin="00:00:49.239" end="00:00:54.120" style="s2">inside contrary to what you might think</p>
+<p begin="00:00:52.120" end="00:00:56.559" style="s2">understanding how chpt and other llms</p>
+<p begin="00:00:54.120" end="00:00:59.440" style="s2">work isn&#39;t that hard as you&#39;re about to</p>
+<p begin="00:00:56.559" end="00:01:01.440" style="s2">see conceptually is quite simple what is</p>
+<p begin="00:00:59.440" end="00:01:03.519" style="s2">hard is is the technical part turning</p>
+<p begin="00:01:01.440" end="00:01:05.960" style="s2">those Concepts into code which is the</p>
+<p begin="00:01:03.519" end="00:01:08.080" style="s2">topic for another very long video to</p>
+<p begin="00:01:05.960" end="00:01:09.759" style="s2">understand chpt and lm&#39;s conceptually</p>
+<p begin="00:01:08.080" end="00:01:12.159" style="s2">let&#39;s stop thinking of them as</p>
+<p begin="00:01:09.759" end="00:01:14.159" style="s2">intelligent beings let&#39;s instead think</p>
+<p begin="00:01:12.159" end="00:01:16.640" style="s2">of them as the autocomplete programs we</p>
+<p begin="00:01:14.159" end="00:01:18.840" style="s2">all use in our phones we can think of</p>
+<p begin="00:01:16.640" end="00:01:21.000" style="s2">chat GPT and llms as autocomplete</p>
+<p begin="00:01:18.840" end="00:01:23.360" style="s2">programs on steroids that we could</p>
+<p begin="00:01:21.000" end="00:01:26.400" style="s2">actually build ourselves manually if we</p>
+<p begin="00:01:23.360" end="00:01:28.000" style="s2">had enough time in a massive spreadsheet</p>
+<p begin="00:01:26.400" end="00:01:30.720" style="s2">let me explain if we were going to build</p>
+<p begin="00:01:28.000" end="00:01:32.439" style="s2">our own chat GPT manually what we would</p>
+<p begin="00:01:30.720" end="00:01:34.040" style="s2">have to do first is to make a</p>
+<p begin="00:01:32.439" end="00:01:36.000" style="s2">spreadsheet where we are going to put</p>
+<p begin="00:01:34.040" end="00:01:38.320" style="s2">all the words on the English dictionary</p>
+<p begin="00:01:36.000" end="00:01:39.399" style="s2">as the rose the Oxford dictionary has</p>
+<p begin="00:01:38.320" end="00:01:42.159" style="s2">around</p>
+<p begin="00:01:39.399" end="00:01:44.240" style="s2">170,000 words so we would end up with a</p>
+<p begin="00:01:42.159" end="00:01:45.960" style="s2">spreadsheet that looks something like</p>
+<p begin="00:01:44.240" end="00:01:47.719" style="s2">this for example to build our auto</p>
+<p begin="00:01:45.960" end="00:01:49.680" style="s2">complete the next step is to take all</p>
+<p begin="00:01:47.719" end="00:01:51.960" style="s2">the words in the dictionary and put them</p>
+<p begin="00:01:49.680" end="00:01:54.360" style="s2">all in a column each which is when our</p>
+<p begin="00:01:51.960" end="00:01:56.880" style="s2">Excel sheet is going to explode we would</p>
+<p begin="00:01:54.360" end="00:01:58.840" style="s2">end up with something like this as rows</p>
+<p begin="00:01:56.880" end="00:02:00.840" style="s2">we have every word in the dictionary and</p>
+<p begin="00:01:58.840" end="00:02:02.960" style="s2">as columns we also have every word in</p>
+<p begin="00:02:00.840" end="00:02:06.399" style="s2">the dictionary our Excel will have</p>
+<p begin="00:02:02.960" end="00:02:09.160" style="s2">170,000 rows and columns almost 29</p>
+<p begin="00:02:06.399" end="00:02:11.680" style="s2">billion cells our next goal would be to</p>
+<p begin="00:02:09.160" end="00:02:13.720" style="s2">calculate what is the probability that</p>
+<p begin="00:02:11.680" end="00:02:15.840" style="s2">the words in our vertical axis are</p>
+<p begin="00:02:13.720" end="00:02:17.920" style="s2">followed by the words in our horizontal</p>
+<p begin="00:02:15.840" end="00:02:20.800" style="s2">one to find those probabilities we would</p>
+<p begin="00:02:17.920" end="00:02:23.560" style="s2">have to read as many documents websites</p>
+<p begin="00:02:20.800" end="00:02:25.680" style="s2">comments papers and books as we can and</p>
+<p begin="00:02:23.560" end="00:02:27.599" style="s2">after a big effort we would end up with</p>
+<p begin="00:02:25.680" end="00:02:30.120" style="s2">something like this where now we can</p>
+<p begin="00:02:27.599" end="00:02:31.959" style="s2">tell with a high degree of probability</p>
+<p begin="00:02:30.120" end="00:02:35.440" style="s2">that for example the word apple is</p>
+<p begin="00:02:31.959" end="00:02:38.000" style="s2">followed by the word Tree in 90% of the</p>
+<p begin="00:02:35.440" end="00:02:41.760" style="s2">texts that we read or that ball is</p>
+<p begin="00:02:38.000" end="00:02:44.720" style="s2">followed by the word bounce 85% of the</p>
+<p begin="00:02:41.760" end="00:02:46.879" style="s2">cases but followed by the word barks</p>
+<p begin="00:02:44.720" end="00:02:48.519" style="s2">almost never okay we&#39;re doing great so</p>
+<p begin="00:02:46.879" end="00:02:51.040" style="s2">far but now we have a problem our</p>
+<p begin="00:02:48.519" end="00:02:53.480" style="s2">autocomplete only works with two words</p>
+<p begin="00:02:51.040" end="00:02:56.519" style="s2">we can autocomplete apple with tree and</p>
+<p begin="00:02:53.480" end="00:02:59.319" style="s2">Cat with chases or sun with shines but</p>
+<p begin="00:02:56.519" end="00:03:00.840" style="s2">what about a third word after apple tree</p>
+<p begin="00:02:59.319" end="00:03:02.959" style="s2">what comes next we need to also</p>
+<p begin="00:03:00.840" end="00:03:05.519" style="s2">autocomplete that to add support for a</p>
+<p begin="00:03:02.959" end="00:03:08.519" style="s2">third row we now have to add even more</p>
+<p begin="00:03:05.519" end="00:03:10.319" style="s2">rows to our already massive spreadsheet</p>
+<p begin="00:03:08.519" end="00:03:11.959" style="s2">and then calculate again what the</p>
+<p begin="00:03:10.319" end="00:03:14.599" style="s2">chances are for each word in the</p>
+<p begin="00:03:11.959" end="00:03:16.640" style="s2">dictionary to follow the two words Apple</p>
+<p begin="00:03:14.599" end="00:03:18.879" style="s2">Tre we would have to do this over and</p>
+<p begin="00:03:16.640" end="00:03:20.440" style="s2">over again for every set of two words</p>
+<p begin="00:03:18.879" end="00:03:22.560" style="s2">and then do it again for every set of</p>
+<p begin="00:03:20.440" end="00:03:24.239" style="s2">three words and so on and so on to be</p>
+<p begin="00:03:22.560" end="00:03:26.239" style="s2">able to autocomplete even longer</p>
+<p begin="00:03:24.239" end="00:03:28.200" style="s2">sentences as you can see conceptually</p>
+<p begin="00:03:26.239" end="00:03:29.760" style="s2">LMS are not that hard to understand what</p>
+<p begin="00:03:28.200" end="00:03:31.040" style="s2">is impressive is the technical</p>
+<p begin="00:03:29.760" end="00:03:33.000" style="s2">accomplishment on implementing an</p>
+<p begin="00:03:31.040" end="00:03:35.159" style="s2">architecture that can do what our</p>
+<p begin="00:03:33.000" end="00:03:37.560" style="s2">spreadsheet did but with thousands of</p>
+<p begin="00:03:35.159" end="00:03:39.159" style="s2">words as context that architecture is</p>
+<p begin="00:03:37.560" end="00:03:40.640" style="s2">called the Transformer and it was</p>
+<p begin="00:03:39.159" end="00:03:42.640" style="s2">introduced on a paper by Google</p>
+<p begin="00:03:40.640" end="00:03:45.280" style="s2">Engineers called attention is all you</p>
+<p begin="00:03:42.640" end="00:03:48.120" style="s2">need using this architecture the llm can</p>
+<p begin="00:03:45.280" end="00:03:50.360" style="s2">use thousands of words as context just</p>
+<p begin="00:03:48.120" end="00:03:52.000" style="s2">to guess what the next word is going</p>
+<p begin="00:03:50.360" end="00:03:54.560" style="s2">back to our spreadsheet that would be</p>
+<p begin="00:03:52.000" end="00:03:57.280" style="s2">like having a whole book in our word</p>
+<p begin="00:03:54.560" end="00:03:59.400" style="s2">column as context just to find out what</p>
+<p begin="00:03:57.280" end="00:04:01.760" style="s2">the last word of the last chapter of the</p>
+<p begin="00:03:59.400" end="00:04:03.920" style="s2">last sentence would be context is what</p>
+<p begin="00:04:01.760" end="00:04:05.560" style="s2">helps llms guess better that is why</p>
+<p begin="00:04:03.920" end="00:04:07.360" style="s2">people talk about prompt engineering the</p>
+<p begin="00:04:05.560" end="00:04:09.079" style="s2">more context that you give to an llm the</p>
+<p begin="00:04:07.360" end="00:04:11.480" style="s2">better it will perform think about it if</p>
+<p begin="00:04:09.079" end="00:04:13.360" style="s2">we give an llm a word like how there</p>
+<p begin="00:04:11.480" end="00:04:15.000" style="s2">will be many words that can follow it</p>
+<p begin="00:04:13.360" end="00:04:18.680" style="s2">with a high probability we could be</p>
+<p begin="00:04:15.000" end="00:04:21.519" style="s2">saying how are how many how come Etc but</p>
+<p begin="00:04:18.680" end="00:04:23.160" style="s2">if we give an llm the words how much is</p>
+<p begin="00:04:21.519" end="00:04:26.280" style="s2">there will not be as many options as</p>
+<p begin="00:04:23.160" end="00:04:28.440" style="s2">before now the words it that the will</p>
+<p begin="00:04:26.280" end="00:04:31.000" style="s2">have a higher probability and the words</p>
+<p begin="00:04:28.440" end="00:04:33.039" style="s2">him her and those will have lower</p>
+<p begin="00:04:31.000" end="00:04:35.440" style="s2">probabilities so the llm will choose how</p>
+<p begin="00:04:33.039" end="00:04:37.400" style="s2">much is it because it is the most common</p>
+<p begin="00:04:35.440" end="00:04:39.120" style="s2">across all the text it has seen But now</p>
+<p begin="00:04:37.400" end="00:04:41.120" style="s2">the question is if it&#39;s all about</p>
+<p begin="00:04:39.120" end="00:04:43.160" style="s2">probabilities there will always be a</p>
+<p begin="00:04:41.120" end="00:04:45.080" style="s2">word with the highest probability</p>
+<p begin="00:04:43.160" end="00:04:47.880" style="s2">doesn&#39;t that mean that the llm will</p>
+<p begin="00:04:45.080" end="00:04:50.400" style="s2">autocomplete the text always using the</p>
+<p begin="00:04:47.880" end="00:04:52.400" style="s2">same words how can llms be creative if</p>
+<p begin="00:04:50.400" end="00:04:54.440" style="s2">they are just a probability machine this</p>
+<p begin="00:04:52.400" end="00:04:56.639" style="s2">is when temperature comes in temperature</p>
+<p begin="00:04:54.440" end="00:04:58.800" style="s2">is like a lever on an llm that we can</p>
+<p begin="00:04:56.639" end="00:05:01.120" style="s2">increase or decrease temperature is what</p>
+<p begin="00:04:58.800" end="00:05:02.919" style="s2">makes chat G PT and llms appear like</p>
+<p begin="00:05:01.120" end="00:05:05.120" style="s2">they are created when the temperature of</p>
+<p begin="00:05:02.919" end="00:05:06.840" style="s2">the model is zero or close to it the</p>
+<p begin="00:05:05.120" end="00:05:09.039" style="s2">model will choose the words with the</p>
+<p begin="00:05:06.840" end="00:05:11.000" style="s2">highest probability to complete but as</p>
+<p begin="00:05:09.039" end="00:05:13.360" style="s2">the temperature goes up the model will</p>
+<p begin="00:05:11.000" end="00:05:15.639" style="s2">start to choose words that maybe have a</p>
+<p begin="00:05:13.360" end="00:05:17.440" style="s2">less probability but that still make</p>
+<p begin="00:05:15.639" end="00:05:20.720" style="s2">semantic sense so for example to</p>
+<p begin="00:05:17.440" end="00:05:22.360" style="s2">autocomplete the words I walk my the llm</p>
+<p begin="00:05:20.720" end="00:05:24.240" style="s2">will come up with a list of words and</p>
+<p begin="00:05:22.360" end="00:05:26.479" style="s2">its probabilities maybe dog will be the</p>
+<p begin="00:05:24.240" end="00:05:29.000" style="s2">highest followed by pet maybe followed</p>
+<p begin="00:05:26.479" end="00:05:31.360" style="s2">by dogs and so on since the temperature</p>
+<p begin="00:05:29.000" end="00:05:34.080" style="s2">is low the llm will go with the highest</p>
+<p begin="00:05:31.360" end="00:05:36.840" style="s2">probability and return I walk my top on</p>
+<p begin="00:05:34.080" end="00:05:40.280" style="s2">that list if dog pet and dogs were at</p>
+<p begin="00:05:36.840" end="00:05:42.360" style="s2">the top maybe cat iguana or cow are at</p>
+<p begin="00:05:40.280" end="00:05:44.440" style="s2">the bottom if we raise the temperature</p>
+<p begin="00:05:42.360" end="00:05:46.240" style="s2">the llm will make more random choices</p>
+<p begin="00:05:44.440" end="00:05:48.759" style="s2">and we&#39;ll start choosing words that are</p>
+<p begin="00:05:46.240" end="00:05:51.120" style="s2">on the list so they make sense but that</p>
+<p begin="00:05:48.759" end="00:05:54.199" style="s2">have a lower probability and this is how</p>
+<p begin="00:05:51.120" end="00:05:56.240" style="s2">the llm might return I walk my iguana</p>
+<p begin="00:05:54.199" end="00:05:58.319" style="s2">for example we know that the llm is a</p>
+<p begin="00:05:56.240" end="00:06:00.240" style="s2">massive autocomplete program trained on</p>
+<p begin="00:05:58.319" end="00:06:02.280" style="s2">the entire content of of the internet</p>
+<p begin="00:06:00.240" end="00:06:04.240" style="s2">the good and the bad included the last</p>
+<p begin="00:06:02.280" end="00:06:06.280" style="s2">piece of the puzzle is to understand how</p>
+<p begin="00:06:04.240" end="00:06:08.160" style="s2">we can turn this autocomplete program</p>
+<p begin="00:06:06.280" end="00:06:10.800" style="s2">into a question and answering machine</p>
+<p begin="00:06:08.160" end="00:06:12.520" style="s2">and give it the chatbot feeling also</p>
+<p begin="00:06:10.800" end="00:06:14.280" style="s2">since the program has seen the worst of</p>
+<p begin="00:06:12.520" end="00:06:16.440" style="s2">the internet how can we stop it from</p>
+<p begin="00:06:14.280" end="00:06:18.520" style="s2">giving harmful answers and make it stay</p>
+<p begin="00:06:16.440" end="00:06:21.000" style="s2">away from certain topics while being</p>
+<p begin="00:06:18.520" end="00:06:23.199" style="s2">helpful on others like chat refusing to</p>
+<p begin="00:06:21.000" end="00:06:24.960" style="s2">answer when asked how to make a bump the</p>
+<p begin="00:06:23.199" end="00:06:26.680" style="s2">chatbot part the way we can turn the</p>
+<p begin="00:06:24.960" end="00:06:28.840" style="s2">autocomplete into a question answer</p>
+<p begin="00:06:26.680" end="00:06:31.319" style="s2">machine is done by using something</p>
+<p begin="00:06:28.840" end="00:06:33.520" style="s2">called supervised fine tuning and here</p>
+<p begin="00:06:31.319" end="00:06:35.520" style="s2">is where humans come in to do supervised</p>
+<p begin="00:06:33.520" end="00:06:37.680" style="s2">fine tuning humans have to create a</p>
+<p begin="00:06:35.520" end="00:06:40.199" style="s2">bunch of documents that have the format</p>
+<p begin="00:06:37.680" end="00:06:42.000" style="s2">that humans want in the case of chat GPT</p>
+<p begin="00:06:40.199" end="00:06:43.680" style="s2">we can imagine an army of people and</p>
+<p begin="00:06:42.000" end="00:06:45.599" style="s2">thousands of documents that have the</p>
+<p begin="00:06:43.680" end="00:06:47.919" style="s2">question and answer format which is what</p>
+<p begin="00:06:45.599" end="00:06:49.560" style="s2">open AI wants for a chatbook the next</p>
+<p begin="00:06:47.919" end="00:06:51.520" style="s2">step is to train the autocomplete</p>
+<p begin="00:06:49.560" end="00:06:53.560" style="s2">machine a little bit more but this time</p>
+<p begin="00:06:51.520" end="00:06:55.720" style="s2">with the documents the humans prepare it</p>
+<p begin="00:06:53.560" end="00:06:58.000" style="s2">has already seen the entire internet but</p>
+<p begin="00:06:55.720" end="00:07:00.199" style="s2">now at the end of its training it will</p>
+<p begin="00:06:58.000" end="00:07:02.280" style="s2">only see documents with with the format</p>
+<p begin="00:07:00.199" end="00:07:04.360" style="s2">humans want this is called fine tuning</p>
+<p begin="00:07:02.280" end="00:07:07.039" style="s2">which is taking a model and training it</p>
+<p begin="00:07:04.360" end="00:07:09.440" style="s2">a bit more on some extra custom data the</p>
+<p begin="00:07:07.039" end="00:07:11.759" style="s2">last part is how to stop the llm from</p>
+<p begin="00:07:09.440" end="00:07:14.319" style="s2">giving harmful answers this is done by</p>
+<p begin="00:07:11.759" end="00:07:16.280" style="s2">using reinforcement learning with human</p>
+<p begin="00:07:14.319" end="00:07:18.280" style="s2">feedback which works like this after the</p>
+<p begin="00:07:16.280" end="00:07:20.000" style="s2">llm has been fine-tuned to become a</p>
+<p begin="00:07:18.280" end="00:07:22.160" style="s2">question and answering machine as we saw</p>
+<p begin="00:07:20.000" end="00:07:24.560" style="s2">before humans will now ask questions to</p>
+<p begin="00:07:22.160" end="00:07:26.360" style="s2">the llm and the llm will reply with five</p>
+<p begin="00:07:24.560" end="00:07:28.599" style="s2">answers to the question humans also</p>
+<p begin="00:07:26.360" end="00:07:30.800" style="s2">called labelers will rank those</p>
+<p begin="00:07:28.599" end="00:07:32.840" style="s2">responses from from best to worst if the</p>
+<p begin="00:07:30.800" end="00:07:35.039" style="s2">model gave harmful answers in the case</p>
+<p begin="00:07:32.840" end="00:07:37.360" style="s2">of Chip it makes sense to assume that</p>
+<p begin="00:07:35.039" end="00:07:39.759" style="s2">the labelers were instructed to rank</p>
+<p begin="00:07:37.360" end="00:07:41.520" style="s2">those harmful answers as the worst ones</p>
+<p begin="00:07:39.759" end="00:07:43.520" style="s2">labelers will do this lots and lots of</p>
+<p begin="00:07:41.520" end="00:07:45.520" style="s2">times until they have a big enough data</p>
+<p begin="00:07:43.520" end="00:07:47.280" style="s2">set and with this data set a reward</p>
+<p begin="00:07:45.520" end="00:07:49.240" style="s2">model will be trained the only job of</p>
+<p begin="00:07:47.280" end="00:07:51.360" style="s2">the reward model is to predict if a</p>
+<p begin="00:07:49.240" end="00:07:54.039" style="s2">response by the autocomplete will be</p>
+<p begin="00:07:51.360" end="00:07:57.159" style="s2">liked by a human or not and finally the</p>
+<p begin="00:07:54.039" end="00:07:59.400" style="s2">last step is to take the Wild uncensored</p>
+<p begin="00:07:57.159" end="00:08:02.360" style="s2">autocomplete question and answer machine</p>
+<p begin="00:07:59.400" end="00:08:04.560" style="s2">and train it again but this time against</p>
+<p begin="00:08:02.360" end="00:08:06.360" style="s2">the reward model the raw autocomplete</p>
+<p begin="00:08:04.560" end="00:08:08.840" style="s2">machine will get a question generate an</p>
+<p begin="00:08:06.360" end="00:08:11.280" style="s2">answer and ask the reward model if the</p>
+<p begin="00:08:08.840" end="00:08:13.319" style="s2">answer would be liked by a human or not</p>
+<p begin="00:08:11.280" end="00:08:15.360" style="s2">if the reward model says no it will have</p>
+<p begin="00:08:13.319" end="00:08:17.199" style="s2">to try again and again until it</p>
+<p begin="00:08:15.360" end="00:08:19.879" style="s2">understands what a good answer is and</p>
+<p begin="00:08:17.199" end="00:08:22.520" style="s2">learns that on its own the llm training</p>
+<p begin="00:08:19.879" end="00:08:24.280" style="s2">itself against the reward model can</p>
+<p begin="00:08:22.520" end="00:08:26.319" style="s2">happen lots and lots of times really</p>
+<p begin="00:08:24.280" end="00:08:28.319" style="s2">fast because it does not need human</p>
+<p begin="00:08:26.319" end="00:08:30.639" style="s2">intervention at all remember that by</p>
+<p begin="00:08:28.319" end="00:08:32.599" style="s2">default the model will be as crazy and</p>
+<p begin="00:08:30.639" end="00:08:34.760" style="s2">wild as the internet is using</p>
+<p begin="00:08:32.599" end="00:08:37.080" style="s2">reinforcement learning is how humans can</p>
+<p begin="00:08:34.760" end="00:08:39.080" style="s2">give values to the model and change its</p>
+<p begin="00:08:37.080" end="00:08:41.200" style="s2">political views censor it make it more</p>
+<p begin="00:08:39.080" end="00:08:43.320" style="s2">or less likely to talk about a certain</p>
+<p begin="00:08:41.200" end="00:08:45.000" style="s2">topic and so on that&#39;s it for this video</p>
+<p begin="00:08:43.320" end="00:08:46.480" style="s2">if you found it useful please like it</p>
+<p begin="00:08:45.000" end="00:08:48.080" style="s2">share it with your friends and subscribe</p>
+<p begin="00:08:46.480" end="00:08:50.000" style="s2">to the channel if you have time go and</p>
+<p begin="00:08:48.080" end="00:08:51.600" style="s2">watch the original talk it goes into</p>
+<p begin="00:08:50.000" end="00:08:53.600" style="s2">much more detail and talks about the</p>
+<p begin="00:08:51.600" end="00:08:55.440" style="s2">fusion models vectors and other</p>
+<p begin="00:08:53.600" end="00:08:57.720" style="s2">interesting stuff and remember that if</p>
+<p begin="00:08:55.440" end="00:08:59.560" style="s2">you want to learn to code for free with</p>
+<p begin="00:08:57.720" end="00:09:02.200" style="s2">me all you have to do is click the link</p>
+<p begin="00:08:59.560" end="00:09:04.600" style="s2">below there you will find free courses</p>
+<p begin="00:09:02.200" end="00:09:07.680" style="s2">on JavaScript python react react native</p>
+<p begin="00:09:04.600" end="00:09:10.440" style="s2">go Dart flutter and nextjs among many</p>
+<p begin="00:09:07.680" end="00:09:12.360" style="s2">others for absolutely free click the</p>
+<p begin="00:09:10.440" end="00:09:16.920" style="s2">link below and I will see you</p>
+<p begin="00:09:12.360" end="00:09:16.920" style="s2">there see you on the next one</p>
+<p begin="00:09:28.120" end="00:09:32.320" style="s2">bye-bye m</p>
+</div>
+</body>
+</tt>

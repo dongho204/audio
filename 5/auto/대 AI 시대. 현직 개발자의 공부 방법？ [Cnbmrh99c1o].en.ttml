@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:01.700" end="00:00:06.899" style="s2">and I have been asked by developers and</p>
+<p begin="00:00:04.620" end="00:00:09.059" style="s2">non-developers what is the best way to</p>
+<p begin="00:00:06.899" end="00:00:11.639" style="s2">get started and where to study if I want</p>
+<p begin="00:00:09.059" end="00:00:13.620" style="s2">to work on AI I am by no means an AI</p>
+<p begin="00:00:11.639" end="00:00:15.420" style="s2">expert but I have done my fair share of</p>
+<p begin="00:00:13.620" end="00:00:18.000" style="s2">studying because I wanted to understand</p>
+<p begin="00:00:15.420" end="00:00:20.699" style="s2">how this AI thing that looks like magic</p>
+<p begin="00:00:18.000" end="00:00:22.619" style="s2">actually worked behind the scenes the</p>
+<p begin="00:00:20.699" end="00:00:25.320" style="s2">thing is that I found that the process</p>
+<p begin="00:00:22.619" end="00:00:27.300" style="s2">of learning AI by myself a bit</p>
+<p begin="00:00:25.320" end="00:00:29.820" style="s2">intimidating at first because many</p>
+<p begin="00:00:27.300" end="00:00:32.279" style="s2">courses are either paid and expensive</p>
+<p begin="00:00:29.820" end="00:00:34.680" style="s2">they are a bit too advanced for</p>
+<p begin="00:00:32.279" end="00:00:37.079" style="s2">beginners and they assume a lot of</p>
+<p begin="00:00:34.680" end="00:00:39.780" style="s2">previous knowledge making it easy to get</p>
+<p begin="00:00:37.079" end="00:00:41.219" style="s2">frustrated overwhelmed and to give up so</p>
+<p begin="00:00:39.780" end="00:00:43.440" style="s2">today I want to share with you a couple</p>
+<p begin="00:00:41.219" end="00:00:46.320" style="s2">of resources I used when learning AI</p>
+<p begin="00:00:43.440" end="00:00:48.780" style="s2">that are free not intimidating and</p>
+<p begin="00:00:46.320" end="00:00:50.219" style="s2">perfect for beginners One requirement to</p>
+<p begin="00:00:48.780" end="00:00:52.200" style="s2">be able to take these courses is that</p>
+<p begin="00:00:50.219" end="00:00:54.840" style="s2">you should be comfortable riding python</p>
+<p begin="00:00:52.200" end="00:00:57.059" style="s2">code python is the language of AI so it</p>
+<p begin="00:00:54.840" end="00:00:58.739" style="s2">is a must the good news is that learning</p>
+<p begin="00:00:57.059" end="00:01:00.480" style="s2">python is easy and you can learn it in</p>
+<p begin="00:00:58.739" end="00:01:02.640" style="s2">our website for free</p>
+<p begin="00:01:00.480" end="00:01:04.559" style="s2">most of these resources are in English</p>
+<p begin="00:01:02.640" end="00:01:06.180" style="s2">since English is the language of the</p>
+<p begin="00:01:04.559" end="00:01:08.460" style="s2">internet but don&#39;t worry because there</p>
+<p begin="00:01:06.180" end="00:01:10.500" style="s2">is also a resource in Han Google as well</p>
+<p begin="00:01:08.460" end="00:01:13.260" style="s2">the course where I point everyone that</p>
+<p begin="00:01:10.500" end="00:01:16.080" style="s2">asks me how to learn AI is practical</p>
+<p begin="00:01:13.260" end="00:01:18.299" style="s2">deep learning for coders practical deep</p>
+<p begin="00:01:16.080" end="00:01:20.340" style="s2">learning for coders is an incredible</p>
+<p begin="00:01:18.299" end="00:01:22.560" style="s2">free course for people that have</p>
+<p begin="00:01:20.340" end="00:01:24.360" style="s2">experience in programming but not in</p>
+<p begin="00:01:22.560" end="00:01:25.799" style="s2">machine learning with practical deep</p>
+<p begin="00:01:24.360" end="00:01:28.259" style="s2">learning for colors you can go from</p>
+<p begin="00:01:25.799" end="00:01:30.479" style="s2">knowing how to make websites to knowing</p>
+<p begin="00:01:28.259" end="00:01:34.080" style="s2">how to build your own neural networks</p>
+<p begin="00:01:30.479" end="00:01:36.060" style="s2">from scratch the course consists of 990</p>
+<p begin="00:01:34.080" end="00:01:38.100" style="s2">minute video lessons but in case you</p>
+<p begin="00:01:36.060" end="00:01:40.079" style="s2">like reading more than watching there is</p>
+<p begin="00:01:38.100" end="00:01:42.360" style="s2">also a book that you can buy in Amazon</p>
+<p begin="00:01:40.079" end="00:01:44.340" style="s2">if you want to support the project or</p>
+<p begin="00:01:42.360" end="00:01:46.140" style="s2">you can read it online for free as well</p>
+<p begin="00:01:44.340" end="00:01:49.140" style="s2">the course was recently fully</p>
+<p begin="00:01:46.140" end="00:01:51.600" style="s2">re-recorded in 2022 and it is taught by</p>
+<p begin="00:01:49.140" end="00:01:53.939" style="s2">Jeremy Howard he is the lead developer</p>
+<p begin="00:01:51.600" end="00:01:56.579" style="s2">of fast Ai and he is the president and</p>
+<p begin="00:01:53.939" end="00:01:58.560" style="s2">chief scientist of kaggle this course is</p>
+<p begin="00:01:56.579" end="00:02:00.240" style="s2">taught following a top-down approach</p>
+<p begin="00:01:58.560" end="00:02:02.579" style="s2">which basically means that you learn how</p>
+<p begin="00:02:00.240" end="00:02:04.860" style="s2">to drive the car first and then later</p>
+<p begin="00:02:02.579" end="00:02:06.780" style="s2">you learn how the engine actually works</p>
+<p begin="00:02:04.860" end="00:02:09.239" style="s2">instead of starting with Theory first</p>
+<p begin="00:02:06.780" end="00:02:11.160" style="s2">and then having to push until the end to</p>
+<p begin="00:02:09.239" end="00:02:12.959" style="s2">see it all come together in this course</p>
+<p begin="00:02:11.160" end="00:02:15.420" style="s2">you first start with the big picture</p>
+<p begin="00:02:12.959" end="00:02:17.520" style="s2">seeing how to train models with your own</p>
+<p begin="00:02:15.420" end="00:02:19.620" style="s2">data and how to deploy them as web</p>
+<p begin="00:02:17.520" end="00:02:21.720" style="s2">applications after that you learn the</p>
+<p begin="00:02:19.620" end="00:02:23.700" style="s2">details and how it all works behind the</p>
+<p begin="00:02:21.720" end="00:02:26.760" style="s2">scenes and then you end up writing a</p>
+<p begin="00:02:23.700" end="00:02:29.280" style="s2">whole model by yourself using pi torch</p>
+<p begin="00:02:26.760" end="00:02:30.840" style="s2">you also don&#39;t need Harker math to get</p>
+<p begin="00:02:29.280" end="00:02:32.580" style="s2">started the linear algebra and the</p>
+<p begin="00:02:30.840" end="00:02:34.440" style="s2">calculus you will need are taught inside</p>
+<p begin="00:02:32.580" end="00:02:36.840" style="s2">of the course after you&#39;re done with</p>
+<p begin="00:02:34.440" end="00:02:40.260" style="s2">that course I then suggest checking out</p>
+<p begin="00:02:36.840" end="00:02:43.200" style="s2">neural networks from Zero to Hero by the</p>
+<p begin="00:02:40.260" end="00:02:46.140" style="s2">legend himself Andre carpati he is the</p>
+<p begin="00:02:43.200" end="00:02:48.060" style="s2">former director of AI at Tesla and he is</p>
+<p begin="00:02:46.140" end="00:02:50.400" style="s2">one of the founding members of openai</p>
+<p begin="00:02:48.060" end="00:02:52.140" style="s2">the company behind Dali and chat GPT</p>
+<p begin="00:02:50.400" end="00:02:54.780" style="s2">this is a course that shows you how to</p>
+<p begin="00:02:52.140" end="00:02:56.940" style="s2">build neural networks from scratch in</p>
+<p begin="00:02:54.780" end="00:02:58.800" style="s2">Python with a special focus on language</p>
+<p begin="00:02:56.940" end="00:03:00.360" style="s2">models at the time of recording this</p>
+<p begin="00:02:58.800" end="00:03:02.700" style="s2">video this course is still ongoing</p>
+<p begin="00:03:00.360" end="00:03:04.920" style="s2">meaning there might be more lectures to</p>
+<p begin="00:03:02.700" end="00:03:07.560" style="s2">come so far there are seven lectures</p>
+<p begin="00:03:04.920" end="00:03:10.560" style="s2">with the latest one being an almost two</p>
+<p begin="00:03:07.560" end="00:03:13.319" style="s2">hour video where you build your own GPT</p>
+<p begin="00:03:10.560" end="00:03:14.940" style="s2">from scratch and you teach it to write</p>
+<p begin="00:03:13.319" end="00:03:16.680" style="s2">in the style of Shakespeare for</p>
+<p begin="00:03:14.940" end="00:03:18.120" style="s2">transparency I do have to say that I</p>
+<p begin="00:03:16.680" end="00:03:19.980" style="s2">haven&#39;t watched all the lectures because</p>
+<p begin="00:03:18.120" end="00:03:21.900" style="s2">of time constraints but from the First</p>
+<p begin="00:03:19.980" end="00:03:23.879" style="s2">videos I can tell that Andrea&#39;s teaching</p>
+<p begin="00:03:21.900" end="00:03:26.099" style="s2">style is so cool and he knows the</p>
+<p begin="00:03:23.879" end="00:03:28.080" style="s2">subject so well that you will be hooked</p>
+<p begin="00:03:26.099" end="00:03:29.760" style="s2">after watching the first video that&#39;s</p>
+<p begin="00:03:28.080" end="00:03:31.440" style="s2">for sure the two courses I just</p>
+<p begin="00:03:29.760" end="00:03:33.659" style="s2">mentioned follow the style of learning</p>
+<p begin="00:03:31.440" end="00:03:35.459" style="s2">by doing which I think is the best way</p>
+<p begin="00:03:33.659" end="00:03:37.739" style="s2">to learn nothing is better than getting</p>
+<p begin="00:03:35.459" end="00:03:40.799" style="s2">your hands dirty and ending up with a</p>
+<p begin="00:03:37.739" end="00:03:43.799" style="s2">final product another great way to study</p>
+<p begin="00:03:40.799" end="00:03:45.840" style="s2">AI is to apply to the year during school</p>
+<p begin="00:03:43.799" end="00:03:48.060" style="s2">which is also a sponsor of this video</p>
+<p begin="00:03:45.840" end="00:03:50.159" style="s2">the ministry of smes and startups and</p>
+<p begin="00:03:48.060" end="00:03:54.360" style="s2">Korea smes and startups agency are</p>
+<p begin="00:03:50.159" end="00:03:56.580" style="s2">recruiting 200 people to join a free AI</p>
+<p begin="00:03:54.360" end="00:03:59.159" style="s2">education program called a year dream</p>
+<p begin="00:03:56.580" end="00:04:01.560" style="s2">school year dream School runs for 10</p>
+<p begin="00:03:59.159" end="00:04:03.900" style="s2">months and it teaches you from the very</p>
+<p begin="00:04:01.560" end="00:04:06.120" style="s2">basics of programming to the advanced</p>
+<p begin="00:04:03.900" end="00:04:08.280" style="s2">level such as data engineering machine</p>
+<p begin="00:04:06.120" end="00:04:10.860" style="s2">learning and deep learning it is an</p>
+<p begin="00:04:08.280" end="00:04:12.840" style="s2">intensive AI education program that is</p>
+<p begin="00:04:10.860" end="00:04:15.780" style="s2">almost equivalent to attending a</p>
+<p begin="00:04:12.840" end="00:04:17.760" style="s2">four-year college with a major in AI all</p>
+<p begin="00:04:15.780" end="00:04:20.880" style="s2">of these 10 months of Education are</p>
+<p begin="00:04:17.760" end="00:04:22.680" style="s2">completely free anyone under 39 years</p>
+<p begin="00:04:20.880" end="00:04:25.139" style="s2">old that is eager to learn can apply</p>
+<p begin="00:04:22.680" end="00:04:27.660" style="s2">regardless of his or her education level</p>
+<p begin="00:04:25.139" end="00:04:29.639" style="s2">or career background you don&#39;t even have</p>
+<p begin="00:04:27.660" end="00:04:32.520" style="s2">to pass a coding test on the selection</p>
+<p begin="00:04:29.639" end="00:04:34.680" style="s2">process is one of the shortest Pathways</p>
+<p begin="00:04:32.520" end="00:04:36.479" style="s2">for non-majors to become AI developers</p>
+<p begin="00:04:34.680" end="00:04:38.639" style="s2">within a promotion for year dream school</p>
+<p begin="00:04:36.479" end="00:04:41.160" style="s2">last year as well this is their third</p>
+<p begin="00:04:38.639" end="00:04:43.500" style="s2">year running the program year dream</p>
+<p begin="00:04:41.160" end="00:04:46.199" style="s2">school not only does the training but</p>
+<p begin="00:04:43.500" end="00:04:48.240" style="s2">also help students getting a job or</p>
+<p begin="00:04:46.199" end="00:04:50.940" style="s2">making their own startup as well</p>
+<p begin="00:04:48.240" end="00:04:52.919" style="s2">application is open right now so please</p>
+<p begin="00:04:50.940" end="00:04:55.100" style="s2">check out the link below thank you for</p>
+<p begin="00:04:52.919" end="00:04:59.000" style="s2">watching as always</p>
+<p begin="00:04:55.100" end="00:04:59.000" style="s2">see you on the next one bye</p>
+<p begin="00:05:11.400" end="00:05:13.520" style="s2">thank you</p>
+</div>
+</body>
+</tt>

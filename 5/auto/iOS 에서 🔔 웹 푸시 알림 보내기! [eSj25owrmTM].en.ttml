@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.480" end="00:00:09.480" style="s2">finally the wave is over iOS version</p>
+<p begin="00:00:06.440" end="00:00:11.580" style="s2">16.4 was just released with support for</p>
+<p begin="00:00:09.480" end="00:00:14.460" style="s2">an API that web developers have been</p>
+<p begin="00:00:11.580" end="00:00:17.240" style="s2">waiting for a long time since long long</p>
+<p begin="00:00:14.460" end="00:00:20.880" style="s2">ago Google has been pushing the idea of</p>
+<p begin="00:00:17.240" end="00:00:23.939" style="s2">pwx progressive web applications pwas</p>
+<p begin="00:00:20.880" end="00:00:26.400" style="s2">are websites that look feel and act just</p>
+<p begin="00:00:23.939" end="00:00:29.220" style="s2">like apps they can be saved on the home</p>
+<p begin="00:00:26.400" end="00:00:31.800" style="s2">screen and next to real apps they have a</p>
+<p begin="00:00:29.220" end="00:00:34.559" style="s2">splash screen they have offline support</p>
+<p begin="00:00:31.800" end="00:00:37.380" style="s2">they can do almost what a native app can</p>
+<p begin="00:00:34.559" end="00:00:39.360" style="s2">do pwas are possible because browsers</p>
+<p begin="00:00:37.380" end="00:00:42.300" style="s2">are getting more and more powerful</p>
+<p begin="00:00:39.360" end="00:00:45.899" style="s2">thanks on a big part to Google enabling</p>
+<p begin="00:00:42.300" end="00:00:48.180" style="s2">the newest apis on Google Chrome but in</p>
+<p begin="00:00:45.899" end="00:00:51.120" style="s2">a world where websites can be as</p>
+<p begin="00:00:48.180" end="00:00:53.760" style="s2">powerful and can do almost as much as</p>
+<p begin="00:00:51.120" end="00:00:55.559" style="s2">native apps companies like apple my</p>
+<p begin="00:00:53.760" end="00:00:58.079" style="s2">field threatened since the App Store is</p>
+<p begin="00:00:55.559" end="00:01:01.379" style="s2">a billion dollar business this is why</p>
+<p begin="00:00:58.079" end="00:01:04.280" style="s2">Apple has been notoriously low on</p>
+<p begin="00:01:01.379" end="00:01:06.420" style="s2">implementing support for pwas on iOS</p>
+<p begin="00:01:04.280" end="00:01:09.420" style="s2">specifically they have taken an</p>
+<p begin="00:01:06.420" end="00:01:13.140" style="s2">extremely long time enabling support for</p>
+<p begin="00:01:09.420" end="00:01:15.439" style="s2">a feature that can make or break a pwa a</p>
+<p begin="00:01:13.140" end="00:01:18.979" style="s2">feature that has been in Chrome since</p>
+<p begin="00:01:15.439" end="00:01:21.840" style="s2">2015. that feature is web push</p>
+<p begin="00:01:18.979" end="00:01:24.240" style="s2">notifications until now if you wanted to</p>
+<p begin="00:01:21.840" end="00:01:26.700" style="s2">send push notifications to the iPhone of</p>
+<p begin="00:01:24.240" end="00:01:29.400" style="s2">your users the only option you had was</p>
+<p begin="00:01:26.700" end="00:01:33.720" style="s2">to make an IOS app there was no way</p>
+<p begin="00:01:29.400" end="00:01:35.460" style="s2">around it but since iOS 16.4 you can</p>
+<p begin="00:01:33.720" end="00:01:38.579" style="s2">send notifications to the iPhone of your</p>
+<p begin="00:01:35.460" end="00:01:41.159" style="s2">users directly from your own website it</p>
+<p begin="00:01:38.579" end="00:01:45.000" style="s2">is now finally possible to reach users</p>
+<p begin="00:01:41.159" end="00:01:48.900" style="s2">on iPhone Android Chrome Firefox Edge</p>
+<p begin="00:01:45.000" end="00:01:51.420" style="s2">Opera and Safari with one piece of code</p>
+<p begin="00:01:48.900" end="00:01:53.399" style="s2">a marketer&#39;s degree so let&#39;s see how</p>
+<p begin="00:01:51.420" end="00:01:55.380" style="s2">this API works and how you can Implement</p>
+<p begin="00:01:53.399" end="00:01:58.380" style="s2">web push notifications on your own</p>
+<p begin="00:01:55.380" end="00:02:00.659" style="s2">website first on our server we will</p>
+<p begin="00:01:58.380" end="00:02:02.939" style="s2">generate a public and a private with key</p>
+<p begin="00:02:00.659" end="00:02:05.159" style="s2">these keys will be used to sign our</p>
+<p begin="00:02:02.939" end="00:02:07.200" style="s2">notifications we use signatures to</p>
+<p begin="00:02:05.159" end="00:02:09.539" style="s2">authenticate our server with the</p>
+<p begin="00:02:07.200" end="00:02:11.459" style="s2">notification servers of Apple Google and</p>
+<p begin="00:02:09.539" end="00:02:13.680" style="s2">the rest we don&#39;t have to generate those</p>
+<p begin="00:02:11.459" end="00:02:15.599" style="s2">keys manually instead we can use a</p>
+<p begin="00:02:13.680" end="00:02:19.020" style="s2">package in our case we&#39;re going to use</p>
+<p begin="00:02:15.599" end="00:02:22.319" style="s2">the node.js web push package but you can</p>
+<p begin="00:02:19.020" end="00:02:25.739" style="s2">also find web push packages for rust PHP</p>
+<p begin="00:02:22.319" end="00:02:27.720" style="s2">Java c-sharp Python and others on our</p>
+<p begin="00:02:25.739" end="00:02:29.640" style="s2">server all we have to do is import the</p>
+<p begin="00:02:27.720" end="00:02:33.000" style="s2">web push package and call the function</p>
+<p begin="00:02:29.640" end="00:02:34.860" style="s2">and generate vapid Keys we then console</p>
+<p begin="00:02:33.000" end="00:02:37.080" style="s2">log the resulting keys that looks</p>
+<p begin="00:02:34.860" end="00:02:39.300" style="s2">something like this it is important we</p>
+<p begin="00:02:37.080" end="00:02:41.340" style="s2">run this code only once and store the</p>
+<p begin="00:02:39.300" end="00:02:43.920" style="s2">keys somewhere safe the front-end code</p>
+<p begin="00:02:41.340" end="00:02:46.080" style="s2">is really simple on the HTML we have a</p>
+<p begin="00:02:43.920" end="00:02:48.420" style="s2">button that says subscribe and we also</p>
+<p begin="00:02:46.080" end="00:02:49.920" style="s2">have a JavaScript import on the</p>
+<p begin="00:02:48.420" end="00:02:52.140" style="s2">JavaScript side we first have to</p>
+<p begin="00:02:49.920" end="00:02:54.180" style="s2">register a service worker a service</p>
+<p begin="00:02:52.140" end="00:02:56.340" style="s2">worker is a tiny piece of JavaScript</p>
+<p begin="00:02:54.180" end="00:02:58.560" style="s2">code that we can save on the user&#39;s disk</p>
+<p begin="00:02:56.340" end="00:03:01.560" style="s2">and that will run on the background even</p>
+<p begin="00:02:58.560" end="00:03:03.300" style="s2">after the user leave our website it is</p>
+<p begin="00:03:01.560" end="00:03:05.519" style="s2">on the service worker where we are going</p>
+<p begin="00:03:03.300" end="00:03:06.959" style="s2">to listen for push notifications and</p>
+<p begin="00:03:05.519" end="00:03:09.060" style="s2">whenever they come in we&#39;re going to</p>
+<p begin="00:03:06.959" end="00:03:11.459" style="s2">display them to register a service</p>
+<p begin="00:03:09.060" end="00:03:13.920" style="s2">worker we first have to check if the</p>
+<p begin="00:03:11.459" end="00:03:15.920" style="s2">Navigator supports it if that is true we</p>
+<p begin="00:03:13.920" end="00:03:17.400" style="s2">just call</p>
+<p begin="00:03:15.920" end="00:03:20.280" style="s2">navigator.serviceworker.register with</p>
+<p begin="00:03:17.400" end="00:03:22.800" style="s2">our service worker file that contains</p>
+<p begin="00:03:20.280" end="00:03:25.680" style="s2">this code here we are telling our</p>
+<p begin="00:03:22.800" end="00:03:28.379" style="s2">service worker to listen for push events</p>
+<p begin="00:03:25.680" end="00:03:30.599" style="s2">when a push event happens we want to get</p>
+<p begin="00:03:28.379" end="00:03:33.540" style="s2">the title of the notification by</p>
+<p begin="00:03:30.599" end="00:03:36.000" style="s2">accessing the event data and then we</p>
+<p begin="00:03:33.540" end="00:03:38.580" style="s2">call the function show notification to</p>
+<p begin="00:03:36.000" end="00:03:41.340" style="s2">actually show the push notification to</p>
+<p begin="00:03:38.580" end="00:03:43.860" style="s2">the user in our code we are only sending</p>
+<p begin="00:03:41.340" end="00:03:46.260" style="s2">the title of the notification but if we</p>
+<p begin="00:03:43.860" end="00:03:48.379" style="s2">wanted to we can send a body for more</p>
+<p begin="00:03:46.260" end="00:03:52.260" style="s2">extra content we can specify icons</p>
+<p begin="00:03:48.379" end="00:03:54.360" style="s2">actions and even vibration patterns okay</p>
+<p begin="00:03:52.260" end="00:03:56.099" style="s2">so we are ready to receive notifications</p>
+<p begin="00:03:54.360" end="00:03:58.379" style="s2">but now we actually have to start</p>
+<p begin="00:03:56.099" end="00:04:00.840" style="s2">sending them to do this first we have to</p>
+<p begin="00:03:58.379" end="00:04:02.519" style="s2">ask the user for permission and then we</p>
+<p begin="00:04:00.840" end="00:04:05.459" style="s2">have to subscribe the user to our</p>
+<p begin="00:04:02.519" end="00:04:08.760" style="s2">notifications back in our main.js file</p>
+<p begin="00:04:05.459" end="00:04:11.040" style="s2">we grab the button from our HTML and</p>
+<p begin="00:04:08.760" end="00:04:13.560" style="s2">when it is clicked we wait for our</p>
+<p begin="00:04:11.040" end="00:04:17.100" style="s2">service worker to be ready and then get</p>
+<p begin="00:04:13.560" end="00:04:18.900" style="s2">access to it then we try to get the</p>
+<p begin="00:04:17.100" end="00:04:21.060" style="s2">current post notification subscription</p>
+<p begin="00:04:18.900" end="00:04:23.340" style="s2">because maybe the user is already</p>
+<p begin="00:04:21.060" end="00:04:26.520" style="s2">subscribed if the subscription is found</p>
+<p begin="00:04:23.340" end="00:04:28.620" style="s2">we should send it to our backend to save</p>
+<p begin="00:04:26.520" end="00:04:31.800" style="s2">it on our database if the subscription</p>
+<p begin="00:04:28.620" end="00:04:35.040" style="s2">does not exist we are going to subscribe</p>
+<p begin="00:04:31.800" end="00:04:37.259" style="s2">the user to a new one the Subscribe</p>
+<p begin="00:04:35.040" end="00:04:39.960" style="s2">function takes a user visible only</p>
+<p begin="00:04:37.259" end="00:04:42.419" style="s2">required parameter that we should set to</p>
+<p begin="00:04:39.960" end="00:04:45.360" style="s2">true and it also takes an application</p>
+<p begin="00:04:42.419" end="00:04:48.360" style="s2">server key which is the public key that</p>
+<p begin="00:04:45.360" end="00:04:51.180" style="s2">we generated in our backend a while ago</p>
+<p begin="00:04:48.360" end="00:04:53.220" style="s2">after the subscription is created we</p>
+<p begin="00:04:51.180" end="00:04:55.680" style="s2">should send it to our backend and save</p>
+<p begin="00:04:53.220" end="00:04:57.720" style="s2">it on our database it&#39;s important to</p>
+<p begin="00:04:55.680" end="00:04:59.580" style="s2">save the subscription on your database</p>
+<p begin="00:04:57.720" end="00:05:01.440" style="s2">because you will need it later when you</p>
+<p begin="00:04:59.580" end="00:05:03.840" style="s2">want to send and notifications to your</p>
+<p begin="00:05:01.440" end="00:05:05.940" style="s2">users here is how a subscription looks</p>
+<p begin="00:05:03.840" end="00:05:08.280" style="s2">like after the user has been subscribed</p>
+<p begin="00:05:05.940" end="00:05:10.680" style="s2">as you can see it has an endpoint and a</p>
+<p begin="00:05:08.280" end="00:05:12.419" style="s2">couple of keys the endpoint will look</p>
+<p begin="00:05:10.680" end="00:05:14.280" style="s2">different depending on the browser that</p>
+<p begin="00:05:12.419" end="00:05:16.639" style="s2">creates the subscription in this case</p>
+<p begin="00:05:14.280" end="00:05:19.620" style="s2">this is a safari subscription so we get</p>
+<p begin="00:05:16.639" end="00:05:21.660" style="s2">web.pushed that apple on our endpoint if</p>
+<p begin="00:05:19.620" end="00:05:26.039" style="s2">it was Chrome the endpoint will start</p>
+<p begin="00:05:21.660" end="00:05:28.440" style="s2">with googleapis.com or if it was Firefox</p>
+<p begin="00:05:26.039" end="00:05:31.320" style="s2">it would start with push that services</p>
+<p begin="00:05:28.440" end="00:05:33.300" style="s2">that Mozilla if we now go to our browser</p>
+<p begin="00:05:31.320" end="00:05:35.160" style="s2">and click on the button we are going to</p>
+<p begin="00:05:33.300" end="00:05:37.740" style="s2">get asked for notification permissions</p>
+<p begin="00:05:35.160" end="00:05:40.620" style="s2">and after we accept we are going to be</p>
+<p begin="00:05:37.740" end="00:05:43.020" style="s2">subscribed now it is time to send the</p>
+<p begin="00:05:40.620" end="00:05:45.419" style="s2">notifications on our backend the code to</p>
+<p begin="00:05:43.020" end="00:05:47.400" style="s2">do that looks like this first we need</p>
+<p begin="00:05:45.419" end="00:05:50.940" style="s2">the keys that we generated on the first</p>
+<p begin="00:05:47.400" end="00:05:53.520" style="s2">step then with the web push about our</p>
+<p begin="00:05:50.940" end="00:05:55.680" style="s2">keys as you can see I also wrote my</p>
+<p begin="00:05:53.520" end="00:05:57.960" style="s2">email there we write the email in case</p>
+<p begin="00:05:55.680" end="00:06:01.199" style="s2">the Push Services need to get in touch</p>
+<p begin="00:05:57.960" end="00:06:03.120" style="s2">with the website&#39;s admin finally we call</p>
+<p begin="00:06:01.199" end="00:06:05.460" style="s2">the send notification function which</p>
+<p begin="00:06:03.120" end="00:06:07.020" style="s2">takes two arguments the first one is the</p>
+<p begin="00:06:05.460" end="00:06:09.180" style="s2">subscription that we generated in the</p>
+<p begin="00:06:07.020" end="00:06:11.220" style="s2">front end before you should load the</p>
+<p begin="00:06:09.180" end="00:06:13.080" style="s2">subscription from your database and the</p>
+<p begin="00:06:11.220" end="00:06:15.360" style="s2">second one is the data of the</p>
+<p begin="00:06:13.080" end="00:06:18.240" style="s2">notification here we can put a simple</p>
+<p begin="00:06:15.360" end="00:06:20.460" style="s2">string or some Json like this if you</p>
+<p begin="00:06:18.240" end="00:06:22.620" style="s2">decide to send a Json instead of a</p>
+<p begin="00:06:20.460" end="00:06:24.960" style="s2">string on your notification you need to</p>
+<p begin="00:06:22.620" end="00:06:27.020" style="s2">change your service worker a little bit</p>
+<p begin="00:06:24.960" end="00:06:30.440" style="s2">where instead of doing</p>
+<p begin="00:06:27.020" end="00:06:32.819" style="s2">events.txt you will do</p>
+<p begin="00:06:30.440" end="00:06:35.340" style="s2">event.data.json as you can see when we</p>
+<p begin="00:06:32.819" end="00:06:37.560" style="s2">run the code the browsers that we have</p>
+<p begin="00:06:35.340" end="00:06:39.840" style="s2">subscribed to will all show us a</p>
+<p begin="00:06:37.560" end="00:06:42.960" style="s2">notification thanks to our service</p>
+<p begin="00:06:39.840" end="00:06:44.819" style="s2">worker being active and listening done</p>
+<p begin="00:06:42.960" end="00:06:48.180" style="s2">we are now sending notifications to the</p>
+<p begin="00:06:44.819" end="00:06:51.120" style="s2">browsers of our users awesome but this</p>
+<p begin="00:06:48.180" end="00:06:53.160" style="s2">code does not work for iOS for now this</p>
+<p begin="00:06:51.120" end="00:06:55.639" style="s2">is because Apple doesn&#39;t allow just any</p>
+<p begin="00:06:53.160" end="00:06:58.800" style="s2">website to send push notifications only</p>
+<p begin="00:06:55.639" end="00:07:01.020" style="s2">bwas saved by the user can do that</p>
+<p begin="00:06:58.800" end="00:07:03.539" style="s2">thankfully turning our website into a</p>
+<p begin="00:07:01.020" end="00:07:07.139" style="s2">pwa is super easy what we are going to</p>
+<p begin="00:07:03.539" end="00:07:09.419" style="s2">do is create a manifest.json file and</p>
+<p begin="00:07:07.139" end="00:07:12.660" style="s2">we&#39;re going to link it on the head of</p>
+<p begin="00:07:09.419" end="00:07:15.960" style="s2">our website on this manifest.json we</p>
+<p begin="00:07:12.660" end="00:07:18.000" style="s2">write the name of our app we say that we</p>
+<p begin="00:07:15.960" end="00:07:21.180" style="s2">want it to be displayed without any</p>
+<p begin="00:07:18.000" end="00:07:23.460" style="s2">browser UI and we give it an icon to be</p>
+<p begin="00:07:21.180" end="00:07:26.639" style="s2">displayed on the screen of the user</p>
+<p begin="00:07:23.460" end="00:07:29.460" style="s2">after that is done on our Safari browser</p>
+<p begin="00:07:26.639" end="00:07:31.919" style="s2">we can go to our website and save it to</p>
+<p begin="00:07:29.460" end="00:07:35.220" style="s2">our home screen and as you can see our</p>
+<p begin="00:07:31.919" end="00:07:36.960" style="s2">pwa looks like any other app when we</p>
+<p begin="00:07:35.220" end="00:07:39.599" style="s2">open the app we can click on the</p>
+<p begin="00:07:36.960" end="00:07:41.280" style="s2">Subscribe button and as you can see we</p>
+<p begin="00:07:39.599" end="00:07:43.800" style="s2">will get asked for notification</p>
+<p begin="00:07:41.280" end="00:07:47.220" style="s2">permissions which we are going to accept</p>
+<p begin="00:07:43.800" end="00:07:49.500" style="s2">if we close the app lock our phone and</p>
+<p begin="00:07:47.220" end="00:07:52.500" style="s2">send the notification from our backend</p>
+<p begin="00:07:49.500" end="00:07:57.060" style="s2">we will see the notification with our</p>
+<p begin="00:07:52.500" end="00:07:58.740" style="s2">icon on our lock screen awesome and</p>
+<p begin="00:07:57.060" end="00:08:01.199" style="s2">that&#39;s it we are now sending</p>
+<p begin="00:07:58.740" end="00:08:05.099" style="s2">notifications everywhere our users are</p>
+<p begin="00:08:01.199" end="00:08:07.199" style="s2">without building a native app we are</p>
+<p begin="00:08:05.099" end="00:08:08.699" style="s2">done if you found this video useful</p>
+<p begin="00:08:07.199" end="00:08:10.500" style="s2">please consider liking it and</p>
+<p begin="00:08:08.699" end="00:08:12.120" style="s2">subscribing to the channel and let me</p>
+<p begin="00:08:10.500" end="00:08:14.160" style="s2">know in the comments what do you think</p>
+<p begin="00:08:12.120" end="00:08:15.720" style="s2">about this API and if you&#39;re going to</p>
+<p begin="00:08:14.160" end="00:08:17.759" style="s2">implement it in your website if you</p>
+<p begin="00:08:15.720" end="00:08:19.259" style="s2">haven&#39;t already and don&#39;t forget that if</p>
+<p begin="00:08:17.759" end="00:08:22.080" style="s2">you want to learn things like JavaScript</p>
+<p begin="00:08:19.259" end="00:08:24.840" style="s2">python react react native gold Dart</p>
+<p begin="00:08:22.080" end="00:08:27.300" style="s2">router among many others for absolutely</p>
+<p begin="00:08:24.840" end="00:08:30.060" style="s2">free all you have to do is click the</p>
+<p begin="00:08:27.300" end="00:08:32.279" style="s2">link below to join any of our many free</p>
+<p begin="00:08:30.060" end="00:08:35.039" style="s2">courses that you can take right now for</p>
+<p begin="00:08:32.279" end="00:08:38.240" style="s2">absolutely free with me click the link</p>
+<p begin="00:08:35.039" end="00:08:42.200" style="s2">below and I will see you there</p>
+<p begin="00:08:38.240" end="00:08:42.200" style="s2">see you on the next one bye</p>
+<p begin="00:08:42.380" end="00:08:58.100" style="s2">[Music]</p>
+<p begin="00:08:54.620" end="00:08:58.100" style="s2">thank you</p>
+</div>
+</body>
+</tt>

@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:03.380" end="00:00:09.540" style="s2">is absolutely insane so today I would</p>
+<p begin="00:00:07.560" end="00:00:11.519" style="s2">like to give you a tiny introduction to</p>
+<p begin="00:00:09.540" end="00:00:14.880" style="s2">it and show you how you can run it on</p>
+<p begin="00:00:11.519" end="00:00:17.699" style="s2">your own computer LGBT is an open source</p>
+<p begin="00:00:14.880" end="00:00:20.580" style="s2">software project that is blowing up on</p>
+<p begin="00:00:17.699" end="00:00:23.580" style="s2">GitHub it was created just a month ago</p>
+<p begin="00:00:20.580" end="00:00:26.939" style="s2">and it&#39;s already in the top 100 GitHub</p>
+<p begin="00:00:23.580" end="00:00:30.000" style="s2">repositories with the most stars it was</p>
+<p begin="00:00:26.939" end="00:00:31.920" style="s2">placed 55 the last time I checked it</p>
+<p begin="00:00:30.000" end="00:00:34.860" style="s2">already has more than 90</p>
+<p begin="00:00:31.920" end="00:00:37.399" style="s2">000 Stars it&#39;s already above the Ross</p>
+<p begin="00:00:34.860" end="00:00:40.680" style="s2">programming language Django Tailwind</p>
+<p begin="00:00:37.399" end="00:00:44.460" style="s2">pytorch spring Boot and Bitcoin I mean</p>
+<p begin="00:00:40.680" end="00:00:48.780" style="s2">look at that graph absolutely explosive</p>
+<p begin="00:00:44.460" end="00:00:50.879" style="s2">growth so what is auto gbt I assume that</p>
+<p begin="00:00:48.780" end="00:00:53.760" style="s2">by this point we have all used charge</p>
+<p begin="00:00:50.879" end="00:00:56.039" style="s2">GPT at least once with chagibiti we are</p>
+<p begin="00:00:53.760" end="00:00:58.379" style="s2">all used to writing a prompt asking a</p>
+<p begin="00:00:56.039" end="00:01:00.719" style="s2">question and receiving an answer we then</p>
+<p begin="00:00:58.379" end="00:01:03.120" style="s2">repeat this process one prompt and time</p>
+<p begin="00:01:00.719" end="00:01:05.220" style="s2">until we get what we want it&#39;s like Ping</p>
+<p begin="00:01:03.120" end="00:01:07.260" style="s2">Pong the human is doing the Ping and</p>
+<p begin="00:01:05.220" end="00:01:10.080" style="s2">chagibiti is doing the punk what</p>
+<p begin="00:01:07.260" end="00:01:12.720" style="s2">orogivity does is it removes the human</p>
+<p begin="00:01:10.080" end="00:01:16.439" style="s2">from the ping pong table it basically</p>
+<p begin="00:01:12.720" end="00:01:18.840" style="s2">allows the gpt4 model to write prompts</p>
+<p begin="00:01:16.439" end="00:01:21.119" style="s2">to itself all you have to do is give it</p>
+<p begin="00:01:18.840" end="00:01:24.060" style="s2">a task and auto gbt is going to come up</p>
+<p begin="00:01:21.119" end="00:01:26.640" style="s2">with the steps and prompts required to</p>
+<p begin="00:01:24.060" end="00:01:29.220" style="s2">accomplish the task all alone without</p>
+<p begin="00:01:26.640" end="00:01:31.439" style="s2">human intervention Auto GPT can</p>
+<p begin="00:01:29.220" end="00:01:33.299" style="s2">autonomously achieve the goals you set</p>
+<p begin="00:01:31.439" end="00:01:35.759" style="s2">for it the reason it can do this is</p>
+<p begin="00:01:33.299" end="00:01:38.220" style="s2">because Auto GPT is packed with many</p>
+<p begin="00:01:35.759" end="00:01:40.259" style="s2">awesome features it has internet access</p>
+<p begin="00:01:38.220" end="00:01:43.079" style="s2">it can search the web and gather</p>
+<p begin="00:01:40.259" end="00:01:45.119" style="s2">information required to complete a task</p>
+<p begin="00:01:43.079" end="00:01:47.579" style="s2">thanks to an integration with Vector</p>
+<p begin="00:01:45.119" end="00:01:51.119" style="s2">databases it has both long term and</p>
+<p begin="00:01:47.579" end="00:01:53.520" style="s2">short-term memory it uses gpt4 the</p>
+<p begin="00:01:51.119" end="00:01:56.220" style="s2">latest and most premium language model</p>
+<p begin="00:01:53.520" end="00:01:58.979" style="s2">when it needs to generate text and it</p>
+<p begin="00:01:56.220" end="00:02:01.200" style="s2">uses gpt3 and not so expensive but</p>
+<p begin="00:01:58.979" end="00:02:03.840" style="s2">faster language model when you need to</p>
+<p begin="00:02:01.200" end="00:02:06.960" style="s2">summarize files or websites it found on</p>
+<p begin="00:02:03.840" end="00:02:09.300" style="s2">the internet it can Google by itself it</p>
+<p begin="00:02:06.960" end="00:02:11.700" style="s2">can control your browser it can use</p>
+<p begin="00:02:09.300" end="00:02:13.800" style="s2">dally or stable diffusion if it needs to</p>
+<p begin="00:02:11.700" end="00:02:16.620" style="s2">generate images it can use the GitHub</p>
+<p begin="00:02:13.800" end="00:02:19.080" style="s2">and Twitter API and more it can also</p>
+<p begin="00:02:16.620" end="00:02:21.060" style="s2">write code and run it by itself and it</p>
+<p begin="00:02:19.080" end="00:02:24.599" style="s2">can also speak its progress out loud</p>
+<p begin="00:02:21.060" end="00:02:27.300" style="s2">using an AI voice service it is an</p>
+<p begin="00:02:24.599" end="00:02:29.400" style="s2">absolute increase so let me show you how</p>
+<p begin="00:02:27.300" end="00:02:31.319" style="s2">to get this bad boy running in your</p>
+<p begin="00:02:29.400" end="00:02:33.540" style="s2">computer I&#39;m also going to give you some</p>
+<p begin="00:02:31.319" end="00:02:35.940" style="s2">tips on how to use it better so you</p>
+<p begin="00:02:33.540" end="00:02:37.739" style="s2">don&#39;t waste time and money so stick on</p>
+<p begin="00:02:35.940" end="00:02:40.560" style="s2">to the end of the video to find out to</p>
+<p begin="00:02:37.739" end="00:02:43.080" style="s2">run auto GPT you need to have python 3.8</p>
+<p begin="00:02:40.560" end="00:02:45.599" style="s2">or later installed in your system as</p>
+<p begin="00:02:43.080" end="00:02:46.980" style="s2">well as vs code and git if you don&#39;t</p>
+<p begin="00:02:45.599" end="00:02:49.080" style="s2">have them you can install them by</p>
+<p begin="00:02:46.980" end="00:02:50.819" style="s2">downloading each one of them from their</p>
+<p begin="00:02:49.080" end="00:02:53.040" style="s2">website after you&#39;re done with the</p>
+<p begin="00:02:50.819" end="00:02:55.319" style="s2">installation open your console on the</p>
+<p begin="00:02:53.040" end="00:02:58.560" style="s2">terminal drag and drop the documents</p>
+<p begin="00:02:55.319" end="00:03:00.720" style="s2">folder and then run this command this</p>
+<p begin="00:02:58.560" end="00:03:03.540" style="s2">will bring the latest and stable version</p>
+<p begin="00:03:00.720" end="00:03:06.120" style="s2">of automity code from GitHub into your</p>
+<p begin="00:03:03.540" end="00:03:08.700" style="s2">computer then open vs code go to file</p>
+<p begin="00:03:06.120" end="00:03:11.640" style="s2">open folder and select the auto GPT</p>
+<p begin="00:03:08.700" end="00:03:14.819" style="s2">folder located on your documents on this</p>
+<p begin="00:03:11.640" end="00:03:17.580" style="s2">code click view then terminal and on</p>
+<p begin="00:03:14.819" end="00:03:19.500" style="s2">that newly opened terminal run this</p>
+<p begin="00:03:17.580" end="00:03:21.959" style="s2">command this will install all the</p>
+<p begin="00:03:19.500" end="00:03:25.379" style="s2">packages required for auto gbts to work</p>
+<p begin="00:03:21.959" end="00:03:27.480" style="s2">after that look for the dot EMV that</p>
+<p begin="00:03:25.379" end="00:03:29.760" style="s2">template and duplicate it on vs code</p>
+<p begin="00:03:27.480" end="00:03:32.280" style="s2">just do right click copy and then right</p>
+<p begin="00:03:29.760" end="00:03:35.340" style="s2">click paste rename the newly created</p>
+<p begin="00:03:32.280" end="00:03:38.040" style="s2">copy to just that EMV and now it&#39;s time</p>
+<p begin="00:03:35.340" end="00:03:40.860" style="s2">to get you some API Keys we first need</p>
+<p begin="00:03:38.040" end="00:03:44.040" style="s2">an open aik since Auto GPT uses both</p>
+<p begin="00:03:40.860" end="00:03:48.060" style="s2">lgbt4 and gpt3 go to your openai account</p>
+<p begin="00:03:44.040" end="00:03:49.980" style="s2">API key section and create a new API key</p>
+<p begin="00:03:48.060" end="00:03:51.780" style="s2">a paid account is required to complete</p>
+<p begin="00:03:49.980" end="00:03:54.060" style="s2">this step so you will need to enter your</p>
+<p begin="00:03:51.780" end="00:03:56.700" style="s2">credit card information copy the API key</p>
+<p begin="00:03:54.060" end="00:03:59.040" style="s2">you got from openai go to your dot EMV</p>
+<p begin="00:03:56.700" end="00:04:01.739" style="s2">file and set it as the value of the</p>
+<p begin="00:03:59.040" end="00:04:03.599" style="s2">openai key environment variable because</p>
+<p begin="00:04:01.739" end="00:04:06.239" style="s2">we need the AI to be able to search</p>
+<p begin="00:04:03.599" end="00:04:08.220" style="s2">using Google we also need to get an API</p>
+<p begin="00:04:06.239" end="00:04:10.379" style="s2">key from them to do this go to the</p>
+<p begin="00:04:08.220" end="00:04:12.299" style="s2">Google Cloud console and log in or</p>
+<p begin="00:04:10.379" end="00:04:14.459" style="s2">create a new account if you don&#39;t</p>
+<p begin="00:04:12.299" end="00:04:16.440" style="s2">already have one from there create a new</p>
+<p begin="00:04:14.459" end="00:04:18.540" style="s2">project by clicking on the select a</p>
+<p begin="00:04:16.440" end="00:04:20.820" style="s2">project drop down at the top of the page</p>
+<p begin="00:04:18.540" end="00:04:22.919" style="s2">and selecting a new project give your</p>
+<p begin="00:04:20.820" end="00:04:24.419" style="s2">project a name and you are good to go</p>
+<p begin="00:04:22.919" end="00:04:27.120" style="s2">now it&#39;s time to enable the custom</p>
+<p begin="00:04:24.419" end="00:04:30.000" style="s2">search API head to the apis and services</p>
+<p begin="00:04:27.120" end="00:04:33.180" style="s2">dashboard click enable apis and services</p>
+<p begin="00:04:30.000" end="00:04:35.400" style="s2">and search for custom search API click</p>
+<p begin="00:04:33.180" end="00:04:37.919" style="s2">on it and then click enable and you are</p>
+<p begin="00:04:35.400" end="00:04:40.919" style="s2">all set next you will need to get your</p>
+<p begin="00:04:37.919" end="00:04:43.680" style="s2">API key go to the credentials page and</p>
+<p begin="00:04:40.919" end="00:04:46.740" style="s2">click create credentials choose API key</p>
+<p begin="00:04:43.680" end="00:04:49.320" style="s2">copy the API key go to the dot EMB file</p>
+<p begin="00:04:46.740" end="00:04:51.720" style="s2">on your vs code and paste it on the</p>
+<p begin="00:04:49.320" end="00:04:54.660" style="s2">Google API key variable we are almost</p>
+<p begin="00:04:51.720" end="00:04:58.199" style="s2">done I promise next go to the custom</p>
+<p begin="00:04:54.660" end="00:04:59.880" style="s2">search engine page and click add set up</p>
+<p begin="00:04:58.199" end="00:05:03.300" style="s2">a new custom search engine and send</p>
+<p begin="00:04:59.880" end="00:05:04.860" style="s2">select search the entire web then go to</p>
+<p begin="00:05:03.300" end="00:05:07.380" style="s2">the overview page of your search engine</p>
+<p begin="00:05:04.860" end="00:05:09.900" style="s2">and copy the search engine ID copy the</p>
+<p begin="00:05:07.380" end="00:05:11.940" style="s2">ID go to the dot EMB file on your vs</p>
+<p begin="00:05:09.900" end="00:05:14.820" style="s2">code and paste it on the custom search</p>
+<p begin="00:05:11.940" end="00:05:16.620" style="s2">engine ID environment variable unless</p>
+<p begin="00:05:14.820" end="00:05:19.380" style="s2">you add a credit card to Google Cloud</p>
+<p begin="00:05:16.620" end="00:05:22.680" style="s2">you will get a hundred searches for free</p>
+<p begin="00:05:19.380" end="00:05:25.500" style="s2">per day if you add one you get 10 000.</p>
+<p begin="00:05:22.680" end="00:05:27.780" style="s2">LGBT integrates with more services you</p>
+<p begin="00:05:25.500" end="00:05:30.900" style="s2">can also set up the API keys for a</p>
+<p begin="00:05:27.780" end="00:05:33.360" style="s2">GitHub Twitter AI voice Services stable</p>
+<p begin="00:05:30.900" end="00:05:35.520" style="s2">diffusion as well as a supported memory</p>
+<p begin="00:05:33.360" end="00:05:38.039" style="s2">bucket if we don&#39;t configure any memory</p>
+<p begin="00:05:35.520" end="00:05:40.259" style="s2">backend such as redis Pinecone and</p>
+<p begin="00:05:38.039" end="00:05:42.660" style="s2">others the memory will be saved locally</p>
+<p begin="00:05:40.259" end="00:05:45.780" style="s2">on your computer to use local memory</p>
+<p begin="00:05:42.660" end="00:05:48.240" style="s2">create a file called autogpd that Json</p>
+<p begin="00:05:45.780" end="00:05:51.240" style="s2">on the root of your project and you are</p>
+<p begin="00:05:48.240" end="00:05:54.000" style="s2">good to go we&#39;re done with the setup</p>
+<p begin="00:05:51.240" end="00:05:57.120" style="s2">let&#39;s now use this thing on your vs code</p>
+<p begin="00:05:54.000" end="00:05:59.699" style="s2">terminal start Auto GPT by running this</p>
+<p begin="00:05:57.120" end="00:06:02.340" style="s2">command LGBT will welcome us and ask us</p>
+<p begin="00:05:59.699" end="00:06:04.620" style="s2">to name our AI in my case I will go for</p>
+<p begin="00:06:02.340" end="00:06:07.560" style="s2">tour guide AI then we have to give the</p>
+<p begin="00:06:04.620" end="00:06:09.660" style="s2">AI a role I will say that tour guide AI</p>
+<p begin="00:06:07.560" end="00:06:12.240" style="s2">is an AI design to research travel</p>
+<p begin="00:06:09.660" end="00:06:14.340" style="s2">destinations and write travel brochures</p>
+<p begin="00:06:12.240" end="00:06:17.580" style="s2">after that we have to write down the</p>
+<p begin="00:06:14.340" end="00:06:20.220" style="s2">goals of our AI I want the AI to ride a</p>
+<p begin="00:06:17.580" end="00:06:22.380" style="s2">travel brochure for Dubrovnik a gorgeous</p>
+<p begin="00:06:20.220" end="00:06:24.300" style="s2">Croatian town the first goal would be</p>
+<p begin="00:06:22.380" end="00:06:26.759" style="s2">research Dubrovnik as a travel</p>
+<p begin="00:06:24.300" end="00:06:29.460" style="s2">destination the second one find things</p>
+<p begin="00:06:26.759" end="00:06:31.620" style="s2">to do and places to eat third one using</p>
+<p begin="00:06:29.460" end="00:06:34.080" style="s2">the results make a travel brochure for</p>
+<p begin="00:06:31.620" end="00:06:36.840" style="s2">Dubrovnik and the last goal when you</p>
+<p begin="00:06:34.080" end="00:06:39.300" style="s2">finish terminate press enter twice and</p>
+<p begin="00:06:36.840" end="00:06:42.539" style="s2">we are off to the races as you can see</p>
+<p begin="00:06:39.300" end="00:06:45.419" style="s2">rgbt comes up with thoughts reasoning a</p>
+<p begin="00:06:42.539" end="00:06:48.419" style="s2">plan criticism and speak which is how</p>
+<p begin="00:06:45.419" end="00:06:50.580" style="s2">rgbt tells us what is going to do then</p>
+<p begin="00:06:48.419" end="00:06:52.440" style="s2">it comes up with a command it wants to</p>
+<p begin="00:06:50.580" end="00:06:54.960" style="s2">execute it wants to run the Google</p>
+<p begin="00:06:52.440" end="00:06:57.300" style="s2">command to search for Dubrovnik travel</p>
+<p begin="00:06:54.960" end="00:06:58.860" style="s2">destination when Auto gbt proposes a</p>
+<p begin="00:06:57.300" end="00:07:01.319" style="s2">command we always have the option to</p>
+<p begin="00:06:58.860" end="00:07:03.120" style="s2">agree to it we can and say no or we can</p>
+<p begin="00:07:01.319" end="00:07:04.500" style="s2">provide extra feedback which is</p>
+<p begin="00:07:03.120" end="00:07:06.780" style="s2">something we&#39;re going to see a little</p>
+<p begin="00:07:04.500" end="00:07:09.060" style="s2">bit later after we say we agree it</p>
+<p begin="00:07:06.780" end="00:07:11.220" style="s2">searches Google and finds some websites</p>
+<p begin="00:07:09.060" end="00:07:13.199" style="s2">and it chooses Lonely Planet as the</p>
+<p begin="00:07:11.220" end="00:07:15.539" style="s2">first website to browse as you can see</p>
+<p begin="00:07:13.199" end="00:07:17.460" style="s2">it also came up with a plan it will</p>
+<p begin="00:07:15.539" end="00:07:19.500" style="s2">browse the website save important</p>
+<p begin="00:07:17.460" end="00:07:21.780" style="s2">information to files and use the</p>
+<p begin="00:07:19.500" end="00:07:23.940" style="s2">information it gathers to accomplish in</p>
+<p begin="00:07:21.780" end="00:07:25.919" style="s2">the task on the criticism part we can</p>
+<p begin="00:07:23.940" end="00:07:27.900" style="s2">see it says it needs to be sure it&#39;s</p>
+<p begin="00:07:25.919" end="00:07:30.539" style="s2">gathering information from reliable</p>
+<p begin="00:07:27.900" end="00:07:33.120" style="s2">sources now we want to run the browse</p>
+<p begin="00:07:30.539" end="00:07:36.000" style="s2">website command and after we accept it</p>
+<p begin="00:07:33.120" end="00:07:38.160" style="s2">it opens a browser goes to that website</p>
+<p begin="00:07:36.000" end="00:07:41.099" style="s2">and extracts information from it after</p>
+<p begin="00:07:38.160" end="00:07:43.919" style="s2">the information is extracted rgbt is now</p>
+<p begin="00:07:41.099" end="00:07:46.860" style="s2">asking for authorization to start a new</p>
+<p begin="00:07:43.919" end="00:07:49.380" style="s2">agent like a minion and it&#39;s giving it a</p>
+<p begin="00:07:46.860" end="00:07:51.840" style="s2">task how cool is that it knows what</p>
+<p begin="00:07:49.380" end="00:07:54.000" style="s2">prompts it needs it knows how to write</p>
+<p begin="00:07:51.840" end="00:07:56.160" style="s2">the prompts to get what it wants and is</p>
+<p begin="00:07:54.000" end="00:07:58.080" style="s2">executing those prompts because by this</p>
+<p begin="00:07:56.160" end="00:08:01.620" style="s2">point I am tired of having to approve</p>
+<p begin="00:07:58.080" end="00:08:03.120" style="s2">every command I instead it right y-50</p>
+<p begin="00:08:01.620" end="00:08:06.060" style="s2">which means that I&#39;m authorizing the</p>
+<p begin="00:08:03.120" end="00:08:07.500" style="s2">next 50 commands this is a very useful</p>
+<p begin="00:08:06.060" end="00:08:09.840" style="s2">setting but it can be a little bit</p>
+<p begin="00:08:07.500" end="00:08:12.000" style="s2">dangerous as we will see later as time</p>
+<p begin="00:08:09.840" end="00:08:14.520" style="s2">passes we can see all GPT getting the</p>
+<p begin="00:08:12.000" end="00:08:17.460" style="s2">answers it wants from its agents and</p>
+<p begin="00:08:14.520" end="00:08:20.280" style="s2">using commands like right to file to</p>
+<p begin="00:08:17.460" end="00:08:22.199" style="s2">taking notes of what it&#39;s finding out we</p>
+<p begin="00:08:20.280" end="00:08:24.840" style="s2">let it do its thing and it&#39;s going to</p>
+<p begin="00:08:22.199" end="00:08:26.879" style="s2">keep Googling browsing and taking notes</p>
+<p begin="00:08:24.840" end="00:08:28.919" style="s2">we can see the files it has created and</p>
+<p begin="00:08:26.879" end="00:08:31.560" style="s2">the note it took on the auto GPT</p>
+<p begin="00:08:28.919" end="00:08:34.440" style="s2">workspace folder and we can also take a</p>
+<p begin="00:08:31.560" end="00:08:37.320" style="s2">look at the auto gbt that Json files to</p>
+<p begin="00:08:34.440" end="00:08:39.899" style="s2">see the memory of the AI this file</p>
+<p begin="00:08:37.320" end="00:08:42.479" style="s2">contains the data the AI has found as</p>
+<p begin="00:08:39.899" end="00:08:45.120" style="s2">text and text embeddings which is how</p>
+<p begin="00:08:42.479" end="00:08:47.640" style="s2">the AI can read its notes thanks to the</p>
+<p begin="00:08:45.120" end="00:08:49.440" style="s2">memory of Auto GPD we can kill the</p>
+<p begin="00:08:47.640" end="00:08:52.140" style="s2">program and when we come back and start</p>
+<p begin="00:08:49.440" end="00:08:54.899" style="s2">it later we won&#39;t have to start from the</p>
+<p begin="00:08:52.140" end="00:08:57.600" style="s2">beginning it will instead ask us if we</p>
+<p begin="00:08:54.899" end="00:08:59.040" style="s2">want to continue so cool now I want to</p>
+<p begin="00:08:57.600" end="00:09:01.320" style="s2">tell you about the feedback command</p>
+<p begin="00:08:59.040" end="00:09:02.820" style="s2">because I found it very useful as you</p>
+<p begin="00:09:01.320" end="00:09:04.740" style="s2">can see here it is asking me for</p>
+<p begin="00:09:02.820" end="00:09:07.500" style="s2">permission to browse the Lonely Planet</p>
+<p begin="00:09:04.740" end="00:09:10.260" style="s2">website instead of saying yes or no I am</p>
+<p begin="00:09:07.500" end="00:09:12.959" style="s2">telling it to not use Lonely Planet and</p>
+<p begin="00:09:10.260" end="00:09:15.120" style="s2">use Trip Advisor instead and sure enough</p>
+<p begin="00:09:12.959" end="00:09:17.580" style="s2">it listens to the feedback and decides</p>
+<p begin="00:09:15.120" end="00:09:20.339" style="s2">to browse TripAdvisor instead incredible</p>
+<p begin="00:09:17.580" end="00:09:22.860" style="s2">after the brochure was ready I asked it</p>
+<p begin="00:09:20.339" end="00:09:25.200" style="s2">to put on a markdown file and this is</p>
+<p begin="00:09:22.860" end="00:09:27.240" style="s2">the output I got it did really well</p>
+<p begin="00:09:25.200" end="00:09:29.399" style="s2">right from the start we can see it is</p>
+<p begin="00:09:27.240" end="00:09:31.200" style="s2">actually written as a tourist brochure</p>
+<p begin="00:09:29.399" end="00:09:33.120" style="s2">it is recommending four things to do</p>
+<p begin="00:09:31.200" end="00:09:35.160" style="s2">with their descriptions and it&#39;s also</p>
+<p begin="00:09:33.120" end="00:09:37.620" style="s2">recommending some places to eat and is</p>
+<p begin="00:09:35.160" end="00:09:39.959" style="s2">describing them as well it is also</p>
+<p begin="00:09:37.620" end="00:09:41.580" style="s2">ending with thank you for considering</p>
+<p begin="00:09:39.959" end="00:09:44.100" style="s2">Dubrovnik as your next travel</p>
+<p begin="00:09:41.580" end="00:09:45.600" style="s2">destination we hope to see you soon I</p>
+<p begin="00:09:44.100" end="00:09:48.480" style="s2">hope you agree with me on thinking that</p>
+<p begin="00:09:45.600" end="00:09:51.000" style="s2">LGBT is super cool and now let me tell</p>
+<p begin="00:09:48.480" end="00:09:52.860" style="s2">you what the not so good part about Auto</p>
+<p begin="00:09:51.000" end="00:09:54.779" style="s2">gptr and the things you have to be</p>
+<p begin="00:09:52.860" end="00:09:57.540" style="s2">careful about the biggest thing is that</p>
+<p begin="00:09:54.779" end="00:10:01.500" style="s2">it can be expensive to run auto GPT uses</p>
+<p begin="00:09:57.540" end="00:10:04.920" style="s2">gpt4 and d53 GB 3 is very cost efficient</p>
+<p begin="00:10:01.500" end="00:10:07.260" style="s2">and fast and gpt4 is better at reasoning</p>
+<p begin="00:10:04.920" end="00:10:09.779" style="s2">and Consciousness but it&#39;s more than 10</p>
+<p begin="00:10:07.260" end="00:10:12.360" style="s2">times more expensive than gpt3 to save</p>
+<p begin="00:10:09.779" end="00:10:15.180" style="s2">money you can run auto GPT like this</p>
+<p begin="00:10:12.360" end="00:10:17.459" style="s2">this will use a gpt3 only so you will</p>
+<p begin="00:10:15.180" end="00:10:19.320" style="s2">save a bit of money as we saw before it</p>
+<p begin="00:10:17.459" end="00:10:21.720" style="s2">can be annoying to have to approve every</p>
+<p begin="00:10:19.320" end="00:10:23.519" style="s2">single command or LGBT wants to run so</p>
+<p begin="00:10:21.720" end="00:10:25.920" style="s2">we can pass a number like we saw before</p>
+<p begin="00:10:23.519" end="00:10:29.459" style="s2">or if you really trust the machine you</p>
+<p begin="00:10:25.920" end="00:10:31.680" style="s2">can run auto GPT on continuous mode this</p>
+<p begin="00:10:29.459" end="00:10:34.740" style="s2">will run auto GPT without user</p>
+<p begin="00:10:31.680" end="00:10:37.320" style="s2">authorization 100 automated this setting</p>
+<p begin="00:10:34.740" end="00:10:39.480" style="s2">really isn&#39;t recommended because the AI</p>
+<p begin="00:10:37.320" end="00:10:42.000" style="s2">might run commands that you would</p>
+<p begin="00:10:39.480" end="00:10:43.980" style="s2">normally not allow instead of using the</p>
+<p begin="00:10:42.000" end="00:10:46.980" style="s2">dash dash continuous I would recommend</p>
+<p begin="00:10:43.980" end="00:10:49.140" style="s2">to use the Y dash number command but</p>
+<p begin="00:10:46.980" end="00:10:51.839" style="s2">don&#39;t go too high on the number because</p>
+<p begin="00:10:49.140" end="00:10:54.300" style="s2">if you do that then you won&#39;t be able to</p>
+<p begin="00:10:51.839" end="00:10:56.100" style="s2">give any feedback to the AI in between</p>
+<p begin="00:10:54.300" end="00:10:57.660" style="s2">commands you will need to use the</p>
+<p begin="00:10:56.100" end="00:11:00.600" style="s2">feedback well especially when you are</p>
+<p begin="00:10:57.660" end="00:11:02.519" style="s2">using rgbt to do research sometimes it</p>
+<p begin="00:11:00.600" end="00:11:04.500" style="s2">just falls down on a rabbit hole and</p>
+<p begin="00:11:02.519" end="00:11:06.660" style="s2">keeps Googling and taking notes forever</p>
+<p begin="00:11:04.500" end="00:11:08.339" style="s2">researching more and more and more if</p>
+<p begin="00:11:06.660" end="00:11:10.140" style="s2">that happens you can use feedback and</p>
+<p begin="00:11:08.339" end="00:11:11.459" style="s2">send something like normal googly finish</p>
+<p begin="00:11:10.140" end="00:11:13.019" style="s2">with the information you have another</p>
+<p begin="00:11:11.459" end="00:11:14.640" style="s2">thing you have to keep in mind is that</p>
+<p begin="00:11:13.019" end="00:11:16.380" style="s2">this product is an experiment and it</p>
+<p begin="00:11:14.640" end="00:11:18.300" style="s2">makes mistakes so there will be cases</p>
+<p begin="00:11:16.380" end="00:11:20.279" style="s2">where you might get stuck it won&#39;t be</p>
+<p begin="00:11:18.300" end="00:11:22.079" style="s2">able to correct itself it might enter</p>
+<p begin="00:11:20.279" end="00:11:24.060" style="s2">into an infinite Loop and you will have</p>
+<p begin="00:11:22.079" end="00:11:26.100" style="s2">to restart it that will be fine but</p>
+<p begin="00:11:24.060" end="00:11:28.680" style="s2">remember that you are paying every time</p>
+<p begin="00:11:26.100" end="00:11:31.440" style="s2">that auto GPT thinks of a command or</p>
+<p begin="00:11:28.680" end="00:11:33.300" style="s2">evaluates an output or get your feedback</p>
+<p begin="00:11:31.440" end="00:11:35.579" style="s2">even though we are talking cents on the</p>
+<p begin="00:11:33.300" end="00:11:37.500" style="s2">dollar those tiny costs will add up</p>
+<p begin="00:11:35.579" end="00:11:39.720" style="s2">quickly to avoid spending lots of money</p>
+<p begin="00:11:37.500" end="00:11:42.540" style="s2">go to your open AI settings and set a</p>
+<p begin="00:11:39.720" end="00:11:45.660" style="s2">hard limit to cap and limit how much</p>
+<p begin="00:11:42.540" end="00:11:47.760" style="s2">money your account is allowed to spend I</p>
+<p begin="00:11:45.660" end="00:11:49.980" style="s2">strongly recommend you set limit before</p>
+<p begin="00:11:47.760" end="00:11:51.600" style="s2">you start don&#39;t let the AI drain your</p>
+<p begin="00:11:49.980" end="00:11:53.579" style="s2">credit card even though it is limited</p>
+<p begin="00:11:51.600" end="00:11:56.640" style="s2">even though it can be expensive and does</p>
+<p begin="00:11:53.579" end="00:11:59.579" style="s2">not perform perfectly at all tasks LGBT</p>
+<p begin="00:11:56.640" end="00:12:03.180" style="s2">feels powerful AI is at a moment like</p>
+<p begin="00:11:59.579" end="00:12:05.160" style="s2">computers were a long ago back when they</p>
+<p begin="00:12:03.180" end="00:12:06.779" style="s2">were huge machines and they weren&#39;t that</p>
+<p begin="00:12:05.160" end="00:12:08.880" style="s2">good the difference is that unlike</p>
+<p begin="00:12:06.779" end="00:12:11.579" style="s2">computers AI is moving at an incredible</p>
+<p begin="00:12:08.880" end="00:12:14.040" style="s2">speed it&#39;s been a month since rgbt is</p>
+<p begin="00:12:11.579" end="00:12:16.260" style="s2">out can you imagine where it would be in</p>
+<p begin="00:12:14.040" end="00:12:17.700" style="s2">five years now is your turn in the</p>
+<p begin="00:12:16.260" end="00:12:20.220" style="s2">comments to let me know what do you</p>
+<p begin="00:12:17.700" end="00:12:22.320" style="s2">think about Auto GPT are you impressed</p>
+<p begin="00:12:20.220" end="00:12:24.779" style="s2">or disappointed do you think it&#39;s cool</p>
+<p begin="00:12:22.320" end="00:12:27.180" style="s2">is it too over hype are you going to run</p>
+<p begin="00:12:24.779" end="00:12:28.500" style="s2">it in your machine I hope you found this</p>
+<p begin="00:12:27.180" end="00:12:30.060" style="s2">video useful and if you did please</p>
+<p begin="00:12:28.500" end="00:12:32.100" style="s2">consider leaving a like and subscribing</p>
+<p begin="00:12:30.060" end="00:12:33.720" style="s2">to the channel and don&#39;t forget that if</p>
+<p begin="00:12:32.100" end="00:12:36.480" style="s2">you want to learn things like JavaScript</p>
+<p begin="00:12:33.720" end="00:12:39.540" style="s2">python react react native gold dark</p>
+<p begin="00:12:36.480" end="00:12:42.420" style="s2">flutter among many many others for</p>
+<p begin="00:12:39.540" end="00:12:45.420" style="s2">absolutely free all you have to do is</p>
+<p begin="00:12:42.420" end="00:12:48.120" style="s2">click the link below to join any of our</p>
+<p begin="00:12:45.420" end="00:12:51.600" style="s2">many free courses that you can take</p>
+<p begin="00:12:48.120" end="00:12:53.459" style="s2">right now for absolutely free with me</p>
+<p begin="00:12:51.600" end="00:12:55.459" style="s2">click the link below and I will see you</p>
+<p begin="00:12:53.459" end="00:12:59.720" style="s2">there honors</p>
+<p begin="00:12:55.459" end="00:12:59.720" style="s2">see you on the next one bye</p>
+<p begin="00:13:06.540" end="00:13:11.779" style="s2">thank you</p>
+<p begin="00:13:09.660" end="00:13:11.779" style="s2">thank you</p>
+</div>
+</body>
+</tt>

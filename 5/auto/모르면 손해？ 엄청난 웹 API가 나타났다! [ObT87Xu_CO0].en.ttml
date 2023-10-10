@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:01.940" end="00:00:09.059" style="s2">today I have for you a Super Fresh</p>
+<p begin="00:00:05.400" end="00:00:11.580" style="s2">straight out of the oven new web API</p>
+<p begin="00:00:09.059" end="00:00:13.740" style="s2">that is incredibly cool when we use</p>
+<p begin="00:00:11.580" end="00:00:16.320" style="s2">mobile applications either iOS or</p>
+<p begin="00:00:13.740" end="00:00:18.300" style="s2">Android and we move between screens we</p>
+<p begin="00:00:16.320" end="00:00:21.240" style="s2">are used to seeing animations happen</p>
+<p begin="00:00:18.300" end="00:00:23.939" style="s2">maybe one element is animated maybe the</p>
+<p begin="00:00:21.240" end="00:00:26.460" style="s2">new screen fades in maybe it shows from</p>
+<p begin="00:00:23.939" end="00:00:28.140" style="s2">the bottom or slides from the side</p>
+<p begin="00:00:26.460" end="00:00:30.000" style="s2">creating animations like this for our</p>
+<p begin="00:00:28.140" end="00:00:31.800" style="s2">website is not impossible but it is no</p>
+<p begin="00:00:30.000" end="00:00:33.960" style="s2">work in the park either you would have</p>
+<p begin="00:00:31.800" end="00:00:35.460" style="s2">to maybe detect when the user clicks on</p>
+<p begin="00:00:33.960" end="00:00:38.040" style="s2">the link and then you will have to</p>
+<p begin="00:00:35.460" end="00:00:40.680" style="s2">render and start animating the next page</p>
+<p begin="00:00:38.040" end="00:00:42.899" style="s2">while still showing the old page and</p>
+<p begin="00:00:40.680" end="00:00:45.120" style="s2">when the animation finishes then you</p>
+<p begin="00:00:42.899" end="00:00:47.579" style="s2">will remove the old page not impossible</p>
+<p begin="00:00:45.120" end="00:00:50.940" style="s2">but it sounds like a lot of work enter</p>
+<p begin="00:00:47.579" end="00:00:53.039" style="s2">the view transitions API with the view</p>
+<p begin="00:00:50.940" end="00:00:55.920" style="s2">transitions API we can add beautiful</p>
+<p begin="00:00:53.039" end="00:00:59.219" style="s2">transitions between pages to our website</p>
+<p begin="00:00:55.920" end="00:01:02.460" style="s2">by only using HTML code let me show you</p>
+<p begin="00:00:59.219" end="00:01:04.739" style="s2">here we have two simple HTML pages on</p>
+<p begin="00:01:02.460" end="00:01:07.799" style="s2">the index page we have a link to the doc</p>
+<p begin="00:01:04.739" end="00:01:10.619" style="s2">HTML page and on the dog HTML page there</p>
+<p begin="00:01:07.799" end="00:01:12.659" style="s2">is an image and a title with the code as</p>
+<p begin="00:01:10.619" end="00:01:15.000" style="s2">it is when I click on the link there</p>
+<p begin="00:01:12.659" end="00:01:17.340" style="s2">will be no transition to get the</p>
+<p begin="00:01:15.000" end="00:01:19.560" style="s2">transition all we have to do is add a</p>
+<p begin="00:01:17.340" end="00:01:22.680" style="s2">meta tag with the name view transition</p>
+<p begin="00:01:19.560" end="00:01:24.360" style="s2">to the head of both of our pages and now</p>
+<p begin="00:01:22.680" end="00:01:26.640" style="s2">when we click on the link we will</p>
+<p begin="00:01:24.360" end="00:01:30.060" style="s2">automatically get a fade in transition</p>
+<p begin="00:01:26.640" end="00:01:32.460" style="s2">when we navigate that is already super</p>
+<p begin="00:01:30.060" end="00:01:35.280" style="s2">cool but if we want to we can customize</p>
+<p begin="00:01:32.460" end="00:01:36.720" style="s2">the animations between Pages using CSS</p>
+<p begin="00:01:35.280" end="00:01:39.119" style="s2">before we do that we have to understand</p>
+<p begin="00:01:36.720" end="00:01:41.280" style="s2">how this API works when the API is</p>
+<p begin="00:01:39.119" end="00:01:43.140" style="s2">enabled and we click on a link the</p>
+<p begin="00:01:41.280" end="00:01:45.180" style="s2">browser will take a screenshot of the</p>
+<p begin="00:01:43.140" end="00:01:47.759" style="s2">old page it will capture a live</p>
+<p begin="00:01:45.180" end="00:01:50.040" style="s2">representation of the new page and</p>
+<p begin="00:01:47.759" end="00:01:52.380" style="s2">animate the change between them on our</p>
+<p begin="00:01:50.040" end="00:01:54.840" style="s2">CSS we get access to both of these</p>
+<p begin="00:01:52.380" end="00:01:56.520" style="s2">elements the old screenshot and the new</p>
+<p begin="00:01:54.840" end="00:01:58.320" style="s2">page if you want to customize the</p>
+<p begin="00:01:56.520" end="00:02:00.659" style="s2">animation when the old page is</p>
+<p begin="00:01:58.320" end="00:02:03.299" style="s2">disappearing you can use the view</p>
+<p begin="00:02:00.659" end="00:02:04.740" style="s2">transition old pseudo elements and if</p>
+<p begin="00:02:03.299" end="00:02:07.079" style="s2">you want to customize the animation when</p>
+<p begin="00:02:04.740" end="00:02:10.020" style="s2">the new page appears you can use the</p>
+<p begin="00:02:07.079" end="00:02:11.459" style="s2">view transition new sudo element in our</p>
+<p begin="00:02:10.020" end="00:02:14.340" style="s2">case we&#39;re going to add this code</p>
+<p begin="00:02:11.459" end="00:02:17.099" style="s2">selecting those pseudo elements to both</p>
+<p begin="00:02:14.340" end="00:02:19.020" style="s2">of our Pages which as you can see makes</p>
+<p begin="00:02:17.099" end="00:02:21.780" style="s2">the animation slower when we change</p>
+<p begin="00:02:19.020" end="00:02:24.120" style="s2">between pages but that is not all we can</p>
+<p begin="00:02:21.780" end="00:02:26.879" style="s2">create our own animations like for</p>
+<p begin="00:02:24.120" end="00:02:29.220" style="s2">example making the old page slide to the</p>
+<p begin="00:02:26.879" end="00:02:31.680" style="s2">left and making the new page slide from</p>
+<p begin="00:02:29.220" end="00:02:33.540" style="s2">the right for this on the old page we</p>
+<p begin="00:02:31.680" end="00:02:35.280" style="s2">are going to create an animation that is</p>
+<p begin="00:02:33.540" end="00:02:37.920" style="s2">going to change the opacity of the page</p>
+<p begin="00:02:35.280" end="00:02:40.080" style="s2">to zero and move it to the left and</p>
+<p begin="00:02:37.920" end="00:02:43.680" style="s2">we&#39;re going to give that animation to</p>
+<p begin="00:02:40.080" end="00:02:45.180" style="s2">the view transition old sudo element and</p>
+<p begin="00:02:43.680" end="00:02:47.040" style="s2">then on the new page we will make an</p>
+<p begin="00:02:45.180" end="00:02:49.379" style="s2">animation that initializes the page with</p>
+<p begin="00:02:47.040" end="00:02:51.360" style="s2">zero opacity and moves it to the right</p>
+<p begin="00:02:49.379" end="00:02:54.180" style="s2">and we are going to give that animation</p>
+<p begin="00:02:51.360" end="00:02:56.519" style="s2">to the view transition new sudo element</p>
+<p begin="00:02:54.180" end="00:02:58.800" style="s2">and as you can see when we click on the</p>
+<p begin="00:02:56.519" end="00:03:01.260" style="s2">link we have a very nice animation that</p>
+<p begin="00:02:58.800" end="00:03:04.200" style="s2">makes our web look look like a native</p>
+<p begin="00:03:01.260" end="00:03:06.180" style="s2">app that is already super cool but what</p>
+<p begin="00:03:04.200" end="00:03:09.420" style="s2">if I told you that we can also animate</p>
+<p begin="00:03:06.180" end="00:03:11.760" style="s2">elements between screens for this on our</p>
+<p begin="00:03:09.420" end="00:03:14.519" style="s2">index page we are going to put a small</p>
+<p begin="00:03:11.760" end="00:03:16.440" style="s2">photo of a dog with a link to the dock</p>
+<p begin="00:03:14.519" end="00:03:19.140" style="s2">page and on the Doc Page we will show</p>
+<p begin="00:03:16.440" end="00:03:22.319" style="s2">the same photo just a little bigger plus</p>
+<p begin="00:03:19.140" end="00:03:24.840" style="s2">some extra text again here only because</p>
+<p begin="00:03:22.319" end="00:03:27.060" style="s2">we are using that magical meta tag we</p>
+<p begin="00:03:24.840" end="00:03:29.280" style="s2">get the nice fade animation but now</p>
+<p begin="00:03:27.060" end="00:03:31.260" style="s2">we&#39;re going to use CSS to tell the</p>
+<p begin="00:03:29.280" end="00:03:33.720" style="s2">browser that we want to animate the</p>
+<p begin="00:03:31.260" end="00:03:36.239" style="s2">image between the two screens the way we</p>
+<p begin="00:03:33.720" end="00:03:39.120" style="s2">do this is by using the view transition</p>
+<p begin="00:03:36.239" end="00:03:41.400" style="s2">name CSS property to tell the browser</p>
+<p begin="00:03:39.120" end="00:03:43.500" style="s2">that this image is the same across the</p>
+<p begin="00:03:41.400" end="00:03:48.140" style="s2">screen that is why we are naming the</p>
+<p begin="00:03:43.500" end="00:03:50.640" style="s2">image dog in both our index HTML and</p>
+<p begin="00:03:48.140" end="00:03:53.220" style="s2">doc.html and as you can see just with</p>
+<p begin="00:03:50.640" end="00:03:56.519" style="s2">that line of code now the browser will</p>
+<p begin="00:03:53.220" end="00:03:58.920" style="s2">animate the image when the page changes</p>
+<p begin="00:03:56.519" end="00:04:01.200" style="s2">how cool was that the view transitions</p>
+<p begin="00:03:58.920" end="00:04:03.180" style="s2">API also works with JavaScript so you</p>
+<p begin="00:04:01.200" end="00:04:05.819" style="s2">can use it from react or other framework</p>
+<p begin="00:04:03.180" end="00:04:08.040" style="s2">all you have to do is call document that</p>
+<p begin="00:04:05.819" end="00:04:11.159" style="s2">start view transition and run whatever</p>
+<p begin="00:04:08.040" end="00:04:13.680" style="s2">code your framework uses to navigate and</p>
+<p begin="00:04:11.159" end="00:04:16.320" style="s2">you&#39;re good to go now it&#39;s time for some</p>
+<p begin="00:04:13.680" end="00:04:19.139" style="s2">bad news this API is still experimental</p>
+<p begin="00:04:16.320" end="00:04:21.299" style="s2">and as of some days ago the only browser</p>
+<p begin="00:04:19.139" end="00:04:25.199" style="s2">that supports it fully is Google Chrome</p>
+<p begin="00:04:21.299" end="00:04:26.759" style="s2">version 111 in Chrome for Android which</p>
+<p begin="00:04:25.199" end="00:04:28.800" style="s2">means that we have to wait for all the</p>
+<p begin="00:04:26.759" end="00:04:31.380" style="s2">other browsers to adopt it Microsoft</p>
+<p begin="00:04:28.800" end="00:04:33.780" style="s2">Edge and Opera are on the way it seems</p>
+<p begin="00:04:31.380" end="00:04:35.820" style="s2">like Firefox will support it as well and</p>
+<p begin="00:04:33.780" end="00:04:38.100" style="s2">we would have to wait and see if Safari</p>
+<p begin="00:04:35.820" end="00:04:40.139" style="s2">eventually does that&#39;s it for this video</p>
+<p begin="00:04:38.100" end="00:04:41.699" style="s2">I hope that you found it useful and</p>
+<p begin="00:04:40.139" end="00:04:43.860" style="s2">don&#39;t forget that if you want to learn</p>
+<p begin="00:04:41.699" end="00:04:46.259" style="s2">things like JavaScript python react</p>
+<p begin="00:04:43.860" end="00:04:49.620" style="s2">react native gold Dart flutter among</p>
+<p begin="00:04:46.259" end="00:04:51.540" style="s2">many others for absolutely free all you</p>
+<p begin="00:04:49.620" end="00:04:54.300" style="s2">have to do is click the link below to</p>
+<p begin="00:04:51.540" end="00:04:56.940" style="s2">join any of our many free courses that</p>
+<p begin="00:04:54.300" end="00:04:58.500" style="s2">you can take right now for free with me</p>
+<p begin="00:04:56.940" end="00:04:59.900" style="s2">click on the link below and I will see</p>
+<p begin="00:04:58.500" end="00:05:04.460" style="s2">you there</p>
+<p begin="00:04:59.900" end="00:05:04.460" style="s2">mobile see you on the next one bye</p>
+<p begin="00:05:07.919" end="00:05:10.639" style="s2">thank you</p>
+<p begin="00:05:11.880" end="00:05:14.000" style="s2">thank you</p>
+</div>
+</body>
+</tt>

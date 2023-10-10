@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.000" end="00:00:04.020" style="s2">on this video I want to share with you</p>
+<p begin="00:00:01.860" end="00:00:06.240" style="s2">the prompting techniques that I use to</p>
+<p begin="00:00:04.020" end="00:00:08.940" style="s2">extract as much value as possible from</p>
+<p begin="00:00:06.240" end="00:00:11.040" style="s2">chat GPT chargpt has been out for a</p>
+<p begin="00:00:08.940" end="00:00:13.139" style="s2">while now and the more I use it the more</p>
+<p begin="00:00:11.040" end="00:00:15.240" style="s2">I see it as a tool that makes me more</p>
+<p begin="00:00:13.139" end="00:00:17.520" style="s2">productive rather than a thread that is</p>
+<p begin="00:00:15.240" end="00:00:19.340" style="s2">going to take my job a recent study</p>
+<p begin="00:00:17.520" end="00:00:22.859" style="s2">conducted by Purdue University</p>
+<p begin="00:00:19.340" end="00:00:25.500" style="s2">discovered that when presented with 517</p>
+<p begin="00:00:22.859" end="00:00:27.539" style="s2">questions from stack Overflow jdbt</p>
+<p begin="00:00:25.500" end="00:00:31.380" style="s2">provided answers with inaccuracies or</p>
+<p begin="00:00:27.539" end="00:00:33.899" style="s2">non-functional code 52 of the time here</p>
+<p begin="00:00:31.380" end="00:00:36.180" style="s2">you can see Chad GPT answers compared to</p>
+<p begin="00:00:33.899" end="00:00:39.260" style="s2">stack Overflow answers according to this</p>
+<p begin="00:00:36.180" end="00:00:42.120" style="s2">study Jazzy PT ranks lower incorrectness</p>
+<p begin="00:00:39.260" end="00:00:44.640" style="s2">comprehensiveness conciseness and</p>
+<p begin="00:00:42.120" end="00:00:46.800" style="s2">usefulness compared to stack Overflow</p>
+<p begin="00:00:44.640" end="00:00:49.260" style="s2">another problem is that the model was</p>
+<p begin="00:00:46.800" end="00:00:51.480" style="s2">found to produce convincing answers with</p>
+<p begin="00:00:49.260" end="00:00:54.000" style="s2">confident language even if the answer</p>
+<p begin="00:00:51.480" end="00:00:56.100" style="s2">was wrong or only half right since it&#39;s</p>
+<p begin="00:00:54.000" end="00:00:58.199" style="s2">sometimes hallucinates and makes stuff</p>
+<p begin="00:00:56.100" end="00:00:59.940" style="s2">up we can&#39;t trust all the answers it</p>
+<p begin="00:00:58.199" end="00:01:02.039" style="s2">gives us we have to have some understand</p>
+<p begin="00:00:59.940" end="00:01:04.260" style="s2">ending of the topic we are asking about</p>
+<p begin="00:01:02.039" end="00:01:06.000" style="s2">to be able to evaluate the answers it</p>
+<p begin="00:01:04.260" end="00:01:08.760" style="s2">gives us that&#39;s why I believe that</p>
+<p begin="00:01:06.000" end="00:01:11.040" style="s2">chargpt is a tool that is used correctly</p>
+<p begin="00:01:08.760" end="00:01:12.299" style="s2">will make us more productive rather than</p>
+<p begin="00:01:11.040" end="00:01:14.400" style="s2">something that is going to replace us</p>
+<p begin="00:01:12.299" end="00:01:16.020" style="s2">completely to use it more effectively we</p>
+<p begin="00:01:14.400" end="00:01:17.760" style="s2">need to learn how to ask it the right</p>
+<p begin="00:01:16.020" end="00:01:19.979" style="s2">questions and how to frame the questions</p>
+<p begin="00:01:17.760" end="00:01:21.360" style="s2">as well it&#39;s like Google if you don&#39;t</p>
+<p begin="00:01:19.979" end="00:01:23.220" style="s2">search well you&#39;re not gonna get good</p>
+<p begin="00:01:21.360" end="00:01:25.560" style="s2">search results researchers from</p>
+<p begin="00:01:23.220" end="00:01:28.560" style="s2">Vanderbilt universities Computer Science</p>
+<p begin="00:01:25.560" end="00:01:31.740" style="s2">Department in Tennessee released a paper</p>
+<p begin="00:01:28.560" end="00:01:33.960" style="s2">with a number of prompt patterns that</p>
+<p begin="00:01:31.740" end="00:01:36.420" style="s2">are proven to get us better answers out</p>
+<p begin="00:01:33.960" end="00:01:38.159" style="s2">of chat GPT I read that paper so you</p>
+<p begin="00:01:36.420" end="00:01:40.140" style="s2">wouldn&#39;t have to and I picked out the</p>
+<p begin="00:01:38.159" end="00:01:42.659" style="s2">best bit to share with you my favorite</p>
+<p begin="00:01:40.140" end="00:01:44.460" style="s2">pattern is on this list it makes getting</p>
+<p begin="00:01:42.659" end="00:01:46.500" style="s2">the best outputs from chat DPT</p>
+<p begin="00:01:44.460" end="00:01:48.180" style="s2">effortless so make sure you watch until</p>
+<p begin="00:01:46.500" end="00:01:49.920" style="s2">the end to find out which one it is</p>
+<p begin="00:01:48.180" end="00:01:52.020" style="s2">these patterns may be more or less</p>
+<p begin="00:01:49.920" end="00:01:54.119" style="s2">effective depending on what you need so</p>
+<p begin="00:01:52.020" end="00:01:56.159" style="s2">feel free to mix or alternate them until</p>
+<p begin="00:01:54.119" end="00:01:58.860" style="s2">you find out where works better for your</p>
+<p begin="00:01:56.159" end="00:02:01.079" style="s2">questions the Persona pattern using the</p>
+<p begin="00:01:58.860" end="00:02:03.600" style="s2">personal pattern we can guide chat GPT</p>
+<p begin="00:02:01.079" end="00:02:05.759" style="s2">in determining the kind of responses to</p>
+<p begin="00:02:03.600" end="00:02:08.399" style="s2">produce and the specific details to</p>
+<p begin="00:02:05.759" end="00:02:10.920" style="s2">focus on with this pattern we can tailor</p>
+<p begin="00:02:08.399" end="00:02:13.500" style="s2">chargeability to consistently adopt a</p>
+<p begin="00:02:10.920" end="00:02:14.940" style="s2">specific Viewpoint or perspective for</p>
+<p begin="00:02:13.500" end="00:02:17.280" style="s2">example if you wanted to review your</p>
+<p begin="00:02:14.940" end="00:02:19.500" style="s2">code and find books in it first tell</p>
+<p begin="00:02:17.280" end="00:02:22.440" style="s2">Chad Deputy the following you are going</p>
+<p begin="00:02:19.500" end="00:02:24.599" style="s2">to pretend to be a senior engineer at a</p>
+<p begin="00:02:22.440" end="00:02:26.580" style="s2">fan company review the following code</p>
+<p begin="00:02:24.599" end="00:02:29.340" style="s2">paying attention to security and</p>
+<p begin="00:02:26.580" end="00:02:31.620" style="s2">performance provide output that a senior</p>
+<p begin="00:02:29.340" end="00:02:34.260" style="s2">engineer would produce regarding the</p>
+<p begin="00:02:31.620" end="00:02:36.120" style="s2">code and then ask the question this</p>
+<p begin="00:02:34.260" end="00:02:38.520" style="s2">point judge Liberty to give you a better</p>
+<p begin="00:02:36.120" end="00:02:40.860" style="s2">output it sort of Narrows what is going</p>
+<p begin="00:02:38.520" end="00:02:42.480" style="s2">to focus on and notice this pattern is</p>
+<p begin="00:02:40.860" end="00:02:44.700" style="s2">very useful and not only on questions</p>
+<p begin="00:02:42.480" end="00:02:47.580" style="s2">regarding code you can tell chadipity</p>
+<p begin="00:02:44.700" end="00:02:49.440" style="s2">for example from now on act as a book</p>
+<p begin="00:02:47.580" end="00:02:52.260" style="s2">editor and review the following block</p>
+<p begin="00:02:49.440" end="00:02:53.940" style="s2">article focusing on readability or you</p>
+<p begin="00:02:52.260" end="00:02:56.280" style="s2">can say pretend you&#39;re a marketing</p>
+<p begin="00:02:53.940" end="00:02:58.200" style="s2">expert review the following slogans and</p>
+<p begin="00:02:56.280" end="00:03:00.660" style="s2">suggest improvements based on other</p>
+<p begin="00:02:58.200" end="00:03:02.580" style="s2">popular campaigns after are using this</p>
+<p begin="00:03:00.660" end="00:03:04.560" style="s2">pattern the quality of answers I get has</p>
+<p begin="00:03:02.580" end="00:03:06.360" style="s2">increased this pattern makes charging</p>
+<p begin="00:03:04.560" end="00:03:08.580" style="s2">Beauty talk only about what I care about</p>
+<p begin="00:03:06.360" end="00:03:10.620" style="s2">which is great be careful not to mention</p>
+<p begin="00:03:08.580" end="00:03:12.599" style="s2">leaving people or people considered</p>
+<p begin="00:03:10.620" end="00:03:15.000" style="s2">harmful since that may trigger the</p>
+<p begin="00:03:12.599" end="00:03:17.159" style="s2">safety filters of chat GPT the recipe</p>
+<p begin="00:03:15.000" end="00:03:18.599" style="s2">pattern this pattern is useful if you</p>
+<p begin="00:03:17.159" end="00:03:20.879" style="s2">have something you want to accomplish</p>
+<p begin="00:03:18.599" end="00:03:22.920" style="s2">you know the ingredients and sort of</p>
+<p begin="00:03:20.879" end="00:03:24.720" style="s2">know the steps to get there but you need</p>
+<p begin="00:03:22.920" end="00:03:26.400" style="s2">help putting them all together this</p>
+<p begin="00:03:24.720" end="00:03:28.379" style="s2">pattern is especially useful if you are</p>
+<p begin="00:03:26.400" end="00:03:29.580" style="s2">a programmer it saves you a lot of time</p>
+<p begin="00:03:28.379" end="00:03:31.739" style="s2">and it helps you actually understand</p>
+<p begin="00:03:29.580" end="00:03:33.120" style="s2">what the code is doing this pattern is</p>
+<p begin="00:03:31.739" end="00:03:35.220" style="s2">like telling judge Beauty you want to</p>
+<p begin="00:03:33.120" end="00:03:37.260" style="s2">make a cake you have flour water and</p>
+<p begin="00:03:35.220" end="00:03:39.360" style="s2">sugar you know you have to mix those but</p>
+<p begin="00:03:37.260" end="00:03:41.640" style="s2">you are not sure how on which order and</p>
+<p begin="00:03:39.360" end="00:03:43.739" style="s2">what to do next a real world example</p>
+<p begin="00:03:41.640" end="00:03:46.260" style="s2">would be something like I&#39;m trying to</p>
+<p begin="00:03:43.739" end="00:03:48.780" style="s2">write a Ros program to encrypt data I</p>
+<p begin="00:03:46.260" end="00:03:51.360" style="s2">know I have to read user input validate</p>
+<p begin="00:03:48.780" end="00:03:53.940" style="s2">it encrypted and return the encrypted</p>
+<p begin="00:03:51.360" end="00:03:56.879" style="s2">data please provide a complete sequence</p>
+<p begin="00:03:53.940" end="00:03:59.760" style="s2">of steps for me fill in enemies in steps</p>
+<p begin="00:03:56.879" end="00:04:02.400" style="s2">and identify any unnecessary steps the</p>
+<p begin="00:03:59.760" end="00:04:04.680" style="s2">the feeling any missing steps statement</p>
+<p begin="00:04:02.400" end="00:04:06.599" style="s2">is there so charge Deputy fields in the</p>
+<p begin="00:04:04.680" end="00:04:08.459" style="s2">gaps rather than asking us follow-up</p>
+<p begin="00:04:06.599" end="00:04:11.040" style="s2">questions in case we missed something</p>
+<p begin="00:04:08.459" end="00:04:13.260" style="s2">and the last statement of identify any</p>
+<p begin="00:04:11.040" end="00:04:15.780" style="s2">unnecessary steps is useful because it</p>
+<p begin="00:04:13.260" end="00:04:17.820" style="s2">tells judge GPT to find inaccuracies in</p>
+<p begin="00:04:15.780" end="00:04:20.519" style="s2">our request to make the recipe better</p>
+<p begin="00:04:17.820" end="00:04:22.199" style="s2">the reflection pattern I think all</p>
+<p begin="00:04:20.519" end="00:04:24.060" style="s2">Junior developers should use this</p>
+<p begin="00:04:22.199" end="00:04:25.800" style="s2">pattern as we know even with Google in</p>
+<p begin="00:04:24.060" end="00:04:27.240" style="s2">stack Overflow you should never use copy</p>
+<p begin="00:04:25.800" end="00:04:29.280" style="s2">paste code you should always understand</p>
+<p begin="00:04:27.240" end="00:04:31.259" style="s2">what the code is doing using the</p>
+<p begin="00:04:29.280" end="00:04:33.360" style="s2">reflection pattern you can ask Chad GPT</p>
+<p begin="00:04:31.259" end="00:04:34.919" style="s2">to explain the reasoning behind each</p>
+<p begin="00:04:33.360" end="00:04:37.440" style="s2">answer which will help you understand</p>
+<p begin="00:04:34.919" end="00:04:39.840" style="s2">the output more and can potentially help</p>
+<p begin="00:04:37.440" end="00:04:42.060" style="s2">you catch the model in those times when</p>
+<p begin="00:04:39.840" end="00:04:44.520" style="s2">it is hallucinating so next time before</p>
+<p begin="00:04:42.060" end="00:04:46.080" style="s2">you ask a question tell chatipiti the</p>
+<p begin="00:04:44.520" end="00:04:47.880" style="s2">following when you provide an answer</p>
+<p begin="00:04:46.080" end="00:04:50.160" style="s2">please explain the reasoning and</p>
+<p begin="00:04:47.880" end="00:04:52.020" style="s2">assumptions behind your answer explain</p>
+<p begin="00:04:50.160" end="00:04:54.840" style="s2">your choices and address any potential</p>
+<p begin="00:04:52.020" end="00:04:56.639" style="s2">limitations or edge cases and then ask</p>
+<p begin="00:04:54.840" end="00:04:58.560" style="s2">your question you will find that the</p>
+<p begin="00:04:56.639" end="00:05:00.360" style="s2">answers will be even more detailed and</p>
+<p begin="00:04:58.560" end="00:05:01.979" style="s2">judgivity will provide even more</p>
+<p begin="00:05:00.360" end="00:05:05.160" style="s2">background information on its answers</p>
+<p begin="00:05:01.979" end="00:05:06.840" style="s2">than normal the refusal breaker pattern</p>
+<p begin="00:05:05.160" end="00:05:08.940" style="s2">I&#39;m sure you have asked a question</p>
+<p begin="00:05:06.840" end="00:05:10.800" style="s2">before that chatipiti told you it can&#39;t</p>
+<p begin="00:05:08.940" end="00:05:13.080" style="s2">answer because of knowledge limits</p>
+<p begin="00:05:10.800" end="00:05:15.419" style="s2">safety or whatever this pattern is to</p>
+<p begin="00:05:13.080" end="00:05:17.880" style="s2">sort of use chargeability against itself</p>
+<p begin="00:05:15.419" end="00:05:19.800" style="s2">by helping you reward or reframe the</p>
+<p begin="00:05:17.880" end="00:05:21.540" style="s2">question that you want to ask so that it</p>
+<p begin="00:05:19.800" end="00:05:23.699" style="s2">can be answered before you ask a</p>
+<p begin="00:05:21.540" end="00:05:25.680" style="s2">question write this down to chat GPT</p>
+<p begin="00:05:23.699" end="00:05:28.080" style="s2">whenever you can&#39;t answer a question</p>
+<p begin="00:05:25.680" end="00:05:30.120" style="s2">explain why you can&#39;t answer the</p>
+<p begin="00:05:28.080" end="00:05:32.220" style="s2">question provide one or more alternative</p>
+<p begin="00:05:30.120" end="00:05:34.080" style="s2">wordings of the question that you could</p>
+<p begin="00:05:32.220" end="00:05:36.539" style="s2">answer after you do this and ask your</p>
+<p begin="00:05:34.080" end="00:05:38.340" style="s2">question and if judgpt can&#39;t answer it</p>
+<p begin="00:05:36.539" end="00:05:40.259" style="s2">you will see it give you a couple of</p>
+<p begin="00:05:38.340" end="00:05:42.840" style="s2">alternative questions that will answer</p>
+<p begin="00:05:40.259" end="00:05:44.699" style="s2">your original query that chatibility</p>
+<p begin="00:05:42.840" end="00:05:47.400" style="s2">will be able to answer the flipped</p>
+<p begin="00:05:44.699" end="00:05:49.139" style="s2">interaction pattern this is my absolute</p>
+<p begin="00:05:47.400" end="00:05:50.580" style="s2">favorite pattern usually when asking</p>
+<p begin="00:05:49.139" end="00:05:52.560" style="s2">something to judge Beauty we have to</p>
+<p begin="00:05:50.580" end="00:05:54.360" style="s2">think hard about how to structure the</p>
+<p begin="00:05:52.560" end="00:05:55.500" style="s2">question provide all the required</p>
+<p begin="00:05:54.360" end="00:05:57.360" style="s2">information</p>
+<p begin="00:05:55.500" end="00:05:59.340" style="s2">Etc it&#39;s exhausting but not with this</p>
+<p begin="00:05:57.360" end="00:06:02.820" style="s2">pattern using this technique we sort of</p>
+<p begin="00:05:59.340" end="00:06:05.280" style="s2">flip the script making chargity ask us</p>
+<p begin="00:06:02.820" end="00:06:07.500" style="s2">questions until it accomplishes what we</p>
+<p begin="00:06:05.280" end="00:06:09.419" style="s2">want this pattern is useful when you</p>
+<p begin="00:06:07.500" end="00:06:11.160" style="s2">know what you want but you don&#39;t know</p>
+<p begin="00:06:09.419" end="00:06:13.199" style="s2">the steps to get there and you don&#39;t</p>
+<p begin="00:06:11.160" end="00:06:15.180" style="s2">know what information charge Deputy</p>
+<p begin="00:06:13.199" end="00:06:17.160" style="s2">needs to help you get there an example</p>
+<p begin="00:06:15.180" end="00:06:19.320" style="s2">could be something like this I want you</p>
+<p begin="00:06:17.160" end="00:06:22.380" style="s2">to ask me questions to deploy a rust</p>
+<p begin="00:06:19.320" end="00:06:23.819" style="s2">binary to a web server located in AWS</p>
+<p begin="00:06:22.380" end="00:06:26.639" style="s2">when you have all the information you</p>
+<p begin="00:06:23.819" end="00:06:28.979" style="s2">need write a bash script to automate the</p>
+<p begin="00:06:26.639" end="00:06:30.780" style="s2">deployment after you run this query you</p>
+<p begin="00:06:28.979" end="00:06:32.699" style="s2">will find chatipiti asking you for the</p>
+<p begin="00:06:30.780" end="00:06:34.259" style="s2">information it needs to help you which</p>
+<p begin="00:06:32.699" end="00:06:36.539" style="s2">is awesome all you have to do is answer</p>
+<p begin="00:06:34.259" end="00:06:38.520" style="s2">is way easier to ask for things this way</p>
+<p begin="00:06:36.539" end="00:06:40.919" style="s2">rather than first having to find out</p>
+<p begin="00:06:38.520" end="00:06:43.020" style="s2">what information does chat Deputy need</p>
+<p begin="00:06:40.919" end="00:06:45.000" style="s2">and the steps and all that rather than</p>
+<p begin="00:06:43.020" end="00:06:47.580" style="s2">you driving the conversation we let chat</p>
+<p begin="00:06:45.000" end="00:06:49.440" style="s2">DPT drive it so we give it exactly what</p>
+<p begin="00:06:47.580" end="00:06:51.660" style="s2">it needs to help us in as little</p>
+<p begin="00:06:49.440" end="00:06:53.639" style="s2">messages and interactions as possible</p>
+<p begin="00:06:51.660" end="00:06:55.680" style="s2">that&#39;s it for this video if you found it</p>
+<p begin="00:06:53.639" end="00:06:57.120" style="s2">useful please like it share it with your</p>
+<p begin="00:06:55.680" end="00:06:58.319" style="s2">friends and subscribe to the channel and</p>
+<p begin="00:06:57.120" end="00:07:00.539" style="s2">let me know in the comments what is your</p>
+<p begin="00:06:58.319" end="00:07:02.400" style="s2">favorite pattern from this or if you</p>
+<p begin="00:07:00.539" end="00:07:04.500" style="s2">have some custom pattern that works well</p>
+<p begin="00:07:02.400" end="00:07:06.360" style="s2">for you share it on the comments so we</p>
+<p begin="00:07:04.500" end="00:07:07.680" style="s2">can all become more productive if you</p>
+<p begin="00:07:06.360" end="00:07:09.479" style="s2">would like to learn to code for free</p>
+<p begin="00:07:07.680" end="00:07:11.880" style="s2">click the link below where you can take</p>
+<p begin="00:07:09.479" end="00:07:14.940" style="s2">free courses on JavaScript python react</p>
+<p begin="00:07:11.880" end="00:07:17.280" style="s2">react native go Dart flutter and many</p>
+<p begin="00:07:14.940" end="00:07:19.280" style="s2">others all for free click the link below</p>
+<p begin="00:07:17.280" end="00:07:24.000" style="s2">and I will see you there</p>
+<p begin="00:07:19.280" end="00:07:24.000" style="s2">see you on the next one bye</p>
+<p begin="00:07:28.080" end="00:07:31.080" style="s2">foreign</p>
+</div>
+</body>
+</tt>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.960" end="00:00:07.600" style="s2">today we&#39;re going to take a look at and</p>
+<p begin="00:00:04.880" end="00:00:10.080" style="s2">write some code with the highest paid</p>
+<p begin="00:00:07.600" end="00:00:12.080" style="s2">programming language that is according</p>
+<p begin="00:00:10.080" end="00:00:15.040" style="s2">to the stack overflow developer survey</p>
+<p begin="00:00:12.080" end="00:00:16.320" style="s2">of 2022 so before we get started looking</p>
+<p begin="00:00:15.040" end="00:00:18.640" style="s2">at the language that is going to make us</p>
+<p begin="00:00:16.320" end="00:00:21.119" style="s2">all rich let&#39;s first take a look at some</p>
+<p begin="00:00:18.640" end="00:00:23.840" style="s2">key findings on this year&#39;s survey</p>
+<p begin="00:00:21.119" end="00:00:27.760" style="s2">javascript is the most popular language</p>
+<p begin="00:00:23.840" end="00:00:30.640" style="s2">followed by html css sql and python and</p>
+<p begin="00:00:27.760" end="00:00:33.040" style="s2">node.js and react.js are the most</p>
+<p begin="00:00:30.640" end="00:00:35.840" style="s2">popular frameworks followed by the</p>
+<p begin="00:00:33.040" end="00:00:38.559" style="s2">online jquery most professional</p>
+<p begin="00:00:35.840" end="00:00:42.079" style="s2">developers use windows but very few use</p>
+<p begin="00:00:38.559" end="00:00:44.480" style="s2">wsl or windows subsystem for linux now i</p>
+<p begin="00:00:42.079" end="00:00:46.719" style="s2">don&#39;t know why since wsl makes</p>
+<p begin="00:00:44.480" end="00:00:48.719" style="s2">developing in windows an absolute</p>
+<p begin="00:00:46.719" end="00:00:52.000" style="s2">pleasure by the way if you want to set</p>
+<p begin="00:00:48.719" end="00:00:53.600" style="s2">up your windows with wsl like a pro then</p>
+<p begin="00:00:52.000" end="00:00:55.199" style="s2">please click the link below because</p>
+<p begin="00:00:53.600" end="00:00:58.399" style="s2">there you will find a free tutorial in</p>
+<p begin="00:00:55.199" end="00:01:00.640" style="s2">how to do so rust is still the most</p>
+<p begin="00:00:58.399" end="00:01:04.479" style="s2">loved programming language followed by</p>
+<p begin="00:01:00.640" end="00:01:06.640" style="s2">elixir rust python typescript and go are</p>
+<p begin="00:01:04.479" end="00:01:09.200" style="s2">the languages that developers want to</p>
+<p begin="00:01:06.640" end="00:01:11.680" style="s2">use the most if you also want to learn</p>
+<p begin="00:01:09.200" end="00:01:13.119" style="s2">python typescript or go click the link</p>
+<p begin="00:01:11.680" end="00:01:15.920" style="s2">below because you&#39;re going to find free</p>
+<p begin="00:01:13.119" end="00:01:18.720" style="s2">courses on them as well last year zvelt</p>
+<p begin="00:01:15.920" end="00:01:21.040" style="s2">was the most loved web framework and we</p>
+<p begin="00:01:18.720" end="00:01:23.600" style="s2">made a video highlighting what makes it</p>
+<p begin="00:01:21.040" end="00:01:26.159" style="s2">so lovable this year svelte is followed</p>
+<p begin="00:01:23.600" end="00:01:29.200" style="s2">by dino the project of the creator of</p>
+<p begin="00:01:26.159" end="00:01:31.680" style="s2">node.js dino has grown quite a lot with</p>
+<p begin="00:01:29.200" end="00:01:34.880" style="s2">a new framework called fresh endino</p>
+<p begin="00:01:31.680" end="00:01:37.840" style="s2">deploy but unlike last year zvelt is not</p>
+<p begin="00:01:34.880" end="00:01:41.040" style="s2">the most loved web framework anymore it</p>
+<p begin="00:01:37.840" end="00:01:43.520" style="s2">was overtaken by phoenix a web framework</p>
+<p begin="00:01:41.040" end="00:01:46.320" style="s2">for the elixir programming language we</p>
+<p begin="00:01:43.520" end="00:01:49.360" style="s2">can think of phoenix as ruby on rails or</p>
+<p begin="00:01:46.320" end="00:01:52.079" style="s2">python&#39;s jungle it is very powerful and</p>
+<p begin="00:01:49.360" end="00:01:55.040" style="s2">fast it can handle 2 million connections</p>
+<p begin="00:01:52.079" end="00:01:58.159" style="s2">per second in a single machine phoenix</p>
+<p begin="00:01:55.040" end="00:02:00.240" style="s2">is also the highest paid web framework</p>
+<p begin="00:01:58.159" end="00:02:02.240" style="s2">this year let me know in the comments if</p>
+<p begin="00:02:00.240" end="00:02:04.159" style="s2">you would like to see a video about dino</p>
+<p begin="00:02:02.240" end="00:02:06.000" style="s2">or phoenix and we will make it happen</p>
+<p begin="00:02:04.159" end="00:02:08.319" style="s2">the highest paid programming language</p>
+<p begin="00:02:06.000" end="00:02:10.879" style="s2">this year is closure ringing more than</p>
+<p begin="00:02:08.319" end="00:02:12.400" style="s2">one hundred thousand dollars it was also</p>
+<p begin="00:02:10.879" end="00:02:14.319" style="s2">last year&#39;s highest paid programming</p>
+<p begin="00:02:12.400" end="00:02:16.879" style="s2">language bringing in more than 95</p>
+<p begin="00:02:14.319" end="00:02:19.520" style="s2">thousand dollars this means that closure</p>
+<p begin="00:02:16.879" end="00:02:21.840" style="s2">developers got a pay bump this year</p>
+<p begin="00:02:19.520" end="00:02:23.599" style="s2">chucamida clogger is a functional</p>
+<p begin="00:02:21.840" end="00:02:25.840" style="s2">programming language that i think is</p>
+<p begin="00:02:23.599" end="00:02:28.879" style="s2">very elegant very beautiful and very</p>
+<p begin="00:02:25.840" end="00:02:30.800" style="s2">easy to read and understand clojure runs</p>
+<p begin="00:02:28.879" end="00:02:33.120" style="s2">on the jvm which is the java virtual</p>
+<p begin="00:02:30.800" end="00:02:36.160" style="s2">machine which allows it to call java</p>
+<p begin="00:02:33.120" end="00:02:38.239" style="s2">code it&#39;s used in production by many big</p>
+<p begin="00:02:36.160" end="00:02:39.920" style="s2">companies and it can also be compiled to</p>
+<p begin="00:02:38.239" end="00:02:42.239" style="s2">javascript using something called</p>
+<p begin="00:02:39.920" end="00:02:44.080" style="s2">clojurescript and it&#39;s also one of the</p>
+<p begin="00:02:42.239" end="00:02:46.560" style="s2">best programming languages to get</p>
+<p begin="00:02:44.080" end="00:02:48.560" style="s2">started with what is the drug of</p>
+<p begin="00:02:46.560" end="00:02:51.360" style="s2">functional programming that everybody</p>
+<p begin="00:02:48.560" end="00:02:52.800" style="s2">gets addicted to once they try it so now</p>
+<p begin="00:02:51.360" end="00:02:54.560" style="s2">i would like to give you a tiny</p>
+<p begin="00:02:52.800" end="00:02:57.280" style="s2">introduction to clojure by showing you</p>
+<p begin="00:02:54.560" end="00:02:59.440" style="s2">some code that i promise you are going</p>
+<p begin="00:02:57.280" end="00:03:02.159" style="s2">to understand if you are a developer of</p>
+<p begin="00:02:59.440" end="00:03:04.159" style="s2">any kind in clojure everything starts</p>
+<p begin="00:03:02.159" end="00:03:06.560" style="s2">with a list and here is how a list of</p>
+<p begin="00:03:04.159" end="00:03:08.720" style="s2">numbers will look like as you can see we</p>
+<p begin="00:03:06.560" end="00:03:11.599" style="s2">don&#39;t need to use commas and spaces are</p>
+<p begin="00:03:08.720" end="00:03:13.760" style="s2">enough in closure code is data which is</p>
+<p begin="00:03:11.599" end="00:03:16.560" style="s2">a hard concept to grasp but what it</p>
+<p begin="00:03:13.760" end="00:03:19.120" style="s2">basically means is that code is written</p>
+<p begin="00:03:16.560" end="00:03:21.440" style="s2">like a data structure looking for us</p>
+<p begin="00:03:19.120" end="00:03:23.680" style="s2">that data structure is the list which we</p>
+<p begin="00:03:21.440" end="00:03:26.799" style="s2">already saw the syntax to call a</p>
+<p begin="00:03:23.680" end="00:03:28.879" style="s2">function enclosure looks like this the</p>
+<p begin="00:03:26.799" end="00:03:30.879" style="s2">function name always goes at the start</p>
+<p begin="00:03:28.879" end="00:03:33.920" style="s2">of the list and everything else that</p>
+<p begin="00:03:30.879" end="00:03:36.239" style="s2">follows it are just arguments so for</p>
+<p begin="00:03:33.920" end="00:03:38.239" style="s2">example to print a line in the console</p>
+<p begin="00:03:36.239" end="00:03:40.159" style="s2">with the numbers 1 2 and 3 we will do</p>
+<p begin="00:03:38.239" end="00:03:42.560" style="s2">something like this</p>
+<p begin="00:03:40.159" end="00:03:45.040" style="s2">or to add them all up we can use the</p>
+<p begin="00:03:42.560" end="00:03:47.519" style="s2">plus function we can also find the</p>
+<p begin="00:03:45.040" end="00:03:50.239" style="s2">highest or lower number if we want to</p>
+<p begin="00:03:47.519" end="00:03:52.400" style="s2">easy peasy now that we know how to use</p>
+<p begin="00:03:50.239" end="00:03:54.640" style="s2">functions let&#39;s move on to create our</p>
+<p begin="00:03:52.400" end="00:03:57.040" style="s2">own function what i want to do now is to</p>
+<p begin="00:03:54.640" end="00:03:59.760" style="s2">make a function that returns the text</p>
+<p begin="00:03:57.040" end="00:04:02.239" style="s2">hello to create a function inside of a</p>
+<p begin="00:03:59.760" end="00:04:04.159" style="s2">list we will write def n and then the</p>
+<p begin="00:04:02.239" end="00:04:06.400" style="s2">name of the function in the square</p>
+<p begin="00:04:04.159" end="00:04:09.280" style="s2">brackets we write the parameters which</p>
+<p begin="00:04:06.400" end="00:04:11.760" style="s2">for now as you can see don&#39;t exist and</p>
+<p begin="00:04:09.280" end="00:04:14.319" style="s2">finally we just return hello as you can</p>
+<p begin="00:04:11.760" end="00:04:17.040" style="s2">see we don&#39;t need to write return in</p>
+<p begin="00:04:14.319" end="00:04:19.600" style="s2">closure it happens automatically to make</p>
+<p begin="00:04:17.040" end="00:04:22.400" style="s2">our function say hello with the name of</p>
+<p begin="00:04:19.600" end="00:04:25.280" style="s2">the user inside of the square brackets</p>
+<p begin="00:04:22.400" end="00:04:27.919" style="s2">we will write the name as a parameter</p>
+<p begin="00:04:25.280" end="00:04:30.240" style="s2">and then we will use the str function to</p>
+<p begin="00:04:27.919" end="00:04:32.720" style="s2">concatenate the strings to call this</p>
+<p begin="00:04:30.240" end="00:04:34.639" style="s2">function all we have to do is this but</p>
+<p begin="00:04:32.720" end="00:04:36.960" style="s2">what if somebody calls our hello</p>
+<p begin="00:04:34.639" end="00:04:39.280" style="s2">function without the name of the user</p>
+<p begin="00:04:36.960" end="00:04:41.440" style="s2">how do we handle that case instead of</p>
+<p begin="00:04:39.280" end="00:04:44.800" style="s2">using if else we can use something</p>
+<p begin="00:04:41.440" end="00:04:47.680" style="s2">called a multi-arity function which i</p>
+<p begin="00:04:44.800" end="00:04:50.160" style="s2">absolutely love for this we will write</p>
+<p begin="00:04:47.680" end="00:04:52.479" style="s2">two versions of our function one with</p>
+<p begin="00:04:50.160" end="00:04:54.560" style="s2">the parameters and one without them so</p>
+<p begin="00:04:52.479" end="00:04:57.120" style="s2">now if we call our hello function</p>
+<p begin="00:04:54.560" end="00:04:58.960" style="s2">without any arguments the first case of</p>
+<p begin="00:04:57.120" end="00:05:00.960" style="s2">the function will run</p>
+<p begin="00:04:58.960" end="00:05:03.759" style="s2">the first case will call the hello</p>
+<p begin="00:05:00.960" end="00:05:05.680" style="s2">function again but this time anonymous</p>
+<p begin="00:05:03.759" end="00:05:07.520" style="s2">will be an argument</p>
+<p begin="00:05:05.680" end="00:05:09.759" style="s2">then the second case of the hello</p>
+<p begin="00:05:07.520" end="00:05:13.520" style="s2">function will run which will return</p>
+<p begin="00:05:09.759" end="00:05:14.960" style="s2">hello anonymous it&#39;s so elegant and last</p>
+<p begin="00:05:13.520" end="00:05:17.120" style="s2">but not least we have something called</p>
+<p begin="00:05:14.960" end="00:05:20.160" style="s2">the thread last macro which is something</p>
+<p begin="00:05:17.120" end="00:05:22.400" style="s2">incredibly cool threadless allows us to</p>
+<p begin="00:05:20.160" end="00:05:25.199" style="s2">take a piece of data and put it through</p>
+<p begin="00:05:22.400" end="00:05:27.600" style="s2">functions to transform it here we have a</p>
+<p begin="00:05:25.199" end="00:05:30.400" style="s2">vector which is like an array this</p>
+<p begin="00:05:27.600" end="00:05:33.440" style="s2">vector is full of floating point numbers</p>
+<p begin="00:05:30.400" end="00:05:35.919" style="s2">or floats then we call the map function</p>
+<p begin="00:05:33.440" end="00:05:39.039" style="s2">with the int function as an argument to</p>
+<p begin="00:05:35.919" end="00:05:41.440" style="s2">convert each float in the vector to an</p>
+<p begin="00:05:39.039" end="00:05:44.320" style="s2">integer after that is done we call the</p>
+<p begin="00:05:41.440" end="00:05:47.199" style="s2">distinct function on the data to remove</p>
+<p begin="00:05:44.320" end="00:05:50.000" style="s2">any duplicated numbers then we call the</p>
+<p begin="00:05:47.199" end="00:05:53.360" style="s2">remove function with the even function</p>
+<p begin="00:05:50.000" end="00:05:55.840" style="s2">as an argument to remove all the even</p>
+<p begin="00:05:53.360" end="00:05:59.520" style="s2">numbers then we call the sort function</p>
+<p begin="00:05:55.840" end="00:06:02.240" style="s2">to organize the items from small to big</p>
+<p begin="00:05:59.520" end="00:06:04.880" style="s2">and finally we get the last item and</p>
+<p begin="00:06:02.240" end="00:06:07.280" style="s2">print it on the console look at the code</p>
+<p begin="00:06:04.880" end="00:06:08.960" style="s2">it doesn&#39;t even look like code it&#39;s</p>
+<p begin="00:06:07.280" end="00:06:11.680" style="s2">beautiful it&#39;s functional and it&#39;s</p>
+<p begin="00:06:08.960" end="00:06:13.680" style="s2">declarative it&#39;s great that was just a</p>
+<p begin="00:06:11.680" end="00:06:16.000" style="s2">tiny introduction to closure and i&#39;m</p>
+<p begin="00:06:13.680" end="00:06:18.240" style="s2">very curious to know what you think</p>
+<p begin="00:06:16.000" end="00:06:20.160" style="s2">about it on the comments did you like</p>
+<p begin="00:06:18.240" end="00:06:22.240" style="s2">closure what do you think about it do</p>
+<p begin="00:06:20.160" end="00:06:24.240" style="s2">you want to learn more maybe are you a</p>
+<p begin="00:06:22.240" end="00:06:26.479" style="s2">closure developer what do you use</p>
+<p begin="00:06:24.240" end="00:06:27.600" style="s2">closure for let me know all of that in</p>
+<p begin="00:06:26.479" end="00:06:30.000" style="s2">the comments i&#39;m going to be looking at</p>
+<p begin="00:06:27.600" end="00:06:32.160" style="s2">them right now thank you as always for</p>
+<p begin="00:06:30.000" end="00:06:34.319" style="s2">watching stay free stay healthy stay</p>
+<p begin="00:06:32.160" end="00:06:38.360" style="s2">happy eat dingy ham samidah salaam hey</p>
+<p begin="00:06:34.319" end="00:06:38.360" style="s2">yo see you on the next one bye</p>
+</div>
+</body>
+</tt>

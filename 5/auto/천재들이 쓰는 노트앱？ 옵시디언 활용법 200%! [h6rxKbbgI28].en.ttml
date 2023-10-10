@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.000" end="00:00:04.680" style="s2">on today&#39;s video I want to show you how</p>
+<p begin="00:00:02.040" end="00:00:07.080" style="s2">you can use obsidian to get yourself a</p>
+<p begin="00:00:04.680" end="00:00:08.940" style="s2">second brain I use obsidian to take note</p>
+<p begin="00:00:07.080" end="00:00:11.280" style="s2">when I&#39;m studying to brainstorm ideas</p>
+<p begin="00:00:08.940" end="00:00:13.080" style="s2">for YouTube videos to write the scripts</p>
+<p begin="00:00:11.280" end="00:00:14.940" style="s2">of the videos when I&#39;m making a course</p>
+<p begin="00:00:13.080" end="00:00:17.160" style="s2">all the planning and research is done in</p>
+<p begin="00:00:14.940" end="00:00:19.340" style="s2">obsidian all the tasks and things I have</p>
+<p begin="00:00:17.160" end="00:00:21.500" style="s2">to do are written down in obsidian</p>
+<p begin="00:00:19.340" end="00:00:24.660" style="s2">obsidian</p>
+<p begin="00:00:21.500" end="00:00:27.840" style="s2">obsidian is not a normal note-taking app</p>
+<p begin="00:00:24.660" end="00:00:29.580" style="s2">it&#39;s a note taking app on steroids apart</p>
+<p begin="00:00:27.840" end="00:00:31.980" style="s2">from being free flexible and</p>
+<p begin="00:00:29.580" end="00:00:34.260" style="s2">customizable its killer feature is that</p>
+<p begin="00:00:31.980" end="00:00:37.559" style="s2">obsidian allows you to create links</p>
+<p begin="00:00:34.260" end="00:00:39.300" style="s2">between your notes obsidian generates a</p>
+<p begin="00:00:37.559" end="00:00:41.280" style="s2">knowledge grab that shows you the</p>
+<p begin="00:00:39.300" end="00:00:43.739" style="s2">connections and relationships between</p>
+<p begin="00:00:41.280" end="00:00:45.660" style="s2">Concepts and thoughts you can visualize</p>
+<p begin="00:00:43.739" end="00:00:47.399" style="s2">what you know it&#39;s like a brain map when</p>
+<p begin="00:00:45.660" end="00:00:49.440" style="s2">you know how one concept relates to</p>
+<p begin="00:00:47.399" end="00:00:52.559" style="s2">another concept you can learn remember</p>
+<p begin="00:00:49.440" end="00:00:54.420" style="s2">and understand more easily another cool</p>
+<p begin="00:00:52.559" end="00:00:56.879" style="s2">thing about obsidian is that it can be</p>
+<p begin="00:00:54.420" end="00:00:58.739" style="s2">used a hundred percent offline your</p>
+<p begin="00:00:56.879" end="00:01:01.020" style="s2">notes are stored locally on your</p>
+<p begin="00:00:58.739" end="00:01:03.059" style="s2">computer they are just file on a folder</p>
+<p begin="00:01:01.020" end="00:01:04.920" style="s2">that you can access at any time that</p>
+<p begin="00:01:03.059" end="00:01:07.140" style="s2">means that at any point you can share</p>
+<p begin="00:01:04.920" end="00:01:08.939" style="s2">your notes or move them to other apps</p>
+<p begin="00:01:07.140" end="00:01:11.040" style="s2">you are not locked in when you use</p>
+<p begin="00:01:08.939" end="00:01:12.420" style="s2">obsidian is the opposite of that after</p>
+<p begin="00:01:11.040" end="00:01:14.280" style="s2">you go to the website and download</p>
+<p begin="00:01:12.420" end="00:01:16.799" style="s2">obsidian which is available for iOS</p>
+<p begin="00:01:14.280" end="00:01:18.240" style="s2">Android Windows Mac and Linux you are</p>
+<p begin="00:01:16.799" end="00:01:20.460" style="s2">going to install obsidian and you&#39;re</p>
+<p begin="00:01:18.240" end="00:01:23.040" style="s2">going to be asked on which folder you</p>
+<p begin="00:01:20.460" end="00:01:25.200" style="s2">would like to create your first Vault an</p>
+<p begin="00:01:23.040" end="00:01:26.759" style="s2">obsidian vault is just a folder where</p>
+<p begin="00:01:25.200" end="00:01:28.860" style="s2">all the files you create inside of</p>
+<p begin="00:01:26.759" end="00:01:30.780" style="s2">obsidian will be saved after creating</p>
+<p begin="00:01:28.860" end="00:01:33.240" style="s2">the Vault obsidian will welcome you with</p>
+<p begin="00:01:30.780" end="00:01:35.040" style="s2">an empty screen showing you your empty</p>
+<p begin="00:01:33.240" end="00:01:36.720" style="s2">Vault on the sidebar we can tell that we</p>
+<p begin="00:01:35.040" end="00:01:39.479" style="s2">are inside of our vault but of course</p>
+<p begin="00:01:36.720" end="00:01:42.000" style="s2">there are no nodes on it yet to create a</p>
+<p begin="00:01:39.479" end="00:01:43.619" style="s2">new note we will press command and the</p>
+<p begin="00:01:42.000" end="00:01:45.600" style="s2">first line we write will be the title of</p>
+<p begin="00:01:43.619" end="00:01:47.939" style="s2">the note and will be set as the name of</p>
+<p begin="00:01:45.600" end="00:01:50.280" style="s2">the file obsidian supports markdown</p>
+<p begin="00:01:47.939" end="00:01:53.460" style="s2">which means we can use headers lists</p>
+<p begin="00:01:50.280" end="00:01:55.560" style="s2">links images YouTube video and Bets it</p>
+<p begin="00:01:53.460" end="00:01:57.720" style="s2">also has this cool concept of callouts</p>
+<p begin="00:01:55.560" end="00:01:59.880" style="s2">which are little alert you can create of</p>
+<p begin="00:01:57.720" end="00:02:02.460" style="s2">different kinds that can also be</p>
+<p begin="00:01:59.880" end="00:02:04.079" style="s2">foldable it also supports mermaid a</p>
+<p begin="00:02:02.460" end="00:02:06.600" style="s2">diagramming tool so we can insert</p>
+<p begin="00:02:04.079" end="00:02:08.220" style="s2">diagrams and charts inside of our notes</p>
+<p begin="00:02:06.600" end="00:02:10.560" style="s2">which is very useful when we are</p>
+<p begin="00:02:08.220" end="00:02:13.379" style="s2">learning new Concepts like I said before</p>
+<p begin="00:02:10.560" end="00:02:15.720" style="s2">the clear feature of obsidian is that it</p>
+<p begin="00:02:13.379" end="00:02:17.879" style="s2">allows us to create links between our</p>
+<p begin="00:02:15.720" end="00:02:20.520" style="s2">nodes using this feature we can organize</p>
+<p begin="00:02:17.879" end="00:02:22.860" style="s2">our knowledge better instead of putting</p>
+<p begin="00:02:20.520" end="00:02:25.739" style="s2">it all in one long file we can instead</p>
+<p begin="00:02:22.860" end="00:02:27.780" style="s2">write Atomic notes an atomic node should</p>
+<p begin="00:02:25.739" end="00:02:29.940" style="s2">have only one idea it should be</p>
+<p begin="00:02:27.780" end="00:02:31.680" style="s2">self-contained and understandable on its</p>
+<p begin="00:02:29.940" end="00:02:33.060" style="s2">own so let&#39;s pretend that we are</p>
+<p begin="00:02:31.680" end="00:02:35.040" style="s2">studying the data structures and</p>
+<p begin="00:02:33.060" end="00:02:36.959" style="s2">algorithms we will first create a file</p>
+<p begin="00:02:35.040" end="00:02:39.300" style="s2">with that name and then write an intro</p>
+<p begin="00:02:36.959" end="00:02:41.459" style="s2">of what data structures and algorithms</p>
+<p begin="00:02:39.300" end="00:02:44.099" style="s2">are in a list of some of them to create</p>
+<p begin="00:02:41.459" end="00:02:47.640" style="s2">a link to another note we are going to</p>
+<p begin="00:02:44.099" end="00:02:49.980" style="s2">wrap Stacks around two squared brackets</p>
+<p begin="00:02:47.640" end="00:02:52.440" style="s2">as you can see it is turned into a link</p>
+<p begin="00:02:49.980" end="00:02:55.200" style="s2">if I press command it says that that</p>
+<p begin="00:02:52.440" end="00:02:57.360" style="s2">node does not exist yet and that I have</p>
+<p begin="00:02:55.200" end="00:03:00.300" style="s2">to click to create it after command</p>
+<p begin="00:02:57.360" end="00:03:02.280" style="s2">click that will create a new stacks note</p>
+<p begin="00:03:00.300" end="00:03:04.440" style="s2">where we can write down what Stacks are</p>
+<p begin="00:03:02.280" end="00:03:06.420" style="s2">since we are mentioning cues on the Node</p>
+<p begin="00:03:04.440" end="00:03:08.580" style="s2">we should create a note about them again</p>
+<p begin="00:03:06.420" end="00:03:10.620" style="s2">we&#39;ll wrap the word cues around two</p>
+<p begin="00:03:08.580" end="00:03:13.260" style="s2">square brackets and press Ctrl or</p>
+<p begin="00:03:10.620" end="00:03:15.180" style="s2">command click then we write what cues</p>
+<p begin="00:03:13.260" end="00:03:17.040" style="s2">are and because we&#39;re mentioning slacks</p>
+<p begin="00:03:15.180" end="00:03:18.840" style="s2">let&#39;s create a link to it and now let&#39;s</p>
+<p begin="00:03:17.040" end="00:03:21.720" style="s2">go back to our main file and connect</p>
+<p begin="00:03:18.840" end="00:03:23.400" style="s2">cues to it as well now that we made all</p>
+<p begin="00:03:21.720" end="00:03:25.620" style="s2">the connections we can take a look at</p>
+<p begin="00:03:23.400" end="00:03:28.319" style="s2">the graph view by clicking the second</p>
+<p begin="00:03:25.620" end="00:03:30.599" style="s2">button on the left sidebar as you can</p>
+<p begin="00:03:28.319" end="00:03:32.459" style="s2">see we can now visualize how they are</p>
+<p begin="00:03:30.599" end="00:03:34.319" style="s2">all connected if we now go back to our</p>
+<p begin="00:03:32.459" end="00:03:37.319" style="s2">main file and create a link for hash</p>
+<p begin="00:03:34.319" end="00:03:39.300" style="s2">tables our graph view will start to grow</p>
+<p begin="00:03:37.319" end="00:03:41.760" style="s2">another cool thing about linking your</p>
+<p begin="00:03:39.300" end="00:03:43.980" style="s2">notes is that you can go to a note and</p>
+<p begin="00:03:41.760" end="00:03:46.500" style="s2">on the right sidebar you can see what</p>
+<p begin="00:03:43.980" end="00:03:48.840" style="s2">are the backlinks to it that means which</p>
+<p begin="00:03:46.500" end="00:03:51.180" style="s2">node is linking to that note another</p>
+<p begin="00:03:48.840" end="00:03:53.280" style="s2">obsidian feature that is sort of new is</p>
+<p begin="00:03:51.180" end="00:03:55.980" style="s2">are canvases which you can use to create</p>
+<p begin="00:03:53.280" end="00:03:58.080" style="s2">mind maps to create a canvas first we</p>
+<p begin="00:03:55.980" end="00:04:00.959" style="s2">open the common palette pressing command</p>
+<p begin="00:03:58.080" end="00:04:02.940" style="s2">P we select create new canvas and we</p>
+<p begin="00:04:00.959" end="00:04:05.940" style="s2">will get a canvas where we can now start</p>
+<p begin="00:04:02.940" end="00:04:08.400" style="s2">dragging positioning and connecting our</p>
+<p begin="00:04:05.940" end="00:04:10.860" style="s2">nodes we can also create cards and</p>
+<p begin="00:04:08.400" end="00:04:13.260" style="s2">connect our nodes to them we can edit</p>
+<p begin="00:04:10.860" end="00:04:16.139" style="s2">our notes right from the canvas and we</p>
+<p begin="00:04:13.260" end="00:04:18.660" style="s2">can also bring images files videos and</p>
+<p begin="00:04:16.139" end="00:04:20.340" style="s2">even websites to it I said before that</p>
+<p begin="00:04:18.660" end="00:04:22.560" style="s2">obsidian is very flexible and</p>
+<p begin="00:04:20.340" end="00:04:25.139" style="s2">customizable and that is because of its</p>
+<p begin="00:04:22.560" end="00:04:26.940" style="s2">awesome Community plugin system obsidian</p>
+<p begin="00:04:25.139" end="00:04:28.800" style="s2">plugins are built using JavaScript and</p>
+<p begin="00:04:26.940" end="00:04:31.139" style="s2">anyone can create one currently there</p>
+<p begin="00:04:28.800" end="00:04:32.759" style="s2">are more than 1 000 plugins which is a</p>
+<p begin="00:04:31.139" end="00:04:34.860" style="s2">number that is increasing day by day</p>
+<p begin="00:04:32.759" end="00:04:37.020" style="s2">there are plugins to add a calendar to</p>
+<p begin="00:04:34.860" end="00:04:39.300" style="s2">obsidian to create kanaban boards to</p>
+<p begin="00:04:37.020" end="00:04:41.759" style="s2">create slide presentations and much much</p>
+<p begin="00:04:39.300" end="00:04:44.100" style="s2">more my two favorite plugins are the</p>
+<p begin="00:04:41.759" end="00:04:46.500" style="s2">obsidian git plugin that backs up my</p>
+<p begin="00:04:44.100" end="00:04:49.020" style="s2">Vault into a private GitHub repository</p>
+<p begin="00:04:46.500" end="00:04:51.120" style="s2">and the tasks plugin let me show you how</p>
+<p begin="00:04:49.020" end="00:04:53.639" style="s2">that one works after enabling Community</p>
+<p begin="00:04:51.120" end="00:04:56.100" style="s2">plugins and installing the tasks plugin</p>
+<p begin="00:04:53.639" end="00:04:58.139" style="s2">on a file named to study the next time I</p>
+<p begin="00:04:56.100" end="00:05:00.960" style="s2">create a checkbox the plugin will kick</p>
+<p begin="00:04:58.139" end="00:05:03.120" style="s2">in and will allow me to set at view date</p>
+<p begin="00:05:00.960" end="00:05:05.340" style="s2">start date and schedule date it will</p>
+<p begin="00:05:03.120" end="00:05:07.740" style="s2">also let me set the priority level of</p>
+<p begin="00:05:05.340" end="00:05:09.900" style="s2">the task if let&#39;s say you have tasks in</p>
+<p begin="00:05:07.740" end="00:05:12.540" style="s2">two different files so for example if I</p>
+<p begin="00:05:09.900" end="00:05:15.720" style="s2">have a to study task list and a to-do</p>
+<p begin="00:05:12.540" end="00:05:17.460" style="s2">task list on another file called today I</p>
+<p begin="00:05:15.720" end="00:05:19.320" style="s2">can pull all the tasks that are for</p>
+<p begin="00:05:17.460" end="00:05:21.479" style="s2">example due today and that are not</p>
+<p begin="00:05:19.320" end="00:05:24.180" style="s2">completed yet by writing a query</p>
+<p begin="00:05:21.479" end="00:05:26.160" style="s2">provided by the plugin all I do is ask</p>
+<p begin="00:05:24.180" end="00:05:28.440" style="s2">for all the tasks that are not done in</p>
+<p begin="00:05:26.160" end="00:05:30.840" style="s2">that are due today and I group them by</p>
+<p begin="00:05:28.440" end="00:05:33.000" style="s2">filing now I can add tasks anywhere I</p>
+<p begin="00:05:30.840" end="00:05:34.979" style="s2">want and my today file will only give me</p>
+<p begin="00:05:33.000" end="00:05:37.199" style="s2">the tasks of the day also when I</p>
+<p begin="00:05:34.979" end="00:05:39.780" style="s2">complete a task from anywhere it will be</p>
+<p begin="00:05:37.199" end="00:05:42.180" style="s2">updated in both files I hope that today</p>
+<p begin="00:05:39.780" end="00:05:44.280" style="s2">you got a good overview of what obsidian</p>
+<p begin="00:05:42.180" end="00:05:45.900" style="s2">is and what makes it a special I hope</p>
+<p begin="00:05:44.280" end="00:05:47.820" style="s2">you liked the video and found it useful</p>
+<p begin="00:05:45.900" end="00:05:49.139" style="s2">if you did please like the video share</p>
+<p begin="00:05:47.820" end="00:05:50.699" style="s2">it with your friends and subscribe to</p>
+<p begin="00:05:49.139" end="00:05:52.500" style="s2">the channel obsidian has many cool</p>
+<p begin="00:05:50.699" end="00:05:54.419" style="s2">features and customization options you</p>
+<p begin="00:05:52.500" end="00:05:57.120" style="s2">can change colors install a different</p>
+<p begin="00:05:54.419" end="00:05:58.500" style="s2">theme create keyword shortcuts and more</p>
+<p begin="00:05:57.120" end="00:06:00.900" style="s2">so let me know in the comments if you</p>
+<p begin="00:05:58.500" end="00:06:01.979" style="s2">would like to see a video on also let me</p>
+<p begin="00:06:00.900" end="00:06:04.680" style="s2">know in the comments if you are already</p>
+<p begin="00:06:01.979" end="00:06:06.360" style="s2">an obsidian user and share with us what</p>
+<p begin="00:06:04.680" end="00:06:08.580" style="s2">are some cool plugins we can use to make</p>
+<p begin="00:06:06.360" end="00:06:10.020" style="s2">our second brain better and please don&#39;t</p>
+<p begin="00:06:08.580" end="00:06:12.240" style="s2">forget that if you want to learn to code</p>
+<p begin="00:06:10.020" end="00:06:14.039" style="s2">for free click the link below where you</p>
+<p begin="00:06:12.240" end="00:06:17.520" style="s2">can take free courses on JavaScript</p>
+<p begin="00:06:14.039" end="00:06:20.639" style="s2">python react react native go Dart</p>
+<p begin="00:06:17.520" end="00:06:22.259" style="s2">flutter and many others all for free</p>
+<p begin="00:06:20.639" end="00:06:23.300" style="s2">click the link below and I will see you</p>
+<p begin="00:06:22.259" end="00:06:27.840" style="s2">there</p>
+<p begin="00:06:23.300" end="00:06:27.840" style="s2">see you on the next one bye</p>
+<p begin="00:06:34.380" end="00:06:36.860" style="s2">oh</p>
+</div>
+</body>
+</tt>

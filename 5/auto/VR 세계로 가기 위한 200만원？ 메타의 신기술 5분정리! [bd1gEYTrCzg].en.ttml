@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.000" end="00:00:08.400" style="s2">last year on Facebook connect 2021</p>
+<p begin="00:00:05.279" end="00:00:11.400" style="s2">Facebook changed its name to meta and</p>
+<p begin="00:00:08.400" end="00:00:13.920" style="s2">Mark Zuckerberg showed us his vision for</p>
+<p begin="00:00:11.400" end="00:00:16.320" style="s2">the metaverse we saw very promising</p>
+<p begin="00:00:13.920" end="00:00:18.180" style="s2">Concepts and cool looking demos of how</p>
+<p begin="00:00:16.320" end="00:00:21.539" style="s2">the metaverse would look like and I for</p>
+<p begin="00:00:18.180" end="00:00:23.820" style="s2">one was very excited one year later and</p>
+<p begin="00:00:21.539" end="00:00:27.180" style="s2">after spending more than 10 billion</p>
+<p begin="00:00:23.820" end="00:00:29.580" style="s2">dollars on this year&#39;s meta connect we</p>
+<p begin="00:00:27.180" end="00:00:31.920" style="s2">got to see how much progress meta has</p>
+<p begin="00:00:29.580" end="00:00:34.020" style="s2">made on building the vision of the</p>
+<p begin="00:00:31.920" end="00:00:36.120" style="s2">metaverse that was announced a year ago</p>
+<p begin="00:00:34.020" end="00:00:38.880" style="s2">and although there are two announcements</p>
+<p begin="00:00:36.120" end="00:00:42.300" style="s2">that I&#39;m very excited about I did expect</p>
+<p begin="00:00:38.880" end="00:00:44.940" style="s2">something a little bit better after 10</p>
+<p begin="00:00:42.300" end="00:00:47.340" style="s2">billion dollars spent and 10 000</p>
+<p begin="00:00:44.940" end="00:00:49.200" style="s2">employees working on it the biggest</p>
+<p begin="00:00:47.340" end="00:00:52.980" style="s2">thing that was announced was the quest</p>
+<p begin="00:00:49.200" end="00:00:57.420" style="s2">Pro a new high-end VR headset with a</p>
+<p begin="00:00:52.980" end="00:00:59.640" style="s2">price tag of 1 500 this headset is more</p>
+<p begin="00:00:57.420" end="00:01:01.440" style="s2">aimed as a productivity device rather</p>
+<p begin="00:00:59.640" end="00:01:03.960" style="s2">than some something to only play video</p>
+<p begin="00:01:01.440" end="00:01:06.000" style="s2">games with the coolest feature about the</p>
+<p begin="00:01:03.960" end="00:01:08.040" style="s2">quest Pro is the color pass through</p>
+<p begin="00:01:06.000" end="00:01:10.380" style="s2">passthrough is the ability to see the</p>
+<p begin="00:01:08.040" end="00:01:13.080" style="s2">space outside of the headset when the</p>
+<p begin="00:01:10.380" end="00:01:15.479" style="s2">user is wearing the device this allows</p>
+<p begin="00:01:13.080" end="00:01:18.360" style="s2">for more mixed reality experiences that</p>
+<p begin="00:01:15.479" end="00:01:20.340" style="s2">I personally like more than VR VR is</p>
+<p begin="00:01:18.360" end="00:01:23.460" style="s2">cool and all but it makes you completely</p>
+<p begin="00:01:20.340" end="00:01:25.200" style="s2">disconnect from the outside world with</p>
+<p begin="00:01:23.460" end="00:01:27.960" style="s2">full color pass through you can still</p>
+<p begin="00:01:25.200" end="00:01:30.420" style="s2">see the outside world and add a ledger</p>
+<p begin="00:01:27.960" end="00:01:32.880" style="s2">of digital content to it which is where</p>
+<p begin="00:01:30.420" end="00:01:35.040" style="s2">I think there are a lot of possibilities</p>
+<p begin="00:01:32.880" end="00:01:37.320" style="s2">this unlocks experiences like the ones</p>
+<p begin="00:01:35.040" end="00:01:39.479" style="s2">you can see on this video where instead</p>
+<p begin="00:01:37.320" end="00:01:41.460" style="s2">of having real monitors you can just</p>
+<p begin="00:01:39.479" end="00:01:44.640" style="s2">wear the headset and have as many</p>
+<p begin="00:01:41.460" end="00:01:46.920" style="s2">screens as you like artists could also</p>
+<p begin="00:01:44.640" end="00:01:50.340" style="s2">take advantage of that as well as people</p>
+<p begin="00:01:46.920" end="00:01:52.200" style="s2">in all different sorts of jobs on this</p>
+<p begin="00:01:50.340" end="00:01:55.560" style="s2">year&#39;s metaconnect you can really see</p>
+<p begin="00:01:52.200" end="00:01:58.079" style="s2">Meta trying to position VR as not just a</p>
+<p begin="00:01:55.560" end="00:02:01.439" style="s2">toy but as something we will use for</p>
+<p begin="00:01:58.079" end="00:02:04.380" style="s2">work Mira partnered with Microsoft to</p>
+<p begin="00:02:01.439" end="00:02:06.420" style="s2">bring Microsoft teams word excel</p>
+<p begin="00:02:04.380" end="00:02:10.380" style="s2">PowerPoint and Outlook as well as</p>
+<p begin="00:02:06.420" end="00:02:12.720" style="s2">Microsoft Windows 365 to the quest they</p>
+<p begin="00:02:10.380" end="00:02:15.300" style="s2">also announced Xbox cloud gaming and the</p>
+<p begin="00:02:12.720" end="00:02:17.099" style="s2">Xbox game pass coming to the quest and</p>
+<p begin="00:02:15.300" end="00:02:18.920" style="s2">they also said that Gamers will be able</p>
+<p begin="00:02:17.099" end="00:02:21.599" style="s2">to connect and play with their XBox</p>
+<p begin="00:02:18.920" end="00:02:24.300" style="s2">controller basically using the quest as</p>
+<p begin="00:02:21.599" end="00:02:27.000" style="s2">a giant private screen that they can</p>
+<p begin="00:02:24.300" end="00:02:28.800" style="s2">play on at any time avatars are also</p>
+<p begin="00:02:27.000" end="00:02:30.599" style="s2">getting better they are becoming more</p>
+<p begin="00:02:28.800" end="00:02:33.480" style="s2">expressive thanks to the face tracking</p>
+<p begin="00:02:30.599" end="00:02:35.660" style="s2">of the quest Pro you can see here how</p>
+<p begin="00:02:33.480" end="00:02:39.000" style="s2">they can tell when someone is talking</p>
+<p begin="00:02:35.660" end="00:02:41.760" style="s2">moving their arm or even eating they</p>
+<p begin="00:02:39.000" end="00:02:44.099" style="s2">also now have legs last year avatars</p>
+<p begin="00:02:41.760" end="00:02:46.379" style="s2">were just floating legless torsos which</p>
+<p begin="00:02:44.099" end="00:02:48.180" style="s2">makes them look a little bit creepy but</p>
+<p begin="00:02:46.379" end="00:02:51.300" style="s2">they will now have legs which according</p>
+<p begin="00:02:48.180" end="00:02:53.280" style="s2">to Mark is a surprisingly hard thing to</p>
+<p begin="00:02:51.300" end="00:02:55.260" style="s2">do another cool thing that they showed</p>
+<p begin="00:02:53.280" end="00:02:58.080" style="s2">us was that it&#39;s not ready yet are super</p>
+<p begin="00:02:55.260" end="00:03:00.660" style="s2">realistic avatars they&#39;re called full</p>
+<p begin="00:02:58.080" end="00:03:02.640" style="s2">body codec avatars and even though they</p>
+<p begin="00:03:00.660" end="00:03:04.800" style="s2">are not ready yet they look really</p>
+<p begin="00:03:02.640" end="00:03:06.660" style="s2">really cool they are also much more</p>
+<p begin="00:03:04.800" end="00:03:08.400" style="s2">expressive than the current ones and</p>
+<p begin="00:03:06.660" end="00:03:11.220" style="s2">they can capture things like frowning</p>
+<p begin="00:03:08.400" end="00:03:13.019" style="s2">your eyes moving eyebrows and more they</p>
+<p begin="00:03:11.220" end="00:03:15.599" style="s2">also support different lighting which</p>
+<p begin="00:03:13.019" end="00:03:17.700" style="s2">makes them way more realistic personally</p>
+<p begin="00:03:15.599" end="00:03:19.920" style="s2">I don&#39;t see myself using VR to attend</p>
+<p begin="00:03:17.700" end="00:03:21.959" style="s2">work meetings if it&#39;s not using avatars</p>
+<p begin="00:03:19.920" end="00:03:24.120" style="s2">like this because generating these kinds</p>
+<p begin="00:03:21.959" end="00:03:26.040" style="s2">of avatars takes a long time they are</p>
+<p begin="00:03:24.120" end="00:03:28.319" style="s2">not ready to be used yet but there is</p>
+<p begin="00:03:26.040" end="00:03:30.180" style="s2">something called instant avatars which</p>
+<p begin="00:03:28.319" end="00:03:32.879" style="s2">are a little bit lower resolution</p>
+<p begin="00:03:30.180" end="00:03:34.920" style="s2">compared to the others but if you have a</p>
+<p begin="00:03:32.879" end="00:03:36.480" style="s2">phone you can scan your face and wait</p>
+<p begin="00:03:34.920" end="00:03:38.760" style="s2">for a couple of hours and you will be</p>
+<p begin="00:03:36.480" end="00:03:41.879" style="s2">able to get the instant Avatar ready to</p>
+<p begin="00:03:38.760" end="00:03:43.980" style="s2">use on your phone or VR now even though</p>
+<p begin="00:03:41.879" end="00:03:46.920" style="s2">the announcements so far haven&#39;t been</p>
+<p begin="00:03:43.980" end="00:03:48.840" style="s2">mind-blowing there is a prototype of a</p>
+<p begin="00:03:46.920" end="00:03:51.360" style="s2">project that I think it&#39;s super cool and</p>
+<p begin="00:03:48.840" end="00:03:53.400" style="s2">I hope it succeeds there is a headset</p>
+<p begin="00:03:51.360" end="00:03:55.140" style="s2">different from the quest that is secret</p>
+<p begin="00:03:53.400" end="00:03:58.379" style="s2">because they didn&#39;t show it to us that</p>
+<p begin="00:03:55.140" end="00:04:00.480" style="s2">has a motor neural control as you can</p>
+<p begin="00:03:58.379" end="00:04:02.580" style="s2">see on this video just by move in your</p>
+<p begin="00:04:00.480" end="00:04:04.680" style="s2">thumb you can check your messages and by</p>
+<p begin="00:04:02.580" end="00:04:07.620" style="s2">turning your hand putting your fingers</p>
+<p begin="00:04:04.680" end="00:04:10.140" style="s2">together or letting them go you can even</p>
+<p begin="00:04:07.620" end="00:04:12.360" style="s2">take a photo here here you can see how</p>
+<p begin="00:04:10.140" end="00:04:15.360" style="s2">this motor neural control is being used</p>
+<p begin="00:04:12.360" end="00:04:18.299" style="s2">to play and move a character in a game</p>
+<p begin="00:04:15.360" end="00:04:21.720" style="s2">it can be trained to learn and detect</p>
+<p begin="00:04:18.299" end="00:04:23.400" style="s2">the tiniest movements a hand can make to</p>
+<p begin="00:04:21.720" end="00:04:25.560" style="s2">get something like what you see here</p>
+<p begin="00:04:23.400" end="00:04:28.080" style="s2">where the person is controlling the</p>
+<p begin="00:04:25.560" end="00:04:31.380" style="s2">character on the game with almost no</p>
+<p begin="00:04:28.080" end="00:04:33.720" style="s2">hand movement at all this I think is</p>
+<p begin="00:04:31.380" end="00:04:36.419" style="s2">incredibly cool and it is the thing that</p>
+<p begin="00:04:33.720" end="00:04:38.460" style="s2">I am excited about the most now I want</p>
+<p begin="00:04:36.419" end="00:04:40.139" style="s2">to know what you think what do you think</p>
+<p begin="00:04:38.460" end="00:04:42.540" style="s2">of the meters and what do you think of</p>
+<p begin="00:04:40.139" end="00:04:44.699" style="s2">what Mera is doing I have seen many</p>
+<p begin="00:04:42.540" end="00:04:46.740" style="s2">people online mocking Mark and being</p>
+<p begin="00:04:44.699" end="00:04:49.560" style="s2">very cynical of what he&#39;s trying to make</p>
+<p begin="00:04:46.740" end="00:04:52.020" style="s2">but I personally remain optimistic that</p>
+<p begin="00:04:49.560" end="00:04:54.479" style="s2">one way or another The Innovation and</p>
+<p begin="00:04:52.020" end="00:04:56.759" style="s2">the r d that is being put on this space</p>
+<p begin="00:04:54.479" end="00:04:59.040" style="s2">is eventually going to trickle down and</p>
+<p begin="00:04:56.759" end="00:05:01.139" style="s2">benefit all of us oh and one thing I</p>
+<p begin="00:04:59.040" end="00:05:04.139" style="s2">almost forgot is that unlike last year</p>
+<p begin="00:05:01.139" end="00:05:06.780" style="s2">this year nfts were not mentioned at all</p>
+<p begin="00:05:04.139" end="00:05:08.160" style="s2">which is interesting so that&#39;s it for</p>
+<p begin="00:05:06.780" end="00:05:09.960" style="s2">this video let me know in the comments</p>
+<p begin="00:05:08.160" end="00:05:11.280" style="s2">the answer to those questions what do</p>
+<p begin="00:05:09.960" end="00:05:13.500" style="s2">you think of the metaverse do you think</p>
+<p begin="00:05:11.280" end="00:05:15.060" style="s2">is BS and what do you think of what meta</p>
+<p begin="00:05:13.500" end="00:05:16.320" style="s2">is doing do you think they&#39;re crazy do</p>
+<p begin="00:05:15.060" end="00:05:17.400" style="s2">you think they&#39;re going to succeed I&#39;m</p>
+<p begin="00:05:16.320" end="00:05:19.139" style="s2">very curious to know what you have to</p>
+<p begin="00:05:17.400" end="00:05:20.520" style="s2">say please leave the comments below and</p>
+<p begin="00:05:19.139" end="00:05:22.020" style="s2">I will see you there and don&#39;t forget as</p>
+<p begin="00:05:20.520" end="00:05:24.000" style="s2">always if you want to learn to code and</p>
+<p begin="00:05:22.020" end="00:05:25.380" style="s2">you want to do it for free with me click</p>
+<p begin="00:05:24.000" end="00:05:27.660" style="s2">the link below and I will see you there</p>
+<p begin="00:05:25.380" end="00:05:30.360" style="s2">with many many free courses that you can</p>
+<p begin="00:05:27.660" end="00:05:34.280" style="s2">take right now for free see you in the</p>
+<p begin="00:05:30.360" end="00:05:34.280" style="s2">next one stay free come zamina bye</p>
+</div>
+</body>
+</tt>

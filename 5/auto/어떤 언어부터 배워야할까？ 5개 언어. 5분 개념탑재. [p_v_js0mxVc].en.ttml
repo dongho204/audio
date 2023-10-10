@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.030" end="00:00:07.500" style="s2">Accio which programming language should</p>
+<p begin="00:00:02.250" end="00:00:09.900" style="s2">I start with now this question is very</p>
+<p begin="00:00:07.500" end="00:00:11.759" style="s2">hard to answer correctly the reason why</p>
+<p begin="00:00:09.900" end="00:00:14.639" style="s2">is because when you ask me that question</p>
+<p begin="00:00:11.759" end="00:00:17.460" style="s2">I don&#39;t know you I don&#39;t know what you</p>
+<p begin="00:00:14.639" end="00:00:20.510" style="s2">want I don&#39;t know what you want to build</p>
+<p begin="00:00:17.460" end="00:00:24.060" style="s2">so if I tell you oh just learn Python</p>
+<p begin="00:00:20.510" end="00:00:25.980" style="s2">HTML CSS I will be robbing of an</p>
+<p begin="00:00:24.060" end="00:00:27.750" style="s2">explanation that you deserve in a</p>
+<p begin="00:00:25.980" end="00:00:29.789" style="s2">background that you need to understand</p>
+<p begin="00:00:27.750" end="00:00:31.920" style="s2">I&#39;m going to answer you with giving you</p>
+<p begin="00:00:29.789" end="00:00:35.130" style="s2">five programming languages the more</p>
+<p begin="00:00:31.920" end="00:00:36.960" style="s2">popular ones why are they used if you</p>
+<p begin="00:00:35.130" end="00:00:38.850" style="s2">learn them where are you gonna get where</p>
+<p begin="00:00:36.960" end="00:00:42.090" style="s2">are you gonna go the person we start</p>
+<p begin="00:00:38.850" end="00:00:44.280" style="s2">with is C and C++ C is a programming</p>
+<p begin="00:00:42.090" end="00:00:47.100" style="s2">language designed for a very very low</p>
+<p begin="00:00:44.280" end="00:00:50.579" style="s2">level performance very very very very</p>
+<p begin="00:00:47.100" end="00:00:53.629" style="s2">close to the machine so for example you</p>
+<p begin="00:00:50.579" end="00:00:57.090" style="s2">can use C to program air currents or</p>
+<p begin="00:00:53.629" end="00:00:59.280" style="s2">smart TVs or smart fridges stuff like</p>
+<p begin="00:00:57.090" end="00:01:02.039" style="s2">that something that has a little bit of</p>
+<p begin="00:00:59.280" end="00:01:05.210" style="s2">yes programming but it doesn&#39;t have lots</p>
+<p begin="00:01:02.039" end="00:01:08.189" style="s2">of memory also if you learned C and C++</p>
+<p begin="00:01:05.210" end="00:01:10.950" style="s2">most likely you&#39;re also gonna find a job</p>
+<p begin="00:01:08.189" end="00:01:13.860" style="s2">in those big companies or enterprises</p>
+<p begin="00:01:10.950" end="00:01:16.140" style="s2">that have a make software&#39;s that require</p>
+<p begin="00:01:13.860" end="00:01:18.000" style="s2">performance for example you&#39;re gonna end</p>
+<p begin="00:01:16.140" end="00:01:20.430" style="s2">up work in a project like Photoshop or</p>
+<p begin="00:01:18.000" end="00:01:22.799" style="s2">Premiere Pro like in a company like</p>
+<p begin="00:01:20.430" end="00:01:25.799" style="s2">Adobe that you have to make software</p>
+<p begin="00:01:22.799" end="00:01:27.930" style="s2">that really needs performance next</p>
+<p begin="00:01:25.799" end="00:01:30.000" style="s2">programming language Java Java is very</p>
+<p begin="00:01:27.930" end="00:01:31.829" style="s2">popular in Korea in most of the time</p>
+<p begin="00:01:30.000" end="00:01:33.810" style="s2">Java three popular in corporations</p>
+<p begin="00:01:31.829" end="00:01:37.200" style="s2">government banks and all that stone</p>
+<p begin="00:01:33.810" end="00:01:39.509" style="s2">nowadays is used to build Enterprise web</p>
+<p begin="00:01:37.200" end="00:01:41.159" style="s2">applications if you learn Java you&#39;re a</p>
+<p begin="00:01:39.509" end="00:01:43.500" style="s2">hundred percent gonna get a job there</p>
+<p begin="00:01:41.159" end="00:01:45.930" style="s2">are many many jobs for Java they are not</p>
+<p begin="00:01:43.500" end="00:01:50.060" style="s2">most of the time in very fast-moving</p>
+<p begin="00:01:45.930" end="00:01:53.040" style="s2">startups Java is usually used by</p>
+<p begin="00:01:50.060" end="00:01:55.680" style="s2">enterprise as ad set or when you need to</p>
+<p begin="00:01:53.040" end="00:01:58.860" style="s2">integrate with older legacy systems some</p>
+<p begin="00:01:55.680" end="00:02:01.259" style="s2">some banks are in Java most governments</p>
+<p begin="00:01:58.860" end="00:02:03.000" style="s2">are in Java company that integrates with</p>
+<p begin="00:02:01.259" end="00:02:05.579" style="s2">these kind of services then you&#39;re gonna</p>
+<p begin="00:02:03.000" end="00:02:07.350" style="s2">need Java also if you learn Java you are</p>
+<p begin="00:02:05.579" end="00:02:09.360" style="s2">going to be able to program Android</p>
+<p begin="00:02:07.350" end="00:02:11.670" style="s2">applications so if you want to be like</p>
+<p begin="00:02:09.360" end="00:02:13.290" style="s2">an enterprise developer to do you know</p>
+<p begin="00:02:11.670" end="00:02:15.329" style="s2">that you have a job and to have a</p>
+<p begin="00:02:13.290" end="00:02:17.760" style="s2">safe job in an environment that doesn&#39;t</p>
+<p begin="00:02:15.329" end="00:02:20.219" style="s2">move as fast as for example front-end</p>
+<p begin="00:02:17.760" end="00:02:23.370" style="s2">development then Java is for you also if</p>
+<p begin="00:02:20.219" end="00:02:25.469" style="s2">you want to be Android developer 100%</p>
+<p begin="00:02:23.370" end="00:02:28.620" style="s2">and you love Android then Java is the</p>
+<p begin="00:02:25.469" end="00:02:30.720" style="s2">place for you next one Python I think</p>
+<p begin="00:02:28.620" end="00:02:32.370" style="s2">the easiest choice for a beginner and</p>
+<p begin="00:02:30.720" end="00:02:34.579" style="s2">the reason why I say this is because</p>
+<p begin="00:02:32.370" end="00:02:36.000" style="s2">python is very very very very</p>
+<p begin="00:02:34.579" end="00:02:39.599" style="s2">multi-purpose</p>
+<p begin="00:02:36.000" end="00:02:42.000" style="s2">for example in Python you can find how</p>
+<p begin="00:02:39.599" end="00:02:44.819" style="s2">to hack computers which is how I learned</p>
+<p begin="00:02:42.000" end="00:02:46.650" style="s2">also with Python you can do machine</p>
+<p begin="00:02:44.819" end="00:02:48.720" style="s2">learning also with Python you can do</p>
+<p begin="00:02:46.650" end="00:02:51.239" style="s2">data signs also in Python you can do</p>
+<p begin="00:02:48.720" end="00:02:54.359" style="s2">data visualization also with Python you</p>
+<p begin="00:02:51.239" end="00:02:56.549" style="s2">can do scraping the internet also you</p>
+<p begin="00:02:54.359" end="00:02:58.669" style="s2">can build websites there&#39;s many as you</p>
+<p begin="00:02:56.549" end="00:03:02.069" style="s2">can see you can do many many many things</p>
+<p begin="00:02:58.669" end="00:03:05.069" style="s2">beginner friendly language is not as</p>
+<p begin="00:03:02.069" end="00:03:06.810" style="s2">ugly as Java and it&#39;s not as ugly as C</p>
+<p begin="00:03:05.069" end="00:03:09.989" style="s2">you need to remember that that the</p>
+<p begin="00:03:06.810" end="00:03:12.689" style="s2">closer the language is to the system the</p>
+<p begin="00:03:09.989" end="00:03:15.299" style="s2">lower level the more ugly it is python</p>
+<p begin="00:03:12.689" end="00:03:16.680" style="s2">is a very free language to read and</p>
+<p begin="00:03:15.299" end="00:03:18.629" style="s2">that&#39;s why beginners liked it so much</p>
+<p begin="00:03:16.680" end="00:03:22.409" style="s2">because it doesn&#39;t scare you at the</p>
+<p begin="00:03:18.629" end="00:03:25.500" style="s2">beginning like see if you see see oh my</p>
+<p begin="00:03:22.409" end="00:03:27.359" style="s2">god what up okay javascript but let&#39;s</p>
+<p begin="00:03:25.500" end="00:03:30.060" style="s2">make one programming language let&#39;s call</p>
+<p begin="00:03:27.359" end="00:03:31.709" style="s2">it HTML CSS in JavaScript if you want to</p>
+<p begin="00:03:30.060" end="00:03:33.840" style="s2">build websites and that is the main</p>
+<p begin="00:03:31.709" end="00:03:36.930" style="s2">focus of what you want to learn to</p>
+<p begin="00:03:33.840" end="00:03:39.060" style="s2">program then go for HTML CSS in</p>
+<p begin="00:03:36.930" end="00:03:41.400" style="s2">JavaScript that is how you start making</p>
+<p begin="00:03:39.060" end="00:03:43.019" style="s2">website some people will tell you oh if</p>
+<p begin="00:03:41.400" end="00:03:44.819" style="s2">you want to make a website then go for</p>
+<p begin="00:03:43.019" end="00:03:46.769" style="s2">Python because Python makes websites as</p>
+<p begin="00:03:44.819" end="00:03:49.109" style="s2">well yes you can make a website with</p>
+<p begin="00:03:46.769" end="00:03:52.709" style="s2">Python the difference is that with HTML</p>
+<p begin="00:03:49.109" end="00:03:54.989" style="s2">CSS and JavaScript you learn by building</p>
+<p begin="00:03:52.709" end="00:03:58.739" style="s2">something that is visually attractive</p>
+<p begin="00:03:54.989" end="00:04:01.379" style="s2">for you and also you learn how the web</p>
+<p begin="00:03:58.739" end="00:04:03.810" style="s2">works from the ground up from the from</p>
+<p begin="00:04:01.379" end="00:04:05.310" style="s2">nothing to everything so when you want</p>
+<p begin="00:04:03.810" end="00:04:07.979" style="s2">to become a web developer and if that&#39;s</p>
+<p begin="00:04:05.310" end="00:04:09.599" style="s2">what you want to do then HTML CSS in</p>
+<p begin="00:04:07.979" end="00:04:11.220" style="s2">JavaScript now also if you learn</p>
+<p begin="00:04:09.599" end="00:04:13.439" style="s2">JavaScript and you like it a lot you&#39;re</p>
+<p begin="00:04:11.220" end="00:04:15.689" style="s2">going to be able to build barry to build</p>
+<p begin="00:04:13.439" end="00:04:17.909" style="s2">many dynamic websites you can also make</p>
+<p begin="00:04:15.689" end="00:04:20.099" style="s2">some iOS android applications you can</p>
+<p begin="00:04:17.909" end="00:04:22.800" style="s2">also program the backend now javascript</p>
+<p begin="00:04:20.099" end="00:04:28.190" style="s2">is also kind of multi-purpose like</p>
+<p begin="00:04:22.800" end="00:04:28.190" style="s2">python is but javascript is very old and</p>
+<p begin="00:04:28.319" end="00:04:34.990" style="s2">PHP is to build backends you can build</p>
+<p begin="00:04:31.870" end="00:04:38.830" style="s2">backends with PHP and PHP runs</p>
+<p begin="00:04:34.990" end="00:04:41.110" style="s2">everywhere most of the internet runs on</p>
+<p begin="00:04:38.830" end="00:04:44.770" style="s2">PHP why because it is this thing called</p>
+<p begin="00:04:41.110" end="00:04:47.620" style="s2">WordPress WordPress runs with PHP and</p>
+<p begin="00:04:44.770" end="00:04:52.419" style="s2">many websites use WordPress for many</p>
+<p begin="00:04:47.620" end="00:04:55.389" style="s2">many many things also PHP is stable the</p>
+<p begin="00:04:52.419" end="00:04:57.490" style="s2">community is big I don&#39;t usually use it</p>
+<p begin="00:04:55.389" end="00:04:59.889" style="s2">that much I learnt it before but for me</p>
+<p begin="00:04:57.490" end="00:05:02.560" style="s2">is not it&#39;s not my thing I prefer Python</p>
+<p begin="00:04:59.889" end="00:05:04.630" style="s2">or node.js but also if you learn PHP and</p>
+<p begin="00:05:02.560" end="00:05:06.430" style="s2">you want to be able to do stuff for</p>
+<p begin="00:05:04.630" end="00:05:10.030" style="s2">WordPress if you want to be able to do</p>
+<p begin="00:05:06.430" end="00:05:12.220" style="s2">stuff for things like Magento or Drupal</p>
+<p begin="00:05:10.030" end="00:05:16.930" style="s2">stuff like that like content management</p>
+<p begin="00:05:12.220" end="00:05:19.120" style="s2">systems then PHP is your guy oh alright</p>
+<p begin="00:05:16.930" end="00:05:21.639" style="s2">my people that&#39;s it so now is your turn</p>
+<p begin="00:05:19.120" end="00:05:25.270" style="s2">ask yourself the question what do you</p>
+<p begin="00:05:21.639" end="00:05:27.849" style="s2">want to build and then choose right</p>
+<p begin="00:05:25.270" end="00:05:29.889" style="s2">start with why first know yourself and</p>
+<p begin="00:05:27.849" end="00:05:31.509" style="s2">then all the answers will be in front of</p>
+<p begin="00:05:29.889" end="00:05:32.949" style="s2">you thank you for watching let me know</p>
+<p begin="00:05:31.509" end="00:05:34.300" style="s2">what you think about this video I know</p>
+<p begin="00:05:32.949" end="00:05:35.740" style="s2">many people are going to disagree</p>
+<p begin="00:05:34.300" end="00:05:38.110" style="s2">many people are gonna agree please</p>
+<p begin="00:05:35.740" end="00:05:39.729" style="s2">comment and ask me more questions I&#39;m</p>
+<p begin="00:05:38.110" end="00:05:41.380" style="s2">very very happy that I&#39;m getting more</p>
+<p begin="00:05:39.729" end="00:05:43.449" style="s2">and more more questions every day no</p>
+<p begin="00:05:41.380" end="00:05:45.940" style="s2">question is stupid all questions are</p>
+<p begin="00:05:43.449" end="00:05:48.460" style="s2">loved thank you again for watching don&#39;t</p>
+<p begin="00:05:45.940" end="00:05:51.389" style="s2">forget to be happy eat kimchi and sang</p>
+<p begin="00:05:48.460" end="00:05:51.389" style="s2">gibson bike</p>
+</div>
+</body>
+</tt>

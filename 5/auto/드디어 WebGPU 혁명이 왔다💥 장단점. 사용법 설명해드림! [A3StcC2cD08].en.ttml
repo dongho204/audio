@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:01.520" end="00:00:07.379" style="s2">and today we are going to talk about the</p>
+<p begin="00:00:04.080" end="00:00:10.320" style="s2">web GPU and how revolutionary it is for</p>
+<p begin="00:00:07.379" end="00:00:12.540" style="s2">the browsers developers and the web we</p>
+<p begin="00:00:10.320" end="00:00:14.820" style="s2">are also going to understand why web GPU</p>
+<p begin="00:00:12.540" end="00:00:17.580" style="s2">is a game changer for applications other</p>
+<p begin="00:00:14.820" end="00:00:19.740" style="s2">than video games a web GPU is a new</p>
+<p begin="00:00:17.580" end="00:00:21.600" style="s2">graphics API that is now available to</p>
+<p begin="00:00:19.740" end="00:00:24.480" style="s2">use in the latest update of Google</p>
+<p begin="00:00:21.600" end="00:00:26.400" style="s2">Chrome to understand why web GPU is a</p>
+<p begin="00:00:24.480" end="00:00:30.060" style="s2">big deal let&#39;s first understand what web</p>
+<p begin="00:00:26.400" end="00:00:32.340" style="s2">GPU was created to replace webgl there</p>
+<p begin="00:00:30.060" end="00:00:34.980" style="s2">was a time long long ago where browsers</p>
+<p begin="00:00:32.340" end="00:00:36.719" style="s2">were not as powerful as they are now but</p>
+<p begin="00:00:34.980" end="00:00:38.579" style="s2">then if you wanted to draw anything on</p>
+<p begin="00:00:36.719" end="00:00:40.920" style="s2">the screen of the user you would have to</p>
+<p begin="00:00:38.579" end="00:00:43.260" style="s2">use Flash which was a plugin not</p>
+<p begin="00:00:40.920" end="00:00:45.420" style="s2">included by the browser that we had to</p>
+<p begin="00:00:43.260" end="00:00:47.520" style="s2">install since the web was relying too</p>
+<p begin="00:00:45.420" end="00:00:50.219" style="s2">much on flash which was controlled by a</p>
+<p begin="00:00:47.520" end="00:00:52.140" style="s2">single company and since Steve Jobs did</p>
+<p begin="00:00:50.219" end="00:00:54.360" style="s2">not want to support Flash on the</p>
+<p begin="00:00:52.140" end="00:00:56.760" style="s2">iPhone&#39;s browser makers came up with a</p>
+<p begin="00:00:54.360" end="00:00:59.399" style="s2">solution to get a native graphics on the</p>
+<p begin="00:00:56.760" end="00:01:01.559" style="s2">web without using the third party plugin</p>
+<p begin="00:00:59.399" end="00:01:03.780" style="s2">this is when HD email 5 was released and</p>
+<p begin="00:01:01.559" end="00:01:05.939" style="s2">it came with a new HTML tag that was</p>
+<p begin="00:01:03.780" end="00:01:09.479" style="s2">groundbreaking back then and that was</p>
+<p begin="00:01:05.939" end="00:01:12.000" style="s2">the HTML5 canvas element the canvas</p>
+<p begin="00:01:09.479" end="00:01:14.100" style="s2">element has its name implies created a</p>
+<p begin="00:01:12.000" end="00:01:16.740" style="s2">canvas in which developers could draw</p>
+<p begin="00:01:14.100" end="00:01:18.960" style="s2">images on the user&#39;s screen at first it</p>
+<p begin="00:01:16.740" end="00:01:21.420" style="s2">only supported the drawing of two the</p>
+<p begin="00:01:18.960" end="00:01:23.400" style="s2">graphics it had limited features and it</p>
+<p begin="00:01:21.420" end="00:01:25.740" style="s2">was not so performant not good enough</p>
+<p begin="00:01:23.400" end="00:01:29.460" style="s2">for building a high performance game</p>
+<p begin="00:01:25.740" end="00:01:32.520" style="s2">then game webgl webgl was created to</p>
+<p begin="00:01:29.460" end="00:01:35.340" style="s2">bring 3d rendering to the web a webgl</p>
+<p begin="00:01:32.520" end="00:01:38.579" style="s2">was based on opengl an already existing</p>
+<p begin="00:01:35.340" end="00:01:41.040" style="s2">and known cross-platform API for two and</p>
+<p begin="00:01:38.579" end="00:01:42.600" style="s2">3D Graphics opengl is basically an</p>
+<p begin="00:01:41.040" end="00:01:45.119" style="s2">interface that developers can use to</p>
+<p begin="00:01:42.600" end="00:01:47.280" style="s2">talk to the GPU the graphic card of the</p>
+<p begin="00:01:45.119" end="00:01:51.240" style="s2">computer the thing is that opengl is</p>
+<p begin="00:01:47.280" end="00:01:53.460" style="s2">very old its initial release was in 1992</p>
+<p begin="00:01:51.240" end="00:01:56.040" style="s2">and it is not in active development</p>
+<p begin="00:01:53.460" end="00:01:58.380" style="s2">anymore this means it was created when</p>
+<p begin="00:01:56.040" end="00:02:00.840" style="s2">computers and gpus were not so powerful</p>
+<p begin="00:01:58.380" end="00:02:03.479" style="s2">and did things very different it also</p>
+<p begin="00:02:00.840" end="00:02:05.759" style="s2">means it won&#39;t get any new features and</p>
+<p begin="00:02:03.479" end="00:02:08.160" style="s2">because it has been around for such a</p>
+<p begin="00:02:05.759" end="00:02:10.860" style="s2">long time replacing it with something</p>
+<p begin="00:02:08.160" end="00:02:13.200" style="s2">completely new is easier than updating</p>
+<p begin="00:02:10.860" end="00:02:15.599" style="s2">it this is why the Chronos group an</p>
+<p begin="00:02:13.200" end="00:02:17.640" style="s2">organization behind opengl and webgl</p>
+<p begin="00:02:15.599" end="00:02:20.220" style="s2">stopped developing opengl and came up</p>
+<p begin="00:02:17.640" end="00:02:22.920" style="s2">with a Vulcan a completely new and</p>
+<p begin="00:02:20.220" end="00:02:25.800" style="s2">redesigned Graphics API Apple also came</p>
+<p begin="00:02:22.920" end="00:02:28.980" style="s2">up with metal their own Graphics API and</p>
+<p begin="00:02:25.800" end="00:02:31.739" style="s2">deprecated opengl on Mac OS and IO in</p>
+<p begin="00:02:28.980" end="00:02:34.200" style="s2">Microsoft came up with DirectX 12 for</p>
+<p begin="00:02:31.739" end="00:02:38.040" style="s2">Xbox and PC so this means that we ended</p>
+<p begin="00:02:34.200" end="00:02:41.940" style="s2">up with Vulcan metal and direct X12 all</p>
+<p begin="00:02:38.040" end="00:02:44.519" style="s2">new modern faster redesigned apis for</p>
+<p begin="00:02:41.940" end="00:02:48.840" style="s2">computer Graphics but the browser will</p>
+<p begin="00:02:44.519" end="00:02:51.599" style="s2">still stock using webgl enter web GPU</p>
+<p begin="00:02:48.840" end="00:02:53.580" style="s2">web GPU is a new browser API and it</p>
+<p begin="00:02:51.599" end="00:02:57.120" style="s2">allows websites to talk to chronos&#39;s</p>
+<p begin="00:02:53.580" end="00:02:59.640" style="s2">Vulcan Microsoft direct 3D and Apple&#39;s</p>
+<p begin="00:02:57.120" end="00:03:02.160" style="s2">metal web GPU is just a set of new</p>
+<p begin="00:02:59.640" end="00:03:04.560" style="s2">command that the browser understands the</p>
+<p begin="00:03:02.160" end="00:03:07.500" style="s2">browser for now Chrome and soon Firefox</p>
+<p begin="00:03:04.560" end="00:03:10.440" style="s2">and Safari will take those web GPU</p>
+<p begin="00:03:07.500" end="00:03:12.780" style="s2">commands and talk to the GPU using the</p>
+<p begin="00:03:10.440" end="00:03:14.819" style="s2">apis of the machine where the browser is</p>
+<p begin="00:03:12.780" end="00:03:17.280" style="s2">installed so if you use Chrome on a</p>
+<p begin="00:03:14.819" end="00:03:18.900" style="s2">Linux machine Chrome will use Vulcan if</p>
+<p begin="00:03:17.280" end="00:03:21.420" style="s2">you use it on a Windows machine Chrome</p>
+<p begin="00:03:18.900" end="00:03:23.879" style="s2">will use direct 3D which is the 3D part</p>
+<p begin="00:03:21.420" end="00:03:27.300" style="s2">of DirectX and if you use it on Apple</p>
+<p begin="00:03:23.879" end="00:03:29.580" style="s2">Chrome will use metal directly this is a</p>
+<p begin="00:03:27.300" end="00:03:31.500" style="s2">very big deal this means that websites</p>
+<p begin="00:03:29.580" end="00:03:34.620" style="s2">will now be able to use and have more</p>
+<p begin="00:03:31.500" end="00:03:36.720" style="s2">control over the GPU of the user as you</p>
+<p begin="00:03:34.620" end="00:03:39.540" style="s2">can imagine this unlocks a new platform</p>
+<p begin="00:03:36.720" end="00:03:41.459" style="s2">for gaming it was possible before to run</p>
+<p begin="00:03:39.540" end="00:03:43.860" style="s2">3D games on the web when there were</p>
+<p begin="00:03:41.459" end="00:03:46.739" style="s2">performance limitations if the browser</p>
+<p begin="00:03:43.860" end="00:03:48.480" style="s2">can now use the GPU fully then running</p>
+<p begin="00:03:46.739" end="00:03:50.280" style="s2">again from the browser instead of</p>
+<p begin="00:03:48.480" end="00:03:53.159" style="s2">downloading and installing it is going</p>
+<p begin="00:03:50.280" end="00:03:55.620" style="s2">to be an obvious choice desktop software</p>
+<p begin="00:03:53.159" end="00:03:58.260" style="s2">that uses the GPU like video and photo</p>
+<p begin="00:03:55.620" end="00:04:00.900" style="s2">editing programs could become truly a</p>
+<p begin="00:03:58.260" end="00:04:02.519" style="s2">hundred percent web based which is good</p>
+<p begin="00:04:00.900" end="00:04:04.620" style="s2">for my user&#39;s point of view and the</p>
+<p begin="00:04:02.519" end="00:04:07.799" style="s2">Publishers as well but apart from that</p>
+<p begin="00:04:04.620" end="00:04:10.019" style="s2">web GPU can be huge for AI as you know</p>
+<p begin="00:04:07.799" end="00:04:12.540" style="s2">gpus are heavily used on the training</p>
+<p begin="00:04:10.019" end="00:04:14.760" style="s2">and running of machine learning models</p>
+<p begin="00:04:12.540" end="00:04:17.940" style="s2">this is due to the fact that gpus are</p>
+<p begin="00:04:14.760" end="00:04:20.760" style="s2">good at doing parallel computation using</p>
+<p begin="00:04:17.940" end="00:04:23.400" style="s2">web GPU we can access the gpu&#39;s ability</p>
+<p begin="00:04:20.760" end="00:04:26.520" style="s2">to perform computations from the browser</p>
+<p begin="00:04:23.400" end="00:04:28.080" style="s2">which was not possible using webgl this</p>
+<p begin="00:04:26.520" end="00:04:30.600" style="s2">means that users could run machine</p>
+<p begin="00:04:28.080" end="00:04:33.479" style="s2">learning models from the browser itself</p>
+<p begin="00:04:30.600" end="00:04:35.759" style="s2">without any of their private data being</p>
+<p begin="00:04:33.479" end="00:04:39.120" style="s2">uploaded anywhere and never leaving</p>
+<p begin="00:04:35.759" end="00:04:40.620" style="s2">their device that will be so sweet it</p>
+<p begin="00:04:39.120" end="00:04:42.600" style="s2">will be cheaper for companies to run</p>
+<p begin="00:04:40.620" end="00:04:44.940" style="s2">their AI models since they can use the</p>
+<p begin="00:04:42.600" end="00:04:46.740" style="s2">processing power of the user&#39;s device it</p>
+<p begin="00:04:44.940" end="00:04:49.139" style="s2">would be more private since the data</p>
+<p begin="00:04:46.740" end="00:04:51.720" style="s2">never leaves the device and the AI could</p>
+<p begin="00:04:49.139" end="00:04:53.880" style="s2">potentially run offline web GPU support</p>
+<p begin="00:04:51.720" end="00:04:56.180" style="s2">for all sorts of things is starting to</p>
+<p begin="00:04:53.880" end="00:04:58.979" style="s2">increase machine learning libraries like</p>
+<p begin="00:04:56.180" end="00:05:01.800" style="s2">tensorflow.js already have a web GPU</p>
+<p begin="00:04:58.979" end="00:05:04.919" style="s2">backend 3D engines like Babylon JS and</p>
+<p begin="00:05:01.800" end="00:05:07.560" style="s2">3js have started supporting web GPU as</p>
+<p begin="00:05:04.919" end="00:05:10.560" style="s2">well even Unity the game engine is said</p>
+<p begin="00:05:07.560" end="00:05:12.660" style="s2">to be working on exporting to web GPU I</p>
+<p begin="00:05:10.560" end="00:05:16.380" style="s2">suspect this is how most of us will use</p>
+<p begin="00:05:12.660" end="00:05:19.860" style="s2">web GPU indirectly raw web GPU code is</p>
+<p begin="00:05:16.380" end="00:05:22.380" style="s2">verbose and long if you&#39;re curious this</p>
+<p begin="00:05:19.860" end="00:05:25.500" style="s2">is some of the code required to render a</p>
+<p begin="00:05:22.380" end="00:05:27.660" style="s2">triangle like this one on screen so I</p>
+<p begin="00:05:25.500" end="00:05:30.419" style="s2">think that what most of us will do is</p>
+<p begin="00:05:27.660" end="00:05:33.479" style="s2">use a library like 3js babylon.js or</p>
+<p begin="00:05:30.419" end="00:05:36.060" style="s2">tensorflow.js that supports web GPU keep</p>
+<p begin="00:05:33.479" end="00:05:38.039" style="s2">in mind that web GPU is not limited to</p>
+<p begin="00:05:36.060" end="00:05:40.100" style="s2">JavaScript only you can also use</p>
+<p begin="00:05:38.039" end="00:05:43.320" style="s2">languages like rust with libraries like</p>
+<p begin="00:05:40.100" end="00:05:45.780" style="s2">wgpu to write web GPU code and you can</p>
+<p begin="00:05:43.320" end="00:05:48.780" style="s2">run that code on the browser of the user</p>
+<p begin="00:05:45.780" end="00:05:51.000" style="s2">by compiling it to webassembly as always</p>
+<p begin="00:05:48.780" end="00:05:53.460" style="s2">with new technology comes new risk</p>
+<p begin="00:05:51.000" end="00:05:55.320" style="s2">nothing is a hundred percent good there</p>
+<p begin="00:05:53.460" end="00:05:57.360" style="s2">are always the downsides what makes web</p>
+<p begin="00:05:55.320" end="00:05:59.960" style="s2">GPU awesome is also what makes it</p>
+<p begin="00:05:57.360" end="00:06:03.419" style="s2">dangerous websites can now talk to your</p>
+<p begin="00:05:59.960" end="00:06:06.060" style="s2">GPU which means that in theory a website</p>
+<p begin="00:06:03.419" end="00:06:09.000" style="s2">could use this new feature and use your</p>
+<p begin="00:06:06.060" end="00:06:11.100" style="s2">GPU to mine a cryptocurrency every time</p>
+<p begin="00:06:09.000" end="00:06:13.199" style="s2">you visit it draining your resources and</p>
+<p begin="00:06:11.100" end="00:06:15.419" style="s2">battery life or it could potentially be</p>
+<p begin="00:06:13.199" end="00:06:17.400" style="s2">used for the anonymizing and tracking</p>
+<p begin="00:06:15.419" end="00:06:19.620" style="s2">users across the web we will have to</p>
+<p begin="00:06:17.400" end="00:06:22.139" style="s2">wait and see how browsers Implement web</p>
+<p begin="00:06:19.620" end="00:06:23.940" style="s2">GPU maybe the user will first have to</p>
+<p begin="00:06:22.139" end="00:06:26.039" style="s2">give permission just like with</p>
+<p begin="00:06:23.940" end="00:06:28.500" style="s2">geolocation which I think would be a</p>
+<p begin="00:06:26.039" end="00:06:31.139" style="s2">good thing to do now I want to know what</p>
+<p begin="00:06:28.500" end="00:06:33.479" style="s2">you think did you know about web GPU</p>
+<p begin="00:06:31.139" end="00:06:35.220" style="s2">what do you imagine is going to happen</p>
+<p begin="00:06:33.479" end="00:06:38.160" style="s2">do you feel comfortable allowing</p>
+<p begin="00:06:35.220" end="00:06:39.660" style="s2">websites to talk to your GPU let me know</p>
+<p begin="00:06:38.160" end="00:06:41.819" style="s2">in the comments I&#39;m going to be looking</p>
+<p begin="00:06:39.660" end="00:06:43.560" style="s2">at them right now if you found this</p>
+<p begin="00:06:41.819" end="00:06:45.539" style="s2">video useful please consider liking it</p>
+<p begin="00:06:43.560" end="00:06:47.220" style="s2">and subscribing to the channel and don&#39;t</p>
+<p begin="00:06:45.539" end="00:06:49.560" style="s2">forget that if you want to learn things</p>
+<p begin="00:06:47.220" end="00:06:52.800" style="s2">like JavaScript python react react</p>
+<p begin="00:06:49.560" end="00:06:55.440" style="s2">native go Dart flutter among many many</p>
+<p begin="00:06:52.800" end="00:06:57.360" style="s2">others for absolutely free all you have</p>
+<p begin="00:06:55.440" end="00:06:59.460" style="s2">to do is click the link below to join</p>
+<p begin="00:06:57.360" end="00:07:02.100" style="s2">any of our many free courses that you</p>
+<p begin="00:06:59.460" end="00:07:04.319" style="s2">can take right now for absolutely free</p>
+<p begin="00:07:02.100" end="00:07:06.500" style="s2">with me click the link below and I will</p>
+<p begin="00:07:04.319" end="00:07:10.639" style="s2">see you there</p>
+<p begin="00:07:06.500" end="00:07:10.639" style="s2">see you on the next one bye</p>
+<p begin="00:07:19.370" end="00:07:22.470" style="s2">[Music]</p>
+</div>
+</body>
+</tt>

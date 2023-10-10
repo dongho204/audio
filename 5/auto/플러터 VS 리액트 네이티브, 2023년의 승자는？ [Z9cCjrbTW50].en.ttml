@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:01.940" end="00:00:06.660" style="s2">some days ago I made a video about</p>
+<p begin="00:00:04.440" end="00:00:08.460" style="s2">flutter and why you should learn it the</p>
+<p begin="00:00:06.660" end="00:00:10.200" style="s2">video blew up and we got many comments</p>
+<p begin="00:00:08.460" end="00:00:12.179" style="s2">mentioning react native and how it</p>
+<p begin="00:00:10.200" end="00:00:13.799" style="s2">compares to flutter so on to this video</p>
+<p begin="00:00:12.179" end="00:00:16.020" style="s2">I would like to put react native and</p>
+<p begin="00:00:13.799" end="00:00:18.000" style="s2">flutter side by side to see what their</p>
+<p begin="00:00:16.020" end="00:00:20.460" style="s2">weaknesses and strengths are as well as</p>
+<p begin="00:00:18.000" end="00:00:22.500" style="s2">when to use one versus the other one I</p>
+<p begin="00:00:20.460" end="00:00:24.539" style="s2">have used both react native and flutter</p>
+<p begin="00:00:22.500" end="00:00:26.460" style="s2">I have built and released apps using</p>
+<p begin="00:00:24.539" end="00:00:28.500" style="s2">both of them and I also recorded</p>
+<p begin="00:00:26.460" end="00:00:30.900" style="s2">hundreds of hours of free and paid</p>
+<p begin="00:00:28.500" end="00:00:32.579" style="s2">courses using them both that is to say</p>
+<p begin="00:00:30.900" end="00:00:34.200" style="s2">that I have gone past all these shiny</p>
+<p begin="00:00:32.579" end="00:00:36.660" style="s2">features and Promises all these</p>
+<p begin="00:00:34.200" end="00:00:38.760" style="s2">Frameworks make and I have actually hit</p>
+<p begin="00:00:36.660" end="00:00:41.280" style="s2">some roadblocks and found some rough</p>
+<p begin="00:00:38.760" end="00:00:43.739" style="s2">corners and edge cases that could be a</p>
+<p begin="00:00:41.280" end="00:00:45.660" style="s2">deal breaker for some startups one thing</p>
+<p begin="00:00:43.739" end="00:00:48.180" style="s2">I would like to ask us is to avoid going</p>
+<p begin="00:00:45.660" end="00:00:49.980" style="s2">into absolutes one project is in a</p>
+<p begin="00:00:48.180" end="00:00:52.260" style="s2">hundred percent better than the other</p>
+<p begin="00:00:49.980" end="00:00:54.300" style="s2">they&#39;re both great and it is never a</p>
+<p begin="00:00:52.260" end="00:00:56.460" style="s2">good idea to marry a framework and make</p>
+<p begin="00:00:54.300" end="00:00:58.020" style="s2">it part of your identity or to hate</p>
+<p begin="00:00:56.460" end="00:00:59.940" style="s2">something so much that you would never</p>
+<p begin="00:00:58.020" end="00:01:01.440" style="s2">use it also be careful in the comment</p>
+<p begin="00:00:59.940" end="00:01:03.359" style="s2">comment section with people that seem to</p>
+<p begin="00:01:01.440" end="00:01:04.979" style="s2">be too sure of themselves some people</p>
+<p begin="00:01:03.359" end="00:01:06.900" style="s2">might have great stories about using</p>
+<p begin="00:01:04.979" end="00:01:09.180" style="s2">flutter and I&#39;m sure others won&#39;t look</p>
+<p begin="00:01:06.900" end="00:01:11.220" style="s2">at Airbnb for example they migrated to</p>
+<p begin="00:01:09.180" end="00:01:13.320" style="s2">react native and then after a while they</p>
+<p begin="00:01:11.220" end="00:01:15.479" style="s2">decided they should migrate away from</p>
+<p begin="00:01:13.320" end="00:01:17.460" style="s2">react native back to Pure native because</p>
+<p begin="00:01:15.479" end="00:01:19.380" style="s2">of some problems they encounter does</p>
+<p begin="00:01:17.460" end="00:01:21.420" style="s2">that mean that react native sucks and no</p>
+<p begin="00:01:19.380" end="00:01:23.580" style="s2">one should use it not really it just</p>
+<p begin="00:01:21.420" end="00:01:25.560" style="s2">means that it did not work for airbnb&#39;s</p>
+<p begin="00:01:23.580" end="00:01:27.240" style="s2">requirements there were some trade-offs</p>
+<p begin="00:01:25.560" end="00:01:28.920" style="s2">to be made and maybe they did not want</p>
+<p begin="00:01:27.240" end="00:01:31.740" style="s2">to make them and this is what this video</p>
+<p begin="00:01:28.920" end="00:01:33.900" style="s2">will be mostly about trade-offs there is</p>
+<p begin="00:01:31.740" end="00:01:36.540" style="s2">no absolute answer and it depends on you</p>
+<p begin="00:01:33.900" end="00:01:38.100" style="s2">and on what your project needs so let&#39;s</p>
+<p begin="00:01:36.540" end="00:01:40.259" style="s2">get started with strengths and</p>
+<p begin="00:01:38.100" end="00:01:41.880" style="s2">weaknesses a strength of react native is</p>
+<p begin="00:01:40.259" end="00:01:43.799" style="s2">the fact that it is just JavaScript and</p>
+<p begin="00:01:41.880" end="00:01:46.259" style="s2">react the rules of react are the same</p>
+<p begin="00:01:43.799" end="00:01:48.000" style="s2">CSS is mostly the same and JavaScript is</p>
+<p begin="00:01:46.259" end="00:01:50.399" style="s2">the same this means that learner react</p>
+<p begin="00:01:48.000" end="00:01:52.740" style="s2">native for a react developer is easy</p>
+<p begin="00:01:50.399" end="00:01:54.540" style="s2">onboarding a front-end developer into a</p>
+<p begin="00:01:52.740" end="00:01:56.820" style="s2">react native developer is also super</p>
+<p begin="00:01:54.540" end="00:01:58.680" style="s2">easy and it also means that the pool of</p>
+<p begin="00:01:56.820" end="00:02:01.079" style="s2">developers you can hire for a react</p>
+<p begin="00:01:58.680" end="00:02:02.939" style="s2">native project is definitely bigger in</p>
+<p begin="00:02:01.079" end="00:02:04.860" style="s2">the case of flutter Dart is a language</p>
+<p begin="00:02:02.939" end="00:02:07.020" style="s2">that even though is not hard to learn</p>
+<p begin="00:02:04.860" end="00:02:09.000" style="s2">and even though it looks a lot like Java</p>
+<p begin="00:02:07.020" end="00:02:11.099" style="s2">or C sharp it is nevertheless a language</p>
+<p begin="00:02:09.000" end="00:02:13.260" style="s2">that almost no one was using before</p>
+<p begin="00:02:11.099" end="00:02:15.660" style="s2">flutter which means that the talent pool</p>
+<p begin="00:02:13.260" end="00:02:17.580" style="s2">is smaller compared to the size of the</p>
+<p begin="00:02:15.660" end="00:02:19.739" style="s2">pool of react developers and it means</p>
+<p begin="00:02:17.580" end="00:02:21.780" style="s2">that onboarding a new developer to a</p>
+<p begin="00:02:19.739" end="00:02:23.700" style="s2">flutter project will not be as quickly</p>
+<p begin="00:02:21.780" end="00:02:25.500" style="s2">as with react native the thing is that</p>
+<p begin="00:02:23.700" end="00:02:28.440" style="s2">in my opinion taking the time to learn</p>
+<p begin="00:02:25.500" end="00:02:30.120" style="s2">Dart and flutter pays off big time I say</p>
+<p begin="00:02:28.440" end="00:02:32.520" style="s2">this because working with flutter feels</p>
+<p begin="00:02:30.120" end="00:02:34.319" style="s2">like working with a big fully featured</p>
+<p begin="00:02:32.520" end="00:02:36.780" style="s2">framework and working with react native</p>
+<p begin="00:02:34.319" end="00:02:39.300" style="s2">feels a bit more minimalistic it&#39;s like</p>
+<p begin="00:02:36.780" end="00:02:41.340" style="s2">building a website using next JS an</p>
+<p begin="00:02:39.300" end="00:02:43.620" style="s2">awesome framework that has many built-in</p>
+<p begin="00:02:41.340" end="00:02:46.440" style="s2">features like routing server-side</p>
+<p begin="00:02:43.620" end="00:02:49.440" style="s2">rendering image compression API routes</p>
+<p begin="00:02:46.440" end="00:02:51.599" style="s2">static optimization versus building a</p>
+<p begin="00:02:49.440" end="00:02:53.220" style="s2">project using react.js only and having</p>
+<p begin="00:02:51.599" end="00:02:55.019" style="s2">to implement all those features by</p>
+<p begin="00:02:53.220" end="00:02:56.879" style="s2">yourself the same feeling you would get</p>
+<p begin="00:02:55.019" end="00:02:58.980" style="s2">if you compare building a backend using</p>
+<p begin="00:02:56.879" end="00:03:02.340" style="s2">Django versus building a back end using</p>
+<p begin="00:02:58.980" end="00:03:04.879" style="s2">flask or fast API by default floater has</p>
+<p begin="00:03:02.340" end="00:03:08.099" style="s2">many built-in features like navigation</p>
+<p begin="00:03:04.879" end="00:03:10.739" style="s2">translations dark mode gaming animations</p>
+<p begin="00:03:08.099" end="00:03:13.260" style="s2">some kind of State Management plus a</p>
+<p begin="00:03:10.739" end="00:03:15.780" style="s2">huge collection of pre-made components</p>
+<p begin="00:03:13.260" end="00:03:17.519" style="s2">out of the box all that comes enabled</p>
+<p begin="00:03:15.780" end="00:03:19.680" style="s2">when you make a flutter app and if you</p>
+<p begin="00:03:17.519" end="00:03:21.840" style="s2">don&#39;t find what you need built into the</p>
+<p begin="00:03:19.680" end="00:03:24.060" style="s2">framework the official Slaughter team</p>
+<p begin="00:03:21.840" end="00:03:26.640" style="s2">actually maintains other packages of</p>
+<p begin="00:03:24.060" end="00:03:29.760" style="s2">other things you would need like routing</p>
+<p begin="00:03:26.640" end="00:03:32.220" style="s2">camera access file selection Maps web</p>
+<p begin="00:03:29.760" end="00:03:34.260" style="s2">use in-app purchases Etc react native</p>
+<p begin="00:03:32.220" end="00:03:36.540" style="s2">does not provide all those things I just</p>
+<p begin="00:03:34.260" end="00:03:38.700" style="s2">mentioned out of the box you have to</p>
+<p begin="00:03:36.540" end="00:03:41.400" style="s2">install the many third-party packages</p>
+<p begin="00:03:38.700" end="00:03:43.680" style="s2">and write your own code to get feature</p>
+<p begin="00:03:41.400" end="00:03:46.019" style="s2">parity with what a flutter app has</p>
+<p begin="00:03:43.680" end="00:03:48.840" style="s2">enabled last default when I started</p>
+<p begin="00:03:46.019" end="00:03:51.060" style="s2">using react native in 2016 the project</p>
+<p begin="00:03:48.840" end="00:03:53.580" style="s2">was more like flutter the framework</p>
+<p begin="00:03:51.060" end="00:03:55.379" style="s2">provided more components and apis out of</p>
+<p begin="00:03:53.580" end="00:03:57.360" style="s2">the box but because the team has to</p>
+<p begin="00:03:55.379" end="00:03:59.819" style="s2">prioritize and they cannot maintain all</p>
+<p begin="00:03:57.360" end="00:04:01.860" style="s2">these apis and components they decided</p>
+<p begin="00:03:59.819" end="00:04:03.659" style="s2">to cut back on the amount of components</p>
+<p begin="00:04:01.860" end="00:04:06.120" style="s2">and apis they were going to officially</p>
+<p begin="00:04:03.659" end="00:04:08.400" style="s2">maintain to focus on making the core of</p>
+<p begin="00:04:06.120" end="00:04:10.080" style="s2">react native better having said all that</p>
+<p begin="00:04:08.400" end="00:04:12.720" style="s2">there are companies in the react native</p>
+<p begin="00:04:10.080" end="00:04:14.879" style="s2">ecosystem like Expo that are pushing</p>
+<p begin="00:04:12.720" end="00:04:17.160" style="s2">incredibly high quality packages and</p>
+<p begin="00:04:14.879" end="00:04:20.699" style="s2">apis that react native does not provide</p>
+<p begin="00:04:17.160" end="00:04:23.880" style="s2">by default like calendar camera face</p>
+<p begin="00:04:20.699" end="00:04:26.220" style="s2">detection Maps notifications among many</p>
+<p begin="00:04:23.880" end="00:04:28.199" style="s2">many others so on this point I think</p>
+<p begin="00:04:26.220" end="00:04:30.000" style="s2">Slaughter might be stronger than react</p>
+<p begin="00:04:28.199" end="00:04:32.280" style="s2">native because it seems to be more</p>
+<p begin="00:04:30.000" end="00:04:34.740" style="s2">centralized and less dependent on third</p>
+<p begin="00:04:32.280" end="00:04:37.440" style="s2">parties compared to react native that</p>
+<p begin="00:04:34.740" end="00:04:39.300" style="s2">centralization is good in a way that the</p>
+<p begin="00:04:37.440" end="00:04:41.639" style="s2">floater documentation their YouTube</p>
+<p begin="00:04:39.300" end="00:04:44.040" style="s2">channels the video series that they make</p>
+<p begin="00:04:41.639" end="00:04:45.960" style="s2">the tutorials it all comes from the same</p>
+<p begin="00:04:44.040" end="00:04:48.300" style="s2">Source flutter feels like the Google</p>
+<p begin="00:04:45.960" end="00:04:50.160" style="s2">product that it is but also that</p>
+<p begin="00:04:48.300" end="00:04:52.620" style="s2">centralization is bad because what</p>
+<p begin="00:04:50.160" end="00:04:54.479" style="s2">happens to flutter if Google lays off</p>
+<p begin="00:04:52.620" end="00:04:56.880" style="s2">the flutter team will it survive who</p>
+<p begin="00:04:54.479" end="00:04:58.620" style="s2">knows another point that I feel is a</p>
+<p begin="00:04:56.880" end="00:05:00.720" style="s2">strength to flutter is a developer</p>
+<p begin="00:04:58.620" end="00:05:03.540" style="s2">experience the integration with the code</p>
+<p begin="00:05:00.720" end="00:05:06.000" style="s2">editor is great and the developer tools</p>
+<p begin="00:05:03.540" end="00:05:07.620" style="s2">are out of this work upgrading flutter</p>
+<p begin="00:05:06.000" end="00:05:09.900" style="s2">versions isn&#39;t that scary either</p>
+<p begin="00:05:07.620" end="00:05:11.759" style="s2">compared to react native and as I have</p>
+<p begin="00:05:09.900" end="00:05:13.380" style="s2">seen on the comments of the courses I</p>
+<p begin="00:05:11.759" end="00:05:15.600" style="s2">recorded people have less trouble</p>
+<p begin="00:05:13.380" end="00:05:17.880" style="s2">installing flutter and getting a project</p>
+<p begin="00:05:15.600" end="00:05:19.800" style="s2">running compared to the pains they</p>
+<p begin="00:05:17.880" end="00:05:21.720" style="s2">experience with react native and you</p>
+<p begin="00:05:19.800" end="00:05:23.820" style="s2">don&#39;t have to take my word for it you</p>
+<p begin="00:05:21.720" end="00:05:25.919" style="s2">can right now click the link below and</p>
+<p begin="00:05:23.820" end="00:05:28.080" style="s2">enroll in our free react and react</p>
+<p begin="00:05:25.919" end="00:05:30.539" style="s2">native courses and then enroll in our</p>
+<p begin="00:05:28.080" end="00:05:33.060" style="s2">free Dart and Florida courses and see</p>
+<p begin="00:05:30.539" end="00:05:34.740" style="s2">for yourself the Achilles heel of Flora</p>
+<p begin="00:05:33.060" end="00:05:37.440" style="s2">that I know will make it a no-go for</p>
+<p begin="00:05:34.740" end="00:05:39.300" style="s2">some themes is called push code push is</p>
+<p begin="00:05:37.440" end="00:05:41.639" style="s2">what allows react native developers to</p>
+<p begin="00:05:39.300" end="00:05:43.440" style="s2">update their applications without having</p>
+<p begin="00:05:41.639" end="00:05:45.780" style="s2">to go through the App Store approval</p>
+<p begin="00:05:43.440" end="00:05:47.520" style="s2">process again and again because a react</p>
+<p begin="00:05:45.780" end="00:05:50.160" style="s2">native application is basically an iOS</p>
+<p begin="00:05:47.520" end="00:05:52.259" style="s2">or Android app that just runs JavaScript</p>
+<p begin="00:05:50.160" end="00:05:54.180" style="s2">developers can just replace JavaScript</p>
+<p begin="00:05:52.259" end="00:05:56.940" style="s2">the app is running by making the app</p>
+<p begin="00:05:54.180" end="00:05:58.860" style="s2">download a Javascript file rather than</p>
+<p begin="00:05:56.940" end="00:06:00.960" style="s2">rebuilding and submitting the app again</p>
+<p begin="00:05:58.860" end="00:06:03.060" style="s2">which means they can fix box and Test</p>
+<p begin="00:06:00.960" end="00:06:06.120" style="s2">new features in a matter of minutes</p>
+<p begin="00:06:03.060" end="00:06:08.340" style="s2">versus days flutter does not have that</p>
+<p begin="00:06:06.120" end="00:06:11.340" style="s2">because flutter apps actually compile</p>
+<p begin="00:06:08.340" end="00:06:13.020" style="s2">the code they run to Native binaries so</p>
+<p begin="00:06:11.340" end="00:06:15.180" style="s2">to update a floater app you actually</p>
+<p begin="00:06:13.020" end="00:06:17.100" style="s2">need to replace the binary the user is</p>
+<p begin="00:06:15.180" end="00:06:18.780" style="s2">running by recompanying the app and</p>
+<p begin="00:06:17.100" end="00:06:20.820" style="s2">submitting it to the app store again</p>
+<p begin="00:06:18.780" end="00:06:22.620" style="s2">there are some ways of emulating code</p>
+<p begin="00:06:20.820" end="00:06:25.139" style="s2">Push by using Firebase remote</p>
+<p begin="00:06:22.620" end="00:06:26.940" style="s2">configuration but what you can update is</p>
+<p begin="00:06:25.139" end="00:06:28.860" style="s2">much more restrictive and it has to be</p>
+<p begin="00:06:26.940" end="00:06:30.840" style="s2">planned in advance something about</p>
+<p begin="00:06:28.860" end="00:06:33.240" style="s2">flutter that may or may not be a problem</p>
+<p begin="00:06:30.840" end="00:06:35.400" style="s2">to you is how multi-platform it wants to</p>
+<p begin="00:06:33.240" end="00:06:37.440" style="s2">be the goals of the floor team is to</p>
+<p begin="00:06:35.400" end="00:06:40.080" style="s2">allow people to make apps and even games</p>
+<p begin="00:06:37.440" end="00:06:42.600" style="s2">for all screens and devices which is</p>
+<p begin="00:06:40.080" end="00:06:45.060" style="s2">awesome but maybe because the scope of</p>
+<p begin="00:06:42.600" end="00:06:47.880" style="s2">that is just too big and the surface</p>
+<p begin="00:06:45.060" end="00:06:50.400" style="s2">area of the project is too broad they</p>
+<p begin="00:06:47.880" end="00:06:52.740" style="s2">might be over extending themselves and</p>
+<p begin="00:06:50.400" end="00:06:54.660" style="s2">they might not be able to maintain all</p>
+<p begin="00:06:52.740" end="00:06:57.240" style="s2">the packages and apis of all the</p>
+<p begin="00:06:54.660" end="00:06:58.979" style="s2">platform terms they want to support I</p>
+<p begin="00:06:57.240" end="00:07:01.139" style="s2">have experienced this before where some</p>
+<p begin="00:06:58.979" end="00:07:04.020" style="s2">official Slaughter packages are not as</p>
+<p begin="00:07:01.139" end="00:07:06.180" style="s2">good or as useful as they could be and I</p>
+<p begin="00:07:04.020" end="00:07:08.699" style="s2">think that if only the floor team had</p>
+<p begin="00:07:06.180" end="00:07:11.100" style="s2">time to fix some bugs and just make</p>
+<p begin="00:07:08.699" end="00:07:13.979" style="s2">things a bit better rather than trying</p>
+<p begin="00:07:11.100" end="00:07:15.840" style="s2">to be so multi-platform the apps that I</p>
+<p begin="00:07:13.979" end="00:07:17.819" style="s2">make with slaughter could be much better</p>
+<p begin="00:07:15.840" end="00:07:20.039" style="s2">which I guess is what the react native</p>
+<p begin="00:07:17.819" end="00:07:21.780" style="s2">team realized a long time ago and why</p>
+<p begin="00:07:20.039" end="00:07:23.940" style="s2">they are focusing on one thing and one</p>
+<p begin="00:07:21.780" end="00:07:26.580" style="s2">thing only which is making the core of</p>
+<p begin="00:07:23.940" end="00:07:28.440" style="s2">react native great and having less apis</p>
+<p begin="00:07:26.580" end="00:07:30.060" style="s2">and components to maintain that is not</p>
+<p begin="00:07:28.440" end="00:07:32.759" style="s2">to say that the quality of the flutter</p>
+<p begin="00:07:30.060" end="00:07:35.160" style="s2">packages is bad it&#39;s great and I</p>
+<p begin="00:07:32.759" end="00:07:37.620" style="s2">actually prefer using a package from the</p>
+<p begin="00:07:35.160" end="00:07:39.419" style="s2">flutter team rather than having to use a</p>
+<p begin="00:07:37.620" end="00:07:42.120" style="s2">third-party package from a random</p>
+<p begin="00:07:39.419" end="00:07:43.979" style="s2">developer the way react native forces me</p>
+<p begin="00:07:42.120" end="00:07:45.539" style="s2">to so now the question is when to use</p>
+<p begin="00:07:43.979" end="00:07:47.699" style="s2">flutter and when to use react native</p>
+<p begin="00:07:45.539" end="00:07:49.860" style="s2">before I tell you my opinion I honestly</p>
+<p begin="00:07:47.699" end="00:07:51.960" style="s2">think that you should try them both I</p>
+<p begin="00:07:49.860" end="00:07:53.940" style="s2">made both react native and flutter</p>
+<p begin="00:07:51.960" end="00:07:56.940" style="s2">courses they are for free you can take</p>
+<p begin="00:07:53.940" end="00:07:58.979" style="s2">them right now see and compare just</p>
+<p begin="00:07:56.940" end="00:08:00.539" style="s2">click the link below and I will see you</p>
+<p begin="00:07:58.979" end="00:08:02.280" style="s2">there but to answer the question I</p>
+<p begin="00:08:00.539" end="00:08:05.160" style="s2">honestly think it depends and it depends</p>
+<p begin="00:08:02.280" end="00:08:06.960" style="s2">on many factors for example if a startup</p>
+<p begin="00:08:05.160" end="00:08:08.880" style="s2">is using JavaScript on the back end and</p>
+<p begin="00:08:06.960" end="00:08:10.860" style="s2">on the front end and it already has a</p>
+<p begin="00:08:08.880" end="00:08:12.419" style="s2">bunch of react developers maybe</p>
+<p begin="00:08:10.860" end="00:08:14.639" style="s2">exploring react native as an option</p>
+<p begin="00:08:12.419" end="00:08:16.380" style="s2">would be good the same could be said for</p>
+<p begin="00:08:14.639" end="00:08:18.360" style="s2">flutter if you already have a backend</p>
+<p begin="00:08:16.380" end="00:08:20.220" style="s2">build with Java and the developers are</p>
+<p begin="00:08:18.360" end="00:08:22.500" style="s2">all comfortable with object oriented</p>
+<p begin="00:08:20.220" end="00:08:24.180" style="s2">programming flutter might be easier to</p>
+<p begin="00:08:22.500" end="00:08:25.680" style="s2">get started with at the end of the day</p>
+<p begin="00:08:24.180" end="00:08:27.900" style="s2">both of these Frameworks are</p>
+<p begin="00:08:25.680" end="00:08:29.759" style="s2">cross-platform Frameworks so you will</p>
+<p begin="00:08:27.900" end="00:08:32.099" style="s2">face some problems whether you go with</p>
+<p begin="00:08:29.759" end="00:08:34.440" style="s2">one or the other but and here is where</p>
+<p begin="00:08:32.099" end="00:08:36.539" style="s2">many of you might disagree with me if</p>
+<p begin="00:08:34.440" end="00:08:38.520" style="s2">you are a startup founder or a solo</p>
+<p begin="00:08:36.539" end="00:08:40.620" style="s2">entrepreneur or a team of developers</p>
+<p begin="00:08:38.520" end="00:08:42.419" style="s2">starting a new project and you want to</p>
+<p begin="00:08:40.620" end="00:08:44.399" style="s2">build your idea quickly and you need all</p>
+<p begin="00:08:42.419" end="00:08:47.160" style="s2">the help you can get then I would really</p>
+<p begin="00:08:44.399" end="00:08:50.160" style="s2">advise giving slaughter a try I say that</p>
+<p begin="00:08:47.160" end="00:08:53.040" style="s2">because objectively flutter has more</p>
+<p begin="00:08:50.160" end="00:08:54.660" style="s2">pre-built out of the box features which</p>
+<p begin="00:08:53.040" end="00:08:57.240" style="s2">will help you move fast and get your app</p>
+<p begin="00:08:54.660" end="00:08:59.279" style="s2">in front of the users quickly and you</p>
+<p begin="00:08:57.240" end="00:09:01.980" style="s2">can combine flutter with Firebase</p>
+<p begin="00:08:59.279" end="00:09:04.500" style="s2">another Google product to get even more</p>
+<p begin="00:09:01.980" end="00:09:06.959" style="s2">speed in your development process I</p>
+<p begin="00:09:04.500" end="00:09:09.000" style="s2">think floaterbase plus Firebase is a</p>
+<p begin="00:09:06.959" end="00:09:11.580" style="s2">combination that will make you a Savage</p>
+<p begin="00:09:09.000" end="00:09:13.260" style="s2">in the app developer I really do of</p>
+<p begin="00:09:11.580" end="00:09:15.540" style="s2">course before committing to a framework</p>
+<p begin="00:09:13.260" end="00:09:17.339" style="s2">lay down a list of all the features your</p>
+<p begin="00:09:15.540" end="00:09:19.019" style="s2">app should have and then see which</p>
+<p begin="00:09:17.339" end="00:09:21.480" style="s2">framework supports the most features</p>
+<p begin="00:09:19.019" end="00:09:23.459" style="s2">which one has the most packages and how</p>
+<p begin="00:09:21.480" end="00:09:25.920" style="s2">well maintained they are and most</p>
+<p begin="00:09:23.459" end="00:09:28.140" style="s2">important of all don&#39;t let a video a</p>
+<p begin="00:09:25.920" end="00:09:29.940" style="s2">blog post or a comment prevent you from</p>
+<p begin="00:09:28.140" end="00:09:31.800" style="s2">learning something new try the</p>
+<p begin="00:09:29.940" end="00:09:33.660" style="s2">Frameworks yourself and then make a</p>
+<p begin="00:09:31.800" end="00:09:35.700" style="s2">choice the free flutter for beginner</p>
+<p begin="00:09:33.660" end="00:09:38.279" style="s2">scores is 7 hours long and the react</p>
+<p begin="00:09:35.700" end="00:09:39.959" style="s2">native for beginners is 5 hours only you</p>
+<p begin="00:09:38.279" end="00:09:42.000" style="s2">can watch them on a weekend and see</p>
+<p begin="00:09:39.959" end="00:09:43.860" style="s2">which framework you like the most which</p>
+<p begin="00:09:42.000" end="00:09:46.019" style="s2">one had a better developer experience</p>
+<p begin="00:09:43.860" end="00:09:48.120" style="s2">which one was easier to install and so</p>
+<p begin="00:09:46.019" end="00:09:49.740" style="s2">on like I said the courses are free so</p>
+<p begin="00:09:48.120" end="00:09:51.420" style="s2">click the link below to sign up and I</p>
+<p begin="00:09:49.740" end="00:09:53.040" style="s2">will see you there that&#39;s it for this</p>
+<p begin="00:09:51.420" end="00:09:55.560" style="s2">video let me know in the comments if you</p>
+<p begin="00:09:53.040" end="00:09:57.120" style="s2">have tried flutter or react native what</p>
+<p begin="00:09:55.560" end="00:09:59.300" style="s2">are your thoughts thank you as always</p>
+<p begin="00:09:57.120" end="00:10:03.200" style="s2">for watching</p>
+<p begin="00:09:59.300" end="00:10:03.200" style="s2">see you on the next one bye</p>
+</div>
+</body>
+</tt>

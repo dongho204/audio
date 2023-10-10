@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:01.639" end="00:00:05.960" style="s2">in this video we are going to learn what</p>
+<p begin="00:00:04.140" end="00:00:09.360" style="s2">I think is one of the coolest design</p>
+<p begin="00:00:05.960" end="00:00:10.860" style="s2">patterns The Observer pattern once you</p>
+<p begin="00:00:09.360" end="00:00:12.960" style="s2">learn this pattern you are going to</p>
+<p begin="00:00:10.860" end="00:00:15.240" style="s2">notice it everywhere The Observer</p>
+<p begin="00:00:12.960" end="00:00:17.100" style="s2">pattern is from the behavioral category</p>
+<p begin="00:00:15.240" end="00:00:18.900" style="s2">if you don&#39;t know what that means check</p>
+<p begin="00:00:17.100" end="00:00:20.400" style="s2">the first video of this series where we</p>
+<p begin="00:00:18.900" end="00:00:22.380" style="s2">first introduce the concept of design</p>
+<p begin="00:00:20.400" end="00:00:24.480" style="s2">patterns and learn about their</p>
+<p begin="00:00:22.380" end="00:00:26.279" style="s2">categories The Observer pattern allows</p>
+<p begin="00:00:24.480" end="00:00:28.439" style="s2">us to observe to watch part of our</p>
+<p begin="00:00:26.279" end="00:00:30.779" style="s2">application and ensure that when one</p>
+<p begin="00:00:28.439" end="00:00:32.940" style="s2">part changes all the other parts that</p>
+<p begin="00:00:30.779" end="00:00:35.820" style="s2">depend on it can automatically update</p>
+<p begin="00:00:32.940" end="00:00:38.100" style="s2">themselves with the Observer pattern we</p>
+<p begin="00:00:35.820" end="00:00:40.200" style="s2">Define a subscription system where</p>
+<p begin="00:00:38.100" end="00:00:42.719" style="s2">various parts of our application can</p>
+<p begin="00:00:40.200" end="00:00:45.000" style="s2">subscribe to other parts just like how</p>
+<p begin="00:00:42.719" end="00:00:46.920" style="s2">you might subscribe to a newsletter when</p>
+<p begin="00:00:45.000" end="00:00:49.320" style="s2">something changes in the part you are</p>
+<p begin="00:00:46.920" end="00:00:51.360" style="s2">subscribed to the newsletter all</p>
+<p begin="00:00:49.320" end="00:00:53.340" style="s2">subscribers get notified about this</p>
+<p begin="00:00:51.360" end="00:00:55.860" style="s2">change automatically this way our</p>
+<p begin="00:00:53.340" end="00:00:58.199" style="s2">application components stay updated and</p>
+<p begin="00:00:55.860" end="00:01:00.360" style="s2">work together smoothly similar to how</p>
+<p begin="00:00:58.199" end="00:01:01.860" style="s2">your mailbox gets a new edition of of</p>
+<p begin="00:01:00.360" end="00:01:03.539" style="s2">the newsletter whenever there&#39;s</p>
+<p begin="00:01:01.860" end="00:01:05.880" style="s2">something new to share as we know the</p>
+<p begin="00:01:03.539" end="00:01:08.040" style="s2">category of Behavioral design patterns</p>
+<p begin="00:01:05.880" end="00:01:09.960" style="s2">is all about how elements communicate</p>
+<p begin="00:01:08.040" end="00:01:11.760" style="s2">with each other this is what this</p>
+<p begin="00:01:09.960" end="00:01:13.920" style="s2">pattern is for it&#39;s to share information</p>
+<p begin="00:01:11.760" end="00:01:16.320" style="s2">among different parts of an application</p>
+<p begin="00:01:13.920" end="00:01:18.180" style="s2">in an efficient and organized way the</p>
+<p begin="00:01:16.320" end="00:01:21.360" style="s2">Observer pattern has two ingredients</p>
+<p begin="00:01:18.180" end="00:01:24.060" style="s2">subjects and observers the subject is</p>
+<p begin="00:01:21.360" end="00:01:25.979" style="s2">the class we are interested on and The</p>
+<p begin="00:01:24.060" end="00:01:28.020" style="s2">Observers are the classes that are</p>
+<p begin="00:01:25.979" end="00:01:29.580" style="s2">watching the subject the cool thing</p>
+<p begin="00:01:28.020" end="00:01:31.920" style="s2">about this pattern is that many</p>
+<p begin="00:01:29.580" end="00:01:34.020" style="s2">different unrelated classes can be</p>
+<p begin="00:01:31.920" end="00:01:36.600" style="s2">observers let&#39;s imagine a music festival</p>
+<p begin="00:01:34.020" end="00:01:38.820" style="s2">in our Festival we have a band the</p>
+<p begin="00:01:36.600" end="00:01:41.759" style="s2">subject and we also have many observers</p>
+<p begin="00:01:38.820" end="00:01:43.979" style="s2">the fans the security the light and more</p>
+<p begin="00:01:41.759" end="00:01:46.380" style="s2">so we are going to first create an</p>
+<p begin="00:01:43.979" end="00:01:48.299" style="s2">interface that all observers no matter</p>
+<p begin="00:01:46.380" end="00:01:50.040" style="s2">how different they are are going to</p>
+<p begin="00:01:48.299" end="00:01:52.020" style="s2">implement for an element to become</p>
+<p begin="00:01:50.040" end="00:01:54.299" style="s2">Observer they need to have a method</p>
+<p begin="00:01:52.020" end="00:01:57.119" style="s2">called notify that will receive an event</p>
+<p begin="00:01:54.299" end="00:01:59.040" style="s2">argument of string type so all our</p>
+<p begin="00:01:57.119" end="00:02:00.600" style="s2">observers will implement it but they</p>
+<p begin="00:01:59.040" end="00:02:03.000" style="s2">will all behave in a deep different way</p>
+<p begin="00:02:00.600" end="00:02:05.880" style="s2">the fan will receive the event if the</p>
+<p begin="00:02:03.000" end="00:02:08.160" style="s2">event is start they will say yay if the</p>
+<p begin="00:02:05.880" end="00:02:10.380" style="s2">event is end they will say thanks bye</p>
+<p begin="00:02:08.160" end="00:02:12.480" style="s2">the security also received the event if</p>
+<p begin="00:02:10.380" end="00:02:14.459" style="s2">the event is a start they will close the</p>
+<p begin="00:02:12.480" end="00:02:16.620" style="s2">door when the event is end they will</p>
+<p begin="00:02:14.459" end="00:02:18.540" style="s2">open the door the light also received</p>
+<p begin="00:02:16.620" end="00:02:20.640" style="s2">the event they only care about the play</p>
+<p begin="00:02:18.540" end="00:02:22.800" style="s2">song event when they receive this event</p>
+<p begin="00:02:20.640" end="00:02:25.080" style="s2">they will shine as you can see they are</p>
+<p begin="00:02:22.800" end="00:02:28.200" style="s2">all different but they all implement the</p>
+<p begin="00:02:25.080" end="00:02:29.819" style="s2">same method in their own way so now that</p>
+<p begin="00:02:28.200" end="00:02:32.400" style="s2">we have The Observers let&#39;s implement</p>
+<p begin="00:02:29.819" end="00:02:34.140" style="s2">the band the subject just like anything</p>
+<p begin="00:02:32.400" end="00:02:35.700" style="s2">can be an observer as long as it</p>
+<p begin="00:02:34.140" end="00:02:37.739" style="s2">implements The Observer interface</p>
+<p begin="00:02:35.700" end="00:02:39.720" style="s2">anything can be a subject as long as it</p>
+<p begin="00:02:37.739" end="00:02:41.459" style="s2">implements the subject interface the</p>
+<p begin="00:02:39.720" end="00:02:44.040" style="s2">subject interface will need to have</p>
+<p begin="00:02:41.459" end="00:02:46.440" style="s2">three methods one to add an observer one</p>
+<p begin="00:02:44.040" end="00:02:49.379" style="s2">to remove an observer and another one to</p>
+<p begin="00:02:46.440" end="00:02:51.840" style="s2">notify The Observers of a change on the</p>
+<p begin="00:02:49.379" end="00:02:53.640" style="s2">implementation on the band class we are</p>
+<p begin="00:02:51.840" end="00:02:56.459" style="s2">going to keep the observers on an</p>
+<p begin="00:02:53.640" end="00:02:58.980" style="s2">observer array the add Observer method</p>
+<p begin="00:02:56.459" end="00:03:01.080" style="s2">will add an observer to the array the</p>
+<p begin="00:02:58.980" end="00:03:03.420" style="s2">remove of server method will remove the</p>
+<p begin="00:03:01.080" end="00:03:06.060" style="s2">Observer from the array and then notify</p>
+<p begin="00:03:03.420" end="00:03:09.060" style="s2">observers will go through the array and</p>
+<p begin="00:03:06.060" end="00:03:11.519" style="s2">call the notify method of each one of</p>
+<p begin="00:03:09.060" end="00:03:14.099" style="s2">The Observers remember all the observers</p>
+<p begin="00:03:11.519" end="00:03:16.440" style="s2">have a notified method here all we are</p>
+<p begin="00:03:14.099" end="00:03:19.140" style="s2">doing is calling that method with an</p>
+<p begin="00:03:16.440" end="00:03:21.120" style="s2">event then our band class will call its</p>
+<p begin="00:03:19.140" end="00:03:23.700" style="s2">methods when the concert starts we will</p>
+<p begin="00:03:21.120" end="00:03:26.040" style="s2">notify The Observers with the start</p>
+<p begin="00:03:23.700" end="00:03:29.220" style="s2">event and we will also notify The</p>
+<p begin="00:03:26.040" end="00:03:31.560" style="s2">Observers with Play song and end concert</p>
+<p begin="00:03:29.220" end="00:03:34.140" style="s2">recap all we are doing is creating</p>
+<p begin="00:03:31.560" end="00:03:36.659" style="s2">Observer classes these classes have a</p>
+<p begin="00:03:34.140" end="00:03:38.879" style="s2">notified method then we are creating a</p>
+<p begin="00:03:36.659" end="00:03:41.340" style="s2">subject class and we are giving all The</p>
+<p begin="00:03:38.879" end="00:03:43.500" style="s2">Observers to it the subject class will</p>
+<p begin="00:03:41.340" end="00:03:45.720" style="s2">then call the notify method of each one</p>
+<p begin="00:03:43.500" end="00:03:48.120" style="s2">of The Observers to run this code we</p>
+<p begin="00:03:45.720" end="00:03:50.760" style="s2">first create The Observers we initialize</p>
+<p begin="00:03:48.120" end="00:03:52.739" style="s2">the band and we add The Observers to the</p>
+<p begin="00:03:50.760" end="00:03:54.540" style="s2">band then when the concert starts when</p>
+<p begin="00:03:52.739" end="00:03:57.659" style="s2">the song is playing or when the concert</p>
+<p begin="00:03:54.540" end="00:03:59.760" style="s2">ends all our observers will get notified</p>
+<p begin="00:03:57.659" end="00:04:02.640" style="s2">how cool is this we now have a system</p>
+<p begin="00:03:59.760" end="00:04:05.159" style="s2">and wear a band and its fans security</p>
+<p begin="00:04:02.640" end="00:04:07.980" style="s2">and lights are all able to do their own</p>
+<p begin="00:04:05.159" end="00:04:09.659" style="s2">thing separately but they remain in sync</p>
+<p begin="00:04:07.980" end="00:04:11.700" style="s2">through the Subscribe and notify</p>
+<p begin="00:04:09.659" end="00:04:13.620" style="s2">mechanism that&#39;s why the Observer</p>
+<p begin="00:04:11.700" end="00:04:15.599" style="s2">pattern is so cool the parts of our</p>
+<p begin="00:04:13.620" end="00:04:17.699" style="s2">system can now share information in a</p>
+<p begin="00:04:15.599" end="00:04:19.799" style="s2">clean and flexible way maybe I&#39;m a nerd</p>
+<p begin="00:04:17.699" end="00:04:21.239" style="s2">but I find this so cool that&#39;s it for</p>
+<p begin="00:04:19.799" end="00:04:22.740" style="s2">this video if you found it helpful</p>
+<p begin="00:04:21.239" end="00:04:24.780" style="s2">please click the like And subscribe</p>
+<p begin="00:04:22.740" end="00:04:26.400" style="s2">button this is the third video I make on</p>
+<p begin="00:04:24.780" end="00:04:27.840" style="s2">design pattern if you would like me to</p>
+<p begin="00:04:26.400" end="00:04:29.940" style="s2">keep going then write it down on the</p>
+<p begin="00:04:27.840" end="00:04:31.259" style="s2">comments below or maybe we can change</p>
+<p begin="00:04:29.940" end="00:04:33.120" style="s2">topics and talk about the data</p>
+<p begin="00:04:31.259" end="00:04:34.919" style="s2">structures and algorithms for a bit you</p>
+<p begin="00:04:33.120" end="00:04:36.000" style="s2">tell me write your opinion down in the</p>
+<p begin="00:04:34.919" end="00:04:37.979" style="s2">comments I&#39;m gonna be looking at them</p>
+<p begin="00:04:36.000" end="00:04:39.300" style="s2">right now if you like the way I explain</p>
+<p begin="00:04:37.979" end="00:04:41.460" style="s2">things and you would like to learn</p>
+<p begin="00:04:39.300" end="00:04:44.100" style="s2">things like JavaScript python react</p>
+<p begin="00:04:41.460" end="00:04:47.460" style="s2">react native gold Dart flutter among</p>
+<p begin="00:04:44.100" end="00:04:49.080" style="s2">many many others for absolutely free all</p>
+<p begin="00:04:47.460" end="00:04:51.419" style="s2">you have to do is click the link below</p>
+<p begin="00:04:49.080" end="00:04:52.919" style="s2">to join any of our many free courses</p>
+<p begin="00:04:51.419" end="00:04:55.259" style="s2">that you can take right now for</p>
+<p begin="00:04:52.919" end="00:04:56.699" style="s2">absolutely free with me click the link</p>
+<p begin="00:04:55.259" end="00:04:59.759" style="s2">below and I will see you there anjana</p>
+<p begin="00:04:56.699" end="00:05:02.240" style="s2">comes see you on the next one</p>
+<p begin="00:04:59.759" end="00:05:02.240" style="s2">bye</p>
+</div>
+</body>
+</tt>

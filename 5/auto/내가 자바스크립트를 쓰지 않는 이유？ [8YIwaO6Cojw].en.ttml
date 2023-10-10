@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:04.080" end="00:00:08.000" style="s2">i want to share with you the reason why</p>
+<p begin="00:00:05.520" end="00:00:10.240" style="s2">i don&#39;t use javascript anymore and i</p>
+<p begin="00:00:08.000" end="00:00:11.080" style="s2">haven&#39;t used it for any real project</p>
+<p begin="00:00:10.240" end="00:00:14.400" style="s2">since</p>
+<p begin="00:00:11.080" end="00:00:16.720" style="s2">2017. i love javascript because of how</p>
+<p begin="00:00:14.400" end="00:00:18.960" style="s2">powerful it is and how powerful it makes</p>
+<p begin="00:00:16.720" end="00:00:21.359" style="s2">it developers not powerful in the sense</p>
+<p begin="00:00:18.960" end="00:00:23.760" style="s2">of speed i mean powerful in the sense of</p>
+<p begin="00:00:21.359" end="00:00:25.840" style="s2">how many things you can do with it with</p>
+<p begin="00:00:23.760" end="00:00:28.000" style="s2">javascript we can make websites we can</p>
+<p begin="00:00:25.840" end="00:00:30.560" style="s2">make mobile applications we can make</p>
+<p begin="00:00:28.000" end="00:00:33.040" style="s2">back-ends with node.js we can even make</p>
+<p begin="00:00:30.560" end="00:00:35.040" style="s2">video games among multiple other things</p>
+<p begin="00:00:33.040" end="00:00:37.520" style="s2">now the reason why javascript got so</p>
+<p begin="00:00:35.040" end="00:00:39.840" style="s2">popular is because of the web if we want</p>
+<p begin="00:00:37.520" end="00:00:41.680" style="s2">to program a website the only language</p>
+<p begin="00:00:39.840" end="00:00:44.719" style="s2">we can use is javascript there is</p>
+<p begin="00:00:41.680" end="00:00:46.480" style="s2">literally no other choice on the backend</p>
+<p begin="00:00:44.719" end="00:00:48.160" style="s2">in contrast there are many choices of</p>
+<p begin="00:00:46.480" end="00:00:51.199" style="s2">languages you can choose you can make</p>
+<p begin="00:00:48.160" end="00:00:54.320" style="s2">your backend in java or csharp or python</p>
+<p begin="00:00:51.199" end="00:00:57.440" style="s2">or rust or go among many many others in</p>
+<p begin="00:00:54.320" end="00:00:58.399" style="s2">the front end there is only one language</p>
+<p begin="00:00:57.440" end="00:01:00.320" style="s2">to choose</p>
+<p begin="00:00:58.399" end="00:01:02.960" style="s2">there&#39;s no choice it&#39;s like the only one</p>
+<p begin="00:01:00.320" end="00:01:05.600" style="s2">so we are forced to use it and since the</p>
+<p begin="00:01:02.960" end="00:01:08.320" style="s2">web absolutely exploded and browsers</p>
+<p begin="00:01:05.600" end="00:01:10.960" style="s2">became really powerful even in our own</p>
+<p begin="00:01:08.320" end="00:01:13.520" style="s2">pockets in our smartphones javascript</p>
+<p begin="00:01:10.960" end="00:01:16.080" style="s2">became the language you had to learn if</p>
+<p begin="00:01:13.520" end="00:01:18.320" style="s2">you wanted to be on the web but even</p>
+<p begin="00:01:16.080" end="00:01:20.560" style="s2">though we are grateful for javascript we</p>
+<p begin="00:01:18.320" end="00:01:22.640" style="s2">can also say that after working with it</p>
+<p begin="00:01:20.560" end="00:01:25.600" style="s2">for a couple of years you start to</p>
+<p begin="00:01:22.640" end="00:01:28.640" style="s2">notice that javascript has some weird</p>
+<p begin="00:01:25.600" end="00:01:31.680" style="s2">features some crazy ideas and sometimes</p>
+<p begin="00:01:28.640" end="00:01:34.000" style="s2">really bad design flaws the book</p>
+<p begin="00:01:31.680" end="00:01:35.680" style="s2">javascript the good parts says that all</p>
+<p begin="00:01:34.000" end="00:01:37.840" style="s2">programming languages have their fair</p>
+<p begin="00:01:35.680" end="00:01:41.439" style="s2">share of good and bad parts but</p>
+<p begin="00:01:37.840" end="00:01:44.479" style="s2">javascript especially has mostly bad or</p>
+<p begin="00:01:41.439" end="00:01:46.240" style="s2">even awful parts this could be because</p>
+<p begin="00:01:44.479" end="00:01:48.560" style="s2">as the book says javascript is a</p>
+<p begin="00:01:46.240" end="00:01:51.520" style="s2">language that was developed and released</p>
+<p begin="00:01:48.560" end="00:01:53.600" style="s2">in a hurry before it could be refined</p>
+<p begin="00:01:51.520" end="00:01:56.479" style="s2">that part is factually correct</p>
+<p begin="00:01:53.600" end="00:01:59.520" style="s2">javascript was actually created in only</p>
+<p begin="00:01:56.479" end="00:02:03.439" style="s2">10 days it was created by brendan ike</p>
+<p begin="00:01:59.520" end="00:02:05.439" style="s2">for the netscape navigator back in 1995.</p>
+<p begin="00:02:03.439" end="00:02:07.920" style="s2">when it was invented it was expected to</p>
+<p begin="00:02:05.439" end="00:02:10.720" style="s2">be used for short pieces of code it was</p>
+<p begin="00:02:07.920" end="00:02:13.200" style="s2">designed for quick uses but it grew to a</p>
+<p begin="00:02:10.720" end="00:02:16.000" style="s2">language that billion dollar companies</p>
+<p begin="00:02:13.200" end="00:02:18.800" style="s2">depend on i don&#39;t think the creator of</p>
+<p begin="00:02:16.000" end="00:02:21.280" style="s2">javascript could have imagined how big</p>
+<p begin="00:02:18.800" end="00:02:24.000" style="s2">and powerful and popular javascript</p>
+<p begin="00:02:21.280" end="00:02:25.680" style="s2">would become maybe if he knew what was</p>
+<p begin="00:02:24.000" end="00:02:27.920" style="s2">going to happen he would have spent more</p>
+<p begin="00:02:25.680" end="00:02:30.640" style="s2">time designing the language and maybe</p>
+<p begin="00:02:27.920" end="00:02:32.400" style="s2">removing or adding a couple of features</p>
+<p begin="00:02:30.640" end="00:02:35.120" style="s2">the thing with javascript is that even</p>
+<p begin="00:02:32.400" end="00:02:37.280" style="s2">if we now know what are the bad parts of</p>
+<p begin="00:02:35.120" end="00:02:40.239" style="s2">javascript we cannot just remove them</p>
+<p begin="00:02:37.280" end="00:02:43.519" style="s2">from the language javascript is on every</p>
+<p begin="00:02:40.239" end="00:02:46.239" style="s2">browser of the world it&#39;s been used by</p>
+<p begin="00:02:43.519" end="00:02:48.239" style="s2">millions and millions of websites if</p>
+<p begin="00:02:46.239" end="00:02:51.360" style="s2">something is removed from the language</p>
+<p begin="00:02:48.239" end="00:02:53.360" style="s2">it could break a lot of websites this is</p>
+<p begin="00:02:51.360" end="00:02:55.040" style="s2">why all they do now is to update</p>
+<p begin="00:02:53.360" end="00:02:57.200" style="s2">javascript they want to make javascript</p>
+<p begin="00:02:55.040" end="00:02:59.680" style="s2">better but they can only add new</p>
+<p begin="00:02:57.200" end="00:03:01.599" style="s2">features one on top of another so let me</p>
+<p begin="00:02:59.680" end="00:03:04.319" style="s2">show you a couple of examples on what i</p>
+<p begin="00:03:01.599" end="00:03:07.360" style="s2">mean when i say javascript is weird by</p>
+<p begin="00:03:04.319" end="00:03:10.800" style="s2">weird i mean unpredictable i mean not</p>
+<p begin="00:03:07.360" end="00:03:13.440" style="s2">intuitive and i mean way too permissive</p>
+<p begin="00:03:10.800" end="00:03:15.440" style="s2">javascript gives us too much freedom</p>
+<p begin="00:03:13.440" end="00:03:17.920" style="s2">let&#39;s take a look at this code for</p>
+<p begin="00:03:15.440" end="00:03:20.720" style="s2">example in javascript it is perfectly</p>
+<p begin="00:03:17.920" end="00:03:23.040" style="s2">legal and possible to take a number and</p>
+<p begin="00:03:20.720" end="00:03:26.159" style="s2">add it to a boolean even though the</p>
+<p begin="00:03:23.040" end="00:03:28.400" style="s2">operation makes no sense most languages</p>
+<p begin="00:03:26.159" end="00:03:30.879" style="s2">don&#39;t allow you to do this they will</p>
+<p begin="00:03:28.400" end="00:03:34.080" style="s2">stop you and tell you that you can&#39;t do</p>
+<p begin="00:03:30.879" end="00:03:36.319" style="s2">one plus true but javascript does not</p>
+<p begin="00:03:34.080" end="00:03:38.720" style="s2">show us an error instead it tries to</p>
+<p begin="00:03:36.319" end="00:03:41.360" style="s2">make that operation happen javascript</p>
+<p begin="00:03:38.720" end="00:03:44.080" style="s2">will take the true and it will turn it</p>
+<p begin="00:03:41.360" end="00:03:46.560" style="s2">into true in binary which is one</p>
+<p begin="00:03:44.080" end="00:03:49.440" style="s2">this is how we get the two as a result</p>
+<p begin="00:03:46.560" end="00:03:51.760" style="s2">of one plus true now it&#39;s very nice of</p>
+<p begin="00:03:49.440" end="00:03:53.760" style="s2">javascript to try to run the code even</p>
+<p begin="00:03:51.760" end="00:03:55.840" style="s2">if we are doing something done but the</p>
+<p begin="00:03:53.760" end="00:03:57.599" style="s2">problem is that most of the time when</p>
+<p begin="00:03:55.840" end="00:04:00.000" style="s2">that happens in your code if you are</p>
+<p begin="00:03:57.599" end="00:04:02.480" style="s2">doing one plus true in your code is</p>
+<p begin="00:04:00.000" end="00:04:04.560" style="s2">because something went wrong and it</p>
+<p begin="00:04:02.480" end="00:04:06.720" style="s2">would be better if javascript told you</p>
+<p begin="00:04:04.560" end="00:04:09.760" style="s2">that what you&#39;re doing logically makes</p>
+<p begin="00:04:06.720" end="00:04:12.959" style="s2">no sense instead of just trying to run</p>
+<p begin="00:04:09.760" end="00:04:14.799" style="s2">the code and this is just a tiny example</p>
+<p begin="00:04:12.959" end="00:04:16.880" style="s2">javascript is full of these sort of</p>
+<p begin="00:04:14.799" end="00:04:18.799" style="s2">query key things the biggest problem</p>
+<p begin="00:04:16.880" end="00:04:21.280" style="s2">with javascript in my opinion is that it</p>
+<p begin="00:04:18.799" end="00:04:24.080" style="s2">doesn&#39;t protect developers from our own</p>
+<p begin="00:04:21.280" end="00:04:26.840" style="s2">stupidity if we have this function that</p>
+<p begin="00:04:24.080" end="00:04:29.199" style="s2">takes two numbers and return their</p>
+<p begin="00:04:26.840" end="00:04:31.680" style="s2">multiplication when we use it all we</p>
+<p begin="00:04:29.199" end="00:04:33.919" style="s2">have to do is this the problem with</p>
+<p begin="00:04:31.680" end="00:04:35.440" style="s2">javascript is that it will also allow us</p>
+<p begin="00:04:33.919" end="00:04:37.759" style="s2">to do this</p>
+<p begin="00:04:35.440" end="00:04:38.960" style="s2">which is calling multiply without any</p>
+<p begin="00:04:37.759" end="00:04:42.080" style="s2">parameters</p>
+<p begin="00:04:38.960" end="00:04:42.960" style="s2">or also it is going to allow us to do</p>
+<p begin="00:04:42.080" end="00:04:45.680" style="s2">this</p>
+<p begin="00:04:42.960" end="00:04:48.720" style="s2">which is calling multiply with what is</p>
+<p begin="00:04:45.680" end="00:04:50.880" style="s2">for our function the wrong type now most</p>
+<p begin="00:04:48.720" end="00:04:53.120" style="s2">programming languages will not allow us</p>
+<p begin="00:04:50.880" end="00:04:55.120" style="s2">to do this at least they will tell us</p>
+<p begin="00:04:53.120" end="00:04:57.919" style="s2">that we have to call multiply function</p>
+<p begin="00:04:55.120" end="00:05:00.160" style="s2">with the right number of parameters if</p>
+<p begin="00:04:57.919" end="00:05:02.240" style="s2">we do something like this which is using</p>
+<p begin="00:05:00.160" end="00:05:04.320" style="s2">multiply with the wrong type and the</p>
+<p begin="00:05:02.240" end="00:05:06.560" style="s2">wrong number of parameters javascript</p>
+<p begin="00:05:04.320" end="00:05:09.680" style="s2">will still try to run the code in what</p>
+<p begin="00:05:06.560" end="00:05:11.440" style="s2">might result in a runtime error runtime</p>
+<p begin="00:05:09.680" end="00:05:13.360" style="s2">errors are the worst kind of errors</p>
+<p begin="00:05:11.440" end="00:05:15.680" style="s2">because they happen when your code is</p>
+<p begin="00:05:13.360" end="00:05:18.320" style="s2">already running in production they</p>
+<p begin="00:05:15.680" end="00:05:20.160" style="s2">happen when your users are using your</p>
+<p begin="00:05:18.320" end="00:05:22.479" style="s2">product they are the errors that you</p>
+<p begin="00:05:20.160" end="00:05:24.320" style="s2">hear from someone else usually your boss</p>
+<p begin="00:05:22.479" end="00:05:25.919" style="s2">or your team member and when you hear</p>
+<p begin="00:05:24.320" end="00:05:28.560" style="s2">about them it&#39;s too late because the</p>
+<p begin="00:05:25.919" end="00:05:30.400" style="s2">error already happened ideally we would</p>
+<p begin="00:05:28.560" end="00:05:32.800" style="s2">like to catch these errors before we</p>
+<p begin="00:05:30.400" end="00:05:35.600" style="s2">publish our code like for example if i</p>
+<p begin="00:05:32.800" end="00:05:37.120" style="s2">am trying to use multiply like this</p>
+<p begin="00:05:35.600" end="00:05:39.759" style="s2">which we know is going to give me</p>
+<p begin="00:05:37.120" end="00:05:42.320" style="s2">something i don&#39;t expect i would like</p>
+<p begin="00:05:39.759" end="00:05:45.120" style="s2">the language that i&#39;m using to tell me</p>
+<p begin="00:05:42.320" end="00:05:47.280" style="s2">hey that&#39;s stupid what are you doing</p>
+<p begin="00:05:45.120" end="00:05:49.520" style="s2">check yourself and try again i would</p>
+<p begin="00:05:47.280" end="00:05:52.160" style="s2">like the language to tell me this to</p>
+<p begin="00:05:49.520" end="00:05:54.400" style="s2">show me that i&#39;m doing something that is</p>
+<p begin="00:05:52.160" end="00:05:56.000" style="s2">wrong but javascript won&#39;t tell me this</p>
+<p begin="00:05:54.400" end="00:05:58.639" style="s2">and the reason why is because javascript</p>
+<p begin="00:05:56.000" end="00:06:02.080" style="s2">in our multiply function does not know</p>
+<p begin="00:05:58.639" end="00:06:03.039" style="s2">what the a and b parameters are supposed</p>
+<p begin="00:06:02.080" end="00:06:05.840" style="s2">to be</p>
+<p begin="00:06:03.039" end="00:06:08.639" style="s2">nowhere in this code we communicated to</p>
+<p begin="00:06:05.840" end="00:06:10.720" style="s2">javascript that a and b should only be</p>
+<p begin="00:06:08.639" end="00:06:13.120" style="s2">numbers now many of these problems will</p>
+<p begin="00:06:10.720" end="00:06:16.080" style="s2">be solved if we had a syntax to be able</p>
+<p begin="00:06:13.120" end="00:06:19.520" style="s2">to tell the javascript that a and b</p>
+<p begin="00:06:16.080" end="00:06:21.919" style="s2">should be a number and nothing else and</p>
+<p begin="00:06:19.520" end="00:06:23.759" style="s2">this is when typescript comes in</p>
+<p begin="00:06:21.919" end="00:06:27.120" style="s2">typescript is a programming language</p>
+<p begin="00:06:23.759" end="00:06:29.840" style="s2">that looks almost like javascript but it</p>
+<p begin="00:06:27.120" end="00:06:32.720" style="s2">has the syntax required to be able to</p>
+<p begin="00:06:29.840" end="00:06:35.199" style="s2">explain in advance what the types of</p>
+<p begin="00:06:32.720" end="00:06:37.919" style="s2">things are if we use typescript our</p>
+<p begin="00:06:35.199" end="00:06:39.919" style="s2">multiply function will look like this as</p>
+<p begin="00:06:37.919" end="00:06:42.800" style="s2">you can see the code didn&#39;t change so</p>
+<p begin="00:06:39.919" end="00:06:44.880" style="s2">much just a couple of extra things just</p>
+<p begin="00:06:42.800" end="00:06:48.240" style="s2">by doing that typescript will know that</p>
+<p begin="00:06:44.880" end="00:06:51.039" style="s2">a and b should be numbers so if we try</p>
+<p begin="00:06:48.240" end="00:06:53.039" style="s2">to do something like this we will see a</p>
+<p begin="00:06:51.039" end="00:06:55.280" style="s2">big error telling us that we are doing</p>
+<p begin="00:06:53.039" end="00:06:57.520" style="s2">something that we are not supposed to do</p>
+<p begin="00:06:55.280" end="00:07:00.479" style="s2">also typescript unlike javascript will</p>
+<p begin="00:06:57.520" end="00:07:03.360" style="s2">not return the number 2 if we try to do</p>
+<p begin="00:07:00.479" end="00:07:05.199" style="s2">1 plus true instead it will tell us that</p>
+<p begin="00:07:03.360" end="00:07:07.759" style="s2">this operation does not make sense and</p>
+<p begin="00:07:05.199" end="00:07:11.360" style="s2">it will show us an error so typescript</p>
+<p begin="00:07:07.759" end="00:07:14.240" style="s2">helps us against our own stupidity which</p>
+<p begin="00:07:11.360" end="00:07:16.080" style="s2">means that we can prevent runtime errors</p>
+<p begin="00:07:14.240" end="00:07:18.319" style="s2">from happening because the browsers</p>
+<p begin="00:07:16.080" end="00:07:20.479" style="s2">don&#39;t understand typescript after we</p>
+<p begin="00:07:18.319" end="00:07:21.919" style="s2">finish our typescript project and we</p>
+<p begin="00:07:20.479" end="00:07:24.240" style="s2">check that there are no errors and no</p>
+<p begin="00:07:21.919" end="00:07:26.960" style="s2">mistakes the typescript compiler will</p>
+<p begin="00:07:24.240" end="00:07:28.960" style="s2">compile the code to normal javascript</p>
+<p begin="00:07:26.960" end="00:07:30.960" style="s2">this way we can give javascript code to</p>
+<p begin="00:07:28.960" end="00:07:32.960" style="s2">the browser but we can be sure that in</p>
+<p begin="00:07:30.960" end="00:07:35.840" style="s2">that javascript code we are not doing</p>
+<p begin="00:07:32.960" end="00:07:38.319" style="s2">anything dumb that might make unexpected</p>
+<p begin="00:07:35.840" end="00:07:40.160" style="s2">box to happen so this is why i don&#39;t use</p>
+<p begin="00:07:38.319" end="00:07:42.400" style="s2">javascript anymore and i haven&#39;t for</p>
+<p begin="00:07:40.160" end="00:07:45.039" style="s2">quite some time migrating from</p>
+<p begin="00:07:42.400" end="00:07:46.879" style="s2">javascript to typescript is incredibly</p>
+<p begin="00:07:45.039" end="00:07:49.360" style="s2">simple and since i discovered typescript</p>
+<p begin="00:07:46.879" end="00:07:51.440" style="s2">i haven&#39;t looked back thanks to</p>
+<p begin="00:07:49.360" end="00:07:53.759" style="s2">typescript i am more productive now when</p>
+<p begin="00:07:51.440" end="00:07:56.720" style="s2">i write new code and build new projects</p>
+<p begin="00:07:53.759" end="00:07:58.400" style="s2">because i make less mistakes and also i</p>
+<p begin="00:07:56.720" end="00:08:01.120" style="s2">am more confident when i have to</p>
+<p begin="00:07:58.400" end="00:08:03.199" style="s2">refactor or i have to add a new feature</p>
+<p begin="00:08:01.120" end="00:08:05.919" style="s2">to an older project that is built with</p>
+<p begin="00:08:03.199" end="00:08:07.759" style="s2">typescript i feel safe because i know</p>
+<p begin="00:08:05.919" end="00:08:10.560" style="s2">typescript is going to protect me</p>
+<p begin="00:08:07.759" end="00:08:13.840" style="s2">against myself so if you are any kind of</p>
+<p begin="00:08:10.560" end="00:08:16.000" style="s2">developer i invite you to try typescript</p>
+<p begin="00:08:13.840" end="00:08:18.960" style="s2">today i invite you to learn typescript</p>
+<p begin="00:08:16.000" end="00:08:21.599" style="s2">and i invite you to do so for free with</p>
+<p begin="00:08:18.960" end="00:08:24.960" style="s2">me we just finished recording uploading</p>
+<p begin="00:08:21.599" end="00:08:27.520" style="s2">and subtitling in hangul a four hour</p>
+<p begin="00:08:24.960" end="00:08:29.520" style="s2">free tab script course in that course</p>
+<p begin="00:08:27.520" end="00:08:30.560" style="s2">we&#39;re going to go over the beauty that</p>
+<p begin="00:08:29.520" end="00:08:32.159" style="s2">is typescript they&#39;re going to</p>
+<p begin="00:08:30.560" end="00:08:33.839" style="s2">understand the benefits of typescript</p>
+<p begin="00:08:32.159" end="00:08:36.159" style="s2">i&#39;m going to show you how typescript</p>
+<p begin="00:08:33.839" end="00:08:38.560" style="s2">allows us to do things like polymorphism</p>
+<p begin="00:08:36.159" end="00:08:39.919" style="s2">both in functional and object oriented</p>
+<p begin="00:08:38.560" end="00:08:42.000" style="s2">programming and we&#39;re also going to</p>
+<p begin="00:08:39.919" end="00:08:44.399" style="s2">learn how to migrate a javascript</p>
+<p begin="00:08:42.000" end="00:08:47.120" style="s2">project into a typescript project as</p>
+<p begin="00:08:44.399" end="00:08:49.279" style="s2">well so please click the link below all</p>
+<p begin="00:08:47.120" end="00:08:52.560" style="s2">you have to be is a developer if you</p>
+<p begin="00:08:49.279" end="00:08:54.640" style="s2">know java c sharp javascript python this</p>
+<p begin="00:08:52.560" end="00:08:56.399" style="s2">course is absolutely for you and if you</p>
+<p begin="00:08:54.640" end="00:08:58.160" style="s2">are not a developer yet but you want to</p>
+<p begin="00:08:56.399" end="00:09:00.240" style="s2">be i wouldn&#39;t recommend you starting</p>
+<p begin="00:08:58.160" end="00:09:02.399" style="s2">with typescript actually i will start</p>
+<p begin="00:09:00.240" end="00:09:04.560" style="s2">with javascript because i think newbie</p>
+<p begin="00:09:02.399" end="00:09:07.200" style="s2">developers have to suffer what we have</p>
+<p begin="00:09:04.560" end="00:09:09.360" style="s2">suffered so they appreciate typescript</p>
+<p begin="00:09:07.200" end="00:09:11.360" style="s2">later if you want to learn javascript</p>
+<p begin="00:09:09.360" end="00:09:13.040" style="s2">then also please click the link below</p>
+<p begin="00:09:11.360" end="00:09:15.360" style="s2">and there you will find a free</p>
+<p begin="00:09:13.040" end="00:09:17.120" style="s2">javascript course for you as well thank</p>
+<p begin="00:09:15.360" end="00:09:18.880" style="s2">you so much for watching let me know in</p>
+<p begin="00:09:17.120" end="00:09:20.959" style="s2">the comments what do you think about</p>
+<p begin="00:09:18.880" end="00:09:22.640" style="s2">typescript have you used it have you</p>
+<p begin="00:09:20.959" end="00:09:24.640" style="s2">stopped using it did you go back to</p>
+<p begin="00:09:22.640" end="00:09:26.640" style="s2">javascript after or you stayed in</p>
+<p begin="00:09:24.640" end="00:09:27.600" style="s2">typescript forever like i did let me</p>
+<p begin="00:09:26.640" end="00:09:28.959" style="s2">know in the comments i&#39;m going to be</p>
+<p begin="00:09:27.600" end="00:09:31.120" style="s2">reading them right now thank you for</p>
+<p begin="00:09:28.959" end="00:09:32.880" style="s2">watching stay happy stay free eat kimchi</p>
+<p begin="00:09:31.120" end="00:09:36.360" style="s2">kamzamida salaam heyo see you on the</p>
+<p begin="00:09:32.880" end="00:09:36.360" style="s2">next one bye</p>
+<p begin="00:09:38.160" end="00:09:40.240" style="s2">you</p>
+</div>
+</body>
+</tt>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.030" end="00:00:06.660" style="s2">hello everybody on this video I&#39;m going</p>
+<p begin="00:00:03.000" end="00:00:09.690" style="s2">to talk about the two best things that</p>
+<p begin="00:00:06.660" end="00:00:12.840" style="s2">any junior developer can do to improve</p>
+<p begin="00:00:09.690" end="00:00:14.910" style="s2">their learning experience their process</p>
+<p begin="00:00:12.840" end="00:00:18.840" style="s2">and their career as a whole</p>
+<p begin="00:00:14.910" end="00:00:21.359" style="s2">first thing not only focus on the</p>
+<p begin="00:00:18.840" end="00:00:24.900" style="s2">technology by this I mean if you just</p>
+<p begin="00:00:21.359" end="00:00:26.939" style="s2">started learning web development let&#39;s</p>
+<p begin="00:00:24.900" end="00:00:29.310" style="s2">say you&#39;re gonna start with HTML then</p>
+<p begin="00:00:26.939" end="00:00:31.260" style="s2">you&#39;re gonna move on to CSS right now</p>
+<p begin="00:00:29.310" end="00:00:33.300" style="s2">don&#39;t only focus there and like I need</p>
+<p begin="00:00:31.260" end="00:00:36.870" style="s2">to dominate CSS and I&#39;m gonna look</p>
+<p begin="00:00:33.300" end="00:00:39.450" style="s2">anywhere else learn CSS style CSS but</p>
+<p begin="00:00:36.870" end="00:00:42.149" style="s2">also start looking into the whole</p>
+<p begin="00:00:39.450" end="00:00:44.160" style="s2">landscape of web development maybe</p>
+<p begin="00:00:42.149" end="00:00:46.379" style="s2">Google some words maybe ask friends and</p>
+<p begin="00:00:44.160" end="00:00:48.360" style="s2">we look into forums maybe just be</p>
+<p begin="00:00:46.379" end="00:00:50.370" style="s2">curious about how the whole landscape</p>
+<p begin="00:00:48.360" end="00:00:51.210" style="s2">looks maybe like like for example you</p>
+<p begin="00:00:50.370" end="00:00:53.250" style="s2">will look at Instagram</p>
+<p begin="00:00:51.210" end="00:00:54.750" style="s2">how is histogram made so you&#39;re going to</p>
+<p begin="00:00:53.250" end="00:00:56.730" style="s2">Google that and you&#39;ll see the jungle</p>
+<p begin="00:00:54.750" end="00:00:58.289" style="s2">you&#39;re like all right so what&#39;s jungle</p>
+<p begin="00:00:56.730" end="00:01:00.270" style="s2">and then you look oh it&#39;s a Python thing</p>
+<p begin="00:00:58.289" end="00:01:03.120" style="s2">Python what&#39;s Python oh it&#39;s a language</p>
+<p begin="00:01:00.270" end="00:01:05.369" style="s2">cool I&#39;m not saying go and learn Python</p>
+<p begin="00:01:03.120" end="00:01:08.909" style="s2">and go and learn Django but at least</p>
+<p begin="00:01:05.369" end="00:01:11.970" style="s2">learn the landscape of what you just go</p>
+<p begin="00:01:08.909" end="00:01:14.670" style="s2">into the only focus on CSS learn stuff</p>
+<p begin="00:01:11.970" end="00:01:17.189" style="s2">learn the outside parts like all the</p>
+<p begin="00:01:14.670" end="00:01:20.759" style="s2">landscape alright so these will also</p>
+<p begin="00:01:17.189" end="00:01:22.860" style="s2">help you because then when you know HTML</p>
+<p begin="00:01:20.759" end="00:01:24.810" style="s2">CSS you might be thinking like actually</p>
+<p begin="00:01:22.860" end="00:01:27.240" style="s2">I don&#39;t I didn&#39;t really like this part</p>
+<p begin="00:01:24.810" end="00:01:29.579" style="s2">of doing design but I read about the</p>
+<p begin="00:01:27.240" end="00:01:31.200" style="s2">Instagram being built in Jungle so you</p>
+<p begin="00:01:29.579" end="00:01:33.360" style="s2">know what let me go and get jungle</p>
+<p begin="00:01:31.200" end="00:01:36.180" style="s2">because now I know what a back-end is so</p>
+<p begin="00:01:33.360" end="00:01:38.520" style="s2">let&#39;s go and learn back it if you didn&#39;t</p>
+<p begin="00:01:36.180" end="00:01:39.869" style="s2">Google and do all the stuff that we said</p>
+<p begin="00:01:38.520" end="00:01:41.159" style="s2">before you wouldn&#39;t know where to go</p>
+<p begin="00:01:39.869" end="00:01:42.450" style="s2">next and you will just follow this group</p>
+<p begin="00:01:41.159" end="00:01:44.610" style="s2">that everybody tells you that even I</p>
+<p begin="00:01:42.450" end="00:01:46.290" style="s2">tell you if you know the landscape you</p>
+<p begin="00:01:44.610" end="00:01:47.460" style="s2">will be able to play to your strengths</p>
+<p begin="00:01:46.290" end="00:01:51.630" style="s2">and you will be able to say you know</p>
+<p begin="00:01:47.460" end="00:01:55.439" style="s2">what I don&#39;t know what nodejs is but I</p>
+<p begin="00:01:51.630" end="00:01:58.860" style="s2">heard it&#39;s good for real-time because</p>
+<p begin="00:01:55.439" end="00:02:01.079" style="s2">Google over runs on know this so I want</p>
+<p begin="00:01:58.860" end="00:02:03.930" style="s2">to build a real-time game maybe I should</p>
+<p begin="00:02:01.079" end="00:02:06.390" style="s2">start there probably these knowing the</p>
+<p begin="00:02:03.930" end="00:02:08.580" style="s2">landscape will help you a lot a lot a</p>
+<p begin="00:02:06.390" end="00:02:10.679" style="s2">lot a lot because it will make you more</p>
+<p begin="00:02:08.580" end="00:02:12.480" style="s2">knowledgeable of the area where you are</p>
+<p begin="00:02:10.679" end="00:02:14.400" style="s2">again you will still be</p>
+<p begin="00:02:12.480" end="00:02:17.400" style="s2">in CSS and you will start them all and</p>
+<p begin="00:02:14.400" end="00:02:19.680" style="s2">you will move on slowly but knowing the</p>
+<p begin="00:02:17.400" end="00:02:22.260" style="s2">landscape and alone knowing what you got</p>
+<p begin="00:02:19.680" end="00:02:24.330" style="s2">yourself into is very good and this will</p>
+<p begin="00:02:22.260" end="00:02:26.670" style="s2">help you on the next thing I will</p>
+<p begin="00:02:24.330" end="00:02:30.120" style="s2">recommend the taken thing is that you</p>
+<p begin="00:02:26.670" end="00:02:33.420" style="s2">need to go and work for free work for</p>
+<p begin="00:02:30.120" end="00:02:35.129" style="s2">free I know many people would say you</p>
+<p begin="00:02:33.420" end="00:02:36.750" style="s2">should never work for free if you&#39;re</p>
+<p begin="00:02:35.129" end="00:02:39.120" style="s2">good at something never do it for free</p>
+<p begin="00:02:36.750" end="00:02:39.569" style="s2">people don&#39;t appreciate free stuff the</p>
+<p begin="00:02:39.120" end="00:02:41.819" style="s2">blahblah</p>
+<p begin="00:02:39.569" end="00:02:44.129" style="s2">here if you&#39;re just a junior developer</p>
+<p begin="00:02:41.819" end="00:02:45.480" style="s2">and you have no portfolio whatsoever and</p>
+<p begin="00:02:44.129" end="00:02:46.680" style="s2">you&#39;re gonna go out there and look for a</p>
+<p begin="00:02:45.480" end="00:02:48.810" style="s2">job and you&#39;re gonna go out there and</p>
+<p begin="00:02:46.680" end="00:02:50.670" style="s2">look for a client it&#39;s gonna be harder</p>
+<p begin="00:02:48.810" end="00:02:52.769" style="s2">then if you had a portfolio and then if</p>
+<p begin="00:02:50.670" end="00:02:54.209" style="s2">you had some experience so the best</p>
+<p begin="00:02:52.769" end="00:02:56.250" style="s2">thing you could do for your career will</p>
+<p begin="00:02:54.209" end="00:02:58.799" style="s2">be to start working for free do stuff</p>
+<p begin="00:02:56.250" end="00:03:01.590" style="s2">for free do useful stuff for free and</p>
+<p begin="00:02:58.799" end="00:03:04.410" style="s2">help others on the way I could tell you</p>
+<p begin="00:03:01.590" end="00:03:06.690" style="s2">you know what just make a toy project</p>
+<p begin="00:03:04.410" end="00:03:08.640" style="s2">every weekend and after two months</p>
+<p begin="00:03:06.690" end="00:03:10.290" style="s2">you&#39;re going to have eight toy projects</p>
+<p begin="00:03:08.640" end="00:03:12.420" style="s2">one per week there&#39;s gonna be a huge</p>
+<p begin="00:03:10.290" end="00:03:14.489" style="s2">portfolio maybe that will get you hired</p>
+<p begin="00:03:12.420" end="00:03:17.310" style="s2">and that&#39;s okay you could do that but</p>
+<p begin="00:03:14.489" end="00:03:20.519" style="s2">also if you go and work for free you</p>
+<p begin="00:03:17.310" end="00:03:22.530" style="s2">will get experience that not not how a</p>
+<p begin="00:03:20.519" end="00:03:23.910" style="s2">product can give you if you wanna work</p>
+<p begin="00:03:22.530" end="00:03:27.060" style="s2">for free that sell you work for your</p>
+<p begin="00:03:23.910" end="00:03:29.160" style="s2">uncle and he&#39;s got some restaurant or</p>
+<p begin="00:03:27.060" end="00:03:31.620" style="s2">whatever right if you couldn&#39;t work for</p>
+<p begin="00:03:29.160" end="00:03:33.359" style="s2">free you will learn how to maybe</p>
+<p begin="00:03:31.620" end="00:03:36.090" style="s2">communicate with a client how to</p>
+<p begin="00:03:33.359" end="00:03:38.459" style="s2">understand the needs of a business how</p>
+<p begin="00:03:36.090" end="00:03:41.430" style="s2">to understand what to use on this</p>
+<p begin="00:03:38.459" end="00:03:43.980" style="s2">business if for example you will see</p>
+<p begin="00:03:41.430" end="00:03:46.019" style="s2">your uncle&#39;s business whatever it is and</p>
+<p begin="00:03:43.980" end="00:03:48.120" style="s2">you see that he is maybe taking</p>
+<p begin="00:03:46.019" end="00:03:50.280" style="s2">reservations we have phone calls and</p>
+<p begin="00:03:48.120" end="00:03:52.470" style="s2">then he puts them on an Excel and it&#39;s</p>
+<p begin="00:03:50.280" end="00:03:54.810" style="s2">kind of a little bit too inefficient</p>
+<p begin="00:03:52.470" end="00:03:56.190" style="s2">then you can say hey you know what I</p>
+<p begin="00:03:54.810" end="00:04:00.269" style="s2">know how to build websites I&#39;m gonna</p>
+<p begin="00:03:56.190" end="00:04:01.889" style="s2">make him a reservation taker online so</p>
+<p begin="00:04:00.269" end="00:04:04.650" style="s2">people can&#39;t ever see patients for his</p>
+<p begin="00:04:01.889" end="00:04:06.900" style="s2">website so I can improve this is more</p>
+<p begin="00:04:04.650" end="00:04:09.629" style="s2">little part of his business that right</p>
+<p begin="00:04:06.900" end="00:04:11.540" style="s2">there sets you apart from all the other</p>
+<p begin="00:04:09.629" end="00:04:14.310" style="s2">developers that are just building stuff</p>
+<p begin="00:04:11.540" end="00:04:16.680" style="s2">as a toy project why because you just</p>
+<p begin="00:04:14.310" end="00:04:18.239" style="s2">have your first real life project you</p>
+<p begin="00:04:16.680" end="00:04:20.099" style="s2">have to come up with something useful</p>
+<p begin="00:04:18.239" end="00:04:22.409" style="s2">that actually people really need like</p>
+<p begin="00:04:20.099" end="00:04:25.330" style="s2">your uncle for example and you will also</p>
+<p begin="00:04:22.409" end="00:04:27.400" style="s2">get into the base</p>
+<p begin="00:04:25.330" end="00:04:28.509" style="s2">- that requires you when you need to</p>
+<p begin="00:04:27.400" end="00:04:30.129" style="s2">make a website when you need to</p>
+<p begin="00:04:28.509" end="00:04:33.580" style="s2">understand the needs of a client and</p>
+<p begin="00:04:30.129" end="00:04:35.710" style="s2">also you help somebody and also because</p>
+<p begin="00:04:33.580" end="00:04:38.770" style="s2">it&#39;s what is for free those people</p>
+<p begin="00:04:35.710" end="00:04:40.930" style="s2">wouldn&#39;t complain that much I don&#39;t know</p>
+<p begin="00:04:38.770" end="00:04:42.819" style="s2">about I don&#39;t know if you have ever said</p>
+<p begin="00:04:40.930" end="00:04:44.050" style="s2">to anybody hey let me give you this food</p>
+<p begin="00:04:42.819" end="00:04:46.930" style="s2">for free and they&#39;ll be like nah</p>
+<p begin="00:04:44.050" end="00:04:48.759" style="s2">that if you do the same thing with your</p>
+<p begin="00:04:46.930" end="00:04:50.650" style="s2">skills and with your code people will</p>
+<p begin="00:04:48.759" end="00:04:52.900" style="s2">appreciate them people will take them</p>
+<p begin="00:04:50.650" end="00:04:54.189" style="s2">and since it&#39;s a free thing that you&#39;ve</p>
+<p begin="00:04:52.900" end="00:04:55.569" style="s2">given them you&#39;ll be a learning</p>
+<p begin="00:04:54.189" end="00:04:58.360" style="s2">experience for both of you</p>
+<p begin="00:04:55.569" end="00:05:01.419" style="s2">they wouldn&#39;t complain that much you</p>
+<p begin="00:04:58.360" end="00:05:02.800" style="s2">will do the best job you can and it&#39;s</p>
+<p begin="00:05:01.419" end="00:05:05.860" style="s2">gonna be a win-win for everybody</p>
+<p begin="00:05:02.800" end="00:05:07.750" style="s2">but especially especially for you I know</p>
+<p begin="00:05:05.860" end="00:05:09.639" style="s2">many people say you shouldn&#39;t work for</p>
+<p begin="00:05:07.750" end="00:05:11.259" style="s2">free because there&#39;s an appreciate above</p>
+<p begin="00:05:09.639" end="00:05:12.759" style="s2">a blood but I really think that that&#39;s</p>
+<p begin="00:05:11.259" end="00:05:15.610" style="s2">exactly what you need to do when you&#39;re</p>
+<p begin="00:05:12.759" end="00:05:18.699" style="s2">starting work for free as you know I</p>
+<p begin="00:05:15.610" end="00:05:20.319" style="s2">always say you should always learn when</p>
+<p begin="00:05:18.699" end="00:05:22.750" style="s2">you need to learn you shouldn&#39;t learn</p>
+<p begin="00:05:20.319" end="00:05:24.189" style="s2">just because it&#39;s there on the internet</p>
+<p begin="00:05:22.750" end="00:05:25.779" style="s2">and it&#39;s a list of ten you should learn</p>
+<p begin="00:05:24.189" end="00:05:27.819" style="s2">you should always learn you need to</p>
+<p begin="00:05:25.779" end="00:05:30.099" style="s2">learn in this case this is the perfect</p>
+<p begin="00:05:27.819" end="00:05:31.750" style="s2">example you will only need to learn what</p>
+<p begin="00:05:30.099" end="00:05:33.819" style="s2">the features that you&#39;re building I</p>
+<p begin="00:05:31.750" end="00:05:36.310" style="s2">think that if you combine these two</p>
+<p begin="00:05:33.819" end="00:05:38.529" style="s2">things you&#39;re gonna start and have a</p>
+<p begin="00:05:36.310" end="00:05:40.029" style="s2">career that&#39;s gonna be amazing I wish I</p>
+<p begin="00:05:38.529" end="00:05:41.710" style="s2">have done this when you when I started I</p>
+<p begin="00:05:40.029" end="00:05:44.440" style="s2">have I didn&#39;t start doing stuff free I</p>
+<p begin="00:05:41.710" end="00:05:46.629" style="s2">did later on when I was traveling but it</p>
+<p begin="00:05:44.440" end="00:05:48.610" style="s2">is one of the best ways to get clients</p>
+<p begin="00:05:46.629" end="00:05:50.740" style="s2">it is one of the best ways to get</p>
+<p begin="00:05:48.610" end="00:05:53.169" style="s2">experience working with them one of the</p>
+<p begin="00:05:50.740" end="00:05:55.599" style="s2">best ways to apply knowledge one of the</p>
+<p begin="00:05:53.169" end="00:05:57.400" style="s2">best ways to make portfolio also you</p>
+<p begin="00:05:55.599" end="00:05:59.740" style="s2">will make useful things you will help</p>
+<p begin="00:05:57.400" end="00:06:01.479" style="s2">people be kind to one another like it&#39;s</p>
+<p begin="00:05:59.740" end="00:06:03.310" style="s2">gonna be just an amazing thing and again</p>
+<p begin="00:06:01.479" end="00:06:05.560" style="s2">don&#39;t get too caught up in - no they</p>
+<p begin="00:06:03.310" end="00:06:07.389" style="s2">should pay me maybe don&#39;t get caught up</p>
+<p begin="00:06:05.560" end="00:06:09.099" style="s2">in that get caught up in I&#39;m gonna help</p>
+<p begin="00:06:07.389" end="00:06:10.810" style="s2">somebody I&#39;m gonna do something useful I</p>
+<p begin="00:06:09.099" end="00:06:13.990" style="s2">just learned this code I&#39;m gonna apply</p>
+<p begin="00:06:10.810" end="00:06:16.360" style="s2">it in a real-life project trust me that</p>
+<p begin="00:06:13.990" end="00:06:18.279" style="s2">is gonna get you a job either in a</p>
+<p begin="00:06:16.360" end="00:06:19.870" style="s2">company when you go to the interview and</p>
+<p begin="00:06:18.279" end="00:06:21.610" style="s2">then interview people tell you what have</p>
+<p begin="00:06:19.870" end="00:06:23.650" style="s2">you done and you have a real life</p>
+<p begin="00:06:21.610" end="00:06:26.080" style="s2">project that are already being built and</p>
+<p begin="00:06:23.650" end="00:06:28.150" style="s2">there are used by people or if your</p>
+<p begin="00:06:26.080" end="00:06:30.159" style="s2">uncle sees that you&#39;re doing a great job</p>
+<p begin="00:06:28.150" end="00:06:31.719" style="s2">maybe later he will cut his friend and</p>
+<p begin="00:06:30.159" end="00:06:33.490" style="s2">then you can charge his friend to do</p>
+<p begin="00:06:31.719" end="00:06:38.110" style="s2">something similar I don&#39;t know it&#39;s</p>
+<p begin="00:06:33.490" end="00:06:39.729" style="s2">gonna be like bow snowball is gonna</p>
+<p begin="00:06:38.110" end="00:06:41.260" style="s2">become bigger and bigger</p>
+<p begin="00:06:39.729" end="00:06:43.360" style="s2">the more people you help the more people</p>
+<p begin="00:06:41.260" end="00:06:43.660" style="s2">that want to help you you want to help</p>
+<p begin="00:06:43.360" end="00:06:45.220" style="s2">you</p>
+<p begin="00:06:43.660" end="00:06:46.600" style="s2">the more people you would know the more</p>
+<p begin="00:06:45.220" end="00:06:49.810" style="s2">people you know the more clients you</p>
+<p begin="00:06:46.600" end="00:06:51.190" style="s2">will get etc is it turn is it thank you</p>
+<p begin="00:06:49.810" end="00:06:53.500" style="s2">for watching let me know what you think</p>
+<p begin="00:06:51.190" end="00:06:55.600" style="s2">about this small piece of advice if you</p>
+<p begin="00:06:53.500" end="00:06:57.130" style="s2">haven&#39;t done it let me know how it went</p>
+<p begin="00:06:55.600" end="00:06:58.720" style="s2">if you think that people shouldn&#39;t work</p>
+<p begin="00:06:57.130" end="00:07:00.580" style="s2">for free then let me know your opinion</p>
+<p begin="00:06:58.720" end="00:07:02.410" style="s2">and let me know why you think is</p>
+<p begin="00:07:00.580" end="00:07:03.910" style="s2">shooting work for free maybe you have an</p>
+<p begin="00:07:02.410" end="00:07:07.150" style="s2">opinion there and I would like to know</p>
+<p begin="00:07:03.910" end="00:07:08.889" style="s2">that&#39;s it for this video give a like</p>
+<p begin="00:07:07.150" end="00:07:10.630" style="s2">leave a comment don&#39;t forget to</p>
+<p begin="00:07:08.889" end="00:07:12.789" style="s2">subscribe share this with your friends</p>
+<p begin="00:07:10.630" end="00:07:15.520" style="s2">with your junior friend developers and I</p>
+<p begin="00:07:12.789" end="00:07:18.870" style="s2">will see you on the next one be kind to</p>
+<p begin="00:07:15.520" end="00:07:18.870" style="s2">people and eat kimchi alright</p>
+</div>
+</body>
+</tt>

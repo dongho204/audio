@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.040" end="00:00:03.360" style="s2">today I want to share with you the</p>
+<p begin="00:00:01.319" end="00:00:05.759" style="s2">technique I always use with great</p>
+<p begin="00:00:03.360" end="00:00:08.000" style="s2">success to beat procrastination and be</p>
+<p begin="00:00:05.759" end="00:00:09.840" style="s2">more productive in my studies and work</p>
+<p begin="00:00:08.000" end="00:00:11.799" style="s2">we live in a distracted world and the</p>
+<p begin="00:00:09.840" end="00:00:14.080" style="s2">devices we use that help us work and</p>
+<p begin="00:00:11.799" end="00:00:16.240" style="s2">study can also be the ones that distract</p>
+<p begin="00:00:14.080" end="00:00:18.240" style="s2">us and help us procrastinate the laptop</p>
+<p begin="00:00:16.240" end="00:00:20.560" style="s2">you use to take notes write code and</p>
+<p begin="00:00:18.240" end="00:00:22.359" style="s2">build your Empire is the same laptop</p>
+<p begin="00:00:20.560" end="00:00:24.439" style="s2">that will give you endless entertainment</p>
+<p begin="00:00:22.359" end="00:00:26.760" style="s2">and distraction the same tool can help</p>
+<p begin="00:00:24.439" end="00:00:28.320" style="s2">you build your dream and life&#39;s work or</p>
+<p begin="00:00:26.760" end="00:00:30.480" style="s2">help you postpone working on them</p>
+<p begin="00:00:28.320" end="00:00:32.520" style="s2">forever and ever what I found out is</p>
+<p begin="00:00:30.480" end="00:00:35.079" style="s2">that even though procrastination is bad</p>
+<p begin="00:00:32.520" end="00:00:36.719" style="s2">we can actually use it to our advantage</p>
+<p begin="00:00:35.079" end="00:00:38.840" style="s2">if we deploy procrastination</p>
+<p begin="00:00:36.719" end="00:00:41.800" style="s2">strategically and leverage a process in</p>
+<p begin="00:00:38.840" end="00:00:43.719" style="s2">the brain known as the zynic effect we</p>
+<p begin="00:00:41.800" end="00:00:46.280" style="s2">will be able to beat procrastination</p>
+<p begin="00:00:43.719" end="00:00:48.280" style="s2">consistently and effortlessly becoming</p>
+<p begin="00:00:46.280" end="00:00:50.800" style="s2">more productive and accomplishing more</p>
+<p begin="00:00:48.280" end="00:00:53.520" style="s2">the goal is to stop procrastinating not</p>
+<p begin="00:00:50.800" end="00:00:55.680" style="s2">by using willpower but by tricking our</p>
+<p begin="00:00:53.520" end="00:00:58.160" style="s2">brain the zynic effect is a</p>
+<p begin="00:00:55.680" end="00:01:00.120" style="s2">psychological phenomenon named after the</p>
+<p begin="00:00:58.160" end="00:01:03.480" style="s2">psychologist and psychiatrist that</p>
+<p begin="00:01:00.120" end="00:01:05.479" style="s2">discovered it in the 1920s bluma zynic</p>
+<p begin="00:01:03.480" end="00:01:07.799" style="s2">the zynic effect is everywhere and is</p>
+<p begin="00:01:05.479" end="00:01:09.680" style="s2">used against us all the time once you</p>
+<p begin="00:01:07.799" end="00:01:11.640" style="s2">learn about it you will always notice it</p>
+<p begin="00:01:09.680" end="00:01:14.479" style="s2">the premise of the zynic effect is that</p>
+<p begin="00:01:11.640" end="00:01:17.600" style="s2">the brain hates open loops and loves</p>
+<p begin="00:01:14.479" end="00:01:19.720" style="s2">closed Loops let me explain zarnik first</p>
+<p begin="00:01:17.600" end="00:01:22.320" style="s2">noticed this phenomenon while sitting in</p>
+<p begin="00:01:19.720" end="00:01:24.000" style="s2">a busy restaurant in Vienna she noticed</p>
+<p begin="00:01:22.320" end="00:01:25.920" style="s2">that the waiters were very good at</p>
+<p begin="00:01:24.000" end="00:01:28.360" style="s2">remembering and keeping track of all the</p>
+<p begin="00:01:25.920" end="00:01:30.400" style="s2">unfinished order even if the orders were</p>
+<p begin="00:01:28.360" end="00:01:32.520" style="s2">very complex but once the order was</p>
+<p begin="00:01:30.400" end="00:01:34.880" style="s2">served and completed they seemed to</p>
+<p begin="00:01:32.520" end="00:01:36.640" style="s2">forget the details almost immediately</p>
+<p begin="00:01:34.880" end="00:01:38.680" style="s2">after this observation she made some</p>
+<p begin="00:01:36.640" end="00:01:41.200" style="s2">experiments at her lab where she gave</p>
+<p begin="00:01:38.680" end="00:01:43.200" style="s2">people simple tasks like solving puzzles</p>
+<p begin="00:01:41.200" end="00:01:44.640" style="s2">she then interrupted half of the</p>
+<p begin="00:01:43.200" end="00:01:47.040" style="s2">participants while they were in the</p>
+<p begin="00:01:44.640" end="00:01:49.399" style="s2">middle of solving a puzzle then after an</p>
+<p begin="00:01:47.040" end="00:01:51.159" style="s2">hour she asked all the participants if</p>
+<p begin="00:01:49.399" end="00:01:53.479" style="s2">they could remember what they have been</p>
+<p begin="00:01:51.159" end="00:01:55.600" style="s2">working on she then discovered that the</p>
+<p begin="00:01:53.479" end="00:01:58.399" style="s2">people that had been interrupted were</p>
+<p begin="00:01:55.600" end="00:02:00.560" style="s2">twice as likely to remember the tasks</p>
+<p begin="00:01:58.399" end="00:02:03.119" style="s2">they have been interrupted on better</p>
+<p begin="00:02:00.560" end="00:02:04.719" style="s2">than the ones they completed zarnik</p>
+<p begin="00:02:03.119" end="00:02:07.320" style="s2">discovered that our brains have a need</p>
+<p begin="00:02:04.719" end="00:02:09.200" style="s2">for completion and if a task isn&#39;t</p>
+<p begin="00:02:07.320" end="00:02:11.720" style="s2">completed it will be more present in our</p>
+<p begin="00:02:09.200" end="00:02:13.720" style="s2">minds compared to a completed task when</p>
+<p begin="00:02:11.720" end="00:02:16.160" style="s2">a task is not completed it creates an</p>
+<p begin="00:02:13.720" end="00:02:18.680" style="s2">open loop that our minds want to close</p>
+<p begin="00:02:16.160" end="00:02:20.599" style="s2">the Mind does not like open Loops that</p>
+<p begin="00:02:18.680" end="00:02:23.280" style="s2">is why the end of every episode of a</p>
+<p begin="00:02:20.599" end="00:02:25.959" style="s2">series always ends up in a sort of Cliff</p>
+<p begin="00:02:23.280" end="00:02:28.360" style="s2">Hanger to keep people hooked that is why</p>
+<p begin="00:02:25.959" end="00:02:30.239" style="s2">if you asked someone to watch a 10hour</p>
+<p begin="00:02:28.360" end="00:02:32.920" style="s2">movie they would say no but if you take</p>
+<p begin="00:02:30.239" end="00:02:35.879" style="s2">that 10hour movie and divide it on 10</p>
+<p begin="00:02:32.920" end="00:02:37.840" style="s2">parts each with a cliffhanger at the end</p>
+<p begin="00:02:35.879" end="00:02:40.280" style="s2">that person will be more likely to binge</p>
+<p begin="00:02:37.840" end="00:02:42.159" style="s2">watch the whole thing so how do we use</p>
+<p begin="00:02:40.280" end="00:02:44.440" style="s2">this phenomenon to our advantage and</p>
+<p begin="00:02:42.159" end="00:02:46.920" style="s2">beat procrastination in the head we have</p>
+<p begin="00:02:44.440" end="00:02:49.120" style="s2">to do what Ernest Hemingway did Ernest</p>
+<p begin="00:02:46.920" end="00:02:51.800" style="s2">Hemingway a champion among writers and</p>
+<p begin="00:02:49.120" end="00:02:54.400" style="s2">Nobel Prize winner used what he called</p>
+<p begin="00:02:51.800" end="00:02:56.920" style="s2">useful interruptions it is said that he</p>
+<p begin="00:02:54.400" end="00:02:59.840" style="s2">used to stop his writing sessions right</p>
+<p begin="00:02:56.920" end="00:03:02.159" style="s2">in the middle of a sentence not page or</p>
+<p begin="00:02:59.840" end="00:03:04.680" style="s2">paragraph a sentence by doing this he</p>
+<p begin="00:03:02.159" end="00:03:06.440" style="s2">created an open loop which means that</p>
+<p begin="00:03:04.680" end="00:03:08.560" style="s2">the next day he will be eager to get</p>
+<p begin="00:03:06.440" end="00:03:10.400" style="s2">started writing thus defeating</p>
+<p begin="00:03:08.560" end="00:03:12.400" style="s2">procrastination before it even showed</p>
+<p begin="00:03:10.400" end="00:03:14.440" style="s2">its ugly head if we have a big project</p>
+<p begin="00:03:12.400" end="00:03:16.640" style="s2">to work on like Ernest Hemingway had a</p>
+<p begin="00:03:14.440" end="00:03:19.040" style="s2">book to write we need to divide that</p>
+<p begin="00:03:16.640" end="00:03:21.400" style="s2">project in small milestones and easy to</p>
+<p begin="00:03:19.040" end="00:03:23.400" style="s2">accomplish tasks like paragraphs or</p>
+<p begin="00:03:21.400" end="00:03:25.360" style="s2">chapters of a book and what we have to</p>
+<p begin="00:03:23.400" end="00:03:27.560" style="s2">do is to make sure that we don&#39;t finish</p>
+<p begin="00:03:25.360" end="00:03:30.040" style="s2">a work or study session after we</p>
+<p begin="00:03:27.560" end="00:03:32.239" style="s2">complete a milestone instead we have to</p>
+<p begin="00:03:30.040" end="00:03:34.400" style="s2">make sure we leave a milestone halfway</p>
+<p begin="00:03:32.239" end="00:03:36.280" style="s2">done if we finish the day with an open</p>
+<p begin="00:03:34.400" end="00:03:38.560" style="s2">loop it will be incredibly easy for us</p>
+<p begin="00:03:36.280" end="00:03:40.439" style="s2">to get started the next day and it won&#39;t</p>
+<p begin="00:03:38.560" end="00:03:42.439" style="s2">be because of willpower that we will get</p>
+<p begin="00:03:40.439" end="00:03:44.840" style="s2">back to work it will be because of that</p>
+<p begin="00:03:42.439" end="00:03:46.599" style="s2">feeling of incompleteness the open loop</p>
+<p begin="00:03:44.840" end="00:03:48.760" style="s2">that our mind is dying to close will</p>
+<p begin="00:03:46.599" end="00:03:50.840" style="s2">give us the push we need to get started</p>
+<p begin="00:03:48.760" end="00:03:52.599" style="s2">quickly and to not procrastinate all we</p>
+<p begin="00:03:50.840" end="00:03:54.560" style="s2">have to do is learn how to deploy</p>
+<p begin="00:03:52.599" end="00:03:57.159" style="s2">procrastination strategically and</p>
+<p begin="00:03:54.560" end="00:03:58.840" style="s2">postponed finishing a task on purpose</p>
+<p begin="00:03:57.159" end="00:04:00.239" style="s2">while we are in the middle of it try</p>
+<p begin="00:03:58.840" end="00:04:02.720" style="s2">this and let me know if you works for</p>
+<p begin="00:04:00.239" end="00:04:04.280" style="s2">you this tiny trick has done wonders for</p>
+<p begin="00:04:02.720" end="00:04:05.799" style="s2">me thanks to this technique I don&#39;t have</p>
+<p begin="00:04:04.280" end="00:04:07.680" style="s2">to go to battle with myself every</p>
+<p begin="00:04:05.799" end="00:04:09.319" style="s2">morning instead I just look forward to</p>
+<p begin="00:04:07.680" end="00:04:10.799" style="s2">finishing what I started and when I</p>
+<p begin="00:04:09.319" end="00:04:12.280" style="s2">finish a task early in the day that</p>
+<p begin="00:04:10.799" end="00:04:14.159" style="s2">gives me a tiny Victory and</p>
+<p begin="00:04:12.280" end="00:04:16.239" style="s2">accomplishment which gives me a tiny</p>
+<p begin="00:04:14.159" end="00:04:17.759" style="s2">heat of dopamine and satisfaction early</p>
+<p begin="00:04:16.239" end="00:04:19.919" style="s2">in the morning which makes me want to</p>
+<p begin="00:04:17.759" end="00:04:22.120" style="s2">keep going gives me momentum and puts me</p>
+<p begin="00:04:19.919" end="00:04:23.639" style="s2">on a state of flow I hope that you use</p>
+<p begin="00:04:22.120" end="00:04:25.600" style="s2">this technique and it helps you as much</p>
+<p begin="00:04:23.639" end="00:04:27.440" style="s2">as it has helped me that&#39;s it for this</p>
+<p begin="00:04:25.600" end="00:04:28.759" style="s2">video if you found it useful please like</p>
+<p begin="00:04:27.440" end="00:04:30.520" style="s2">it share it with your friends and</p>
+<p begin="00:04:28.759" end="00:04:32.120" style="s2">subscribe to the channel and remember</p>
+<p begin="00:04:30.520" end="00:04:34.600" style="s2">that if you want to learn to code for</p>
+<p begin="00:04:32.120" end="00:04:37.039" style="s2">free with me all you have to do is click</p>
+<p begin="00:04:34.600" end="00:04:39.479" style="s2">the link below there you will find free</p>
+<p begin="00:04:37.039" end="00:04:42.680" style="s2">courses on JavaScript python react react</p>
+<p begin="00:04:39.479" end="00:04:45.280" style="s2">native go Dart floter and nextjs among</p>
+<p begin="00:04:42.680" end="00:04:47.800" style="s2">many others for free we have courses for</p>
+<p begin="00:04:45.280" end="00:04:49.479" style="s2">all levels from beginner to Advanced all</p>
+<p begin="00:04:47.800" end="00:04:50.639" style="s2">for free click the link below and I will</p>
+<p begin="00:04:49.479" end="00:04:55.320" style="s2">see you</p>
+<p begin="00:04:50.639" end="00:04:55.320" style="s2">there see you on the next one</p>
+<p begin="00:04:58.560" end="00:05:01.560" style="s2">byebye</p>
+<p begin="00:05:07.880" end="00:05:10.880" style="s2">la</p>
+</div>
+</body>
+</tt>

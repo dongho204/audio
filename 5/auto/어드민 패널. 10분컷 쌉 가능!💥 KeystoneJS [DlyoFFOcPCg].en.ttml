@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:01.760" end="00:00:06.720" style="s2">today we are going to learn about a tool</p>
+<p begin="00:00:04.319" end="00:00:09.300" style="s2">that every single full stack developer</p>
+<p begin="00:00:06.720" end="00:00:11.519" style="s2">should be aware of why because it&#39;s</p>
+<p begin="00:00:09.300" end="00:00:13.320" style="s2">going to save you so much time you are</p>
+<p begin="00:00:11.519" end="00:00:15.299" style="s2">going to want to pay for it even though</p>
+<p begin="00:00:13.320" end="00:00:18.060" style="s2">it&#39;s free the name of this wonderful</p>
+<p begin="00:00:15.299" end="00:00:19.560" style="s2">tool is Keystone JS and I feel guilty</p>
+<p begin="00:00:18.060" end="00:00:21.740" style="s2">when I use it because of how cool it is</p>
+<p begin="00:00:19.560" end="00:00:24.900" style="s2">and how much time it saves me</p>
+<p begin="00:00:21.740" end="00:00:27.660" style="s2">99.9 of the applications you will build</p>
+<p begin="00:00:24.900" end="00:00:30.119" style="s2">are going to need an admin panel and</p>
+<p begin="00:00:27.660" end="00:00:32.340" style="s2">building one by hand takes a lot of time</p>
+<p begin="00:00:30.119" end="00:00:35.280" style="s2">and it&#39;s a very repetitive and boring</p>
+<p begin="00:00:32.340" end="00:00:37.440" style="s2">job with keystone.js you can generate an</p>
+<p begin="00:00:35.280" end="00:00:40.260" style="s2">admin panel for your application in less</p>
+<p begin="00:00:37.440" end="00:00:43.500" style="s2">than 10 lines of code you will also get</p>
+<p begin="00:00:40.260" end="00:00:46.860" style="s2">authentication a graphql API database</p>
+<p begin="00:00:43.500" end="00:00:49.920" style="s2">migrations relationships filtering file</p>
+<p begin="00:00:46.860" end="00:00:52.260" style="s2">upload all that out of the box so let&#39;s</p>
+<p begin="00:00:49.920" end="00:00:53.820" style="s2">take a look at the keystone.js Magic by</p>
+<p begin="00:00:52.260" end="00:00:55.860" style="s2">building and admin panels for an app</p>
+<p begin="00:00:53.820" end="00:00:57.840" style="s2">like Twitter to get started with</p>
+<p begin="00:00:55.860" end="00:00:59.940" style="s2">keystone.js on an empty folder we are</p>
+<p begin="00:00:57.840" end="00:01:02.100" style="s2">going to install Keystone and typescript</p>
+<p begin="00:00:59.940" end="00:01:04.339" style="s2">then on that same folder we&#39;re going to</p>
+<p begin="00:01:02.100" end="00:01:06.900" style="s2">create a file called</p>
+<p begin="00:01:04.339" end="00:01:09.180" style="s2">keystone.ts on that file we have to do</p>
+<p begin="00:01:06.900" end="00:01:11.280" style="s2">two things first we have to configure</p>
+<p begin="00:01:09.180" end="00:01:13.979" style="s2">our database and then we have to explain</p>
+<p begin="00:01:11.280" end="00:01:16.080" style="s2">what kind of data is going to be saved</p>
+<p begin="00:01:13.979" end="00:01:18.360" style="s2">on it to do that we&#39;re going to import</p>
+<p begin="00:01:16.080" end="00:01:21.000" style="s2">the config function and we are going to</p>
+<p begin="00:01:18.360" end="00:01:23.640" style="s2">call it with a configuration object of</p>
+<p begin="00:01:21.000" end="00:01:25.920" style="s2">our database we will tell Keystone that</p>
+<p begin="00:01:23.640" end="00:01:27.900" style="s2">we are going to use sqlite as our</p>
+<p begin="00:01:25.920" end="00:01:30.840" style="s2">database and we will write down the</p>
+<p begin="00:01:27.900" end="00:01:33.060" style="s2">location of the database file on our</p>
+<p begin="00:01:30.840" end="00:01:36.119" style="s2">file system and now we have to explain</p>
+<p begin="00:01:33.060" end="00:01:37.799" style="s2">to Keystone what is the shape of the</p>
+<p begin="00:01:36.119" end="00:01:40.020" style="s2">data we are going to save in our</p>
+<p begin="00:01:37.799" end="00:01:42.299" style="s2">database that will be done inside the</p>
+<p begin="00:01:40.020" end="00:01:44.220" style="s2">lists property inside of the</p>
+<p begin="00:01:42.299" end="00:01:46.259" style="s2">configuration object the reason why it&#39;s</p>
+<p begin="00:01:44.220" end="00:01:48.900" style="s2">called lists is because if we think</p>
+<p begin="00:01:46.259" end="00:01:52.320" style="s2">about it lists is what admin panels have</p>
+<p begin="00:01:48.900" end="00:01:54.840" style="s2">a list of users a list of tweets likes</p>
+<p begin="00:01:52.320" end="00:01:57.540" style="s2">Etc inside of the lists object we will</p>
+<p begin="00:01:54.840" end="00:02:00.360" style="s2">create a user our user is going to have</p>
+<p begin="00:01:57.540" end="00:02:02.579" style="s2">two Fields a name and an email</p>
+<p begin="00:02:00.360" end="00:02:04.860" style="s2">both of these fields are going to be</p>
+<p begin="00:02:02.579" end="00:02:07.380" style="s2">required and we will set the email to be</p>
+<p begin="00:02:04.860" end="00:02:10.679" style="s2">unique finally we will make write and</p>
+<p begin="00:02:07.380" end="00:02:13.500" style="s2">read operations on our users public by</p>
+<p begin="00:02:10.679" end="00:02:16.020" style="s2">setting access to allow all and that&#39;s</p>
+<p begin="00:02:13.500" end="00:02:18.720" style="s2">it we are now ready to see our admin</p>
+<p begin="00:02:16.020" end="00:02:21.120" style="s2">panel come okay to start the Keystone</p>
+<p begin="00:02:18.720" end="00:02:23.700" style="s2">Magic on our packets that Json we are</p>
+<p begin="00:02:21.120" end="00:02:26.340" style="s2">going to create a Dev script that is</p>
+<p begin="00:02:23.700" end="00:02:30.599" style="s2">going to run the command Keystone that</p>
+<p begin="00:02:26.340" end="00:02:33.780" style="s2">after we run NVM run Dev UNC keystone.js</p>
+<p begin="00:02:30.599" end="00:02:36.780" style="s2">generate a graphql and Prisma schema</p>
+<p begin="00:02:33.780" end="00:02:39.780" style="s2">create the sqlite database create a</p>
+<p begin="00:02:36.780" end="00:02:43.260" style="s2">graphql API and generate an admin panel</p>
+<p begin="00:02:39.780" end="00:02:45.840" style="s2">using next JS all that will be running</p>
+<p begin="00:02:43.260" end="00:02:48.420" style="s2">on a localhost 3000 which is where we</p>
+<p begin="00:02:45.840" end="00:02:50.540" style="s2">will find our admin panel as you can see</p>
+<p begin="00:02:48.420" end="00:02:53.459" style="s2">we will get a dashboard with one model</p>
+<p begin="00:02:50.540" end="00:02:56.160" style="s2">users when we click on the users we will</p>
+<p begin="00:02:53.459" end="00:02:58.739" style="s2">go and see the list of our users that is</p>
+<p begin="00:02:56.160" end="00:03:01.019" style="s2">empty for now as you can see when we</p>
+<p begin="00:02:58.739" end="00:03:03.180" style="s2">click on create users we find that name</p>
+<p begin="00:03:01.019" end="00:03:06.000" style="s2">and email fields we wrote in our code</p>
+<p begin="00:03:03.180" end="00:03:08.220" style="s2">just before we can now add a user and</p>
+<p begin="00:03:06.000" end="00:03:10.739" style="s2">after we do we are redirected to the</p>
+<p begin="00:03:08.220" end="00:03:13.260" style="s2">edit user page which was also Auto</p>
+<p begin="00:03:10.739" end="00:03:15.300" style="s2">generated for us we can also go back to</p>
+<p begin="00:03:13.260" end="00:03:17.220" style="s2">the users list and see how the user we</p>
+<p begin="00:03:15.300" end="00:03:19.560" style="s2">created is there as well as the</p>
+<p begin="00:03:17.220" end="00:03:22.379" style="s2">possibility of searching sorting and</p>
+<p begin="00:03:19.560" end="00:03:24.900" style="s2">filtering our users by their fields but</p>
+<p begin="00:03:22.379" end="00:03:28.739" style="s2">that is not all if we go to localhost</p>
+<p begin="00:03:24.900" end="00:03:31.860" style="s2">3000 slash API graphql we will see a</p>
+<p begin="00:03:28.739" end="00:03:34.800" style="s2">graphql API Explorer it will have</p>
+<p begin="00:03:31.860" end="00:03:37.140" style="s2">queries to get one user or all users and</p>
+<p begin="00:03:34.800" end="00:03:40.260" style="s2">it will have mutations to create delete</p>
+<p begin="00:03:37.140" end="00:03:43.680" style="s2">and update a single user or all of them</p>
+<p begin="00:03:40.260" end="00:03:46.739" style="s2">this is absolutely insane how amazing is</p>
+<p begin="00:03:43.680" end="00:03:48.720" style="s2">this just one typescript file that plus</p>
+<p begin="00:03:46.739" end="00:03:51.959" style="s2">a little bit of code and Keystone can</p>
+<p begin="00:03:48.720" end="00:03:53.340" style="s2">generate all that incredible now that we</p>
+<p begin="00:03:51.959" end="00:03:55.440" style="s2">have the user model we are going to</p>
+<p begin="00:03:53.340" end="00:03:56.940" style="s2">create the Tweet model so we can learn</p>
+<p begin="00:03:55.440" end="00:03:59.700" style="s2">how to do relationships and connect</p>
+<p begin="00:03:56.940" end="00:04:02.580" style="s2">models to each other&#39;s own system on our</p>
+<p begin="00:03:59.700" end="00:04:05.099" style="s2">Keystone that DS file after our user we</p>
+<p begin="00:04:02.580" end="00:04:07.019" style="s2">will add a tweet model the new tweet</p>
+<p begin="00:04:05.099" end="00:04:08.580" style="s2">model will have a Content text field</p>
+<p begin="00:04:07.019" end="00:04:11.580" style="s2">that will be required and will be</p>
+<p begin="00:04:08.580" end="00:04:14.400" style="s2">between 1 and 140 characters long it</p>
+<p begin="00:04:11.580" end="00:04:17.160" style="s2">will have a created add field with the</p>
+<p begin="00:04:14.400" end="00:04:19.620" style="s2">now kind to save the date when a tweet</p>
+<p begin="00:04:17.160" end="00:04:22.139" style="s2">is created we are also connecting the</p>
+<p begin="00:04:19.620" end="00:04:24.419" style="s2">user model with the Tweet model using</p>
+<p begin="00:04:22.139" end="00:04:27.120" style="s2">the relationship function on the user</p>
+<p begin="00:04:24.419" end="00:04:29.580" style="s2">model we are saying that the user has</p>
+<p begin="00:04:27.120" end="00:04:33.360" style="s2">tweets and that the user will be found</p>
+<p begin="00:04:29.580" end="00:04:35.880" style="s2">as the author on the Tweet model we are</p>
+<p begin="00:04:33.360" end="00:04:38.759" style="s2">also saying that the user can have many</p>
+<p begin="00:04:35.880" end="00:04:41.940" style="s2">to it and on the Tweet model we are</p>
+<p begin="00:04:38.759" end="00:04:44.580" style="s2">saying that the Tweet has an author and</p>
+<p begin="00:04:41.940" end="00:04:48.120" style="s2">that this to it will be found inside of</p>
+<p begin="00:04:44.580" end="00:04:50.340" style="s2">user dot tweets after we restart our</p>
+<p begin="00:04:48.120" end="00:04:53.880" style="s2">server we will now see how we have two</p>
+<p begin="00:04:50.340" end="00:04:56.220" style="s2">models user and tweet when we go and try</p>
+<p begin="00:04:53.880" end="00:04:58.440" style="s2">to add a tweet we will be able to write</p>
+<p begin="00:04:56.220" end="00:05:00.180" style="s2">the content of the Tweet we will see a</p>
+<p begin="00:04:58.440" end="00:05:03.419" style="s2">calendar with it and we can also select</p>
+<p begin="00:05:00.180" end="00:05:06.479" style="s2">an author for our tweet which will be</p>
+<p begin="00:05:03.419" end="00:05:09.300" style="s2">the user we selected before after we do</p>
+<p begin="00:05:06.479" end="00:05:12.000" style="s2">that if we go to our user detail page we</p>
+<p begin="00:05:09.300" end="00:05:15.120" style="s2">will also see that the user now has a</p>
+<p begin="00:05:12.000" end="00:05:17.160" style="s2">field for all the tweets connected to it</p>
+<p begin="00:05:15.120" end="00:05:19.080" style="s2">we can make our admin panel even better</p>
+<p begin="00:05:17.160" end="00:05:21.540" style="s2">by changing how the tweets look like</p>
+<p begin="00:05:19.080" end="00:05:23.759" style="s2">right now we can only see their random</p>
+<p begin="00:05:21.540" end="00:05:26.039" style="s2">IDs to change that we are going to go</p>
+<p begin="00:05:23.759" end="00:05:28.560" style="s2">back to our config file and there we are</p>
+<p begin="00:05:26.039" end="00:05:31.380" style="s2">going to customize the UI of our tweets</p>
+<p begin="00:05:28.560" end="00:05:32.940" style="s2">field on the user model here we are</p>
+<p begin="00:05:31.380" end="00:05:35.400" style="s2">saying that we want to display the</p>
+<p begin="00:05:32.940" end="00:05:38.220" style="s2">tweets like cards and that we want to</p>
+<p begin="00:05:35.400" end="00:05:40.919" style="s2">see the content and created add fields</p>
+<p begin="00:05:38.220" end="00:05:42.960" style="s2">of the tweets on those cards after we</p>
+<p begin="00:05:40.919" end="00:05:45.720" style="s2">restart the server and create a new</p>
+<p begin="00:05:42.960" end="00:05:48.300" style="s2">tweet under the same user if we go to</p>
+<p begin="00:05:45.720" end="00:05:50.940" style="s2">the edit user page we will see how now</p>
+<p begin="00:05:48.300" end="00:05:54.060" style="s2">the tweets are displayed in a much much</p>
+<p begin="00:05:50.940" end="00:05:56.699" style="s2">better more clear way let&#39;s not forget</p>
+<p begin="00:05:54.060" end="00:05:58.440" style="s2">to check out the API Explorer and sure</p>
+<p begin="00:05:56.699" end="00:06:01.020" style="s2">enough we will find how we now have</p>
+<p begin="00:05:58.440" end="00:06:03.120" style="s2">queries to read a tweet all tweets and</p>
+<p begin="00:06:01.020" end="00:06:05.780" style="s2">mutations to create and update them</p>
+<p begin="00:06:03.120" end="00:06:08.220" style="s2">absolutely fantastic this is not all</p>
+<p begin="00:06:05.780" end="00:06:11.100" style="s2">keystone.js can do we can also add</p>
+<p begin="00:06:08.220" end="00:06:13.440" style="s2">authentication to protect our API and</p>
+<p begin="00:06:11.100" end="00:06:15.840" style="s2">access control to select who can edit</p>
+<p begin="00:06:13.440" end="00:06:18.000" style="s2">and delete data and we can even extend</p>
+<p begin="00:06:15.840" end="00:06:20.639" style="s2">the graphql schema to execute whatever</p>
+<p begin="00:06:18.000" end="00:06:22.440" style="s2">custom code we want to the code towards</p>
+<p begin="00:06:20.639" end="00:06:24.960" style="s2">authentication would look something like</p>
+<p begin="00:06:22.440" end="00:06:27.120" style="s2">this first we tell Keystone what is the</p>
+<p begin="00:06:24.960" end="00:06:29.160" style="s2">model that will hold our users what</p>
+<p begin="00:06:27.120" end="00:06:32.460" style="s2">identifier will be in this case email</p>
+<p begin="00:06:29.160" end="00:06:34.259" style="s2">and what the secret field is then the</p>
+<p begin="00:06:32.460" end="00:06:36.479" style="s2">code to authorize the user looks</p>
+<p begin="00:06:34.259" end="00:06:39.360" style="s2">something like this where only a user</p>
+<p begin="00:06:36.479" end="00:06:41.699" style="s2">that has the is admin property on their</p>
+<p begin="00:06:39.360" end="00:06:44.160" style="s2">session will be allowed to create update</p>
+<p begin="00:06:41.699" end="00:06:45.900" style="s2">and delete a tweet the code to extend</p>
+<p begin="00:06:44.160" end="00:06:48.419" style="s2">the graphql schema would look something</p>
+<p begin="00:06:45.900" end="00:06:50.639" style="s2">like this as you can see we can provide</p>
+<p begin="00:06:48.419" end="00:06:52.919" style="s2">our own mutations and we can write our</p>
+<p begin="00:06:50.639" end="00:06:55.199" style="s2">own resolvers there we can talk to the</p>
+<p begin="00:06:52.919" end="00:06:57.600" style="s2">database directly and that&#39;s it for this</p>
+<p begin="00:06:55.199" end="00:06:59.759" style="s2">video I am super curious to know what</p>
+<p begin="00:06:57.600" end="00:07:01.319" style="s2">you think about Keystone let me know in</p>
+<p begin="00:06:59.759" end="00:07:03.060" style="s2">the comments below your opinion is and</p>
+<p begin="00:07:01.319" end="00:07:05.280" style="s2">if you would like me to make a longer</p>
+<p begin="00:07:03.060" end="00:07:06.900" style="s2">more detailed tutorial if you found this</p>
+<p begin="00:07:05.280" end="00:07:08.759" style="s2">video useful please consider liking it</p>
+<p begin="00:07:06.900" end="00:07:10.199" style="s2">and subscribing to the channel and don&#39;t</p>
+<p begin="00:07:08.759" end="00:07:12.419" style="s2">forget that if you want to learn things</p>
+<p begin="00:07:10.199" end="00:07:14.940" style="s2">like JavaScript python react react</p>
+<p begin="00:07:12.419" end="00:07:18.000" style="s2">native gold Dart flutter among many</p>
+<p begin="00:07:14.940" end="00:07:20.160" style="s2">others for absolutely free all you have</p>
+<p begin="00:07:18.000" end="00:07:22.380" style="s2">to do is click the link below to join</p>
+<p begin="00:07:20.160" end="00:07:24.780" style="s2">any of our many free courses that you</p>
+<p begin="00:07:22.380" end="00:07:27.180" style="s2">can take right now for absolutely free</p>
+<p begin="00:07:24.780" end="00:07:29.479" style="s2">with me click the link below and I will</p>
+<p begin="00:07:27.180" end="00:07:33.500" style="s2">see you then</p>
+<p begin="00:07:29.479" end="00:07:33.500" style="s2">see you on the next one bye</p>
+<p begin="00:07:33.780" end="00:07:36.780" style="s2">foreign</p>
+</div>
+</body>
+</tt>

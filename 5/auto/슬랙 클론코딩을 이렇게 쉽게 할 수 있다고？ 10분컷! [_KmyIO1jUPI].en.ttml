@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.960" end="00:00:06.560" style="s2">if you&#39;re like me and you dream of</p>
+<p begin="00:00:04.640" end="00:00:08.480" style="s2">building the next instagram twitter or</p>
+<p begin="00:00:06.560" end="00:00:11.679" style="s2">facebook there are two features your</p>
+<p begin="00:00:08.480" end="00:00:14.480" style="s2">application is for sure going to need</p>
+<p begin="00:00:11.679" end="00:00:17.680" style="s2">the first one is real time messaging</p>
+<p begin="00:00:14.480" end="00:00:20.400" style="s2">unicorns like tinder over instagram or</p>
+<p begin="00:00:17.680" end="00:00:23.439" style="s2">twitter they all have some sort of</p>
+<p begin="00:00:20.400" end="00:00:26.800" style="s2">direct messaging system and the apps</p>
+<p begin="00:00:23.439" end="00:00:29.920" style="s2">like slack twitch or youtube rely very</p>
+<p begin="00:00:26.800" end="00:00:32.640" style="s2">heavily in real time public chat rooms</p>
+<p begin="00:00:29.920" end="00:00:34.640" style="s2">the second feature is activity fits</p>
+<p begin="00:00:32.640" end="00:00:37.280" style="s2">which is something that apps like</p>
+<p begin="00:00:34.640" end="00:00:40.160" style="s2">instagram or twitter are literally built</p>
+<p begin="00:00:37.280" end="00:00:41.840" style="s2">upon if your app allows users to follow</p>
+<p begin="00:00:40.160" end="00:00:44.320" style="s2">each other and you want to show to your</p>
+<p begin="00:00:41.840" end="00:00:46.879" style="s2">users the posts and activities of the</p>
+<p begin="00:00:44.320" end="00:00:48.559" style="s2">people they follow you need an activity</p>
+<p begin="00:00:46.879" end="00:00:50.640" style="s2">feed or if you&#39;re building a</p>
+<p begin="00:00:48.559" end="00:00:52.879" style="s2">notifications tab where your users can</p>
+<p begin="00:00:50.640" end="00:00:55.360" style="s2">see that somebody like their photo or</p>
+<p begin="00:00:52.879" end="00:00:57.840" style="s2">somebody mentioned them on a comment you</p>
+<p begin="00:00:55.360" end="00:01:00.559" style="s2">need a notifications feed implementing</p>
+<p begin="00:00:57.840" end="00:01:02.239" style="s2">these two features by yourself real time</p>
+<p begin="00:01:00.559" end="00:01:05.040" style="s2">messaging and activity feeds it&#39;s</p>
+<p begin="00:01:02.239" end="00:01:07.040" style="s2">possible but not so easy for the chat</p>
+<p begin="00:01:05.040" end="00:01:09.280" style="s2">you need to code and maintain the</p>
+<p begin="00:01:07.040" end="00:01:11.760" style="s2">real-time servers that should be capable</p>
+<p begin="00:01:09.280" end="00:01:14.400" style="s2">of holding many websocket connections</p>
+<p begin="00:01:11.760" end="00:01:16.640" style="s2">open for all the people in the chat room</p>
+<p begin="00:01:14.400" end="00:01:19.520" style="s2">you also need to code all the logic to</p>
+<p begin="00:01:16.640" end="00:01:22.560" style="s2">handle channels messages private</p>
+<p begin="00:01:19.520" end="00:01:24.720" style="s2">channels reactions threads among many</p>
+<p begin="00:01:22.560" end="00:01:26.960" style="s2">other things and for the feeds you need</p>
+<p begin="00:01:24.720" end="00:01:30.479" style="s2">to code all the logic for follows on</p>
+<p begin="00:01:26.960" end="00:01:32.960" style="s2">follows likes mentions pagination fan</p>
+<p begin="00:01:30.479" end="00:01:35.520" style="s2">out so many things or you can save your</p>
+<p begin="00:01:32.960" end="00:01:37.680" style="s2">time and you can use stream instead a</p>
+<p begin="00:01:35.520" end="00:01:39.280" style="s2">stream is a backend as a service</p>
+<p begin="00:01:37.680" end="00:01:41.360" style="s2">platform that allows you to implement</p>
+<p begin="00:01:39.280" end="00:01:44.240" style="s2">real-time chat messaging and activity</p>
+<p begin="00:01:41.360" end="00:01:46.960" style="s2">feeds in record time and the best of all</p>
+<p begin="00:01:44.240" end="00:01:49.680" style="s2">is absolutely free for makers like you</p>
+<p begin="00:01:46.960" end="00:01:52.880" style="s2">and me companies like soundcloud strava</p>
+<p begin="00:01:49.680" end="00:01:55.520" style="s2">adobe master class and etoro among many</p>
+<p begin="00:01:52.880" end="00:01:58.079" style="s2">many others use a stream for real-time</p>
+<p begin="00:01:55.520" end="00:02:00.320" style="s2">chat messaging and activity feeds stream</p>
+<p begin="00:01:58.079" end="00:02:03.520" style="s2">also has sdks for vanilla javascript</p>
+<p begin="00:02:00.320" end="00:02:07.119" style="s2">react.js react native flutter android</p>
+<p begin="00:02:03.520" end="00:02:09.200" style="s2">ios unity and even unreal engine and if</p>
+<p begin="00:02:07.119" end="00:02:11.599" style="s2">that wasn&#39;t enough a stream also has a</p>
+<p begin="00:02:09.200" end="00:02:13.840" style="s2">collection of ui components that we can</p>
+<p begin="00:02:11.599" end="00:02:16.239" style="s2">use to save even more time when</p>
+<p begin="00:02:13.840" end="00:02:18.080" style="s2">implementing chats or activity feeds if</p>
+<p begin="00:02:16.239" end="00:02:20.160" style="s2">you want to get started right now click</p>
+<p begin="00:02:18.080" end="00:02:22.720" style="s2">on the link below to sign up for your</p>
+<p begin="00:02:20.160" end="00:02:24.480" style="s2">free maker account or keep watching</p>
+<p begin="00:02:22.720" end="00:02:26.160" style="s2">because to see how easy it is to work</p>
+<p begin="00:02:24.480" end="00:02:29.200" style="s2">with stream we are going to implement</p>
+<p begin="00:02:26.160" end="00:02:31.840" style="s2">our own real-time chat using the stream</p>
+<p begin="00:02:29.200" end="00:02:34.319" style="s2">chat api and the stream react chat</p>
+<p begin="00:02:31.840" end="00:02:37.200" style="s2">components now before we start i need to</p>
+<p begin="00:02:34.319" end="00:02:39.840" style="s2">warn you stream is going to blow your</p>
+<p begin="00:02:37.200" end="00:02:42.160" style="s2">mind after we sign up for stream and get</p>
+<p begin="00:02:39.840" end="00:02:44.239" style="s2">a free maker account we will create a</p>
+<p begin="00:02:42.160" end="00:02:46.480" style="s2">new app for this we have to select the</p>
+<p begin="00:02:44.239" end="00:02:49.120" style="s2">region we want the code and the data to</p>
+<p begin="00:02:46.480" end="00:02:52.000" style="s2">be next we&#39;re going to create a new</p>
+<p begin="00:02:49.120" end="00:02:54.480" style="s2">channel type with a channel type we can</p>
+<p begin="00:02:52.000" end="00:02:56.879" style="s2">customize the features the rules and the</p>
+<p begin="00:02:54.480" end="00:02:59.360" style="s2">permissions that our users will have</p>
+<p begin="00:02:56.879" end="00:03:01.840" style="s2">when using our chat stream comes with</p>
+<p begin="00:02:59.360" end="00:03:04.480" style="s2">very useful channel types already made</p>
+<p begin="00:03:01.840" end="00:03:05.840" style="s2">for us for example the live stream chat</p>
+<p begin="00:03:04.480" end="00:03:08.000" style="s2">comes pre-configured with some</p>
+<p begin="00:03:05.840" end="00:03:10.159" style="s2">permissions already that allow logged in</p>
+<p begin="00:03:08.000" end="00:03:12.800" style="s2">users to write in the chat but only</p>
+<p begin="00:03:10.159" end="00:03:15.040" style="s2">allows anonymous users to read the chat</p>
+<p begin="00:03:12.800" end="00:03:17.120" style="s2">or for example the messaging chat comes</p>
+<p begin="00:03:15.040" end="00:03:19.760" style="s2">with some pre-configuration that doesn&#39;t</p>
+<p begin="00:03:17.120" end="00:03:22.720" style="s2">allow guests to look at the chat only</p>
+<p begin="00:03:19.760" end="00:03:25.200" style="s2">registered users only thanks to channel</p>
+<p begin="00:03:22.720" end="00:03:27.360" style="s2">types we can also specify what are the</p>
+<p begin="00:03:25.200" end="00:03:29.440" style="s2">events that our users are going to be</p>
+<p begin="00:03:27.360" end="00:03:31.519" style="s2">subscribed to when creating a new</p>
+<p begin="00:03:29.440" end="00:03:33.680" style="s2">channel type all we have to do is write</p>
+<p begin="00:03:31.519" end="00:03:35.599" style="s2">the name and select the events that we</p>
+<p begin="00:03:33.680" end="00:03:38.560" style="s2">are interested on</p>
+<p begin="00:03:35.599" end="00:03:40.319" style="s2">an example of an event is a typing event</p>
+<p begin="00:03:38.560" end="00:03:42.640" style="s2">we should leave this on if we want our</p>
+<p begin="00:03:40.319" end="00:03:45.120" style="s2">users to know when someone is typing a</p>
+<p begin="00:03:42.640" end="00:03:47.040" style="s2">message like in slack or in messenger</p>
+<p begin="00:03:45.120" end="00:03:49.440" style="s2">for example we&#39;re going to leave all of</p>
+<p begin="00:03:47.040" end="00:03:52.080" style="s2">them on for now then we&#39;re going to</p>
+<p begin="00:03:49.440" end="00:03:54.480" style="s2">write down the permission rules for our</p>
+<p begin="00:03:52.080" end="00:03:57.120" style="s2">chat first we will allow the admin which</p>
+<p begin="00:03:54.480" end="00:03:59.599" style="s2">is us to do whatever we want and then</p>
+<p begin="00:03:57.120" end="00:04:02.480" style="s2">we&#39;re going to allow guest users to be</p>
+<p begin="00:03:59.599" end="00:04:05.519" style="s2">able to create channels write messages</p>
+<p begin="00:04:02.480" end="00:04:07.360" style="s2">react to messages upload files and send</p>
+<p begin="00:04:05.519" end="00:04:09.680" style="s2">links now we are done with the</p>
+<p begin="00:04:07.360" end="00:04:11.920" style="s2">configuration we can now go to our react</p>
+<p begin="00:04:09.680" end="00:04:15.360" style="s2">application first we have to install the</p>
+<p begin="00:04:11.920" end="00:04:17.759" style="s2">stream chat npm package then we&#39;re going</p>
+<p begin="00:04:15.360" end="00:04:20.239" style="s2">to grab our api key from the settings</p>
+<p begin="00:04:17.759" end="00:04:23.040" style="s2">page of our application and use it to</p>
+<p begin="00:04:20.239" end="00:04:24.320" style="s2">connect from our code then when our</p>
+<p begin="00:04:23.040" end="00:04:26.880" style="s2">application starts we&#39;re going to</p>
+<p begin="00:04:24.320" end="00:04:28.800" style="s2">connect to stream using a guest user</p>
+<p begin="00:04:26.880" end="00:04:31.360" style="s2">with a random id</p>
+<p begin="00:04:28.800" end="00:04:33.840" style="s2">after that we will now create or connect</p>
+<p begin="00:04:31.360" end="00:04:36.320" style="s2">to a channel with the channel type that</p>
+<p begin="00:04:33.840" end="00:04:38.479" style="s2">we created before we will give it a name</p>
+<p begin="00:04:36.320" end="00:04:39.440" style="s2">and we will save this channel in the</p>
+<p begin="00:04:38.479" end="00:04:41.199" style="s2">state</p>
+<p begin="00:04:39.440" end="00:04:44.000" style="s2">now that we are connected you will</p>
+<p begin="00:04:41.199" end="00:04:46.960" style="s2">install the ui react components that are</p>
+<p begin="00:04:44.000" end="00:04:49.600" style="s2">provided for us by stream for free all</p>
+<p begin="00:04:46.960" end="00:04:52.000" style="s2">we have to do is npm install a stream</p>
+<p begin="00:04:49.600" end="00:04:54.880" style="s2">chat react and then all we have left to</p>
+<p begin="00:04:52.000" end="00:04:58.000" style="s2">do is to render the components and this</p>
+<p begin="00:04:54.880" end="00:05:00.960" style="s2">is the mind-blowing part stream gives us</p>
+<p begin="00:04:58.000" end="00:05:03.120" style="s2">components like chat channel and window</p>
+<p begin="00:05:00.960" end="00:05:05.600" style="s2">that will render a chat window on the</p>
+<p begin="00:05:03.120" end="00:05:07.680" style="s2">channel that we are connected to if we</p>
+<p begin="00:05:05.600" end="00:05:09.440" style="s2">want to show a header on the channel to</p>
+<p begin="00:05:07.680" end="00:05:11.280" style="s2">display the name of the channel and to</p>
+<p begin="00:05:09.440" end="00:05:13.840" style="s2">display a count of how many people are</p>
+<p begin="00:05:11.280" end="00:05:16.800" style="s2">currently online all we have to do is</p>
+<p begin="00:05:13.840" end="00:05:18.479" style="s2">render the channel header component as</p>
+<p begin="00:05:16.800" end="00:05:21.680" style="s2">you can see we can see the result</p>
+<p begin="00:05:18.479" end="00:05:24.000" style="s2">immediately in our screen now if we want</p>
+<p begin="00:05:21.680" end="00:05:26.080" style="s2">to show a list of messages in our</p>
+<p begin="00:05:24.000" end="00:05:28.479" style="s2">channel all we have to do is render the</p>
+<p begin="00:05:26.080" end="00:05:30.479" style="s2">message list component now because we</p>
+<p begin="00:05:28.479" end="00:05:32.880" style="s2">don&#39;t have any messages yet we have to</p>
+<p begin="00:05:30.479" end="00:05:35.199" style="s2">allow our users to write the messages</p>
+<p begin="00:05:32.880" end="00:05:37.199" style="s2">instead of creating an input manually</p>
+<p begin="00:05:35.199" end="00:05:39.280" style="s2">and doing all the code by ourselves all</p>
+<p begin="00:05:37.199" end="00:05:42.240" style="s2">we have to do is render the message</p>
+<p begin="00:05:39.280" end="00:05:44.080" style="s2">input component and boom that&#39;s it as</p>
+<p begin="00:05:42.240" end="00:05:46.560" style="s2">you can see that gives us an input that</p>
+<p begin="00:05:44.080" end="00:05:49.680" style="s2">works out of the box we can now send</p>
+<p begin="00:05:46.560" end="00:05:51.520" style="s2">messages and even upload files now when</p>
+<p begin="00:05:49.680" end="00:05:53.840" style="s2">all your users connect to our chat they</p>
+<p begin="00:05:51.520" end="00:05:56.080" style="s2">will see the list of previous messages</p>
+<p begin="00:05:53.840" end="00:05:58.319" style="s2">they will know when other users are</p>
+<p begin="00:05:56.080" end="00:06:01.360" style="s2">typing and they will even be able to</p>
+<p begin="00:05:58.319" end="00:06:03.440" style="s2">react to messages with emojis and this</p>
+<p begin="00:06:01.360" end="00:06:06.400" style="s2">is all because we render the right</p>
+<p begin="00:06:03.440" end="00:06:09.039" style="s2">components in the right places and if</p>
+<p begin="00:06:06.400" end="00:06:11.440" style="s2">that wasn&#39;t enough if we wanted our</p>
+<p begin="00:06:09.039" end="00:06:14.000" style="s2">users to be able to open threads in</p>
+<p begin="00:06:11.440" end="00:06:16.400" style="s2">messages the ways like that for example</p>
+<p begin="00:06:14.000" end="00:06:19.199" style="s2">all we have to do is render the thread</p>
+<p begin="00:06:16.400" end="00:06:22.560" style="s2">component just by doing that the users</p>
+<p begin="00:06:19.199" end="00:06:25.759" style="s2">can now talk in threads how easy was</p>
+<p begin="00:06:22.560" end="00:06:28.560" style="s2">that it&#39;s crazy we just made our own</p>
+<p begin="00:06:25.759" end="00:06:32.080" style="s2">slack clone with writing almost no</p>
+<p begin="00:06:28.560" end="00:06:34.000" style="s2">javascript at all and zero lines of css</p>
+<p begin="00:06:32.080" end="00:06:36.479" style="s2">the string chat react components are</p>
+<p begin="00:06:34.000" end="00:06:38.240" style="s2">super customizable as well here you can</p>
+<p begin="00:06:36.479" end="00:06:40.319" style="s2">see all the components you can use if</p>
+<p begin="00:06:38.240" end="00:06:42.960" style="s2">you want to modify the default look of</p>
+<p begin="00:06:40.319" end="00:06:44.639" style="s2">the message ui they are also full of</p>
+<p begin="00:06:42.960" end="00:06:46.160" style="s2">props that you can change and you can</p>
+<p begin="00:06:44.639" end="00:06:49.120" style="s2">even add class names if you want to</p>
+<p begin="00:06:46.160" end="00:06:51.280" style="s2">change the css directly and of course</p>
+<p begin="00:06:49.120" end="00:06:53.440" style="s2">you don&#39;t always have to use the stream</p>
+<p begin="00:06:51.280" end="00:06:56.080" style="s2">chat react components you can use your</p>
+<p begin="00:06:53.440" end="00:06:58.160" style="s2">own components with the chat api</p>
+<p begin="00:06:56.080" end="00:07:00.080" style="s2">thankfully the stream api is very</p>
+<p begin="00:06:58.160" end="00:07:02.400" style="s2">intuitive for example if you wanted to</p>
+<p begin="00:07:00.080" end="00:07:04.720" style="s2">send a message to the channel using code</p>
+<p begin="00:07:02.400" end="00:07:06.880" style="s2">and not the react stream components then</p>
+<p begin="00:07:04.720" end="00:07:09.520" style="s2">you can just do channel that send</p>
+<p begin="00:07:06.880" end="00:07:11.440" style="s2">message that&#39;s very easy to remember or</p>
+<p begin="00:07:09.520" end="00:07:13.039" style="s2">if you wanted to listen for new messages</p>
+<p begin="00:07:11.440" end="00:07:15.759" style="s2">in your channel all you have to do is</p>
+<p begin="00:07:13.039" end="00:07:18.160" style="s2">channel on new message or for example if</p>
+<p begin="00:07:15.759" end="00:07:20.800" style="s2">you wanted to add a reaction to a</p>
+<p begin="00:07:18.160" end="00:07:23.520" style="s2">message using your custom emojis all you</p>
+<p begin="00:07:20.800" end="00:07:25.599" style="s2">have to do is run channel send reaction</p>
+<p begin="00:07:23.520" end="00:07:27.520" style="s2">and the name of your reaction now let&#39;s</p>
+<p begin="00:07:25.599" end="00:07:29.599" style="s2">take a look at activity streams and see</p>
+<p begin="00:07:27.520" end="00:07:32.000" style="s2">how we would go about building a feed</p>
+<p begin="00:07:29.599" end="00:07:34.560" style="s2">instagram style for activity streams we</p>
+<p begin="00:07:32.000" end="00:07:36.400" style="s2">need a server from the server is from</p>
+<p begin="00:07:34.560" end="00:07:39.039" style="s2">where you will add the notifications to</p>
+<p begin="00:07:36.400" end="00:07:41.599" style="s2">the inbox of the users or activities to</p>
+<p begin="00:07:39.039" end="00:07:44.720" style="s2">their feeds on the server side first we</p>
+<p begin="00:07:41.599" end="00:07:47.120" style="s2">get a user token we do this to control</p>
+<p begin="00:07:44.720" end="00:07:50.160" style="s2">who can read the feed and notifications</p>
+<p begin="00:07:47.120" end="00:07:52.879" style="s2">in our front after we have our token</p>
+<p begin="00:07:50.160" end="00:07:54.960" style="s2">then we get a feed for our user</p>
+<p begin="00:07:52.879" end="00:07:56.879" style="s2">then in the server side when an event</p>
+<p begin="00:07:54.960" end="00:07:59.840" style="s2">happens we will add an activity to the</p>
+<p begin="00:07:56.879" end="00:08:03.039" style="s2">feed of our user we can also make our</p>
+<p begin="00:07:59.840" end="00:08:05.520" style="s2">user follow someone else now if for</p>
+<p begin="00:08:03.039" end="00:08:07.840" style="s2">example we were building a react native</p>
+<p begin="00:08:05.520" end="00:08:10.240" style="s2">application all we would have to do is</p>
+<p begin="00:08:07.840" end="00:08:13.039" style="s2">use the expo activity feed package that</p>
+<p begin="00:08:10.240" end="00:08:14.800" style="s2">a stream provides for free this package</p>
+<p begin="00:08:13.039" end="00:08:16.560" style="s2">has components that will allow us to</p>
+<p begin="00:08:14.800" end="00:08:19.840" style="s2">render our activity feeds doing</p>
+<p begin="00:08:16.560" end="00:08:22.560" style="s2">something like this the expo activity</p>
+<p begin="00:08:19.840" end="00:08:25.680" style="s2">feed package comes with like buttons</p>
+<p begin="00:08:22.560" end="00:08:27.919" style="s2">inputs link previews and even real-time</p>
+<p begin="00:08:25.680" end="00:08:29.520" style="s2">update notifications literally</p>
+<p begin="00:08:27.919" end="00:08:31.919" style="s2">everything you would need to build your</p>
+<p begin="00:08:29.520" end="00:08:34.640" style="s2">own social network as you can see a</p>
+<p begin="00:08:31.919" end="00:08:36.959" style="s2">stream is such a time saver doing what</p>
+<p begin="00:08:34.640" end="00:08:39.120" style="s2">we just did by ourselves we take us a</p>
+<p begin="00:08:36.959" end="00:08:41.279" style="s2">longer time thanks to stream we were</p>
+<p begin="00:08:39.120" end="00:08:43.760" style="s2">able to implement a real-time chat and</p>
+<p begin="00:08:41.279" end="00:08:45.600" style="s2">activity feeds in a matter of minutes</p>
+<p begin="00:08:43.760" end="00:08:48.080" style="s2">and our chat came with features like</p>
+<p begin="00:08:45.600" end="00:08:51.040" style="s2">private channels public channels message</p>
+<p begin="00:08:48.080" end="00:08:54.000" style="s2">reactions with emojis notification of</p>
+<p begin="00:08:51.040" end="00:08:56.560" style="s2">typing threads incredible now the good</p>
+<p begin="00:08:54.000" end="00:08:58.480" style="s2">news is that you can use a stream today</p>
+<p begin="00:08:56.560" end="00:09:01.600" style="s2">the free for makers account gives you</p>
+<p begin="00:08:58.480" end="00:09:04.320" style="s2">free and full access to the chat api for</p>
+<p begin="00:09:01.600" end="00:09:06.959" style="s2">up to 2 000 users per month and it gives</p>
+<p begin="00:09:04.320" end="00:09:11.440" style="s2">you full and free access to the feeds</p>
+<p begin="00:09:06.959" end="00:09:12.240" style="s2">api for up to 9 million feed updates per</p>
+<p begin="00:09:11.440" end="00:09:15.040" style="s2">month</p>
+<p begin="00:09:12.240" end="00:09:16.720" style="s2">click on the link below to sign up today</p>
+<p begin="00:09:15.040" end="00:09:19.040" style="s2">thank you to stream for sponsoring this</p>
+<p begin="00:09:16.720" end="00:09:20.720" style="s2">video and thank you for watching this</p>
+<p begin="00:09:19.040" end="00:09:22.399" style="s2">video let me know in the comments if you</p>
+<p begin="00:09:20.720" end="00:09:24.720" style="s2">would like to see a full tutorial on</p>
+<p begin="00:09:22.399" end="00:09:27.040" style="s2">stream using the chat api to build our</p>
+<p begin="00:09:24.720" end="00:09:29.440" style="s2">own slack clone or if you would like me</p>
+<p begin="00:09:27.040" end="00:09:31.680" style="s2">to use the feed api to build our own</p>
+<p begin="00:09:29.440" end="00:09:33.279" style="s2">twitter or instagram and that&#39;s it for</p>
+<p begin="00:09:31.680" end="00:09:34.720" style="s2">this video what do you think of stream</p>
+<p begin="00:09:33.279" end="00:09:36.399" style="s2">have you heard about stream do you want</p>
+<p begin="00:09:34.720" end="00:09:37.600" style="s2">to learn more about stream have you used</p>
+<p begin="00:09:36.399" end="00:09:39.040" style="s2">the stream let me know in the comments</p>
+<p begin="00:09:37.600" end="00:09:40.480" style="s2">i&#39;m going to be looking at them right</p>
+<p begin="00:09:39.040" end="00:09:42.480" style="s2">now thank you so much for watching as</p>
+<p begin="00:09:40.480" end="00:09:44.240" style="s2">always stay happy stay free eat kimchi</p>
+<p begin="00:09:42.480" end="00:09:46.630" style="s2">i&#39;m zamida san angelo see you on the</p>
+<p begin="00:09:44.240" end="00:09:49.669" style="s2">next one bye</p>
+<p begin="00:09:46.630" end="00:09:49.669" style="s2">[Music]</p>
+</div>
+</body>
+</tt>

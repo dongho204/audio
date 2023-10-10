@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.320" end="00:00:06.879" style="s2">and today we are going to make</p>
+<p begin="00:00:03.760" end="00:00:07.200" style="s2">a trading bot using python the reason</p>
+<p begin="00:00:06.879" end="00:00:08.960" style="s2">why</p>
+<p begin="00:00:07.200" end="00:00:11.440" style="s2">is because everybody around me seems to</p>
+<p begin="00:00:08.960" end="00:00:13.200" style="s2">be doing trading</p>
+<p begin="00:00:11.440" end="00:00:15.360" style="s2">now the strategy to make money with this</p>
+<p begin="00:00:13.200" end="00:00:15.839" style="s2">bot is very very simple but it&#39;s very</p>
+<p begin="00:00:15.360" end="00:00:18.400" style="s2">smart</p>
+<p begin="00:00:15.839" end="00:00:19.600" style="s2">check it out we are going to buy bitcoin</p>
+<p begin="00:00:18.400" end="00:00:21.359" style="s2">when it&#39;s cheap</p>
+<p begin="00:00:19.600" end="00:00:23.840" style="s2">and we&#39;re going to sell bitcoin when</p>
+<p begin="00:00:21.359" end="00:00:26.960" style="s2">it&#39;s expensive i know</p>
+<p begin="00:00:23.840" end="00:00:29.679" style="s2">amazing strategy now</p>
+<p begin="00:00:26.960" end="00:00:31.599" style="s2">to try to guess if bitcoin is cheap and</p>
+<p begin="00:00:29.679" end="00:00:33.200" style="s2">it might become expensive</p>
+<p begin="00:00:31.599" end="00:00:34.719" style="s2">later we&#39;re going to use something</p>
+<p begin="00:00:33.200" end="00:00:36.880" style="s2">called an indicator</p>
+<p begin="00:00:34.719" end="00:00:39.120" style="s2">an indicator for example is when you are</p>
+<p begin="00:00:36.880" end="00:00:40.160" style="s2">on the park and you see that there&#39;s</p>
+<p begin="00:00:39.120" end="00:00:42.079" style="s2">clouds coming in</p>
+<p begin="00:00:40.160" end="00:00:44.000" style="s2">dark clouds coming that might be an</p>
+<p begin="00:00:42.079" end="00:00:46.640" style="s2">indicator that is going to rain</p>
+<p begin="00:00:44.000" end="00:00:48.320" style="s2">soon it&#39;s the same thing with the market</p>
+<p begin="00:00:46.640" end="00:00:49.760" style="s2">with the stock market with trading</p>
+<p begin="00:00:48.320" end="00:00:52.079" style="s2">we&#39;re going to use the most simple</p>
+<p begin="00:00:49.760" end="00:00:55.120" style="s2">indicator and we&#39;re going to hope</p>
+<p begin="00:00:52.079" end="00:00:55.600" style="s2">that hopefully we can make at least one</p>
+<p begin="00:00:55.120" end="00:00:58.079" style="s2">cent</p>
+<p begin="00:00:55.600" end="00:00:59.920" style="s2">or at least one dollar of profit with</p>
+<p begin="00:00:58.079" end="00:01:00.800" style="s2">this indicator all right so i already</p>
+<p begin="00:00:59.920" end="00:01:03.120" style="s2">have</p>
+<p begin="00:01:00.800" end="00:01:04.239" style="s2">the code that makes a graph so i can</p>
+<p begin="00:01:03.120" end="00:01:06.479" style="s2">show you the indicator</p>
+<p begin="00:01:04.239" end="00:01:07.360" style="s2">this graph shows you the price of</p>
+<p begin="00:01:06.479" end="00:01:11.040" style="s2">bitcoin</p>
+<p begin="00:01:07.360" end="00:01:13.119" style="s2">per hour for the last 1000 hours plus</p>
+<p begin="00:01:11.040" end="00:01:14.400" style="s2">the simple moving average simple moving</p>
+<p begin="00:01:13.119" end="00:01:16.400" style="s2">average is the name of the indicator</p>
+<p begin="00:01:14.400" end="00:01:18.240" style="s2">we&#39;re going to use and it&#39;s basically</p>
+<p begin="00:01:16.400" end="00:01:20.159" style="s2">the average price so in this case as you</p>
+<p begin="00:01:18.240" end="00:01:22.720" style="s2">can see right here</p>
+<p begin="00:01:20.159" end="00:01:23.840" style="s2">it went up and then right here it went</p>
+<p begin="00:01:22.720" end="00:01:26.320" style="s2">down so the price is</p>
+<p begin="00:01:23.840" end="00:01:27.520" style="s2">always dancing with the simple moving</p>
+<p begin="00:01:26.320" end="00:01:29.920" style="s2">average if the price</p>
+<p begin="00:01:27.520" end="00:01:32.400" style="s2">crosses the simple moving average going</p>
+<p begin="00:01:29.920" end="00:01:33.200" style="s2">up that might mean that the market is</p>
+<p begin="00:01:32.400" end="00:01:35.759" style="s2">going on an</p>
+<p begin="00:01:33.200" end="00:01:36.880" style="s2">upward direction if the price crosses</p>
+<p begin="00:01:35.759" end="00:01:38.960" style="s2">moving average</p>
+<p begin="00:01:36.880" end="00:01:40.880" style="s2">down that might mean that the market is</p>
+<p begin="00:01:38.960" end="00:01:42.320" style="s2">going on a downward direction and in</p>
+<p begin="00:01:40.880" end="00:01:45.119" style="s2">these sorts of</p>
+<p begin="00:01:42.320" end="00:01:45.920" style="s2">stroke as you can see here here it</p>
+<p begin="00:01:45.119" end="00:01:48.159" style="s2">crossed up</p>
+<p begin="00:01:45.920" end="00:01:50.079" style="s2">and it sort of went up and then when it</p>
+<p begin="00:01:48.159" end="00:01:52.159" style="s2">crossed down it kept going down</p>
+<p begin="00:01:50.079" end="00:01:54.000" style="s2">so this can show us a little bit of a</p>
+<p begin="00:01:52.159" end="00:01:54.799" style="s2">trend that could form the strategy is</p>
+<p begin="00:01:54.000" end="00:01:57.280" style="s2">gonna be</p>
+<p begin="00:01:54.799" end="00:01:59.119" style="s2">that when we see this happening like</p>
+<p begin="00:01:57.280" end="00:02:01.600" style="s2">this for example right here</p>
+<p begin="00:01:59.119" end="00:02:02.159" style="s2">when we see this happening we are going</p>
+<p begin="00:02:01.600" end="00:02:04.960" style="s2">to buy</p>
+<p begin="00:02:02.159" end="00:02:06.880" style="s2">so let me show you with arrows and stuff</p>
+<p begin="00:02:04.960" end="00:02:07.360" style="s2">when we would buy and when we would be</p>
+<p begin="00:02:06.880" end="00:02:09.280" style="s2">selling</p>
+<p begin="00:02:07.360" end="00:02:11.039" style="s2">okay and this is how it looks like this</p>
+<p begin="00:02:09.280" end="00:02:11.599" style="s2">is when i put the arrows of buying and</p>
+<p begin="00:02:11.039" end="00:02:13.599" style="s2">selling</p>
+<p begin="00:02:11.599" end="00:02:15.360" style="s2">here we would have bought and then we</p>
+<p begin="00:02:13.599" end="00:02:16.319" style="s2">could have sold that just a little bit</p>
+<p begin="00:02:15.360" end="00:02:19.520" style="s2">of money that would mean like</p>
+<p begin="00:02:16.319" end="00:02:22.160" style="s2">two cents of money but it would be good</p>
+<p begin="00:02:19.520" end="00:02:23.599" style="s2">again here buying and selling as you can</p>
+<p begin="00:02:22.160" end="00:02:25.760" style="s2">see the price crossed</p>
+<p begin="00:02:23.599" end="00:02:26.959" style="s2">we kept going up and then the moment we</p>
+<p begin="00:02:25.760" end="00:02:29.680" style="s2">saw red boom</p>
+<p begin="00:02:26.959" end="00:02:30.160" style="s2">we sold so this thing actually might</p>
+<p begin="00:02:29.680" end="00:02:32.959" style="s2">work</p>
+<p begin="00:02:30.160" end="00:02:34.640" style="s2">we might make one dollar at least</p>
+<p begin="00:02:32.959" end="00:02:35.040" style="s2">hopefully i will make one dollar from</p>
+<p begin="00:02:34.640" end="00:02:38.400" style="s2">this</p>
+<p begin="00:02:35.040" end="00:02:40.720" style="s2">okay here we lost money so</p>
+<p begin="00:02:38.400" end="00:02:42.560" style="s2">now that we know and we visualized how</p>
+<p begin="00:02:40.720" end="00:02:42.959" style="s2">it would work i am going to add some</p>
+<p begin="00:02:42.560" end="00:02:44.720" style="s2">nice</p>
+<p begin="00:02:42.959" end="00:02:46.560" style="s2">print statements and do the calculation</p>
+<p begin="00:02:44.720" end="00:02:48.640" style="s2">of how much money we would have made</p>
+<p begin="00:02:46.560" end="00:02:50.000" style="s2">okay because again always test this</p>
+<p begin="00:02:48.640" end="00:02:53.920" style="s2">thing with historical</p>
+<p begin="00:02:50.000" end="00:02:57.760" style="s2">data all right i think i have good news</p>
+<p begin="00:02:53.920" end="00:03:01.200" style="s2">using the last 1 000 hours okay</p>
+<p begin="00:02:57.760" end="00:03:04.239" style="s2">if we were playing with 1</p>
+<p begin="00:03:01.200" end="00:03:07.920" style="s2">000 so for example here as you can see</p>
+<p begin="00:03:04.239" end="00:03:09.760" style="s2">we would have bought at 19 a 596 and we</p>
+<p begin="00:03:07.920" end="00:03:10.239" style="s2">sold at seven that was a ten dollar</p>
+<p begin="00:03:09.760" end="00:03:13.519" style="s2">profit</p>
+<p begin="00:03:10.239" end="00:03:17.200" style="s2">boom okay next one that was an 18 profit</p>
+<p begin="00:03:13.519" end="00:03:17.840" style="s2">awesome then we lost ten dollars already</p>
+<p begin="00:03:17.200" end="00:03:19.760" style="s2">hey</p>
+<p begin="00:03:17.840" end="00:03:21.040" style="s2">look oh my god there was a trade we</p>
+<p begin="00:03:19.760" end="00:03:24.159" style="s2">bought at four</p>
+<p begin="00:03:21.040" end="00:03:27.519" style="s2">one six we sold at six thirty one</p>
+<p begin="00:03:24.159" end="00:03:29.200" style="s2">sweet at the end we did so many trades</p>
+<p begin="00:03:27.519" end="00:03:32.319" style="s2">they oh look at this</p>
+<p begin="00:03:29.200" end="00:03:35.760" style="s2">we made 33 dollars we run</p>
+<p begin="00:03:32.319" end="00:03:40.640" style="s2">this bot from august 30</p>
+<p begin="00:03:35.760" end="00:03:45.680" style="s2">of 2020 until october 8th that is today</p>
+<p begin="00:03:40.640" end="00:03:45.680" style="s2">we would have made 33 dollars</p>
+<p begin="00:03:45.760" end="00:03:49.360" style="s2">i know what you might be thinking that</p>
+<p begin="00:03:47.360" end="00:03:52.640" style="s2">if we run the boat from</p>
+<p begin="00:03:49.360" end="00:03:54.720" style="s2">august 30 to almost october just making</p>
+<p begin="00:03:52.640" end="00:03:56.799" style="s2">33 dollars it&#39;s a really</p>
+<p begin="00:03:54.720" end="00:03:58.239" style="s2"> return you are right it is a very</p>
+<p begin="00:03:56.799" end="00:04:00.159" style="s2">bad return but still</p>
+<p begin="00:03:58.239" end="00:04:02.159" style="s2">that is money that in theory we didn&#39;t</p>
+<p begin="00:04:00.159" end="00:04:04.000" style="s2">have and in theory we made</p>
+<p begin="00:04:02.159" end="00:04:05.599" style="s2">like i said this is historical data so</p>
+<p begin="00:04:04.000" end="00:04:07.120" style="s2">we need to test this for real</p>
+<p begin="00:04:05.599" end="00:04:08.640" style="s2">i already have the logic of finding the</p>
+<p begin="00:04:07.120" end="00:04:10.560" style="s2">simple moving average i already have the</p>
+<p begin="00:04:08.640" end="00:04:12.000" style="s2">logic of when to buy when to sell now i</p>
+<p begin="00:04:10.560" end="00:04:12.560" style="s2">just need to connect with the binance</p>
+<p begin="00:04:12.000" end="00:04:14.400" style="s2">api</p>
+<p begin="00:04:12.560" end="00:04:16.160" style="s2">shouldn&#39;t take long and we can finally</p>
+<p begin="00:04:14.400" end="00:04:17.759" style="s2">test this bot so i&#39;m gonna put a</p>
+<p begin="00:04:16.160" end="00:04:19.359" style="s2">thousand dollars on my binance account</p>
+<p begin="00:04:17.759" end="00:04:21.199" style="s2">and we&#39;re gonna be playing around with</p>
+<p begin="00:04:19.359" end="00:04:22.560" style="s2">one thousand dollars the thing is though</p>
+<p begin="00:04:21.199" end="00:04:25.600" style="s2">that we don&#39;t have the time</p>
+<p begin="00:04:22.560" end="00:04:26.000" style="s2">to test the bot for such a long period</p>
+<p begin="00:04:25.600" end="00:04:27.919" style="s2">of time</p>
+<p begin="00:04:26.000" end="00:04:29.040" style="s2">well i&#39;m gonna test this by the minute</p>
+<p begin="00:04:27.919" end="00:04:31.040" style="s2">okay so we&#39;ll see</p>
+<p begin="00:04:29.040" end="00:04:32.880" style="s2">how that&#39;s different but we need testing</p>
+<p begin="00:04:31.040" end="00:04:34.240" style="s2">we need it today and i want to see if i</p>
+<p begin="00:04:32.880" end="00:04:36.400" style="s2">can make some money</p>
+<p begin="00:04:34.240" end="00:04:37.600" style="s2">sorry not money cents i want to make</p>
+<p begin="00:04:36.400" end="00:04:40.160" style="s2">sense if i make</p>
+<p begin="00:04:37.600" end="00:04:42.000" style="s2">sense i&#39;ll be happy so like i said i</p>
+<p begin="00:04:40.160" end="00:04:45.040" style="s2">already have 500 dollars</p>
+<p begin="00:04:42.000" end="00:04:48.160" style="s2">in so now what i have to do is buy</p>
+<p begin="00:04:45.040" end="00:04:51.520" style="s2">500 more of usdt</p>
+<p begin="00:04:48.160" end="00:04:53.040" style="s2">and you will see look 500 that is</p>
+<p begin="00:04:51.520" end="00:04:56.720" style="s2">roughly 495</p>
+<p begin="00:04:53.040" end="00:05:00.160" style="s2">usdt and here we go</p>
+<p begin="00:04:56.720" end="00:05:04.639" style="s2">let&#39;s buy okay</p>
+<p begin="00:05:00.160" end="00:05:04.639" style="s2">confirm the order okay let&#39;s go</p>
+<p begin="00:05:05.520" end="00:05:08.880" style="s2">all right look at this purchase</p>
+<p begin="00:05:07.039" end="00:05:10.639" style="s2">completed</p>
+<p begin="00:05:08.880" end="00:05:12.720" style="s2">i just spent five hundred dollars for a</p>
+<p begin="00:05:10.639" end="00:05:13.680" style="s2"> video that&#39;s my wallet right</p>
+<p begin="00:05:12.720" end="00:05:16.240" style="s2">there</p>
+<p begin="00:05:13.680" end="00:05:16.880" style="s2">uh look this is very important we have</p>
+<p begin="00:05:16.240" end="00:05:19.360" style="s2">nine</p>
+<p begin="00:05:16.880" end="00:05:21.440" style="s2">nine sixty five so it&#39;s almost almost a</p>
+<p begin="00:05:19.360" end="00:05:25.280" style="s2">thousand dollars a little bit less</p>
+<p begin="00:05:21.440" end="00:05:26.260" style="s2">so it&#39;s true we have this so now</p>
+<p begin="00:05:25.280" end="00:05:31.350" style="s2">let&#39;s get started</p>
+<p begin="00:05:26.260" end="00:05:31.350" style="s2">[Music]</p>
+<p begin="00:05:33.600" end="00:05:38.000" style="s2">so i&#39;m done with the code i just removed</p>
+<p begin="00:05:35.840" end="00:05:39.280" style="s2">all the chart code and i just added the</p>
+<p begin="00:05:38.000" end="00:05:41.680" style="s2">binance code okay</p>
+<p begin="00:05:39.280" end="00:05:43.840" style="s2">now binance has a sweet api so we just</p>
+<p begin="00:05:41.680" end="00:05:44.479" style="s2">connect to it but basically we&#39;re going</p>
+<p begin="00:05:43.840" end="00:05:46.160" style="s2">to</p>
+<p begin="00:05:44.479" end="00:05:48.880" style="s2">buy and we&#39;re going to sell when some</p>
+<p begin="00:05:46.160" end="00:05:52.400" style="s2">conditions happen let&#39;s start this thing</p>
+<p begin="00:05:48.880" end="00:05:54.160" style="s2">and see the state of our money let&#39;s go</p>
+<p begin="00:05:52.400" end="00:05:55.840" style="s2">i believe in my code i believe on</p>
+<p begin="00:05:54.160" end="00:05:58.000" style="s2">everything that i said</p>
+<p begin="00:05:55.840" end="00:05:58.900" style="s2">let&#39;s test this and see how much sense</p>
+<p begin="00:05:58.000" end="00:06:03.840" style="s2">we make</p>
+<p begin="00:05:58.900" end="00:06:06.000" style="s2">[Music]</p>
+<p begin="00:06:03.840" end="00:06:07.120" style="s2">all right so i killed the bot i want to</p>
+<p begin="00:06:06.000" end="00:06:10.639" style="s2">show you</p>
+<p begin="00:06:07.120" end="00:06:14.400" style="s2">on my dashboard on binance what happened</p>
+<p begin="00:06:10.639" end="00:06:18.160" style="s2">okay so we bought at 96</p>
+<p begin="00:06:14.400" end="00:06:22.000" style="s2">and we sold at 91 so we lost money there</p>
+<p begin="00:06:18.160" end="00:06:25.039" style="s2">we bought 69 sell that 70 buy 71</p>
+<p begin="00:06:22.000" end="00:06:28.639" style="s2">sell 69 lost money buy 68</p>
+<p begin="00:06:25.039" end="00:06:32.160" style="s2">sell 68 lost money buy 69</p>
+<p begin="00:06:28.639" end="00:06:35.680" style="s2">sell 70 good buy 70</p>
+<p begin="00:06:32.160" end="00:06:36.319" style="s2">sell 71. so it looks like we made some</p>
+<p begin="00:06:35.680" end="00:06:39.360" style="s2">money but</p>
+<p begin="00:06:36.319" end="00:06:42.160" style="s2">actually we lost money overall</p>
+<p begin="00:06:39.360" end="00:06:44.560" style="s2">even when we bought in a cheap price and</p>
+<p begin="00:06:42.160" end="00:06:46.720" style="s2">we sold on an expensive price</p>
+<p begin="00:06:44.560" end="00:06:48.080" style="s2">we lost money the reason why we lost</p>
+<p begin="00:06:46.720" end="00:06:50.720" style="s2">money is actually because</p>
+<p begin="00:06:48.080" end="00:06:51.440" style="s2">of the commissions and the fees of the</p>
+<p begin="00:06:50.720" end="00:06:54.479" style="s2">exchange</p>
+<p begin="00:06:51.440" end="00:06:55.919" style="s2">for example here i bought at 570 and i</p>
+<p begin="00:06:54.479" end="00:06:58.080" style="s2">sold at 571</p>
+<p begin="00:06:55.919" end="00:06:59.440" style="s2">that means i should have made money but</p>
+<p begin="00:06:58.080" end="00:07:01.759" style="s2">actually because</p>
+<p begin="00:06:59.440" end="00:07:02.720" style="s2">of the exchange as you can see here i</p>
+<p begin="00:07:01.759" end="00:07:06.000" style="s2">actually lost</p>
+<p begin="00:07:02.720" end="00:07:07.759" style="s2">eight cents so that sucks now</p>
+<p begin="00:07:06.000" end="00:07:09.840" style="s2">how to fix this the historical data that</p>
+<p begin="00:07:07.759" end="00:07:13.039" style="s2">i showed you that made like 30</p>
+<p begin="00:07:09.840" end="00:07:14.800" style="s2">as a profit that was for every 30 minute</p>
+<p begin="00:07:13.039" end="00:07:16.800" style="s2">period not one minute period</p>
+<p begin="00:07:14.800" end="00:07:18.400" style="s2">30 minutes the problem with minutes is</p>
+<p begin="00:07:16.800" end="00:07:20.080" style="s2">that they are so small</p>
+<p begin="00:07:18.400" end="00:07:22.080" style="s2">that it never changes it&#39;s like this</p>
+<p begin="00:07:20.080" end="00:07:24.160" style="s2">look the price is like this</p>
+<p begin="00:07:22.080" end="00:07:25.919" style="s2">we need something like this to make the</p>
+<p begin="00:07:24.160" end="00:07:27.919" style="s2">money and this doesn&#39;t happen</p>
+<p begin="00:07:25.919" end="00:07:29.759" style="s2">all the time every day we need to wait</p>
+<p begin="00:07:27.919" end="00:07:30.319" style="s2">for a longer time so maybe if i run this</p>
+<p begin="00:07:29.759" end="00:07:33.440" style="s2">thing</p>
+<p begin="00:07:30.319" end="00:07:36.080" style="s2">for at least a month we&#39;ll see</p>
+<p begin="00:07:33.440" end="00:07:38.080" style="s2">if it works also with 30 minute periods</p>
+<p begin="00:07:36.080" end="00:07:41.120" style="s2">instead of one minute periods</p>
+<p begin="00:07:38.080" end="00:07:43.120" style="s2">now another thing is that i believe</p>
+<p begin="00:07:41.120" end="00:07:44.720" style="s2">every time i send an order to the</p>
+<p begin="00:07:43.120" end="00:07:47.520" style="s2">exchange the price</p>
+<p begin="00:07:44.720" end="00:07:49.440" style="s2">changes so quickly that my order arrives</p>
+<p begin="00:07:47.520" end="00:07:52.400" style="s2">to the exchange and maybe</p>
+<p begin="00:07:49.440" end="00:07:54.319" style="s2">while it takes time to fulfill then the</p>
+<p begin="00:07:52.400" end="00:07:56.080" style="s2">price changes so that&#39;s another problem</p>
+<p begin="00:07:54.319" end="00:07:57.759" style="s2">and maybe instead of using python and</p>
+<p begin="00:07:56.080" end="00:08:00.479" style="s2">the rest api i use</p>
+<p begin="00:07:57.759" end="00:08:01.840" style="s2">something like go and web sockets so</p>
+<p begin="00:08:00.479" end="00:08:04.240" style="s2">even faster</p>
+<p begin="00:08:01.840" end="00:08:05.440" style="s2">we&#39;ll see but so far we didn&#39;t make any</p>
+<p begin="00:08:04.240" end="00:08:07.759" style="s2">money now i&#39;m happy</p>
+<p begin="00:08:05.440" end="00:08:09.360" style="s2">because the strategy works and we could</p>
+<p begin="00:08:07.759" end="00:08:10.160" style="s2">test it and that&#39;s the whole point we</p>
+<p begin="00:08:09.360" end="00:08:13.039" style="s2">tested it</p>
+<p begin="00:08:10.160" end="00:08:14.000" style="s2">and i feel good we bought at cheap price</p>
+<p begin="00:08:13.039" end="00:08:16.560" style="s2">and we sold</p>
+<p begin="00:08:14.000" end="00:08:18.160" style="s2">at an expensive price it&#39;s amazing to be</p>
+<p begin="00:08:16.560" end="00:08:20.960" style="s2">a programmer in my opinion it&#39;s because</p>
+<p begin="00:08:18.160" end="00:08:22.800" style="s2">of this that i love being a programmer</p>
+<p begin="00:08:20.960" end="00:08:24.479" style="s2">that&#39;s it for this video let me know in</p>
+<p begin="00:08:22.800" end="00:08:24.960" style="s2">the comments if you feel like you want</p>
+<p begin="00:08:24.479" end="00:08:27.199" style="s2">to see</p>
+<p begin="00:08:24.960" end="00:08:29.599" style="s2">more of this content should i work more</p>
+<p begin="00:08:27.199" end="00:08:30.720" style="s2">on this bot until i can buy myself a</p>
+<p begin="00:08:29.599" end="00:08:33.360" style="s2">nice apathy</p>
+<p begin="00:08:30.720" end="00:08:34.240" style="s2">or should i invest my money somewhere</p>
+<p begin="00:08:33.360" end="00:08:35.839" style="s2">else</p>
+<p begin="00:08:34.240" end="00:08:37.200" style="s2">i don&#39;t know we&#39;ll see let me know in</p>
+<p begin="00:08:35.839" end="00:08:37.599" style="s2">the comments maybe this is the beginning</p>
+<p begin="00:08:37.200" end="00:08:39.519" style="s2">of a</p>
+<p begin="00:08:37.599" end="00:08:40.800" style="s2">series of optimizing the bot and</p>
+<p begin="00:08:39.519" end="00:08:42.560" style="s2">whatever</p>
+<p begin="00:08:40.800" end="00:08:44.080" style="s2">thank you so much for watching thank you</p>
+<p begin="00:08:42.560" end="00:08:45.839" style="s2">for your support don&#39;t forget to be</p>
+<p begin="00:08:44.080" end="00:08:55.839" style="s2">happy today take care of yourself</p>
+<p begin="00:08:45.839" end="00:08:55.839" style="s2">eat kimchi</p>
+<p begin="00:08:58.800" end="00:09:00.880" style="s2">you</p>
+</div>
+</body>
+</tt>

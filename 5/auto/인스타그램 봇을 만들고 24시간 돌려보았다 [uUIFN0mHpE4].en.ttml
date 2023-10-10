@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.399" end="00:00:07.200" style="s2">and today we are going to build a</p>
+<p begin="00:00:04.080" end="00:00:09.040" style="s2">python instagram bot this is because</p>
+<p begin="00:00:07.200" end="00:00:11.040" style="s2">this little one just opened her</p>
+<p begin="00:00:09.040" end="00:00:13.759" style="s2">instagram account and she has no</p>
+<p begin="00:00:11.040" end="00:00:14.719" style="s2">followers so using the power of python</p>
+<p begin="00:00:13.759" end="00:00:17.680" style="s2">and automation</p>
+<p begin="00:00:14.719" end="00:00:19.199" style="s2">we&#39;re going to try to make her</p>
+<p begin="00:00:17.680" end="00:00:21.920" style="s2">instafamous</p>
+<p begin="00:00:19.199" end="00:00:21.920" style="s2">let&#39;s get started</p>
+<p begin="00:00:22.960" end="00:00:26.480" style="s2">okay so here&#39;s the plan what our bot is</p>
+<p begin="00:00:25.599" end="00:00:28.720" style="s2">going to do</p>
+<p begin="00:00:26.480" end="00:00:30.320" style="s2">is that it&#39;s going to go to a hashtag of</p>
+<p begin="00:00:28.720" end="00:00:32.320" style="s2">instagram is going to like</p>
+<p begin="00:00:30.320" end="00:00:33.360" style="s2">photos on that hashtag he&#39;s also going</p>
+<p begin="00:00:32.320" end="00:00:35.520" style="s2">to comment</p>
+<p begin="00:00:33.360" end="00:00:36.640" style="s2">on those photos and then is going to go</p>
+<p begin="00:00:35.520" end="00:00:38.960" style="s2">to the profile</p>
+<p begin="00:00:36.640" end="00:00:40.399" style="s2">of the people posting those photos and</p>
+<p begin="00:00:38.960" end="00:00:41.840" style="s2">is going to follow them</p>
+<p begin="00:00:40.399" end="00:00:43.440" style="s2">if you don&#39;t know how automation works</p>
+<p begin="00:00:41.840" end="00:00:44.000" style="s2">on the browser it basically works with</p>
+<p begin="00:00:43.440" end="00:00:46.960" style="s2">something called</p>
+<p begin="00:00:44.000" end="00:00:48.480" style="s2">python and selenium selenium is a</p>
+<p begin="00:00:46.960" end="00:00:50.000" style="s2">project that allows you to basically</p>
+<p begin="00:00:48.480" end="00:00:50.960" style="s2">automate your browser so it&#39;s like a</p>
+<p begin="00:00:50.000" end="00:00:52.800" style="s2">google chrome</p>
+<p begin="00:00:50.960" end="00:00:54.800" style="s2">controlled by python thing is that it&#39;s</p>
+<p begin="00:00:52.800" end="00:00:56.160" style="s2">very easy to detect users that are using</p>
+<p begin="00:00:54.800" end="00:00:58.320" style="s2">selenium and instagram</p>
+<p begin="00:00:56.160" end="00:00:59.199" style="s2">is investing a lot of time in blocking</p>
+<p begin="00:00:58.320" end="00:01:01.280" style="s2">such people</p>
+<p begin="00:00:59.199" end="00:01:02.879" style="s2">but still i am going to try to implement</p>
+<p begin="00:01:01.280" end="00:01:05.360" style="s2">this bot using selenium</p>
+<p begin="00:01:02.879" end="00:01:07.119" style="s2">and if it doesn&#39;t work and if i get</p>
+<p begin="00:01:05.360" end="00:01:08.000" style="s2">blocked we&#39;re still going to try to do</p>
+<p begin="00:01:07.119" end="00:01:10.720" style="s2">the automation</p>
+<p begin="00:01:08.000" end="00:01:12.080" style="s2">using my android maybe you didn&#39;t know</p>
+<p begin="00:01:10.720" end="00:01:14.560" style="s2">this but it is possible</p>
+<p begin="00:01:12.080" end="00:01:15.759" style="s2">to send python commands to android you</p>
+<p begin="00:01:14.560" end="00:01:18.799" style="s2">can literally say</p>
+<p begin="00:01:15.759" end="00:01:19.360" style="s2">open up boom you can say take photo you</p>
+<p begin="00:01:18.799" end="00:01:21.280" style="s2">can say</p>
+<p begin="00:01:19.360" end="00:01:23.439" style="s2">tap here you can do all those things</p>
+<p begin="00:01:21.280" end="00:01:25.439" style="s2">from python to your android phone</p>
+<p begin="00:01:23.439" end="00:01:26.799" style="s2">so i&#39;m gonna be doing all these tests</p>
+<p begin="00:01:25.439" end="00:01:28.080" style="s2">with a throwaway account with a</p>
+<p begin="00:01:26.799" end="00:01:29.920" style="s2">disposable account</p>
+<p begin="00:01:28.080" end="00:01:31.360" style="s2">in case i get blocked once i have all</p>
+<p begin="00:01:29.920" end="00:01:32.880" style="s2">that set up then</p>
+<p begin="00:01:31.360" end="00:01:34.799" style="s2">we&#39;re going to do it with the real</p>
+<p begin="00:01:32.880" end="00:01:35.280" style="s2">account all right so my bot is going to</p>
+<p begin="00:01:34.799" end="00:01:37.119" style="s2">login</p>
+<p begin="00:01:35.280" end="00:01:39.040" style="s2">into instagram we&#39;re going to dismiss</p>
+<p begin="00:01:37.119" end="00:01:41.040" style="s2">the popups then we&#39;re going to search</p>
+<p begin="00:01:39.040" end="00:01:41.840" style="s2">for a popular hashtag in this case bts</p>
+<p begin="00:01:41.040" end="00:01:43.840" style="s2">army</p>
+<p begin="00:01:41.840" end="00:01:45.200" style="s2">then we&#39;re going to scroll down a lot so</p>
+<p begin="00:01:43.840" end="00:01:47.520" style="s2">we can get a lot of photos</p>
+<p begin="00:01:45.200" end="00:01:48.560" style="s2">and then on each photo that we found</p>
+<p begin="00:01:47.520" end="00:01:51.200" style="s2">we&#39;re going to like</p>
+<p begin="00:01:48.560" end="00:01:52.159" style="s2">comment and follow the person who posted</p>
+<p begin="00:01:51.200" end="00:01:54.399" style="s2">the photo</p>
+<p begin="00:01:52.159" end="00:01:55.200" style="s2">now we&#39;re going to do this very fast and</p>
+<p begin="00:01:54.399" end="00:01:59.439" style="s2">very often</p>
+<p begin="00:01:55.200" end="00:01:59.439" style="s2">so hopefully we don&#39;t get blocked</p>
+<p begin="00:02:00.560" end="00:02:04.399" style="s2">[Music]</p>
+<p begin="00:02:02.079" end="00:02:06.240" style="s2">as you saw we just got blocked not</p>
+<p begin="00:02:04.399" end="00:02:07.759" style="s2">actually blocked we got rate</p>
+<p begin="00:02:06.240" end="00:02:09.520" style="s2">limited what that means is that</p>
+<p begin="00:02:07.759" end="00:02:11.520" style="s2">instagram told us that we&#39;re doing</p>
+<p begin="00:02:09.520" end="00:02:13.280" style="s2">things too fast so slow down</p>
+<p begin="00:02:11.520" end="00:02:14.800" style="s2">they don&#39;t know that we are about yet</p>
+<p begin="00:02:13.280" end="00:02:16.319" style="s2">what they know is that we are doing</p>
+<p begin="00:02:14.800" end="00:02:18.400" style="s2">things very fast so</p>
+<p begin="00:02:16.319" end="00:02:20.319" style="s2">i stopped the bot i changed the settings</p>
+<p begin="00:02:18.400" end="00:02:22.400" style="s2">a little bit and now it&#39;s gonna be even</p>
+<p begin="00:02:20.319" end="00:02:24.400" style="s2">slower we&#39;re going to follow and like</p>
+<p begin="00:02:22.400" end="00:02:25.440" style="s2">but we&#39;re going to wait like a minute or</p>
+<p begin="00:02:24.400" end="00:02:27.280" style="s2">a minute and a half</p>
+<p begin="00:02:25.440" end="00:02:28.720" style="s2">between actions so hopefully they&#39;re not</p>
+<p begin="00:02:27.280" end="00:02:29.520" style="s2">gonna tell us that we&#39;re doing things</p>
+<p begin="00:02:28.720" end="00:02:31.760" style="s2">too quickly</p>
+<p begin="00:02:29.520" end="00:02:33.920" style="s2">anymore funny enough the disposable</p>
+<p begin="00:02:31.760" end="00:02:35.120" style="s2">account that i created just to test this</p>
+<p begin="00:02:33.920" end="00:02:36.720" style="s2">thing</p>
+<p begin="00:02:35.120" end="00:02:38.160" style="s2">is already getting followers so that</p>
+<p begin="00:02:36.720" end="00:02:40.080" style="s2">means that this concept of</p>
+<p begin="00:02:38.160" end="00:02:41.360" style="s2">liking photo commenting and following</p>
+<p begin="00:02:40.080" end="00:02:42.879" style="s2">people works</p>
+<p begin="00:02:41.360" end="00:02:44.640" style="s2">we get following back it&#39;s already</p>
+<p begin="00:02:42.879" end="00:02:45.760" style="s2">working we go like two or three already</p>
+<p begin="00:02:44.640" end="00:02:48.319" style="s2">but today</p>
+<p begin="00:02:45.760" end="00:02:49.840" style="s2">it&#39;s fun in any ways i&#39;m gonna keep</p>
+<p begin="00:02:48.319" end="00:02:51.280" style="s2">running this and we&#39;re going to see how</p>
+<p begin="00:02:49.840" end="00:02:54.720" style="s2">many follow back we get</p>
+<p begin="00:02:51.280" end="00:02:56.959" style="s2">from the bts army i didn&#39;t test this bot</p>
+<p begin="00:02:54.720" end="00:02:58.159" style="s2">with the beagle hashtag just because i</p>
+<p begin="00:02:56.959" end="00:03:00.400" style="s2">don&#39;t want to spam</p>
+<p begin="00:02:58.159" end="00:03:01.280" style="s2">that hashtag yet i want to spam this one</p>
+<p begin="00:03:00.400" end="00:03:03.200" style="s2">first now</p>
+<p begin="00:03:01.280" end="00:03:05.200" style="s2">what i&#39;m going to do is still i&#39;m going</p>
+<p begin="00:03:03.200" end="00:03:08.319" style="s2">to start to work on the bot</p>
+<p begin="00:03:05.200" end="00:03:09.599" style="s2">for our android phone so the robot is</p>
+<p begin="00:03:08.319" end="00:03:10.080" style="s2">going to open instagram we&#39;re going to</p>
+<p begin="00:03:09.599" end="00:03:12.319" style="s2">go</p>
+<p begin="00:03:10.080" end="00:03:13.760" style="s2">to the search and explore we tap on</p>
+<p begin="00:03:12.319" end="00:03:16.480" style="s2">search</p>
+<p begin="00:03:13.760" end="00:03:17.440" style="s2">then we paste the hashtag we select the</p>
+<p begin="00:03:16.480" end="00:03:19.519" style="s2">first hashtag</p>
+<p begin="00:03:17.440" end="00:03:21.200" style="s2">then we go to recent we tap the first</p>
+<p begin="00:03:19.519" end="00:03:23.280" style="s2">photo then we press</p>
+<p begin="00:03:21.200" end="00:03:25.280" style="s2">like then we go to comments we try to</p>
+<p begin="00:03:23.280" end="00:03:25.840" style="s2">comment but we will be blocked which is</p>
+<p begin="00:03:25.280" end="00:03:28.159" style="s2">okay</p>
+<p begin="00:03:25.840" end="00:03:29.440" style="s2">then we will follow the person who posts</p>
+<p begin="00:03:28.159" end="00:03:31.360" style="s2">to the hashtag</p>
+<p begin="00:03:29.440" end="00:03:32.959" style="s2">and then we repeat with the next photo</p>
+<p begin="00:03:31.360" end="00:03:35.920" style="s2">on the list</p>
+<p begin="00:03:32.959" end="00:03:36.400" style="s2">all right so as you just saw the bot is</p>
+<p begin="00:03:35.920" end="00:03:38.640" style="s2">working</p>
+<p begin="00:03:36.400" end="00:03:40.480" style="s2">pretty well we can automate our android</p>
+<p begin="00:03:38.640" end="00:03:42.799" style="s2">phone using python which is</p>
+<p begin="00:03:40.480" end="00:03:44.000" style="s2">awesome and it opens up my mind for so</p>
+<p begin="00:03:42.799" end="00:03:46.159" style="s2">many other ideas of</p>
+<p begin="00:03:44.000" end="00:03:47.920" style="s2">apps i can automate i am going to</p>
+<p begin="00:03:46.159" end="00:03:50.720" style="s2">increase the level of complexity</p>
+<p begin="00:03:47.920" end="00:03:52.799" style="s2">just a little bit and let me explain why</p>
+<p begin="00:03:50.720" end="00:03:54.560" style="s2">on the phone is very easy to tap here</p>
+<p begin="00:03:52.799" end="00:03:56.799" style="s2">tap there and all that stuff but it&#39;s</p>
+<p begin="00:03:54.560" end="00:03:59.599" style="s2">very hard to keep track of the photos</p>
+<p begin="00:03:56.799" end="00:04:01.360" style="s2">that i am liking and it&#39;s very hard to</p>
+<p begin="00:03:59.599" end="00:04:02.480" style="s2">find the photos to like because i have</p>
+<p begin="00:04:01.360" end="00:04:04.400" style="s2">to scroll</p>
+<p begin="00:04:02.480" end="00:04:06.480" style="s2">and i have to go back and scroll again</p>
+<p begin="00:04:04.400" end="00:04:07.680" style="s2">it&#39;s just very annoying it&#39;s very easy</p>
+<p begin="00:04:06.480" end="00:04:09.760" style="s2">to find the photos</p>
+<p begin="00:04:07.680" end="00:04:12.000" style="s2">on the browser so what i&#39;m going to do</p>
+<p begin="00:04:09.760" end="00:04:14.799" style="s2">is i&#39;m going to combine them both</p>
+<p begin="00:04:12.000" end="00:04:16.079" style="s2">on the browser i&#39;m going to just get as</p>
+<p begin="00:04:14.799" end="00:04:18.479" style="s2">many photos as i can</p>
+<p begin="00:04:16.079" end="00:04:19.519" style="s2">and i&#39;m going to get the urls of those</p>
+<p begin="00:04:18.479" end="00:04:22.320" style="s2">photos and then</p>
+<p begin="00:04:19.519" end="00:04:22.800" style="s2">i am going to open those urls on the</p>
+<p begin="00:04:22.320" end="00:04:25.680" style="s2">phone</p>
+<p begin="00:04:22.800" end="00:04:27.199" style="s2">and the android is going to open the</p>
+<p begin="00:04:25.680" end="00:04:28.160" style="s2">instagram application and on the</p>
+<p begin="00:04:27.199" end="00:04:30.240" style="s2">instagram application</p>
+<p begin="00:04:28.160" end="00:04:31.360" style="s2">i am going to be liking commenting and</p>
+<p begin="00:04:30.240" end="00:04:33.520" style="s2">following</p>
+<p begin="00:04:31.360" end="00:04:35.360" style="s2">all right so the browser we get the urls</p>
+<p begin="00:04:33.520" end="00:04:37.520" style="s2">and once we have a good amount</p>
+<p begin="00:04:35.360" end="00:04:39.440" style="s2">then we force open that on the phone and</p>
+<p begin="00:04:37.520" end="00:04:43.199" style="s2">on the phone with the process like</p>
+<p begin="00:04:39.440" end="00:04:45.919" style="s2">comment and follow all right</p>
+<p begin="00:04:43.199" end="00:04:46.639" style="s2">as you can see it works we can mix our</p>
+<p begin="00:04:45.919" end="00:04:50.080" style="s2">browser</p>
+<p begin="00:04:46.639" end="00:04:52.000" style="s2">with our android bot and now it&#39;s great</p>
+<p begin="00:04:50.080" end="00:04:52.479" style="s2">i can get the photos from my browser and</p>
+<p begin="00:04:52.000" end="00:04:54.880" style="s2">i can</p>
+<p begin="00:04:52.479" end="00:04:55.680" style="s2">force the app opening on my android</p>
+<p begin="00:04:54.880" end="00:04:58.800" style="s2">awesome stuff</p>
+<p begin="00:04:55.680" end="00:05:00.639" style="s2">so next step is to actually do this with</p>
+<p begin="00:04:58.800" end="00:05:02.800" style="s2">my doggies account which so far</p>
+<p begin="00:05:00.639" end="00:05:04.960" style="s2">has zero followers i already uploaded</p>
+<p begin="00:05:02.800" end="00:05:06.000" style="s2">some photos on my doggy&#39;s account to</p>
+<p begin="00:05:04.960" end="00:05:07.759" style="s2">make it look</p>
+<p begin="00:05:06.000" end="00:05:09.600" style="s2">natural let me show you how everything</p>
+<p begin="00:05:07.759" end="00:05:10.240" style="s2">looks like from the point of view of my</p>
+<p begin="00:05:09.600" end="00:05:25.840" style="s2">doggy</p>
+<p begin="00:05:10.240" end="00:05:25.840" style="s2">and i will see you once this is done</p>
+<p begin="00:05:29.420" end="00:05:32.679" style="s2">[Music]</p>
+<p begin="00:05:36.840" end="00:05:39.840" style="s2">so</p>
+<p begin="00:05:42.580" end="00:05:50.889" style="s2">[Music]</p>
+<p begin="00:05:53.440" end="00:05:57.199" style="s2">okay so our bot has made some progress</p>
+<p begin="00:05:56.560" end="00:05:59.600" style="s2">and i think</p>
+<p begin="00:05:57.199" end="00:06:01.280" style="s2">i have good news but before we move on</p>
+<p begin="00:05:59.600" end="00:06:03.120" style="s2">to that i want to talk about</p>
+<p begin="00:06:01.280" end="00:06:04.400" style="s2">this as you can see i am wearing a</p>
+<p begin="00:06:03.120" end="00:06:06.960" style="s2">beautiful full stack</p>
+<p begin="00:06:04.400" end="00:06:09.199" style="s2">hoodie this is because we are launching</p>
+<p begin="00:06:06.960" end="00:06:11.440" style="s2">our normal colors 2020</p>
+<p begin="00:06:09.199" end="00:06:13.600" style="s2">merch this year we have full stacks</p>
+<p begin="00:06:11.440" end="00:06:15.520" style="s2">hoodie that&#39;s a full stack on the front</p>
+<p begin="00:06:13.600" end="00:06:17.120" style="s2">they have a coat on the back we also</p>
+<p begin="00:06:15.520" end="00:06:19.280" style="s2">have a bunch of new</p>
+<p begin="00:06:17.120" end="00:06:20.720" style="s2">and old stickers that people loved and</p>
+<p begin="00:06:19.280" end="00:06:23.440" style="s2">wanted to buy again</p>
+<p begin="00:06:20.720" end="00:06:25.360" style="s2">and we also have a nice notebook that</p>
+<p begin="00:06:23.440" end="00:06:27.440" style="s2">you can use to write down your goals</p>
+<p begin="00:06:25.360" end="00:06:29.759" style="s2">we wanted to do this merge because we</p>
+<p begin="00:06:27.440" end="00:06:31.600" style="s2">are celebrating also that we made 200</p>
+<p begin="00:06:29.759" end="00:06:33.440" style="s2">000 subscribers this year we wanted to</p>
+<p begin="00:06:31.600" end="00:06:34.160" style="s2">thank you for your support and your</p>
+<p begin="00:06:33.440" end="00:06:36.479" style="s2">appreciation</p>
+<p begin="00:06:34.160" end="00:06:38.240" style="s2">we really value you we appreciate you</p>
+<p begin="00:06:36.479" end="00:06:39.039" style="s2">and we don&#39;t take you for granted thank</p>
+<p begin="00:06:38.240" end="00:06:41.759" style="s2">you so much</p>
+<p begin="00:06:39.039" end="00:06:42.560" style="s2">for being here and also we wanted to</p>
+<p begin="00:06:41.759" end="00:06:45.840" style="s2">announce that</p>
+<p begin="00:06:42.560" end="00:06:47.680" style="s2">this is a non-profit project this merge</p>
+<p begin="00:06:45.840" end="00:06:48.720" style="s2">and all the profits from this merge are</p>
+<p begin="00:06:47.680" end="00:06:50.960" style="s2">going to be donated</p>
+<p begin="00:06:48.720" end="00:06:52.960" style="s2">to a doggy shelter here in south korea</p>
+<p begin="00:06:50.960" end="00:06:55.199" style="s2">so the link is in the description</p>
+<p begin="00:06:52.960" end="00:06:57.280" style="s2">so go and check it out all right and now</p>
+<p begin="00:06:55.199" end="00:07:00.000" style="s2">on to the results</p>
+<p begin="00:06:57.280" end="00:07:01.759" style="s2">this boat was running for less than 24</p>
+<p begin="00:07:00.000" end="00:07:05.199" style="s2">hours and we already have</p>
+<p begin="00:07:01.759" end="00:07:07.759" style="s2">100 followers which is not bad at all</p>
+<p begin="00:07:05.199" end="00:07:08.800" style="s2">i ran the bot very very slowly maybe</p>
+<p begin="00:07:07.759" end="00:07:10.960" style="s2">commenting on five</p>
+<p begin="00:07:08.800" end="00:07:12.400" style="s2">photos commenting on seven photos</p>
+<p begin="00:07:10.960" end="00:07:14.319" style="s2">following seven people</p>
+<p begin="00:07:12.400" end="00:07:15.680" style="s2">very very slowly but it looks like it</p>
+<p begin="00:07:14.319" end="00:07:19.120" style="s2">worked 24 hours</p>
+<p begin="00:07:15.680" end="00:07:21.599" style="s2">100 followers is not bad and i&#39;m very</p>
+<p begin="00:07:19.120" end="00:07:23.680" style="s2">very surprised that it worked this well</p>
+<p begin="00:07:21.599" end="00:07:26.720" style="s2">it is true that it&#39;s hard to detect</p>
+<p begin="00:07:23.680" end="00:07:28.960" style="s2">bot activity on the phone but i</p>
+<p begin="00:07:26.720" end="00:07:30.720" style="s2">did get blocked i cannot comment anymore</p>
+<p begin="00:07:28.960" end="00:07:31.520" style="s2">and i haven&#39;t been able to comment since</p>
+<p begin="00:07:30.720" end="00:07:33.520" style="s2">last night</p>
+<p begin="00:07:31.520" end="00:07:36.000" style="s2">this morning i could comment again but</p>
+<p begin="00:07:33.520" end="00:07:37.759" style="s2">then again i got blocked so maybe</p>
+<p begin="00:07:36.000" end="00:07:39.520" style="s2">i am using the same text or i&#39;m</p>
+<p begin="00:07:37.759" end="00:07:39.919" style="s2">commenting too quickly i still don&#39;t</p>
+<p begin="00:07:39.520" end="00:07:41.599" style="s2">know</p>
+<p begin="00:07:39.919" end="00:07:43.120" style="s2">but it looks like instagram has no</p>
+<p begin="00:07:41.599" end="00:07:45.440" style="s2">problem with me following</p>
+<p begin="00:07:43.120" end="00:07:46.720" style="s2">and liking people and liking photos as</p>
+<p begin="00:07:45.440" end="00:07:48.560" style="s2">much as i want</p>
+<p begin="00:07:46.720" end="00:07:50.400" style="s2">i was doing it really fast and nothing</p>
+<p begin="00:07:48.560" end="00:07:51.759" style="s2">happened but commenting</p>
+<p begin="00:07:50.400" end="00:07:54.160" style="s2">it looks like they are being careful</p>
+<p begin="00:07:51.759" end="00:07:57.280" style="s2">there 24 hours 100 followers</p>
+<p begin="00:07:54.160" end="00:07:58.879" style="s2">i&#39;m happy and now you let me know what</p>
+<p begin="00:07:57.280" end="00:08:00.319" style="s2">you think on the comments</p>
+<p begin="00:07:58.879" end="00:08:02.080" style="s2">of this video do you want to see the</p>
+<p begin="00:08:00.319" end="00:08:03.440" style="s2">source code or would you like to see me</p>
+<p begin="00:08:02.080" end="00:08:04.639" style="s2">explain the source code i don&#39;t know</p>
+<p begin="00:08:03.440" end="00:08:06.160" style="s2">maybe that&#39;s boring but</p>
+<p begin="00:08:04.639" end="00:08:08.000" style="s2">you let me know on the comments thank</p>
+<p begin="00:08:06.160" end="00:08:08.560" style="s2">you so much for watching don&#39;t forget to</p>
+<p begin="00:08:08.000" end="00:08:10.319" style="s2">be happy</p>
+<p begin="00:08:08.560" end="00:08:11.919" style="s2">don&#39;t forget to eat kimchi don&#39;t forget</p>
+<p begin="00:08:10.319" end="00:08:13.759" style="s2">to check out the link remember we&#39;re</p>
+<p begin="00:08:11.919" end="00:08:14.960" style="s2">going to donate all the profits to a</p>
+<p begin="00:08:13.759" end="00:08:27.360" style="s2">doggy shelter</p>
+<p begin="00:08:14.960" end="00:08:29.440" style="s2">stay safe be happy bye</p>
+<p begin="00:08:27.360" end="00:08:29.440" style="s2">you</p>
+</div>
+</body>
+</tt>

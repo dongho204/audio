@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.000" end="00:00:05.100" style="s2">there is a new keyword coming to</p>
+<p begin="00:00:02.280" end="00:00:07.080" style="s2">JavaScript the keyword is using and is</p>
+<p begin="00:00:05.100" end="00:00:09.540" style="s2">meant to be used when we initialize a</p>
+<p begin="00:00:07.080" end="00:00:12.599" style="s2">variables just like we have VAR const</p>
+<p begin="00:00:09.540" end="00:00:14.460" style="s2">and let we now have using using will be</p>
+<p begin="00:00:12.599" end="00:00:16.440" style="s2">very useful for managing resources in</p>
+<p begin="00:00:14.460" end="00:00:19.199" style="s2">your JavaScript programs to make them</p>
+<p begin="00:00:16.440" end="00:00:21.180" style="s2">run faster if we don&#39;t manage resources</p>
+<p begin="00:00:19.199" end="00:00:23.400" style="s2">correctly our program will take more</p>
+<p begin="00:00:21.180" end="00:00:25.800" style="s2">memory than it needs making it run</p>
+<p begin="00:00:23.400" end="00:00:28.080" style="s2">slower or even crashing check out this</p>
+<p begin="00:00:25.800" end="00:00:29.820" style="s2">example here we have a get users</p>
+<p begin="00:00:28.080" end="00:00:31.920" style="s2">function where we are getting a</p>
+<p begin="00:00:29.820" end="00:00:34.500" style="s2">connection to a database we are running</p>
+<p begin="00:00:31.920" end="00:00:36.239" style="s2">a query and returning the results of the</p>
+<p begin="00:00:34.500" end="00:00:37.980" style="s2">query it looks fine but it has a problem</p>
+<p begin="00:00:36.239" end="00:00:40.800" style="s2">can you catch it there is a big problem</p>
+<p begin="00:00:37.980" end="00:00:42.899" style="s2">we are not closing the connection to the</p>
+<p begin="00:00:40.800" end="00:00:44.280" style="s2">database if we keep doing this across</p>
+<p begin="00:00:42.899" end="00:00:46.200" style="s2">our code base we&#39;re going to keep</p>
+<p begin="00:00:44.280" end="00:00:48.480" style="s2">creating new connections without getting</p>
+<p begin="00:00:46.200" end="00:00:50.520" style="s2">rid of them potentially overloading the</p>
+<p begin="00:00:48.480" end="00:00:52.260" style="s2">database ideally we should close the</p>
+<p begin="00:00:50.520" end="00:00:55.559" style="s2">connection to the database when we are</p>
+<p begin="00:00:52.260" end="00:00:57.719" style="s2">done using it that is better but we</p>
+<p begin="00:00:55.559" end="00:00:59.820" style="s2">still have a problem if for some reason</p>
+<p begin="00:00:57.719" end="00:01:02.219" style="s2">the second line of our function throws</p>
+<p begin="00:00:59.820" end="00:01:04.260" style="s2">an error and the query can&#39;t run the</p>
+<p begin="00:01:02.219" end="00:01:06.360" style="s2">code that is closing the connection to</p>
+<p begin="00:01:04.260" end="00:01:08.760" style="s2">the database will never run again</p>
+<p begin="00:01:06.360" end="00:01:11.159" style="s2">leaving the connection open to fix this</p>
+<p begin="00:01:08.760" end="00:01:13.080" style="s2">we can use a try catch finally block if</p>
+<p begin="00:01:11.159" end="00:01:15.119" style="s2">we do that no matter what happens on the</p>
+<p begin="00:01:13.080" end="00:01:17.040" style="s2">try and catch blocks the finally block</p>
+<p begin="00:01:15.119" end="00:01:19.320" style="s2">will always run closing the connection</p>
+<p begin="00:01:17.040" end="00:01:21.240" style="s2">to the database the problem with this</p>
+<p begin="00:01:19.320" end="00:01:23.400" style="s2">approach is that everywhere in our code</p>
+<p begin="00:01:21.240" end="00:01:25.799" style="s2">where we use the database we will always</p>
+<p begin="00:01:23.400" end="00:01:27.720" style="s2">have to remember to close it manually</p>
+<p begin="00:01:25.799" end="00:01:30.000" style="s2">how cool would it be if there was a way</p>
+<p begin="00:01:27.720" end="00:01:32.280" style="s2">to close the connection to the database</p>
+<p begin="00:01:30.000" end="00:01:35.400" style="s2">automatically when it stops being used</p>
+<p begin="00:01:32.280" end="00:01:37.740" style="s2">that is what the using keyword is for</p>
+<p begin="00:01:35.400" end="00:01:40.140" style="s2">when we create variables with a using</p>
+<p begin="00:01:37.740" end="00:01:42.060" style="s2">keyword instead of lead or const they</p>
+<p begin="00:01:40.140" end="00:01:44.280" style="s2">will be disposed once the variable is</p>
+<p begin="00:01:42.060" end="00:01:46.079" style="s2">out of scope and no longer in use let&#39;s</p>
+<p begin="00:01:44.280" end="00:01:48.119" style="s2">first understand how it works here we</p>
+<p begin="00:01:46.079" end="00:01:49.979" style="s2">have a function get resource this</p>
+<p begin="00:01:48.119" end="00:01:52.020" style="s2">function is returning an object that</p>
+<p begin="00:01:49.979" end="00:01:54.600" style="s2">contains some data and it also contains</p>
+<p begin="00:01:52.020" end="00:01:57.780" style="s2">a symbol that this post function that</p>
+<p begin="00:01:54.600" end="00:02:00.780" style="s2">prints by word in our main function we</p>
+<p begin="00:01:57.780" end="00:02:04.020" style="s2">are creating a my resource variable with</p>
+<p begin="00:02:00.780" end="00:02:06.000" style="s2">the using keyword and not let or cons we</p>
+<p begin="00:02:04.020" end="00:02:07.680" style="s2">are then printing the data of the</p>
+<p begin="00:02:06.000" end="00:02:10.020" style="s2">resource which is hello world and</p>
+<p begin="00:02:07.680" end="00:02:12.060" style="s2">finally we are calling main because we</p>
+<p begin="00:02:10.020" end="00:02:14.280" style="s2">are returning an object with a symbol</p>
+<p begin="00:02:12.060" end="00:02:16.620" style="s2">that displays property and we are using</p>
+<p begin="00:02:14.280" end="00:02:19.500" style="s2">the using keyword JavaScript will</p>
+<p begin="00:02:16.620" end="00:02:22.080" style="s2">consider it a resource and automatically</p>
+<p begin="00:02:19.500" end="00:02:24.420" style="s2">once the main function finishes and the</p>
+<p begin="00:02:22.080" end="00:02:26.760" style="s2">my resource variable is out of scope</p>
+<p begin="00:02:24.420" end="00:02:29.099" style="s2">JavaScript will run the code on the</p>
+<p begin="00:02:26.760" end="00:02:32.280" style="s2">symbol that this pose function that will</p>
+<p begin="00:02:29.099" end="00:02:34.620" style="s2">print by word as you can see the using</p>
+<p begin="00:02:32.280" end="00:02:37.020" style="s2">keyword is half of the story it is not</p>
+<p begin="00:02:34.620" end="00:02:39.060" style="s2">enough to just replace const with using</p>
+<p begin="00:02:37.020" end="00:02:41.099" style="s2">we also need to write the code that will</p>
+<p begin="00:02:39.060" end="00:02:43.739" style="s2">run when the variable is disposed off</p>
+<p begin="00:02:41.099" end="00:02:46.560" style="s2">and that code goes inside of a function</p>
+<p begin="00:02:43.739" end="00:02:48.000" style="s2">assigned to symbols that this post now</p>
+<p begin="00:02:46.560" end="00:02:49.920" style="s2">that we know this we can improve our</p>
+<p begin="00:02:48.000" end="00:02:51.959" style="s2">database code first we have to modify</p>
+<p begin="00:02:49.920" end="00:02:54.180" style="s2">the getdb function which is the one</p>
+<p begin="00:02:51.959" end="00:02:56.280" style="s2">giving us access to a resource</p>
+<p begin="00:02:54.180" end="00:02:58.080" style="s2">internally the getdb function is just</p>
+<p begin="00:02:56.280" end="00:02:59.819" style="s2">connecting to the database and returning</p>
+<p begin="00:02:58.080" end="00:03:02.340" style="s2">access to it we&#39;re going to change it to</p>
+<p begin="00:02:59.819" end="00:03:04.680" style="s2">look like this now the get DB function</p>
+<p begin="00:03:02.340" end="00:03:06.720" style="s2">returns an object the object has a</p>
+<p begin="00:03:04.680" end="00:03:09.180" style="s2">connection to the database and it has a</p>
+<p begin="00:03:06.720" end="00:03:11.700" style="s2">symbol that I think this pose function</p>
+<p begin="00:03:09.180" end="00:03:13.620" style="s2">that is closing the connection to the</p>
+<p begin="00:03:11.700" end="00:03:15.480" style="s2">database in this case instead of using</p>
+<p begin="00:03:13.620" end="00:03:17.760" style="s2">symbols that dispose we are using</p>
+<p begin="00:03:15.480" end="00:03:20.580" style="s2">symbols that a sync dispose because our</p>
+<p begin="00:03:17.760" end="00:03:22.500" style="s2">dispose code needs to use a sync await</p>
+<p begin="00:03:20.580" end="00:03:24.720" style="s2">now we can change the get users function</p>
+<p begin="00:03:22.500" end="00:03:27.300" style="s2">to look like this we are now creating</p>
+<p begin="00:03:24.720" end="00:03:29.280" style="s2">the DB variable with the using keyword</p>
+<p begin="00:03:27.300" end="00:03:30.840" style="s2">and because we are using symbol dot as</p>
+<p begin="00:03:29.280" end="00:03:33.480" style="s2">saying this pose we have to write a</p>
+<p begin="00:03:30.840" end="00:03:35.220" style="s2">weight before using the B I know it&#39;s</p>
+<p begin="00:03:33.480" end="00:03:36.900" style="s2">kind of weird to have two await on the</p>
+<p begin="00:03:35.220" end="00:03:39.599" style="s2">same line so remember that the first</p>
+<p begin="00:03:36.900" end="00:03:41.819" style="s2">await is to await that this postcode and</p>
+<p begin="00:03:39.599" end="00:03:44.159" style="s2">the second one is to await the code that</p>
+<p begin="00:03:41.819" end="00:03:46.019" style="s2">connects to our database after those</p>
+<p begin="00:03:44.159" end="00:03:47.700" style="s2">changes the moment they get user&#39;s</p>
+<p begin="00:03:46.019" end="00:03:50.040" style="s2">function ends JavaScript will</p>
+<p begin="00:03:47.700" end="00:03:52.200" style="s2">automatically call the symbol that a</p>
+<p begin="00:03:50.040" end="00:03:54.360" style="s2">sync this pose function we wrote which</p>
+<p begin="00:03:52.200" end="00:03:56.580" style="s2">is going to close the connection to our</p>
+<p begin="00:03:54.360" end="00:03:58.500" style="s2">database so now as long as we use the</p>
+<p begin="00:03:56.580" end="00:04:00.720" style="s2">using keyword whenever we want to get</p>
+<p begin="00:03:58.500" end="00:04:02.519" style="s2">access to our database we can be sure</p>
+<p begin="00:04:00.720" end="00:04:04.440" style="s2">that when we are done using that</p>
+<p begin="00:04:02.519" end="00:04:06.299" style="s2">variable it will always be correctly</p>
+<p begin="00:04:04.440" end="00:04:08.580" style="s2">disposed off and the connection will be</p>
+<p begin="00:04:06.299" end="00:04:11.040" style="s2">closed the using keyword is very very</p>
+<p begin="00:04:08.580" end="00:04:13.019" style="s2">useful not only for database connections</p>
+<p begin="00:04:11.040" end="00:04:15.420" style="s2">but also for dealing with files that</p>
+<p begin="00:04:13.019" end="00:04:17.760" style="s2">need to be closed streams of data</p>
+<p begin="00:04:15.420" end="00:04:19.620" style="s2">websockets connections and more the</p>
+<p begin="00:04:17.760" end="00:04:22.440" style="s2">using keyword is not part of JavaScript</p>
+<p begin="00:04:19.620" end="00:04:25.139" style="s2">just yet the proposal for it is on stage</p>
+<p begin="00:04:22.440" end="00:04:27.240" style="s2">3 of 4. it&#39;s almost there if you can&#39;t</p>
+<p begin="00:04:25.139" end="00:04:29.940" style="s2">wait and want to try it out you can use</p>
+<p begin="00:04:27.240" end="00:04:31.440" style="s2">it on typescript version 5.2 which is</p>
+<p begin="00:04:29.940" end="00:04:33.300" style="s2">currently available I hope you found</p>
+<p begin="00:04:31.440" end="00:04:34.560" style="s2">this video useful if you did please like</p>
+<p begin="00:04:33.300" end="00:04:36.060" style="s2">it share it with your friends and</p>
+<p begin="00:04:34.560" end="00:04:37.139" style="s2">subscribe to the channel and click the</p>
+<p begin="00:04:36.060" end="00:04:39.060" style="s2">link below if you want to learn</p>
+<p begin="00:04:37.139" end="00:04:41.759" style="s2">JavaScript or typescript for absolutely</p>
+<p begin="00:04:39.060" end="00:04:43.919" style="s2">free also I just finished uploading the</p>
+<p begin="00:04:41.759" end="00:04:46.560" style="s2">latest version update for the free tutor</p>
+<p begin="00:04:43.919" end="00:04:48.900" style="s2">clone with Firebase and react course as</p>
+<p begin="00:04:46.560" end="00:04:50.639" style="s2">well as the CSS flexbox and grid layout</p>
+<p begin="00:04:48.900" end="00:04:53.060" style="s2">masterclass so check them out by</p>
+<p begin="00:04:50.639" end="00:04:57.660" style="s2">clicking on the link below</p>
+<p begin="00:04:53.060" end="00:04:57.660" style="s2">see you on the next one bye</p>
+<p begin="00:05:00.440" end="00:05:03.440" style="s2">thank you</p>
+</div>
+</body>
+</tt>

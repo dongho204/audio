@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.639" end="00:00:07.120" style="s2">and today i&#39;m going to react to</p>
+<p begin="00:00:04.319" end="00:00:08.000" style="s2">funny programming hacking scenes on</p>
+<p begin="00:00:07.120" end="00:00:09.840" style="s2">movies from</p>
+<p begin="00:00:08.000" end="00:00:12.559" style="s2">all around the world let&#39;s get started</p>
+<p begin="00:00:09.840" end="00:00:17.440" style="s2">oh that&#39;s wolverine</p>
+<p begin="00:00:12.559" end="00:00:20.960" style="s2">all right</p>
+<p begin="00:00:17.440" end="00:00:26.000" style="s2">oh my god here we go 3d again</p>
+<p begin="00:00:20.960" end="00:00:26.000" style="s2">it&#39;s a cube please confirm what</p>
+<p begin="00:00:26.960" end="00:00:31.599" style="s2">you can say wait assembling ports scan</p>
+<p begin="00:00:29.840" end="00:00:33.360" style="s2">objects</p>
+<p begin="00:00:31.599" end="00:00:35.280" style="s2">they love these 3d stuff and movies i</p>
+<p begin="00:00:33.360" end="00:00:36.480" style="s2">think it&#39;s because the actual console</p>
+<p begin="00:00:35.280" end="00:00:38.880" style="s2">thing looks really</p>
+<p begin="00:00:36.480" end="00:00:38.880" style="s2">boring</p>
+<p begin="00:00:41.120" end="00:00:45.050" style="s2">oh no he loves one cube oh no he looks</p>
+<p begin="00:00:43.280" end="00:00:47.039" style="s2">too cute</p>
+<p begin="00:00:45.050" end="00:00:49.200" style="s2">[Music]</p>
+<p begin="00:00:47.039" end="00:00:50.800" style="s2">oh i think this is more fun than my</p>
+<p begin="00:00:49.200" end="00:00:52.800" style="s2">actual job</p>
+<p begin="00:00:50.800" end="00:00:54.239" style="s2">i wish it was true i would love to hack</p>
+<p begin="00:00:52.800" end="00:00:56.559" style="s2">into 3d</p>
+<p begin="00:00:54.239" end="00:00:57.410" style="s2">3d cubes but this makes it makes</p>
+<p begin="00:00:56.559" end="00:01:00.470" style="s2">programming</p>
+<p begin="00:00:57.410" end="00:01:00.470" style="s2">[Music]</p>
+<p begin="00:01:05.439" end="00:01:12.479" style="s2">it&#39;s like he&#39;s dancing with the</p>
+<p begin="00:01:06.479" end="00:01:16.080" style="s2">communication ah he&#39;s standing up</p>
+<p begin="00:01:12.479" end="00:01:18.960" style="s2">oh here we go the 3d again assembly</p>
+<p begin="00:01:16.080" end="00:01:20.560" style="s2">assembling crypto algorithm and the</p>
+<p begin="00:01:18.960" end="00:01:26.400" style="s2">program he&#39;s running on is called</p>
+<p begin="00:01:20.560" end="00:01:28.640" style="s2">warm generator 2. oh this is brilliant</p>
+<p begin="00:01:26.400" end="00:01:30.320" style="s2">you see this makes me want to learn how</p>
+<p begin="00:01:28.640" end="00:01:33.200" style="s2">to program</p>
+<p begin="00:01:30.320" end="00:01:34.720" style="s2">look at that how many screens has got</p>
+<p begin="00:01:33.200" end="00:01:38.240" style="s2">one two three four five</p>
+<p begin="00:01:34.720" end="00:01:40.960" style="s2">six oh this is awesome</p>
+<p begin="00:01:38.240" end="00:01:43.200" style="s2">oh yeah i i hope people think that</p>
+<p begin="00:01:40.960" end="00:01:44.799" style="s2">programmers do that that&#39;s brilliant</p>
+<p begin="00:01:43.200" end="00:01:48.079" style="s2">there you go you did all the cubes oh my</p>
+<p begin="00:01:44.799" end="00:01:48.079" style="s2">god the cubes together</p>
+<p begin="00:01:49.280" end="00:01:57.200" style="s2">oh good job wolverine brilliant job</p>
+<p begin="00:01:52.880" end="00:01:58.880" style="s2">oh this is amazing okay so mr robot is</p>
+<p begin="00:01:57.200" end="00:02:00.159" style="s2">pretty accurate though i used to watch</p>
+<p begin="00:01:58.880" end="00:02:03.280" style="s2">it and it&#39;s all right yeah</p>
+<p begin="00:02:00.159" end="00:02:06.880" style="s2">yeah like they really put effort on</p>
+<p begin="00:02:03.280" end="00:02:08.959" style="s2">oh here we go ubuntu okay</p>
+<p begin="00:02:06.880" end="00:02:10.720" style="s2">maybe he&#39;s doing his upgrading packages</p>
+<p begin="00:02:08.959" end="00:02:13.200" style="s2">there we go</p>
+<p begin="00:02:10.720" end="00:02:14.400" style="s2">password for caretaker he went yeah you</p>
+<p begin="00:02:13.200" end="00:02:16.800" style="s2">go ubuntu</p>
+<p begin="00:02:14.400" end="00:02:18.640" style="s2">he login as a caretaker he go to the</p>
+<p begin="00:02:16.800" end="00:02:20.879" style="s2">temporary directory</p>
+<p begin="00:02:18.640" end="00:02:23.440" style="s2">it&#39;s pretty accurate this oh here we go</p>
+<p begin="00:02:20.879" end="00:02:25.599" style="s2">you see this is how it looks like</p>
+<p begin="00:02:23.440" end="00:02:27.440" style="s2">boring just texture that is not really</p>
+<p begin="00:02:25.599" end="00:02:30.480" style="s2">going on step two</p>
+<p begin="00:02:27.440" end="00:02:33.599" style="s2">build mouth slowly yeah</p>
+<p begin="00:02:30.480" end="00:02:35.760" style="s2">there is no dancing that is not drinking</p>
+<p begin="00:02:33.599" end="00:02:38.560" style="s2">ah dude i love mr robert goddard you&#39;re</p>
+<p begin="00:02:35.760" end="00:02:41.120" style="s2">so good the feeling never gets old</p>
+<p begin="00:02:38.560" end="00:02:41.599" style="s2">fdp in one hour he says that to his</p>
+<p begin="00:02:41.120" end="00:02:45.120" style="s2">friends</p>
+<p begin="00:02:41.599" end="00:02:46.959" style="s2">on the chat [ __ ] yes you are the best</p>
+<p begin="00:02:45.120" end="00:02:50.239" style="s2">yes you are mr robert you are the best</p>
+<p begin="00:02:46.959" end="00:02:50.239" style="s2">oh bon anime</p>
+<p begin="00:03:01.280" end="00:03:05.519" style="s2">what is this what is it what is this</p>
+<p begin="00:03:03.040" end="00:03:08.720" style="s2">what is this what is it</p>
+<p begin="00:03:05.519" end="00:03:10.959" style="s2">so holy [ __ ] nobody can do this</p>
+<p begin="00:03:08.720" end="00:03:13.200" style="s2">this is so fast there is pop-ups</p>
+<p begin="00:03:10.959" end="00:03:14.800" style="s2">everybody&#39;s obsessed with pop-ups</p>
+<p begin="00:03:13.200" end="00:03:18.560" style="s2">people don&#39;t have we don&#39;t use pop-ups</p>
+<p begin="00:03:14.800" end="00:03:18.560" style="s2">so much we have one console one</p>
+<p begin="00:03:28.879" end="00:03:37.669" style="s2">this is brilliant</p>
+<p begin="00:03:32.910" end="00:03:37.669" style="s2">[Music]</p>
+<p begin="00:03:44.840" end="00:03:47.840" style="s2">yes</p>
+<p begin="00:03:49.519" end="00:03:54.560" style="s2">what is this oh i&#39;m loving this so much</p>
+<p begin="00:03:52.400" end="00:03:57.599" style="s2">ah</p>
+<p begin="00:03:54.560" end="00:03:59.120" style="s2">here we go system bridge right sink drop</p>
+<p begin="00:03:57.599" end="00:04:00.400" style="s2">that&#39;s a thing it&#39;s not a rat it&#39;s like</p>
+<p begin="00:03:59.120" end="00:04:02.319" style="s2">it&#39;s a thing</p>
+<p begin="00:04:00.400" end="00:04:03.599" style="s2">it&#39;s a thing it&#39;s a thinker sync to the</p>
+<p begin="00:04:02.319" end="00:04:06.159" style="s2">main server</p>
+<p begin="00:04:03.599" end="00:04:09.040" style="s2">firewall one two three four they have</p>
+<p begin="00:04:06.159" end="00:04:09.040" style="s2">five firewalls</p>
+<p begin="00:04:09.200" end="00:04:14.319" style="s2">wait they&#39;re seeing live progress and</p>
+<p begin="00:04:11.120" end="00:04:15.920" style="s2">somebody hacking their firewall remote</p>
+<p begin="00:04:14.319" end="00:04:18.479" style="s2">look at that [ __ ] he&#39;s got five</p>
+<p begin="00:04:15.920" end="00:04:18.479" style="s2">firewalls</p>
+<p begin="00:04:18.799" end="00:04:22.479" style="s2">he&#39;s got five firewalls and he can see</p>
+<p begin="00:04:21.519" end="00:04:24.720" style="s2">live progress</p>
+<p begin="00:04:22.479" end="00:04:25.600" style="s2">of when he&#39;s been outer layer of our</p>
+<p begin="00:04:24.720" end="00:04:27.440" style="s2">system</p>
+<p begin="00:04:25.600" end="00:04:29.120" style="s2">i&#39;ll start an intrusion inspection he&#39;s</p>
+<p begin="00:04:27.440" end="00:04:31.040" style="s2">going to start an</p>
+<p begin="00:04:29.120" end="00:04:33.759" style="s2">intrusion oh my god here we go with the</p>
+<p begin="00:04:31.040" end="00:04:36.479" style="s2">3d going on</p>
+<p begin="00:04:33.759" end="00:04:36.880" style="s2">look at this oh no wait i play address</p>
+<p begin="00:04:36.479" end="00:04:42.880" style="s2">is being</p>
+<p begin="00:04:36.880" end="00:04:44.720" style="s2">oh my god the lyrium people know oh</p>
+<p begin="00:04:42.880" end="00:04:46.080" style="s2">can you stop him no i want to watch this</p>
+<p begin="00:04:44.720" end="00:04:47.919" style="s2">movie i can&#39;t slow him down</p>
+<p begin="00:04:46.080" end="00:04:49.280" style="s2">oh i can&#39;t slow him down there is always</p>
+<p begin="00:04:47.919" end="00:04:51.360" style="s2">a clueless person</p>
+<p begin="00:04:49.280" end="00:04:54.880" style="s2">next to the hacker he&#39;s like oh my god</p>
+<p begin="00:04:51.360" end="00:04:54.880" style="s2">they are killing us can you stop them</p>
+<p begin="00:04:57.280" end="00:05:00.720" style="s2">oh no they got a map</p>
+<p begin="00:05:02.000" end="00:05:08.840" style="s2">start counter strike</p>
+<p begin="00:05:05.039" end="00:05:11.280" style="s2">this is awesome let&#39;s go oh no this is</p>
+<p begin="00:05:08.840" end="00:05:13.360" style="s2">amazing</p>
+<p begin="00:05:11.280" end="00:05:15.840" style="s2">three miles look look at this oh no</p>
+<p begin="00:05:13.360" end="00:05:17.850" style="s2">there&#39;s a cat</p>
+<p begin="00:05:15.840" end="00:05:20.800" style="s2">oh it&#39;s a ha it&#39;s a it&#39;s a cat virus</p>
+<p begin="00:05:17.850" end="00:05:24.479" style="s2">[Music]</p>
+<p begin="00:05:20.800" end="00:05:26.240" style="s2">what is this that could actually happen</p>
+<p begin="00:05:24.479" end="00:05:27.520" style="s2">you could open a lot of things at the</p>
+<p begin="00:05:26.240" end="00:05:30.960" style="s2">same time like</p>
+<p begin="00:05:27.520" end="00:05:32.639" style="s2">videos it doesn&#39;t seem like locks at</p>
+<p begin="00:05:30.960" end="00:05:34.320" style="s2">what happened with the i want to see the</p>
+<p begin="00:05:32.639" end="00:05:35.360" style="s2">map again that barely slowed him down</p>
+<p begin="00:05:34.320" end="00:05:37.120" style="s2">i&#39;m sorry but he&#39;s going to find us in</p>
+<p begin="00:05:35.360" end="00:05:38.880" style="s2">less than a minute should we abort</p>
+<p begin="00:05:37.120" end="00:05:40.800" style="s2">no oh he&#39;s trying to slow him down by</p>
+<p begin="00:05:38.880" end="00:05:45.440" style="s2">showing him cuts blinky boxes</p>
+<p begin="00:05:40.800" end="00:05:45.440" style="s2">here we go hack located</p>
+<p begin="00:05:47.680" end="00:05:49.919" style="s2">okay</p>
+<p begin="00:05:51.440" end="00:05:55.600" style="s2">okay let&#39;s go let&#39;s go with the hack the</p>
+<p begin="00:05:53.680" end="00:05:56.479" style="s2">cryptid oh my god this is awesome there</p>
+<p begin="00:05:55.600" end="00:05:59.520" style="s2">is a progress</p>
+<p begin="00:05:56.479" end="00:05:59.919" style="s2">oh no i could launch a cyber nuke i can</p>
+<p begin="00:05:59.520" end="00:06:02.560" style="s2">launch</p>
+<p begin="00:05:59.919" end="00:06:04.000" style="s2">a cyber nuke did he just say that he</p>
+<p begin="00:06:02.560" end="00:06:06.479" style="s2">just said i can launch</p>
+<p begin="00:06:04.000" end="00:06:08.880" style="s2">a cybernetic completely frightened oh my</p>
+<p begin="00:06:06.479" end="00:06:11.120" style="s2">god he&#39;s a nuke</p>
+<p begin="00:06:08.880" end="00:06:11.120" style="s2">no</p>
+<p begin="00:06:13.280" end="00:06:21.840" style="s2">it&#39;s a real nuke it&#39;s a missile</p>
+<p begin="00:06:16.880" end="00:06:21.840" style="s2">he has a missile on his screen</p>
+<p begin="00:06:22.639" end="00:06:27.039" style="s2">he&#39;s got a backup system at home is that</p>
+<p begin="00:06:24.240" end="00:06:30.880" style="s2">a go for launch is that i go for launch</p>
+<p begin="00:06:27.039" end="00:06:35.000" style="s2">oh my god he&#39;s gonna launch the nuke</p>
+<p begin="00:06:30.880" end="00:06:37.520" style="s2">oh my god look at how they go</p>
+<p begin="00:06:35.000" end="00:06:41.120" style="s2">[Music]</p>
+<p begin="00:06:37.520" end="00:06:44.240" style="s2">the nuke just hit you just</p>
+<p begin="00:06:41.120" end="00:06:46.319" style="s2">there you go i&#39;m afraid armageddon just</p>
+<p begin="00:06:44.240" end="00:06:51.360" style="s2">happened</p>
+<p begin="00:06:46.319" end="00:06:54.560" style="s2">oh that was amazing he has a nuke</p>
+<p begin="00:06:51.360" end="00:06:57.199" style="s2">oh he has a counter strike oh my god</p>
+<p begin="00:06:54.560" end="00:06:59.039" style="s2">that&#39;s brilliant</p>
+<p begin="00:06:57.199" end="00:07:00.479" style="s2">okay are they going to the telephone</p>
+<p begin="00:06:59.039" end="00:07:02.800" style="s2">cables</p>
+<p begin="00:07:00.479" end="00:07:04.560" style="s2">oh [ __ ] they have access to the is that</p>
+<p begin="00:07:02.800" end="00:07:07.120" style="s2">the internet</p>
+<p begin="00:07:04.560" end="00:07:08.080" style="s2">wait this is pretty they are copying a</p>
+<p begin="00:07:07.120" end="00:07:11.199" style="s2">file</p>
+<p begin="00:07:08.080" end="00:07:15.039" style="s2">no system you save that mp4</p>
+<p begin="00:07:11.199" end="00:07:18.400" style="s2">okay weak update</p>
+<p begin="00:07:15.039" end="00:07:18.400" style="s2">okay they look in the directory</p>
+<p begin="00:07:18.880" end="00:07:22.880" style="s2">this is actually not bad there is no 3d</p>
+<p begin="00:07:20.800" end="00:07:25.280" style="s2">you see there is no cubes going on</p>
+<p begin="00:07:22.880" end="00:07:28.560" style="s2">oh look at that they are oh wow they had</p>
+<p begin="00:07:25.280" end="00:07:28.560" style="s2">the whole exchange</p>
+<p begin="00:07:32.400" end="00:07:35.680" style="s2">look at that look at everybody looking</p>
+<p begin="00:07:33.840" end="00:07:38.960" style="s2">at one person that&#39;s amazing</p>
+<p begin="00:07:35.680" end="00:07:40.080" style="s2">the attention they get he doesn&#39;t look</p>
+<p begin="00:07:38.960" end="00:07:42.479" style="s2">like a</p>
+<p begin="00:07:40.080" end="00:07:43.919" style="s2">like a kebab shower already he&#39;s a fancy</p>
+<p begin="00:07:42.479" end="00:07:46.400" style="s2">kid oh my god there is a button that</p>
+<p begin="00:07:43.919" end="00:07:46.400" style="s2">says attack</p>
+<p begin="00:07:47.599" end="00:07:55.120" style="s2">but he&#39;s just pinging he</p>
+<p begin="00:07:50.720" end="00:07:58.400" style="s2">he just blinked to an ip address that&#39;s</p>
+<p begin="00:07:55.120" end="00:08:02.319" style="s2">oh my god destroy this system</p>
+<p begin="00:07:58.400" end="00:08:04.960" style="s2">wow look at that window such power</p>
+<p begin="00:08:02.319" end="00:08:05.840" style="s2">destroyed he&#39;s thinking about it destroy</p>
+<p begin="00:08:04.960" end="00:08:09.919" style="s2">the system</p>
+<p begin="00:08:05.840" end="00:08:11.440" style="s2">maybe oh my god i want i need to finish</p>
+<p begin="00:08:09.919" end="00:08:13.919" style="s2">we need to finish this movie i really</p>
+<p begin="00:08:11.440" end="00:08:16.400" style="s2">want to see what happens</p>
+<p begin="00:08:13.919" end="00:08:17.599" style="s2">oh my god you&#39;re thank you so much for</p>
+<p begin="00:08:16.400" end="00:08:19.840" style="s2">watching</p>
+<p begin="00:08:17.599" end="00:08:21.599" style="s2">this has been very fun very interesting</p>
+<p begin="00:08:19.840" end="00:08:23.919" style="s2">let me know on the comments</p>
+<p begin="00:08:21.599" end="00:08:25.520" style="s2">uh which one was your favorite one i</p>
+<p begin="00:08:23.919" end="00:08:26.639" style="s2">don&#39;t know all of them are so cool</p>
+<p begin="00:08:25.520" end="00:08:29.039" style="s2">people dancing</p>
+<p begin="00:08:26.639" end="00:08:31.199" style="s2">mr robot is the most accurate one i i</p>
+<p begin="00:08:29.039" end="00:08:32.479" style="s2">really like the missile</p>
+<p begin="00:08:31.199" end="00:08:34.159" style="s2">thank you for watching let me know what</p>
+<p begin="00:08:32.479" end="00:08:35.120" style="s2">you think in the comments again if you</p>
+<p begin="00:08:34.159" end="00:08:36.959" style="s2">have any other</p>
+<p begin="00:08:35.120" end="00:08:39.120" style="s2">scenes or movies i should react to let</p>
+<p begin="00:08:36.959" end="00:08:40.880" style="s2">me know please i want to do this again</p>
+<p begin="00:08:39.120" end="00:08:45.279" style="s2">and as always don&#39;t forget to be happy</p>
+<p begin="00:08:40.880" end="00:08:45.279" style="s2">don&#39;t forget to eat kimchi kamidaro</p>
+<p begin="00:08:52.839" end="00:08:55.839" style="s2">bye-bye</p>
+</div>
+</body>
+</tt>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:01.940" end="00:00:06.779" style="s2">today we are going to play a game I am</p>
+<p begin="00:00:05.220" end="00:00:08.639" style="s2">going to show you a tiny piece of</p>
+<p begin="00:00:06.779" end="00:00:10.980" style="s2">JavaScript code and you are going to try</p>
+<p begin="00:00:08.639" end="00:00:15.000" style="s2">to guess what the result of that code is</p>
+<p begin="00:00:10.980" end="00:00:16.859" style="s2">I Am 98 sure that most of us won&#39;t get</p>
+<p begin="00:00:15.000" end="00:00:18.000" style="s2">the answers correctly so we are also</p>
+<p begin="00:00:16.859" end="00:00:20.640" style="s2">going to take some time to understand</p>
+<p begin="00:00:18.000" end="00:00:22.439" style="s2">what the correct answer is and why by</p>
+<p begin="00:00:20.640" end="00:00:24.539" style="s2">the end of the game we might all have a</p>
+<p begin="00:00:22.439" end="00:00:26.460" style="s2">headache but we are all going to have a</p>
+<p begin="00:00:24.539" end="00:00:29.340" style="s2">deeper understanding of how JavaScript</p>
+<p begin="00:00:26.460" end="00:00:30.840" style="s2">works and how weird it is and maybe some</p>
+<p begin="00:00:29.340" end="00:00:32.700" style="s2">of the shocking things we are about to</p>
+<p begin="00:00:30.840" end="00:00:34.920" style="s2">see will help you in a coding interview</p>
+<p begin="00:00:32.700" end="00:00:36.300" style="s2">who knows please keep track of all the</p>
+<p begin="00:00:34.920" end="00:00:37.920" style="s2">correct answers and when the game is</p>
+<p begin="00:00:36.300" end="00:00:39.780" style="s2">over let me know your score on the</p>
+<p begin="00:00:37.920" end="00:00:42.360" style="s2">comment let&#39;s get started with an easy</p>
+<p begin="00:00:39.780" end="00:00:44.160" style="s2">one what do you think the output of this</p>
+<p begin="00:00:42.360" end="00:00:47.640" style="s2">code is</p>
+<p begin="00:00:44.160" end="00:00:50.219" style="s2">correct this code Returns the word fail</p>
+<p begin="00:00:47.640" end="00:00:52.500" style="s2">I&#39;m joking I mean this code actually</p>
+<p begin="00:00:50.219" end="00:00:54.120" style="s2">does return the word fail but this is</p>
+<p begin="00:00:52.500" end="00:00:55.559" style="s2">not our first question I just wanted to</p>
+<p begin="00:00:54.120" end="00:00:57.840" style="s2">scare you a little bit our first</p>
+<p begin="00:00:55.559" end="00:01:02.760" style="s2">question is this one what is the result</p>
+<p begin="00:00:57.840" end="00:01:05.820" style="s2">of this code a false B for c not a</p>
+<p begin="00:01:02.760" end="00:01:07.140" style="s2">number the empty string and the answer</p>
+<p begin="00:01:05.820" end="00:01:10.020" style="s2">is</p>
+<p begin="00:01:07.140" end="00:01:11.880" style="s2">B and that is because JavaScript does</p>
+<p begin="00:01:10.020" end="00:01:13.920" style="s2">not want to show you an error to</p>
+<p begin="00:01:11.880" end="00:01:16.380" style="s2">accomplish this JavaScript uses a</p>
+<p begin="00:01:13.920" end="00:01:18.060" style="s2">process called type coercion this means</p>
+<p begin="00:01:16.380" end="00:01:20.460" style="s2">that it will automatically convert a</p>
+<p begin="00:01:18.060" end="00:01:22.500" style="s2">value from one type to another if it is</p>
+<p begin="00:01:20.460" end="00:01:24.900" style="s2">required to buy an operation in this</p>
+<p begin="00:01:22.500" end="00:01:27.240" style="s2">case because the minus operator can only</p>
+<p begin="00:01:24.900" end="00:01:29.640" style="s2">work with numbers the operator triggers</p>
+<p begin="00:01:27.240" end="00:01:32.100" style="s2">a numeric conversion that turns the</p>
+<p begin="00:01:29.640" end="00:01:34.619" style="s2">string into a number and that&#39;s why the</p>
+<p begin="00:01:32.100" end="00:01:39.720" style="s2">answer is 4. now that we know this what</p>
+<p begin="00:01:34.619" end="00:01:44.100" style="s2">is the result of this code a false B6 C</p>
+<p begin="00:01:39.720" end="00:01:46.259" style="s2">string 51 the not a number based on the</p>
+<p begin="00:01:44.100" end="00:01:49.079" style="s2">previous answer you may think that the</p>
+<p begin="00:01:46.259" end="00:01:52.140" style="s2">answer is B but it is not the correct</p>
+<p begin="00:01:49.079" end="00:01:54.479" style="s2">answer is C and that is because the plus</p>
+<p begin="00:01:52.140" end="00:01:57.000" style="s2">operator on JavaScript doesn&#39;t always</p>
+<p begin="00:01:54.479" end="00:01:59.399" style="s2">trigger a numeric conversion when the</p>
+<p begin="00:01:57.000" end="00:02:01.680" style="s2">plus operator is used with a number and</p>
+<p begin="00:01:59.399" end="00:02:04.619" style="s2">a string it actually converts the number</p>
+<p begin="00:02:01.680" end="00:02:06.479" style="s2">to a string and then concatenates the</p>
+<p begin="00:02:04.619" end="00:02:08.039" style="s2">strings with this knowledge it should be</p>
+<p begin="00:02:06.479" end="00:02:10.739" style="s2">easy to know the answer to our next</p>
+<p begin="00:02:08.039" end="00:02:16.020" style="s2">question what is the result of an empty</p>
+<p begin="00:02:10.739" end="00:02:19.620" style="s2">array plus an empty object a 0 b m t</p>
+<p begin="00:02:16.020" end="00:02:24.000" style="s2">array empty object as a string C object</p>
+<p begin="00:02:19.620" end="00:02:27.599" style="s2">object D not a number and the answer is</p>
+<p begin="00:02:24.000" end="00:02:30.300" style="s2">C here once again the plus operator</p>
+<p begin="00:02:27.599" end="00:02:32.040" style="s2">triggers the conversion of both array</p>
+<p begin="00:02:30.300" end="00:02:34.739" style="s2">and object to their string</p>
+<p begin="00:02:32.040" end="00:02:36.959" style="s2">representations an empty array converts</p>
+<p begin="00:02:34.739" end="00:02:39.959" style="s2">to an empty string and an empty object</p>
+<p begin="00:02:36.959" end="00:02:42.180" style="s2">converts to object object so we know</p>
+<p begin="00:02:39.959" end="00:02:44.760" style="s2">that empty array plus empty object</p>
+<p begin="00:02:42.180" end="00:02:47.220" style="s2">equals object object now let me ask you</p>
+<p begin="00:02:44.760" end="00:02:49.800" style="s2">what happens if we flip the order what</p>
+<p begin="00:02:47.220" end="00:02:54.660" style="s2">happens if we do empty object plus empty</p>
+<p begin="00:02:49.800" end="00:02:58.319" style="s2">array a object object B 0 C empty object</p>
+<p begin="00:02:54.660" end="00:03:01.260" style="s2">D not a number if you answered a object</p>
+<p begin="00:02:58.319" end="00:03:05.099" style="s2">object you are wrong the correct answer</p>
+<p begin="00:03:01.260" end="00:03:07.379" style="s2">is B zero empty object plus empty array</p>
+<p begin="00:03:05.099" end="00:03:10.140" style="s2">equals zero I&#39;m sorry I don&#39;t make the</p>
+<p begin="00:03:07.379" end="00:03:12.659" style="s2">rules this guide does so why is empty</p>
+<p begin="00:03:10.140" end="00:03:15.180" style="s2">array plus empty object equals object</p>
+<p begin="00:03:12.659" end="00:03:17.459" style="s2">object with empty object plus empty</p>
+<p begin="00:03:15.180" end="00:03:20.099" style="s2">array equals zero the reason why is</p>
+<p begin="00:03:17.459" end="00:03:21.900" style="s2">because in this case the empty object is</p>
+<p begin="00:03:20.099" end="00:03:24.840" style="s2">not seen as an empty object it is</p>
+<p begin="00:03:21.900" end="00:03:27.360" style="s2">instead seen as an empty block of like</p>
+<p begin="00:03:24.840" end="00:03:30.180" style="s2">this so in reality the expression is</p>
+<p begin="00:03:27.360" end="00:03:32.459" style="s2">evaluated AS Plus empty array the plus</p>
+<p begin="00:03:30.180" end="00:03:34.440" style="s2">sign converts the empty array into a</p>
+<p begin="00:03:32.459" end="00:03:36.900" style="s2">number and when an empty array is turned</p>
+<p begin="00:03:34.440" end="00:03:39.000" style="s2">into a number it becomes a zero let&#39;s</p>
+<p begin="00:03:36.900" end="00:03:42.299" style="s2">practice a bit what is the result of</p>
+<p begin="00:03:39.000" end="00:03:46.140" style="s2">true plus true plus true</p>
+<p begin="00:03:42.299" end="00:03:50.519" style="s2">a true B true true true</p>
+<p begin="00:03:46.140" end="00:03:53.459" style="s2">c three D not a number the answer is Z</p>
+<p begin="00:03:50.519" end="00:03:55.319" style="s2">true plus true plus true is equals to</p>
+<p begin="00:03:53.459" end="00:03:57.540" style="s2">three this happens because when you use</p>
+<p begin="00:03:55.319" end="00:03:59.640" style="s2">the plus operator with booleans in</p>
+<p begin="00:03:57.540" end="00:04:02.640" style="s2">JavaScript converts them into numbers</p>
+<p begin="00:03:59.640" end="00:04:04.860" style="s2">true is turned into binary two which is</p>
+<p begin="00:04:02.640" end="00:04:08.159" style="s2">one which means we end up doing one plus</p>
+<p begin="00:04:04.860" end="00:04:10.860" style="s2">one plus one on the same line true minus</p>
+<p begin="00:04:08.159" end="00:04:13.260" style="s2">true will return zero since it&#39;s the</p>
+<p begin="00:04:10.860" end="00:04:15.360" style="s2">same as doing one minus one now let&#39;s</p>
+<p begin="00:04:13.260" end="00:04:17.280" style="s2">get into something more technical or</p>
+<p begin="00:04:15.360" end="00:04:22.079" style="s2">what is the return value of this</p>
+<p begin="00:04:17.280" end="00:04:23.340" style="s2">function a 1 b 2 3 C and the correct</p>
+<p begin="00:04:22.079" end="00:04:26.759" style="s2">answer is</p>
+<p begin="00:04:23.340" end="00:04:28.740" style="s2">see and that function returns three the</p>
+<p begin="00:04:26.759" end="00:04:31.380" style="s2">reason why is because of how try catch</p>
+<p begin="00:04:28.740" end="00:04:33.780" style="s2">and finally work inside the function try</p>
+<p begin="00:04:31.380" end="00:04:36.360" style="s2">block tries to return one but the</p>
+<p begin="00:04:33.780" end="00:04:39.240" style="s2">finally block always executes regardless</p>
+<p begin="00:04:36.360" end="00:04:42.479" style="s2">of whether an exception is thrown or not</p>
+<p begin="00:04:39.240" end="00:04:45.600" style="s2">and it also has the power to override</p>
+<p begin="00:04:42.479" end="00:04:47.759" style="s2">the return from try block this question</p>
+<p begin="00:04:45.600" end="00:04:49.740" style="s2">unlike the other ones isn&#39;t about some</p>
+<p begin="00:04:47.759" end="00:04:51.259" style="s2">weird JavaScript Quirk it makes sense</p>
+<p begin="00:04:49.740" end="00:04:54.300" style="s2">and it&#39;s good to know talking about</p>
+<p begin="00:04:51.259" end="00:04:57.440" style="s2">decimals what is the result of this</p>
+<p begin="00:04:54.300" end="00:05:02.639" style="s2">operation a</p>
+<p begin="00:04:57.440" end="00:05:04.259" style="s2">1.0001 B1 the answer is B that is</p>
+<p begin="00:05:02.639" end="00:05:06.419" style="s2">because JavaScript is unable to</p>
+<p begin="00:05:04.259" end="00:05:09.120" style="s2">accurately process numbers with more</p>
+<p begin="00:05:06.419" end="00:05:12.240" style="s2">than 16 digits leading it to round off</p>
+<p begin="00:05:09.120" end="00:05:14.040" style="s2">these values to one now tell me what</p>
+<p begin="00:05:12.240" end="00:05:20.160" style="s2">will this code return</p>
+<p begin="00:05:14.040" end="00:05:22.080" style="s2">a true or B false the answer is B false</p>
+<p begin="00:05:20.160" end="00:05:23.580" style="s2">this one is not a JavaScript block it</p>
+<p begin="00:05:22.080" end="00:05:25.860" style="s2">actually happens in other programming</p>
+<p begin="00:05:23.580" end="00:05:27.840" style="s2">languages computers think in binary ones</p>
+<p begin="00:05:25.860" end="00:05:30.900" style="s2">and zeros this can cause some issues</p>
+<p begin="00:05:27.840" end="00:05:33.960" style="s2">because some decimals fractions like 0.1</p>
+<p begin="00:05:30.900" end="00:05:36.240" style="s2">or 0.2 can&#39;t be exactly converted into</p>
+<p begin="00:05:33.960" end="00:05:39.960" style="s2">binary so when you tell JavaScript to</p>
+<p begin="00:05:36.240" end="00:05:42.060" style="s2">use 0.1 or 0.2 it does its best to</p>
+<p begin="00:05:39.960" end="00:05:44.460" style="s2">represent these numbers in binary but</p>
+<p begin="00:05:42.060" end="00:05:48.720" style="s2">they end up being a tiny bit more than</p>
+<p begin="00:05:44.460" end="00:05:51.660" style="s2">0.1 or 0.2 so when you add a 0.1 and 0.2</p>
+<p begin="00:05:48.720" end="00:05:54.600" style="s2">this tiny extra bit also add up making</p>
+<p begin="00:05:51.660" end="00:05:58.620" style="s2">the total slightly different than 0.3</p>
+<p begin="00:05:54.600" end="00:06:01.380" style="s2">and that&#39;s why 0.1 plus 0.2 equals 0.3</p>
+<p begin="00:05:58.620" end="00:06:04.919" style="s2">is false because the sum is in exactly</p>
+<p begin="00:06:01.380" end="00:06:06.539" style="s2">0.3 due to this tiny extra bits let&#39;s do</p>
+<p begin="00:06:04.919" end="00:06:09.660" style="s2">one that I&#39;m sure many of you at home</p>
+<p begin="00:06:06.539" end="00:06:15.060" style="s2">will get what will this code return a</p>
+<p begin="00:06:09.660" end="00:06:17.100" style="s2">true B false the answer here is a true</p>
+<p begin="00:06:15.060" end="00:06:19.080" style="s2">as we have seen before JavaScript treat</p>
+<p begin="00:06:17.100" end="00:06:21.120" style="s2">the true as one when it comes to</p>
+<p begin="00:06:19.080" end="00:06:23.400" style="s2">mathematical operations and comparison</p>
+<p begin="00:06:21.120" end="00:06:25.080" style="s2">so when you are comparing true to one</p>
+<p begin="00:06:23.400" end="00:06:27.479" style="s2">JavaScript says they are the same</p>
+<p begin="00:06:25.080" end="00:06:31.860" style="s2">because it seems true as one based on</p>
+<p begin="00:06:27.479" end="00:06:34.500" style="s2">that what will this code return a true B</p>
+<p begin="00:06:31.860" end="00:06:37.860" style="s2">false the answer here is</p>
+<p begin="00:06:34.500" end="00:06:40.440" style="s2">B false as we know when we use two</p>
+<p begin="00:06:37.860" end="00:06:42.840" style="s2">equals JavaScript tries to help by</p>
+<p begin="00:06:40.440" end="00:06:44.520" style="s2">converting different types of data to</p>
+<p begin="00:06:42.840" end="00:06:46.800" style="s2">match each other when we use three</p>
+<p begin="00:06:44.520" end="00:06:49.080" style="s2">equals JavaScript does not make this</p>
+<p begin="00:06:46.800" end="00:06:51.960" style="s2">conversion it checks if things on both</p>
+<p begin="00:06:49.080" end="00:06:55.139" style="s2">sides are exactly the same including</p>
+<p begin="00:06:51.960" end="00:06:57.900" style="s2">their types so true equals equals equals</p>
+<p begin="00:06:55.139" end="00:07:00.419" style="s2">one is false because even though true</p>
+<p begin="00:06:57.900" end="00:07:02.940" style="s2">can be converted to one true is not</p>
+<p begin="00:07:00.419" end="00:07:05.400" style="s2">exactly the same as one because they are</p>
+<p begin="00:07:02.940" end="00:07:07.560" style="s2">different types of data one is a Boolean</p>
+<p begin="00:07:05.400" end="00:07:09.720" style="s2">value and the other is a number this is</p>
+<p begin="00:07:07.560" end="00:07:12.000" style="s2">why you should always use three equals</p>
+<p begin="00:07:09.720" end="00:07:14.460" style="s2">rather than two to stop Javascript</p>
+<p begin="00:07:12.000" end="00:07:16.440" style="s2">trying to help and do unexpected type</p>
+<p begin="00:07:14.460" end="00:07:18.000" style="s2">conversions and to finish up and this</p>
+<p begin="00:07:16.440" end="00:07:20.940" style="s2">one is for fun because I don&#39;t think you</p>
+<p begin="00:07:18.000" end="00:07:23.360" style="s2">will ever use this what is the output of</p>
+<p begin="00:07:20.940" end="00:07:23.360" style="s2">this code</p>
+<p begin="00:07:23.780" end="00:07:32.160" style="s2">banana c not a number D 11. the answer</p>
+<p begin="00:07:28.680" end="00:07:34.259" style="s2">is B this code returns banana in</p>
+<p begin="00:07:32.160" end="00:07:36.720" style="s2">JavaScript the plus sign next to a</p>
+<p begin="00:07:34.259" end="00:07:39.240" style="s2">string ring tries to convert that string</p>
+<p begin="00:07:36.720" end="00:07:41.940" style="s2">into a number in our banana case the</p>
+<p begin="00:07:39.240" end="00:07:44.280" style="s2">second a is next to a plus sign and</p>
+<p begin="00:07:41.940" end="00:07:47.220" style="s2">because we can&#39;t turn the letter A into</p>
+<p begin="00:07:44.280" end="00:07:52.319" style="s2">a number or we get not a number instead</p>
+<p begin="00:07:47.220" end="00:07:55.800" style="s2">so B plus a plus plus a plus a becomes B</p>
+<p begin="00:07:52.319" end="00:07:57.360" style="s2">plus a plus not a number plus a and</p>
+<p begin="00:07:55.800" end="00:07:59.460" style="s2">because the plus sign is used with</p>
+<p begin="00:07:57.360" end="00:08:01.199" style="s2">strings just concatenates them we get</p>
+<p begin="00:07:59.460" end="00:08:03.599" style="s2">banana in the end as you can see</p>
+<p begin="00:08:01.199" end="00:08:05.520" style="s2">JavaScript is very flexible which means</p>
+<p begin="00:08:03.599" end="00:08:07.560" style="s2">we don&#39;t get errors when we try to do</p>
+<p begin="00:08:05.520" end="00:08:09.660" style="s2">silly things like trying to add an array</p>
+<p begin="00:08:07.560" end="00:08:11.039" style="s2">to an empty object because of this we</p>
+<p begin="00:08:09.660" end="00:08:14.039" style="s2">have to be aware of the language</p>
+<p begin="00:08:11.039" end="00:08:16.080" style="s2">performing type conversions silently on</p>
+<p begin="00:08:14.039" end="00:08:18.000" style="s2">the background which may lead to bugs</p>
+<p begin="00:08:16.080" end="00:08:19.860" style="s2">that are hard to find and that is the</p>
+<p begin="00:08:18.000" end="00:08:22.080" style="s2">reason why for a long time I have not</p>
+<p begin="00:08:19.860" end="00:08:23.940" style="s2">written any JavaScript code and moved to</p>
+<p begin="00:08:22.080" end="00:08:25.620" style="s2">typescript typescript is just a better</p>
+<p begin="00:08:23.940" end="00:08:27.840" style="s2">JavaScript that will improve your</p>
+<p begin="00:08:25.620" end="00:08:30.660" style="s2">quality of life the moment you try it I</p>
+<p begin="00:08:27.840" end="00:08:33.060" style="s2">made a free 4 Hour typescript course</p>
+<p begin="00:08:30.660" end="00:08:35.219" style="s2">where we learn how it works and why it&#39;s</p>
+<p begin="00:08:33.060" end="00:08:37.380" style="s2">better than JavaScript by building a</p>
+<p begin="00:08:35.219" end="00:08:39.000" style="s2">simple blockchain it&#39;s for free so</p>
+<p begin="00:08:37.380" end="00:08:41.159" style="s2">please join right now clicking the link</p>
+<p begin="00:08:39.000" end="00:08:42.539" style="s2">below to learn about the reason I&#39;m not</p>
+<p begin="00:08:41.159" end="00:08:44.700" style="s2">afraid of refactoring old code</p>
+<p begin="00:08:42.539" end="00:08:45.899" style="s2">typescript if you had fun today and you</p>
+<p begin="00:08:44.700" end="00:08:48.120" style="s2">learned something you did not know</p>
+<p begin="00:08:45.899" end="00:08:49.620" style="s2">before please like the video share it</p>
+<p begin="00:08:48.120" end="00:08:51.060" style="s2">with your friends and subscribe to the</p>
+<p begin="00:08:49.620" end="00:08:53.060" style="s2">channel click the link below and I will</p>
+<p begin="00:08:51.060" end="00:08:57.260" style="s2">see you there</p>
+<p begin="00:08:53.060" end="00:08:57.260" style="s2">see you on the next one bye</p>
+</div>
+</body>
+</tt>

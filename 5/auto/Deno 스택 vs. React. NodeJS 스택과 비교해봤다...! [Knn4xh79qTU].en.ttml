@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.000" end="00:00:07.680" style="s2">today we&#39;re going to build and deploy an</p>
+<p begin="00:00:04.860" end="00:00:10.980" style="s2">app using a stack I&#39;ve been dying to</p>
+<p begin="00:00:07.680" end="00:00:15.120" style="s2">show you we are going to use Dino fresh</p>
+<p begin="00:00:10.980" end="00:00:17.940" style="s2">Dino deploy and Dino KV to build a</p>
+<p begin="00:00:15.120" end="00:00:19.980" style="s2">voting web app by the end of this video</p>
+<p begin="00:00:17.940" end="00:00:22.140" style="s2">you are going to be surprised at how</p>
+<p begin="00:00:19.980" end="00:00:25.260" style="s2">easy it is to build something with the</p>
+<p begin="00:00:22.140" end="00:00:27.720" style="s2">dino stack compared to using next JS</p>
+<p begin="00:00:25.260" end="00:00:29.640" style="s2">react and Versa before we start let&#39;s</p>
+<p begin="00:00:27.720" end="00:00:32.099" style="s2">first Define what all the parts of the</p>
+<p begin="00:00:29.640" end="00:00:35.340" style="s2">stack are and what they do created by</p>
+<p begin="00:00:32.099" end="00:00:38.340" style="s2">the same mind behind node.js Ryan though</p>
+<p begin="00:00:35.340" end="00:00:40.860" style="s2">Dino is a fairly new JavaScript</p>
+<p begin="00:00:38.340" end="00:00:43.260" style="s2">typescript and web assembly runtime</p>
+<p begin="00:00:40.860" end="00:00:46.020" style="s2">built on the rust programming language</p>
+<p begin="00:00:43.260" end="00:00:48.420" style="s2">that means that Vino is a rust program</p>
+<p begin="00:00:46.020" end="00:00:50.820" style="s2">that can understand and execute</p>
+<p begin="00:00:48.420" end="00:00:53.399" style="s2">typescript JavaScript and web assembly</p>
+<p begin="00:00:50.820" end="00:00:55.379" style="s2">code Lino is different from node.js in</p>
+<p begin="00:00:53.399" end="00:00:57.899" style="s2">many ways it has a more secure</p>
+<p begin="00:00:55.379" end="00:01:01.020" style="s2">permissions model and it does not have</p>
+<p begin="00:00:57.899" end="00:01:03.719" style="s2">npm install or note mode values Vino</p>
+<p begin="00:01:01.020" end="00:01:05.580" style="s2">also implements web platform apis which</p>
+<p begin="00:01:03.719" end="00:01:07.799" style="s2">means the learning curve is not that</p>
+<p begin="00:01:05.580" end="00:01:09.960" style="s2">high since we all have used these apis</p>
+<p begin="00:01:07.799" end="00:01:12.479" style="s2">on the browsers before it is basically</p>
+<p begin="00:01:09.960" end="00:01:14.400" style="s2">node.js if the creator of node.js could</p>
+<p begin="00:01:12.479" end="00:01:17.760" style="s2">go back in time and fix his mistakes</p>
+<p begin="00:01:14.400" end="00:01:20.100" style="s2">fresh is the next JS of the Dino World</p>
+<p begin="00:01:17.760" end="00:01:22.740" style="s2">it is a web framework with features like</p>
+<p begin="00:01:20.100" end="00:01:24.600" style="s2">server-side rendering API routes and all</p>
+<p begin="00:01:22.740" end="00:01:27.780" style="s2">that you would expect it does not use</p>
+<p begin="00:01:24.600" end="00:01:30.600" style="s2">react instead it uses react and it uses</p>
+<p begin="00:01:27.780" end="00:01:32.700" style="s2">something called Island based client</p>
+<p begin="00:01:30.600" end="00:01:35.159" style="s2">hydration that makes loading and</p>
+<p begin="00:01:32.700" end="00:01:37.320" style="s2">interaction times faster it requires no</p>
+<p begin="00:01:35.159" end="00:01:39.360" style="s2">configuration no building step and it</p>
+<p begin="00:01:37.320" end="00:01:41.939" style="s2">comes with typescript support out of the</p>
+<p begin="00:01:39.360" end="00:01:44.100" style="s2">box Vino deploy is a cloud service where</p>
+<p begin="00:01:41.939" end="00:01:46.320" style="s2">we can deploy JavaScript typescript and</p>
+<p begin="00:01:44.100" end="00:01:49.140" style="s2">webassembly apps with no config</p>
+<p begin="00:01:46.320" end="00:01:52.860" style="s2">whatsoever it&#39;s like the versel or</p>
+<p begin="00:01:49.140" end="00:01:55.380" style="s2">netflify of the Dino World Dino KV is a</p>
+<p begin="00:01:52.860" end="00:01:57.840" style="s2">key value database that can be used by</p>
+<p begin="00:01:55.380" end="00:01:59.880" style="s2">any Lino program that is deployed using</p>
+<p begin="00:01:57.840" end="00:02:02.340" style="s2">Dino deploy and because it&#39;s built on</p>
+<p begin="00:01:59.880" end="00:02:04.619" style="s2">Foundation DB it can handle millions of</p>
+<p begin="00:02:02.340" end="00:02:06.600" style="s2">operations per second it&#39;s currently on</p>
+<p begin="00:02:04.619" end="00:02:08.520" style="s2">beta but thankfully I&#39;ve got an</p>
+<p begin="00:02:06.600" end="00:02:10.800" style="s2">invitation so we can try it out after</p>
+<p begin="00:02:08.520" end="00:02:13.020" style="s2">installing Dino using any of the many</p>
+<p begin="00:02:10.800" end="00:02:16.020" style="s2">methods of installation we are going to</p>
+<p begin="00:02:13.020" end="00:02:18.239" style="s2">run this command to create a new Fresh</p>
+<p begin="00:02:16.020" end="00:02:19.860" style="s2">project this will install fresh and is</p>
+<p begin="00:02:18.239" end="00:02:21.540" style="s2">going to ask us for the name of the</p>
+<p begin="00:02:19.860" end="00:02:24.180" style="s2">project if you want to use tailwind and</p>
+<p begin="00:02:21.540" end="00:02:25.620" style="s2">if we use vs code after we reply yes to</p>
+<p begin="00:02:24.180" end="00:02:27.959" style="s2">all of them we&#39;re going to open the</p>
+<p begin="00:02:25.620" end="00:02:30.180" style="s2">folder in our vs code there we are going</p>
+<p begin="00:02:27.959" end="00:02:32.099" style="s2">to delete all the boilerplate files the</p>
+<p begin="00:02:30.180" end="00:02:34.580" style="s2">installer has created for us and we are</p>
+<p begin="00:02:32.099" end="00:02:38.280" style="s2">going to create a file called</p>
+<p begin="00:02:34.580" end="00:02:40.800" style="s2">index.tsx inside of the route folder</p>
+<p begin="00:02:38.280" end="00:02:43.680" style="s2">fresh has the same routing idea as next</p>
+<p begin="00:02:40.800" end="00:02:46.980" style="s2">JS so if for example you create a file</p>
+<p begin="00:02:43.680" end="00:02:49.560" style="s2">called about that DSX inside of the</p>
+<p begin="00:02:46.980" end="00:02:51.959" style="s2">routes folder that page will be visible</p>
+<p begin="00:02:49.560" end="00:02:54.480" style="s2">on the slash about page of your website</p>
+<p begin="00:02:51.959" end="00:02:55.739" style="s2">we also have an Islands folder this is</p>
+<p begin="00:02:54.480" end="00:02:59.280" style="s2">where we are going to put our</p>
+<p begin="00:02:55.739" end="00:03:02.220" style="s2">interactive components in our index.tsx</p>
+<p begin="00:02:59.280" end="00:03:05.040" style="s2">page we will write down this code this</p>
+<p begin="00:03:02.220" end="00:03:07.620" style="s2">HTML code has a form with a method post</p>
+<p begin="00:03:05.040" end="00:03:09.780" style="s2">and three inputs one for a question and</p>
+<p begin="00:03:07.620" end="00:03:12.120" style="s2">two more for the options we are also</p>
+<p begin="00:03:09.780" end="00:03:14.640" style="s2">using the head component from fresh that</p>
+<p begin="00:03:12.120" end="00:03:16.379" style="s2">allows us to change the title from the</p>
+<p begin="00:03:14.640" end="00:03:18.480" style="s2">head to see what this looks like in the</p>
+<p begin="00:03:16.379" end="00:03:20.099" style="s2">browser we are going to run fresh by</p>
+<p begin="00:03:18.480" end="00:03:23.519" style="s2">going to our console and running the</p>
+<p begin="00:03:20.099" end="00:03:25.920" style="s2">Vino task start command then when we go</p>
+<p begin="00:03:23.519" end="00:03:28.560" style="s2">to localhost 8000 we will see a form</p>
+<p begin="00:03:25.920" end="00:03:31.019" style="s2">that looks like this as you can see when</p>
+<p begin="00:03:28.560" end="00:03:33.659" style="s2">we write down our question the options</p>
+<p begin="00:03:31.019" end="00:03:35.819" style="s2">and click on the button we get an error</p>
+<p begin="00:03:33.659" end="00:03:38.159" style="s2">we have to write the code to process the</p>
+<p begin="00:03:35.819" end="00:03:40.680" style="s2">submission of the form to process the</p>
+<p begin="00:03:38.159" end="00:03:43.319" style="s2">form we are going to write this code on</p>
+<p begin="00:03:40.680" end="00:03:45.840" style="s2">top of the home component inside of the</p>
+<p begin="00:03:43.319" end="00:03:48.299" style="s2">object called Handler there is a post</p>
+<p begin="00:03:45.840" end="00:03:51.299" style="s2">function that fresh will automatically</p>
+<p begin="00:03:48.299" end="00:03:53.459" style="s2">call when we submit the form inside of</p>
+<p begin="00:03:51.299" end="00:03:55.920" style="s2">it we are getting the value of the form</p>
+<p begin="00:03:53.459" end="00:03:57.720" style="s2">and responding to the user with the same</p>
+<p begin="00:03:55.920" end="00:04:00.420" style="s2">values to check that everything is</p>
+<p begin="00:03:57.720" end="00:04:02.700" style="s2">working how cool is this with did not</p>
+<p begin="00:04:00.420" end="00:04:05.159" style="s2">have to write any fetch code no event</p>
+<p begin="00:04:02.700" end="00:04:07.620" style="s2">listeners awesome to save the question</p>
+<p begin="00:04:05.159" end="00:04:09.900" style="s2">as well as the options on the database</p>
+<p begin="00:04:07.620" end="00:04:11.700" style="s2">we&#39;re going to extend the post Handler a</p>
+<p begin="00:04:09.900" end="00:04:13.920" style="s2">bit here we are creating an object</p>
+<p begin="00:04:11.700" end="00:04:16.260" style="s2">called payload that will hold all the</p>
+<p begin="00:04:13.920" end="00:04:19.680" style="s2">data of the question as well as the vote</p>
+<p begin="00:04:16.260" end="00:04:22.260" style="s2">counters that both start in zero we also</p>
+<p begin="00:04:19.680" end="00:04:24.900" style="s2">give it a random ID here is what it</p>
+<p begin="00:04:22.260" end="00:04:27.479" style="s2">would look like we are then calling the</p>
+<p begin="00:04:24.900" end="00:04:30.000" style="s2">dino KV database and we are saving the</p>
+<p begin="00:04:27.479" end="00:04:33.660" style="s2">question object into it as a string</p>
+<p begin="00:04:30.000" end="00:04:36.360" style="s2">using the random ID as a key then we are</p>
+<p begin="00:04:33.660" end="00:04:38.940" style="s2">redirecting the user to the URL slash</p>
+<p begin="00:04:36.360" end="00:04:41.340" style="s2">questions slash question ID that would</p>
+<p begin="00:04:38.940" end="00:04:43.020" style="s2">look something like this as you can see</p>
+<p begin="00:04:41.340" end="00:04:45.660" style="s2">it looks like the submission is working</p>
+<p begin="00:04:43.020" end="00:04:48.060" style="s2">because we are being redirected but that</p>
+<p begin="00:04:45.660" end="00:04:50.460" style="s2">URL is not found which makes sense since</p>
+<p begin="00:04:48.060" end="00:04:52.919" style="s2">we haven&#39;t created that page yet to</p>
+<p begin="00:04:50.460" end="00:04:55.139" style="s2">handle this URL we are going to create a</p>
+<p begin="00:04:52.919" end="00:04:57.300" style="s2">new file inside of the questions folder</p>
+<p begin="00:04:55.139" end="00:04:59.280" style="s2">and we&#39;re going to write this code here</p>
+<p begin="00:04:57.300" end="00:05:01.680" style="s2">we are using the Handler object again</p>
+<p begin="00:04:59.280" end="00:05:03.840" style="s2">but we are now writing a get function</p>
+<p begin="00:05:01.680" end="00:05:05.880" style="s2">inside of it this is a function that</p>
+<p begin="00:05:03.840" end="00:05:08.160" style="s2">will be called server side when the user</p>
+<p begin="00:05:05.880" end="00:05:09.960" style="s2">goes to that page on this function we</p>
+<p begin="00:05:08.160" end="00:05:12.180" style="s2">are looking for a question with the ID</p>
+<p begin="00:05:09.960" end="00:05:14.520" style="s2">that is on the URL that the user was</p>
+<p begin="00:05:12.180" end="00:05:16.979" style="s2">redirected to if we find it we will call</p>
+<p begin="00:05:14.520" end="00:05:19.620" style="s2">context that render with the question</p>
+<p begin="00:05:16.979" end="00:05:21.600" style="s2">from the database that data will be</p>
+<p begin="00:05:19.620" end="00:05:24.539" style="s2">passed down to the question component</p>
+<p begin="00:05:21.600" end="00:05:26.699" style="s2">where we will show the user an H1 with</p>
+<p begin="00:05:24.539" end="00:05:28.860" style="s2">the question they asked this is how the</p>
+<p begin="00:05:26.699" end="00:05:30.720" style="s2">page looks like after we refresh the</p>
+<p begin="00:05:28.860" end="00:05:32.880" style="s2">browser we are now going to create a</p>
+<p begin="00:05:30.720" end="00:05:35.580" style="s2">button that we can click to send and</p>
+<p begin="00:05:32.880" end="00:05:37.680" style="s2">record a vote on our database for this</p>
+<p begin="00:05:35.580" end="00:05:40.460" style="s2">we&#39;re going to create a new component on</p>
+<p begin="00:05:37.680" end="00:05:43.139" style="s2">the islands folder called</p>
+<p begin="00:05:40.460" end="00:05:45.539" style="s2">button.tsx the islands folder is where</p>
+<p begin="00:05:43.139" end="00:05:47.520" style="s2">we put the interactive components they</p>
+<p begin="00:05:45.539" end="00:05:50.160" style="s2">are the ones rendered on the client side</p>
+<p begin="00:05:47.520" end="00:05:53.340" style="s2">on the bottom Iceland we are going to</p>
+<p begin="00:05:50.160" end="00:05:55.740" style="s2">write this code this is a component that</p>
+<p begin="00:05:53.340" end="00:05:58.800" style="s2">receives some props like the question ID</p>
+<p begin="00:05:55.740" end="00:06:01.620" style="s2">the option text the amount of votes that</p>
+<p begin="00:05:58.800" end="00:06:03.840" style="s2">option has and then number of options it</p>
+<p begin="00:06:01.620" end="00:06:06.479" style="s2">is Option 1 or option two for</p>
+<p begin="00:06:03.840" end="00:06:08.759" style="s2">interactivity we use free acts to use a</p>
+<p begin="00:06:06.479" end="00:06:11.340" style="s2">signal which is similar to reacts use</p>
+<p begin="00:06:08.759" end="00:06:13.139" style="s2">State on the function on click which</p>
+<p begin="00:06:11.340" end="00:06:15.180" style="s2">will be called when we click the button</p>
+<p begin="00:06:13.139" end="00:06:18.000" style="s2">just for now we are changing the value</p>
+<p begin="00:06:15.180" end="00:06:20.220" style="s2">of the loading signal to true and after</p>
+<p begin="00:06:18.000" end="00:06:22.919" style="s2">a second and a half we are setting it</p>
+<p begin="00:06:20.220" end="00:06:25.620" style="s2">back to false we are also increasing the</p>
+<p begin="00:06:22.919" end="00:06:28.020" style="s2">number of the votes signal which has a</p>
+<p begin="00:06:25.620" end="00:06:30.900" style="s2">default value of the current number of</p>
+<p begin="00:06:28.020" end="00:06:32.819" style="s2">votes of the question we then import the</p>
+<p begin="00:06:30.900" end="00:06:35.220" style="s2">button component into our question</p>
+<p begin="00:06:32.819" end="00:06:37.680" style="s2">component and now our page looks like</p>
+<p begin="00:06:35.220" end="00:06:40.620" style="s2">this with interactivity and everything</p>
+<p begin="00:06:37.680" end="00:06:43.500" style="s2">to record votes on our database I would</p>
+<p begin="00:06:40.620" end="00:06:45.539" style="s2">like to get a URL like this one where we</p>
+<p begin="00:06:43.500" end="00:06:48.120" style="s2">will get the question ID the user is</p>
+<p begin="00:06:45.539" end="00:06:49.919" style="s2">voting on as well as which option they</p>
+<p begin="00:06:48.120" end="00:06:52.680" style="s2">chose for this we&#39;re going to create a</p>
+<p begin="00:06:49.919" end="00:06:55.080" style="s2">new file on our route folder there we</p>
+<p begin="00:06:52.680" end="00:06:57.060" style="s2">will write down this code let&#39;s go</p>
+<p begin="00:06:55.080" end="00:06:59.340" style="s2">through it part by part first we are</p>
+<p begin="00:06:57.060" end="00:07:01.860" style="s2">extracting the query parameters ID and</p>
+<p begin="00:06:59.340" end="00:07:03.840" style="s2">option and from the URL then we are</p>
+<p begin="00:07:01.860" end="00:07:06.720" style="s2">getting the question from the database</p>
+<p begin="00:07:03.840" end="00:07:09.600" style="s2">after that we are using json.parse to</p>
+<p begin="00:07:06.720" end="00:07:12.780" style="s2">turn that string into a JS object and</p>
+<p begin="00:07:09.600" end="00:07:15.900" style="s2">then we are updating that question using</p>
+<p begin="00:07:12.780" end="00:07:18.300" style="s2">KV that set if the option parameter on</p>
+<p begin="00:07:15.900" end="00:07:21.599" style="s2">the URL is one we are increasing the</p>
+<p begin="00:07:18.300" end="00:07:24.599" style="s2">value of the option 1 votes else we are</p>
+<p begin="00:07:21.599" end="00:07:27.539" style="s2">increasing number twos now all is left</p>
+<p begin="00:07:24.599" end="00:07:30.120" style="s2">is to make the bottom component send a</p>
+<p begin="00:07:27.539" end="00:07:32.220" style="s2">request to that endpoint now in the on</p>
+<p begin="00:07:30.120" end="00:07:34.979" style="s2">click function we are sending a fetch</p>
+<p begin="00:07:32.220" end="00:07:37.560" style="s2">post request to our API endpoint with a</p>
+<p begin="00:07:34.979" end="00:07:39.660" style="s2">question ID and the option parameters we</p>
+<p begin="00:07:37.560" end="00:07:42.240" style="s2">now should be able to click the buttons</p>
+<p begin="00:07:39.660" end="00:07:45.380" style="s2">and after we refresh the page the votes</p>
+<p begin="00:07:42.240" end="00:07:48.180" style="s2">count should come from the data base</p>
+<p begin="00:07:45.380" end="00:07:50.699" style="s2">deploying is incredibly easy after</p>
+<p begin="00:07:48.180" end="00:07:53.099" style="s2">logging into Vino deploy dashboard all</p>
+<p begin="00:07:50.699" end="00:07:55.560" style="s2">we have to do is select the GitHub repo</p>
+<p begin="00:07:53.099" end="00:07:58.380" style="s2">where the project is and it will all be</p>
+<p begin="00:07:55.560" end="00:08:00.780" style="s2">deployed automatically in a number of</p>
+<p begin="00:07:58.380" end="00:08:03.240" style="s2">seconds as you can see the app looks</p>
+<p begin="00:08:00.780" end="00:08:05.520" style="s2">great we can test it immediately and we</p>
+<p begin="00:08:03.240" end="00:08:07.979" style="s2">also get a suite admin panel where we</p>
+<p begin="00:08:05.520" end="00:08:11.880" style="s2">can see logs analytics and we can even</p>
+<p begin="00:08:07.979" end="00:08:13.440" style="s2">visualize the data in our Dino KV even</p>
+<p begin="00:08:11.880" end="00:08:16.380" style="s2">though it looks like it this video is</p>
+<p begin="00:08:13.440" end="00:08:18.539" style="s2">not sponsored by Dino I wish it was I am</p>
+<p begin="00:08:16.380" end="00:08:20.520" style="s2">just super super impressed by what the</p>
+<p begin="00:08:18.539" end="00:08:22.860" style="s2">Xenon team has built and I wanted to</p>
+<p begin="00:08:20.520" end="00:08:25.620" style="s2">share it with you it is also seamless</p>
+<p begin="00:08:22.860" end="00:08:27.900" style="s2">and easy to use that it takes no time to</p>
+<p begin="00:08:25.620" end="00:08:30.180" style="s2">build a functioning product that can be</p>
+<p begin="00:08:27.900" end="00:08:33.659" style="s2">scaled to millions of users thanks to</p>
+<p begin="00:08:30.180" end="00:08:36.360" style="s2">dino deploy fresh works like a charm the</p>
+<p begin="00:08:33.659" end="00:08:38.640" style="s2">waveforms are handled API routes</p>
+<p begin="00:08:36.360" end="00:08:41.820" style="s2">interactivity the developer experience</p>
+<p begin="00:08:38.640" end="00:08:43.800" style="s2">it is all really good as you saw I spent</p>
+<p begin="00:08:41.820" end="00:08:46.380" style="s2">zero time installing dependencies</p>
+<p begin="00:08:43.800" end="00:08:48.660" style="s2">configuring typescript Tailwind Etc</p>
+<p begin="00:08:46.380" end="00:08:50.700" style="s2">fresh has it all I really want to know</p>
+<p begin="00:08:48.660" end="00:08:52.740" style="s2">what you think so please write down on</p>
+<p begin="00:08:50.700" end="00:08:55.500" style="s2">the comments what your opinion is on</p>
+<p begin="00:08:52.740" end="00:08:57.779" style="s2">this video stack did you know it is this</p>
+<p begin="00:08:55.500" end="00:09:00.839" style="s2">cool have you built something with it</p>
+<p begin="00:08:57.779" end="00:09:03.060" style="s2">should I make a dino fresh deploy course</p>
+<p begin="00:09:00.839" end="00:09:04.920" style="s2">write what you think on the comments I</p>
+<p begin="00:09:03.060" end="00:09:06.660" style="s2">am going to be reading right now and</p>
+<p begin="00:09:04.920" end="00:09:09.000" style="s2">don&#39;t forget if you want to learn things</p>
+<p begin="00:09:06.660" end="00:09:12.360" style="s2">like JavaScript python react react</p>
+<p begin="00:09:09.000" end="00:09:14.940" style="s2">native go that flutter among many others</p>
+<p begin="00:09:12.360" end="00:09:17.519" style="s2">for absolutely free all you have to do</p>
+<p begin="00:09:14.940" end="00:09:19.500" style="s2">is click the link below you can join any</p>
+<p begin="00:09:17.519" end="00:09:22.500" style="s2">of our many free courses you can take</p>
+<p begin="00:09:19.500" end="00:09:24.060" style="s2">right now for absolutely free with me</p>
+<p begin="00:09:22.500" end="00:09:26.940" style="s2">click the link below and I will see you</p>
+<p begin="00:09:24.060" end="00:09:30.120" style="s2">there anjana comes see you on the next</p>
+<p begin="00:09:26.940" end="00:09:30.120" style="s2">one bye</p>
+<p begin="00:09:31.680" end="00:09:34.680" style="s2">foreign</p>
+</div>
+</body>
+</tt>

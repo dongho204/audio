@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:03.360" end="00:00:08.240" style="s2">welcome to what could be the first video</p>
+<p begin="00:00:05.920" end="00:00:09.920" style="s2">in a series of functional programming</p>
+<p begin="00:00:08.240" end="00:00:12.080" style="s2">that i&#39;ve been wanting to make for a</p>
+<p begin="00:00:09.920" end="00:00:14.000" style="s2">long long time i believe that all</p>
+<p begin="00:00:12.080" end="00:00:16.080" style="s2">developers should learn functional</p>
+<p begin="00:00:14.000" end="00:00:18.400" style="s2">programming functional programming is a</p>
+<p begin="00:00:16.080" end="00:00:19.920" style="s2">style of writing code now this means</p>
+<p begin="00:00:18.400" end="00:00:22.320" style="s2">that if you learn functional programming</p>
+<p begin="00:00:19.920" end="00:00:24.560" style="s2">if you like those ideas you are going to</p>
+<p begin="00:00:22.320" end="00:00:26.880" style="s2">be able to apply them with whatever</p>
+<p begin="00:00:24.560" end="00:00:28.640" style="s2">language you like to work with now of</p>
+<p begin="00:00:26.880" end="00:00:31.279" style="s2">course there are programming languages</p>
+<p begin="00:00:28.640" end="00:00:33.440" style="s2">like clojure or scala that are more</p>
+<p begin="00:00:31.279" end="00:00:36.160" style="s2">designed for functional programming and</p>
+<p begin="00:00:33.440" end="00:00:38.320" style="s2">that have many built-in features that</p>
+<p begin="00:00:36.160" end="00:00:40.800" style="s2">make it easier for us to write</p>
+<p begin="00:00:38.320" end="00:00:42.399" style="s2">functional code but nevertheless</p>
+<p begin="00:00:40.800" end="00:00:44.480" style="s2">learning functional programming is a</p>
+<p begin="00:00:42.399" end="00:00:46.559" style="s2">skill that will help you no matter what</p>
+<p begin="00:00:44.480" end="00:00:48.160" style="s2">language you write on</p>
+<p begin="00:00:46.559" end="00:00:50.719" style="s2">learning functional programming will</p>
+<p begin="00:00:48.160" end="00:00:53.039" style="s2">give you a new perspective and approach</p>
+<p begin="00:00:50.719" end="00:00:54.559" style="s2">when solving programming problems</p>
+<p begin="00:00:53.039" end="00:00:56.480" style="s2">functional programming is not something</p>
+<p begin="00:00:54.559" end="00:00:58.559" style="s2">that you can learn and internalize in</p>
+<p begin="00:00:56.480" end="00:01:01.199" style="s2">one afternoon functional programming is</p>
+<p begin="00:00:58.559" end="00:01:03.440" style="s2">like a mindset it&#39;s a different way of</p>
+<p begin="00:01:01.199" end="00:01:05.439" style="s2">thinking and structuring your code</p>
+<p begin="00:01:03.440" end="00:01:07.760" style="s2">learning it is going to make you a</p>
+<p begin="00:01:05.439" end="00:01:09.840" style="s2">better developer now this might be my</p>
+<p begin="00:01:07.760" end="00:01:12.240" style="s2">personal opinion but i feel like when i</p>
+<p begin="00:01:09.840" end="00:01:14.799" style="s2">write functional code the code is</p>
+<p begin="00:01:12.240" end="00:01:17.920" style="s2">cleaner right from the start and it&#39;s</p>
+<p begin="00:01:14.799" end="00:01:21.119" style="s2">harder for me to make bugs happen in the</p>
+<p begin="00:01:17.920" end="00:01:23.280" style="s2">code box cannot hide so easy when you</p>
+<p begin="00:01:21.119" end="00:01:25.520" style="s2">write your code in a functional style</p>
+<p begin="00:01:23.280" end="00:01:28.080" style="s2">and last but not least functional</p>
+<p begin="00:01:25.520" end="00:01:30.960" style="s2">developers are some of the best paid</p>
+<p begin="00:01:28.080" end="00:01:32.960" style="s2">professionals in our industry the top</p>
+<p begin="00:01:30.960" end="00:01:35.600" style="s2">four highest paid programming languages</p>
+<p begin="00:01:32.960" end="00:01:37.280" style="s2">are all functional programming languages</p>
+<p begin="00:01:35.600" end="00:01:38.720" style="s2">i don&#39;t think that this means that if we</p>
+<p begin="00:01:37.280" end="00:01:41.200" style="s2">learn functional programming we&#39;re just</p>
+<p begin="00:01:38.720" end="00:01:42.720" style="s2">going to get immediately a salary raise</p>
+<p begin="00:01:41.200" end="00:01:44.960" style="s2">what i think this means is that</p>
+<p begin="00:01:42.720" end="00:01:46.479" style="s2">experienced developers senior developers</p>
+<p begin="00:01:44.960" end="00:01:49.439" style="s2">with really good cvs and very good</p>
+<p begin="00:01:46.479" end="00:01:51.360" style="s2">skills ended up gravitating and choosing</p>
+<p begin="00:01:49.439" end="00:01:53.600" style="s2">functional programming languages as they</p>
+<p begin="00:01:51.360" end="00:01:54.880" style="s2">progress in their careers now having</p>
+<p begin="00:01:53.600" end="00:01:56.159" style="s2">said all these good things about</p>
+<p begin="00:01:54.880" end="00:01:57.920" style="s2">functional programming i have to say</p>
+<p begin="00:01:56.159" end="00:01:59.920" style="s2">that i didn&#39;t have an easy time</p>
+<p begin="00:01:57.920" end="00:02:02.320" style="s2">understanding functional programming it</p>
+<p begin="00:01:59.920" end="00:02:04.399" style="s2">didn&#39;t really click in my brain as easy</p>
+<p begin="00:02:02.320" end="00:02:05.759" style="s2">as other things click and that&#39;s not</p>
+<p begin="00:02:04.399" end="00:02:07.759" style="s2">because the rules of functional</p>
+<p begin="00:02:05.759" end="00:02:10.399" style="s2">programming or the concepts are hard to</p>
+<p begin="00:02:07.759" end="00:02:11.920" style="s2">understand or memorize instead i think</p>
+<p begin="00:02:10.399" end="00:02:13.599" style="s2">it&#39;s because the explanations that i</p>
+<p begin="00:02:11.920" end="00:02:16.160" style="s2">have seen about functional programming</p>
+<p begin="00:02:13.599" end="00:02:18.879" style="s2">focus too much on the definitions of the</p>
+<p begin="00:02:16.160" end="00:02:20.640" style="s2">terms like immutability pure functions</p>
+<p begin="00:02:18.879" end="00:02:23.120" style="s2">side effects all those things they</p>
+<p begin="00:02:20.640" end="00:02:25.599" style="s2">define the terms very well but they fail</p>
+<p begin="00:02:23.120" end="00:02:28.239" style="s2">to show the developers why is a good</p>
+<p begin="00:02:25.599" end="00:02:30.720" style="s2">thing to write your code functionally</p>
+<p begin="00:02:28.239" end="00:02:32.560" style="s2">it&#39;s hard to sell functional programming</p>
+<p begin="00:02:30.720" end="00:02:34.480" style="s2">to developers it&#39;s hard to see the</p>
+<p begin="00:02:32.560" end="00:02:36.879" style="s2">benefit of functional programming if</p>
+<p begin="00:02:34.480" end="00:02:38.480" style="s2">instead of writing code and experience</p>
+<p begin="00:02:36.879" end="00:02:40.319" style="s2">functional programming we focus on the</p>
+<p begin="00:02:38.480" end="00:02:42.239" style="s2">definitions and the history and all</p>
+<p begin="00:02:40.319" end="00:02:44.080" style="s2">those things so what i would like to do</p>
+<p begin="00:02:42.239" end="00:02:45.200" style="s2">in this video maybe in this series if</p>
+<p begin="00:02:44.080" end="00:02:46.239" style="s2">you like this video you know if i can</p>
+<p begin="00:02:45.200" end="00:02:48.000" style="s2">make more videos about functional</p>
+<p begin="00:02:46.239" end="00:02:49.680" style="s2">programming what i would like to do</p>
+<p begin="00:02:48.000" end="00:02:51.760" style="s2">would be to experience functional</p>
+<p begin="00:02:49.680" end="00:02:53.920" style="s2">programming by comparing pieces of code</p>
+<p begin="00:02:51.760" end="00:02:56.160" style="s2">written in different styles of</p>
+<p begin="00:02:53.920" end="00:02:57.920" style="s2">programming to see what the benefits are</p>
+<p begin="00:02:56.160" end="00:02:59.920" style="s2">how they are different and which one we</p>
+<p begin="00:02:57.920" end="00:03:01.519" style="s2">like the most so to see how some</p>
+<p begin="00:02:59.920" end="00:03:03.680" style="s2">concepts of functional programming can</p>
+<p begin="00:03:01.519" end="00:03:05.680" style="s2">make our code better right from the</p>
+<p begin="00:03:03.680" end="00:03:08.159" style="s2">start today we&#39;re going to talk about a</p>
+<p begin="00:03:05.680" end="00:03:10.080" style="s2">concept called imperative code versus</p>
+<p begin="00:03:08.159" end="00:03:12.720" style="s2">declarative code when you write</p>
+<p begin="00:03:10.080" end="00:03:15.920" style="s2">declarative code your code is written to</p>
+<p begin="00:03:12.720" end="00:03:18.239" style="s2">express the outcome that you want when</p>
+<p begin="00:03:15.920" end="00:03:20.959" style="s2">you write imperative code your code is</p>
+<p begin="00:03:18.239" end="00:03:23.440" style="s2">written as a step-by-step instruction to</p>
+<p begin="00:03:20.959" end="00:03:24.640" style="s2">the computer to arrive to the outcome</p>
+<p begin="00:03:23.440" end="00:03:26.480" style="s2">that you want</p>
+<p begin="00:03:24.640" end="00:03:28.400" style="s2">before we freak out let&#39;s look at a</p>
+<p begin="00:03:26.480" end="00:03:30.959" style="s2">language that is declarative and that</p>
+<p begin="00:03:28.400" end="00:03:33.040" style="s2">many of us have used already whether we</p>
+<p begin="00:03:30.959" end="00:03:36.799" style="s2">knew it was declarative or not that</p>
+<p begin="00:03:33.040" end="00:03:38.720" style="s2">language is css css is a declarative</p>
+<p begin="00:03:36.799" end="00:03:40.959" style="s2">language because as you can see here in</p>
+<p begin="00:03:38.720" end="00:03:43.519" style="s2">this code if i want to change the</p>
+<p begin="00:03:40.959" end="00:03:46.560" style="s2">background color of the body all i have</p>
+<p begin="00:03:43.519" end="00:03:47.519" style="s2">to do is write down the outcome that i</p>
+<p begin="00:03:46.560" end="00:03:49.440" style="s2">want</p>
+<p begin="00:03:47.519" end="00:03:51.280" style="s2">as you can see i&#39;m not writing down the</p>
+<p begin="00:03:49.440" end="00:03:53.680" style="s2">step-by-step instructions to the</p>
+<p begin="00:03:51.280" end="00:03:55.200" style="s2">computer to turn the background color</p>
+<p begin="00:03:53.680" end="00:03:57.439" style="s2">into tomato</p>
+<p begin="00:03:55.200" end="00:04:00.640" style="s2">i just tell the browser what i want and</p>
+<p begin="00:03:57.439" end="00:04:02.799" style="s2">the browser will figure out how to do it</p>
+<p begin="00:04:00.640" end="00:04:05.680" style="s2">i don&#39;t have to write the code to get</p>
+<p begin="00:04:02.799" end="00:04:08.080" style="s2">the body element and check if it exists</p>
+<p begin="00:04:05.680" end="00:04:10.000" style="s2">and then enter the styles and then</p>
+<p begin="00:04:08.080" end="00:04:12.159" style="s2">override the background color i don&#39;t</p>
+<p begin="00:04:10.000" end="00:04:14.640" style="s2">have to do any of those things if i did</p>
+<p begin="00:04:12.159" end="00:04:16.959" style="s2">those things if i wrote those steps down</p>
+<p begin="00:04:14.640" end="00:04:17.919" style="s2">that will be imperative code</p>
+<p begin="00:04:16.959" end="00:04:20.479" style="s2">remember</p>
+<p begin="00:04:17.919" end="00:04:23.280" style="s2">declarative is about expressing what</p>
+<p begin="00:04:20.479" end="00:04:26.320" style="s2">outcome you want an imperative is about</p>
+<p begin="00:04:23.280" end="00:04:29.040" style="s2">expressing how to get to that outcome</p>
+<p begin="00:04:26.320" end="00:04:31.280" style="s2">step by step so let&#39;s now solve a couple</p>
+<p begin="00:04:29.040" end="00:04:33.440" style="s2">of code challenges in an imperative way</p>
+<p begin="00:04:31.280" end="00:04:35.680" style="s2">in a declarative way and then we can see</p>
+<p begin="00:04:33.440" end="00:04:37.759" style="s2">which way we like the most the code will</p>
+<p begin="00:04:35.680" end="00:04:39.759" style="s2">be in javascript which is an imperative</p>
+<p begin="00:04:37.759" end="00:04:42.080" style="s2">programming language but it has many</p>
+<p begin="00:04:39.759" end="00:04:45.280" style="s2">methods and many functions that allow us</p>
+<p begin="00:04:42.080" end="00:04:47.040" style="s2">to apply declarative style to our code</p>
+<p begin="00:04:45.280" end="00:04:48.639" style="s2">now if you don&#39;t know javascript then</p>
+<p begin="00:04:47.040" end="00:04:50.400" style="s2">the examples are maybe not going to make</p>
+<p begin="00:04:48.639" end="00:04:52.160" style="s2">a lot of sense and if you want to learn</p>
+<p begin="00:04:50.400" end="00:04:53.520" style="s2">javascript for free then please click</p>
+<p begin="00:04:52.160" end="00:04:55.520" style="s2">the link below because they are going to</p>
+<p begin="00:04:53.520" end="00:04:57.280" style="s2">find a course do their javascript for</p>
+<p begin="00:04:55.520" end="00:04:58.720" style="s2">free with me but if you already know</p>
+<p begin="00:04:57.280" end="00:05:02.560" style="s2">javascript but you want to learn things</p>
+<p begin="00:04:58.720" end="00:05:05.840" style="s2">like react.js react native redox next js</p>
+<p begin="00:05:02.560" end="00:05:07.840" style="s2">next js apollo go python among many</p>
+<p begin="00:05:05.840" end="00:05:10.720" style="s2">other things you can also learn them for</p>
+<p begin="00:05:07.840" end="00:05:12.800" style="s2">free in the link below with me so our</p>
+<p begin="00:05:10.720" end="00:05:15.120" style="s2">first code challenge is very easy all i</p>
+<p begin="00:05:12.800" end="00:05:18.000" style="s2">want to do is i want to make a function</p>
+<p begin="00:05:15.120" end="00:05:20.400" style="s2">that receives a string and removes all</p>
+<p begin="00:05:18.000" end="00:05:23.120" style="s2">the spaces from that string and replaces</p>
+<p begin="00:05:20.400" end="00:05:24.880" style="s2">them with hard emojis now the imperative</p>
+<p begin="00:05:23.120" end="00:05:26.800" style="s2">way of solving this problem would be</p>
+<p begin="00:05:24.880" end="00:05:28.720" style="s2">something like this</p>
+<p begin="00:05:26.800" end="00:05:31.759" style="s2">all we are doing here is creating a</p>
+<p begin="00:05:28.720" end="00:05:34.560" style="s2">variable to hold the final result</p>
+<p begin="00:05:31.759" end="00:05:36.880" style="s2">then we look inside of each character of</p>
+<p begin="00:05:34.560" end="00:05:39.039" style="s2">the text that we want to clean</p>
+<p begin="00:05:36.880" end="00:05:40.800" style="s2">and depending if the character is a</p>
+<p begin="00:05:39.039" end="00:05:43.680" style="s2">space or not</p>
+<p begin="00:05:40.800" end="00:05:46.639" style="s2">we add a heart or the character to the</p>
+<p begin="00:05:43.680" end="00:05:48.880" style="s2">resulting string and when we are done we</p>
+<p begin="00:05:46.639" end="00:05:50.960" style="s2">return the result</p>
+<p begin="00:05:48.880" end="00:05:54.240" style="s2">as you can see this code is very very</p>
+<p begin="00:05:50.960" end="00:05:56.720" style="s2">imperative we are writing one by one all</p>
+<p begin="00:05:54.240" end="00:05:58.560" style="s2">the steps that need to be taken to</p>
+<p begin="00:05:56.720" end="00:06:00.400" style="s2">fulfill the requirements of this</p>
+<p begin="00:05:58.560" end="00:06:02.080" style="s2">function now let&#39;s look at the same</p>
+<p begin="00:06:00.400" end="00:06:04.000" style="s2">function but this time let&#39;s use</p>
+<p begin="00:06:02.080" end="00:06:06.080" style="s2">declarative programming</p>
+<p begin="00:06:04.000" end="00:06:08.000" style="s2">here we are using a method that all</p>
+<p begin="00:06:06.080" end="00:06:11.039" style="s2">strings have in javascript called</p>
+<p begin="00:06:08.000" end="00:06:12.800" style="s2">replace all where the first argument is</p>
+<p begin="00:06:11.039" end="00:06:15.120" style="s2">the text i want to replace and the</p>
+<p begin="00:06:12.800" end="00:06:17.919" style="s2">second one is the text i want to replace</p>
+<p begin="00:06:15.120" end="00:06:20.720" style="s2">it with it has the same result as the</p>
+<p begin="00:06:17.919" end="00:06:22.800" style="s2">imperative function and also is easier</p>
+<p begin="00:06:20.720" end="00:06:25.840" style="s2">to read and know what the function is</p>
+<p begin="00:06:22.800" end="00:06:28.880" style="s2">doing now maybe in the background in the</p>
+<p begin="00:06:25.840" end="00:06:31.280" style="s2">inside of the replace all function there</p>
+<p begin="00:06:28.880" end="00:06:33.680" style="s2">is maybe some imperative code like the</p>
+<p begin="00:06:31.280" end="00:06:35.600" style="s2">one that we wrote before this is why you</p>
+<p begin="00:06:33.680" end="00:06:38.639" style="s2">could say that all declarative code is</p>
+<p begin="00:06:35.600" end="00:06:40.720" style="s2">built on top of imperative code but as</p>
+<p begin="00:06:38.639" end="00:06:42.720" style="s2">developers don&#39;t have to write</p>
+<p begin="00:06:40.720" end="00:06:46.000" style="s2">imperative code instead we can use</p>
+<p begin="00:06:42.720" end="00:06:48.080" style="s2">functions that allow us to avoid writing</p>
+<p begin="00:06:46.000" end="00:06:50.000" style="s2">imperative code apart from the code</p>
+<p begin="00:06:48.080" end="00:06:52.639" style="s2">being longer in the imperative function</p>
+<p begin="00:06:50.000" end="00:06:54.560" style="s2">there is also a problem that arises from</p>
+<p begin="00:06:52.639" end="00:06:56.800" style="s2">being able to implement the solution</p>
+<p begin="00:06:54.560" end="00:06:59.360" style="s2">however we want to if we just write</p>
+<p begin="00:06:56.800" end="00:07:01.919" style="s2">imperative code we might make a mistake</p>
+<p begin="00:06:59.360" end="00:07:03.440" style="s2">and introduce a bug for example and our</p>
+<p begin="00:07:01.919" end="00:07:05.120" style="s2">teammates when they are reading our</p>
+<p begin="00:07:03.440" end="00:07:07.759" style="s2">imperative code will have a hard time</p>
+<p begin="00:07:05.120" end="00:07:09.759" style="s2">understanding what we are trying to do</p>
+<p begin="00:07:07.759" end="00:07:11.919" style="s2">at first glance they will have to read</p>
+<p begin="00:07:09.759" end="00:07:13.919" style="s2">step by step all the imperative code</p>
+<p begin="00:07:11.919" end="00:07:16.160" style="s2">that we wrote to be able to understand</p>
+<p begin="00:07:13.919" end="00:07:18.479" style="s2">what the function is doing in our last</p>
+<p begin="00:07:16.160" end="00:07:21.840" style="s2">code challenge let&#39;s now make a function</p>
+<p begin="00:07:18.479" end="00:07:24.080" style="s2">that removes all the odd numbers from an</p>
+<p begin="00:07:21.840" end="00:07:25.759" style="s2">array of numbers the imperative version</p>
+<p begin="00:07:24.080" end="00:07:27.440" style="s2">looks something like this which as you</p>
+<p begin="00:07:25.759" end="00:07:30.319" style="s2">can see is sort of similar to what we</p>
+<p begin="00:07:27.440" end="00:07:32.560" style="s2">did before but the declarative version</p>
+<p begin="00:07:30.319" end="00:07:34.720" style="s2">uses the filter function and it looks</p>
+<p begin="00:07:32.560" end="00:07:37.280" style="s2">something like this the first argument</p>
+<p begin="00:07:34.720" end="00:07:39.520" style="s2">of the filter method is a function which</p>
+<p begin="00:07:37.280" end="00:07:41.199" style="s2">is something very common in functional</p>
+<p begin="00:07:39.520" end="00:07:42.880" style="s2">programming languages where you are</p>
+<p begin="00:07:41.199" end="00:07:44.720" style="s2">going to be sending functions as</p>
+<p begin="00:07:42.880" end="00:07:47.440" style="s2">arguments and also you can receive</p>
+<p begin="00:07:44.720" end="00:07:49.520" style="s2">functions as values the filter function</p>
+<p begin="00:07:47.440" end="00:07:51.919" style="s2">will return an array with all the</p>
+<p begin="00:07:49.520" end="00:07:54.000" style="s2">elements that pass a condition the</p>
+<p begin="00:07:51.919" end="00:07:56.639" style="s2">condition is expressed in the function</p>
+<p begin="00:07:54.000" end="00:07:59.680" style="s2">that is on the first argument</p>
+<p begin="00:07:56.639" end="00:08:02.960" style="s2">that function will be called for each</p>
+<p begin="00:07:59.680" end="00:08:05.039" style="s2">item inside of the items array</p>
+<p begin="00:08:02.960" end="00:08:07.039" style="s2">if that function returns true then the</p>
+<p begin="00:08:05.039" end="00:08:09.680" style="s2">item will be added to the resulting</p>
+<p begin="00:08:07.039" end="00:08:10.720" style="s2">array if it returns false it will go</p>
+<p begin="00:08:09.680" end="00:08:12.160" style="s2">bye-bye</p>
+<p begin="00:08:10.720" end="00:08:14.400" style="s2">as you can see here we&#39;re just</p>
+<p begin="00:08:12.160" end="00:08:16.560" style="s2">specifying what is the filter that we</p>
+<p begin="00:08:14.400" end="00:08:18.800" style="s2">would like to apply to the array we are</p>
+<p begin="00:08:16.560" end="00:08:20.560" style="s2">not concerned with how this filter will</p>
+<p begin="00:08:18.800" end="00:08:22.400" style="s2">be applied let me know in the comments</p>
+<p begin="00:08:20.560" end="00:08:24.800" style="s2">which approach do you like the most do</p>
+<p begin="00:08:22.400" end="00:08:27.120" style="s2">you like imperative or declarative i</p>
+<p begin="00:08:24.800" end="00:08:29.039" style="s2">personally like declarative more i try</p>
+<p begin="00:08:27.120" end="00:08:31.280" style="s2">to use declarative code and functions as</p>
+<p begin="00:08:29.039" end="00:08:33.200" style="s2">much as i can but of course it&#39;s always</p>
+<p begin="00:08:31.280" end="00:08:35.440" style="s2">important to use the right tool for the</p>
+<p begin="00:08:33.200" end="00:08:37.360" style="s2">job some people dislike the declarative</p>
+<p begin="00:08:35.440" end="00:08:39.360" style="s2">style because they say that to be able</p>
+<p begin="00:08:37.360" end="00:08:42.080" style="s2">to understand that declarative code you</p>
+<p begin="00:08:39.360" end="00:08:43.760" style="s2">have to know what is the replace all</p>
+<p begin="00:08:42.080" end="00:08:46.240" style="s2">function you have to know what is the</p>
+<p begin="00:08:43.760" end="00:08:47.920" style="s2">filter function in advance and that&#39;s it</p>
+<p begin="00:08:46.240" end="00:08:50.320" style="s2">for today&#39;s video i just wanted to give</p>
+<p begin="00:08:47.920" end="00:08:52.560" style="s2">you a tiny taste into how functional</p>
+<p begin="00:08:50.320" end="00:08:54.880" style="s2">programming concepts help you approach</p>
+<p begin="00:08:52.560" end="00:08:57.440" style="s2">problem solving in a different way how</p>
+<p begin="00:08:54.880" end="00:08:59.680" style="s2">they help you think about the way you</p>
+<p begin="00:08:57.440" end="00:09:01.279" style="s2">write code in a different way as you saw</p>
+<p begin="00:08:59.680" end="00:09:03.040" style="s2">the two styles couldn&#39;t be more</p>
+<p begin="00:09:01.279" end="00:09:05.519" style="s2">different and one of them is more</p>
+<p begin="00:09:03.040" end="00:09:07.360" style="s2">elegant in a way than the other there</p>
+<p begin="00:09:05.519" end="00:09:09.360" style="s2">are more functional programming concepts</p>
+<p begin="00:09:07.360" end="00:09:10.640" style="s2">to discover but i&#39;m not sure if my</p>
+<p begin="00:09:09.360" end="00:09:12.399" style="s2">audience would like me to keep talking</p>
+<p begin="00:09:10.640" end="00:09:13.920" style="s2">about functional programming so if you</p>
+<p begin="00:09:12.399" end="00:09:16.160" style="s2">do if you would like me to make more</p>
+<p begin="00:09:13.920" end="00:09:17.519" style="s2">videos about fb then please let me know</p>
+<p begin="00:09:16.160" end="00:09:19.839" style="s2">in the comments thank you so much for</p>
+<p begin="00:09:17.519" end="00:09:22.080" style="s2">watching as always stay happy stay free</p>
+<p begin="00:09:19.839" end="00:09:26.680" style="s2">stay healthy eat kimchi kamzamita salan</p>
+<p begin="00:09:22.080" end="00:09:26.680" style="s2">hayo see you on the next one bye</p>
+</div>
+</body>
+</tt>

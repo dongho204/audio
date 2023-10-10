@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.080" end="00:00:06.640" style="s2">apple&#39;s wwdc or the worldwide developers</p>
+<p begin="00:00:04.080" end="00:00:09.040" style="s2">conference just finished and two huge</p>
+<p begin="00:00:06.640" end="00:00:11.840" style="s2">things happened first apple gave</p>
+<p begin="00:00:09.040" end="00:00:14.559" style="s2">developers one more reason why they</p>
+<p begin="00:00:11.840" end="00:00:16.880" style="s2">shouldn&#39;t make ios applications and</p>
+<p begin="00:00:14.559" end="00:00:20.880" style="s2">second apple is finally launching a</p>
+<p begin="00:00:16.880" end="00:00:22.560" style="s2">full-scale attack on passwords</p>
+<p begin="00:00:20.880" end="00:00:25.119" style="s2">nicolas</p>
+<p begin="00:00:22.560" end="00:00:27.760" style="s2">let&#39;s get started when iphone and</p>
+<p begin="00:00:25.119" end="00:00:30.160" style="s2">android first came out developers had to</p>
+<p begin="00:00:27.760" end="00:00:32.640" style="s2">make apps if they wanted to access</p>
+<p begin="00:00:30.160" end="00:00:33.520" style="s2">features such as the geolocation of the</p>
+<p begin="00:00:32.640" end="00:00:37.360" style="s2">phone</p>
+<p begin="00:00:33.520" end="00:00:40.000" style="s2">cameras contact information file system</p>
+<p begin="00:00:37.360" end="00:00:43.280" style="s2">bluetooth among other things but since</p>
+<p begin="00:00:40.000" end="00:00:44.800" style="s2">then browsers have become really really</p>
+<p begin="00:00:43.280" end="00:00:47.520" style="s2">powerful and all the things that i just</p>
+<p begin="00:00:44.800" end="00:00:50.640" style="s2">mentioned before can be done directly in</p>
+<p begin="00:00:47.520" end="00:00:52.399" style="s2">the browser using only javascript so now</p>
+<p begin="00:00:50.640" end="00:00:54.800" style="s2">if we take a look at the apps that we</p>
+<p begin="00:00:52.399" end="00:00:57.680" style="s2">have installed in our phone we might see</p>
+<p begin="00:00:54.800" end="00:01:00.719" style="s2">that apart from games a big number of</p>
+<p begin="00:00:57.680" end="00:01:03.199" style="s2">those apps don&#39;t really need to be an</p>
+<p begin="00:01:00.719" end="00:01:06.080" style="s2">app and instead they could actually be</p>
+<p begin="00:01:03.199" end="00:01:08.080" style="s2">just a website google understood this</p>
+<p begin="00:01:06.080" end="00:01:11.920" style="s2">very early on and they have been one of</p>
+<p begin="00:01:08.080" end="00:01:13.840" style="s2">the strongest supporters of pwas pwa</p>
+<p begin="00:01:11.920" end="00:01:16.000" style="s2">means progressive web application which</p>
+<p begin="00:01:13.840" end="00:01:17.520" style="s2">basically means a website that doesn&#39;t</p>
+<p begin="00:01:16.000" end="00:01:20.159" style="s2">feel like a website and it feels more</p>
+<p begin="00:01:17.520" end="00:01:23.040" style="s2">like a mobile app instead when you make</p>
+<p begin="00:01:20.159" end="00:01:25.040" style="s2">a pwa your users can install that</p>
+<p begin="00:01:23.040" end="00:01:26.880" style="s2">website on their phone install means</p>
+<p begin="00:01:25.040" end="00:01:30.000" style="s2">that they can save a shortcut to your</p>
+<p begin="00:01:26.880" end="00:01:32.799" style="s2">website in their home screen but it</p>
+<p begin="00:01:30.000" end="00:01:34.720" style="s2">won&#39;t look like a shortcut it will look</p>
+<p begin="00:01:32.799" end="00:01:37.600" style="s2">just like an app that was downloaded</p>
+<p begin="00:01:34.720" end="00:01:41.439" style="s2">from an app store when the user taps on</p>
+<p begin="00:01:37.600" end="00:01:44.159" style="s2">the icon of a saved pwa a browser window</p>
+<p begin="00:01:41.439" end="00:01:46.240" style="s2">will open but because it&#39;s a pwa the</p>
+<p begin="00:01:44.159" end="00:01:49.040" style="s2">navigation bar of the browser will be</p>
+<p begin="00:01:46.240" end="00:01:52.720" style="s2">completely hidden making it look like a</p>
+<p begin="00:01:49.040" end="00:01:55.119" style="s2">real mobile app pws are also offline</p>
+<p begin="00:01:52.720" end="00:01:57.439" style="s2">friendly we can cache some assets on the</p>
+<p begin="00:01:55.119" end="00:02:00.560" style="s2">phone meaning that if the user opens the</p>
+<p begin="00:01:57.439" end="00:02:03.280" style="s2">pwa when they are offline the app will</p>
+<p begin="00:02:00.560" end="00:02:05.759" style="s2">still open like a native app would maybe</p>
+<p begin="00:02:03.280" end="00:02:08.000" style="s2">showing some previous downloaded data or</p>
+<p begin="00:02:05.759" end="00:02:10.239" style="s2">showing something saying you are offline</p>
+<p begin="00:02:08.000" end="00:02:11.760" style="s2">the way let&#39;s say youtube does they are</p>
+<p begin="00:02:10.239" end="00:02:15.040" style="s2">also working on something called a</p>
+<p begin="00:02:11.760" end="00:02:18.480" style="s2">periodic background sync api</p>
+<p begin="00:02:15.040" end="00:02:21.680" style="s2">that will allow pws to fetch data in the</p>
+<p begin="00:02:18.480" end="00:02:24.160" style="s2">background even when the pwa is not open</p>
+<p begin="00:02:21.680" end="00:02:26.160" style="s2">but the killer feature of pwas is that</p>
+<p begin="00:02:24.160" end="00:02:29.120" style="s2">they can send push notifications to the</p>
+<p begin="00:02:26.160" end="00:02:32.400" style="s2">phone of the user like a real app would</p>
+<p begin="00:02:29.120" end="00:02:34.640" style="s2">no matter if the website is open or not</p>
+<p begin="00:02:32.400" end="00:02:36.959" style="s2">and the best of all is that because it&#39;s</p>
+<p begin="00:02:34.640" end="00:02:39.040" style="s2">just a website we don&#39;t have to go</p>
+<p begin="00:02:36.959" end="00:02:41.840" style="s2">through the review process to put our</p>
+<p begin="00:02:39.040" end="00:02:43.440" style="s2">apps on any app store i know this all</p>
+<p begin="00:02:41.840" end="00:02:45.840" style="s2">sounds too good to be true and it</p>
+<p begin="00:02:43.440" end="00:02:50.319" style="s2">actually is because there is one problem</p>
+<p begin="00:02:45.840" end="00:02:54.160" style="s2">a bitcoin pwas work amazingly well in</p>
+<p begin="00:02:50.319" end="00:02:56.800" style="s2">android phones but not so much on ios</p>
+<p begin="00:02:54.160" end="00:02:59.840" style="s2">and this makes sense apple is scared</p>
+<p begin="00:02:56.800" end="00:03:02.000" style="s2">apple is threatened by pwas</p>
+<p begin="00:02:59.840" end="00:03:04.239" style="s2">apple makes billions of dollars from the</p>
+<p begin="00:03:02.000" end="00:03:06.959" style="s2">commissions they charge to developers on</p>
+<p begin="00:03:04.239" end="00:03:09.519" style="s2">their app store they don&#39;t want websites</p>
+<p begin="00:03:06.959" end="00:03:11.519" style="s2">to be as powerful as their apps this is</p>
+<p begin="00:03:09.519" end="00:03:15.920" style="s2">why the implementation of the features</p>
+<p begin="00:03:11.519" end="00:03:19.360" style="s2">needed for pwas in ios goes a total</p>
+<p begin="00:03:15.920" end="00:03:22.319" style="s2">speed if you use ios it does not matter</p>
+<p begin="00:03:19.360" end="00:03:24.720" style="s2">if you choose to use safari or chrome or</p>
+<p begin="00:03:22.319" end="00:03:27.680" style="s2">firefox or whatever it is they might</p>
+<p begin="00:03:24.720" end="00:03:31.040" style="s2">look different but the browser engine in</p>
+<p begin="00:03:27.680" end="00:03:33.360" style="s2">ios is controlled by apple because of</p>
+<p begin="00:03:31.040" end="00:03:36.879" style="s2">this power it is still not possible to</p>
+<p begin="00:03:33.360" end="00:03:39.360" style="s2">have pwas with web push notifications on</p>
+<p begin="00:03:36.879" end="00:03:41.680" style="s2">ios they know that access to push</p>
+<p begin="00:03:39.360" end="00:03:43.760" style="s2">notifications is one of the reasons why</p>
+<p begin="00:03:41.680" end="00:03:46.480" style="s2">some companies choose to make an app</p>
+<p begin="00:03:43.760" end="00:03:49.040" style="s2">instead of making a website for years it</p>
+<p begin="00:03:46.480" end="00:03:51.599" style="s2">has been possible to make pwas with web</p>
+<p begin="00:03:49.040" end="00:03:54.879" style="s2">push notifications on android devices</p>
+<p begin="00:03:51.599" end="00:03:58.319" style="s2">but it&#39;s still not possible on ios</p>
+<p begin="00:03:54.879" end="00:04:01.040" style="s2">until now well actually no it&#39;s until</p>
+<p begin="00:03:58.319" end="00:04:04.159" style="s2">2023 but it&#39;s still good news</p>
+<p begin="00:04:01.040" end="00:04:06.000" style="s2">on the wwc apple has finally announced</p>
+<p begin="00:04:04.159" end="00:04:08.239" style="s2">that they are going to be implementing</p>
+<p begin="00:04:06.000" end="00:04:11.120" style="s2">and releasing all the features and apis</p>
+<p begin="00:04:08.239" end="00:04:13.760" style="s2">required to bring web push notifications</p>
+<p begin="00:04:11.120" end="00:04:15.599" style="s2">to the apple world it will happen first</p>
+<p begin="00:04:13.760" end="00:04:17.759" style="s2">in the desktop with safari and the</p>
+<p begin="00:04:15.599" end="00:04:20.560" style="s2">latest version of mac os which is mac os</p>
+<p begin="00:04:17.759" end="00:04:23.520" style="s2">ventura that is coming this fall and</p>
+<p begin="00:04:20.560" end="00:04:27.360" style="s2">then in 2023 web push will finally</p>
+<p begin="00:04:23.520" end="00:04:29.280" style="s2">arrive to ios and ipad os now it&#39;s just</p>
+<p begin="00:04:27.360" end="00:04:31.520" style="s2">an announcement we have to wait and see</p>
+<p begin="00:04:29.280" end="00:04:34.560" style="s2">if they actually deliver on it but it&#39;s</p>
+<p begin="00:04:31.520" end="00:04:36.080" style="s2">very good news for the web now web push</p>
+<p begin="00:04:34.560" end="00:04:38.560" style="s2">is very cool and all but the thing that</p>
+<p begin="00:04:36.080" end="00:04:42.400" style="s2">excites me the most is to see how apple</p>
+<p begin="00:04:38.560" end="00:04:44.160" style="s2">is pushing for a world without passwords</p>
+<p begin="00:04:42.400" end="00:04:45.840" style="s2">before we look into that please remember</p>
+<p begin="00:04:44.160" end="00:04:47.600" style="s2">that if you want to become a developer</p>
+<p begin="00:04:45.840" end="00:04:49.759" style="s2">and you want to do it for absolutely</p>
+<p begin="00:04:47.600" end="00:04:52.639" style="s2">free all you have to do is click the</p>
+<p begin="00:04:49.759" end="00:04:55.840" style="s2">link below there you will find free</p>
+<p begin="00:04:52.639" end="00:04:58.960" style="s2">courses on javascript python react react</p>
+<p begin="00:04:55.840" end="00:04:59.919" style="s2">native redux graphql firebase and even</p>
+<p begin="00:04:58.960" end="00:05:02.320" style="s2">go</p>
+<p begin="00:04:59.919" end="00:05:04.800" style="s2">the courses are absolutely free just</p>
+<p begin="00:05:02.320" end="00:05:07.280" style="s2">click the link below and i will see you</p>
+<p begin="00:05:04.800" end="00:05:10.160" style="s2">there it is not very often when we hear</p>
+<p begin="00:05:07.280" end="00:05:12.320" style="s2">that google apple and microsoft are all</p>
+<p begin="00:05:10.160" end="00:05:14.800" style="s2">working together on something that is</p>
+<p begin="00:05:12.320" end="00:05:17.600" style="s2">exactly what&#39;s happening right now the</p>
+<p begin="00:05:14.800" end="00:05:20.479" style="s2">tech giants are all aligned in the goal</p>
+<p begin="00:05:17.600" end="00:05:23.600" style="s2">of making passwords a thing of the past</p>
+<p begin="00:05:20.479" end="00:05:27.039" style="s2">on this wwdc apple announced the general</p>
+<p begin="00:05:23.600" end="00:05:28.800" style="s2">availability of pass kiss that is the</p>
+<p begin="00:05:27.039" end="00:05:32.320" style="s2">tech that will bring passwordless</p>
+<p begin="00:05:28.800" end="00:05:34.240" style="s2">authentication to mac ios and ipad the</p>
+<p begin="00:05:32.320" end="00:05:36.400" style="s2">reason why companies like google apple</p>
+<p begin="00:05:34.240" end="00:05:38.160" style="s2">and microsoft that are usually competing</p>
+<p begin="00:05:36.400" end="00:05:40.479" style="s2">with each other are working together in</p>
+<p begin="00:05:38.160" end="00:05:42.960" style="s2">this is because passwords absolutely</p>
+<p begin="00:05:40.479" end="00:05:45.360" style="s2">suck passwords cause all sorts of</p>
+<p begin="00:05:42.960" end="00:05:47.680" style="s2">problems and headaches for users and</p>
+<p begin="00:05:45.360" end="00:05:49.360" style="s2">developers when creating a password</p>
+<p begin="00:05:47.680" end="00:05:51.919" style="s2">people need to make them secure with</p>
+<p begin="00:05:49.360" end="00:05:54.160" style="s2">numbers uppercase and special characters</p>
+<p begin="00:05:51.919" end="00:05:55.840" style="s2">this leads to people reusing their</p>
+<p begin="00:05:54.160" end="00:05:58.960" style="s2">passwords in multiple websites because</p>
+<p begin="00:05:55.840" end="00:06:00.880" style="s2">it&#39;s hard to create a secure strong long</p>
+<p begin="00:05:58.960" end="00:06:02.560" style="s2">password for every different website</p>
+<p begin="00:06:00.880" end="00:06:04.400" style="s2">that we use which means that if one</p>
+<p begin="00:06:02.560" end="00:06:06.000" style="s2">website gets hacked and attackers gain</p>
+<p begin="00:06:04.400" end="00:06:07.759" style="s2">access to the password they can just try</p>
+<p begin="00:06:06.000" end="00:06:09.600" style="s2">the same password in many other websites</p>
+<p begin="00:06:07.759" end="00:06:12.240" style="s2">and they might take over multiple</p>
+<p begin="00:06:09.600" end="00:06:14.319" style="s2">accounts passwords are also peachable</p>
+<p begin="00:06:12.240" end="00:06:16.560" style="s2">which happens when attackers send an</p>
+<p begin="00:06:14.319" end="00:06:19.360" style="s2">email with a link to a website that</p>
+<p begin="00:06:16.560" end="00:06:21.600" style="s2">looks like a real legit website hoping</p>
+<p begin="00:06:19.360" end="00:06:23.360" style="s2">people get confused and enter their real</p>
+<p begin="00:06:21.600" end="00:06:25.039" style="s2">email and password to fix the problems</p>
+<p begin="00:06:23.360" end="00:06:26.479" style="s2">with passwords the tech industry has</p>
+<p begin="00:06:25.039" end="00:06:29.360" style="s2">come up with many different</p>
+<p begin="00:06:26.479" end="00:06:31.199" style="s2">authentication layers some websites ask</p>
+<p begin="00:06:29.360" end="00:06:32.720" style="s2">you to give them your phone number so</p>
+<p begin="00:06:31.199" end="00:06:34.960" style="s2">they can send you an sms with a</p>
+<p begin="00:06:32.720" end="00:06:36.639" style="s2">verification code which is something</p>
+<p begin="00:06:34.960" end="00:06:38.720" style="s2">that also could be hacked using</p>
+<p begin="00:06:36.639" end="00:06:40.400" style="s2">something called scene swapping</p>
+<p begin="00:06:38.720" end="00:06:43.120" style="s2">there is also a huge industry of</p>
+<p begin="00:06:40.400" end="00:06:44.880" style="s2">password managers created to store all</p>
+<p begin="00:06:43.120" end="00:06:47.280" style="s2">your passwords and generate a unique</p>
+<p begin="00:06:44.880" end="00:06:49.120" style="s2">password for every different website but</p>
+<p begin="00:06:47.280" end="00:06:51.759" style="s2">that is just centralizing all your</p>
+<p begin="00:06:49.120" end="00:06:54.400" style="s2">passwords in one place what happens if</p>
+<p begin="00:06:51.759" end="00:06:56.800" style="s2">your password provider gets hacked but</p>
+<p begin="00:06:54.400" end="00:06:59.120" style="s2">what if instead of adding all these</p>
+<p begin="00:06:56.800" end="00:07:01.280" style="s2">layers to try to make passwords strong</p>
+<p begin="00:06:59.120" end="00:07:03.680" style="s2">and verification and all those things we</p>
+<p begin="00:07:01.280" end="00:07:06.160" style="s2">can just get rid of passwords all</p>
+<p begin="00:07:03.680" end="00:07:08.639" style="s2">together fido which stands for fast</p>
+<p begin="00:07:06.160" end="00:07:11.759" style="s2">identity online is an organization that</p>
+<p begin="00:07:08.639" end="00:07:14.000" style="s2">creates standards to reduce the password</p>
+<p begin="00:07:11.759" end="00:07:16.240" style="s2">usage and those are the standards that</p>
+<p begin="00:07:14.000" end="00:07:18.720" style="s2">apple google and microsoft agreed to</p>
+<p begin="00:07:16.240" end="00:07:20.639" style="s2">implement past keys is how apple is</p>
+<p begin="00:07:18.720" end="00:07:22.479" style="s2">implementing those standards and this is</p>
+<p begin="00:07:20.639" end="00:07:24.960" style="s2">how it looks like from the point of view</p>
+<p begin="00:07:22.479" end="00:07:27.280" style="s2">of a user when going to a website and</p>
+<p begin="00:07:24.960" end="00:07:28.880" style="s2">wanting to create an account the website</p>
+<p begin="00:07:27.280" end="00:07:30.960" style="s2">will ask you if instead of using</p>
+<p begin="00:07:28.880" end="00:07:34.000" style="s2">username and password you want to use a</p>
+<p begin="00:07:30.960" end="00:07:37.120" style="s2">pass key if you do the website will show</p>
+<p begin="00:07:34.000" end="00:07:39.840" style="s2">you a qr code scanning this qr code will</p>
+<p begin="00:07:37.120" end="00:07:41.520" style="s2">create a passkey and log you in the next</p>
+<p begin="00:07:39.840" end="00:07:43.199" style="s2">time you want to log in on that website</p>
+<p begin="00:07:41.520" end="00:07:45.680" style="s2">because the passkey will be synchronized</p>
+<p begin="00:07:43.199" end="00:07:47.840" style="s2">between your phone and your computer all</p>
+<p begin="00:07:45.680" end="00:07:50.879" style="s2">you have to do is authenticate using</p>
+<p begin="00:07:47.840" end="00:07:54.400" style="s2">touch id and you can log in again as you</p>
+<p begin="00:07:50.879" end="00:07:57.280" style="s2">can see no password needed for the user</p>
+<p begin="00:07:54.400" end="00:07:59.120" style="s2">the authentication flow is super simple</p>
+<p begin="00:07:57.280" end="00:08:01.360" style="s2">all you have to do is prove that you are</p>
+<p begin="00:07:59.120" end="00:08:03.199" style="s2">the owner of your computer or your phone</p>
+<p begin="00:08:01.360" end="00:08:05.840" style="s2">using the touch id or the facial</p>
+<p begin="00:08:03.199" end="00:08:08.000" style="s2">recognition using passkeys developers</p>
+<p begin="00:08:05.840" end="00:08:10.560" style="s2">don&#39;t have to handle anything secret</p>
+<p begin="00:08:08.000" end="00:08:13.440" style="s2">from the user so if there is a leak of</p>
+<p begin="00:08:10.560" end="00:08:15.840" style="s2">data the accounts won&#39;t be compromised</p>
+<p begin="00:08:13.440" end="00:08:17.759" style="s2">pass keys are also unpieceable because</p>
+<p begin="00:08:15.840" end="00:08:20.080" style="s2">your phone will generate a unique pass</p>
+<p begin="00:08:17.759" end="00:08:22.479" style="s2">key for every different website there is</p>
+<p begin="00:08:20.080" end="00:08:24.720" style="s2">no risk of giving the wrong passkey to</p>
+<p begin="00:08:22.479" end="00:08:27.120" style="s2">the wrong website and they are also</p>
+<p begin="00:08:24.720" end="00:08:29.360" style="s2">proximity based when scanning the qr</p>
+<p begin="00:08:27.120" end="00:08:31.919" style="s2">code your phone has to be closed to the</p>
+<p begin="00:08:29.360" end="00:08:34.159" style="s2">computer that has that qr code this is</p>
+<p begin="00:08:31.919" end="00:08:36.719" style="s2">done using bluetooth which means that a</p>
+<p begin="00:08:34.159" end="00:08:39.839" style="s2">remote attack like an attacker sending</p>
+<p begin="00:08:36.719" end="00:08:41.839" style="s2">you a qr code on your email won&#39;t work</p>
+<p begin="00:08:39.839" end="00:08:43.919" style="s2">baskets can also be shared between</p>
+<p begin="00:08:41.839" end="00:08:46.720" style="s2">devices and since they are based on the</p>
+<p begin="00:08:43.919" end="00:08:48.640" style="s2">fido standard they are cross platform as</p>
+<p begin="00:08:46.720" end="00:08:50.560" style="s2">well now let&#39;s take a quick look at how</p>
+<p begin="00:08:48.640" end="00:08:52.880" style="s2">paski works behind the scenes because</p>
+<p begin="00:08:50.560" end="00:08:55.680" style="s2">it&#39;s actually super super cool when you</p>
+<p begin="00:08:52.880" end="00:08:57.760" style="s2">scan the qr code to login with passkey</p>
+<p begin="00:08:55.680" end="00:09:00.240" style="s2">what is happening is that your device is</p>
+<p begin="00:08:57.760" end="00:09:02.959" style="s2">generating a public key and a private</p>
+<p begin="00:09:00.240" end="00:09:05.760" style="s2">key this private and public key are</p>
+<p begin="00:09:02.959" end="00:09:08.560" style="s2">unique for each different website but</p>
+<p begin="00:09:05.760" end="00:09:11.440" style="s2">the private key will always stay in your</p>
+<p begin="00:09:08.560" end="00:09:13.680" style="s2">device the public key will go to the</p>
+<p begin="00:09:11.440" end="00:09:16.480" style="s2">server of the website where you are</p>
+<p begin="00:09:13.680" end="00:09:18.959" style="s2">logging in your public key isn&#39;t a</p>
+<p begin="00:09:16.480" end="00:09:21.040" style="s2">secret it can be seen by anyone and even</p>
+<p begin="00:09:18.959" end="00:09:24.320" style="s2">if they see it they still want to be</p>
+<p begin="00:09:21.040" end="00:09:27.120" style="s2">able to log into your account we can get</p>
+<p begin="00:09:24.320" end="00:09:30.399" style="s2">the public key from the private key but</p>
+<p begin="00:09:27.120" end="00:09:33.120" style="s2">we cannot do the opposite we cannot get</p>
+<p begin="00:09:30.399" end="00:09:35.839" style="s2">the private key from the public key</p>
+<p begin="00:09:33.120" end="00:09:38.560" style="s2">the private key never goes to the server</p>
+<p begin="00:09:35.839" end="00:09:41.040" style="s2">it stays in your device when you want to</p>
+<p begin="00:09:38.560" end="00:09:42.959" style="s2">sign in using pass keys the server will</p>
+<p begin="00:09:41.040" end="00:09:45.680" style="s2">send you a challenge created with your</p>
+<p begin="00:09:42.959" end="00:09:48.160" style="s2">public key the only thing that can solve</p>
+<p begin="00:09:45.680" end="00:09:51.839" style="s2">this challenge is the private key the</p>
+<p begin="00:09:48.160" end="00:09:54.880" style="s2">one in your device the solution is sent</p>
+<p begin="00:09:51.839" end="00:09:56.480" style="s2">back to the server not the private key</p>
+<p begin="00:09:54.880" end="00:09:59.200" style="s2">to understand this in an easier way</p>
+<p begin="00:09:56.480" end="00:10:01.920" style="s2">imagine that the private key is a key</p>
+<p begin="00:09:59.200" end="00:10:04.880" style="s2">and the public key is a lock when we</p>
+<p begin="00:10:01.920" end="00:10:08.000" style="s2">want to log in the server gives us a</p>
+<p begin="00:10:04.880" end="00:10:10.320" style="s2">closed look with our private key we&#39;re</p>
+<p begin="00:10:08.000" end="00:10:12.800" style="s2">going to open that lock and we&#39;re going</p>
+<p begin="00:10:10.320" end="00:10:15.200" style="s2">to give that open lock to the server</p>
+<p begin="00:10:12.800" end="00:10:16.959" style="s2">this shows to the server that we have</p>
+<p begin="00:10:15.200" end="00:10:19.040" style="s2">access to the private key but we</p>
+<p begin="00:10:16.959" end="00:10:21.440" style="s2">actually never have to give the private</p>
+<p begin="00:10:19.040" end="00:10:24.079" style="s2">key to the server just to be clear apple</p>
+<p begin="00:10:21.440" end="00:10:25.760" style="s2">did not invent this what they announced</p>
+<p begin="00:10:24.079" end="00:10:28.640" style="s2">is that they are implementing the</p>
+<p begin="00:10:25.760" end="00:10:30.839" style="s2">standard in their ecosystem passkeys are</p>
+<p begin="00:10:28.640" end="00:10:33.279" style="s2">really really good solution for</p>
+<p begin="00:10:30.839" end="00:10:36.240" style="s2">authentication here you can see how past</p>
+<p begin="00:10:33.279" end="00:10:38.800" style="s2">keys protect us against many of the</p>
+<p begin="00:10:36.240" end="00:10:41.839" style="s2">problems of using memorized passwords or</p>
+<p begin="00:10:38.800" end="00:10:43.680" style="s2">password managers on sms verification</p>
+<p begin="00:10:41.839" end="00:10:46.160" style="s2">codes i think it&#39;s pretty cool and i</p>
+<p begin="00:10:43.680" end="00:10:48.160" style="s2">cannot wait to use it to log into all my</p>
+<p begin="00:10:46.160" end="00:10:51.120" style="s2">websites and to implement it in my own</p>
+<p begin="00:10:48.160" end="00:10:52.560" style="s2">website so you can log in with it let me</p>
+<p begin="00:10:51.120" end="00:10:54.640" style="s2">know in the comments what do you think</p>
+<p begin="00:10:52.560" end="00:10:58.000" style="s2">of web push notifications finally coming</p>
+<p begin="00:10:54.640" end="00:11:00.079" style="s2">to ios are you happy is finally here did</p>
+<p begin="00:10:58.000" end="00:11:02.160" style="s2">you ever make an ios app just to have</p>
+<p begin="00:11:00.079" end="00:11:04.880" style="s2">access to notifications and what about</p>
+<p begin="00:11:02.160" end="00:11:07.120" style="s2">past keys how cool is that thank you so</p>
+<p begin="00:11:04.880" end="00:11:09.440" style="s2">much for watching stay free stay happy</p>
+<p begin="00:11:07.120" end="00:11:14.040" style="s2">stay healthy eat kimchi kamzamita</p>
+<p begin="00:11:09.440" end="00:11:14.040" style="s2">sarangayo see you on the next one bye</p>
+<p begin="00:11:16.079" end="00:11:18.160" style="s2">you</p>
+</div>
+</body>
+</tt>

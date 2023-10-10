@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.000" end="00:00:05.759" style="s2">data is incredibly valuable some call it</p>
+<p begin="00:00:03.179" end="00:00:07.980" style="s2">the new oil data is what powers most of</p>
+<p begin="00:00:05.759" end="00:00:10.260" style="s2">the big Tech components and AI models</p>
+<p begin="00:00:07.980" end="00:00:12.840" style="s2">like chat GPD without data they are</p>
+<p begin="00:00:10.260" end="00:00:15.059" style="s2">nothing data isn&#39;t scarce like oil there</p>
+<p begin="00:00:12.840" end="00:00:17.160" style="s2">is plenty of it the problem with data is</p>
+<p begin="00:00:15.059" end="00:00:20.100" style="s2">that it is not organized it&#39;s scattered</p>
+<p begin="00:00:17.160" end="00:00:22.859" style="s2">all across the web data is valuable but</p>
+<p begin="00:00:20.100" end="00:00:25.560" style="s2">organized data is even more valuable</p>
+<p begin="00:00:22.859" end="00:00:28.080" style="s2">with organized data you can do academic</p>
+<p begin="00:00:25.560" end="00:00:30.420" style="s2">research business intelligence market</p>
+<p begin="00:00:28.080" end="00:00:32.940" style="s2">research content aggregation and more</p>
+<p begin="00:00:30.420" end="00:00:35.160" style="s2">you can even build old businesses by</p>
+<p begin="00:00:32.940" end="00:00:37.079" style="s2">just organizing data price comparison</p>
+<p begin="00:00:35.160" end="00:00:39.059" style="s2">websites extract data from all your</p>
+<p begin="00:00:37.079" end="00:00:41.399" style="s2">websites and provide value to People by</p>
+<p begin="00:00:39.059" end="00:00:43.680" style="s2">showing them different prices job board</p>
+<p begin="00:00:41.399" end="00:00:45.840" style="s2">aggregate job postings from various</p>
+<p begin="00:00:43.680" end="00:00:48.000" style="s2">websites and stock market dashboards get</p>
+<p begin="00:00:45.840" end="00:00:50.460" style="s2">news about companies tweets about the</p>
+<p begin="00:00:48.000" end="00:00:52.620" style="s2">stock price movements and more all from</p>
+<p begin="00:00:50.460" end="00:00:54.780" style="s2">different websites and display them all</p>
+<p begin="00:00:52.620" end="00:00:57.239" style="s2">on the same place before we can organize</p>
+<p begin="00:00:54.780" end="00:00:59.100" style="s2">data we have to collect data one way of</p>
+<p begin="00:00:57.239" end="00:01:01.500" style="s2">collecting data is by using the official</p>
+<p begin="00:00:59.100" end="00:01:03.539" style="s2">apis that some some websites provide but</p>
+<p begin="00:01:01.500" end="00:01:06.840" style="s2">most of the time those apis are either</p>
+<p begin="00:01:03.539" end="00:01:09.360" style="s2">paid or non-existent this is when web</p>
+<p begin="00:01:06.840" end="00:01:11.040" style="s2">scraping comes in web scraping is a</p>
+<p begin="00:01:09.360" end="00:01:13.860" style="s2">method of data collection where we</p>
+<p begin="00:01:11.040" end="00:01:16.619" style="s2">extract data from websites that do not</p>
+<p begin="00:01:13.860" end="00:01:18.420" style="s2">provide an API or a direct way to access</p>
+<p begin="00:01:16.619" end="00:01:21.000" style="s2">the data if you are a data scientist</p>
+<p begin="00:01:18.420" end="00:01:22.619" style="s2">marketer developer or researcher web</p>
+<p begin="00:01:21.000" end="00:01:24.420" style="s2">scraping is a tool that you will</p>
+<p begin="00:01:22.619" end="00:01:26.159" style="s2">eventually need to use to extract the</p>
+<p begin="00:01:24.420" end="00:01:27.840" style="s2">data you want but of course the</p>
+<p begin="00:01:26.159" end="00:01:30.479" style="s2">companies that have the data we want</p>
+<p begin="00:01:27.840" end="00:01:32.159" style="s2">know their data is valuable and they</p>
+<p begin="00:01:30.479" end="00:01:33.720" style="s2">always make it harder and harder to</p>
+<p begin="00:01:32.159" end="00:01:36.180" style="s2">scrape their websites with things like</p>
+<p begin="00:01:33.720" end="00:01:37.860" style="s2">captchas and Bot detection software the</p>
+<p begin="00:01:36.180" end="00:01:39.720" style="s2">good news for us is that thanks to</p>
+<p begin="00:01:37.860" end="00:01:41.340" style="s2">scraping browser we can create a</p>
+<p begin="00:01:39.720" end="00:01:43.200" style="s2">websites without the fear of getting</p>
+<p begin="00:01:41.340" end="00:01:44.880" style="s2">blocked and that is what I want to show</p>
+<p begin="00:01:43.200" end="00:01:46.619" style="s2">you today let&#39;s pretend you&#39;re going on</p>
+<p begin="00:01:44.880" end="00:01:49.079" style="s2">a trip and you want to find what is the</p>
+<p begin="00:01:46.619" end="00:01:50.759" style="s2">cheapest day of the week to fly on if we</p>
+<p begin="00:01:49.079" end="00:01:52.740" style="s2">wanted to do this manually we will have</p>
+<p begin="00:01:50.759" end="00:01:54.840" style="s2">to go to Skyscanner for example and</p>
+<p begin="00:01:52.740" end="00:01:57.299" style="s2">manually Click on each day of the week</p>
+<p begin="00:01:54.840" end="00:01:59.460" style="s2">to see which one has the lowest price</p>
+<p begin="00:01:57.299" end="00:02:02.100" style="s2">that looks like a process we should be</p>
+<p begin="00:01:59.460" end="00:02:04.020" style="s2">able to automate using web scraping to</p>
+<p begin="00:02:02.100" end="00:02:06.060" style="s2">scrape a website like Skyscanner we</p>
+<p begin="00:02:04.020" end="00:02:07.500" style="s2">would need to automate our browser and</p>
+<p begin="00:02:06.060" end="00:02:09.599" style="s2">to automate our browser we have many</p>
+<p begin="00:02:07.500" end="00:02:11.400" style="s2">options we can use selenium playwright</p>
+<p begin="00:02:09.599" end="00:02:12.900" style="s2">or Puppeteer the good news is that</p>
+<p begin="00:02:11.400" end="00:02:14.459" style="s2">scraping browser works with all of them</p>
+<p begin="00:02:12.900" end="00:02:16.020" style="s2">so you can use whatever you want the</p>
+<p begin="00:02:14.459" end="00:02:18.180" style="s2">Puppeteer code that does what we want</p>
+<p begin="00:02:16.020" end="00:02:20.160" style="s2">looks something like this here we are</p>
+<p begin="00:02:18.180" end="00:02:22.379" style="s2">launching Puppeteer which will launch an</p>
+<p begin="00:02:20.160" end="00:02:24.360" style="s2">automated browser then we are opening a</p>
+<p begin="00:02:22.379" end="00:02:27.959" style="s2">new tab we have a list of dates we want</p>
+<p begin="00:02:24.360" end="00:02:30.060" style="s2">to check October 20 21 22 and 23. then</p>
+<p begin="00:02:27.959" end="00:02:31.980" style="s2">for every date in our list we are</p>
+<p begin="00:02:30.060" end="00:02:34.680" style="s2">opening the Skyscanner website going</p>
+<p begin="00:02:31.980" end="00:02:36.120" style="s2">from Seoul to Barcelona plus the date we</p>
+<p begin="00:02:34.680" end="00:02:38.040" style="s2">are checking we are waiting for 4</p>
+<p begin="00:02:36.120" end="00:02:40.140" style="s2">seconds and then just for this example</p>
+<p begin="00:02:38.040" end="00:02:42.540" style="s2">we are saving a screenshot of the page</p>
+<p begin="00:02:40.140" end="00:02:44.400" style="s2">that has the prices we want to check in</p>
+<p begin="00:02:42.540" end="00:02:47.040" style="s2">reality you would not take a screenshot</p>
+<p begin="00:02:44.400" end="00:02:49.440" style="s2">and put this data on an Excel IF I try</p>
+<p begin="00:02:47.040" end="00:02:51.360" style="s2">to run this code from my laptop the</p>
+<p begin="00:02:49.440" end="00:02:53.040" style="s2">browser will open but Skyscanner will</p>
+<p begin="00:02:51.360" end="00:02:55.560" style="s2">detect that I am using an automated</p>
+<p begin="00:02:53.040" end="00:02:57.800" style="s2">browser so it will block the request and</p>
+<p begin="00:02:55.560" end="00:03:00.959" style="s2">not show me the page I want enter</p>
+<p begin="00:02:57.800" end="00:03:03.060" style="s2">scraping browser scraping browser is a</p>
+<p begin="00:03:00.959" end="00:03:05.160" style="s2">product by bright data the sponsors of</p>
+<p begin="00:03:03.060" end="00:03:07.080" style="s2">this video scraping browser is a browser</p>
+<p begin="00:03:05.160" end="00:03:08.879" style="s2">that makes you practically undetectable</p>
+<p begin="00:03:07.080" end="00:03:10.920" style="s2">when scraping websites and if you get</p>
+<p begin="00:03:08.879" end="00:03:13.080" style="s2">blocked scraping browser will solve the</p>
+<p begin="00:03:10.920" end="00:03:16.019" style="s2">captcha automatically for you it has</p>
+<p begin="00:03:13.080" end="00:03:17.700" style="s2">captcha solving automation built in the</p>
+<p begin="00:03:16.019" end="00:03:19.440" style="s2">reason why scraping browser is not easy</p>
+<p begin="00:03:17.700" end="00:03:21.840" style="s2">to detect by other websites is because</p>
+<p begin="00:03:19.440" end="00:03:23.340" style="s2">it is not a headless browser when you</p>
+<p begin="00:03:21.840" end="00:03:26.459" style="s2">launch a scraping browser you are</p>
+<p begin="00:03:23.340" end="00:03:29.159" style="s2">launching a real headphone browser on</p>
+<p begin="00:03:26.459" end="00:03:31.980" style="s2">bright data servers that looks identical</p>
+<p begin="00:03:29.159" end="00:03:34.019" style="s2">to the one a real user would use the</p>
+<p begin="00:03:31.980" end="00:03:36.120" style="s2">scripting browser also has a built-in</p>
+<p begin="00:03:34.019" end="00:03:37.680" style="s2">proxy monitoring and proxy rotation</p>
+<p begin="00:03:36.120" end="00:03:39.540" style="s2">which means that every time you launch</p>
+<p begin="00:03:37.680" end="00:03:41.519" style="s2">the browser you will get a different IP</p>
+<p begin="00:03:39.540" end="00:03:43.500" style="s2">from a different country making your</p>
+<p begin="00:03:41.519" end="00:03:46.560" style="s2">scraping even harder to detect bright</p>
+<p begin="00:03:43.500" end="00:03:48.720" style="s2">data has over 72 million IPS on their</p>
+<p begin="00:03:46.560" end="00:03:50.400" style="s2">Network which is super useful if for</p>
+<p begin="00:03:48.720" end="00:03:52.080" style="s2">example you are testing your website and</p>
+<p begin="00:03:50.400" end="00:03:54.120" style="s2">want to see how it looks like in</p>
+<p begin="00:03:52.080" end="00:03:55.980" style="s2">different languages or countries using</p>
+<p begin="00:03:54.120" end="00:03:57.299" style="s2">scraping browser is super simple all we</p>
+<p begin="00:03:55.980" end="00:03:59.340" style="s2">have to do is change a couple of lines</p>
+<p begin="00:03:57.299" end="00:04:01.260" style="s2">of code and we&#39;re good to go after you</p>
+<p begin="00:03:59.340" end="00:04:02.760" style="s2">create an account on bright data&#39;s</p>
+<p begin="00:04:01.260" end="00:04:04.500" style="s2">website and you create a scraping</p>
+<p begin="00:04:02.760" end="00:04:06.959" style="s2">browser you are going to receive three</p>
+<p begin="00:04:04.500" end="00:04:08.220" style="s2">things post username and a password this</p>
+<p begin="00:04:06.959" end="00:04:10.200" style="s2">information is all we need to start</p>
+<p begin="00:04:08.220" end="00:04:11.760" style="s2">scraping using the scraping browser in</p>
+<p begin="00:04:10.200" end="00:04:14.340" style="s2">our Puppeteer code we will need to</p>
+<p begin="00:04:11.760" end="00:04:16.320" style="s2">replace this line with this line of code</p>
+<p begin="00:04:14.340" end="00:04:18.359" style="s2">where the username password and host</p>
+<p begin="00:04:16.320" end="00:04:21.180" style="s2">variables are what we got from our</p>
+<p begin="00:04:18.359" end="00:04:22.860" style="s2">bright data dashboard and that is it on</p>
+<p begin="00:04:21.180" end="00:04:24.180" style="s2">bright data&#39;s website you can see how</p>
+<p begin="00:04:22.860" end="00:04:26.100" style="s2">you can connect if you are using</p>
+<p begin="00:04:24.180" end="00:04:28.680" style="s2">selenium and Puppeteer or if you&#39;re</p>
+<p begin="00:04:26.100" end="00:04:30.600" style="s2">using python or C sharp with scraping</p>
+<p begin="00:04:28.680" end="00:04:32.040" style="s2">browser if we run our code we&#39;re not</p>
+<p begin="00:04:30.600" end="00:04:33.660" style="s2">going to see anything in our screen</p>
+<p begin="00:04:32.040" end="00:04:35.880" style="s2">since the browser has not been launched</p>
+<p begin="00:04:33.660" end="00:04:37.860" style="s2">in our computer but on bright data&#39;s</p>
+<p begin="00:04:35.880" end="00:04:40.500" style="s2">servers to see how this graving browser</p>
+<p begin="00:04:37.860" end="00:04:42.419" style="s2">is doing after we run our code we can go</p>
+<p begin="00:04:40.500" end="00:04:44.520" style="s2">to the scraping browser dashboard where</p>
+<p begin="00:04:42.419" end="00:04:46.699" style="s2">we got our credentials from and there we</p>
+<p begin="00:04:44.520" end="00:04:49.440" style="s2">can click on the button that says Chrome</p>
+<p begin="00:04:46.699" end="00:04:51.419" style="s2">devtools debugger that will give us a</p>
+<p begin="00:04:49.440" end="00:04:52.979" style="s2">link to the instance of scraping browser</p>
+<p begin="00:04:51.419" end="00:04:55.919" style="s2">that we&#39;re currently running and after</p>
+<p begin="00:04:52.979" end="00:04:57.900" style="s2">we click it we will be taken to a screen</p>
+<p begin="00:04:55.919" end="00:05:00.540" style="s2">where we can see the developer tools and</p>
+<p begin="00:04:57.900" end="00:05:02.340" style="s2">a live view of the browser as you can</p>
+<p begin="00:05:00.540" end="00:05:05.160" style="s2">see it works like a charm we go to each</p>
+<p begin="00:05:02.340" end="00:05:06.900" style="s2">page we want to without getting blocked</p>
+<p begin="00:05:05.160" end="00:05:08.940" style="s2">because some ticket websites change</p>
+<p begin="00:05:06.900" end="00:05:10.979" style="s2">prices depending on the country to</p>
+<p begin="00:05:08.940" end="00:05:12.419" style="s2">launch a browser from another country we</p>
+<p begin="00:05:10.979" end="00:05:14.100" style="s2">could change the connection string a</p>
+<p begin="00:05:12.419" end="00:05:15.900" style="s2">little bit this connection string will</p>
+<p begin="00:05:14.100" end="00:05:17.940" style="s2">give us a browser on a random country</p>
+<p begin="00:05:15.900" end="00:05:20.280" style="s2">this one will launch a browser</p>
+<p begin="00:05:17.940" end="00:05:22.139" style="s2">specifically from Korea this one</p>
+<p begin="00:05:20.280" end="00:05:25.139" style="s2">specifically from Australia all we have</p>
+<p begin="00:05:22.139" end="00:05:27.000" style="s2">to do is write Dash Country dash plus a</p>
+<p begin="00:05:25.139" end="00:05:28.560" style="s2">two letter country code after the</p>
+<p begin="00:05:27.000" end="00:05:31.259" style="s2">username and we will get a browser</p>
+<p begin="00:05:28.560" end="00:05:33.060" style="s2">launched from that place by writing Dash</p>
+<p begin="00:05:31.259" end="00:05:34.919" style="s2">Country dash EU you will get a browser</p>
+<p begin="00:05:33.060" end="00:05:37.139" style="s2">from any country inside of the European</p>
+<p begin="00:05:34.919" end="00:05:38.880" style="s2">Union scraping browser isn&#39;t free we</p>
+<p begin="00:05:37.139" end="00:05:41.160" style="s2">have to pay for the bandwidth we consume</p>
+<p begin="00:05:38.880" end="00:05:43.320" style="s2">for this reason it is good to only fetch</p>
+<p begin="00:05:41.160" end="00:05:45.600" style="s2">what we need and not download any</p>
+<p begin="00:05:43.320" end="00:05:47.580" style="s2">unnecessary images or assets since we&#39;re</p>
+<p begin="00:05:45.600" end="00:05:49.919" style="s2">going to have to pay for it all we can</p>
+<p begin="00:05:47.580" end="00:05:52.500" style="s2">block URLs so our scraping browser does</p>
+<p begin="00:05:49.919" end="00:05:54.180" style="s2">not fetch them using Code like this here</p>
+<p begin="00:05:52.500" end="00:05:55.800" style="s2">we are telling Puppeteer to not fetch</p>
+<p begin="00:05:54.180" end="00:05:57.900" style="s2">URLs from doubleclick.net or</p>
+<p begin="00:05:55.800" end="00:06:00.660" style="s2">facebook.com this way when we go to a</p>
+<p begin="00:05:57.900" end="00:06:02.820" style="s2">page any Google or Facebook ad pixel is</p>
+<p begin="00:06:00.660" end="00:06:04.500" style="s2">not going to load saving as bandwidth</p>
+<p begin="00:06:02.820" end="00:06:06.720" style="s2">with the data we&#39;ve collected from</p>
+<p begin="00:06:04.500" end="00:06:08.759" style="s2">Skyscanner we could build a travel app</p>
+<p begin="00:06:06.720" end="00:06:10.680" style="s2">that will display the cheapest places to</p>
+<p begin="00:06:08.759" end="00:06:12.539" style="s2">travel we can create a price monitoring</p>
+<p begin="00:06:10.680" end="00:06:15.060" style="s2">tool that will alert us when the prices</p>
+<p begin="00:06:12.539" end="00:06:17.160" style="s2">are low or we can analyze the data to</p>
+<p begin="00:06:15.060" end="00:06:18.900" style="s2">find the best seasons to travel on</p>
+<p begin="00:06:17.160" end="00:06:20.340" style="s2">that&#39;s it for this video I hope you</p>
+<p begin="00:06:18.900" end="00:06:22.259" style="s2">found it useful and I hope you take</p>
+<p begin="00:06:20.340" end="00:06:24.060" style="s2">scraping browser for a ride keep in mind</p>
+<p begin="00:06:22.259" end="00:06:26.460" style="s2">that scraping browser can only be used</p>
+<p begin="00:06:24.060" end="00:06:28.620" style="s2">to create publicly accessible data that</p>
+<p begin="00:06:26.460" end="00:06:30.419" style="s2">means data that is not hidden behind a</p>
+<p begin="00:06:28.620" end="00:06:32.400" style="s2">login something to keep in mind to check</p>
+<p begin="00:06:30.419" end="00:06:34.080" style="s2">out scraping browser click the link</p>
+<p begin="00:06:32.400" end="00:06:35.460" style="s2">below thanks to Bright data for</p>
+<p begin="00:06:34.080" end="00:06:39.060" style="s2">sponsoring this video and thank you for</p>
+<p begin="00:06:35.460" end="00:06:39.060" style="s2">watching as always bye</p>
+<p begin="00:06:49.500" end="00:06:52.340" style="s2">thank you</p>
+</div>
+</body>
+</tt>

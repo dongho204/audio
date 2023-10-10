@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:01.639" end="00:00:06.359" style="s2">in this video we are going to learn how</p>
+<p begin="00:00:03.899" end="00:00:08.160" style="s2">hackers can steal your information and</p>
+<p begin="00:00:06.359" end="00:00:10.920" style="s2">Inspire on everything you&#39;re typing on</p>
+<p begin="00:00:08.160" end="00:00:13.139" style="s2">your keyboard just by using zoom and a</p>
+<p begin="00:00:10.920" end="00:00:14.940" style="s2">little bit of AI that is according to a</p>
+<p begin="00:00:13.139" end="00:00:17.400" style="s2">new paper called a practical deep</p>
+<p begin="00:00:14.940" end="00:00:20.279" style="s2">learning based acoustic side Channel</p>
+<p begin="00:00:17.400" end="00:00:22.080" style="s2">attack on keyboards in this paper a team</p>
+<p begin="00:00:20.279" end="00:00:24.720" style="s2">of researchers explain how they were</p>
+<p begin="00:00:22.080" end="00:00:26.580" style="s2">able to train a deep learning model that</p>
+<p begin="00:00:24.720" end="00:00:28.680" style="s2">can know what you are typing on your</p>
+<p begin="00:00:26.580" end="00:00:32.820" style="s2">keyboard based on the sound your</p>
+<p begin="00:00:28.680" end="00:00:35.100" style="s2">keystrokes make with 95 accuracy this is</p>
+<p begin="00:00:32.820" end="00:00:38.280" style="s2">known as a side a Channel attack side</p>
+<p begin="00:00:35.100" end="00:00:40.140" style="s2">Channel attacks or scas are attacks that</p>
+<p begin="00:00:38.280" end="00:00:42.480" style="s2">don&#39;t break the security of your machine</p>
+<p begin="00:00:40.140" end="00:00:44.879" style="s2">instead they make use of the side</p>
+<p begin="00:00:42.480" end="00:00:47.160" style="s2">information or signals that your</p>
+<p begin="00:00:44.879" end="00:00:50.640" style="s2">computer emits normally signals like</p>
+<p begin="00:00:47.160" end="00:00:52.440" style="s2">power usage hit or sound like on the</p>
+<p begin="00:00:50.640" end="00:00:54.300" style="s2">attack we&#39;re talking about this kind of</p>
+<p begin="00:00:52.440" end="00:00:56.879" style="s2">attack an acoustic attack has been</p>
+<p begin="00:00:54.300" end="00:00:59.460" style="s2">around for a while it is not new what is</p>
+<p begin="00:00:56.879" end="00:01:01.620" style="s2">new is how accurate it is thanks to AI</p>
+<p begin="00:00:59.460" end="00:01:03.480" style="s2">we&#39;ll know we should use long and secure</p>
+<p begin="00:01:01.620" end="00:01:05.159" style="s2">password and we should cover the screen</p>
+<p begin="00:01:03.480" end="00:01:07.080" style="s2">or keyboard when we are writing a</p>
+<p begin="00:01:05.159" end="00:01:08.820" style="s2">password in a public place but if you</p>
+<p begin="00:01:07.080" end="00:01:11.340" style="s2">think about it we do very little to</p>
+<p begin="00:01:08.820" end="00:01:12.720" style="s2">obfuscate the sound of our keyboard some</p>
+<p begin="00:01:11.340" end="00:01:15.600" style="s2">people even try to make their keyboard</p>
+<p begin="00:01:12.720" end="00:01:17.100" style="s2">even louder maybe after this attack we</p>
+<p begin="00:01:15.600" end="00:01:19.500" style="s2">will all have to start talking very</p>
+<p begin="00:01:17.100" end="00:01:21.360" style="s2">loudly or playing music while writing</p>
+<p begin="00:01:19.500" end="00:01:23.040" style="s2">our password if you&#39;re thinking this</p>
+<p begin="00:01:21.360" end="00:01:24.960" style="s2">kind of attack can only happen to those</p>
+<p begin="00:01:23.040" end="00:01:27.299" style="s2">people that use mechanical keyboard that</p>
+<p begin="00:01:24.960" end="00:01:29.280" style="s2">have very loud and special sounds you</p>
+<p begin="00:01:27.299" end="00:01:31.259" style="s2">will be wrong the laptop used on this</p>
+<p begin="00:01:29.280" end="00:01:33.600" style="s2">paper to demonstrate the attacks is</p>
+<p begin="00:01:31.259" end="00:01:35.520" style="s2">actually a MacBook Pro which is not a</p>
+<p begin="00:01:33.600" end="00:01:37.320" style="s2">loud keyboard at all the way the attack</p>
+<p begin="00:01:35.520" end="00:01:39.180" style="s2">works is very simple but interesting</p>
+<p begin="00:01:37.320" end="00:01:41.340" style="s2">first hackers will have to record the</p>
+<p begin="00:01:39.180" end="00:01:43.200" style="s2">keystrokes of the victim&#39;s keyboard you</p>
+<p begin="00:01:41.340" end="00:01:44.820" style="s2">might think this is hard to do maybe</p>
+<p begin="00:01:43.200" end="00:01:47.340" style="s2">they will have to hack the phone of the</p>
+<p begin="00:01:44.820" end="00:01:49.560" style="s2">victim first to access the microphone or</p>
+<p begin="00:01:47.340" end="00:01:51.960" style="s2">even easier they can just invite the</p>
+<p begin="00:01:49.560" end="00:01:53.700" style="s2">victim to hop on a zoom meeting and</p>
+<p begin="00:01:51.960" end="00:01:55.740" style="s2">correlate the messages written on the</p>
+<p begin="00:01:53.700" end="00:01:58.200" style="s2">chat window with the keyboard sounds</p>
+<p begin="00:01:55.740" end="00:01:59.880" style="s2">picked up by the microphone or they can</p>
+<p begin="00:01:58.200" end="00:02:02.159" style="s2">build a dodgy website that requests</p>
+<p begin="00:01:59.880" end="00:02:03.960" style="s2">access to the camera and microphone and</p>
+<p begin="00:02:02.159" end="00:02:05.939" style="s2">if the victim gives permission then it&#39;s</p>
+<p begin="00:02:03.960" end="00:02:07.860" style="s2">over after they know how your keyboard</p>
+<p begin="00:02:05.939" end="00:02:10.560" style="s2">sounds like the hackers will need to</p>
+<p begin="00:02:07.860" end="00:02:12.720" style="s2">isolate those sounds here is an image</p>
+<p begin="00:02:10.560" end="00:02:14.700" style="s2">from the paper that shows us how the</p>
+<p begin="00:02:12.720" end="00:02:17.879" style="s2">keystroke sounds can be isolated from</p>
+<p begin="00:02:14.700" end="00:02:19.379" style="s2">other sounds using energy thresholds</p>
+<p begin="00:02:17.879" end="00:02:21.900" style="s2">then the attackers will have to take</p>
+<p begin="00:02:19.379" end="00:02:24.780" style="s2">those isolated keystroke sounds and turn</p>
+<p begin="00:02:21.900" end="00:02:26.520" style="s2">them into male spectrograms which are a</p>
+<p begin="00:02:24.780" end="00:02:28.620" style="s2">modified version of a spectrogram</p>
+<p begin="00:02:26.520" end="00:02:31.200" style="s2">spectrograms are a visual representation</p>
+<p begin="00:02:28.620" end="00:02:34.020" style="s2">of audio they are a plane of colored</p>
+<p begin="00:02:31.200" end="00:02:36.120" style="s2">pixels with an X and Y axis the x-axis</p>
+<p begin="00:02:34.020" end="00:02:38.099" style="s2">represents time the y-axis represents</p>
+<p begin="00:02:36.120" end="00:02:40.620" style="s2">the frequency and the brightness of the</p>
+<p begin="00:02:38.099" end="00:02:42.480" style="s2">pixel represents the loudness of the</p>
+<p begin="00:02:40.620" end="00:02:44.760" style="s2">sound on this image we can see the</p>
+<p begin="00:02:42.480" end="00:02:47.040" style="s2">waveform and the male spectrogram of a</p>
+<p begin="00:02:44.760" end="00:02:49.680" style="s2">keystroke recorded using a microphone</p>
+<p begin="00:02:47.040" end="00:02:52.860" style="s2">and another one recorded through soon</p>
+<p begin="00:02:49.680" end="00:02:55.140" style="s2">with the sounds turned into images the</p>
+<p begin="00:02:52.860" end="00:02:57.420" style="s2">next step of the attack is to train a</p>
+<p begin="00:02:55.140" end="00:02:59.220" style="s2">neural network with those images the</p>
+<p begin="00:02:57.420" end="00:03:02.700" style="s2">theme behind this paper chose to use</p>
+<p begin="00:02:59.220" end="00:03:05.220" style="s2">coat it an image classifier model built</p>
+<p begin="00:03:02.700" end="00:03:08.220" style="s2">by Google&#39;s Brain theme this classifier</p>
+<p begin="00:03:05.220" end="00:03:10.140" style="s2">achieved an accuracy of 95 percent with</p>
+<p begin="00:03:08.220" end="00:03:14.340" style="s2">keystroke sounds recorded by an iPhone</p>
+<p begin="00:03:10.140" end="00:03:18.060" style="s2">13 mini placed 17 centimeters away from</p>
+<p begin="00:03:14.340" end="00:03:20.940" style="s2">the laptop it achieved 93 accuracy with</p>
+<p begin="00:03:18.060" end="00:03:25.440" style="s2">keystroke sounds recorded on a zoom call</p>
+<p begin="00:03:20.940" end="00:03:27.959" style="s2">and it achieved 91.7 accuracy by just</p>
+<p begin="00:03:25.440" end="00:03:30.420" style="s2">calling the victim through Skype scary</p>
+<p begin="00:03:27.959" end="00:03:32.159" style="s2">to protect ourselves against this attack</p>
+<p begin="00:03:30.420" end="00:03:34.140" style="s2">the team of researchers behind this</p>
+<p begin="00:03:32.159" end="00:03:36.840" style="s2">paper suggest a couple of things first</p>
+<p begin="00:03:34.140" end="00:03:38.580" style="s2">they suggest a typing using touch typing</p>
+<p begin="00:03:36.840" end="00:03:41.519" style="s2">just by doing this the keystroke</p>
+<p begin="00:03:38.580" end="00:03:43.980" style="s2">recognition was reduced from 64 to 40</p>
+<p begin="00:03:41.519" end="00:03:45.720" style="s2">another mitigation technique is to use</p>
+<p begin="00:03:43.980" end="00:03:48.000" style="s2">passwords that have both lower and</p>
+<p begin="00:03:45.720" end="00:03:49.620" style="s2">uppercase and of course finally the</p>
+<p begin="00:03:48.000" end="00:03:51.720" style="s2">authors of the paper recommend playing</p>
+<p begin="00:03:49.620" end="00:03:54.480" style="s2">sounds while writing our passwords</p>
+<p begin="00:03:51.720" end="00:03:56.879" style="s2">preferably sounds with fake keystrokes</p>
+<p begin="00:03:54.480" end="00:03:58.920" style="s2">rather than white noise or other sounds</p>
+<p begin="00:03:56.879" end="00:04:00.599" style="s2">since they are fairly easy to isolate</p>
+<p begin="00:03:58.920" end="00:04:02.700" style="s2">and of course they reckon comment you</p>
+<p begin="00:04:00.599" end="00:04:05.819" style="s2">mute your microphone when writing on</p>
+<p begin="00:04:02.700" end="00:04:08.220" style="s2">your keyboard what a crazy word we live</p>
+<p begin="00:04:05.819" end="00:04:09.780" style="s2">in thanks to AI attacks that were not</p>
+<p begin="00:04:08.220" end="00:04:12.420" style="s2">easy to perform are going to become</p>
+<p begin="00:04:09.780" end="00:04:13.739" style="s2">trivial to do more and more I hope you</p>
+<p begin="00:04:12.420" end="00:04:15.180" style="s2">enjoyed this video if you did please</p>
+<p begin="00:04:13.739" end="00:04:17.459" style="s2">consider leaving a like and subscribing</p>
+<p begin="00:04:15.180" end="00:04:19.260" style="s2">to the channel just two clicks it&#39;s for</p>
+<p begin="00:04:17.459" end="00:04:20.820" style="s2">free but it helps me a lot and let me</p>
+<p begin="00:04:19.260" end="00:04:22.500" style="s2">know what you think write your opinion</p>
+<p begin="00:04:20.820" end="00:04:23.940" style="s2">on the comments if you like the way I</p>
+<p begin="00:04:22.500" end="00:04:25.800" style="s2">explain Concepts and you would like to</p>
+<p begin="00:04:23.940" end="00:04:29.160" style="s2">learn things like JavaScript python</p>
+<p begin="00:04:25.800" end="00:04:31.860" style="s2">react react native go Dart flutter among</p>
+<p begin="00:04:29.160" end="00:04:34.380" style="s2">many others by building real life</p>
+<p begin="00:04:31.860" end="00:04:36.960" style="s2">products and skipping the boring Theory</p>
+<p begin="00:04:34.380" end="00:04:38.580" style="s2">all for free all you have to do is click</p>
+<p begin="00:04:36.960" end="00:04:40.440" style="s2">the link below to join any of our many</p>
+<p begin="00:04:38.580" end="00:04:42.600" style="s2">free courses that you can take right now</p>
+<p begin="00:04:40.440" end="00:04:44.479" style="s2">for absolutely free with me click the</p>
+<p begin="00:04:42.600" end="00:04:49.040" style="s2">link below and I will see you then</p>
+<p begin="00:04:44.479" end="00:04:49.040" style="s2">see you on the next one bye</p>
+<p begin="00:05:00.500" end="00:05:04.100" style="s2">thank you</p>
+</div>
+</body>
+</tt>

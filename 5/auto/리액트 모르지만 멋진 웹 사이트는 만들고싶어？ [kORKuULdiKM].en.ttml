@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:03.840" end="00:00:08.800" style="s2">in five minutes or less alpine js is a</p>
+<p begin="00:00:06.560" end="00:00:11.440" style="s2">minimalist lightweight javascript</p>
+<p begin="00:00:08.800" end="00:00:13.920" style="s2">framework it is like jquery for modern</p>
+<p begin="00:00:11.440" end="00:00:15.440" style="s2">web development thanks to alpine.js we</p>
+<p begin="00:00:13.920" end="00:00:17.520" style="s2">don&#39;t have to make a fully fledged</p>
+<p begin="00:00:15.440" end="00:00:20.240" style="s2">react.js application if we want to make</p>
+<p begin="00:00:17.520" end="00:00:22.160" style="s2">our website interactive with alpine.js</p>
+<p begin="00:00:20.240" end="00:00:24.960" style="s2">we can build the interactive components</p>
+<p begin="00:00:22.160" end="00:00:27.119" style="s2">that most websites need like models</p>
+<p begin="00:00:24.960" end="00:00:30.000" style="s2">accordions carousels tabs or</p>
+<p begin="00:00:27.119" end="00:00:32.160" style="s2">notifications among others by writing</p>
+<p begin="00:00:30.000" end="00:00:34.320" style="s2">almost no code at all as we will see</p>
+<p begin="00:00:32.160" end="00:00:36.640" style="s2">right now all we have to do is add</p>
+<p begin="00:00:34.320" end="00:00:39.360" style="s2">attributes to our html elements and</p>
+<p begin="00:00:36.640" end="00:00:41.600" style="s2">alpine yes we&#39;ll do the rest let&#39;s build</p>
+<p begin="00:00:39.360" end="00:00:44.320" style="s2">a simple counter with alpine.js to see</p>
+<p begin="00:00:41.600" end="00:00:47.760" style="s2">how easy it is to use first we import</p>
+<p begin="00:00:44.320" end="00:00:49.840" style="s2">the alpine jgs script in our html then</p>
+<p begin="00:00:47.760" end="00:00:52.480" style="s2">we are going to create a div and give it</p>
+<p begin="00:00:49.840" end="00:00:55.920" style="s2">the attribute x theta which will have a</p>
+<p begin="00:00:52.480" end="00:00:58.320" style="s2">count property starting at 0. now any</p>
+<p begin="00:00:55.920" end="00:01:01.600" style="s2">element inside of that div will be able</p>
+<p begin="00:00:58.320" end="00:01:03.840" style="s2">to read and modify the count property</p>
+<p begin="00:01:01.600" end="00:01:05.920" style="s2">let&#39;s now add a button to increase the</p>
+<p begin="00:01:03.840" end="00:01:09.119" style="s2">count and for this we will use the alpha</p>
+<p begin="00:01:05.920" end="00:01:11.360" style="s2">and js attribute x on with the click</p>
+<p begin="00:01:09.119" end="00:01:14.320" style="s2">event and finally let&#39;s display the</p>
+<p begin="00:01:11.360" end="00:01:17.439" style="s2">count value to the user using the x text</p>
+<p begin="00:01:14.320" end="00:01:19.280" style="s2">attribute on a span element now we test</p>
+<p begin="00:01:17.439" end="00:01:22.560" style="s2">and as you can see it works pretty</p>
+<p begin="00:01:19.280" end="00:01:24.439" style="s2">pretty well that was incredibly easy as</p>
+<p begin="00:01:22.560" end="00:01:27.280" style="s2">you can see all we have to do is add the</p>
+<p begin="00:01:24.439" end="00:01:30.320" style="s2">x-attributes to our html elements in</p>
+<p begin="00:01:27.280" end="00:01:32.159" style="s2">alpha js we&#39;ll read them and do the rest</p>
+<p begin="00:01:30.320" end="00:01:34.560" style="s2">it will even refresh the ui and keep</p>
+<p begin="00:01:32.159" end="00:01:37.280" style="s2">track of the data for us let&#39;s now build</p>
+<p begin="00:01:34.560" end="00:01:40.000" style="s2">a drop down component in a new div let&#39;s</p>
+<p begin="00:01:37.280" end="00:01:42.720" style="s2">use x data again to initialize a open</p>
+<p begin="00:01:40.000" end="00:01:45.040" style="s2">property to false inside of that div we</p>
+<p begin="00:01:42.720" end="00:01:47.280" style="s2">will make a button to change open to the</p>
+<p begin="00:01:45.040" end="00:01:49.520" style="s2">opposite of what open currently is that</p>
+<p begin="00:01:47.280" end="00:01:51.439" style="s2">means that if open is currently false it</p>
+<p begin="00:01:49.520" end="00:01:52.960" style="s2">will change it to true and if open is</p>
+<p begin="00:01:51.439" end="00:01:56.159" style="s2">currently true we will change it to</p>
+<p begin="00:01:52.960" end="00:01:59.119" style="s2">false in another div using the x show</p>
+<p begin="00:01:56.159" end="00:02:02.399" style="s2">attribute we will tell alpine.js to only</p>
+<p begin="00:01:59.119" end="00:02:05.040" style="s2">show it when open is true we will also</p>
+<p begin="00:02:02.399" end="00:02:07.439" style="s2">add the x transition to the div to get a</p>
+<p begin="00:02:05.040" end="00:02:10.000" style="s2">sweet css transition when the content</p>
+<p begin="00:02:07.439" end="00:02:13.200" style="s2">shows and hides and as you can see it</p>
+<p begin="00:02:10.000" end="00:02:16.160" style="s2">works pretty well including css hiding</p>
+<p begin="00:02:13.200" end="00:02:18.959" style="s2">and showing transitions how easy was</p>
+<p begin="00:02:16.160" end="00:02:21.840" style="s2">that we just built a counter and a hide</p>
+<p begin="00:02:18.959" end="00:02:24.560" style="s2">and show component with css transitions</p>
+<p begin="00:02:21.840" end="00:02:26.080" style="s2">writing no javascript at all if you are</p>
+<p begin="00:02:24.560" end="00:02:28.319" style="s2">worried that it might be hard to</p>
+<p begin="00:02:26.080" end="00:02:31.360" style="s2">remember or find all the x dash</p>
+<p begin="00:02:28.319" end="00:02:34.239" style="s2">attributes that alpha js has don&#39;t worry</p>
+<p begin="00:02:31.360" end="00:02:36.239" style="s2">there are only 15 of them alpine jjs is</p>
+<p begin="00:02:34.239" end="00:02:38.560" style="s2">pretty small but you can combine all of</p>
+<p begin="00:02:36.239" end="00:02:40.720" style="s2">them to build really cool stuff i think</p>
+<p begin="00:02:38.560" end="00:02:42.879" style="s2">alpine.js will be especially useful for</p>
+<p begin="00:02:40.720" end="00:02:45.840" style="s2">people like web publishers that don&#39;t</p>
+<p begin="00:02:42.879" end="00:02:47.440" style="s2">want to learn or build a full react.js</p>
+<p begin="00:02:45.840" end="00:02:49.920" style="s2">application but still want to add</p>
+<p begin="00:02:47.440" end="00:02:51.760" style="s2">interactivity to their websites let me</p>
+<p begin="00:02:49.920" end="00:02:54.160" style="s2">know in the comments if you like alpine</p>
+<p begin="00:02:51.760" end="00:02:56.080" style="s2">js and what are your opinions on it and</p>
+<p begin="00:02:54.160" end="00:02:57.440" style="s2">also if you like it a lot let me know if</p>
+<p begin="00:02:56.080" end="00:02:59.599" style="s2">you would like me to make a full</p>
+<p begin="00:02:57.440" end="00:03:01.440" style="s2">tutorial on alpine.js and we will make</p>
+<p begin="00:02:59.599" end="00:03:02.640" style="s2">it happen and don&#39;t forget if you want</p>
+<p begin="00:03:01.440" end="00:03:03.840" style="s2">to learn to code and you want to do it</p>
+<p begin="00:03:02.640" end="00:03:05.519" style="s2">for free then please click the link</p>
+<p begin="00:03:03.840" end="00:03:07.280" style="s2">below and i will see you there thank you</p>
+<p begin="00:03:05.519" end="00:03:09.200" style="s2">for watching today stay happy stay free</p>
+<p begin="00:03:07.280" end="00:03:13.000" style="s2">it&#39;s kimchi salaam hamidah come join me</p>
+<p begin="00:03:09.200" end="00:03:13.000" style="s2">see you on the next one bye</p>
+</div>
+</body>
+</tt>

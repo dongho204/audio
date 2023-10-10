@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:04.080" end="00:00:08.320" style="s2">i would like to let you know that if you</p>
+<p begin="00:00:05.759" end="00:00:10.960" style="s2">haven&#39;t updated your browser you</p>
+<p begin="00:00:08.320" end="00:00:13.920" style="s2">probably should do it right now as</p>
+<p begin="00:00:10.960" end="00:00:15.759" style="s2">quickly as possible like yesterday a</p>
+<p begin="00:00:13.920" end="00:00:18.720" style="s2">couple of days ago google released a</p>
+<p begin="00:00:15.759" end="00:00:20.720" style="s2">security fix for a zero day</p>
+<p begin="00:00:18.720" end="00:00:22.640" style="s2">vulnerability that was affecting google</p>
+<p begin="00:00:20.720" end="00:00:24.480" style="s2">chrome but it turns out that other</p>
+<p begin="00:00:22.640" end="00:00:26.560" style="s2">browsers are affected as well and from</p>
+<p begin="00:00:24.480" end="00:00:29.039" style="s2">the clues that google gives us it looks</p>
+<p begin="00:00:26.560" end="00:00:31.359" style="s2">like this vulnerability might be a big</p>
+<p begin="00:00:29.039" end="00:00:34.000" style="s2">one zero day vulnerability means that</p>
+<p begin="00:00:31.359" end="00:00:36.320" style="s2">this is a never seen before security</p>
+<p begin="00:00:34.000" end="00:00:38.800" style="s2">hall it means that no one or almost</p>
+<p begin="00:00:36.320" end="00:00:41.520" style="s2">nobody knows about this and also means</p>
+<p begin="00:00:38.800" end="00:00:43.840" style="s2">that people have had zero days to update</p>
+<p begin="00:00:41.520" end="00:00:45.840" style="s2">their systems qualis which is a platform</p>
+<p begin="00:00:43.840" end="00:00:47.440" style="s2">that tracks vulnerabilities says that</p>
+<p begin="00:00:45.840" end="00:00:49.600" style="s2">the successful exploitation of this</p>
+<p begin="00:00:47.440" end="00:00:52.480" style="s2">security hall might result in the</p>
+<p begin="00:00:49.600" end="00:00:54.719" style="s2">complete compromise of the system this</p>
+<p begin="00:00:52.480" end="00:00:56.800" style="s2">means a complete takeover of the</p>
+<p begin="00:00:54.719" end="00:00:58.640" style="s2">computer which is something that might</p>
+<p begin="00:00:56.800" end="00:01:00.399" style="s2">already be happening because google has</p>
+<p begin="00:00:58.640" end="00:01:02.800" style="s2">said that they are aware that there is</p>
+<p begin="00:01:00.399" end="00:01:04.559" style="s2">an exploit already for this security</p>
+<p begin="00:01:02.800" end="00:01:06.479" style="s2">hall in the wild this means it&#39;s out</p>
+<p begin="00:01:04.559" end="00:01:08.880" style="s2">there in the internet and some people</p>
+<p begin="00:01:06.479" end="00:01:10.720" style="s2">might be getting affected already by</p>
+<p begin="00:01:08.880" end="00:01:12.479" style="s2">this problem is not only affecting</p>
+<p begin="00:01:10.720" end="00:01:14.240" style="s2">google chrome is actually affecting</p>
+<p begin="00:01:12.479" end="00:01:16.080" style="s2">other browsers as well because the</p>
+<p begin="00:01:14.240" end="00:01:18.080" style="s2">problem the security hole is not in</p>
+<p begin="00:01:16.080" end="00:01:21.119" style="s2">chrome itself is actually in the</p>
+<p begin="00:01:18.080" end="00:01:22.880" style="s2">chromium v8 and javascript engine many</p>
+<p begin="00:01:21.119" end="00:01:25.520" style="s2">of the browsers that we use like google</p>
+<p begin="00:01:22.880" end="00:01:28.799" style="s2">chrome microsoft edge brave browser</p>
+<p begin="00:01:25.520" end="00:01:32.240" style="s2">naver whale samsung internet vivaldi</p>
+<p begin="00:01:28.799" end="00:01:34.240" style="s2">share the same core they were all made</p>
+<p begin="00:01:32.240" end="00:01:36.720" style="s2">using something called chromium which is</p>
+<p begin="00:01:34.240" end="00:01:39.200" style="s2">an open source browser</p>
+<p begin="00:01:36.720" end="00:01:41.920" style="s2">all these browsers took chromium and</p>
+<p begin="00:01:39.200" end="00:01:43.759" style="s2">added some extra features on top of it</p>
+<p begin="00:01:41.920" end="00:01:44.960" style="s2">now those browsers might look different</p>
+<p begin="00:01:43.759" end="00:01:47.200" style="s2">and have some different features like</p>
+<p begin="00:01:44.960" end="00:01:49.040" style="s2">for example google chrome if you use it</p>
+<p begin="00:01:47.200" end="00:01:50.560" style="s2">you can link it very well with your</p>
+<p begin="00:01:49.040" end="00:01:52.960" style="s2">google account but if you use for</p>
+<p begin="00:01:50.560" end="00:01:55.040" style="s2">example brave browser you get adblock</p>
+<p begin="00:01:52.960" end="00:01:57.920" style="s2">already installed by default and more</p>
+<p begin="00:01:55.040" end="00:02:00.399" style="s2">privacy so all these browsers maybe look</p>
+<p begin="00:01:57.920" end="00:02:02.399" style="s2">different but they share the same core</p>
+<p begin="00:02:00.399" end="00:02:05.040" style="s2">and this means that if that core that</p>
+<p begin="00:02:02.399" end="00:02:06.719" style="s2">all the browsers use has a problem this</p>
+<p begin="00:02:05.040" end="00:02:08.879" style="s2">means that all these browsers have a</p>
+<p begin="00:02:06.719" end="00:02:10.720" style="s2">problem as well and this is exactly what</p>
+<p begin="00:02:08.879" end="00:02:12.239" style="s2">the problem is the problem is on</p>
+<p begin="00:02:10.720" end="00:02:14.080" style="s2">chromium which is the core that</p>
+<p begin="00:02:12.239" end="00:02:16.640" style="s2">everybody shares and more specifically</p>
+<p begin="00:02:14.080" end="00:02:19.920" style="s2">in the v8 javascript engine that</p>
+<p begin="00:02:16.640" end="00:02:21.680" style="s2">chromium uses to execute javascript v8</p>
+<p begin="00:02:19.920" end="00:02:23.599" style="s2">is an open source javascript engine that</p>
+<p begin="00:02:21.680" end="00:02:26.879" style="s2">is written in c and that is used by</p>
+<p begin="00:02:23.599" end="00:02:28.720" style="s2">chromium but also node.js our cpus of</p>
+<p begin="00:02:26.879" end="00:02:30.080" style="s2">course do not understand javascript so</p>
+<p begin="00:02:28.720" end="00:02:33.360" style="s2">when you go to a website that uses</p>
+<p begin="00:02:30.080" end="00:02:35.200" style="s2">javascript or when you use node.js v8 is</p>
+<p begin="00:02:33.360" end="00:02:37.440" style="s2">the one that is going to read your</p>
+<p begin="00:02:35.200" end="00:02:39.440" style="s2">javascript code it is going to compile</p>
+<p begin="00:02:37.440" end="00:02:41.760" style="s2">it to bytecode and using something</p>
+<p begin="00:02:39.440" end="00:02:44.239" style="s2">called turbofan is going to compile that</p>
+<p begin="00:02:41.760" end="00:02:47.040" style="s2">to machine code and it&#39;s somewhere there</p>
+<p begin="00:02:44.239" end="00:02:49.280" style="s2">in v8 where this vulnerability is which</p>
+<p begin="00:02:47.040" end="00:02:51.040" style="s2">might mean that to trigger the</p>
+<p begin="00:02:49.280" end="00:02:53.200" style="s2">vulnerability all the hackers would have</p>
+<p begin="00:02:51.040" end="00:02:55.599" style="s2">to do is just run some malicious</p>
+<p begin="00:02:53.200" end="00:02:58.640" style="s2">javascript code browsers like firefox</p>
+<p begin="00:02:55.599" end="00:03:01.120" style="s2">and safari don&#39;t use v8 they use their</p>
+<p begin="00:02:58.640" end="00:03:03.120" style="s2">own javascript engines the javascript</p>
+<p begin="00:03:01.120" end="00:03:04.480" style="s2">engine of a firefox is called spider</p>
+<p begin="00:03:03.120" end="00:03:06.879" style="s2">monkey and the javascript engine of</p>
+<p begin="00:03:04.480" end="00:03:08.319" style="s2">safari is called javascript core so this</p>
+<p begin="00:03:06.879" end="00:03:10.080" style="s2">means that if you&#39;re using firefox or</p>
+<p begin="00:03:08.319" end="00:03:12.239" style="s2">safari you are completely safe and there</p>
+<p begin="00:03:10.080" end="00:03:13.760" style="s2">is nothing to worry about today now i</p>
+<p begin="00:03:12.239" end="00:03:16.239" style="s2">would like to show you how this</p>
+<p begin="00:03:13.760" end="00:03:18.640" style="s2">vulnerability is exploited what is the</p>
+<p begin="00:03:16.239" end="00:03:21.040" style="s2">code that makes this security hall</p>
+<p begin="00:03:18.640" end="00:03:23.680" style="s2">happen and what is the worst thing that</p>
+<p begin="00:03:21.040" end="00:03:26.720" style="s2">an attacker could do to our computer the</p>
+<p begin="00:03:23.680" end="00:03:28.560" style="s2">problem is that i can&#39;t google is</p>
+<p begin="00:03:26.720" end="00:03:31.040" style="s2">keeping all the details about this zero</p>
+<p begin="00:03:28.560" end="00:03:33.200" style="s2">day secret google is basically buying</p>
+<p begin="00:03:31.040" end="00:03:35.120" style="s2">time so that more than three billion</p>
+<p begin="00:03:33.200" end="00:03:37.360" style="s2">google chrome users have enough time to</p>
+<p begin="00:03:35.120" end="00:03:39.840" style="s2">update their systems since as we saw</p>
+<p begin="00:03:37.360" end="00:03:41.920" style="s2">before there is an exploit out there in</p>
+<p begin="00:03:39.840" end="00:03:43.920" style="s2">the wild they are aware of this so they</p>
+<p begin="00:03:41.920" end="00:03:46.319" style="s2">know that this is already being used to</p>
+<p begin="00:03:43.920" end="00:03:48.879" style="s2">compromise some systems three billion</p>
+<p begin="00:03:46.319" end="00:03:50.799" style="s2">that&#39;s a lot of users and this doesn&#39;t</p>
+<p begin="00:03:48.879" end="00:03:53.280" style="s2">count all the other browsers that are</p>
+<p begin="00:03:50.799" end="00:03:55.920" style="s2">using chromium this only counts google</p>
+<p begin="00:03:53.280" end="00:03:57.680" style="s2">chrome itself that&#39;s insane the only</p>
+<p begin="00:03:55.920" end="00:03:59.599" style="s2">thing that we know is that this security</p>
+<p begin="00:03:57.680" end="00:04:02.000" style="s2">vulnerability is caused by something</p>
+<p begin="00:03:59.599" end="00:04:04.000" style="s2">called type confusion type confusion</p>
+<p begin="00:04:02.000" end="00:04:05.920" style="s2">happens when the program allocates a</p>
+<p begin="00:04:04.000" end="00:04:09.280" style="s2">variable or creates a variable with a</p>
+<p begin="00:04:05.920" end="00:04:12.239" style="s2">specific type but later accesses that</p>
+<p begin="00:04:09.280" end="00:04:14.080" style="s2">variable with an incompatible type now</p>
+<p begin="00:04:12.239" end="00:04:16.320" style="s2">this makes the system crash and</p>
+<p begin="00:04:14.080" end="00:04:18.799" style="s2">potentially might allow the hacker to</p>
+<p begin="00:04:16.320" end="00:04:20.560" style="s2">execute some arbitrary code but even</p>
+<p begin="00:04:18.799" end="00:04:23.120" style="s2">though we don&#39;t know the actual details</p>
+<p begin="00:04:20.560" end="00:04:26.320" style="s2">about this zero day we can tell it&#39;s a</p>
+<p begin="00:04:23.120" end="00:04:28.800" style="s2">big one because google doesn&#39;t usually</p>
+<p begin="00:04:26.320" end="00:04:31.520" style="s2">push us an update that contains only one</p>
+<p begin="00:04:28.800" end="00:04:34.560" style="s2">security fix usually chrome updates</p>
+<p begin="00:04:31.520" end="00:04:37.199" style="s2">contain many small fixes this update has</p>
+<p begin="00:04:34.560" end="00:04:39.120" style="s2">only one fix and it was pushed really</p>
+<p begin="00:04:37.199" end="00:04:41.120" style="s2">quickly after receiving the report of</p>
+<p begin="00:04:39.120" end="00:04:43.199" style="s2">this vulnerability by an anonymous</p>
+<p begin="00:04:41.120" end="00:04:45.440" style="s2">researcher we can also tell that this</p>
+<p begin="00:04:43.199" end="00:04:47.919" style="s2">one is a big deal when the u.s cyber</p>
+<p begin="00:04:45.440" end="00:04:49.840" style="s2">security agency orders all federal</p>
+<p begin="00:04:47.919" end="00:04:52.000" style="s2">agencies to update their browsers</p>
+<p begin="00:04:49.840" end="00:04:54.080" style="s2">immediately this is not the first zero</p>
+<p begin="00:04:52.000" end="00:04:56.080" style="s2">day that chrome has had this year back</p>
+<p begin="00:04:54.080" end="00:04:57.840" style="s2">in february the chrome team pushed a fix</p>
+<p begin="00:04:56.080" end="00:05:00.000" style="s2">for a zero day vulnerability that was</p>
+<p begin="00:04:57.840" end="00:05:02.720" style="s2">being used by north korean hackers for</p>
+<p begin="00:05:00.000" end="00:05:05.280" style="s2">six weeks before being discovered so to</p>
+<p begin="00:05:02.720" end="00:05:06.960" style="s2">conclude if you use any chromium based</p>
+<p begin="00:05:05.280" end="00:05:09.120" style="s2">browser like for example google chrome</p>
+<p begin="00:05:06.960" end="00:05:11.520" style="s2">or microsoft edge brave browser never</p>
+<p begin="00:05:09.120" end="00:05:13.759" style="s2">will samsung internet the value or opera</p>
+<p begin="00:05:11.520" end="00:05:16.160" style="s2">make sure you update your systems right</p>
+<p begin="00:05:13.759" end="00:05:18.320" style="s2">now most of these browsers have already</p>
+<p begin="00:05:16.160" end="00:05:21.120" style="s2">pushed the updates and usually these</p>
+<p begin="00:05:18.320" end="00:05:22.240" style="s2">browsers have auto updates enabled so</p>
+<p begin="00:05:21.120" end="00:05:23.759" style="s2">you don&#39;t have to do anything to</p>
+<p begin="00:05:22.240" end="00:05:26.240" style="s2">download the update but you might have</p>
+<p begin="00:05:23.759" end="00:05:27.759" style="s2">to restart your browser for the update</p>
+<p begin="00:05:26.240" end="00:05:30.080" style="s2">to take effect</p>
+<p begin="00:05:27.759" end="00:05:32.639" style="s2">most chromium browsers can be updated by</p>
+<p begin="00:05:30.080" end="00:05:34.080" style="s2">going to settings and about</p>
+<p begin="00:05:32.639" end="00:05:35.759" style="s2">there you can see if there are any</p>
+<p begin="00:05:34.080" end="00:05:37.440" style="s2">updates pending and you can also check</p>
+<p begin="00:05:35.759" end="00:05:39.919" style="s2">the chromium version that your browser</p>
+<p begin="00:05:37.440" end="00:05:42.320" style="s2">is running the vulnerable chrome version</p>
+<p begin="00:05:39.919" end="00:05:44.400" style="s2">is this one right here so check if you</p>
+<p begin="00:05:42.320" end="00:05:45.919" style="s2">are running something higher than this</p>
+<p begin="00:05:44.400" end="00:05:48.240" style="s2">and if you&#39;re not click the update</p>
+<p begin="00:05:45.919" end="00:05:49.919" style="s2">button i wish i had more details about</p>
+<p begin="00:05:48.240" end="00:05:52.160" style="s2">the exploit and what is the actual code</p>
+<p begin="00:05:49.919" end="00:05:53.919" style="s2">that triggers this vulnerability but for</p>
+<p begin="00:05:52.160" end="00:05:55.919" style="s2">now everything is secret and it makes</p>
+<p begin="00:05:53.919" end="00:05:57.120" style="s2">sense why let me know in the comments if</p>
+<p begin="00:05:55.919" end="00:05:59.520" style="s2">you would like me to do a follow-up</p>
+<p begin="00:05:57.120" end="00:06:01.520" style="s2">video on this when we know more details</p>
+<p begin="00:05:59.520" end="00:06:02.880" style="s2">later and that&#39;s it for this video if</p>
+<p begin="00:06:01.520" end="00:06:04.880" style="s2">you like the way i explain things and</p>
+<p begin="00:06:02.880" end="00:06:06.880" style="s2">you would like to code for free with me</p>
+<p begin="00:06:04.880" end="00:06:08.720" style="s2">then please click the link below because</p>
+<p begin="00:06:06.880" end="00:06:11.280" style="s2">there you&#39;re going to find free courses</p>
+<p begin="00:06:08.720" end="00:06:15.520" style="s2">on things like javascript react react</p>
+<p begin="00:06:11.280" end="00:06:17.680" style="s2">native python redox graphql go among</p>
+<p begin="00:06:15.520" end="00:06:19.680" style="s2">many other things thank you as always</p>
+<p begin="00:06:17.680" end="00:06:21.520" style="s2">for watching stay happy stay free stay</p>
+<p begin="00:06:19.680" end="00:06:26.039" style="s2">healthy eat kimchi come change that</p>
+<p begin="00:06:21.520" end="00:06:26.039" style="s2">salah see you on the next one bye</p>
+</div>
+</body>
+</tt>

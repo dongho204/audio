@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.080" end="00:00:04.080" style="s2">a while ago i made a video talking about</p>
+<p begin="00:00:01.839" end="00:00:06.720" style="s2">the m1 processors and how apple is</p>
+<p begin="00:00:04.080" end="00:00:08.400" style="s2">optimizing them to be super fast on that</p>
+<p begin="00:00:06.720" end="00:00:10.960" style="s2">video we also mentioned that apple is</p>
+<p begin="00:00:08.400" end="00:00:13.519" style="s2">moving away from the x86 or the intel</p>
+<p begin="00:00:10.960" end="00:00:15.040" style="s2">architecture to the arm architecture and</p>
+<p begin="00:00:13.519" end="00:00:16.400" style="s2">i ask you to let me know in the comments</p>
+<p begin="00:00:15.040" end="00:00:17.920" style="s2">if you would like to see the difference</p>
+<p begin="00:00:16.400" end="00:00:20.320" style="s2">between these architectures in another</p>
+<p begin="00:00:17.920" end="00:00:21.760" style="s2">video luckily for me many of you said</p>
+<p begin="00:00:20.320" end="00:00:23.600" style="s2">yes to the question and because i read</p>
+<p begin="00:00:21.760" end="00:00:25.279" style="s2">all the comments i saw how many upboards</p>
+<p begin="00:00:23.600" end="00:00:27.320" style="s2">those questions had so we decided to</p>
+<p begin="00:00:25.279" end="00:00:30.480" style="s2">make a video exactly about that</p>
+<p begin="00:00:27.320" end="00:00:31.760" style="s2">anonymous nicholas</p>
+<p begin="00:00:30.480" end="00:00:33.840" style="s2">we are going to talk about the</p>
+<p begin="00:00:31.760" end="00:00:36.320" style="s2">difference between the x86 or the intel</p>
+<p begin="00:00:33.840" end="00:00:38.239" style="s2">architecture versus the arm architecture</p>
+<p begin="00:00:36.320" end="00:00:40.079" style="s2">also we&#39;re going to learn why arm was</p>
+<p begin="00:00:38.239" end="00:00:42.559" style="s2">first popular among mobile devices and</p>
+<p begin="00:00:40.079" end="00:00:44.239" style="s2">now it&#39;s moving to power laptops server</p>
+<p begin="00:00:42.559" end="00:00:47.360" style="s2">and i don&#39;t know if you knew this but</p>
+<p begin="00:00:44.239" end="00:00:49.600" style="s2">even super computers the top one fastest</p>
+<p begin="00:00:47.360" end="00:00:53.280" style="s2">supercomputer in the world called the</p>
+<p begin="00:00:49.600" end="00:00:54.879" style="s2">fugaco in japan is using arm processors</p>
+<p begin="00:00:53.280" end="00:00:56.320" style="s2">to understand this difference first we</p>
+<p begin="00:00:54.879" end="00:00:58.239" style="s2">have to learn how the code that</p>
+<p begin="00:00:56.320" end="00:01:01.039" style="s2">developers write on their keywords is</p>
+<p begin="00:00:58.239" end="00:01:02.719" style="s2">translated to zeros and ones so let&#39;s</p>
+<p begin="00:01:01.039" end="00:01:05.199" style="s2">get started by first looking at this</p>
+<p begin="00:01:02.719" end="00:01:07.360" style="s2">very simple piece of c code on this</p>
+<p begin="00:01:05.199" end="00:01:10.240" style="s2">function called add all we are doing is</p>
+<p begin="00:01:07.360" end="00:01:11.600" style="s2">creating three number variables called a</p>
+<p begin="00:01:10.240" end="00:01:14.159" style="s2">b and c</p>
+<p begin="00:01:11.600" end="00:01:17.439" style="s2">then we say that a is equals to 2 b is</p>
+<p begin="00:01:14.159" end="00:01:19.759" style="s2">equal to 2 and c is equals to a plus b</p>
+<p begin="00:01:17.439" end="00:01:22.000" style="s2">that&#39;s it that&#39;s the code this code will</p>
+<p begin="00:01:19.759" end="00:01:23.600" style="s2">be executed by the cpu or the central</p>
+<p begin="00:01:22.000" end="00:01:25.600" style="s2">processing unit of our computer which is</p>
+<p begin="00:01:23.600" end="00:01:26.960" style="s2">basically the brain the one that knows</p>
+<p begin="00:01:25.600" end="00:01:28.880" style="s2">all the math and the one that does all</p>
+<p begin="00:01:26.960" end="00:01:31.680" style="s2">the calculations the problem is that the</p>
+<p begin="00:01:28.880" end="00:01:34.240" style="s2">code as it is right now cannot be run by</p>
+<p begin="00:01:31.680" end="00:01:36.479" style="s2">the cpu because the cpu only understands</p>
+<p begin="00:01:34.240" end="00:01:38.560" style="s2">zeros and ones what we have to do is to</p>
+<p begin="00:01:36.479" end="00:01:40.799" style="s2">get closer to the processor by</p>
+<p begin="00:01:38.560" end="00:01:43.280" style="s2">translating our code into a language</p>
+<p begin="00:01:40.799" end="00:01:45.520" style="s2">that humans can sort of understand and</p>
+<p begin="00:01:43.280" end="00:01:48.240" style="s2">that processors can easily turn into</p>
+<p begin="00:01:45.520" end="00:01:50.079" style="s2">zeros and ones into binary code this</p>
+<p begin="00:01:48.240" end="00:01:51.840" style="s2">transformation of code is called</p>
+<p begin="00:01:50.079" end="00:01:54.240" style="s2">compilation and the language that we</p>
+<p begin="00:01:51.840" end="00:01:57.040" style="s2">want to compile to is called assembly</p>
+<p begin="00:01:54.240" end="00:01:59.119" style="s2">language in assembly language the c code</p>
+<p begin="00:01:57.040" end="00:02:01.119" style="s2">that we wrote before will be divided</p>
+<p begin="00:01:59.119" end="00:02:02.960" style="s2">into all the instructions that the</p>
+<p begin="00:02:01.119" end="00:02:05.920" style="s2">processor needs to follow to run the</p>
+<p begin="00:02:02.960" end="00:02:09.280" style="s2">code so for example if i wanted to run</p>
+<p begin="00:02:05.920" end="00:02:12.000" style="s2">that c code in a machine that has a nico</p>
+<p begin="00:02:09.280" end="00:02:14.080" style="s2">processor let&#39;s say then the assembly</p>
+<p begin="00:02:12.000" end="00:02:16.239" style="s2">language that i will get when i compile</p>
+<p begin="00:02:14.080" end="00:02:17.760" style="s2">my code will look something like this</p>
+<p begin="00:02:16.239" end="00:02:19.840" style="s2">and this is just an example this is not</p>
+<p begin="00:02:17.760" end="00:02:22.400" style="s2">real assembly code but this captures the</p>
+<p begin="00:02:19.840" end="00:02:25.440" style="s2">essence of what assembly is assembly</p>
+<p begin="00:02:22.400" end="00:02:28.080" style="s2">code explains literally to the computer</p>
+<p begin="00:02:25.440" end="00:02:30.319" style="s2">all the steps required for the program</p>
+<p begin="00:02:28.080" end="00:02:31.920" style="s2">to run in this hypothetical assembly</p>
+<p begin="00:02:30.319" end="00:02:34.319" style="s2">code that is running in a hypothetical</p>
+<p begin="00:02:31.920" end="00:02:37.120" style="s2">nico processor we see that our code has</p>
+<p begin="00:02:34.319" end="00:02:37.920" style="s2">three instructions we have load put and</p>
+<p begin="00:02:37.120" end="00:02:40.400" style="s2">add</p>
+<p begin="00:02:37.920" end="00:02:42.560" style="s2">load will reserve a space in memory put</p>
+<p begin="00:02:40.400" end="00:02:44.720" style="s2">will put a number on that memory address</p>
+<p begin="00:02:42.560" end="00:02:46.959" style="s2">and add will just add the values on a</p>
+<p begin="00:02:44.720" end="00:02:49.040" style="s2">memory address now all we have to do is</p>
+<p begin="00:02:46.959" end="00:02:51.040" style="s2">give this code to the assembler which</p>
+<p begin="00:02:49.040" end="00:02:52.720" style="s2">turns everything into zeros and ones and</p>
+<p begin="00:02:51.040" end="00:02:55.040" style="s2">that&#39;s it the processor will now be able</p>
+<p begin="00:02:52.720" end="00:02:57.760" style="s2">to run our code but now we have a</p>
+<p begin="00:02:55.040" end="00:02:59.840" style="s2">problem because our code was compiled to</p>
+<p begin="00:02:57.760" end="00:03:02.400" style="s2">be run in a computer with a nico</p>
+<p begin="00:02:59.840" end="00:03:04.319" style="s2">processor if another user with the intel</p>
+<p begin="00:03:02.400" end="00:03:06.640" style="s2">processor or amd processor want to run</p>
+<p begin="00:03:04.319" end="00:03:08.159" style="s2">the code they won&#39;t be able to this is</p>
+<p begin="00:03:06.640" end="00:03:11.360" style="s2">because processors with a different</p>
+<p begin="00:03:08.159" end="00:03:14.560" style="s2">architecture like intel x86 or arm have</p>
+<p begin="00:03:11.360" end="00:03:16.959" style="s2">a different isa isa means instruction</p>
+<p begin="00:03:14.560" end="00:03:19.920" style="s2">set architecture which is basically a</p>
+<p begin="00:03:16.959" end="00:03:22.959" style="s2">set of commands or instructions that the</p>
+<p begin="00:03:19.920" end="00:03:25.599" style="s2">processor is able to execute if we want</p>
+<p begin="00:03:22.959" end="00:03:27.840" style="s2">an intel or an arm processor to be able</p>
+<p begin="00:03:25.599" end="00:03:29.920" style="s2">to run the code that we saw before we</p>
+<p begin="00:03:27.840" end="00:03:31.760" style="s2">are going to have to compile that code</p>
+<p begin="00:03:29.920" end="00:03:33.760" style="s2">again but this time we&#39;re gonna have to</p>
+<p begin="00:03:31.760" end="00:03:36.239" style="s2">make assembly code that uses the</p>
+<p begin="00:03:33.760" end="00:03:38.319" style="s2">instructions of those specific</p>
+<p begin="00:03:36.239" end="00:03:39.920" style="s2">processors if we compile that code to be</p>
+<p begin="00:03:38.319" end="00:03:41.519" style="s2">running an intel architecture for</p>
+<p begin="00:03:39.920" end="00:03:43.920" style="s2">example we will get an assembly code</p>
+<p begin="00:03:41.519" end="00:03:46.319" style="s2">that looks something like this if we</p>
+<p begin="00:03:43.920" end="00:03:48.000" style="s2">compile the code to be run in a arm</p>
+<p begin="00:03:46.319" end="00:03:50.959" style="s2">architecture which as we know is what</p>
+<p begin="00:03:48.000" end="00:03:53.360" style="s2">the m1 macbooks have the assembly code</p>
+<p begin="00:03:50.959" end="00:03:55.120" style="s2">will look something like this now as you</p>
+<p begin="00:03:53.360" end="00:03:58.080" style="s2">can see they share some instructions</p>
+<p begin="00:03:55.120" end="00:04:01.040" style="s2">like mob and add but for the most part</p>
+<p begin="00:03:58.080" end="00:04:02.799" style="s2">they look very different from each other</p>
+<p begin="00:04:01.040" end="00:04:04.959" style="s2">but the name of the instructions is not</p>
+<p begin="00:04:02.799" end="00:04:06.799" style="s2">the only thing that makes them different</p>
+<p begin="00:04:04.959" end="00:04:10.080" style="s2">the most important difference that they</p>
+<p begin="00:04:06.799" end="00:04:12.319" style="s2">have is the architecture the x86 family</p>
+<p begin="00:04:10.080" end="00:04:14.879" style="s2">of processors which is what intel air</p>
+<p begin="00:04:12.319" end="00:04:18.479" style="s2">amd are famous for use something called</p>
+<p begin="00:04:14.879" end="00:04:20.160" style="s2">the sisk architecture and arm processors</p>
+<p begin="00:04:18.479" end="00:04:22.800" style="s2">use something called the risk</p>
+<p begin="00:04:20.160" end="00:04:25.840" style="s2">architecture sisk means complex</p>
+<p begin="00:04:22.800" end="00:04:28.720" style="s2">instruction set computing and risk means</p>
+<p begin="00:04:25.840" end="00:04:30.400" style="s2">reduce instructions said computing so</p>
+<p begin="00:04:28.720" end="00:04:33.600" style="s2">what does that mean what we have to</p>
+<p begin="00:04:30.400" end="00:04:35.520" style="s2">focus on is the word complex or reduced</p>
+<p begin="00:04:33.600" end="00:04:37.759" style="s2">as we saw before the processors have a</p>
+<p begin="00:04:35.520" end="00:04:40.000" style="s2">certain amount of instructions or</p>
+<p begin="00:04:37.759" end="00:04:42.400" style="s2">commands that they can execute these</p>
+<p begin="00:04:40.000" end="00:04:45.199" style="s2">instructions and even their name depends</p>
+<p begin="00:04:42.400" end="00:04:47.600" style="s2">on the designer of the chips cis</p>
+<p begin="00:04:45.199" end="00:04:49.919" style="s2">processors have more instructions than</p>
+<p begin="00:04:47.600" end="00:04:52.400" style="s2">risk processors as we saw on the</p>
+<p begin="00:04:49.919" end="00:04:54.639" style="s2">assembly code before both processors</p>
+<p begin="00:04:52.400" end="00:04:56.639" style="s2">understand the ad instruction let&#39;s say</p>
+<p begin="00:04:54.639" end="00:04:59.440" style="s2">and also they understand the mull</p>
+<p begin="00:04:56.639" end="00:05:02.000" style="s2">instruction which do multiplication but</p>
+<p begin="00:04:59.440" end="00:05:04.560" style="s2">and this is an example where a cis</p>
+<p begin="00:05:02.000" end="00:05:07.600" style="s2">processor might have a instruction</p>
+<p begin="00:05:04.560" end="00:05:09.440" style="s2">called power of three let&#39;s say a risk</p>
+<p begin="00:05:07.600" end="00:05:11.600" style="s2">processor might not have that</p>
+<p begin="00:05:09.440" end="00:05:14.479" style="s2">instruction at all so if i am writing</p>
+<p begin="00:05:11.600" end="00:05:16.400" style="s2">assembly code for a cis processor and i</p>
+<p begin="00:05:14.479" end="00:05:18.800" style="s2">need to raise the number to the power of</p>
+<p begin="00:05:16.400" end="00:05:20.880" style="s2">three let&#39;s say i will use the power of</p>
+<p begin="00:05:18.800" end="00:05:21.840" style="s2">three instructions that the processor</p>
+<p begin="00:05:20.880" end="00:05:24.720" style="s2">has</p>
+<p begin="00:05:21.840" end="00:05:26.639" style="s2">but if i am on a risk processor i will</p>
+<p begin="00:05:24.720" end="00:05:29.600" style="s2">have to manually use the mull</p>
+<p begin="00:05:26.639" end="00:05:32.160" style="s2">instruction three times to get the same</p>
+<p begin="00:05:29.600" end="00:05:34.320" style="s2">result in this example with risk it will</p>
+<p begin="00:05:32.160" end="00:05:36.240" style="s2">take me three steps let&#39;s say three</p>
+<p begin="00:05:34.320" end="00:05:38.880" style="s2">lines of code to do something that would</p>
+<p begin="00:05:36.240" end="00:05:41.280" style="s2">take me one instruction on a cisc</p>
+<p begin="00:05:38.880" end="00:05:43.039" style="s2">processor the idea behind risk</p>
+<p begin="00:05:41.280" end="00:05:45.440" style="s2">processors is that the processor</p>
+<p begin="00:05:43.039" end="00:05:47.520" style="s2">shouldn&#39;t do so much it should not be</p>
+<p begin="00:05:45.440" end="00:05:50.080" style="s2">able to do so many things instead it</p>
+<p begin="00:05:47.520" end="00:05:52.320" style="s2">should perform the basic operations</p>
+<p begin="00:05:50.080" end="00:05:54.720" style="s2">really fast and that is the compromise</p>
+<p begin="00:05:52.320" end="00:05:56.479" style="s2">in a cisc world with one instruction we</p>
+<p begin="00:05:54.720" end="00:05:58.479" style="s2">can tell the computer to do something</p>
+<p begin="00:05:56.479" end="00:06:00.880" style="s2">sort of complex and that might take a</p>
+<p begin="00:05:58.479" end="00:06:03.120" style="s2">little bit of time or we can send</p>
+<p begin="00:06:00.880" end="00:06:05.440" style="s2">multiple instructions to a risk</p>
+<p begin="00:06:03.120" end="00:06:07.520" style="s2">processor that will be executed very</p>
+<p begin="00:06:05.440" end="00:06:09.199" style="s2">fast now you and me we don&#39;t have to</p>
+<p begin="00:06:07.520" end="00:06:11.120" style="s2">make this compromise because we use</p>
+<p begin="00:06:09.199" end="00:06:13.280" style="s2">compilers the compiler will generate the</p>
+<p begin="00:06:11.120" end="00:06:15.199" style="s2">code for us but we have to remember that</p>
+<p begin="00:06:13.280" end="00:06:17.840" style="s2">before many of the programming languages</p>
+<p begin="00:06:15.199" end="00:06:20.639" style="s2">that we are used to today were created</p>
+<p begin="00:06:17.840" end="00:06:23.360" style="s2">legend developers used to write assembly</p>
+<p begin="00:06:20.639" end="00:06:26.080" style="s2">code by hand whole operative systems</p>
+<p begin="00:06:23.360" end="00:06:28.720" style="s2">were written in assembly and developers</p>
+<p begin="00:06:26.080" end="00:06:31.199" style="s2">as they do today care about writing as</p>
+<p begin="00:06:28.720" end="00:06:33.600" style="s2">little code as possible so if you were</p>
+<p begin="00:06:31.199" end="00:06:35.039" style="s2">writing code for a cisc processor it</p>
+<p begin="00:06:33.600" end="00:06:37.120" style="s2">would have been better because the</p>
+<p begin="00:06:35.039" end="00:06:39.120" style="s2">processor gives you so many shortcuts</p>
+<p begin="00:06:37.120" end="00:06:40.639" style="s2">and commands that a risk processor</p>
+<p begin="00:06:39.120" end="00:06:42.400" style="s2">wouldn&#39;t have and also and it&#39;s</p>
+<p begin="00:06:40.639" end="00:06:44.400" style="s2">important to remember this back then</p>
+<p begin="00:06:42.400" end="00:06:46.400" style="s2">computers didn&#39;t have a lot of ram</p>
+<p begin="00:06:44.400" end="00:06:47.840" style="s2">memory and when you open a program and</p>
+<p begin="00:06:46.400" end="00:06:49.759" style="s2">you want to run some code and that</p>
+<p begin="00:06:47.840" end="00:06:51.919" style="s2">program has to be copied into the raw</p>
+<p begin="00:06:49.759" end="00:06:53.919" style="s2">memory to be executed by the processor</p>
+<p begin="00:06:51.919" end="00:06:55.759" style="s2">now that means that if you write a lot</p>
+<p begin="00:06:53.919" end="00:06:57.919" style="s2">of code and your program is very big</p>
+<p begin="00:06:55.759" end="00:06:59.759" style="s2">there is more memory needed to be able</p>
+<p begin="00:06:57.919" end="00:07:02.080" style="s2">to run your program so when computers</p>
+<p begin="00:06:59.759" end="00:07:04.000" style="s2">didn&#39;t have a lot of ram memory and when</p>
+<p begin="00:07:02.080" end="00:07:06.560" style="s2">developers used to actually write</p>
+<p begin="00:07:04.000" end="00:07:09.680" style="s2">assembly code by hand it made a lot of</p>
+<p begin="00:07:06.560" end="00:07:11.520" style="s2">sense to use cisc processors because</p>
+<p begin="00:07:09.680" end="00:07:14.560" style="s2">they had so many shortcuts and so many</p>
+<p begin="00:07:11.520" end="00:07:16.880" style="s2">helper commands for developers but now</p>
+<p begin="00:07:14.560" end="00:07:19.360" style="s2">we have compilers and memory ram is</p>
+<p begin="00:07:16.880" end="00:07:21.520" style="s2">abundant it&#39;s really cheap and nobody or</p>
+<p begin="00:07:19.360" end="00:07:23.280" style="s2">almost nobody is writing assembly code</p>
+<p begin="00:07:21.520" end="00:07:26.639" style="s2">by hand but the thing that people care</p>
+<p begin="00:07:23.280" end="00:07:28.960" style="s2">about most these days is battery life we</p>
+<p begin="00:07:26.639" end="00:07:31.520" style="s2">must consider that the more complex</p>
+<p begin="00:07:28.960" end="00:07:34.240" style="s2">instructions the processor is able to</p>
+<p begin="00:07:31.520" end="00:07:37.120" style="s2">process the more energy it will need to</p>
+<p begin="00:07:34.240" end="00:07:39.919" style="s2">run and this is what made arm and risk</p>
+<p begin="00:07:37.120" end="00:07:42.160" style="s2">architecture processors so popular among</p>
+<p begin="00:07:39.919" end="00:07:44.879" style="s2">mobile devices because battery life is</p>
+<p begin="00:07:42.160" end="00:07:47.039" style="s2">one of the most important things arm</p>
+<p begin="00:07:44.879" end="00:07:49.680" style="s2">processors are incredibly energy</p>
+<p begin="00:07:47.039" end="00:07:52.639" style="s2">efficient also because risk processors</p>
+<p begin="00:07:49.680" end="00:07:55.759" style="s2">don&#39;t have as many features as cis</p>
+<p begin="00:07:52.639" end="00:07:57.599" style="s2">processors they require less transistors</p>
+<p begin="00:07:55.759" end="00:08:01.120" style="s2">and that means they are cheaper to make</p>
+<p begin="00:07:57.599" end="00:08:05.520" style="s2">and also they take up less space in 1985</p>
+<p begin="00:08:01.120" end="00:08:07.400" style="s2">an arm processor had 25 000 transistors</p>
+<p begin="00:08:05.520" end="00:08:10.560" style="s2">compared to</p>
+<p begin="00:08:07.400" end="00:08:13.360" style="s2">275 000 transistors from my intel</p>
+<p begin="00:08:10.560" end="00:08:16.000" style="s2">processor on the same year and it was in</p>
+<p begin="00:08:13.360" end="00:08:18.720" style="s2">1990 when apple picked up on this and</p>
+<p begin="00:08:16.000" end="00:08:20.560" style="s2">asked the arm makers acorn to license</p>
+<p begin="00:08:18.720" end="00:08:23.199" style="s2">the technology to use it on their apple</p>
+<p begin="00:08:20.560" end="00:08:25.599" style="s2">newton then nokia started to use arm as</p>
+<p begin="00:08:23.199" end="00:08:28.240" style="s2">well and since then more and more mobile</p>
+<p begin="00:08:25.599" end="00:08:29.840" style="s2">and internet of things devices use arm</p>
+<p begin="00:08:28.240" end="00:08:33.039" style="s2">but now you might be wondering why</p>
+<p begin="00:08:29.840" end="00:08:34.640" style="s2">people still use sisk if risk is so good</p>
+<p begin="00:08:33.039" end="00:08:36.479" style="s2">if you look online and you ask people</p>
+<p begin="00:08:34.640" end="00:08:38.719" style="s2">around the consensus seems to be that</p>
+<p begin="00:08:36.479" end="00:08:41.279" style="s2">the difference between sisk and risk is</p>
+<p begin="00:08:38.719" end="00:08:43.120" style="s2">sort of blurry nowadays they both have</p>
+<p begin="00:08:41.279" end="00:08:45.279" style="s2">learned from each other and implemented</p>
+<p begin="00:08:43.120" end="00:08:47.519" style="s2">the best of each other&#39;s features arm</p>
+<p begin="00:08:45.279" end="00:08:49.279" style="s2">has implemented many extra instructions</p>
+<p begin="00:08:47.519" end="00:08:51.600" style="s2">like this one for example that does</p>
+<p begin="00:08:49.279" end="00:08:54.399" style="s2">javascript type conversion so for some</p>
+<p begin="00:08:51.600" end="00:08:57.360" style="s2">people arm is looking more like cisc and</p>
+<p begin="00:08:54.399" end="00:09:00.080" style="s2">also some x86 processors have included</p>
+<p begin="00:08:57.360" end="00:09:02.160" style="s2">some risk features as well so the answer</p>
+<p begin="00:09:00.080" end="00:09:04.000" style="s2">is not really as black and white as we</p>
+<p begin="00:09:02.160" end="00:09:06.240" style="s2">would like we also have to think about</p>
+<p begin="00:09:04.000" end="00:09:09.519" style="s2">backwards compatibility intel with the</p>
+<p begin="00:09:06.240" end="00:09:12.320" style="s2">x86 cisc architecture has been around</p>
+<p begin="00:09:09.519" end="00:09:15.760" style="s2">for a very long time there is a lot of</p>
+<p begin="00:09:12.320" end="00:09:18.000" style="s2">software computers servers banks</p>
+<p begin="00:09:15.760" end="00:09:20.880" style="s2">government that are running on software</p>
+<p begin="00:09:18.000" end="00:09:23.440" style="s2">that runs on the x86 architecture so the</p>
+<p begin="00:09:20.880" end="00:09:25.760" style="s2">reason why we still use cisc could be</p>
+<p begin="00:09:23.440" end="00:09:28.640" style="s2">because we have always been using cis</p>
+<p begin="00:09:25.760" end="00:09:31.600" style="s2">because the transition between x86 to</p>
+<p begin="00:09:28.640" end="00:09:35.040" style="s2">arm is not painless there are still</p>
+<p begin="00:09:31.600" end="00:09:36.720" style="s2">today m1 users that cannot run some</p>
+<p begin="00:09:35.040" end="00:09:38.800" style="s2">programs because the developers need to</p>
+<p begin="00:09:36.720" end="00:09:41.920" style="s2">do some adjustments to the code to turn</p>
+<p begin="00:09:38.800" end="00:09:44.240" style="s2">them from x86 to arm but that is</p>
+<p begin="00:09:41.920" end="00:09:46.720" style="s2">changing as we know and it&#39;s also thanks</p>
+<p begin="00:09:44.240" end="00:09:50.240" style="s2">i believe to the business model that the</p>
+<p begin="00:09:46.720" end="00:09:52.480" style="s2">arm company has arm company doesn&#39;t make</p>
+<p begin="00:09:50.240" end="00:09:55.440" style="s2">the chips unlike intel intel makes the</p>
+<p begin="00:09:52.480" end="00:09:57.600" style="s2">chips they have the factories arm mostly</p>
+<p begin="00:09:55.440" end="00:10:00.080" style="s2">licenses the ip the intellectual</p>
+<p begin="00:09:57.600" end="00:10:03.040" style="s2">property this means that other companies</p>
+<p begin="00:10:00.080" end="00:10:05.839" style="s2">can use the arm ideas of course after</p>
+<p begin="00:10:03.040" end="00:10:08.560" style="s2">they pay and they can make chips and</p>
+<p begin="00:10:05.839" end="00:10:10.560" style="s2">processors customized to their needs</p>
+<p begin="00:10:08.560" end="00:10:12.640" style="s2">this is what apple is doing they are</p>
+<p begin="00:10:10.560" end="00:10:15.040" style="s2">using the arm technology but they are</p>
+<p begin="00:10:12.640" end="00:10:16.880" style="s2">customizing and optimizing their chips</p>
+<p begin="00:10:15.040" end="00:10:18.959" style="s2">for their use case which is their</p>
+<p begin="00:10:16.880" end="00:10:20.959" style="s2">computers this way they can have more</p>
+<p begin="00:10:18.959" end="00:10:22.560" style="s2">speed running mac os and they get better</p>
+<p begin="00:10:20.959" end="00:10:24.959" style="s2">battery life and they don&#39;t have to wait</p>
+<p begin="00:10:22.560" end="00:10:27.519" style="s2">for intel to innovate this is also what</p>
+<p begin="00:10:24.959" end="00:10:30.160" style="s2">amazon is doing actually aws is now</p>
+<p begin="00:10:27.519" end="00:10:33.360" style="s2">promoting their new graviton servers</p>
+<p begin="00:10:30.160" end="00:10:36.160" style="s2">that are running on a custom made arm</p>
+<p begin="00:10:33.360" end="00:10:39.680" style="s2">processor that are said to be 10 to 20</p>
+<p begin="00:10:36.160" end="00:10:43.440" style="s2">percent cheaper and perform 40</p>
+<p begin="00:10:39.680" end="00:10:45.360" style="s2">faster than intel or amd servers again</p>
+<p begin="00:10:43.440" end="00:10:47.279" style="s2">this makes sense because amazon knows</p>
+<p begin="00:10:45.360" end="00:10:49.600" style="s2">exactly where a server should be</p>
+<p begin="00:10:47.279" end="00:10:51.920" style="s2">optimized so they can use arm and</p>
+<p begin="00:10:49.600" end="00:10:54.000" style="s2">optimize their chip for their server use</p>
+<p begin="00:10:51.920" end="00:10:57.440" style="s2">case even microsoft is starting to</p>
+<p begin="00:10:54.000" end="00:11:00.560" style="s2">design their own arm based system on a</p>
+<p begin="00:10:57.440" end="00:11:02.320" style="s2">chips for their next surface laptops so</p>
+<p begin="00:11:00.560" end="00:11:04.240" style="s2">to conclude today we saw the difference</p>
+<p begin="00:11:02.320" end="00:11:06.800" style="s2">between the risk and the cis</p>
+<p begin="00:11:04.240" end="00:11:08.880" style="s2">architecture in theory but the truth is</p>
+<p begin="00:11:06.800" end="00:11:11.519" style="s2">that on the implementation in the real</p>
+<p begin="00:11:08.880" end="00:11:13.200" style="s2">world the lines seem to be very blurry</p>
+<p begin="00:11:11.519" end="00:11:15.920" style="s2">on my part i&#39;m happy to know that thanks</p>
+<p begin="00:11:13.200" end="00:11:17.920" style="s2">to arm the server costs are going down</p>
+<p begin="00:11:15.920" end="00:11:19.760" style="s2">and the speed is going up that it&#39;s</p>
+<p begin="00:11:17.920" end="00:11:21.200" style="s2">awesome and also i&#39;m happy because there</p>
+<p begin="00:11:19.760" end="00:11:23.279" style="s2">is competition and that means that the</p>
+<p begin="00:11:21.200" end="00:11:25.279" style="s2">consumer is the one that will win at the</p>
+<p begin="00:11:23.279" end="00:11:26.480" style="s2">end thank you so much for watching this</p>
+<p begin="00:11:25.279" end="00:11:27.600" style="s2">video and thank you for leaving the</p>
+<p begin="00:11:26.480" end="00:11:29.120" style="s2">comments on the previous video because</p>
+<p begin="00:11:27.600" end="00:11:30.880" style="s2">this is why we made this video today</p>
+<p begin="00:11:29.120" end="00:11:32.240" style="s2">because of you i know what ideas to make</p>
+<p begin="00:11:30.880" end="00:11:33.440" style="s2">and i know what you want to watch so if</p>
+<p begin="00:11:32.240" end="00:11:34.800" style="s2">there is something else you want to</p>
+<p begin="00:11:33.440" end="00:11:36.079" style="s2">launch please let me know in the</p>
+<p begin="00:11:34.800" end="00:11:38.240" style="s2">comments i&#39;m going to be reading them</p>
+<p begin="00:11:36.079" end="00:11:39.600" style="s2">right now and also if you like the way i</p>
+<p begin="00:11:38.240" end="00:11:41.440" style="s2">explain things and you want to learn to</p>
+<p begin="00:11:39.600" end="00:11:42.959" style="s2">code for free then please check out our</p>
+<p begin="00:11:41.440" end="00:11:44.320" style="s2">website we have many courses they are</p>
+<p begin="00:11:42.959" end="00:11:46.320" style="s2">for free and you can learn javascript</p>
+<p begin="00:11:44.320" end="00:11:48.480" style="s2">react react native python many other</p>
+<p begin="00:11:46.320" end="00:11:50.399" style="s2">things for free with explanations like</p>
+<p begin="00:11:48.480" end="00:11:52.240" style="s2">this one thank you so much again stay</p>
+<p begin="00:11:50.399" end="00:11:54.160" style="s2">happy stay free eat kimchi we love you</p>
+<p begin="00:11:52.240" end="00:11:57.399" style="s2">have something here see you on the next</p>
+<p begin="00:11:54.160" end="00:11:57.399" style="s2">one bye</p>
+</div>
+</body>
+</tt>

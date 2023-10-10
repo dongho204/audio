@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.720" end="00:00:07.620" style="s2">developer sooner or later you are going</p>
+<p begin="00:00:05.220" end="00:00:10.139" style="s2">to be asked to implement a feature that</p>
+<p begin="00:00:07.620" end="00:00:12.300" style="s2">most web applications need infinite</p>
+<p begin="00:00:10.139" end="00:00:14.580" style="s2">scrolling infinite scrolling is what</p>
+<p begin="00:00:12.300" end="00:00:17.160" style="s2">websites like Twitter Tick Tock Facebook</p>
+<p begin="00:00:14.580" end="00:00:19.440" style="s2">and YouTube all have they detect when</p>
+<p begin="00:00:17.160" end="00:00:23.279" style="s2">you are about to reach the end of the</p>
+<p begin="00:00:19.440" end="00:00:25.320" style="s2">page and quickly load and add more posts</p>
+<p begin="00:00:23.279" end="00:00:26.939" style="s2">to the end of the page to give you the</p>
+<p begin="00:00:25.320" end="00:00:29.340" style="s2">illusion that you can scroll forever</p>
+<p begin="00:00:26.939" end="00:00:31.619" style="s2">this video isn&#39;t specifically about</p>
+<p begin="00:00:29.340" end="00:00:34.320" style="s2">infinite scrolling this video is about</p>
+<p begin="00:00:31.619" end="00:00:37.320" style="s2">the API that makes it incredibly easy to</p>
+<p begin="00:00:34.320" end="00:00:39.840" style="s2">implement the intersection of server API</p>
+<p begin="00:00:37.320" end="00:00:42.000" style="s2">the intersection of server API will</p>
+<p begin="00:00:39.840" end="00:00:44.340" style="s2">watch an element and let us know when</p>
+<p begin="00:00:42.000" end="00:00:47.040" style="s2">that element is visible to the user</p>
+<p begin="00:00:44.340" end="00:00:49.200" style="s2">that&#39;s it so let&#39;s see how it works here</p>
+<p begin="00:00:47.040" end="00:00:51.719" style="s2">we have a scroll level page that has a</p>
+<p begin="00:00:49.200" end="00:00:53.820" style="s2">circle at the end of it using the</p>
+<p begin="00:00:51.719" end="00:00:56.100" style="s2">intersection of server API we will</p>
+<p begin="00:00:53.820" end="00:00:58.260" style="s2">detect when the circle is visible to the</p>
+<p begin="00:00:56.100" end="00:01:00.600" style="s2">user so we can run some custom code and</p>
+<p begin="00:00:58.260" end="00:01:03.059" style="s2">perform some animations for example the</p>
+<p begin="00:01:00.600" end="00:01:05.339" style="s2">HTML of the page is very simple all we</p>
+<p begin="00:01:03.059" end="00:01:07.200" style="s2">have is an empty div with a circle ID</p>
+<p begin="00:01:05.339" end="00:01:09.659" style="s2">and the JavaScript side is where the</p>
+<p begin="00:01:07.200" end="00:01:11.640" style="s2">magic happens first we are grabbing the</p>
+<p begin="00:01:09.659" end="00:01:14.159" style="s2">circle then we are creating a new</p>
+<p begin="00:01:11.640" end="00:01:16.920" style="s2">intersection of server and finally we</p>
+<p begin="00:01:14.159" end="00:01:18.960" style="s2">are telling the Observer to observe the</p>
+<p begin="00:01:16.920" end="00:01:20.520" style="s2">circle element if we save this code and</p>
+<p begin="00:01:18.960" end="00:01:22.259" style="s2">load our page we&#39;re going to get an</p>
+<p begin="00:01:20.520" end="00:01:24.180" style="s2">error the reason why is because if we</p>
+<p begin="00:01:22.259" end="00:01:26.340" style="s2">think about it our code is just</p>
+<p begin="00:01:24.180" end="00:01:29.040" style="s2">observing the circle but we don&#39;t want</p>
+<p begin="00:01:26.340" end="00:01:32.100" style="s2">to only observe the circle we want to</p>
+<p begin="00:01:29.040" end="00:01:34.979" style="s2">also be notified when the circle enters</p>
+<p begin="00:01:32.100" end="00:01:36.659" style="s2">or exits the screen of the user that is</p>
+<p begin="00:01:34.979" end="00:01:39.780" style="s2">why when we create an intersection</p>
+<p begin="00:01:36.659" end="00:01:41.880" style="s2">Observer we must give it a function that</p>
+<p begin="00:01:39.780" end="00:01:44.280" style="s2">will be called when an element enters or</p>
+<p begin="00:01:41.880" end="00:01:47.159" style="s2">exits the screen of the user we will put</p>
+<p begin="00:01:44.280" end="00:01:49.680" style="s2">that function as the first argument of</p>
+<p begin="00:01:47.159" end="00:01:52.079" style="s2">the intersection of server Constructor</p>
+<p begin="00:01:49.680" end="00:01:54.420" style="s2">and as you can see the function receives</p>
+<p begin="00:01:52.079" end="00:01:57.180" style="s2">the items that entered or exit the</p>
+<p begin="00:01:54.420" end="00:02:00.420" style="s2">screen on the first parameter which for</p>
+<p begin="00:01:57.180" end="00:02:02.579" style="s2">now we are just going to console log</p>
+<p begin="00:02:00.420" end="00:02:05.100" style="s2">when we refresh the page and open the</p>
+<p begin="00:02:02.579" end="00:02:08.520" style="s2">console we will immediately see an array</p>
+<p begin="00:02:05.100" end="00:02:11.280" style="s2">of intersection of server entry appear</p>
+<p begin="00:02:08.520" end="00:02:13.260" style="s2">an intersection of server entry is</p>
+<p begin="00:02:11.280" end="00:02:15.900" style="s2">information about the elements that we</p>
+<p begin="00:02:13.260" end="00:02:18.239" style="s2">are watching that entered or left the</p>
+<p begin="00:02:15.900" end="00:02:20.040" style="s2">screen of the user if we open that array</p>
+<p begin="00:02:18.239" end="00:02:22.379" style="s2">and look at the first item we will see</p>
+<p begin="00:02:20.040" end="00:02:24.180" style="s2">an object like this here we have</p>
+<p begin="00:02:22.379" end="00:02:26.220" style="s2">information about the Target and</p>
+<p begin="00:02:24.180" end="00:02:28.800" style="s2">intersection like the bounding client</p>
+<p begin="00:02:26.220" end="00:02:31.860" style="s2">ranked object that gives us the X and Y</p>
+<p begin="00:02:28.800" end="00:02:34.200" style="s2">coordinates and size of the Target in</p>
+<p begin="00:02:31.860" end="00:02:36.780" style="s2">this case the circle or the intersection</p>
+<p begin="00:02:34.200" end="00:02:39.720" style="s2">red object that gives us the X and Y</p>
+<p begin="00:02:36.780" end="00:02:42.480" style="s2">coordinates and size of only the visible</p>
+<p begin="00:02:39.720" end="00:02:46.440" style="s2">area of the target the one we care about</p>
+<p begin="00:02:42.480" end="00:02:48.599" style="s2">is the is intersecting property this</p>
+<p begin="00:02:46.440" end="00:02:50.879" style="s2">tells us if the circle is visible on the</p>
+<p begin="00:02:48.599" end="00:02:52.980" style="s2">screen or not as you can see is</p>
+<p begin="00:02:50.879" end="00:02:55.620" style="s2">intersecting is initially false since</p>
+<p begin="00:02:52.980" end="00:02:58.560" style="s2">the circle isn&#39;t on the screen now we</p>
+<p begin="00:02:55.620" end="00:03:01.080" style="s2">are going to slowly scroll down the page</p>
+<p begin="00:02:58.560" end="00:03:03.720" style="s2">and the moment the server call starts to</p>
+<p begin="00:03:01.080" end="00:03:06.720" style="s2">be a little bit visible we will see</p>
+<p begin="00:03:03.720" end="00:03:10.200" style="s2">another array in our console containing</p>
+<p begin="00:03:06.720" end="00:03:13.500" style="s2">one item our Circle but this time with</p>
+<p begin="00:03:10.200" end="00:03:15.780" style="s2">the property is intersecting set to true</p>
+<p begin="00:03:13.500" end="00:03:18.060" style="s2">to make our life easier we will change</p>
+<p begin="00:03:15.780" end="00:03:20.640" style="s2">the code a little bit here all we are</p>
+<p begin="00:03:18.060" end="00:03:22.800" style="s2">doing is going through each item of the</p>
+<p begin="00:03:20.640" end="00:03:25.200" style="s2">list of items we are checking if they</p>
+<p begin="00:03:22.800" end="00:03:28.080" style="s2">are visible if they are we are console</p>
+<p begin="00:03:25.200" end="00:03:30.060" style="s2">logging the element and the text is</p>
+<p begin="00:03:28.080" end="00:03:31.920" style="s2">visible here is where if you are</p>
+<p begin="00:03:30.060" end="00:03:34.739" style="s2">building an infinite scrolling you will</p>
+<p begin="00:03:31.920" end="00:03:38.340" style="s2">call your API to get more posts our</p>
+<p begin="00:03:34.739" end="00:03:40.620" style="s2">console now looks like this as you can</p>
+<p begin="00:03:38.340" end="00:03:43.140" style="s2">see the intersection Observer is very</p>
+<p begin="00:03:40.620" end="00:03:46.379" style="s2">exact I say that because if we scroll</p>
+<p begin="00:03:43.140" end="00:03:49.500" style="s2">down the page slowly the moment just a</p>
+<p begin="00:03:46.379" end="00:03:51.659" style="s2">tiny pixel of the circle comes into the</p>
+<p begin="00:03:49.500" end="00:03:54.060" style="s2">screen the intersection Observer will</p>
+<p begin="00:03:51.659" end="00:03:56.280" style="s2">run our code and tell us the circle is</p>
+<p begin="00:03:54.060" end="00:03:59.760" style="s2">visible to configure our intersection</p>
+<p begin="00:03:56.280" end="00:04:03.180" style="s2">Observer to wait until at least a half</p>
+<p begin="00:03:59.760" end="00:04:05.519" style="s2">of the circle is invisible to fire our</p>
+<p begin="00:04:03.180" end="00:04:07.560" style="s2">code we can change our code to look like</p>
+<p begin="00:04:05.519" end="00:04:09.599" style="s2">this on the second argument of the</p>
+<p begin="00:04:07.560" end="00:04:12.000" style="s2">intersection of server Constructor we</p>
+<p begin="00:04:09.599" end="00:04:14.040" style="s2">can pass some options and one of them is</p>
+<p begin="00:04:12.000" end="00:04:16.739" style="s2">threshold threshold is a number between</p>
+<p begin="00:04:14.040" end="00:04:18.780" style="s2">0 and 1. the default is zero which means</p>
+<p begin="00:04:16.739" end="00:04:21.540" style="s2">that as soon as one pixel of the circle</p>
+<p begin="00:04:18.780" end="00:04:24.540" style="s2">is visible we will be notified if we</p>
+<p begin="00:04:21.540" end="00:04:28.020" style="s2">change it to 0.5 that means that only</p>
+<p begin="00:04:24.540" end="00:04:30.660" style="s2">when 50 of our circle is visible then we</p>
+<p begin="00:04:28.020" end="00:04:32.639" style="s2">will be notified if we set it to 1 it</p>
+<p begin="00:04:30.660" end="00:04:35.820" style="s2">would mean waiting for a hundred percent</p>
+<p begin="00:04:32.639" end="00:04:38.940" style="s2">of the circle to be visible for the code</p>
+<p begin="00:04:35.820" end="00:04:41.040" style="s2">to fire as you can see it works like a</p>
+<p begin="00:04:38.940" end="00:04:44.400" style="s2">charm and we now have to scroll until</p>
+<p begin="00:04:41.040" end="00:04:47.220" style="s2">more than half of the circle for our</p>
+<p begin="00:04:44.400" end="00:04:49.380" style="s2">code to Fire and that&#39;s it those are the</p>
+<p begin="00:04:47.220" end="00:04:52.199" style="s2">basics of intersection Observer it is</p>
+<p begin="00:04:49.380" end="00:04:54.540" style="s2">now our job to combine this API with CSS</p>
+<p begin="00:04:52.199" end="00:04:57.060" style="s2">classes to build something awesome like</p>
+<p begin="00:04:54.540" end="00:04:59.520" style="s2">this for example whereas we scroll up</p>
+<p begin="00:04:57.060" end="00:05:01.680" style="s2">and down the elements in our list appear</p>
+<p begin="00:04:59.520" end="00:05:04.320" style="s2">from from the bottom and disappear at</p>
+<p begin="00:05:01.680" end="00:05:06.419" style="s2">the top with a beautiful animation that</p>
+<p begin="00:05:04.320" end="00:05:09.419" style="s2">effect is easy to accomplish here is the</p>
+<p begin="00:05:06.419" end="00:05:11.940" style="s2">HTML on the CSS each div is a square</p>
+<p begin="00:05:09.419" end="00:05:14.400" style="s2">with a background color a border and a</p>
+<p begin="00:05:11.940" end="00:05:16.740" style="s2">border radius each div by default has an</p>
+<p begin="00:05:14.400" end="00:05:19.800" style="s2">opacity of zero and it is transformed to</p>
+<p begin="00:05:16.740" end="00:05:22.320" style="s2">make it look a little bit big then we</p>
+<p begin="00:05:19.800" end="00:05:24.960" style="s2">have a class called visible this class</p>
+<p begin="00:05:22.320" end="00:05:27.960" style="s2">will scale our Square to normal size and</p>
+<p begin="00:05:24.960" end="00:05:30.180" style="s2">give it an opacity of one on our</p>
+<p begin="00:05:27.960" end="00:05:32.039" style="s2">JavaScript we are grabbing all the</p>
+<p begin="00:05:30.180" end="00:05:34.080" style="s2">squares then we are creating an</p>
+<p begin="00:05:32.039" end="00:05:36.900" style="s2">intersection of server and we are</p>
+<p begin="00:05:34.080" end="00:05:40.620" style="s2">checking if the square is visible on the</p>
+<p begin="00:05:36.900" end="00:05:42.960" style="s2">screen or not if it is we are adding the</p>
+<p begin="00:05:40.620" end="00:05:45.600" style="s2">visible class and if it isn&#39;t we are</p>
+<p begin="00:05:42.960" end="00:05:48.120" style="s2">removing it it is just a game of adding</p>
+<p begin="00:05:45.600" end="00:05:49.800" style="s2">and removing class names and that&#39;s it</p>
+<p begin="00:05:48.120" end="00:05:51.960" style="s2">for this video I hope you found it</p>
+<p begin="00:05:49.800" end="00:05:54.419" style="s2">useful and I hope you learned something</p>
+<p begin="00:05:51.960" end="00:05:56.400" style="s2">new if you did like this video And</p>
+<p begin="00:05:54.419" end="00:05:58.080" style="s2">subscribe to the channel and before I go</p>
+<p begin="00:05:56.400" end="00:05:59.639" style="s2">I wanted to let you know that we have</p>
+<p begin="00:05:58.080" end="00:06:02.340" style="s2">launched a new community program called</p>
+<p begin="00:05:59.639" end="00:06:04.139" style="s2">the 10-week study it is a program where</p>
+<p begin="00:06:02.340" end="00:06:06.000" style="s2">instead of studying alone and giving up</p>
+<p begin="00:06:04.139" end="00:06:07.979" style="s2">in the middle we have daily code</p>
+<p begin="00:06:06.000" end="00:06:10.259" style="s2">challenges and quizzes to practice what</p>
+<p begin="00:06:07.979" end="00:06:12.240" style="s2">we learn and we do it all together we</p>
+<p begin="00:06:10.259" end="00:06:15.360" style="s2">have a Discord server weekly online</p>
+<p begin="00:06:12.240" end="00:06:17.759" style="s2">calls and we also meet offline to play</p>
+<p begin="00:06:15.360" end="00:06:19.680" style="s2">some games and have pizza and beer right</p>
+<p begin="00:06:17.759" end="00:06:22.919" style="s2">now registration is open for two</p>
+<p begin="00:06:19.680" end="00:06:25.380" style="s2">programs one is the web 10-week study</p>
+<p begin="00:06:22.919" end="00:06:28.500" style="s2">that is for absolute beginners where we</p>
+<p begin="00:06:25.380" end="00:06:30.840" style="s2">learn HTML CSS JavaScript node.js</p>
+<p begin="00:06:28.500" end="00:06:33.660" style="s2">Express and mongodb and number two is</p>
+<p begin="00:06:30.840" end="00:06:37.080" style="s2">the flutter 10 weeks study where we will</p>
+<p begin="00:06:33.660" end="00:06:39.720" style="s2">learn dark flutter flutter animations in</p>
+<p begin="00:06:37.080" end="00:06:42.300" style="s2">Firebase by building seven different</p>
+<p begin="00:06:39.720" end="00:06:45.080" style="s2">mobile apps click the link below to</p>
+<p begin="00:06:42.300" end="00:06:49.620" style="s2">learn more details on how to join</p>
+<p begin="00:06:45.080" end="00:06:49.620" style="s2">see you on the next one bye</p>
+<p begin="00:06:50.540" end="00:06:53.600" style="s2">[Music]</p>
+</div>
+</body>
+</tt>

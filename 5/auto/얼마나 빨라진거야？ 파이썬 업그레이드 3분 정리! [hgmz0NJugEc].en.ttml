@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.000" end="00:00:05.940" style="s2">python 3.11 came out and just by</p>
+<p begin="00:00:03.540" end="00:00:11.179" style="s2">upgrading to it your code can become</p>
+<p begin="00:00:05.940" end="00:00:11.179" style="s2">between 10 and 60 percent faster</p>
+<p begin="00:00:11.599" end="00:00:17.699" style="s2">and today we&#39;re going to take a look at</p>
+<p begin="00:00:14.099" end="00:00:20.520" style="s2">five new python 3.11 features that I am</p>
+<p begin="00:00:17.699" end="00:00:24.300" style="s2">very excited about let&#39;s first talk</p>
+<p begin="00:00:20.520" end="00:00:27.480" style="s2">about speed python 3.11 is up to 10 to</p>
+<p begin="00:00:24.300" end="00:00:29.820" style="s2">60 percent faster than Python 3.10 and</p>
+<p begin="00:00:27.480" end="00:00:31.920" style="s2">that is thanks to the faster C python</p>
+<p begin="00:00:29.820" end="00:00:34.800" style="s2">project python the programming language</p>
+<p begin="00:00:31.920" end="00:00:37.020" style="s2">is just an idea a specification of how</p>
+<p begin="00:00:34.800" end="00:00:39.719" style="s2">the syntax look like and what the rules</p>
+<p begin="00:00:37.020" end="00:00:42.500" style="s2">are C python is a c program that</p>
+<p begin="00:00:39.719" end="00:00:45.000" style="s2">implements python it takes python code</p>
+<p begin="00:00:42.500" end="00:00:47.640" style="s2">reads it and sends the instructions to</p>
+<p begin="00:00:45.000" end="00:00:50.039" style="s2">the CPU faster C python is a project</p>
+<p begin="00:00:47.640" end="00:00:51.899" style="s2">where the creator of python GitHub and</p>
+<p begin="00:00:50.039" end="00:00:54.480" style="s2">rosum along with other developers at</p>
+<p begin="00:00:51.899" end="00:00:56.820" style="s2">Microsoft are trying to make python 5</p>
+<p begin="00:00:54.480" end="00:00:59.160" style="s2">times faster in the next three to four</p>
+<p begin="00:00:56.820" end="00:01:02.039" style="s2">years they plan a performance increase</p>
+<p begin="00:00:59.160" end="00:01:04.040" style="s2">of one point five times per year which</p>
+<p begin="00:01:02.039" end="00:01:07.140" style="s2">is what we can already see with version</p>
+<p begin="00:01:04.040" end="00:01:09.180" style="s2">3.11 if you use things like numpy or</p>
+<p begin="00:01:07.140" end="00:01:11.760" style="s2">tensorflow which is code that is already</p>
+<p begin="00:01:09.180" end="00:01:15.000" style="s2">written in C you won&#39;t see any major</p>
+<p begin="00:01:11.760" end="00:01:16.920" style="s2">speed Improvement but for tools programs</p>
+<p begin="00:01:15.000" end="00:01:19.799" style="s2">and web servers that are using pure</p>
+<p begin="00:01:16.920" end="00:01:23.100" style="s2">python code this speed up is a game</p>
+<p begin="00:01:19.799" end="00:01:25.380" style="s2">changer python 3.11 also has better</p>
+<p begin="00:01:23.100" end="00:01:28.200" style="s2">error messages they are now more clear</p>
+<p begin="00:01:25.380" end="00:01:31.080" style="s2">informative and helpful this code right</p>
+<p begin="00:01:28.200" end="00:01:34.799" style="s2">here will cause an error this is how the</p>
+<p begin="00:01:31.080" end="00:01:38.119" style="s2">error looks like in Python 3.10 and this</p>
+<p begin="00:01:34.799" end="00:01:41.579" style="s2">is how it looks like in python 3.11</p>
+<p begin="00:01:38.119" end="00:01:43.799" style="s2">python 3.11 can now not only tell you</p>
+<p begin="00:01:41.579" end="00:01:46.619" style="s2">the line of code that caused the error</p>
+<p begin="00:01:43.799" end="00:01:49.380" style="s2">but also it can show you where in the</p>
+<p begin="00:01:46.619" end="00:01:52.680" style="s2">line the error came from in talking</p>
+<p begin="00:01:49.380" end="00:01:55.740" style="s2">about errors python 3.11 also comes with</p>
+<p begin="00:01:52.680" end="00:01:57.780" style="s2">something called exception notes now you</p>
+<p begin="00:01:55.740" end="00:01:59.880" style="s2">can add more messages to your exceptions</p>
+<p begin="00:01:57.780" end="00:02:03.240" style="s2">allowing you to provide more context in</p>
+<p begin="00:01:59.880" end="00:02:05.280" style="s2">into what went wrong on this code we are</p>
+<p begin="00:02:03.240" end="00:02:07.380" style="s2">catching the exception and adding a note</p>
+<p begin="00:02:05.280" end="00:02:10.739" style="s2">that will later show up on the console</p>
+<p begin="00:02:07.380" end="00:02:12.840" style="s2">under our error I think this feature</p>
+<p begin="00:02:10.739" end="00:02:14.940" style="s2">will be used mostly by libraries and</p>
+<p begin="00:02:12.840" end="00:02:17.280" style="s2">testing Frameworks to tell us what went</p>
+<p begin="00:02:14.940" end="00:02:19.980" style="s2">wrong in a better way I don&#39;t really see</p>
+<p begin="00:02:17.280" end="00:02:22.860" style="s2">myself using this directly on the topic</p>
+<p begin="00:02:19.980" end="00:02:25.379" style="s2">of exceptions python 3.11 also has</p>
+<p begin="00:02:22.860" end="00:02:27.239" style="s2">exception groups when something goes</p>
+<p begin="00:02:25.379" end="00:02:29.879" style="s2">wrong and there is more than one error</p>
+<p begin="00:02:27.239" end="00:02:33.420" style="s2">we can now use exception group to stack</p>
+<p begin="00:02:29.879" end="00:02:36.599" style="s2">multiple exceptions together getting an</p>
+<p begin="00:02:33.420" end="00:02:39.360" style="s2">output like this one on the console</p>
+<p begin="00:02:36.599" end="00:02:41.519" style="s2">you can even create nested exception</p>
+<p begin="00:02:39.360" end="00:02:45.360" style="s2">groups and the console will also display</p>
+<p begin="00:02:41.519" end="00:02:47.040" style="s2">them in a cool nested way if you want to</p>
+<p begin="00:02:45.360" end="00:02:49.379" style="s2">handle the errors of an exception group</p>
+<p begin="00:02:47.040" end="00:02:52.620" style="s2">all you have to do is use the new try</p>
+<p begin="00:02:49.379" end="00:02:54.660" style="s2">except star syntax here you can see how</p>
+<p begin="00:02:52.620" end="00:02:58.560" style="s2">we have an exception group that raises</p>
+<p begin="00:02:54.660" end="00:03:00.840" style="s2">two type error in two value error and</p>
+<p begin="00:02:58.560" end="00:03:03.900" style="s2">you can also see how using the accept</p>
+<p begin="00:03:00.840" end="00:03:07.620" style="s2">star syntax we are able to catch them</p>
+<p begin="00:03:03.900" end="00:03:10.200" style="s2">all last but not least python 3.11 also</p>
+<p begin="00:03:07.620" end="00:03:12.720" style="s2">comes with a new module called Tamil lip</p>
+<p begin="00:03:10.200" end="00:03:15.720" style="s2">Tomo which stands for Tom&#39;s obvious</p>
+<p begin="00:03:12.720" end="00:03:17.819" style="s2">minimal language is a file format for</p>
+<p begin="00:03:15.720" end="00:03:20.280" style="s2">configuration files that is used almost</p>
+<p begin="00:03:17.819" end="00:03:22.680" style="s2">everywhere and that I&#39;m sure you&#39;ve seen</p>
+<p begin="00:03:20.280" end="00:03:24.780" style="s2">before tunnel Leaf is a new module of</p>
+<p begin="00:03:22.680" end="00:03:26.900" style="s2">the Python standard library for Reading</p>
+<p begin="00:03:24.780" end="00:03:30.000" style="s2">Terminal files so if you have a</p>
+<p begin="00:03:26.900" end="00:03:33.239" style="s2">config.tomel file like this one you can</p>
+<p begin="00:03:30.000" end="00:03:35.879" style="s2">just read it using Tomo lib like this</p>
+<p begin="00:03:33.239" end="00:03:39.060" style="s2">and if we print that data to the console</p>
+<p begin="00:03:35.879" end="00:03:40.920" style="s2">we will get some something like this</p>
+<p begin="00:03:39.060" end="00:03:42.959" style="s2">thank you for watching this video I hope</p>
+<p begin="00:03:40.920" end="00:03:44.519" style="s2">you found it helpful let me know in the</p>
+<p begin="00:03:42.959" end="00:03:46.980" style="s2">comments what is your favorite python</p>
+<p begin="00:03:44.519" end="00:03:48.720" style="s2">3.11 feature and if you would like me to</p>
+<p begin="00:03:46.980" end="00:03:50.640" style="s2">make more videos about python write it</p>
+<p begin="00:03:48.720" end="00:03:52.440" style="s2">down below and I&#39;ll make it happen if</p>
+<p begin="00:03:50.640" end="00:03:55.379" style="s2">you want to become a python developer</p>
+<p begin="00:03:52.440" end="00:03:57.420" style="s2">for absolutely free click the link below</p>
+<p begin="00:03:55.379" end="00:03:59.099" style="s2">because there you will find a free 7</p>
+<p begin="00:03:57.420" end="00:04:02.400" style="s2">hour python course that I made</p>
+<p begin="00:03:59.099" end="00:04:04.560" style="s2">especially for you for absolutely free</p>
+<p begin="00:04:02.400" end="00:04:06.860" style="s2">see you on the next video stay healthy</p>
+<p begin="00:04:04.560" end="00:04:10.879" style="s2">stay awesome be happy</p>
+<p begin="00:04:06.860" end="00:04:10.879" style="s2">see you on the next one bye</p>
+</div>
+</body>
+</tt>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.879" end="00:00:08.639" style="s2">these are three functional array methods</p>
+<p begin="00:00:06.000" end="00:00:10.800" style="s2">that every javascript developer should</p>
+<p begin="00:00:08.639" end="00:00:12.880" style="s2">know</p>
+<p begin="00:00:10.800" end="00:00:15.120" style="s2">that find helps us look for an item</p>
+<p begin="00:00:12.880" end="00:00:17.680" style="s2">inside of an array and the way we use it</p>
+<p begin="00:00:15.120" end="00:00:19.760" style="s2">is like this that&#39;s fine just like all</p>
+<p begin="00:00:17.680" end="00:00:22.480" style="s2">the other methods on this video has only</p>
+<p begin="00:00:19.760" end="00:00:24.720" style="s2">one required parameter and that is a</p>
+<p begin="00:00:22.480" end="00:00:26.400" style="s2">callback function the callback function</p>
+<p begin="00:00:24.720" end="00:00:28.080" style="s2">is not going to be called by us we just</p>
+<p begin="00:00:26.400" end="00:00:30.480" style="s2">put the name of the function and</p>
+<p begin="00:00:28.080" end="00:00:32.719" style="s2">javascript is going to call the function</p>
+<p begin="00:00:30.480" end="00:00:35.200" style="s2">and is also going to call it with very</p>
+<p begin="00:00:32.719" end="00:00:37.280" style="s2">helpful arguments in the case of that</p>
+<p begin="00:00:35.200" end="00:00:40.320" style="s2">find javascript will call the find</p>
+<p begin="00:00:37.280" end="00:00:43.280" style="s2">avocado function with each fruit of the</p>
+<p begin="00:00:40.320" end="00:00:44.879" style="s2">fruit array on the first argument so</p>
+<p begin="00:00:43.280" end="00:00:46.960" style="s2">basically what is going on behind the</p>
+<p begin="00:00:44.879" end="00:00:48.239" style="s2">scenes is javascript doing something</p>
+<p begin="00:00:46.960" end="00:00:50.640" style="s2">like this</p>
+<p begin="00:00:48.239" end="00:00:52.640" style="s2">now this isn&#39;t actual code it&#39;s just the</p>
+<p begin="00:00:50.640" end="00:00:54.800" style="s2">way i like to imagine it to make it</p>
+<p begin="00:00:52.640" end="00:00:57.039" style="s2">easier to understand the name of the</p>
+<p begin="00:00:54.800" end="00:00:59.680" style="s2">parameter on the callback function does</p>
+<p begin="00:00:57.039" end="00:01:01.600" style="s2">not matter i named it current fruit but</p>
+<p begin="00:00:59.680" end="00:01:04.000" style="s2">you can name it whatever you want what</p>
+<p begin="00:01:01.600" end="00:01:06.159" style="s2">is important is the position let&#39;s now</p>
+<p begin="00:01:04.000" end="00:01:08.159" style="s2">take a look at what the find avocado</p>
+<p begin="00:01:06.159" end="00:01:09.760" style="s2">function is doing now each method on</p>
+<p begin="00:01:08.159" end="00:01:12.000" style="s2">this video and in javascript has a</p>
+<p begin="00:01:09.760" end="00:01:14.799" style="s2">different rule of what a callback</p>
+<p begin="00:01:12.000" end="00:01:17.040" style="s2">function does the rule for that find is</p>
+<p begin="00:01:14.799" end="00:01:19.360" style="s2">that if the callback function returns</p>
+<p begin="00:01:17.040" end="00:01:22.080" style="s2">true that means that we have found the</p>
+<p begin="00:01:19.360" end="00:01:24.400" style="s2">item that we are looking for in our find</p>
+<p begin="00:01:22.080" end="00:01:26.880" style="s2">avocado function the condition will be</p>
+<p begin="00:01:24.400" end="00:01:28.799" style="s2">true if the current fruit that we are</p>
+<p begin="00:01:26.880" end="00:01:31.680" style="s2">receiving from javascript is equal to</p>
+<p begin="00:01:28.799" end="00:01:34.079" style="s2">the avocado else it will return false</p>
+<p begin="00:01:31.680" end="00:01:36.000" style="s2">after our find avocado function returns</p>
+<p begin="00:01:34.079" end="00:01:38.880" style="s2">true the current item that is being</p>
+<p begin="00:01:36.000" end="00:01:41.759" style="s2">processed is going to be the resulting</p>
+<p begin="00:01:38.880" end="00:01:44.560" style="s2">value of the dot find function and that</p>
+<p begin="00:01:41.759" end="00:01:47.280" style="s2">is the value that our avocado constant</p>
+<p begin="00:01:44.560" end="00:01:49.680" style="s2">is going to hold</p>
+<p begin="00:01:47.280" end="00:01:52.799" style="s2">that map allows us to take elements from</p>
+<p begin="00:01:49.680" end="00:01:56.000" style="s2">an array transform them and put them on</p>
+<p begin="00:01:52.799" end="00:01:58.399" style="s2">a new array that map will not modify the</p>
+<p begin="00:01:56.000" end="00:02:00.719" style="s2">source array instead it will create a</p>
+<p begin="00:01:58.399" end="00:02:03.119" style="s2">new one with the transformed items now</p>
+<p begin="00:02:00.719" end="00:02:05.200" style="s2">the way we use it is something like this</p>
+<p begin="00:02:03.119" end="00:02:06.960" style="s2">just like what we saw on that find the</p>
+<p begin="00:02:05.200" end="00:02:09.679" style="s2">callback function will be called for</p>
+<p begin="00:02:06.960" end="00:02:11.360" style="s2">each item of the array and the first</p>
+<p begin="00:02:09.679" end="00:02:13.520" style="s2">argument will be the item that is</p>
+<p begin="00:02:11.360" end="00:02:15.120" style="s2">currently being processed so to make it</p>
+<p begin="00:02:13.520" end="00:02:17.120" style="s2">easier to understand you can imagine</p>
+<p begin="00:02:15.120" end="00:02:19.200" style="s2">that something like this is happening</p>
+<p begin="00:02:17.120" end="00:02:21.200" style="s2">behind the scenes remember this is not</p>
+<p begin="00:02:19.200" end="00:02:23.200" style="s2">real code it&#39;s just an example to make</p>
+<p begin="00:02:21.200" end="00:02:25.360" style="s2">it easier for us to understand what&#39;s</p>
+<p begin="00:02:23.200" end="00:02:28.239" style="s2">going on the rule for that map is that</p>
+<p begin="00:02:25.360" end="00:02:30.480" style="s2">the value returned by the callback</p>
+<p begin="00:02:28.239" end="00:02:33.280" style="s2">function will be the value that will be</p>
+<p begin="00:02:30.480" end="00:02:34.800" style="s2">in our new array right now our callback</p>
+<p begin="00:02:33.280" end="00:02:37.360" style="s2">function is receiving each of the</p>
+<p begin="00:02:34.800" end="00:02:39.680" style="s2">numbers in the source array inside of</p>
+<p begin="00:02:37.360" end="00:02:42.640" style="s2">the current number argument and is</p>
+<p begin="00:02:39.680" end="00:02:44.239" style="s2">returning that current number times 2.</p>
+<p begin="00:02:42.640" end="00:02:46.720" style="s2">that means that when the that map</p>
+<p begin="00:02:44.239" end="00:02:49.519" style="s2">function finishes the value of the</p>
+<p begin="00:02:46.720" end="00:02:51.840" style="s2">transform constant on our code will be</p>
+<p begin="00:02:49.519" end="00:02:54.080" style="s2">an array with the same length as the</p>
+<p begin="00:02:51.840" end="00:02:56.239" style="s2">source array but with the numbers</p>
+<p begin="00:02:54.080" end="00:02:58.720" style="s2">doubled now it&#39;s very important to</p>
+<p begin="00:02:56.239" end="00:03:01.440" style="s2">remember that the callback function has</p>
+<p begin="00:02:58.720" end="00:03:04.640" style="s2">to return something if you forget to</p>
+<p begin="00:03:01.440" end="00:03:06.800" style="s2">return like in this code for example</p>
+<p begin="00:03:04.640" end="00:03:09.840" style="s2">then the result will be an array of the</p>
+<p begin="00:03:06.800" end="00:03:12.640" style="s2">same length of the source array but full</p>
+<p begin="00:03:09.840" end="00:03:14.400" style="s2">of undefined</p>
+<p begin="00:03:12.640" end="00:03:16.159" style="s2">now for the last method on this video</p>
+<p begin="00:03:14.400" end="00:03:18.080" style="s2">we&#39;re going to use a new syntax a</p>
+<p begin="00:03:16.159" end="00:03:19.040" style="s2">different way of writing our functions</p>
+<p begin="00:03:18.080" end="00:03:21.519" style="s2">what we&#39;re going to do now is we&#39;re</p>
+<p begin="00:03:19.040" end="00:03:23.360" style="s2">going to use arrow functions with arrow</p>
+<p begin="00:03:21.519" end="00:03:26.400" style="s2">functions we can modify that fine and</p>
+<p begin="00:03:23.360" end="00:03:29.280" style="s2">that map examples from looking like this</p>
+<p begin="00:03:26.400" end="00:03:32.080" style="s2">to looking something like this now as</p>
+<p begin="00:03:29.280" end="00:03:33.760" style="s2">you can see that looks much much better</p>
+<p begin="00:03:32.080" end="00:03:35.519" style="s2">now don&#39;t be scared by this syntax it&#39;s</p>
+<p begin="00:03:33.760" end="00:03:37.599" style="s2">very easy to understand all arrow</p>
+<p begin="00:03:35.519" end="00:03:40.000" style="s2">functions do is they allow us to write a</p>
+<p begin="00:03:37.599" end="00:03:41.680" style="s2">function in one line of code instead of</p>
+<p begin="00:03:40.000" end="00:03:43.360" style="s2">having to type the word function in</p>
+<p begin="00:03:41.680" end="00:03:44.959" style="s2">parentheses and brackets and all those</p>
+<p begin="00:03:43.360" end="00:03:46.879" style="s2">things we can just do it in one line of</p>
+<p begin="00:03:44.959" end="00:03:48.640" style="s2">code and it&#39;s very easy to understand</p>
+<p begin="00:03:46.879" end="00:03:50.799" style="s2">first we write the arguments of the</p>
+<p begin="00:03:48.640" end="00:03:53.280" style="s2">function and after the arrow we write</p>
+<p begin="00:03:50.799" end="00:03:55.439" style="s2">the return value that&#39;s it the</p>
+<p begin="00:03:53.280" end="00:03:57.680" style="s2">superpower of the arrow function is that</p>
+<p begin="00:03:55.439" end="00:04:00.080" style="s2">it has something called a implicit</p>
+<p begin="00:03:57.680" end="00:04:03.280" style="s2">return that means that we don&#39;t need to</p>
+<p begin="00:04:00.080" end="00:04:05.599" style="s2">write the return keyword to return</p>
+<p begin="00:04:03.280" end="00:04:07.200" style="s2">something whatever you put after the</p>
+<p begin="00:04:05.599" end="00:04:09.360" style="s2">arrow that will be returned</p>
+<p begin="00:04:07.200" end="00:04:11.120" style="s2">automatically before we were using our</p>
+<p begin="00:04:09.360" end="00:04:13.280" style="s2">functions javascript was doing something</p>
+<p begin="00:04:11.120" end="00:04:15.599" style="s2">like this behind the scenes</p>
+<p begin="00:04:13.280" end="00:04:17.519" style="s2">and now with our functions javascript is</p>
+<p begin="00:04:15.599" end="00:04:19.040" style="s2">going to do something like this behind</p>
+<p begin="00:04:17.519" end="00:04:20.799" style="s2">the scenes as you can see it&#39;s almost</p>
+<p begin="00:04:19.040" end="00:04:22.479" style="s2">very similar now before we move on to</p>
+<p begin="00:04:20.799" end="00:04:23.600" style="s2">the last method on this list please</p>
+<p begin="00:04:22.479" end="00:04:25.759" style="s2">remember that if you want to learn</p>
+<p begin="00:04:23.600" end="00:04:27.520" style="s2">javascript for free with me all you have</p>
+<p begin="00:04:25.759" end="00:04:30.639" style="s2">to do is click the link below there</p>
+<p begin="00:04:27.520" end="00:04:33.199" style="s2">you&#39;re going to find an eight hour free</p>
+<p begin="00:04:30.639" end="00:04:34.639" style="s2">javascript course for a hundred percent</p>
+<p begin="00:04:33.199" end="00:04:35.919" style="s2">javascript beginner so if you want to</p>
+<p begin="00:04:34.639" end="00:04:37.120" style="s2">become a developer you want to do it</p>
+<p begin="00:04:35.919" end="00:04:39.280" style="s2">with javascript and you want to do it</p>
+<p begin="00:04:37.120" end="00:04:42.160" style="s2">with me please click the link below and</p>
+<p begin="00:04:39.280" end="00:04:44.479" style="s2">i will see you there</p>
+<p begin="00:04:42.160" end="00:04:46.479" style="s2">that filter allows us to remove an item</p>
+<p begin="00:04:44.479" end="00:04:49.040" style="s2">from an array now actually that is not</p>
+<p begin="00:04:46.479" end="00:04:52.639" style="s2">really true that filter just like that</p>
+<p begin="00:04:49.040" end="00:04:54.720" style="s2">map they don&#39;t modify the source array</p>
+<p begin="00:04:52.639" end="00:04:57.360" style="s2">what that filter will do is that filter</p>
+<p begin="00:04:54.720" end="00:04:59.840" style="s2">will create a new array without the</p>
+<p begin="00:04:57.360" end="00:05:01.680" style="s2">items that you don&#39;t want to be there</p>
+<p begin="00:04:59.840" end="00:05:04.479" style="s2">and the way we use it using arrow</p>
+<p begin="00:05:01.680" end="00:05:06.560" style="s2">functions is like this now the rule of</p>
+<p begin="00:05:04.479" end="00:05:09.520" style="s2">the callback function for that filter is</p>
+<p begin="00:05:06.560" end="00:05:11.199" style="s2">very very easy if we return true then</p>
+<p begin="00:05:09.520" end="00:05:13.280" style="s2">the item that is currently being</p>
+<p begin="00:05:11.199" end="00:05:16.000" style="s2">processed is going to end up in the new</p>
+<p begin="00:05:13.280" end="00:05:17.600" style="s2">array if we return false then that item</p>
+<p begin="00:05:16.000" end="00:05:20.160" style="s2">that is being processed is going to be</p>
+<p begin="00:05:17.600" end="00:05:22.479" style="s2">excluded from the new array now here we</p>
+<p begin="00:05:20.160" end="00:05:25.520" style="s2">have an array of foods that contains</p>
+<p begin="00:05:22.479" end="00:05:27.840" style="s2">fruits and one corn we want to keep only</p>
+<p begin="00:05:25.520" end="00:05:29.840" style="s2">the fruits so in our call back function</p>
+<p begin="00:05:27.840" end="00:05:33.360" style="s2">we are checking if the current food</p>
+<p begin="00:05:29.840" end="00:05:35.680" style="s2">being processed is not equals to corn if</p>
+<p begin="00:05:33.360" end="00:05:38.800" style="s2">it&#39;s not corn then that food is going to</p>
+<p begin="00:05:35.680" end="00:05:40.880" style="s2">end up in our new array if it is corn</p>
+<p begin="00:05:38.800" end="00:05:42.800" style="s2">then that condition will return false</p>
+<p begin="00:05:40.880" end="00:05:45.680" style="s2">which means that we have to exclude that</p>
+<p begin="00:05:42.800" end="00:05:47.440" style="s2">item which is corn from our fruits array</p>
+<p begin="00:05:45.680" end="00:05:49.759" style="s2">there are other methods like for example</p>
+<p begin="00:05:47.440" end="00:05:52.320" style="s2">that sort that flat and that reduce that</p>
+<p begin="00:05:49.759" end="00:05:53.600" style="s2">i think are very useful as well let me</p>
+<p begin="00:05:52.320" end="00:05:55.280" style="s2">know in the comments if you would like</p>
+<p begin="00:05:53.600" end="00:05:56.720" style="s2">me to make videos about those methods</p>
+<p begin="00:05:55.280" end="00:05:58.240" style="s2">and also let me know in the comments if</p>
+<p begin="00:05:56.720" end="00:06:00.000" style="s2">you would like me to make videos like</p>
+<p begin="00:05:58.240" end="00:06:02.720" style="s2">this one but for programming languages</p>
+<p begin="00:06:00.000" end="00:06:04.400" style="s2">like maybe python java or csharp thank</p>
+<p begin="00:06:02.720" end="00:06:05.759" style="s2">you for watching this video if you like</p>
+<p begin="00:06:04.400" end="00:06:07.199" style="s2">this content and you would like to</p>
+<p begin="00:06:05.759" end="00:06:08.720" style="s2">support the channel then please leave a</p>
+<p begin="00:06:07.199" end="00:06:11.039" style="s2">like and subscribe it&#39;s two clicks it&#39;s</p>
+<p begin="00:06:08.720" end="00:06:12.479" style="s2">free for you but it helps me a lot thank</p>
+<p begin="00:06:11.039" end="00:06:13.919" style="s2">you so much for watching thank you for</p>
+<p begin="00:06:12.479" end="00:06:15.520" style="s2">your support thank you for your love</p>
+<p begin="00:06:13.919" end="00:06:17.199" style="s2">stay free stay happy eat kimchi</p>
+<p begin="00:06:15.520" end="00:06:20.759" style="s2">kamzamida salaam heyo see you on the</p>
+<p begin="00:06:17.199" end="00:06:20.759" style="s2">next one bye</p>
+</div>
+</body>
+</tt>

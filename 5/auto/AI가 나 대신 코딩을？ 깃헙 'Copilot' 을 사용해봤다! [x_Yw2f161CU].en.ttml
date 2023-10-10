@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.160" end="00:00:04.160" style="s2">get lowest number like this we will wait</p>
+<p begin="00:00:03.280" end="00:00:06.879" style="s2">and that should give us</p>
+<p begin="00:00:04.160" end="00:00:07.600" style="s2">the lowest number say function and look</p>
+<p begin="00:00:06.879" end="00:00:11.580" style="s2">at that</p>
+<p begin="00:00:07.600" end="00:00:13.120" style="s2">boy as you can see done that is crazy</p>
+<p begin="00:00:11.580" end="00:00:15.599" style="s2">[Applause]</p>
+<p begin="00:00:13.120" end="00:00:16.560" style="s2">nicolas and today we&#39;re going to talk</p>
+<p begin="00:00:15.599" end="00:00:19.039" style="s2">about github</p>
+<p begin="00:00:16.560" end="00:00:20.640" style="s2">co-pilot the ai tool from github that</p>
+<p begin="00:00:19.039" end="00:00:23.199" style="s2">may or may not replace</p>
+<p begin="00:00:20.640" end="00:00:25.279" style="s2">developers github co-pilot is an ai</p>
+<p begin="00:00:23.199" end="00:00:26.640" style="s2">powered suggestion tool for developers</p>
+<p begin="00:00:25.279" end="00:00:28.480" style="s2">what that means for you and me</p>
+<p begin="00:00:26.640" end="00:00:30.480" style="s2">is that now instead of writing the code</p>
+<p begin="00:00:28.480" end="00:00:32.320" style="s2">of a whole function what we do instead</p>
+<p begin="00:00:30.480" end="00:00:33.520" style="s2">is we write a comment of what the</p>
+<p begin="00:00:32.320" end="00:00:35.520" style="s2">function should do</p>
+<p begin="00:00:33.520" end="00:00:37.040" style="s2">and co-pilot is going to generate the</p>
+<p begin="00:00:35.520" end="00:00:39.120" style="s2">whole code for us</p>
+<p begin="00:00:37.040" end="00:00:40.719" style="s2">i&#39;ve got an invite to test copilot and</p>
+<p begin="00:00:39.120" end="00:00:42.960" style="s2">since i&#39;ve tried it i felt many</p>
+<p begin="00:00:40.719" end="00:00:44.800" style="s2">different emotions first i was shocked</p>
+<p begin="00:00:42.960" end="00:00:45.920" style="s2">about how good it is then i was scared</p>
+<p begin="00:00:44.800" end="00:00:47.440" style="s2">because it might really replace</p>
+<p begin="00:00:45.920" end="00:00:48.879" style="s2">developers and then i got angry</p>
+<p begin="00:00:47.440" end="00:00:51.120" style="s2">because of what they did with all the</p>
+<p begin="00:00:48.879" end="00:00:53.120" style="s2">code that we gave them and now i&#39;m happy</p>
+<p begin="00:00:51.120" end="00:00:54.800" style="s2">and i feel hopeful about the future so i</p>
+<p begin="00:00:53.120" end="00:00:56.559" style="s2">want to share all this with you</p>
+<p begin="00:00:54.800" end="00:00:58.079" style="s2">before we jump in the demo let me first</p>
+<p begin="00:00:56.559" end="00:01:00.079" style="s2">give you some background information</p>
+<p begin="00:00:58.079" end="00:01:01.760" style="s2">copilot is powered by an algorithm</p>
+<p begin="00:01:00.079" end="00:01:04.960" style="s2">called open ai codex</p>
+<p begin="00:01:01.760" end="00:01:07.119" style="s2">codex is a descendant of open ai gpd3</p>
+<p begin="00:01:04.960" end="00:01:08.000" style="s2">gb3 is a very famous algorithm that we</p>
+<p begin="00:01:07.119" end="00:01:09.760" style="s2">made a video about</p>
+<p begin="00:01:08.000" end="00:01:11.520" style="s2">last year but what it basically does is</p>
+<p begin="00:01:09.760" end="00:01:12.000" style="s2">that it creates text just as good as</p>
+<p begin="00:01:11.520" end="00:01:14.799" style="s2">humans</p>
+<p begin="00:01:12.000" end="00:01:16.799" style="s2">it was fed all the text on the internet</p>
+<p begin="00:01:14.799" end="00:01:19.600" style="s2">literally as much text as possible</p>
+<p begin="00:01:16.799" end="00:01:20.640" style="s2">comments reviews blog posts news it was</p>
+<p begin="00:01:19.600" end="00:01:22.320" style="s2">fed all that</p>
+<p begin="00:01:20.640" end="00:01:23.759" style="s2">and it learned how to write text just</p>
+<p begin="00:01:22.320" end="00:01:26.000" style="s2">like humans do it&#39;s almost</p>
+<p begin="00:01:23.759" end="00:01:27.439" style="s2">indiscernible when a human writes and</p>
+<p begin="00:01:26.000" end="00:01:29.119" style="s2">when deputies writes</p>
+<p begin="00:01:27.439" end="00:01:30.960" style="s2">again we made a video about it so check</p>
+<p begin="00:01:29.119" end="00:01:32.880" style="s2">it out if you want to learn more now</p>
+<p begin="00:01:30.960" end="00:01:34.479" style="s2">codex which is this new algorithm was</p>
+<p begin="00:01:32.880" end="00:01:36.400" style="s2">also trained in a lot of</p>
+<p begin="00:01:34.479" end="00:01:38.000" style="s2">data but the data it was trained on</p>
+<p begin="00:01:36.400" end="00:01:38.479" style="s2">wasn&#39;t just text and comments and</p>
+<p begin="00:01:38.000" end="00:01:41.280" style="s2">whatever</p>
+<p begin="00:01:38.479" end="00:01:42.159" style="s2">the data was all the public code</p>
+<p begin="00:01:41.280" end="00:01:45.040" style="s2">available</p>
+<p begin="00:01:42.159" end="00:01:45.680" style="s2">on github that&#39;s right all the code that</p>
+<p begin="00:01:45.040" end="00:01:47.920" style="s2">you and me</p>
+<p begin="00:01:45.680" end="00:01:49.040" style="s2">have been pushing to github so happily</p>
+<p begin="00:01:47.920" end="00:01:52.240" style="s2">because it&#39;s for free</p>
+<p begin="00:01:49.040" end="00:01:54.560" style="s2">has been used to train an ai tool that</p>
+<p begin="00:01:52.240" end="00:01:56.240" style="s2">maybe is going to replace us and write</p>
+<p begin="00:01:54.560" end="00:01:58.320" style="s2">better code than we do</p>
+<p begin="00:01:56.240" end="00:02:00.000" style="s2">open ai was created by elon musk and</p>
+<p begin="00:01:58.320" end="00:02:02.240" style="s2">other people as a non-profit</p>
+<p begin="00:02:00.000" end="00:02:03.360" style="s2">organization to ensure that artificial</p>
+<p begin="00:02:02.240" end="00:02:06.079" style="s2">general intelligence</p>
+<p begin="00:02:03.360" end="00:02:07.200" style="s2">benefits humanity but now they changed</p>
+<p begin="00:02:06.079" end="00:02:09.759" style="s2">from non-profit</p>
+<p begin="00:02:07.200" end="00:02:11.039" style="s2">to cap profit and they received one</p>
+<p begin="00:02:09.759" end="00:02:14.160" style="s2">billion dollars</p>
+<p begin="00:02:11.039" end="00:02:16.720" style="s2">from microsoft to exclusively license</p>
+<p begin="00:02:14.160" end="00:02:18.959" style="s2">their ai technology so maybe it&#39;s not</p>
+<p begin="00:02:16.720" end="00:02:21.520" style="s2">open ai anymore it&#39;s more like closed ai</p>
+<p begin="00:02:18.959" end="00:02:23.040" style="s2">or microsoft ai it&#39;s worth remembering</p>
+<p begin="00:02:21.520" end="00:02:25.520" style="s2">that microsoft owns</p>
+<p begin="00:02:23.040" end="00:02:26.239" style="s2">github they also have a cloud provider</p>
+<p begin="00:02:25.520" end="00:02:28.000" style="s2">which is called</p>
+<p begin="00:02:26.239" end="00:02:29.840" style="s2">azure and they are the ones that make</p>
+<p begin="00:02:28.000" end="00:02:32.080" style="s2">visual studio code so as you can see</p>
+<p begin="00:02:29.840" end="00:02:34.239" style="s2">everything goes full circle i made a</p>
+<p begin="00:02:32.080" end="00:02:36.640" style="s2">video last year talking about microsoft</p>
+<p begin="00:02:34.239" end="00:02:38.239" style="s2">plans for developer market domination</p>
+<p begin="00:02:36.640" end="00:02:40.160" style="s2">but i would have never imagined they&#39;re</p>
+<p begin="00:02:38.239" end="00:02:41.519" style="s2">going to do something like this so</p>
+<p begin="00:02:40.160" end="00:02:43.200" style="s2">now that we have the context let&#39;s</p>
+<p begin="00:02:41.519" end="00:02:44.400" style="s2">actually look at the demo and see how</p>
+<p begin="00:02:43.200" end="00:02:47.360" style="s2">good and scary</p>
+<p begin="00:02:44.400" end="00:02:49.200" style="s2">co-pilot is to use copilot we have two</p>
+<p begin="00:02:47.360" end="00:02:50.080" style="s2">options one option would be to write the</p>
+<p begin="00:02:49.200" end="00:02:52.319" style="s2">name of the function</p>
+<p begin="00:02:50.080" end="00:02:53.440" style="s2">in a very descriptive way so we can say</p>
+<p begin="00:02:52.319" end="00:02:57.200" style="s2">function</p>
+<p begin="00:02:53.440" end="00:02:59.040" style="s2">get lowest number like this</p>
+<p begin="00:02:57.200" end="00:03:00.239" style="s2">we will wait and that should give us the</p>
+<p begin="00:02:59.040" end="00:03:04.159" style="s2">lowest number that</p>
+<p begin="00:03:00.239" end="00:03:07.200" style="s2">is crazy or we can write a comment</p>
+<p begin="00:03:04.159" end="00:03:10.959" style="s2">find lowest number</p>
+<p begin="00:03:07.200" end="00:03:14.720" style="s2">using binary search say function</p>
+<p begin="00:03:10.959" end="00:03:18.000" style="s2">and look at that find tesla</p>
+<p begin="00:03:14.720" end="00:03:20.959" style="s2">stock price today function will</p>
+<p begin="00:03:18.000" end="00:03:23.519" style="s2">wait boy as you can see now he&#39;s working</p>
+<p begin="00:03:20.959" end="00:03:26.879" style="s2">with api that is insane</p>
+<p begin="00:03:23.519" end="00:03:30.239" style="s2">get the tweets of a user</p>
+<p begin="00:03:26.879" end="00:03:33.280" style="s2">function will wait done</p>
+<p begin="00:03:30.239" end="00:03:36.959" style="s2">that is crazy get today&#39;s</p>
+<p begin="00:03:33.280" end="00:03:36.959" style="s2">weather function</p>
+<p begin="00:03:37.840" end="00:03:42.799" style="s2">booyah open weather api that is crazy</p>
+<p begin="00:03:41.120" end="00:03:44.319" style="s2">we can also give some context like for</p>
+<p begin="00:03:42.799" end="00:03:47.840" style="s2">example express</p>
+<p begin="00:03:44.319" end="00:03:48.959" style="s2">app running on port 3000 and we say</p>
+<p begin="00:03:47.840" end="00:03:52.000" style="s2">receive</p>
+<p begin="00:03:48.959" end="00:03:55.439" style="s2">a file from a user and</p>
+<p begin="00:03:52.000" end="00:04:01.360" style="s2">save it to disk we do app that</p>
+<p begin="00:03:55.439" end="00:04:04.560" style="s2">and we wait here it is</p>
+<p begin="00:04:01.360" end="00:04:06.159" style="s2">that was crazy that is crazy now of</p>
+<p begin="00:04:04.560" end="00:04:07.760" style="s2">course it works in other</p>
+<p begin="00:04:06.159" end="00:04:10.159" style="s2">programming languages like go for</p>
+<p begin="00:04:07.760" end="00:04:16.160" style="s2">example we can say find</p>
+<p begin="00:04:10.159" end="00:04:20.079" style="s2">the youngest user we say func will wait</p>
+<p begin="00:04:16.160" end="00:04:22.240" style="s2">i can also say create a new user</p>
+<p begin="00:04:20.079" end="00:04:23.440" style="s2">and here i will just create a function</p>
+<p begin="00:04:22.240" end="00:04:25.600" style="s2">and as you can see i can</p>
+<p begin="00:04:23.440" end="00:04:27.280" style="s2">open also some suggestions of some</p>
+<p begin="00:04:25.600" end="00:04:28.960" style="s2">solutions that might happen</p>
+<p begin="00:04:27.280" end="00:04:30.720" style="s2">this solution is doing something</p>
+<p begin="00:04:28.960" end="00:04:31.680" style="s2">different this solution is doing</p>
+<p begin="00:04:30.720" end="00:04:33.440" style="s2">something different</p>
+<p begin="00:04:31.680" end="00:04:35.440" style="s2">this solution maybe is doing what i want</p>
+<p begin="00:04:33.440" end="00:04:37.040" style="s2">so i will accept this solution</p>
+<p begin="00:04:35.440" end="00:04:39.280" style="s2">so as you can see you can also choose</p>
+<p begin="00:04:37.040" end="00:04:40.160" style="s2">from a list of possible solutions that</p>
+<p begin="00:04:39.280" end="00:04:42.720" style="s2">is amazing</p>
+<p begin="00:04:40.160" end="00:04:43.759" style="s2">also we can work with css and we can say</p>
+<p begin="00:04:42.720" end="00:04:47.040" style="s2">make a big</p>
+<p begin="00:04:43.759" end="00:04:49.759" style="s2">red circle and we can start</p>
+<p begin="00:04:47.040" end="00:04:51.520" style="s2">to see suggestions and accepting those</p>
+<p begin="00:04:49.759" end="00:04:54.479" style="s2">suggestions</p>
+<p begin="00:04:51.520" end="00:04:56.639" style="s2">okay and we are good to go as you can</p>
+<p begin="00:04:54.479" end="00:04:57.280" style="s2">see it added some extra things that i</p>
+<p begin="00:04:56.639" end="00:04:59.440" style="s2">didn&#39;t want</p>
+<p begin="00:04:57.280" end="00:05:01.199" style="s2">but still good enough as you can see</p>
+<p begin="00:04:59.440" end="00:05:03.840" style="s2">it&#39;s pretty impressive it&#39;s</p>
+<p begin="00:05:01.199" end="00:05:05.199" style="s2">mind-blowing it&#39;s too mind-blowing this</p>
+<p begin="00:05:03.840" end="00:05:05.600" style="s2">is when i got scared because this thing</p>
+<p begin="00:05:05.199" end="00:05:07.680" style="s2">is</p>
+<p begin="00:05:05.600" end="00:05:08.639" style="s2">not good it&#39;s actually too good even the</p>
+<p begin="00:05:07.680" end="00:05:10.639" style="s2">ceo of</p>
+<p begin="00:05:08.639" end="00:05:12.560" style="s2">open ai the company that has all this</p>
+<p begin="00:05:10.639" end="00:05:15.440" style="s2">technology made a very scary</p>
+<p begin="00:05:12.560" end="00:05:17.840" style="s2">prediction and i quote he said ai will</p>
+<p begin="00:05:15.440" end="00:05:20.639" style="s2">cause the price of work that can happen</p>
+<p begin="00:05:17.840" end="00:05:21.520" style="s2">in front of a computer to decrease much</p>
+<p begin="00:05:20.639" end="00:05:23.440" style="s2">faster</p>
+<p begin="00:05:21.520" end="00:05:24.880" style="s2">than the price of work that happens in</p>
+<p begin="00:05:23.440" end="00:05:26.560" style="s2">the physical world</p>
+<p begin="00:05:24.880" end="00:05:28.720" style="s2">this means that maybe replacing a</p>
+<p begin="00:05:26.560" end="00:05:30.560" style="s2">developer or a designer somebody that</p>
+<p begin="00:05:28.720" end="00:05:32.320" style="s2">works on a computer is easier than</p>
+<p begin="00:05:30.560" end="00:05:33.759" style="s2">replacing a truck driver or somebody</p>
+<p begin="00:05:32.320" end="00:05:35.199" style="s2">that&#39;s working on a farm</p>
+<p begin="00:05:33.759" end="00:05:37.039" style="s2">this is when i remember the strategy</p>
+<p begin="00:05:35.199" end="00:05:40.080" style="s2">that microsoft is very famous for</p>
+<p begin="00:05:37.039" end="00:05:41.919" style="s2">which is embrace extend and extinguish</p>
+<p begin="00:05:40.080" end="00:05:44.080" style="s2">microsoft acquired github and made it</p>
+<p begin="00:05:41.919" end="00:05:45.360" style="s2">for free they also gave us visual studio</p>
+<p begin="00:05:44.080" end="00:05:47.759" style="s2">code and we all used it</p>
+<p begin="00:05:45.360" end="00:05:50.160" style="s2">now we used both of these two tools to</p>
+<p begin="00:05:47.759" end="00:05:53.280" style="s2">create and store the code that they</p>
+<p begin="00:05:50.160" end="00:05:53.919" style="s2">used to make a tool that might actually</p>
+<p begin="00:05:53.280" end="00:05:55.759" style="s2">replace</p>
+<p begin="00:05:53.919" end="00:05:57.280" style="s2">developers and it makes sense that they</p>
+<p begin="00:05:55.759" end="00:06:00.000" style="s2">do this because developers</p>
+<p begin="00:05:57.280" end="00:06:01.600" style="s2">are what these companies rely on the</p>
+<p begin="00:06:00.000" end="00:06:04.000" style="s2">developers are expensive</p>
+<p begin="00:06:01.600" end="00:06:05.919" style="s2">so maybe they&#39;re just going to replace</p>
+<p begin="00:06:04.000" end="00:06:07.840" style="s2">developers so maybe now companies are</p>
+<p begin="00:06:05.919" end="00:06:09.039" style="s2">not going to hire developers instead</p>
+<p begin="00:06:07.840" end="00:06:11.280" style="s2">they will pay microsoft</p>
+<p begin="00:06:09.039" end="00:06:13.199" style="s2">to give them access to this ai magic</p>
+<p begin="00:06:11.280" end="00:06:15.600" style="s2">that is going to write code for them</p>
+<p begin="00:06:13.199" end="00:06:17.840" style="s2">so this is when i got angry but then the</p>
+<p begin="00:06:15.600" end="00:06:19.440" style="s2">more i used co-pilot the more i tried to</p>
+<p begin="00:06:17.840" end="00:06:20.800" style="s2">do things with it the more i realized</p>
+<p begin="00:06:19.440" end="00:06:23.440" style="s2">that it isn&#39;t perfect</p>
+<p begin="00:06:20.800" end="00:06:25.600" style="s2">it makes mistakes and of course you need</p>
+<p begin="00:06:23.440" end="00:06:27.120" style="s2">a programmer to be able to spot those</p>
+<p begin="00:06:25.600" end="00:06:29.280" style="s2">mistakes and fix them</p>
+<p begin="00:06:27.120" end="00:06:31.120" style="s2">because remember this a i think these</p>
+<p begin="00:06:29.280" end="00:06:33.440" style="s2">algorithms they don&#39;t know what</p>
+<p begin="00:06:31.120" end="00:06:34.880" style="s2">code is they don&#39;t know how code works</p>
+<p begin="00:06:33.440" end="00:06:37.199" style="s2">they just know how code</p>
+<p begin="00:06:34.880" end="00:06:39.360" style="s2">look like copilot just gives you code</p>
+<p begin="00:06:37.199" end="00:06:40.800" style="s2">but you have to evaluate if it&#39;s good</p>
+<p begin="00:06:39.360" end="00:06:43.120" style="s2">and if it actually works</p>
+<p begin="00:06:40.800" end="00:06:44.880" style="s2">you the developer so the more and more i</p>
+<p begin="00:06:43.120" end="00:06:46.639" style="s2">keep using it i realize that this is not</p>
+<p begin="00:06:44.880" end="00:06:48.720" style="s2">going to really replace developers</p>
+<p begin="00:06:46.639" end="00:06:50.639" style="s2">instead maybe it&#39;s going to replace or</p>
+<p begin="00:06:48.720" end="00:06:52.720" style="s2">is a threat to websites like for example</p>
+<p begin="00:06:50.639" end="00:06:53.280" style="s2">stack overflow the code that copilots</p>
+<p begin="00:06:52.720" end="00:06:55.680" style="s2">suggest</p>
+<p begin="00:06:53.280" end="00:06:57.039" style="s2">is not guaranteed to be code that works</p>
+<p begin="00:06:55.680" end="00:06:59.199" style="s2">it&#39;s even on their website</p>
+<p begin="00:06:57.039" end="00:07:01.280" style="s2">i quote github compiler that doesn&#39;t</p>
+<p begin="00:06:59.199" end="00:07:04.800" style="s2">actually test the code it suggests</p>
+<p begin="00:07:01.280" end="00:07:06.960" style="s2">so the code may not even compile or run</p>
+<p begin="00:07:04.800" end="00:07:08.160" style="s2">according to a study made by cambridge</p>
+<p begin="00:07:06.960" end="00:07:12.080" style="s2">developers spend</p>
+<p begin="00:07:08.160" end="00:07:14.479" style="s2">50 percent of their time not programming</p>
+<p begin="00:07:12.080" end="00:07:15.280" style="s2">half of the rest of the time is spent on</p>
+<p begin="00:07:14.479" end="00:07:16.880" style="s2">debugging</p>
+<p begin="00:07:15.280" end="00:07:19.280" style="s2">so that means that with copilot we&#39;re</p>
+<p begin="00:07:16.880" end="00:07:21.759" style="s2">going to maybe write code faster and</p>
+<p begin="00:07:19.280" end="00:07:23.759" style="s2">where we before we&#39;re trying to debug</p>
+<p begin="00:07:21.759" end="00:07:25.759" style="s2">mistakes that we made now we&#39;re going to</p>
+<p begin="00:07:23.759" end="00:07:28.080" style="s2">debug mistakes that the machine made</p>
+<p begin="00:07:25.759" end="00:07:30.560" style="s2">keep in mind that copilot is trained</p>
+<p begin="00:07:28.080" end="00:07:31.120" style="s2">on already existing code created by</p>
+<p begin="00:07:30.560" end="00:07:33.520" style="s2">humans</p>
+<p begin="00:07:31.120" end="00:07:35.199" style="s2">co-pilot is a reflection of our code</p>
+<p begin="00:07:33.520" end="00:07:37.919" style="s2">this means that co-pilot was</p>
+<p begin="00:07:35.199" end="00:07:38.960" style="s2">trained with buggy code and it might and</p>
+<p begin="00:07:37.919" end="00:07:41.759" style="s2">it will</p>
+<p begin="00:07:38.960" end="00:07:43.520" style="s2">give you a bug solution also remember</p>
+<p begin="00:07:41.759" end="00:07:45.440" style="s2">copilot just waits for you</p>
+<p begin="00:07:43.520" end="00:07:47.199" style="s2">you the developer are the one that has</p>
+<p begin="00:07:45.440" end="00:07:48.800" style="s2">to decide if you&#39;re going to use an</p>
+<p begin="00:07:47.199" end="00:07:50.560" style="s2">array or an object you</p>
+<p begin="00:07:48.800" end="00:07:52.560" style="s2">the developer have to choose between</p>
+<p begin="00:07:50.560" end="00:07:53.680" style="s2">using binary or linear search you have</p>
+<p begin="00:07:52.560" end="00:07:55.840" style="s2">to know what these things</p>
+<p begin="00:07:53.680" end="00:07:57.840" style="s2">are so you can tell co-pilot what you</p>
+<p begin="00:07:55.840" end="00:07:59.919" style="s2">want programming is about solving</p>
+<p begin="00:07:57.840" end="00:08:02.319" style="s2">problems with creative solutions</p>
+<p begin="00:07:59.919" end="00:08:03.919" style="s2">copilot will just help you implement</p>
+<p begin="00:08:02.319" end="00:08:06.960" style="s2">solutions faster but you</p>
+<p begin="00:08:03.919" end="00:08:07.759" style="s2">the developer are the creative force now</p>
+<p begin="00:08:06.960" end="00:08:10.240" style="s2">we can spend</p>
+<p begin="00:08:07.759" end="00:08:12.000" style="s2">less time doing manual work and writing</p>
+<p begin="00:08:10.240" end="00:08:14.160" style="s2">the same functions that a thousand</p>
+<p begin="00:08:12.000" end="00:08:15.440" style="s2">of developers already wrote before us</p>
+<p begin="00:08:14.160" end="00:08:17.840" style="s2">and instead we can focus</p>
+<p begin="00:08:15.440" end="00:08:18.800" style="s2">on doing cool stuff creating things</p>
+<p begin="00:08:17.840" end="00:08:21.039" style="s2">which is what we</p>
+<p begin="00:08:18.800" end="00:08:22.400" style="s2">are doing programming for i&#39;m curious to</p>
+<p begin="00:08:21.039" end="00:08:24.800" style="s2">see what happens in the future what</p>
+<p begin="00:08:22.400" end="00:08:27.840" style="s2">happens when we use copilot and we push</p>
+<p begin="00:08:24.800" end="00:08:28.479" style="s2">that co-pilot generated code into github</p>
+<p begin="00:08:27.840" end="00:08:31.440" style="s2">and then</p>
+<p begin="00:08:28.479" end="00:08:31.919" style="s2">copilot learns from itself maybe the</p>
+<p begin="00:08:31.440" end="00:08:34.000" style="s2">code will</p>
+<p begin="00:08:31.919" end="00:08:35.680" style="s2">get better it will get worse i don&#39;t</p>
+<p begin="00:08:34.000" end="00:08:37.039" style="s2">know or maybe in the future we&#39;re going</p>
+<p begin="00:08:35.680" end="00:08:39.919" style="s2">to have companies</p>
+<p begin="00:08:37.039" end="00:08:41.360" style="s2">hiring people to exclusively just clean</p>
+<p begin="00:08:39.919" end="00:08:44.159" style="s2">code that was created</p>
+<p begin="00:08:41.360" end="00:08:45.600" style="s2">by ai or maybe we will have companies</p>
+<p begin="00:08:44.159" end="00:08:48.000" style="s2">that are not going to allow</p>
+<p begin="00:08:45.600" end="00:08:48.959" style="s2">their employees to use copilot for</p>
+<p begin="00:08:48.000" end="00:08:51.440" style="s2">security reasons</p>
+<p begin="00:08:48.959" end="00:08:54.000" style="s2">or maybe somebody is going to put some</p>
+<p begin="00:08:51.440" end="00:08:56.000" style="s2">co-pilot generated code in some very</p>
+<p begin="00:08:54.000" end="00:08:58.320" style="s2">important system and there&#39;s going to be</p>
+<p begin="00:08:56.000" end="00:09:00.640" style="s2">a bug who is it to blame the developer</p>
+<p begin="00:08:58.320" end="00:09:02.000" style="s2">is it microsoft is it the ai i don&#39;t</p>
+<p begin="00:09:00.640" end="00:09:04.160" style="s2">know many questions arise</p>
+<p begin="00:09:02.000" end="00:09:05.360" style="s2">but overall i think it&#39;s a very good</p>
+<p begin="00:09:04.160" end="00:09:06.640" style="s2">thing for developers</p>
+<p begin="00:09:05.360" end="00:09:08.320" style="s2">so as you can see there are many</p>
+<p begin="00:09:06.640" end="00:09:10.160" style="s2">questions that will arise but we&#39;ll only</p>
+<p begin="00:09:08.320" end="00:09:11.440" style="s2">see the answer to them in the future but</p>
+<p begin="00:09:10.160" end="00:09:13.279" style="s2">for now i feel</p>
+<p begin="00:09:11.440" end="00:09:14.399" style="s2">happy i feel hopeful i don&#39;t feel scared</p>
+<p begin="00:09:13.279" end="00:09:16.160" style="s2">i don&#39;t think it&#39;s going to replace</p>
+<p begin="00:09:14.399" end="00:09:18.160" style="s2">developers it will definitely not</p>
+<p begin="00:09:16.160" end="00:09:19.920" style="s2">i think when you see it on the landing</p>
+<p begin="00:09:18.160" end="00:09:20.320" style="s2">page of github it looks like it&#39;s the</p>
+<p begin="00:09:19.920" end="00:09:22.640" style="s2">end</p>
+<p begin="00:09:20.320" end="00:09:24.560" style="s2">but when you try it you realize nope we</p>
+<p begin="00:09:22.640" end="00:09:26.320" style="s2">are not even close this is going just to</p>
+<p begin="00:09:24.560" end="00:09:28.160" style="s2">be something for productivity</p>
+<p begin="00:09:26.320" end="00:09:29.920" style="s2">we are not even close to replacing</p>
+<p begin="00:09:28.160" end="00:09:32.399" style="s2">developers anytime soon</p>
+<p begin="00:09:29.920" end="00:09:34.080" style="s2">something funny is that if i ask copilot</p>
+<p begin="00:09:32.399" end="00:09:36.000" style="s2">what is the worst programming language</p>
+<p begin="00:09:34.080" end="00:09:37.680" style="s2">it will say javascript which i think is</p>
+<p begin="00:09:36.000" end="00:09:39.279" style="s2">interesting thank you so much for</p>
+<p begin="00:09:37.680" end="00:09:40.640" style="s2">watching please be happy today don&#39;t</p>
+<p begin="00:09:39.279" end="00:09:41.600" style="s2">forget to read ginji come to me that</p>
+<p begin="00:09:40.640" end="00:09:43.200" style="s2">sound hello</p>
+<p begin="00:09:41.600" end="00:09:51.839" style="s2">don&#39;t be scared we&#39;re not gonna replace</p>
+<p begin="00:09:43.200" end="00:09:51.839" style="s2">anytime soon see you on the next one</p>
+</div>
+</body>
+</tt>

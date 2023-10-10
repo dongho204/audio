@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.000" end="00:00:06.720" style="s2">and today we are going to talk about how</p>
+<p begin="00:00:04.380" end="00:00:09.240" style="s2">to scale our applications to millions of</p>
+<p begin="00:00:06.720" end="00:00:12.059" style="s2">users this video is based on a talk that</p>
+<p begin="00:00:09.240" end="00:00:14.580" style="s2">AWS gives every year where expert</p>
+<p begin="00:00:12.059" end="00:00:16.859" style="s2">Architects share advice and architecture</p>
+<p begin="00:00:14.580" end="00:00:20.279" style="s2">tips to build applications that can</p>
+<p begin="00:00:16.859" end="00:00:22.320" style="s2">scale to the max using the latest Cloud</p>
+<p begin="00:00:20.279" end="00:00:23.699" style="s2">Technologies we are going to start by</p>
+<p begin="00:00:22.320" end="00:00:26.039" style="s2">taking a look at the simplest</p>
+<p begin="00:00:23.699" end="00:00:28.619" style="s2">architecture we can think of and see how</p>
+<p begin="00:00:26.039" end="00:00:30.539" style="s2">we can improve it step by step until it</p>
+<p begin="00:00:28.619" end="00:00:33.120" style="s2">can handle millions of users and</p>
+<p begin="00:00:30.539" end="00:00:35.820" style="s2">requests per second this architecture is</p>
+<p begin="00:00:33.120" end="00:00:39.780" style="s2">what we used to do in the old days the</p>
+<p begin="00:00:35.820" end="00:00:42.300" style="s2">user is hitting Route 53 AWS DNS service</p>
+<p begin="00:00:39.780" end="00:00:44.640" style="s2">and the request is being forwarded to a</p>
+<p begin="00:00:42.300" end="00:00:46.800" style="s2">single server that does it all one</p>
+<p begin="00:00:44.640" end="00:00:49.260" style="s2">single server is serving the front end</p>
+<p begin="00:00:46.800" end="00:00:51.539" style="s2">running the logic of the backend and</p>
+<p begin="00:00:49.260" end="00:00:53.399" style="s2">hosting this database even though this</p>
+<p begin="00:00:51.539" end="00:00:55.680" style="s2">might work we are doing something we</p>
+<p begin="00:00:53.399" end="00:00:57.719" style="s2">should not do putting all the eggs in</p>
+<p begin="00:00:55.680" end="00:00:59.940" style="s2">one basket when we put all the eggs in</p>
+<p begin="00:00:57.719" end="00:01:02.460" style="s2">one basket when a server does everything</p>
+<p begin="00:00:59.940" end="00:01:04.260" style="s2">and the server goes down everything goes</p>
+<p begin="00:01:02.460" end="00:01:05.820" style="s2">down with it front-end backend and</p>
+<p begin="00:01:04.260" end="00:01:07.740" style="s2">database thanks to new front-end</p>
+<p begin="00:01:05.820" end="00:01:10.439" style="s2">Frameworks we have started to separate</p>
+<p begin="00:01:07.740" end="00:01:12.360" style="s2">front-end from backend and using AWS and</p>
+<p begin="00:01:10.439" end="00:01:14.820" style="s2">that separation will look like this</p>
+<p begin="00:01:12.360" end="00:01:17.280" style="s2">where we are using one server optimized</p>
+<p begin="00:01:14.820" end="00:01:19.860" style="s2">for static files serving our front-end</p>
+<p begin="00:01:17.280" end="00:01:22.020" style="s2">and a back-end hosting our logic and</p>
+<p begin="00:01:19.860" end="00:01:24.960" style="s2">data for our backend server we have many</p>
+<p begin="00:01:22.020" end="00:01:29.220" style="s2">options Amazon ec2 for virtual servers</p>
+<p begin="00:01:24.960" end="00:01:32.040" style="s2">Amazon ECS eks or fargate for container</p>
+<p begin="00:01:29.220" end="00:01:34.680" style="s2">management or AWS Lambda for a stateless</p>
+<p begin="00:01:32.040" end="00:01:37.079" style="s2">code execution at scale if we choose ec2</p>
+<p begin="00:01:34.680" end="00:01:38.820" style="s2">which is a single server we can go very</p>
+<p begin="00:01:37.079" end="00:01:40.740" style="s2">far but we don&#39;t have failover or</p>
+<p begin="00:01:38.820" end="00:01:43.140" style="s2">redundancy servers and we are still</p>
+<p begin="00:01:40.740" end="00:01:45.600" style="s2">putting all X in one basket if we look</p>
+<p begin="00:01:43.140" end="00:01:47.939" style="s2">at the options we have for compute there</p>
+<p begin="00:01:45.600" end="00:01:49.860" style="s2">is a spectrum the lower we go the more</p>
+<p begin="00:01:47.939" end="00:01:52.079" style="s2">we have to do configure and be</p>
+<p begin="00:01:49.860" end="00:01:54.659" style="s2">responsible for which is the case if we</p>
+<p begin="00:01:52.079" end="00:01:56.759" style="s2">choose to go to ec2 but if we go</p>
+<p begin="00:01:54.659" end="00:01:59.520" style="s2">serverless as you can see the only thing</p>
+<p begin="00:01:56.759" end="00:02:02.100" style="s2">we have to worry about is our code and</p>
+<p begin="00:01:59.520" end="00:02:03.899" style="s2">this is why Amazon recommends AWS app</p>
+<p begin="00:02:02.100" end="00:02:06.240" style="s2">Runner which is a good balance between</p>
+<p begin="00:02:03.899" end="00:02:08.280" style="s2">not having to worry about configuration</p>
+<p begin="00:02:06.240" end="00:02:11.160" style="s2">but also being in control of your</p>
+<p begin="00:02:08.280" end="00:02:13.680" style="s2">architecture with AWS app Runner we get</p>
+<p begin="00:02:11.160" end="00:02:15.720" style="s2">a load of balancer a server will Auto</p>
+<p begin="00:02:13.680" end="00:02:18.540" style="s2">scaling and other things that make</p>
+<p begin="00:02:15.720" end="00:02:20.819" style="s2">deploying elastic apps super easy using</p>
+<p begin="00:02:18.540" end="00:02:22.739" style="s2">App Runner it is now easier to scale and</p>
+<p begin="00:02:20.819" end="00:02:24.540" style="s2">increase performance for us as</p>
+<p begin="00:02:22.739" end="00:02:26.640" style="s2">developers the application became easier</p>
+<p begin="00:02:24.540" end="00:02:29.700" style="s2">to deploy and the eggs are not all in</p>
+<p begin="00:02:26.640" end="00:02:32.879" style="s2">one basket but what about the database</p>
+<p begin="00:02:29.700" end="00:02:34.980" style="s2">should we go for SQL or no SQL according</p>
+<p begin="00:02:32.879" end="00:02:37.680" style="s2">to AWS we should start with SQL</p>
+<p begin="00:02:34.980" end="00:02:39.540" style="s2">databases SQL is an established and</p>
+<p begin="00:02:37.680" end="00:02:42.300" style="s2">well-known technology there are lots of</p>
+<p begin="00:02:39.540" end="00:02:44.220" style="s2">existing code communities books and you</p>
+<p begin="00:02:42.300" end="00:02:46.980" style="s2">are not going to break SQL databases</p>
+<p begin="00:02:44.220" end="00:02:48.599" style="s2">with your first million users but if</p>
+<p begin="00:02:46.980" end="00:02:51.000" style="s2">you&#39;re one of those special cases that</p>
+<p begin="00:02:48.599" end="00:02:54.420" style="s2">might have terabytes of data per year</p>
+<p begin="00:02:51.000" end="00:02:56.940" style="s2">then you may need no SQL you might also</p>
+<p begin="00:02:54.420" end="00:02:59.400" style="s2">need nosql if you&#39;re building super low</p>
+<p begin="00:02:56.940" end="00:03:01.920" style="s2">latency applications have metadata</p>
+<p begin="00:02:59.400" end="00:03:04.800" style="s2">driven data sets or have an app that</p>
+<p begin="00:03:01.920" end="00:03:07.080" style="s2">ingests data at Super speeds like</p>
+<p begin="00:03:04.800" end="00:03:09.239" style="s2">thousands of Records per second because</p>
+<p begin="00:03:07.080" end="00:03:11.879" style="s2">that is not most of us we&#39;re going to go</p>
+<p begin="00:03:09.239" end="00:03:14.760" style="s2">with SQL the question is which SQL</p>
+<p begin="00:03:11.879" end="00:03:16.739" style="s2">database should we use Amazon Aurora is</p>
+<p begin="00:03:14.760" end="00:03:20.220" style="s2">the fastest growing service in the</p>
+<p begin="00:03:16.739" end="00:03:22.620" style="s2">history of AWS it is a serverless SQL</p>
+<p begin="00:03:20.220" end="00:03:25.200" style="s2">database that scales on demand it&#39;s</p>
+<p begin="00:03:22.620" end="00:03:27.360" style="s2">pay-per-use and according to Amazon is</p>
+<p begin="00:03:25.200" end="00:03:30.300" style="s2">several times faster than the standard</p>
+<p begin="00:03:27.360" end="00:03:31.620" style="s2">MySQL and postgresql database it&#39;s fully</p>
+<p begin="00:03:30.300" end="00:03:33.720" style="s2">managed which means that we don&#39;t have</p>
+<p begin="00:03:31.620" end="00:03:36.840" style="s2">to worry about Hardware provisioning</p>
+<p begin="00:03:33.720" end="00:03:39.840" style="s2">software patching setup configuration or</p>
+<p begin="00:03:36.840" end="00:03:41.700" style="s2">backups combining it all we will end up</p>
+<p begin="00:03:39.840" end="00:03:44.280" style="s2">with an architecture that has Auto</p>
+<p begin="00:03:41.700" end="00:03:46.860" style="s2">scaling both in the server using App</p>
+<p begin="00:03:44.280" end="00:03:48.599" style="s2">Runner and the database using Aurora we</p>
+<p begin="00:03:46.860" end="00:03:49.860" style="s2">don&#39;t manage the infrastructure which</p>
+<p begin="00:03:48.599" end="00:03:53.040" style="s2">means we don&#39;t have to worry about</p>
+<p begin="00:03:49.860" end="00:03:54.720" style="s2">updates operative systems security and</p>
+<p begin="00:03:53.040" end="00:03:57.000" style="s2">all that with this architecture we can</p>
+<p begin="00:03:54.720" end="00:03:59.459" style="s2">go incredibly far we can scale to more</p>
+<p begin="00:03:57.000" end="00:04:01.620" style="s2">than 10 000 users easy but here is where</p>
+<p begin="00:03:59.459" end="00:04:04.140" style="s2">Maybe we are going to have to optimize</p>
+<p begin="00:04:01.620" end="00:04:06.840" style="s2">some of the slow parts we can optimize</p>
+<p begin="00:04:04.140" end="00:04:08.700" style="s2">front-end backend and database in</p>
+<p begin="00:04:06.840" end="00:04:10.620" style="s2">different ways depending on what the</p>
+<p begin="00:04:08.700" end="00:04:13.560" style="s2">slow parts are to optimize the front end</p>
+<p begin="00:04:10.620" end="00:04:15.840" style="s2">we can use Amazon cloudfront a CDN or</p>
+<p begin="00:04:13.560" end="00:04:18.479" style="s2">content delivery Network that will copy</p>
+<p begin="00:04:15.840" end="00:04:21.419" style="s2">our static front-end file into more than</p>
+<p begin="00:04:18.479" end="00:04:23.580" style="s2">410 locations globally and give the</p>
+<p begin="00:04:21.419" end="00:04:25.919" style="s2">files to our users from the servers</p>
+<p begin="00:04:23.580" end="00:04:29.220" style="s2">closer to them to optimize the database</p>
+<p begin="00:04:25.919" end="00:04:31.860" style="s2">we can use Amazon RDS proxy with Aurora</p>
+<p begin="00:04:29.220" end="00:04:34.199" style="s2">read replicas read replicas are</p>
+<p begin="00:04:31.860" end="00:04:37.020" style="s2">read-only databases that get updated</p>
+<p begin="00:04:34.199" end="00:04:39.600" style="s2">only by the main database if we have</p>
+<p begin="00:04:37.020" end="00:04:42.600" style="s2">lots of read requests we can offload</p>
+<p begin="00:04:39.600" end="00:04:45.540" style="s2">some of the work of the main database by</p>
+<p begin="00:04:42.600" end="00:04:48.120" style="s2">using RDS proxy to redirect the read</p>
+<p begin="00:04:45.540" end="00:04:50.880" style="s2">request to the read replica and forward</p>
+<p begin="00:04:48.120" end="00:04:52.680" style="s2">the right request to the main one the</p>
+<p begin="00:04:50.880" end="00:04:54.180" style="s2">great thing about this pattern is that</p>
+<p begin="00:04:52.680" end="00:04:56.340" style="s2">you can keep adding more and more</p>
+<p begin="00:04:54.180" end="00:04:57.840" style="s2">replicas as you need them another thing</p>
+<p begin="00:04:56.340" end="00:05:00.479" style="s2">that we can do to make our database</p>
+<p begin="00:04:57.840" end="00:05:03.840" style="s2">faster is to not use the database at all</p>
+<p begin="00:05:00.479" end="00:05:06.060" style="s2">using Amazon elastic cache we can cache</p>
+<p begin="00:05:03.840" end="00:05:08.940" style="s2">the database responses to the most</p>
+<p begin="00:05:06.060" end="00:05:11.580" style="s2">expensive queries of our application in</p>
+<p begin="00:05:08.940" end="00:05:14.340" style="s2">this way when those requests come in we</p>
+<p begin="00:05:11.580" end="00:05:16.560" style="s2">can just provide the cached results from</p>
+<p begin="00:05:14.340" end="00:05:18.180" style="s2">elastic cache instead of hitting in the</p>
+<p begin="00:05:16.560" end="00:05:20.820" style="s2">database and now it&#39;s time to optimize</p>
+<p begin="00:05:18.180" end="00:05:22.620" style="s2">the bucket if we look at how app Runner</p>
+<p begin="00:05:20.820" end="00:05:25.500" style="s2">looks like under the hood we will see</p>
+<p begin="00:05:22.620" end="00:05:28.620" style="s2">that it is a load balancer and I request</p>
+<p begin="00:05:25.500" end="00:05:31.259" style="s2">a router that will hit ECS far gate</p>
+<p begin="00:05:28.620" end="00:05:33.360" style="s2">tasks where our backing code is running</p>
+<p begin="00:05:31.259" end="00:05:36.180" style="s2">the good news is that we can just scale</p>
+<p begin="00:05:33.360" end="00:05:38.520" style="s2">the number of ECS fargate tasks as</p>
+<p begin="00:05:36.180" end="00:05:41.340" style="s2">needed using App Runner with more</p>
+<p begin="00:05:38.520" end="00:05:45.060" style="s2">instances and basic configuration we can</p>
+<p begin="00:05:41.340" end="00:05:47.580" style="s2">scale to 5 000 concurrent requests which</p>
+<p begin="00:05:45.060" end="00:05:50.699" style="s2">at 2 seconds per request will mean that</p>
+<p begin="00:05:47.580" end="00:05:52.860" style="s2">you can perform more than 150</p>
+<p begin="00:05:50.699" end="00:05:54.780" style="s2">000 requests per minute this</p>
+<p begin="00:05:52.860" end="00:05:57.360" style="s2">architecture can handle hundreds of</p>
+<p begin="00:05:54.780" end="00:05:59.639" style="s2">thousands of requests and can take you</p>
+<p begin="00:05:57.360" end="00:06:01.800" style="s2">to millions of users but this is where</p>
+<p begin="00:05:59.639" end="00:06:03.780" style="s2">where you might start hitting some</p>
+<p begin="00:06:01.800" end="00:06:05.699" style="s2">limits of the services you are using</p>
+<p begin="00:06:03.780" end="00:06:08.340" style="s2">since we have a bunch of database</p>
+<p begin="00:06:05.699" end="00:06:10.259" style="s2">replicas for read operations we are okay</p>
+<p begin="00:06:08.340" end="00:06:13.259" style="s2">on that side but maybe because we only</p>
+<p begin="00:06:10.259" end="00:06:15.840" style="s2">have one database for write operations</p>
+<p begin="00:06:13.259" end="00:06:18.479" style="s2">that database might start to tap out</p>
+<p begin="00:06:15.840" end="00:06:20.699" style="s2">uprunner today has a limit of 200</p>
+<p begin="00:06:18.479" end="00:06:23.699" style="s2">connections per instance and we can only</p>
+<p begin="00:06:20.699" end="00:06:25.740" style="s2">have 25 instances per application if you</p>
+<p begin="00:06:23.699" end="00:06:27.360" style="s2">need more than that here is where you</p>
+<p begin="00:06:25.740" end="00:06:29.340" style="s2">might have to start rethinking the</p>
+<p begin="00:06:27.360" end="00:06:31.620" style="s2">architecture of your application and</p>
+<p begin="00:06:29.340" end="00:06:33.840" style="s2">start thinking about moving to a micro</p>
+<p begin="00:06:31.620" end="00:06:35.639" style="s2">service architecture the first thing we</p>
+<p begin="00:06:33.840" end="00:06:38.039" style="s2">could do to sort of divide our</p>
+<p begin="00:06:35.639" end="00:06:40.860" style="s2">application into multiple pieces is to</p>
+<p begin="00:06:38.039" end="00:06:43.500" style="s2">Federate our database we can divide our</p>
+<p begin="00:06:40.860" end="00:06:45.660" style="s2">big monolithic database into small</p>
+<p begin="00:06:43.500" end="00:06:48.180" style="s2">clusters that we can scale as we saw</p>
+<p begin="00:06:45.660" end="00:06:50.880" style="s2">before by adding read replicas and using</p>
+<p begin="00:06:48.180" end="00:06:53.220" style="s2">elastic cache whenever we need it maybe</p>
+<p begin="00:06:50.880" end="00:06:55.560" style="s2">if you have lots of data and it&#39;s coming</p>
+<p begin="00:06:53.220" end="00:06:58.620" style="s2">too quickly and is not structured it&#39;s</p>
+<p begin="00:06:55.560" end="00:07:01.440" style="s2">time to start shifting to no SQL you can</p>
+<p begin="00:06:58.620" end="00:07:04.020" style="s2">use dynamodb capable of millions of</p>
+<p begin="00:07:01.440" end="00:07:07.259" style="s2">transactions per second and used heavily</p>
+<p begin="00:07:04.020" end="00:07:09.660" style="s2">by big companies like amazon.com to</p>
+<p begin="00:07:07.259" end="00:07:11.639" style="s2">optimize the backend even more you can</p>
+<p begin="00:07:09.660" end="00:07:14.039" style="s2">take apart some of the routes of your</p>
+<p begin="00:07:11.639" end="00:07:16.319" style="s2">API and Leverage The Power of Lambda</p>
+<p begin="00:07:14.039" end="00:07:18.539" style="s2">functions to run your code just like we</p>
+<p begin="00:07:16.319" end="00:07:21.180" style="s2">divided our database we can divide our</p>
+<p begin="00:07:18.539" end="00:07:24.479" style="s2">API in small parts and we can use Amazon</p>
+<p begin="00:07:21.180" end="00:07:26.460" style="s2">API Gateway as the conductor redirecting</p>
+<p begin="00:07:24.479" end="00:07:28.979" style="s2">requests to different parts of our</p>
+<p begin="00:07:26.460" end="00:07:31.740" style="s2">application and it is with this idea of</p>
+<p begin="00:07:28.979" end="00:07:34.020" style="s2">separating caching and scaling the slow</p>
+<p begin="00:07:31.740" end="00:07:37.440" style="s2">part of our application that we can hit</p>
+<p begin="00:07:34.020" end="00:07:39.960" style="s2">10 million users to set yourself up for</p>
+<p begin="00:07:37.440" end="00:07:42.180" style="s2">Success the way you architect your</p>
+<p begin="00:07:39.960" end="00:07:44.639" style="s2">application is a decision that should be</p>
+<p begin="00:07:42.180" end="00:07:47.280" style="s2">made with careful consideration from the</p>
+<p begin="00:07:44.639" end="00:07:50.039" style="s2">start which is why AWS is sponsoring</p>
+<p begin="00:07:47.280" end="00:07:53.880" style="s2">this video AWS invites you to join the</p>
+<p begin="00:07:50.039" end="00:07:57.060" style="s2">AWS Builders online series The AWS</p>
+<p begin="00:07:53.880" end="00:07:59.099" style="s2">Builders online series is a free virtual</p>
+<p begin="00:07:57.060" end="00:08:01.199" style="s2">event designed to equip you with</p>
+<p begin="00:07:59.099" end="00:08:04.259" style="s2">essential AWS knowledge and</p>
+<p begin="00:08:01.199" end="00:08:08.099" style="s2">Architectural best practices it will</p>
+<p begin="00:08:04.259" end="00:08:10.139" style="s2">take place on Thursday July 13 of 2023.</p>
+<p begin="00:08:08.099" end="00:08:12.120" style="s2">regardless of whether you are a newbie</p>
+<p begin="00:08:10.139" end="00:08:14.400" style="s2">or an advanced user there is something</p>
+<p begin="00:08:12.120" end="00:08:17.160" style="s2">for everyone to learn the event will</p>
+<p begin="00:08:14.400" end="00:08:19.500" style="s2">feature free online training from AWS</p>
+<p begin="00:08:17.160" end="00:08:22.500" style="s2">experts for beginners covering the</p>
+<p begin="00:08:19.500" end="00:08:25.620" style="s2">basics of the AWS cloud and how to get</p>
+<p begin="00:08:22.500" end="00:08:28.259" style="s2">the most out of it in just three hours</p>
+<p begin="00:08:25.620" end="00:08:30.960" style="s2">and there will be 12 sessions of free</p>
+<p begin="00:08:28.259" end="00:08:33.839" style="s2">online training from AWS experts</p>
+<p begin="00:08:30.960" end="00:08:37.800" style="s2">covering cost optimization container</p>
+<p begin="00:08:33.839" end="00:08:40.260" style="s2">services compute Services databases data</p>
+<p begin="00:08:37.800" end="00:08:42.419" style="s2">pipelines and successful case studies</p>
+<p begin="00:08:40.260" end="00:08:45.300" style="s2">for more details on configuring Cloud</p>
+<p begin="00:08:42.419" end="00:08:46.920" style="s2">architectures for 10 million users check</p>
+<p begin="00:08:45.300" end="00:08:48.899" style="s2">out the opening session of the event</p>
+<p begin="00:08:46.920" end="00:08:51.360" style="s2">there will be technical demos and</p>
+<p begin="00:08:48.899" end="00:08:53.940" style="s2">attendees can even receive a certificate</p>
+<p begin="00:08:51.360" end="00:08:55.800" style="s2">of participation it&#39;s completely free</p>
+<p begin="00:08:53.940" end="00:08:58.019" style="s2">all you need to do is register by</p>
+<p begin="00:08:55.800" end="00:08:59.580" style="s2">clicking the link below in just three</p>
+<p begin="00:08:58.019" end="00:09:02.700" style="s2">hours you will go from learning the</p>
+<p begin="00:08:59.580" end="00:09:05.760" style="s2">concepts of AWS Cloud Core services to</p>
+<p begin="00:09:02.700" end="00:09:09.620" style="s2">actually utilizing the AWS Cloud don&#39;t</p>
+<p begin="00:09:05.760" end="00:09:14.660" style="s2">miss this free online event</p>
+<p begin="00:09:09.620" end="00:09:14.660" style="s2">see you on the next one bye bye</p>
+</div>
+</body>
+</tt>

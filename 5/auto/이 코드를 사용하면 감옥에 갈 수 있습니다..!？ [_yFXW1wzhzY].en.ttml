@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.399" end="00:00:05.839" style="s2">for the first time ever a piece of code</p>
+<p begin="00:00:02.960" end="00:00:08.480" style="s2">a smart contract a non-person has been</p>
+<p begin="00:00:05.839" end="00:00:10.240" style="s2">added to the us sanctions list</p>
+<p begin="00:00:08.480" end="00:00:12.719" style="s2">interacting with this code can get you a</p>
+<p begin="00:00:10.240" end="00:00:16.000" style="s2">fine of more than 300 000 dollars and it</p>
+<p begin="00:00:12.719" end="00:00:18.240" style="s2">can put you in jail for up to 30 years i</p>
+<p begin="00:00:16.000" end="00:00:20.160" style="s2">am of course talking about tornado cash</p>
+<p begin="00:00:18.240" end="00:00:22.560" style="s2">a cryptocurrency mixing service that is</p>
+<p begin="00:00:20.160" end="00:00:24.880" style="s2">used by many people as a privacy tool</p>
+<p begin="00:00:22.560" end="00:00:27.680" style="s2">aimed by north korean hackers to launder</p>
+<p begin="00:00:24.880" end="00:00:28.840" style="s2">millions of dollars of stolen coins</p>
+<p begin="00:00:27.680" end="00:00:30.560" style="s2">anonymous</p>
+<p begin="00:00:28.840" end="00:00:32.160" style="s2">nicolas</p>
+<p begin="00:00:30.560" end="00:00:34.399" style="s2">we are going to talk about the tornado</p>
+<p begin="00:00:32.160" end="00:00:36.320" style="s2">cache what is it and how does it work</p>
+<p begin="00:00:34.399" end="00:00:38.719" style="s2">the u.s sanctions list and what do they</p>
+<p begin="00:00:36.320" end="00:00:41.200" style="s2">mean for the crypto industry and we will</p>
+<p begin="00:00:38.719" end="00:00:44.000" style="s2">take a look at the ugly truth that these</p>
+<p begin="00:00:41.200" end="00:00:46.239" style="s2">sanctions exposed about the ethereum</p>
+<p begin="00:00:44.000" end="00:00:48.320" style="s2">network and the problems they might have</p>
+<p begin="00:00:46.239" end="00:00:50.399" style="s2">with the upcoming merge</p>
+<p begin="00:00:48.320" end="00:00:52.320" style="s2">bitcoin is a database and all you will</p>
+<p begin="00:00:50.399" end="00:00:54.000" style="s2">find in that database are records of</p>
+<p begin="00:00:52.320" end="00:00:56.480" style="s2">people sending money to each other</p>
+<p begin="00:00:54.000" end="00:00:57.920" style="s2">transactions bitcoin is also a public</p>
+<p begin="00:00:56.480" end="00:01:00.079" style="s2">database which means that you can see a</p>
+<p begin="00:00:57.920" end="00:01:02.320" style="s2">history of all transactions and you can</p>
+<p begin="00:01:00.079" end="00:01:04.400" style="s2">trace how the coins have moved and</p>
+<p begin="00:01:02.320" end="00:01:07.760" style="s2">changed hands all the way to when they</p>
+<p begin="00:01:04.400" end="00:01:09.360" style="s2">were first mined now that is a privacy</p>
+<p begin="00:01:07.760" end="00:01:12.320" style="s2">problem and that is the reason why</p>
+<p begin="00:01:09.360" end="00:01:14.240" style="s2">bitcoin is not the best tool to do money</p>
+<p begin="00:01:12.320" end="00:01:16.479" style="s2">laundering the wallets on the bitcoin</p>
+<p begin="00:01:14.240" end="00:01:18.799" style="s2">network don&#39;t have usernames but even if</p>
+<p begin="00:01:16.479" end="00:01:21.119" style="s2">they are anonymous it is fairly easy to</p>
+<p begin="00:01:18.799" end="00:01:23.920" style="s2">see which coins are moving and where</p>
+<p begin="00:01:21.119" end="00:01:26.560" style="s2">which allows exchanges to block hackers</p>
+<p begin="00:01:23.920" end="00:01:28.080" style="s2">from cashing out on their stolen profits</p>
+<p begin="00:01:26.560" end="00:01:30.159" style="s2">this is why if you are a hacker and you</p>
+<p begin="00:01:28.080" end="00:01:31.680" style="s2">want to launder money rather than using</p>
+<p begin="00:01:30.159" end="00:01:33.600" style="s2">bitcoin i would suggest to use a</p>
+<p begin="00:01:31.680" end="00:01:35.840" style="s2">different blockchain like ethereum</p>
+<p begin="00:01:33.600" end="00:01:38.799" style="s2">ethereum inherits the privacy problem</p>
+<p begin="00:01:35.840" end="00:01:40.560" style="s2">from bitcoin transactions are public but</p>
+<p begin="00:01:38.799" end="00:01:42.720" style="s2">where ethereum is different is that</p>
+<p begin="00:01:40.560" end="00:01:45.920" style="s2">ethereum allows developers to upload</p>
+<p begin="00:01:42.720" end="00:01:47.840" style="s2">their code to it and run it when code is</p>
+<p begin="00:01:45.920" end="00:01:50.000" style="s2">uploaded to the ethereum blockchain</p>
+<p begin="00:01:47.840" end="00:01:52.240" style="s2">three very important things happen the</p>
+<p begin="00:01:50.000" end="00:01:54.399" style="s2">code is able to receive and send money</p>
+<p begin="00:01:52.240" end="00:01:56.880" style="s2">just like a human would</p>
+<p begin="00:01:54.399" end="00:02:00.399" style="s2">no one even the creator of the code can</p>
+<p begin="00:01:56.880" end="00:02:04.000" style="s2">edit the code or delete it and anyone at</p>
+<p begin="00:02:00.399" end="00:02:05.439" style="s2">any point can run that code enter</p>
+<p begin="00:02:04.000" end="00:02:07.360" style="s2">tornado cache</p>
+<p begin="00:02:05.439" end="00:02:09.440" style="s2">tornado cache is a piece of code</p>
+<p begin="00:02:07.360" end="00:02:11.599" style="s2">uploaded to the ethereum blockchain that</p>
+<p begin="00:02:09.440" end="00:02:14.239" style="s2">allows users to have anonymous</p>
+<p begin="00:02:11.599" end="00:02:16.160" style="s2">transactions by creating a disconnection</p>
+<p begin="00:02:14.239" end="00:02:18.160" style="s2">between the person sending the money and</p>
+<p begin="00:02:16.160" end="00:02:19.599" style="s2">the person receiving the money the way</p>
+<p begin="00:02:18.160" end="00:02:21.920" style="s2">it works is brilliant and pretty</p>
+<p begin="00:02:19.599" end="00:02:24.959" style="s2">straightforward if you want to send 10</p>
+<p begin="00:02:21.920" end="00:02:26.560" style="s2">coins from a to b and you do it directly</p>
+<p begin="00:02:24.959" end="00:02:29.760" style="s2">everybody will know they will know how</p>
+<p begin="00:02:26.560" end="00:02:31.680" style="s2">much you send from who to who and when</p>
+<p begin="00:02:29.760" end="00:02:33.680" style="s2">to create a disconnect between the</p>
+<p begin="00:02:31.680" end="00:02:36.400" style="s2">sender and the receiver you can send</p>
+<p begin="00:02:33.680" end="00:02:38.400" style="s2">those 10 coins to tornado cash there</p>
+<p begin="00:02:36.400" end="00:02:41.440" style="s2">your coins will be put in a pool that</p>
+<p begin="00:02:38.400" end="00:02:44.160" style="s2">holds all the coins of all tornado cash</p>
+<p begin="00:02:41.440" end="00:02:45.840" style="s2">users effectively mixing them that&#39;s why</p>
+<p begin="00:02:44.160" end="00:02:47.360" style="s2">it&#39;s called a mixer</p>
+<p begin="00:02:45.840" end="00:02:49.040" style="s2">when you want to withdraw you can go</p>
+<p begin="00:02:47.360" end="00:02:51.360" style="s2">back to tornado cache and you can</p>
+<p begin="00:02:49.040" end="00:02:54.239" style="s2">receive the 10 coins that you deposited</p>
+<p begin="00:02:51.360" end="00:02:56.560" style="s2">on a brand new address effectively</p>
+<p begin="00:02:54.239" end="00:02:58.640" style="s2">creating the disconnect i know what</p>
+<p begin="00:02:56.560" end="00:03:00.599" style="s2">you&#39;re thinking this isn&#39;t private at</p>
+<p begin="00:02:58.640" end="00:03:03.599" style="s2">all if i deposit</p>
+<p begin="00:03:00.599" end="00:03:07.360" style="s2">333 coins in tornado cash and then some</p>
+<p begin="00:03:03.599" end="00:03:09.440" style="s2">anonymous user withdraws 333 coins they</p>
+<p begin="00:03:07.360" end="00:03:11.599" style="s2">will know it was me now this is why</p>
+<p begin="00:03:09.440" end="00:03:14.319" style="s2">tornado cash doesn&#39;t accept just any</p>
+<p begin="00:03:11.599" end="00:03:18.800" style="s2">amount you can only withdraw and deposit</p>
+<p begin="00:03:14.319" end="00:03:20.640" style="s2">0.1 or 1 or 10 or 100 it another</p>
+<p begin="00:03:18.800" end="00:03:22.640" style="s2">question you might have is how does</p>
+<p begin="00:03:20.640" end="00:03:26.080" style="s2">tornado cash know if the person that is</p>
+<p begin="00:03:22.640" end="00:03:29.360" style="s2">withdrawing the coins made a deposit</p>
+<p begin="00:03:26.080" end="00:03:31.680" style="s2">before without revealing their identity</p>
+<p begin="00:03:29.360" end="00:03:34.000" style="s2">when you send and deposit your coins in</p>
+<p begin="00:03:31.680" end="00:03:36.799" style="s2">tornado cash you will send them along</p>
+<p begin="00:03:34.000" end="00:03:39.599" style="s2">with a hash like a signature that only</p>
+<p begin="00:03:36.799" end="00:03:42.640" style="s2">you can create tornado cash will save</p>
+<p begin="00:03:39.599" end="00:03:44.640" style="s2">your deposit along with your signature</p>
+<p begin="00:03:42.640" end="00:03:46.879" style="s2">when it&#39;s time to withdraw you don&#39;t</p>
+<p begin="00:03:44.640" end="00:03:49.280" style="s2">send the signature because if you did it</p>
+<p begin="00:03:46.879" end="00:03:51.680" style="s2">will be very easy to know your identity</p>
+<p begin="00:03:49.280" end="00:03:54.000" style="s2">instead you will send something called a</p>
+<p begin="00:03:51.680" end="00:03:56.239" style="s2">zero knowledge proof which basically</p>
+<p begin="00:03:54.000" end="00:03:59.680" style="s2">means that you will prove to tornado</p>
+<p begin="00:03:56.239" end="00:04:03.200" style="s2">cash that you hold a signature that was</p>
+<p begin="00:03:59.680" end="00:04:06.080" style="s2">sent before but you don&#39;t need to reveal</p>
+<p begin="00:04:03.200" end="00:04:08.560" style="s2">what signature it is zero knowledge</p>
+<p begin="00:04:06.080" end="00:04:10.799" style="s2">proofs allows you to prove that you know</p>
+<p begin="00:04:08.560" end="00:04:13.680" style="s2">something without revealing what</p>
+<p begin="00:04:10.799" end="00:04:15.439" style="s2">something is they are an amazing</p>
+<p begin="00:04:13.680" end="00:04:17.600" style="s2">cryptographic invention and they&#39;re</p>
+<p begin="00:04:15.439" end="00:04:19.680" style="s2">actually very hard to explain in a few</p>
+<p begin="00:04:17.600" end="00:04:21.040" style="s2">seconds so if you want me i could make a</p>
+<p begin="00:04:19.680" end="00:04:23.600" style="s2">video about it because it&#39;s a</p>
+<p begin="00:04:21.040" end="00:04:26.800" style="s2">mind-blowing almost magical thing the</p>
+<p begin="00:04:23.600" end="00:04:29.120" style="s2">8th of august of 2022 tornado cache was</p>
+<p begin="00:04:26.800" end="00:04:30.880" style="s2">sanctioned by the u.s government saying</p>
+<p begin="00:04:29.120" end="00:04:33.360" style="s2">that it has been used to launder more</p>
+<p begin="00:04:30.880" end="00:04:35.919" style="s2">than seven billion dollars of</p>
+<p begin="00:04:33.360" end="00:04:38.240" style="s2">cryptocurrency tornado cash was added to</p>
+<p begin="00:04:35.919" end="00:04:41.440" style="s2">the specially designated nationals and</p>
+<p begin="00:04:38.240" end="00:04:44.880" style="s2">blocked persons lists of the office of</p>
+<p begin="00:04:41.440" end="00:04:46.320" style="s2">foreign assets control aka ofac what</p>
+<p begin="00:04:44.880" end="00:04:49.600" style="s2">that basically means is that it is</p>
+<p begin="00:04:46.320" end="00:04:52.320" style="s2">illegal for any u.s citizen resident or</p>
+<p begin="00:04:49.600" end="00:04:54.720" style="s2">company to do business with any entity</p>
+<p begin="00:04:52.320" end="00:04:57.600" style="s2">on that list which by the way includes</p>
+<p begin="00:04:54.720" end="00:05:00.320" style="s2">actors such as cuba iran and north korea</p>
+<p begin="00:04:57.600" end="00:05:03.759" style="s2">and it now contains the address of the</p>
+<p begin="00:05:00.320" end="00:05:06.400" style="s2">tornado cash code and all its related</p>
+<p begin="00:05:03.759" end="00:05:08.320" style="s2">wallets which means that any u.s person</p>
+<p begin="00:05:06.400" end="00:05:10.560" style="s2">or entity that interacts with tornado</p>
+<p begin="00:05:08.320" end="00:05:12.639" style="s2">caches code might be breaking the law it</p>
+<p begin="00:05:10.560" end="00:05:15.039" style="s2">might be subject to a fine and potential</p>
+<p begin="00:05:12.639" end="00:05:17.280" style="s2">jail time now after this happened many</p>
+<p begin="00:05:15.039" end="00:05:19.360" style="s2">u.s companies started to freak out so</p>
+<p begin="00:05:17.280" end="00:05:22.880" style="s2">the source code of tornado cache was</p>
+<p begin="00:05:19.360" end="00:05:25.440" style="s2">deleted from github github also banned</p>
+<p begin="00:05:22.880" end="00:05:27.919" style="s2">the personal accounts of tornado cash&#39;s</p>
+<p begin="00:05:25.440" end="00:05:30.560" style="s2">developers the company behind the usdc a</p>
+<p begin="00:05:27.919" end="00:05:33.759" style="s2">stablecoin blacklisted the coins stored</p>
+<p begin="00:05:30.560" end="00:05:36.080" style="s2">in the tornado cash code and a man being</p>
+<p begin="00:05:33.759" end="00:05:38.400" style="s2">a suspect of being a tornado cash</p>
+<p begin="00:05:36.080" end="00:05:40.160" style="s2">developer was arrested in the</p>
+<p begin="00:05:38.400" end="00:05:42.160" style="s2">netherlands now it&#39;s very worrying that</p>
+<p begin="00:05:40.160" end="00:05:44.479" style="s2">they are going after the tool and the</p>
+<p begin="00:05:42.160" end="00:05:47.440" style="s2">developers of that tool instead of going</p>
+<p begin="00:05:44.479" end="00:05:49.520" style="s2">after the bad actors that use the tool</p>
+<p begin="00:05:47.440" end="00:05:51.520" style="s2">it is true that north korean hackers and</p>
+<p begin="00:05:49.520" end="00:05:53.919" style="s2">other bad actors actually use tornado</p>
+<p begin="00:05:51.520" end="00:05:56.400" style="s2">cash to launder their stolen funds that</p>
+<p begin="00:05:53.919" end="00:05:58.560" style="s2">is a fact but north korean hackers are</p>
+<p begin="00:05:56.400" end="00:06:01.199" style="s2">also potentially using privacy services</p>
+<p begin="00:05:58.560" end="00:06:03.120" style="s2">like vpns should we go after vpn</p>
+<p begin="00:06:01.199" end="00:06:04.880" style="s2">providers and developers money</p>
+<p begin="00:06:03.120" end="00:06:06.639" style="s2">laundering isn&#39;t the only reason why</p>
+<p begin="00:06:04.880" end="00:06:09.120" style="s2">people use tornado cash it&#39;s just a</p>
+<p begin="00:06:06.639" end="00:06:11.039" style="s2">privacy solution vitalik buttering the</p>
+<p begin="00:06:09.120" end="00:06:13.680" style="s2">creator of ethereum said that he has</p>
+<p begin="00:06:11.039" end="00:06:16.240" style="s2">used tornado cash before as a privacy</p>
+<p begin="00:06:13.680" end="00:06:19.039" style="s2">tool to donate to ukrainian refugees and</p>
+<p begin="00:06:16.240" end="00:06:21.199" style="s2">protect their identity the 7 billion</p>
+<p begin="00:06:19.039" end="00:06:23.199" style="s2">dollar figure that is mentioned on the</p>
+<p begin="00:06:21.199" end="00:06:25.840" style="s2">sanction might not actually be a hundred</p>
+<p begin="00:06:23.199" end="00:06:28.000" style="s2">percent accurate seven billion is the</p>
+<p begin="00:06:25.840" end="00:06:30.720" style="s2">amount of money that has passed through</p>
+<p begin="00:06:28.000" end="00:06:32.560" style="s2">tornado cash in its lifetime on this</p>
+<p begin="00:06:30.720" end="00:06:34.560" style="s2">chart you can see where the money that</p>
+<p begin="00:06:32.560" end="00:06:36.880" style="s2">interacts with tornado comes from as you</p>
+<p begin="00:06:34.560" end="00:06:39.840" style="s2">can see some of it comes from stolen</p>
+<p begin="00:06:36.880" end="00:06:42.400" style="s2">phones and suction actors but most of it</p>
+<p begin="00:06:39.840" end="00:06:44.880" style="s2">comes from defy users and centralized</p>
+<p begin="00:06:42.400" end="00:06:47.120" style="s2">exchanges nevertheless it looks like</p>
+<p begin="00:06:44.880" end="00:06:49.440" style="s2">these sanctions will get challenged in</p>
+<p begin="00:06:47.120" end="00:06:52.560" style="s2">court since the tornado cash contract</p>
+<p begin="00:06:49.440" end="00:06:54.880" style="s2">isn&#39;t a person or a company it&#39;s just</p>
+<p begin="00:06:52.560" end="00:06:57.199" style="s2">code and code seems to be protected</p>
+<p begin="00:06:54.880" end="00:07:00.080" style="s2">under free speech now keep in mind that</p>
+<p begin="00:06:57.199" end="00:07:02.639" style="s2">according to ofac quotes the ultimate</p>
+<p begin="00:07:00.080" end="00:07:05.039" style="s2">goal of sanctions is not to punish but</p>
+<p begin="00:07:02.639" end="00:07:08.080" style="s2">to bring about a positive change in</p>
+<p begin="00:07:05.039" end="00:07:10.560" style="s2">behavior every year ofac removes</p>
+<p begin="00:07:08.080" end="00:07:13.599" style="s2">hundreds of individuals and entities</p>
+<p begin="00:07:10.560" end="00:07:15.039" style="s2">from the sdn list if that&#39;s the case if</p>
+<p begin="00:07:13.599" end="00:07:16.800" style="s2">they don&#39;t want to punish but instead</p>
+<p begin="00:07:15.039" end="00:07:18.960" style="s2">they want to change to a positive</p>
+<p begin="00:07:16.800" end="00:07:21.840" style="s2">behavior it makes no sense to add</p>
+<p begin="00:07:18.960" end="00:07:24.800" style="s2">tornado cash&#39;s code to that list that</p>
+<p begin="00:07:21.840" end="00:07:28.479" style="s2">code is immutable it doesn&#39;t have agency</p>
+<p begin="00:07:24.800" end="00:07:30.560" style="s2">it cannot change behavior it&#39;s just code</p>
+<p begin="00:07:28.479" end="00:07:33.440" style="s2">and also from a technical point of view</p>
+<p begin="00:07:30.560" end="00:07:35.440" style="s2">enforcing these sanctions might not be</p>
+<p begin="00:07:33.440" end="00:07:37.120" style="s2">feasible after the sanctions were</p>
+<p begin="00:07:35.440" end="00:07:40.080" style="s2">announced people that had money in</p>
+<p begin="00:07:37.120" end="00:07:44.080" style="s2">tornado cash spent more than 50 000</p>
+<p begin="00:07:40.080" end="00:07:46.479" style="s2">dollars withdrawing 0.18 to high profile</p>
+<p begin="00:07:44.080" end="00:07:49.440" style="s2">ethereum addresses like for example the</p>
+<p begin="00:07:46.479" end="00:07:51.599" style="s2">ceo of coinbase or the nft artist people</p>
+<p begin="00:07:49.440" end="00:07:53.280" style="s2">jimmy fallon dave chappelle snoop dogg</p>
+<p begin="00:07:51.599" end="00:07:56.160" style="s2">and the basketball player shaquille</p>
+<p begin="00:07:53.280" end="00:07:57.680" style="s2">o&#39;neal those people are all u.s citizens</p>
+<p begin="00:07:56.160" end="00:08:00.080" style="s2">and because of how blockchain works you</p>
+<p begin="00:07:57.680" end="00:08:02.160" style="s2">cannot reject a transaction so this</p>
+<p begin="00:08:00.080" end="00:08:04.000" style="s2">means that on paper those people have</p>
+<p begin="00:08:02.160" end="00:08:05.919" style="s2">interacted with the tornado caches</p>
+<p begin="00:08:04.000" end="00:08:08.080" style="s2">contract which means they&#39;re breaking</p>
+<p begin="00:08:05.919" end="00:08:10.639" style="s2">the law for example what happens if an</p>
+<p begin="00:08:08.080" end="00:08:13.120" style="s2">ethereum us validator processes a</p>
+<p begin="00:08:10.639" end="00:08:15.199" style="s2">transaction from somebody in peru that</p>
+<p begin="00:08:13.120" end="00:08:16.960" style="s2">is interacting with tornado cash is the</p>
+<p begin="00:08:15.199" end="00:08:19.599" style="s2">validator breaking the law for</p>
+<p begin="00:08:16.960" end="00:08:21.360" style="s2">facilitating money laundering if that</p>
+<p begin="00:08:19.599" end="00:08:22.879" style="s2">was true then maybe u.s validators will</p>
+<p begin="00:08:21.360" end="00:08:24.879" style="s2">have to run their own version of</p>
+<p begin="00:08:22.879" end="00:08:27.680" style="s2">ethereum that excludes and checks for</p>
+<p begin="00:08:24.879" end="00:08:29.759" style="s2">sanctioned addresses and code if they</p>
+<p begin="00:08:27.680" end="00:08:31.520" style="s2">did that then the rest of the world will</p>
+<p begin="00:08:29.759" end="00:08:34.159" style="s2">exclude that chain and we will end up</p>
+<p begin="00:08:31.520" end="00:08:36.159" style="s2">with ethereum and ethereum usa to</p>
+<p begin="00:08:34.159" end="00:08:38.719" style="s2">conclude tornado cache is still</p>
+<p begin="00:08:36.159" end="00:08:41.039" style="s2">operating it&#39;s still running it can&#39;t be</p>
+<p begin="00:08:38.719" end="00:08:43.599" style="s2">taken down showing the power and the</p>
+<p begin="00:08:41.039" end="00:08:45.680" style="s2">censorship resistance of blockchain and</p>
+<p begin="00:08:43.599" end="00:08:48.160" style="s2">the ethereum network north korean</p>
+<p begin="00:08:45.680" end="00:08:51.040" style="s2">hackers can still use tornado cash but</p>
+<p begin="00:08:48.160" end="00:08:53.760" style="s2">u.s citizens lost access to a tool that</p>
+<p begin="00:08:51.040" end="00:08:55.920" style="s2">gives them privacy now to be clear i</p>
+<p begin="00:08:53.760" end="00:08:58.480" style="s2">think that we should go after hackers</p>
+<p begin="00:08:55.920" end="00:09:00.640" style="s2">and people that steal money but i don&#39;t</p>
+<p begin="00:08:58.480" end="00:09:03.440" style="s2">think we should go after tools and</p>
+<p begin="00:09:00.640" end="00:09:05.920" style="s2">developers of those tools that will hurt</p>
+<p begin="00:09:03.440" end="00:09:08.080" style="s2">innovation what these sanctions exposed</p>
+<p begin="00:09:05.920" end="00:09:10.560" style="s2">is how much the crypto community is</p>
+<p begin="00:09:08.080" end="00:09:12.959" style="s2">relying on the u.s service providers</p>
+<p begin="00:09:10.560" end="00:09:15.600" style="s2">that are subject to u.s sanctions and</p>
+<p begin="00:09:12.959" end="00:09:18.000" style="s2">law with the move to proof-of-stake u.s</p>
+<p begin="00:09:15.600" end="00:09:20.480" style="s2">exchanges that have a lot of heat will</p>
+<p begin="00:09:18.000" end="00:09:22.720" style="s2">become very powerful validators which</p>
+<p begin="00:09:20.480" end="00:09:24.959" style="s2">means that if the u.s law requires them</p>
+<p begin="00:09:22.720" end="00:09:27.279" style="s2">they might have to censor transactions</p>
+<p begin="00:09:24.959" end="00:09:29.600" style="s2">on the blocks they provide which might</p>
+<p begin="00:09:27.279" end="00:09:31.680" style="s2">create a sensor version of the ethereum</p>
+<p begin="00:09:29.600" end="00:09:33.920" style="s2">network maybe creating a hard fork or</p>
+<p begin="00:09:31.680" end="00:09:35.600" style="s2">slashing the user&#39;s funds who knows</p>
+<p begin="00:09:33.920" end="00:09:37.680" style="s2">thank you for watching this video let me</p>
+<p begin="00:09:35.600" end="00:09:39.600" style="s2">know in the comments what would you do</p>
+<p begin="00:09:37.680" end="00:09:41.600" style="s2">would you ban a tool because it&#39;s used</p>
+<p begin="00:09:39.600" end="00:09:42.640" style="s2">by bad people but also by good people</p>
+<p begin="00:09:41.600" end="00:09:44.480" style="s2">what do you think let me know in the</p>
+<p begin="00:09:42.640" end="00:09:46.399" style="s2">comments i&#39;m very curious about what you</p>
+<p begin="00:09:44.480" end="00:09:47.760" style="s2">have to say thank you as always for</p>
+<p begin="00:09:46.399" end="00:09:49.200" style="s2">watching and don&#39;t forget if you want to</p>
+<p begin="00:09:47.760" end="00:09:51.200" style="s2">learn to code and you want to do it for</p>
+<p begin="00:09:49.200" end="00:09:53.440" style="s2">absolutely free then please click the</p>
+<p begin="00:09:51.200" end="00:09:56.320" style="s2">link below and i will see you there stay</p>
+<p begin="00:09:53.440" end="00:09:58.170" style="s2">free stay healthy eat genji</p>
+<p begin="00:09:56.320" end="00:10:05.200" style="s2">see you on the next one</p>
+<p begin="00:09:58.170" end="00:10:07.320" style="s2">[Music]</p>
+<p begin="00:10:05.200" end="00:10:18.959" style="s2">tomato constructor</p>
+<p begin="00:10:07.320" end="00:10:21.040" style="s2">[Music]</p>
+<p begin="00:10:18.959" end="00:10:21.040" style="s2">you</p>
+</div>
+</body>
+</tt>

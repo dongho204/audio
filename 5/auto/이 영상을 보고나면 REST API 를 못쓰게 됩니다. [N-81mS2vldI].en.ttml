@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.960" end="00:00:07.279" style="s2">i want to talk to you about graphql this</p>
+<p begin="00:00:05.759" end="00:00:09.840" style="s2">is because we just finished recording</p>
+<p begin="00:00:07.279" end="00:00:12.080" style="s2">subtitling and uploading a free two and</p>
+<p begin="00:00:09.840" end="00:00:15.120" style="s2">a half hour graphql course that you can</p>
+<p begin="00:00:12.080" end="00:00:16.880" style="s2">take right now for free but before you</p>
+<p begin="00:00:15.120" end="00:00:18.480" style="s2">click on the link below watch this video</p>
+<p begin="00:00:16.880" end="00:00:20.560" style="s2">until the end because we are going to</p>
+<p begin="00:00:18.480" end="00:00:23.119" style="s2">talk about graphql where does it come</p>
+<p begin="00:00:20.560" end="00:00:25.680" style="s2">from why was it created what problems</p>
+<p begin="00:00:23.119" end="00:00:28.800" style="s2">does it fix and most importantly of all</p>
+<p begin="00:00:25.680" end="00:00:30.320" style="s2">who should learn graphql a graphql was</p>
+<p begin="00:00:28.800" end="00:00:34.079" style="s2">created by facebook and it has been</p>
+<p begin="00:00:30.320" end="00:00:37.440" style="s2">powering the facebook apps since 2012.</p>
+<p begin="00:00:34.079" end="00:00:40.879" style="s2">now in 2015 facebook open sourced the</p>
+<p begin="00:00:37.440" end="00:00:44.000" style="s2">graphql specification specification or</p>
+<p begin="00:00:40.879" end="00:00:47.280" style="s2">spec means that graphql is just a set of</p>
+<p begin="00:00:44.000" end="00:00:49.760" style="s2">rules and ideas written on a paper that</p>
+<p begin="00:00:47.280" end="00:00:51.920" style="s2">is the paper that was open sourced</p>
+<p begin="00:00:49.760" end="00:00:53.440" style="s2">graphql is just an idea and for this</p>
+<p begin="00:00:51.920" end="00:00:56.320" style="s2">reason you cannot actually go to a</p>
+<p begin="00:00:53.440" end="00:00:58.239" style="s2">website and click download graphql what</p>
+<p begin="00:00:56.320" end="00:01:01.199" style="s2">we can actually download and use are</p>
+<p begin="00:00:58.239" end="00:01:03.199" style="s2">graphql implementations implementations</p>
+<p begin="00:01:01.199" end="00:01:05.920" style="s2">are created by really cool people that</p>
+<p begin="00:01:03.199" end="00:01:09.040" style="s2">sit and read the graphql specification</p>
+<p begin="00:01:05.920" end="00:01:10.960" style="s2">and translate those rules to actual code</p>
+<p begin="00:01:09.040" end="00:01:13.360" style="s2">this means that graphql is not actually</p>
+<p begin="00:01:10.960" end="00:01:16.400" style="s2">bounded to any specific language you can</p>
+<p begin="00:01:13.360" end="00:01:18.960" style="s2">use graphql in javascript python rost c</p>
+<p begin="00:01:16.400" end="00:01:22.560" style="s2">sharp java whatever you want as long as</p>
+<p begin="00:01:18.960" end="00:01:24.479" style="s2">somebody implemented the graphql spec</p>
+<p begin="00:01:22.560" end="00:01:26.080" style="s2">now to understand why graphql was</p>
+<p begin="00:01:24.479" end="00:01:28.479" style="s2">created we have to understand what</p>
+<p begin="00:01:26.080" end="00:01:31.600" style="s2">problem does it fix so now let&#39;s talk</p>
+<p begin="00:01:28.479" end="00:01:33.920" style="s2">about what is the point of graphql</p>
+<p begin="00:01:31.600" end="00:01:35.680" style="s2">graphql was created by facebook to fix</p>
+<p begin="00:01:33.920" end="00:01:37.520" style="s2">some problems that they were having with</p>
+<p begin="00:01:35.680" end="00:01:40.320" style="s2">rest apis so for this we have to</p>
+<p begin="00:01:37.520" end="00:01:41.920" style="s2">remember what apis are an api is an</p>
+<p begin="00:01:40.320" end="00:01:44.560" style="s2">interface that we can use in this</p>
+<p begin="00:01:41.920" end="00:01:46.159" style="s2">context to communicate with a server in</p>
+<p begin="00:01:44.560" end="00:01:48.560" style="s2">your iphone or android you have the</p>
+<p begin="00:01:46.159" end="00:01:51.600" style="s2">instagram app this instagram app has to</p>
+<p begin="00:01:48.560" end="00:01:54.720" style="s2">communicate with the facebook&#39;s servers</p>
+<p begin="00:01:51.600" end="00:01:57.439" style="s2">this communication happens using an api</p>
+<p begin="00:01:54.720" end="00:02:00.399" style="s2">now the most popular kind of api is a</p>
+<p begin="00:01:57.439" end="00:02:03.119" style="s2">rest api and rest apis are very easy to</p>
+<p begin="00:02:00.399" end="00:02:06.000" style="s2">understand the way rest apis work is by</p>
+<p begin="00:02:03.119" end="00:02:08.000" style="s2">having multiple urls every url is</p>
+<p begin="00:02:06.000" end="00:02:10.560" style="s2">different and unique and they all give</p>
+<p begin="00:02:08.000" end="00:02:13.440" style="s2">you a different kind of data let&#39;s take</p>
+<p begin="00:02:10.560" end="00:02:15.520" style="s2">the twitter rest api for example if you</p>
+<p begin="00:02:13.440" end="00:02:17.680" style="s2">use the twitter app or the website when</p>
+<p begin="00:02:15.520" end="00:02:20.400" style="s2">you go to the profile of elon musk for</p>
+<p begin="00:02:17.680" end="00:02:24.160" style="s2">example your app or your browser are</p>
+<p begin="00:02:20.400" end="00:02:26.480" style="s2">both going to send a request to this url</p>
+<p begin="00:02:24.160" end="00:02:29.840" style="s2">this is a url that will give you all the</p>
+<p begin="00:02:26.480" end="00:02:32.080" style="s2">tweets for a user provided the id that</p>
+<p begin="00:02:29.840" end="00:02:35.280" style="s2">id in this case is the id of elon musk</p>
+<p begin="00:02:32.080" end="00:02:37.840" style="s2">on twitter&#39;s database this url will not</p>
+<p begin="00:02:35.280" end="00:02:39.599" style="s2">return a website we are usually used to</p>
+<p begin="00:02:37.840" end="00:02:41.680" style="s2">urls returning a website when you go to</p>
+<p begin="00:02:39.599" end="00:02:44.000" style="s2">youtube.com you are used to seeing a</p>
+<p begin="00:02:41.680" end="00:02:47.360" style="s2">website for this kind of url which is a</p>
+<p begin="00:02:44.000" end="00:02:49.200" style="s2">rest api url will not give you a website</p>
+<p begin="00:02:47.360" end="00:02:52.879" style="s2">it will give you just data it will give</p>
+<p begin="00:02:49.200" end="00:02:55.440" style="s2">you data in a json format now this data</p>
+<p begin="00:02:52.879" end="00:02:57.360" style="s2">is what your iphone or your browser are</p>
+<p begin="00:02:55.440" end="00:02:59.360" style="s2">going to take and then they are going to</p>
+<p begin="00:02:57.360" end="00:03:01.840" style="s2">paint it in a beautiful way and the</p>
+<p begin="00:02:59.360" end="00:03:04.800" style="s2">twitter rest api is full of this kind of</p>
+<p begin="00:03:01.840" end="00:03:07.200" style="s2">urls if for example we want to know who</p>
+<p begin="00:03:04.800" end="00:03:10.480" style="s2">is elon musk following we will have to</p>
+<p begin="00:03:07.200" end="00:03:12.560" style="s2">visit a url like this one or if you want</p>
+<p begin="00:03:10.480" end="00:03:14.959" style="s2">to know who is following elon musk all</p>
+<p begin="00:03:12.560" end="00:03:15.760" style="s2">we have to do is go to a url like this</p>
+<p begin="00:03:14.959" end="00:03:17.840" style="s2">one</p>
+<p begin="00:03:15.760" end="00:03:20.319" style="s2">these urls are actually not visited by</p>
+<p begin="00:03:17.840" end="00:03:22.879" style="s2">humans this is the url that your phone</p>
+<p begin="00:03:20.319" end="00:03:25.200" style="s2">would request to get that data and like</p>
+<p begin="00:03:22.879" end="00:03:27.200" style="s2">i said the rest api of twitter is full</p>
+<p begin="00:03:25.200" end="00:03:29.760" style="s2">of urls like this that are very useful</p>
+<p begin="00:03:27.200" end="00:03:32.080" style="s2">for every different case for example if</p>
+<p begin="00:03:29.760" end="00:03:34.000" style="s2">we search for the word banana on the</p>
+<p begin="00:03:32.080" end="00:03:36.159" style="s2">twitter app for ios and android the</p>
+<p begin="00:03:34.000" end="00:03:38.959" style="s2">twitter app is going to send a request</p>
+<p begin="00:03:36.159" end="00:03:41.120" style="s2">to the twitter api to a url like this</p>
+<p begin="00:03:38.959" end="00:03:43.519" style="s2">one searching for banana</p>
+<p begin="00:03:41.120" end="00:03:46.159" style="s2">this way of structuring an api by</p>
+<p begin="00:03:43.519" end="00:03:49.360" style="s2">creating a different url for everything</p>
+<p begin="00:03:46.159" end="00:03:52.799" style="s2">is called rest and rest apis are really</p>
+<p begin="00:03:49.360" end="00:03:55.200" style="s2">really popular but rest has two big</p>
+<p begin="00:03:52.799" end="00:03:57.360" style="s2">problems that facebook ran into and they</p>
+<p begin="00:03:55.200" end="00:03:59.439" style="s2">are called over fetching and under</p>
+<p begin="00:03:57.360" end="00:04:02.239" style="s2">fetching to fix these two problems is</p>
+<p begin="00:03:59.439" end="00:04:04.640" style="s2">why facebook created graphql so let&#39;s</p>
+<p begin="00:04:02.239" end="00:04:06.959" style="s2">start with over fetching overfetching</p>
+<p begin="00:04:04.640" end="00:04:09.439" style="s2">means that you receive more data than</p>
+<p begin="00:04:06.959" end="00:04:11.599" style="s2">what you actually need so for example</p>
+<p begin="00:04:09.439" end="00:04:13.280" style="s2">using the excellent the movie database</p>
+<p begin="00:04:11.599" end="00:04:15.519" style="s2">rest api which is a database that you</p>
+<p begin="00:04:13.280" end="00:04:18.400" style="s2">can use to get almost any info you want</p>
+<p begin="00:04:15.519" end="00:04:21.120" style="s2">on movies or tv shows if we want to know</p>
+<p begin="00:04:18.400" end="00:04:23.199" style="s2">which movies are coming up soon all we</p>
+<p begin="00:04:21.120" end="00:04:26.400" style="s2">have to do is go to the slash movie</p>
+<p begin="00:04:23.199" end="00:04:28.000" style="s2">slash upcoming url now when we receive</p>
+<p begin="00:04:26.400" end="00:04:30.160" style="s2">that response we&#39;re gonna receive</p>
+<p begin="00:04:28.000" end="00:04:32.080" style="s2">something like this</p>
+<p begin="00:04:30.160" end="00:04:34.880" style="s2">as you can see here we get data about</p>
+<p begin="00:04:32.080" end="00:04:37.840" style="s2">the movie the title the popularity the</p>
+<p begin="00:04:34.880" end="00:04:39.440" style="s2">release date among many other things now</p>
+<p begin="00:04:37.840" end="00:04:41.600" style="s2">please imagine that we were making a</p>
+<p begin="00:04:39.440" end="00:04:43.440" style="s2">movie app and we received this data but</p>
+<p begin="00:04:41.600" end="00:04:46.160" style="s2">what we actually show to the user is</p>
+<p begin="00:04:43.440" end="00:04:48.320" style="s2">just the title of the movie if we do</p>
+<p begin="00:04:46.160" end="00:04:50.400" style="s2">this if we only show the title of the</p>
+<p begin="00:04:48.320" end="00:04:52.160" style="s2">movie and nothing else we are basically</p>
+<p begin="00:04:50.400" end="00:04:54.080" style="s2">wasting all the data that we just</p>
+<p begin="00:04:52.160" end="00:04:56.000" style="s2">received it doesn&#39;t make sense to fetch</p>
+<p begin="00:04:54.080" end="00:04:58.800" style="s2">all the data if we are not going to use</p>
+<p begin="00:04:56.000" end="00:05:00.800" style="s2">it and that is over fetching instead if</p>
+<p begin="00:04:58.800" end="00:05:02.720" style="s2">we were able to only ask for the data</p>
+<p begin="00:05:00.800" end="00:05:04.960" style="s2">that we actually are going to need the</p>
+<p begin="00:05:02.720" end="00:05:06.639" style="s2">database wouldn&#39;t work so hard and the</p>
+<p begin="00:05:04.960" end="00:05:08.800" style="s2">data that has to travel between the</p>
+<p begin="00:05:06.639" end="00:05:11.039" style="s2">server and the phone for example</p>
+<p begin="00:05:08.800" end="00:05:14.479" style="s2">wouldn&#39;t be so big making the loading</p>
+<p begin="00:05:11.039" end="00:05:17.039" style="s2">time less graphql fixes this graphql is</p>
+<p begin="00:05:14.479" end="00:05:19.199" style="s2">a query language that is the ql in</p>
+<p begin="00:05:17.039" end="00:05:21.360" style="s2">graphql graphql allows you to</p>
+<p begin="00:05:19.199" end="00:05:23.840" style="s2">specifically ask for the server for</p>
+<p begin="00:05:21.360" end="00:05:26.240" style="s2">exactly what you need if the movie</p>
+<p begin="00:05:23.840" end="00:05:28.400" style="s2">database was using graphql instead of</p>
+<p begin="00:05:26.240" end="00:05:30.720" style="s2">rest rather than sending a request to</p>
+<p begin="00:05:28.400" end="00:05:33.600" style="s2">this url and getting all this data and</p>
+<p begin="00:05:30.720" end="00:05:37.039" style="s2">then wasting the data we would instead</p>
+<p begin="00:05:33.600" end="00:05:38.960" style="s2">send a query using graphql to the server</p>
+<p begin="00:05:37.039" end="00:05:41.759" style="s2">and the query would look something like</p>
+<p begin="00:05:38.960" end="00:05:44.800" style="s2">this with this query we would receive</p>
+<p begin="00:05:41.759" end="00:05:47.199" style="s2">data in this shape as you can see with</p>
+<p begin="00:05:44.800" end="00:05:48.960" style="s2">graphql we don&#39;t need to receive the</p>
+<p begin="00:05:47.199" end="00:05:51.600" style="s2">data that we don&#39;t want and we are able</p>
+<p begin="00:05:48.960" end="00:05:53.680" style="s2">to ask for the data that we exactly want</p>
+<p begin="00:05:51.600" end="00:05:55.440" style="s2">nothing more and nothing less now let&#39;s</p>
+<p begin="00:05:53.680" end="00:05:57.680" style="s2">talk about under fetching which is the</p>
+<p begin="00:05:55.440" end="00:05:59.520" style="s2">opposite of over fetching under fetching</p>
+<p begin="00:05:57.680" end="00:06:02.000" style="s2">means that you fetch less data than what</p>
+<p begin="00:05:59.520" end="00:06:03.840" style="s2">you actually need if we&#39;re making a</p>
+<p begin="00:06:02.000" end="00:06:05.600" style="s2">movie app and we want to show two lists</p>
+<p begin="00:06:03.840" end="00:06:07.440" style="s2">of movies one for the movies that are</p>
+<p begin="00:06:05.600" end="00:06:09.440" style="s2">coming up soon and one for the movies</p>
+<p begin="00:06:07.440" end="00:06:11.520" style="s2">that are playing right now if we were</p>
+<p begin="00:06:09.440" end="00:06:14.400" style="s2">using a rest api we would have to make</p>
+<p begin="00:06:11.520" end="00:06:16.240" style="s2">two requests to two separate urls in the</p>
+<p begin="00:06:14.400" end="00:06:17.759" style="s2">case of the movie database rest api we</p>
+<p begin="00:06:16.240" end="00:06:20.000" style="s2">would have to make a request to slash</p>
+<p begin="00:06:17.759" end="00:06:22.160" style="s2">movie slash upcoming in slash movie</p>
+<p begin="00:06:20.000" end="00:06:24.400" style="s2">slash now playing this means that our</p>
+<p begin="00:06:22.160" end="00:06:26.160" style="s2">phone ios or android or our website is</p>
+<p begin="00:06:24.400" end="00:06:28.639" style="s2">going to have to make two requests it</p>
+<p begin="00:06:26.160" end="00:06:31.280" style="s2">will have to hit two urls one after the</p>
+<p begin="00:06:28.639" end="00:06:33.440" style="s2">other that might increase loading time</p>
+<p begin="00:06:31.280" end="00:06:35.280" style="s2">if we were using graphql because we can</p>
+<p begin="00:06:33.440" end="00:06:38.479" style="s2">ask for exactly what we want we don&#39;t</p>
+<p begin="00:06:35.280" end="00:06:40.960" style="s2">have to send two requests instead in one</p>
+<p begin="00:06:38.479" end="00:06:42.400" style="s2">query we can ask for the movie that are</p>
+<p begin="00:06:40.960" end="00:06:44.240" style="s2">playing right now and the movies that</p>
+<p begin="00:06:42.400" end="00:06:47.120" style="s2">are gonna play soon and with a query</p>
+<p begin="00:06:44.240" end="00:06:49.759" style="s2">like this one we will receive a response</p>
+<p begin="00:06:47.120" end="00:06:52.240" style="s2">like this one how cool is this we don&#39;t</p>
+<p begin="00:06:49.759" end="00:06:54.319" style="s2">have to fetch two urls we also don&#39;t do</p>
+<p begin="00:06:52.240" end="00:06:57.199" style="s2">over fetching because we don&#39;t get extra</p>
+<p begin="00:06:54.319" end="00:06:59.039" style="s2">data that we don&#39;t need this is how</p>
+<p begin="00:06:57.199" end="00:07:01.599" style="s2">graphql solves under fetching and</p>
+<p begin="00:06:59.039" end="00:07:04.000" style="s2">overfetching in a super elegant way but</p>
+<p begin="00:07:01.599" end="00:07:05.840" style="s2">this is not all graphql can do graphql</p>
+<p begin="00:07:04.000" end="00:07:08.240" style="s2">has other features that make building</p>
+<p begin="00:07:05.840" end="00:07:10.319" style="s2">apis with graphql a very pleasant</p>
+<p begin="00:07:08.240" end="00:07:12.319" style="s2">experience but unfortunately we don&#39;t</p>
+<p begin="00:07:10.319" end="00:07:14.639" style="s2">have time for all the graphql features</p>
+<p begin="00:07:12.319" end="00:07:17.360" style="s2">on this video this is why i made a two</p>
+<p begin="00:07:14.639" end="00:07:19.520" style="s2">and a half three hour graphql course</p>
+<p begin="00:07:17.360" end="00:07:21.680" style="s2">that you can take right now click on the</p>
+<p begin="00:07:19.520" end="00:07:23.840" style="s2">link below and there you will see what</p>
+<p begin="00:07:21.680" end="00:07:25.759" style="s2">makes graphql even more awesome than</p>
+<p begin="00:07:23.840" end="00:07:28.720" style="s2">what we already saw and how you can make</p>
+<p begin="00:07:25.759" end="00:07:30.800" style="s2">your own graphql api now the question is</p>
+<p begin="00:07:28.720" end="00:07:33.759" style="s2">who should learn graphql and the answer</p>
+<p begin="00:07:30.800" end="00:07:36.160" style="s2">is everybody if you have built a server</p>
+<p begin="00:07:33.759" end="00:07:38.880" style="s2">before if you have made a red api before</p>
+<p begin="00:07:36.160" end="00:07:40.560" style="s2">i beg you try graphql and i&#39;m sure</p>
+<p begin="00:07:38.880" end="00:07:42.880" style="s2">you&#39;re going to like it it&#39;s a very</p>
+<p begin="00:07:40.560" end="00:07:44.560" style="s2">different way of building apis what i am</p>
+<p begin="00:07:42.880" end="00:07:46.080" style="s2">sure you are going to enjoy thank you</p>
+<p begin="00:07:44.560" end="00:07:48.080" style="s2">for watching this video let me know in</p>
+<p begin="00:07:46.080" end="00:07:49.680" style="s2">the comments if you have used graphql if</p>
+<p begin="00:07:48.080" end="00:07:50.879" style="s2">you want to use graphql in the future</p>
+<p begin="00:07:49.680" end="00:07:52.879" style="s2">what do you think about it i&#39;m going to</p>
+<p begin="00:07:50.879" end="00:07:54.400" style="s2">be looking at them right now thank you</p>
+<p begin="00:07:52.879" end="00:07:56.319" style="s2">so much for watching stay happy stay</p>
+<p begin="00:07:54.400" end="00:07:59.840" style="s2">free at kimchi come zamida san angelo</p>
+<p begin="00:07:56.319" end="00:07:59.840" style="s2">see you on the next one bye</p>
+</div>
+</body>
+</tt>

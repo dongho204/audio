@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.000" end="00:00:07.140" style="s2">the web that we all use the Web 2.0 is</p>
+<p begin="00:00:04.080" end="00:00:09.179" style="s2">going through a revolution the way users</p>
+<p begin="00:00:07.140" end="00:00:11.639" style="s2">interact with it and the way we as</p>
+<p begin="00:00:09.179" end="00:00:14.580" style="s2">developers build for it is changing</p>
+<p begin="00:00:11.639" end="00:00:16.859" style="s2">radically we need to change the way we</p>
+<p begin="00:00:14.580" end="00:00:19.380" style="s2">think about websites and how we make</p>
+<p begin="00:00:16.859" end="00:00:22.199" style="s2">them we need to update the mental models</p>
+<p begin="00:00:19.380" end="00:00:24.960" style="s2">from Web 2.0 and replace them with new</p>
+<p begin="00:00:22.199" end="00:00:27.480" style="s2">ones this revolution this new way of</p>
+<p begin="00:00:24.960" end="00:00:29.599" style="s2">building applications for the web is</p>
+<p begin="00:00:27.480" end="00:00:32.940" style="s2">called Web tree</p>
+<p begin="00:00:29.599" end="00:00:34.559" style="s2">Nicholas in and welcome to a new video</p>
+<p begin="00:00:32.940" end="00:00:36.300" style="s2">If you like this kind of blockchain</p>
+<p begin="00:00:34.559" end="00:00:37.860" style="s2">content and you want to see more then</p>
+<p begin="00:00:36.300" end="00:00:39.899" style="s2">please consider leaving a like and</p>
+<p begin="00:00:37.860" end="00:00:42.300" style="s2">subscribing to the channel let&#39;s get</p>
+<p begin="00:00:39.899" end="00:00:45.059" style="s2">started to understand web3 we have to</p>
+<p begin="00:00:42.300" end="00:00:49.020" style="s2">talk about Web 2.0 and for that let&#39;s</p>
+<p begin="00:00:45.059" end="00:00:50.879" style="s2">first talk about web 1.0 web 1.0 was</p>
+<p begin="00:00:49.020" end="00:00:53.760" style="s2">when the internet started when there</p>
+<p begin="00:00:50.879" end="00:00:56.520" style="s2">were no web designers when websites were</p>
+<p begin="00:00:53.760" end="00:01:00.180" style="s2">kind of ugly and full of gifs this is</p>
+<p begin="00:00:56.520" end="00:01:05.460" style="s2">how Amazon looked like in 1995. this is</p>
+<p begin="00:01:00.180" end="00:01:09.840" style="s2">Disney in 1996. this is Apple in 1997</p>
+<p begin="00:01:05.460" end="00:01:13.560" style="s2">and this is Coca-Cola&#39;s website in 1999.</p>
+<p begin="00:01:09.840" end="00:01:15.479" style="s2">yuck with web 1.0 if you wanted to put</p>
+<p begin="00:01:13.560" end="00:01:17.580" style="s2">your content on the internet you could</p>
+<p begin="00:01:15.479" end="00:01:19.860" style="s2">but you had to know how to make a</p>
+<p begin="00:01:17.580" end="00:01:23.040" style="s2">website and set up a server and all that</p>
+<p begin="00:01:19.860" end="00:01:25.500" style="s2">the content on the web 1.0 was mostly</p>
+<p begin="00:01:23.040" end="00:01:28.320" style="s2">static where users were only the</p>
+<p begin="00:01:25.500" end="00:01:30.360" style="s2">consumers of data this was also in part</p>
+<p begin="00:01:28.320" end="00:01:33.840" style="s2">because from a developer&#39;s point of view</p>
+<p begin="00:01:30.360" end="00:01:35.700" style="s2">web sites could not do that much the</p>
+<p begin="00:01:33.840" end="00:01:39.000" style="s2">browsers and languages like JavaScript</p>
+<p begin="00:01:35.700" end="00:01:41.100" style="s2">and CSS were not powerful enough making</p>
+<p begin="00:01:39.000" end="00:01:43.560" style="s2">a website do cool stuff or at least</p>
+<p begin="00:01:41.100" end="00:01:45.600" style="s2">making it look beautiful was incredibly</p>
+<p begin="00:01:43.560" end="00:01:48.299" style="s2">hard to give you an example of how bad</p>
+<p begin="00:01:45.600" end="00:01:50.399" style="s2">it was if today you have a rectangle and</p>
+<p begin="00:01:48.299" end="00:01:52.979" style="s2">you want to give a round corners to it</p>
+<p begin="00:01:50.399" end="00:01:55.500" style="s2">all you have to do is write one line of</p>
+<p begin="00:01:52.979" end="00:01:58.439" style="s2">code border radius and it will be done</p>
+<p begin="00:01:55.500" end="00:02:01.439" style="s2">that simple thing was not even possible</p>
+<p begin="00:01:58.439" end="00:02:03.899" style="s2">before we had to create four images of</p>
+<p begin="00:02:01.439" end="00:02:07.439" style="s2">the four corners and we had to manually</p>
+<p begin="00:02:03.899" end="00:02:10.319" style="s2">position each one of them crazy after</p>
+<p begin="00:02:07.439" end="00:02:13.739" style="s2">web 1.0 came what we now live on and</p>
+<p begin="00:02:10.319" end="00:02:16.200" style="s2">that is Web 2.0 Web 2.0 is when the rise</p>
+<p begin="00:02:13.739" end="00:02:19.080" style="s2">of social media happens where instead of</p>
+<p begin="00:02:16.200" end="00:02:22.200" style="s2">static websites user generated content</p>
+<p begin="00:02:19.080" end="00:02:24.900" style="s2">takes the center stage before the users</p>
+<p begin="00:02:22.200" end="00:02:27.480" style="s2">were the consumers of data with Web 2.0</p>
+<p begin="00:02:24.900" end="00:02:30.300" style="s2">they became the producers of that data</p>
+<p begin="00:02:27.480" end="00:02:32.879" style="s2">Web 2.0 created all this social media</p>
+<p begin="00:02:30.300" end="00:02:35.220" style="s2">Giants that we have today and that was</p>
+<p begin="00:02:32.879" end="00:02:36.900" style="s2">helped by the fact that we now have what</p>
+<p begin="00:02:35.220" end="00:02:39.360" style="s2">people from the 90s would have</p>
+<p begin="00:02:36.900" end="00:02:41.700" style="s2">considered a super computer in our</p>
+<p begin="00:02:39.360" end="00:02:44.040" style="s2">pocket the thing that happened with user</p>
+<p begin="00:02:41.700" end="00:02:46.739" style="s2">generated content is that it all ended</p>
+<p begin="00:02:44.040" end="00:02:49.680" style="s2">up flowing to the same website we&#39;re in</p>
+<p begin="00:02:46.739" end="00:02:51.480" style="s2">the web 1.0 you found a website that you</p>
+<p begin="00:02:49.680" end="00:02:53.099" style="s2">like because somebody told you about it</p>
+<p begin="00:02:51.480" end="00:02:55.620" style="s2">and you had to put it in your bookmark</p>
+<p begin="00:02:53.099" end="00:02:57.959" style="s2">so you don&#39;t forget in the Web 2.0 you</p>
+<p begin="00:02:55.620" end="00:02:59.940" style="s2">don&#39;t visit that many websites and you</p>
+<p begin="00:02:57.959" end="00:03:02.280" style="s2">know where to go to depending on the</p>
+<p begin="00:02:59.940" end="00:03:05.940" style="s2">type of the content photos Instagram</p>
+<p begin="00:03:02.280" end="00:03:09.060" style="s2">videos YouTube short video Tick Tock</p>
+<p begin="00:03:05.940" end="00:03:11.700" style="s2">short text and opinions Twitter bragging</p>
+<p begin="00:03:09.060" end="00:03:14.099" style="s2">about your career LinkedIn this is what</p>
+<p begin="00:03:11.700" end="00:03:16.440" style="s2">we can describe as centralization all</p>
+<p begin="00:03:14.099" end="00:03:19.200" style="s2">this data created by us it&#39;s all going</p>
+<p begin="00:03:16.440" end="00:03:21.599" style="s2">to the same places stored in databases</p>
+<p begin="00:03:19.200" end="00:03:23.940" style="s2">that we have no access to having all</p>
+<p begin="00:03:21.599" end="00:03:26.280" style="s2">these massive amounts of data made these</p>
+<p begin="00:03:23.940" end="00:03:28.500" style="s2">companies very rich they learned that</p>
+<p begin="00:03:26.280" end="00:03:31.560" style="s2">they can use the data you create to sell</p>
+<p begin="00:03:28.500" end="00:03:33.440" style="s2">you things or sell the data itself as a</p>
+<p begin="00:03:31.560" end="00:03:35.640" style="s2">product apart from benefiting</p>
+<p begin="00:03:33.440" end="00:03:38.760" style="s2">disproportionately from other people&#39;s</p>
+<p begin="00:03:35.640" end="00:03:40.980" style="s2">data another thing that Web 2.0 did for</p>
+<p begin="00:03:38.760" end="00:03:42.959" style="s2">social media companies is that it gave</p>
+<p begin="00:03:40.980" end="00:03:45.060" style="s2">them power over the public this course</p>
+<p begin="00:03:42.959" end="00:03:47.519" style="s2">if they decide they want to censor you</p>
+<p begin="00:03:45.060" end="00:03:49.260" style="s2">they will if they decide that what you</p>
+<p begin="00:03:47.519" end="00:03:52.560" style="s2">are saying should not be heard they will</p>
+<p begin="00:03:49.260" end="00:03:55.680" style="s2">turn you off companies careers debates</p>
+<p begin="00:03:52.560" end="00:03:57.599" style="s2">news discussion they are all developing</p>
+<p begin="00:03:55.680" end="00:04:00.060" style="s2">inside of platforms that we have no</p>
+<p begin="00:03:57.599" end="00:04:02.519" style="s2">control over these companies are being</p>
+<p begin="00:04:00.060" end="00:04:05.159" style="s2">used as public goods but they aren&#39;t</p>
+<p begin="00:04:02.519" end="00:04:06.840" style="s2">public goods on Web 2.0 you have to</p>
+<p begin="00:04:05.159" end="00:04:08.640" style="s2">trust you have to trust that the</p>
+<p begin="00:04:06.840" end="00:04:10.860" style="s2">companies that have your data won&#39;t do</p>
+<p begin="00:04:08.640" end="00:04:13.439" style="s2">anything bad with it and that they will</p>
+<p begin="00:04:10.860" end="00:04:15.959" style="s2">respect your privacy even though if you</p>
+<p begin="00:04:13.439" end="00:04:18.180" style="s2">programmed a back-end server before you</p>
+<p begin="00:04:15.959" end="00:04:20.459" style="s2">know how trivial it is to build an admin</p>
+<p begin="00:04:18.180" end="00:04:22.860" style="s2">panel and see all the records on a</p>
+<p begin="00:04:20.459" end="00:04:25.199" style="s2">database you also have to trust and hope</p>
+<p begin="00:04:22.860" end="00:04:27.419" style="s2">that these companies won&#39;t censor you or</p>
+<p begin="00:04:25.199" end="00:04:29.699" style="s2">quietly modify the algorithm to make you</p>
+<p begin="00:04:27.419" end="00:04:33.240" style="s2">change your opinion on things now here</p>
+<p begin="00:04:29.699" end="00:04:34.860" style="s2">is when web3 comes in Dr Gavin wood the</p>
+<p begin="00:04:33.240" end="00:04:37.380" style="s2">co-founder of ethereum and the creator</p>
+<p begin="00:04:34.860" end="00:04:40.020" style="s2">of polkadot and kusama was the first to</p>
+<p begin="00:04:37.380" end="00:04:42.900" style="s2">come up with the word web Tree on his</p>
+<p begin="00:04:40.020" end="00:04:45.360" style="s2">own words web3 is the service without</p>
+<p begin="00:04:42.900" end="00:04:46.979" style="s2">the service provider using things like</p>
+<p begin="00:04:45.360" end="00:04:49.139" style="s2">blockchains a smart contracts</p>
+<p begin="00:04:46.979" end="00:04:51.120" style="s2">cryptography peer-to-peer networks among</p>
+<p begin="00:04:49.139" end="00:04:52.919" style="s2">many other things we can replace the</p>
+<p begin="00:04:51.120" end="00:04:55.440" style="s2">infrastructure of Twitter Instagram</p>
+<p begin="00:04:52.919" end="00:04:57.120" style="s2">Facebook and YouTube we can remove the</p>
+<p begin="00:04:55.440" end="00:04:59.040" style="s2">middleman and create applications that</p>
+<p begin="00:04:57.120" end="00:05:01.500" style="s2">are not controlled by a single entity</p>
+<p begin="00:04:59.040" end="00:05:03.360" style="s2">applications where the users own and</p>
+<p begin="00:05:01.500" end="00:05:05.580" style="s2">control the data they produce</p>
+<p begin="00:05:03.360" end="00:05:08.400" style="s2">applications where you don&#39;t have to</p>
+<p begin="00:05:05.580" end="00:05:10.860" style="s2">trust trust less applications that you</p>
+<p begin="00:05:08.400" end="00:05:13.560" style="s2">can verify and audit anytime you like</p>
+<p begin="00:05:10.860" end="00:05:15.780" style="s2">these applications will be decentralized</p>
+<p begin="00:05:13.560" end="00:05:18.060" style="s2">which means they will not be hosted in</p>
+<p begin="00:05:15.780" end="00:05:20.340" style="s2">one single server controlled by one</p>
+<p begin="00:05:18.060" end="00:05:22.680" style="s2">single party they will be stored in a</p>
+<p begin="00:05:20.340" end="00:05:25.080" style="s2">network of computers they will be</p>
+<p begin="00:05:22.680" end="00:05:28.320" style="s2">replicated across the network making</p>
+<p begin="00:05:25.080" end="00:05:30.360" style="s2">them censorship resistant web 3 apps</p>
+<p begin="00:05:28.320" end="00:05:33.000" style="s2">should not feel different than Web 2.0</p>
+<p begin="00:05:30.360" end="00:05:34.919" style="s2">apps from the user point of view the</p>
+<p begin="00:05:33.000" end="00:05:37.380" style="s2">difference will be on the infrastructure</p>
+<p begin="00:05:34.919" end="00:05:40.020" style="s2">on the back end of the services almost</p>
+<p begin="00:05:37.380" end="00:05:43.440" style="s2">every piece of how a web service is made</p>
+<p begin="00:05:40.020" end="00:05:45.539" style="s2">apart from the UI will be replaced by a</p>
+<p begin="00:05:43.440" end="00:05:48.479" style="s2">public open source and decentralized</p>
+<p begin="00:05:45.539" end="00:05:51.060" style="s2">solution instead of using a database</p>
+<p begin="00:05:48.479" end="00:05:53.039" style="s2">your website will store its data on a</p>
+<p begin="00:05:51.060" end="00:05:55.199" style="s2">blockchain instead of writing your</p>
+<p begin="00:05:53.039" end="00:05:58.440" style="s2">backing code thinking is going to run in</p>
+<p begin="00:05:55.199" end="00:06:00.960" style="s2">a server hosted on AWS you will instead</p>
+<p begin="00:05:58.440" end="00:06:03.780" style="s2">write a smart contract that will be</p>
+<p begin="00:06:00.960" end="00:06:06.360" style="s2">stored on a blockchain and executed by a</p>
+<p begin="00:06:03.780" end="00:06:08.699" style="s2">decentralized virtual machine instead of</p>
+<p begin="00:06:06.360" end="00:06:11.280" style="s2">having user accounts your users will</p>
+<p begin="00:06:08.699" end="00:06:13.740" style="s2">have a wallet and they will own their</p>
+<p begin="00:06:11.280" end="00:06:16.560" style="s2">identity in their security instead of</p>
+<p begin="00:06:13.740" end="00:06:19.860" style="s2">storing static files the JS and the CSS</p>
+<p begin="00:06:16.560" end="00:06:23.460" style="s2">or netlify or virtual and instead of</p>
+<p begin="00:06:19.860" end="00:06:26.400" style="s2">storing user uploads in AWS S3 you will</p>
+<p begin="00:06:23.460" end="00:06:29.160" style="s2">use interplanetary file system or airwav</p>
+<p begin="00:06:26.400" end="00:06:31.979" style="s2">instead of using third-party apis to get</p>
+<p begin="00:06:29.160" end="00:06:34.380" style="s2">external data like like Market data</p>
+<p begin="00:06:31.979" end="00:06:36.539" style="s2">Sports data weather data news data</p>
+<p begin="00:06:34.380" end="00:06:39.539" style="s2">whatever you will use oracles like chain</p>
+<p begin="00:06:36.539" end="00:06:41.400" style="s2">link or flux those projects which I am</p>
+<p begin="00:06:39.539" end="00:06:43.740" style="s2">not telling you to invest on by the way</p>
+<p begin="00:06:41.400" end="00:06:45.600" style="s2">are just a small part of all the</p>
+<p begin="00:06:43.740" end="00:06:48.300" style="s2">projects that are being built to be the</p>
+<p begin="00:06:45.600" end="00:06:50.520" style="s2">building blocks of the infrastructure</p>
+<p begin="00:06:48.300" end="00:06:53.160" style="s2">required to build a web that is more</p>
+<p begin="00:06:50.520" end="00:06:55.500" style="s2">open and transparent this does not mean</p>
+<p begin="00:06:53.160" end="00:06:58.139" style="s2">that web3 does not have its detractors</p>
+<p begin="00:06:55.500" end="00:07:00.960" style="s2">some people say that web3 is total BS</p>
+<p begin="00:06:58.139" end="00:07:03.419" style="s2">and even Elon Musk says that it seems</p>
+<p begin="00:07:00.960" end="00:07:05.880" style="s2">more like a marketing buzzword than a</p>
+<p begin="00:07:03.419" end="00:07:08.940" style="s2">reality right now and I agree with this</p>
+<p begin="00:07:05.880" end="00:07:11.160" style="s2">today it is used mostly as a buzzword by</p>
+<p begin="00:07:08.940" end="00:07:13.199" style="s2">companies that think they can sprinkle a</p>
+<p begin="00:07:11.160" end="00:07:15.360" style="s2">little bit of web3 and blockchain along</p>
+<p begin="00:07:13.199" end="00:07:17.580" style="s2">with a little bit of metaverse to look</p>
+<p begin="00:07:15.360" end="00:07:19.620" style="s2">cool the truth is that it is hard to</p>
+<p begin="00:07:17.580" end="00:07:22.440" style="s2">predict what kind of services will be</p>
+<p begin="00:07:19.620" end="00:07:24.900" style="s2">born with web 3 infrastructure not</p>
+<p begin="00:07:22.440" end="00:07:27.780" style="s2">because it is useless but because it is</p>
+<p begin="00:07:24.900" end="00:07:30.479" style="s2">too new what we can do today with web 3</p>
+<p begin="00:07:27.780" end="00:07:32.819" style="s2">is not something we thought it was real</p>
+<p begin="00:07:30.479" end="00:07:35.699" style="s2">we have been thinking with Web 2.0</p>
+<p begin="00:07:32.819" end="00:07:37.800" style="s2">mental models for too long we can&#39;t even</p>
+<p begin="00:07:35.699" end="00:07:40.020" style="s2">imagine the things that will be built</p>
+<p begin="00:07:37.800" end="00:07:44.280" style="s2">because they just weren&#39;t possible to</p>
+<p begin="00:07:40.020" end="00:07:46.919" style="s2">build before in 1943 the chairman of IBM</p>
+<p begin="00:07:44.280" end="00:07:49.740" style="s2">said and I quote I think there is a</p>
+<p begin="00:07:46.919" end="00:07:53.759" style="s2">World Market for maybe five computers</p>
+<p begin="00:07:49.740" end="00:07:56.639" style="s2">end quote in 1995 the creator of the</p>
+<p begin="00:07:53.759" end="00:07:58.860" style="s2">ethernet set quote I predict the</p>
+<p begin="00:07:56.639" end="00:08:02.340" style="s2">internet will soon go spectacularly</p>
+<p begin="00:07:58.860" end="00:08:04.919" style="s2">Supernova and in 1996 catastrophically</p>
+<p begin="00:08:02.340" end="00:08:06.960" style="s2">collapse now I don&#39;t think they said</p>
+<p begin="00:08:04.919" end="00:08:08.759" style="s2">this because they were idiots I think</p>
+<p begin="00:08:06.960" end="00:08:11.280" style="s2">that with the information they had at</p>
+<p begin="00:08:08.759" end="00:08:14.520" style="s2">the time in the context of a world in</p>
+<p begin="00:08:11.280" end="00:08:17.460" style="s2">1943 computers actually looked useless</p>
+<p begin="00:08:14.520" end="00:08:20.099" style="s2">in the context of 1995 the internet</p>
+<p begin="00:08:17.460" end="00:08:21.900" style="s2">might have seemed like a buzzword as</p>
+<p begin="00:08:20.099" end="00:08:24.240" style="s2">well companies and governments were</p>
+<p begin="00:08:21.900" end="00:08:26.940" style="s2">working well without it if you asked me</p>
+<p begin="00:08:24.240" end="00:08:29.340" style="s2">in 1995 what companies would benefit the</p>
+<p begin="00:08:26.940" end="00:08:31.620" style="s2">most from the Internet or what can be</p>
+<p begin="00:08:29.340" end="00:08:34.260" style="s2">built using the inter internet I would</p>
+<p begin="00:08:31.620" end="00:08:36.899" style="s2">have not been able to predict over or</p>
+<p begin="00:08:34.260" end="00:08:38.520" style="s2">Netflix when the internet came what</p>
+<p begin="00:08:36.899" end="00:08:40.860" style="s2">happened was not that they already</p>
+<p begin="00:08:38.520" end="00:08:42.719" style="s2">existing companies just migrated to it</p>
+<p begin="00:08:40.860" end="00:08:44.880" style="s2">and became more productive it wasn&#39;t</p>
+<p begin="00:08:42.719" end="00:08:46.860" style="s2">that bakeries and hair salons just got a</p>
+<p begin="00:08:44.880" end="00:08:48.600" style="s2">website and we just kept going what</p>
+<p begin="00:08:46.860" end="00:08:50.820" style="s2">happened was that apart from killing</p>
+<p begin="00:08:48.600" end="00:08:53.160" style="s2">certain companies the internet created</p>
+<p begin="00:08:50.820" end="00:08:55.500" style="s2">its own companies it made possible</p>
+<p begin="00:08:53.160" end="00:08:58.740" style="s2">companies that were not possible before</p>
+<p begin="00:08:55.500" end="00:09:00.660" style="s2">Amazon Google Twitter Facebook some of</p>
+<p begin="00:08:58.740" end="00:09:02.820" style="s2">the most valuable companies on the</p>
+<p begin="00:09:00.660" end="00:09:05.519" style="s2">planet are not possible without the</p>
+<p begin="00:09:02.820" end="00:09:07.920" style="s2">internet itself they don&#39;t make sense in</p>
+<p begin="00:09:05.519" end="00:09:09.540" style="s2">a world without internet Larry and</p>
+<p begin="00:09:07.920" end="00:09:11.820" style="s2">Sergey from Google didn&#39;t come up with</p>
+<p begin="00:09:09.540" end="00:09:13.500" style="s2">idea of a search engine before the</p>
+<p begin="00:09:11.820" end="00:09:15.600" style="s2">internet existed and we&#39;re just waiting</p>
+<p begin="00:09:13.500" end="00:09:17.820" style="s2">anxiously for it it was when the</p>
+<p begin="00:09:15.600" end="00:09:20.279" style="s2">internet arrived that they saw its</p>
+<p begin="00:09:17.820" end="00:09:22.200" style="s2">potential and started building Bezos</p>
+<p begin="00:09:20.279" end="00:09:24.120" style="s2">wasn&#39;t also waiting for the internet to</p>
+<p begin="00:09:22.200" end="00:09:25.920" style="s2">get started building Amazon when the</p>
+<p begin="00:09:24.120" end="00:09:28.200" style="s2">internet came he saw the potential and</p>
+<p begin="00:09:25.920" end="00:09:30.060" style="s2">the opportunity I personally think that</p>
+<p begin="00:09:28.200" end="00:09:31.980" style="s2">it will be the same with web 3. the</p>
+<p begin="00:09:30.060" end="00:09:34.500" style="s2">services and apps that are being built</p>
+<p begin="00:09:31.980" end="00:09:37.200" style="s2">on web3 will not make sense in a world</p>
+<p begin="00:09:34.500" end="00:09:39.000" style="s2">without web3 just like Google doesn&#39;t</p>
+<p begin="00:09:37.200" end="00:09:41.220" style="s2">make sense in a world without the</p>
+<p begin="00:09:39.000" end="00:09:43.740" style="s2">internet and that is the end of this</p>
+<p begin="00:09:41.220" end="00:09:45.839" style="s2">video thank you for watching if you ever</p>
+<p begin="00:09:43.740" end="00:09:48.300" style="s2">felt curious about the meaning of web 3</p>
+<p begin="00:09:45.839" end="00:09:50.640" style="s2">I hope that you found the explanation on</p>
+<p begin="00:09:48.300" end="00:09:51.959" style="s2">this video useful if you like this kind</p>
+<p begin="00:09:50.640" end="00:09:53.459" style="s2">of content and you would like to see</p>
+<p begin="00:09:51.959" end="00:09:55.019" style="s2">more then please consider leaving a like</p>
+<p begin="00:09:53.459" end="00:09:57.480" style="s2">and subscribing to the channel it really</p>
+<p begin="00:09:55.019" end="00:09:59.700" style="s2">really helps thank you see you on the</p>
+<p begin="00:09:57.480" end="00:10:00.720" style="s2">next video and please let me know in the</p>
+<p begin="00:09:59.700" end="00:10:02.760" style="s2">comments if there is any other</p>
+<p begin="00:10:00.720" end="00:10:05.279" style="s2">blockchain related word that you are</p>
+<p begin="00:10:02.760" end="00:10:07.380" style="s2">curious about I am making some sort of a</p>
+<p begin="00:10:05.279" end="00:10:09.420" style="s2">blockchain dictionary and I am looking</p>
+<p begin="00:10:07.380" end="00:10:10.980" style="s2">for words to put on it and don&#39;t forget</p>
+<p begin="00:10:09.420" end="00:10:12.660" style="s2">if you want to learn to code and you</p>
+<p begin="00:10:10.980" end="00:10:14.459" style="s2">want to do it for free with me click on</p>
+<p begin="00:10:12.660" end="00:10:16.680" style="s2">the link below and I will see you there</p>
+<p begin="00:10:14.459" end="00:10:19.399" style="s2">stay free be happy see you in the next</p>
+<p begin="00:10:16.680" end="00:10:19.399" style="s2">one bye</p>
+</div>
+</body>
+</tt>

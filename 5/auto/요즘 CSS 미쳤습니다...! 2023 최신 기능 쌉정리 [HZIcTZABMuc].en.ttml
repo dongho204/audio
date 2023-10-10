@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.000" end="00:00:09.660" style="s2">and today I bring you five new CSS rules</p>
+<p begin="00:00:06.240" end="00:00:12.179" style="s2">functions and pseudo classes that you</p>
+<p begin="00:00:09.660" end="00:00:14.759" style="s2">didn&#39;t know existed my favorite one</p>
+<p begin="00:00:12.179" end="00:00:17.039" style="s2">makes CSS feel a bit more like a</p>
+<p begin="00:00:14.759" end="00:00:18.720" style="s2">programming language so make sure to</p>
+<p begin="00:00:17.039" end="00:00:22.140" style="s2">watch the video Until the End to know</p>
+<p begin="00:00:18.720" end="00:00:24.420" style="s2">which one it is support is an ad rule</p>
+<p begin="00:00:22.140" end="00:00:26.760" style="s2">it&#39;s called at rule because you first</p>
+<p begin="00:00:24.420" end="00:00:29.460" style="s2">write the ad symbol and then the name of</p>
+<p begin="00:00:26.760" end="00:00:32.460" style="s2">the rule the ad support rule allows you</p>
+<p begin="00:00:29.460" end="00:00:34.860" style="s2">to write conditional CSS code that will</p>
+<p begin="00:00:32.460" end="00:00:37.260" style="s2">run only if the browser supports a</p>
+<p begin="00:00:34.860" end="00:00:39.960" style="s2">feature or not it is very easy to use</p>
+<p begin="00:00:37.260" end="00:00:42.660" style="s2">all we have to do is write add supports</p>
+<p begin="00:00:39.960" end="00:00:45.360" style="s2">followed by the property we want to test</p>
+<p begin="00:00:42.660" end="00:00:48.059" style="s2">for followed by our conditional code</p>
+<p begin="00:00:45.360" end="00:00:50.399" style="s2">when using the add support rule it is</p>
+<p begin="00:00:48.059" end="00:00:52.739" style="s2">better to provide fallbacks or default</p>
+<p begin="00:00:50.399" end="00:00:55.739" style="s2">value like here where you can see how</p>
+<p begin="00:00:52.739" end="00:00:59.160" style="s2">the header of our page is by default a</p>
+<p begin="00:00:55.739" end="00:01:02.520" style="s2">display flex but on a browsers that</p>
+<p begin="00:00:59.160" end="00:01:05.760" style="s2">supports CSS grid the header will be a</p>
+<p begin="00:01:02.520" end="00:01:07.920" style="s2">display great if we write our code like</p>
+<p begin="00:01:05.760" end="00:01:10.979" style="s2">this we can be sure that our website</p>
+<p begin="00:01:07.920" end="00:01:13.080" style="s2">does not look broken on browsers that</p>
+<p begin="00:01:10.979" end="00:01:15.299" style="s2">don&#39;t support some features and on</p>
+<p begin="00:01:13.080" end="00:01:17.460" style="s2">browsers that do our website can look</p>
+<p begin="00:01:15.299" end="00:01:20.040" style="s2">even better we can also use the add</p>
+<p begin="00:01:17.460" end="00:01:22.259" style="s2">support rule with the not operator which</p>
+<p begin="00:01:20.040" end="00:01:24.659" style="s2">negates the expression like here where</p>
+<p begin="00:01:22.259" end="00:01:27.479" style="s2">we are showing an alert to the user if</p>
+<p begin="00:01:24.659" end="00:01:30.000" style="s2">the browser does not support border</p>
+<p begin="00:01:27.479" end="00:01:33.119" style="s2">radius you could also chain multiples</p>
+<p begin="00:01:30.000" end="00:01:34.979" style="s2">knots together to negate the negation if</p>
+<p begin="00:01:33.119" end="00:01:38.159" style="s2">you wanted to apart from the not</p>
+<p begin="00:01:34.979" end="00:01:40.439" style="s2">operator we also have and and or and we</p>
+<p begin="00:01:38.159" end="00:01:41.939" style="s2">can combine them if we want to the and</p>
+<p begin="00:01:40.439" end="00:01:44.159" style="s2">the operator checks if all the</p>
+<p begin="00:01:41.939" end="00:01:45.960" style="s2">conditions are true like here where we</p>
+<p begin="00:01:44.159" end="00:01:48.479" style="s2">are checking if the browser supports</p>
+<p begin="00:01:45.960" end="00:01:50.939" style="s2">display flex and display grid and if</p>
+<p begin="00:01:48.479" end="00:01:53.880" style="s2">that is not true we are showing an alert</p>
+<p begin="00:01:50.939" end="00:01:56.280" style="s2">to the user the or operator in contrast</p>
+<p begin="00:01:53.880" end="00:01:58.439" style="s2">will evaluate to true if one of the</p>
+<p begin="00:01:56.280" end="00:02:01.140" style="s2">conditions is true like here where we</p>
+<p begin="00:01:58.439" end="00:02:04.380" style="s2">are checking if Scrolls now type is</p>
+<p begin="00:02:01.140" end="00:02:06.960" style="s2">supported with the Microsoft prefix or</p>
+<p begin="00:02:04.380" end="00:02:09.300" style="s2">not apart from testing for CSS</p>
+<p begin="00:02:06.960" end="00:02:12.300" style="s2">properties we can also test for the</p>
+<p begin="00:02:09.300" end="00:02:14.340" style="s2">support of a selector using the selector</p>
+<p begin="00:02:12.300" end="00:02:16.620" style="s2">function like on this code where we are</p>
+<p begin="00:02:14.340" end="00:02:19.319" style="s2">using the selector function to test if</p>
+<p begin="00:02:16.620" end="00:02:22.500" style="s2">the browser supports the first child</p>
+<p begin="00:02:19.319" end="00:02:24.540" style="s2">selector add supports rule along with</p>
+<p begin="00:02:22.500" end="00:02:27.360" style="s2">the selector function are supported by</p>
+<p begin="00:02:24.540" end="00:02:29.700" style="s2">all major browsers today being able to</p>
+<p begin="00:02:27.360" end="00:02:31.860" style="s2">test for properties and selectors is</p>
+<p begin="00:02:29.700" end="00:02:34.560" style="s2">very useful if you combine it with the</p>
+<p begin="00:02:31.860" end="00:02:36.840" style="s2">next item in our list 8th child is a</p>
+<p begin="00:02:34.560" end="00:02:38.819" style="s2">pseudo class that isn&#39;t new at all I am</p>
+<p begin="00:02:36.840" end="00:02:41.819" style="s2">sure you&#39;ve heard of it it allows you to</p>
+<p begin="00:02:38.819" end="00:02:44.760" style="s2">select for example the fourth item on a</p>
+<p begin="00:02:41.819" end="00:02:47.459" style="s2">list the even items on a list the old</p>
+<p begin="00:02:44.760" end="00:02:50.819" style="s2">items on a list or all the fifth items</p>
+<p begin="00:02:47.459" end="00:02:52.920" style="s2">on a list like 5 10 15 and 20. what is</p>
+<p begin="00:02:50.819" end="00:02:55.620" style="s2">new about this sudo class is the off</p>
+<p begin="00:02:52.920" end="00:02:57.840" style="s2">selector syntax and it looks like this</p>
+<p begin="00:02:55.620" end="00:02:59.700" style="s2">on this code out of all the children</p>
+<p begin="00:02:57.840" end="00:03:02.099" style="s2">that have the link class we are</p>
+<p begin="00:02:59.700" end="00:03:04.379" style="s2">selecting the number three which is very</p>
+<p begin="00:03:02.099" end="00:03:06.720" style="s2">different from doing something like this</p>
+<p begin="00:03:04.379" end="00:03:09.660" style="s2">what this code is doing is selecting the</p>
+<p begin="00:03:06.720" end="00:03:12.060" style="s2">item number three that also has a class</p>
+<p begin="00:03:09.660" end="00:03:14.700" style="s2">link which is different from what we</p>
+<p begin="00:03:12.060" end="00:03:17.879" style="s2">want for example with this HTML and CSS</p>
+<p begin="00:03:14.700" end="00:03:20.700" style="s2">the second list item will be selected</p>
+<p begin="00:03:17.879" end="00:03:23.879" style="s2">since it is the item number two and it</p>
+<p begin="00:03:20.700" end="00:03:27.540" style="s2">also has the link class but with this</p>
+<p begin="00:03:23.879" end="00:03:30.659" style="s2">CSS using the new off selector syntax</p>
+<p begin="00:03:27.540" end="00:03:33.540" style="s2">the fifth least item will be selected</p>
+<p begin="00:03:30.659" end="00:03:36.900" style="s2">since out of all the items with the</p>
+<p begin="00:03:33.540" end="00:03:38.760" style="s2">class link it is the second one you can</p>
+<p begin="00:03:36.900" end="00:03:42.120" style="s2">also use comma to include other</p>
+<p begin="00:03:38.760" end="00:03:44.459" style="s2">selectors as wet the nth child of</p>
+<p begin="00:03:42.120" end="00:03:47.340" style="s2">selector syntax is supported on all</p>
+<p begin="00:03:44.459" end="00:03:49.560" style="s2">major browsers apart from Firefox that</p>
+<p begin="00:03:47.340" end="00:03:52.500" style="s2">has a block currently being worked on</p>
+<p begin="00:03:49.560" end="00:03:54.900" style="s2">the next item in our list is the is sudo</p>
+<p begin="00:03:52.500" end="00:03:58.019" style="s2">class function it helps us write shorter</p>
+<p begin="00:03:54.900" end="00:04:01.019" style="s2">and more compact code take this code for</p>
+<p begin="00:03:58.019" end="00:04:04.080" style="s2">example here we have a title that is 18</p>
+<p begin="00:04:01.019" end="00:04:06.299" style="s2">pixels if I wanted to change the size of</p>
+<p begin="00:04:04.080" end="00:04:10.200" style="s2">the title only when it&#39;s inside of a</p>
+<p begin="00:04:06.299" end="00:04:13.620" style="s2">section on an article or a leaf my code</p>
+<p begin="00:04:10.200" end="00:04:15.659" style="s2">would look something like this now if I</p>
+<p begin="00:04:13.620" end="00:04:18.540" style="s2">wanted to change the size of the title</p>
+<p begin="00:04:15.659" end="00:04:21.479" style="s2">also when it&#39;s inside of a section an</p>
+<p begin="00:04:18.540" end="00:04:24.240" style="s2">article or a div that is inside of a</p>
+<p begin="00:04:21.479" end="00:04:27.240" style="s2">section an article or a div my code</p>
+<p begin="00:04:24.240" end="00:04:30.000" style="s2">would look something like this that does</p>
+<p begin="00:04:27.240" end="00:04:32.940" style="s2">not look good this was the problem that</p>
+<p begin="00:04:30.000" end="00:04:35.759" style="s2">is pseudo class function was created to</p>
+<p begin="00:04:32.940" end="00:04:37.860" style="s2">solve accomplishing the same goal but</p>
+<p begin="00:04:35.759" end="00:04:40.680" style="s2">using the is pseudo class function our</p>
+<p begin="00:04:37.860" end="00:04:42.660" style="s2">code looks like this there is sudo class</p>
+<p begin="00:04:40.680" end="00:04:45.120" style="s2">function will take a list of selectors</p>
+<p begin="00:04:42.660" end="00:04:47.580" style="s2">and select any of the elements that can</p>
+<p begin="00:04:45.120" end="00:04:49.740" style="s2">be selected by any of the selectors on</p>
+<p begin="00:04:47.580" end="00:04:52.199" style="s2">that list so in the first case it will</p>
+<p begin="00:04:49.740" end="00:04:55.139" style="s2">select the H1 that is inside of a</p>
+<p begin="00:04:52.199" end="00:04:57.180" style="s2">section or an article or a div and just</p>
+<p begin="00:04:55.139" end="00:04:59.520" style="s2">like on the second case we can use the</p>
+<p begin="00:04:57.180" end="00:05:02.340" style="s2">ace pseudo class functions next to each</p>
+<p begin="00:04:59.520" end="00:05:05.820" style="s2">other to get a title that may be inside</p>
+<p begin="00:05:02.340" end="00:05:08.759" style="s2">of a section an article or a div that in</p>
+<p begin="00:05:05.820" end="00:05:11.040" style="s2">turn is inside of a section an article</p>
+<p begin="00:05:08.759" end="00:05:13.199" style="s2">or a div if you compare the code before</p>
+<p begin="00:05:11.040" end="00:05:16.080" style="s2">and after there is no question about</p>
+<p begin="00:05:13.199" end="00:05:19.139" style="s2">what&#39;s best there is sudo class function</p>
+<p begin="00:05:16.080" end="00:05:21.900" style="s2">is supported in all major browsers the</p>
+<p begin="00:05:19.139" end="00:05:24.960" style="s2">next item in our list is my favorite is</p>
+<p begin="00:05:21.900" end="00:05:27.300" style="s2">another ad rule called property it is</p>
+<p begin="00:05:24.960" end="00:05:29.820" style="s2">fairly experimental but it supercharges</p>
+<p begin="00:05:27.300" end="00:05:32.820" style="s2">CSS of variables and makes them more</p>
+<p begin="00:05:29.820" end="00:05:35.039" style="s2">powerful it is part of the CSS Houdini</p>
+<p begin="00:05:32.820" end="00:05:38.460" style="s2">project which is a group of low-level</p>
+<p begin="00:05:35.039" end="00:05:41.039" style="s2">apis that allow us developers to have</p>
+<p begin="00:05:38.460" end="00:05:43.500" style="s2">much more direct contact with the</p>
+<p begin="00:05:41.039" end="00:05:46.320" style="s2">browser&#39;s rendering engine when we use</p>
+<p begin="00:05:43.500" end="00:05:48.780" style="s2">CSS variables we do something like this</p>
+<p begin="00:05:46.320" end="00:05:51.600" style="s2">where we first create the variable and</p>
+<p begin="00:05:48.780" end="00:05:53.639" style="s2">then we use it this is fine but how cool</p>
+<p begin="00:05:51.600" end="00:05:56.820" style="s2">would it be if we made the variables</p>
+<p begin="00:05:53.639" end="00:05:59.280" style="s2">smarter by giving them a default values</p>
+<p begin="00:05:56.820" end="00:06:02.639" style="s2">to be able to override them and even</p>
+<p begin="00:05:59.280" end="00:06:05.520" style="s2">type to do that we use the add property</p>
+<p begin="00:06:02.639" end="00:06:07.800" style="s2">Rule and name our property primary color</p>
+<p begin="00:06:05.520" end="00:06:10.560" style="s2">then we tell the browser that the type</p>
+<p begin="00:06:07.800" end="00:06:12.960" style="s2">of value that this property will hold is</p>
+<p begin="00:06:10.560" end="00:06:15.600" style="s2">a color and then we give it an initial</p>
+<p begin="00:06:12.960" end="00:06:18.180" style="s2">value of red last but not least we can</p>
+<p begin="00:06:15.600" end="00:06:20.460" style="s2">choose if this property can be inherited</p>
+<p begin="00:06:18.180" end="00:06:22.380" style="s2">if we set that to true this property</p>
+<p begin="00:06:20.460" end="00:06:24.960" style="s2">will inherit the value from its father</p>
+<p begin="00:06:22.380" end="00:06:27.180" style="s2">and if it&#39;s false it won&#39;t then when</p>
+<p begin="00:06:24.960" end="00:06:29.940" style="s2">it&#39;s time to use our newly declared</p>
+<p begin="00:06:27.180" end="00:06:31.979" style="s2">property we use it as a normal CSS</p>
+<p begin="00:06:29.940" end="00:06:34.259" style="s2">variable and if we want to change the</p>
+<p begin="00:06:31.979" end="00:06:36.479" style="s2">color of our link when the mouse is over</p>
+<p begin="00:06:34.259" end="00:06:39.240" style="s2">it all we have to do is set the value of</p>
+<p begin="00:06:36.479" end="00:06:41.100" style="s2">primary color to something else the</p>
+<p begin="00:06:39.240" end="00:06:43.440" style="s2">interesting thing happens at the end of</p>
+<p begin="00:06:41.100" end="00:06:46.860" style="s2">our code there we are setting primary</p>
+<p begin="00:06:43.440" end="00:06:48.960" style="s2">color to false which isn&#39;t a color but</p>
+<p begin="00:06:46.860" end="00:06:51.060" style="s2">what this will do because we are using</p>
+<p begin="00:06:48.960" end="00:06:53.340" style="s2">the add property rule is to set the</p>
+<p begin="00:06:51.060" end="00:06:56.100" style="s2">value of primary color back to its</p>
+<p begin="00:06:53.340" end="00:06:58.259" style="s2">initial value which in our case is red</p>
+<p begin="00:06:56.100" end="00:07:00.840" style="s2">the add property rule supports other</p>
+<p begin="00:06:58.259" end="00:07:05.100" style="s2">kinds of syntax as well it can hold</p>
+<p begin="00:07:00.840" end="00:07:06.840" style="s2">percentages URLs transform functions and</p>
+<p begin="00:07:05.100" end="00:07:08.759" style="s2">many more it&#39;s not a hundred percent</p>
+<p begin="00:07:06.840" end="00:07:10.680" style="s2">supported but it&#39;s getting there and</p>
+<p begin="00:07:08.759" end="00:07:13.560" style="s2">talking about the support the last item</p>
+<p begin="00:07:10.680" end="00:07:15.840" style="s2">in our list is a super sweet CSS</p>
+<p begin="00:07:13.560" end="00:07:18.240" style="s2">function called the image function that</p>
+<p begin="00:07:15.840" end="00:07:21.660" style="s2">is not supported anywhere at all no</p>
+<p begin="00:07:18.240" end="00:07:24.180" style="s2">support zero but I wish it was when we</p>
+<p begin="00:07:21.660" end="00:07:26.220" style="s2">add an image as a background on CSS we</p>
+<p begin="00:07:24.180" end="00:07:28.259" style="s2">do something like this this loads the</p>
+<p begin="00:07:26.220" end="00:07:30.660" style="s2">whole image and we can customize its</p>
+<p begin="00:07:28.259" end="00:07:34.199" style="s2">size or if it stretches if it covers the</p>
+<p begin="00:07:30.660" end="00:07:36.960" style="s2">whole page Etc what we cannot do is crop</p>
+<p begin="00:07:34.199" end="00:07:39.840" style="s2">the image this is what the CSS image</p>
+<p begin="00:07:36.960" end="00:07:41.639" style="s2">function will do one day with the image</p>
+<p begin="00:07:39.840" end="00:07:44.160" style="s2">function it will be possible to do</p>
+<p begin="00:07:41.639" end="00:07:46.319" style="s2">something like this here we are loading</p>
+<p begin="00:07:44.160" end="00:07:49.199" style="s2">the photo of our Dock and we are drawing</p>
+<p begin="00:07:46.319" end="00:07:52.560" style="s2">a photo that starts on zero on the X and</p>
+<p begin="00:07:49.199" end="00:07:54.780" style="s2">Y axis which is the top left corner of</p>
+<p begin="00:07:52.560" end="00:07:57.780" style="s2">our image we are making the Box a</p>
+<p begin="00:07:54.780" end="00:07:59.940" style="s2">hundred pixels wide and 200 pixels store</p>
+<p begin="00:07:57.780" end="00:08:03.060" style="s2">after that the rest of the image will be</p>
+<p begin="00:07:59.940" end="00:08:06.180" style="s2">big crop in only the region inside of</p>
+<p begin="00:08:03.060" end="00:08:08.639" style="s2">our box will be the background image of</p>
+<p begin="00:08:06.180" end="00:08:11.039" style="s2">our body I really can&#39;t wait for this to</p>
+<p begin="00:08:08.639" end="00:08:13.259" style="s2">arrive in all browsers I hope it happens</p>
+<p begin="00:08:11.039" end="00:08:15.660" style="s2">soon but I would not get my hopes High</p>
+<p begin="00:08:13.259" end="00:08:19.080" style="s2">since the specification was defined more</p>
+<p begin="00:08:15.660" end="00:08:20.340" style="s2">than 12 years ago now it&#39;s your turn let</p>
+<p begin="00:08:19.080" end="00:08:23.039" style="s2">me know in the comments two things</p>
+<p begin="00:08:20.340" end="00:08:25.139" style="s2">number one which one of all these new</p>
+<p begin="00:08:23.039" end="00:08:27.660" style="s2">features is your favorite and number two</p>
+<p begin="00:08:25.139" end="00:08:30.120" style="s2">which one if any did you all already</p>
+<p begin="00:08:27.660" end="00:08:32.700" style="s2">know and don&#39;t forget that if you want</p>
+<p begin="00:08:30.120" end="00:08:36.300" style="s2">to learn JavaScript python react react</p>
+<p begin="00:08:32.700" end="00:08:39.300" style="s2">native gold dark flutter among many many</p>
+<p begin="00:08:36.300" end="00:08:41.700" style="s2">others for absolutely free all you have</p>
+<p begin="00:08:39.300" end="00:08:44.039" style="s2">to do is click the link below to join</p>
+<p begin="00:08:41.700" end="00:08:46.500" style="s2">any of our many free courses that you</p>
+<p begin="00:08:44.039" end="00:08:48.899" style="s2">can take right now for absolutely free</p>
+<p begin="00:08:46.500" end="00:08:50.880" style="s2">with me click the link below and I will</p>
+<p begin="00:08:48.899" end="00:08:53.360" style="s2">see you there I hope you find the video</p>
+<p begin="00:08:50.880" end="00:08:57.320" style="s2">useful</p>
+<p begin="00:08:53.360" end="00:08:57.320" style="s2">see you on the next one bye</p>
+</div>
+</body>
+</tt>

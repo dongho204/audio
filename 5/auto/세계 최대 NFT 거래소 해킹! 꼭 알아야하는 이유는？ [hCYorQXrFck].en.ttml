@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:03.120" end="00:00:09.120" style="s2">there are many news coming out from the</p>
+<p begin="00:00:05.440" end="00:00:11.840" style="s2">nft space lately and some if not most of</p>
+<p begin="00:00:09.120" end="00:00:14.559" style="s2">these news are not good news like for</p>
+<p begin="00:00:11.840" end="00:00:16.560" style="s2">example the news of openc a nft</p>
+<p begin="00:00:14.559" end="00:00:19.119" style="s2">marketplace being hacked and users</p>
+<p begin="00:00:16.560" end="00:00:21.199" style="s2">losing more than 3 million</p>
+<p begin="00:00:19.119" end="00:00:24.320" style="s2">so on this video i wanted to explain how</p>
+<p begin="00:00:21.199" end="00:00:26.160" style="s2">the hack happened who is responsible for</p>
+<p begin="00:00:24.320" end="00:00:28.400" style="s2">it where did the hacker put the money</p>
+<p begin="00:00:26.160" end="00:00:31.279" style="s2">but most importantly i want to make this</p>
+<p begin="00:00:28.400" end="00:00:33.440" style="s2">video to sort of warn you about any of</p>
+<p begin="00:00:31.279" end="00:00:35.040" style="s2">these the reason why is because i can</p>
+<p begin="00:00:33.440" end="00:00:37.680" style="s2">see that there are a lot of new people</p>
+<p begin="00:00:35.040" end="00:00:39.520" style="s2">that are joining the nft space and that</p>
+<p begin="00:00:37.680" end="00:00:41.440" style="s2">worries me but even though i believe</p>
+<p begin="00:00:39.520" end="00:00:44.399" style="s2">that blockchains cryptos and nfts have a</p>
+<p begin="00:00:41.440" end="00:00:46.000" style="s2">huge potential i also facepalm myself</p>
+<p begin="00:00:44.399" end="00:00:48.640" style="s2">every time that i see that somebody is</p>
+<p begin="00:00:46.000" end="00:00:51.039" style="s2">paying crazy money for a jpeg and i</p>
+<p begin="00:00:48.640" end="00:00:52.320" style="s2">double facepan myself every time i see</p>
+<p begin="00:00:51.039" end="00:00:53.920" style="s2">somebody thinking that they are an</p>
+<p begin="00:00:52.320" end="00:00:56.559" style="s2">artist because they can drag and drop a</p>
+<p begin="00:00:53.920" end="00:00:58.399" style="s2">jpeg into a website and sell it there</p>
+<p begin="00:00:56.559" end="00:01:00.800" style="s2">last weekend users from the nft</p>
+<p begin="00:00:58.399" end="00:01:02.800" style="s2">marketplace open c started to report</p>
+<p begin="00:01:00.800" end="00:01:05.519" style="s2">that their nfts were missing from their</p>
+<p begin="00:01:02.800" end="00:01:07.680" style="s2">wallets openc is an nft marketplace</p>
+<p begin="00:01:05.519" end="00:01:10.320" style="s2">which means is a website that allows</p>
+<p begin="00:01:07.680" end="00:01:12.320" style="s2">people to buy and sell jpegs of monkeys</p>
+<p begin="00:01:10.320" end="00:01:14.320" style="s2">it is not the only one but it is the</p>
+<p begin="00:01:12.320" end="00:01:17.280" style="s2">biggest one when you sell an nft in</p>
+<p begin="00:01:14.320" end="00:01:20.000" style="s2">openc you never really give openc the</p>
+<p begin="00:01:17.280" end="00:01:22.479" style="s2">nft it&#39;s not like in the real art world</p>
+<p begin="00:01:20.000" end="00:01:24.799" style="s2">where the artist paints the picture and</p>
+<p begin="00:01:22.479" end="00:01:26.400" style="s2">it gives that picture to the gallery the</p>
+<p begin="00:01:24.799" end="00:01:28.240" style="s2">gallery keeps the picture and when the</p>
+<p begin="00:01:26.400" end="00:01:30.880" style="s2">gallery makes the sale the gallery will</p>
+<p begin="00:01:28.240" end="00:01:33.920" style="s2">give that picture to the buyer openc</p>
+<p begin="00:01:30.880" end="00:01:37.360" style="s2">just provides a nice user interface they</p>
+<p begin="00:01:33.920" end="00:01:39.759" style="s2">show that you are selling your nfts but</p>
+<p begin="00:01:37.360" end="00:01:42.479" style="s2">they don&#39;t have your nfds the sale</p>
+<p begin="00:01:39.759" end="00:01:44.159" style="s2">process also doesn&#39;t happen in the openc</p>
+<p begin="00:01:42.479" end="00:01:47.600" style="s2">website when somebody wants to buy your</p>
+<p begin="00:01:44.159" end="00:01:50.000" style="s2">anything openc will invoke some code</p>
+<p begin="00:01:47.600" end="00:01:52.000" style="s2">that is stored in the ethereum</p>
+<p begin="00:01:50.000" end="00:01:54.399" style="s2">blockchain and that is the code that is</p>
+<p begin="00:01:52.000" end="00:01:57.040" style="s2">going to trigger and initiate the</p>
+<p begin="00:01:54.399" end="00:01:58.479" style="s2">transaction between you and me i will</p>
+<p begin="00:01:57.040" end="00:02:01.439" style="s2">send you some money and you will send me</p>
+<p begin="00:01:58.479" end="00:02:03.200" style="s2">your nft open c does none of that the</p>
+<p begin="00:02:01.439" end="00:02:05.759" style="s2">code is running on the ethereum</p>
+<p begin="00:02:03.200" end="00:02:09.039" style="s2">blockchain openc is just calling that</p>
+<p begin="00:02:05.759" end="00:02:11.440" style="s2">code with both of our accounts as buyer</p>
+<p begin="00:02:09.039" end="00:02:13.760" style="s2">and seller keep in mind that openc is</p>
+<p begin="00:02:11.440" end="00:02:16.480" style="s2">invoking the code but because you are</p>
+<p begin="00:02:13.760" end="00:02:19.599" style="s2">the owner of the nft when this code is</p>
+<p begin="00:02:16.480" end="00:02:21.520" style="s2">invoked you are going to have to confirm</p>
+<p begin="00:02:19.599" end="00:02:22.800" style="s2">this action that is going to happen so</p>
+<p begin="00:02:21.520" end="00:02:24.879" style="s2">if you&#39;re going to spend a million</p>
+<p begin="00:02:22.800" end="00:02:27.360" style="s2">dollars in the photo of a monkey when</p>
+<p begin="00:02:24.879" end="00:02:31.040" style="s2">openc invokes the code to make that</p>
+<p begin="00:02:27.360" end="00:02:32.640" style="s2">transfer happen you have to confirm that</p>
+<p begin="00:02:31.040" end="00:02:34.560" style="s2">transaction you have to write your</p>
+<p begin="00:02:32.640" end="00:02:36.239" style="s2">spending password to confirm the</p>
+<p begin="00:02:34.560" end="00:02:38.879" style="s2">transaction to say that that&#39;s exactly</p>
+<p begin="00:02:36.239" end="00:02:41.040" style="s2">what you want to do openc can invoke</p>
+<p begin="00:02:38.879" end="00:02:43.519" style="s2">their code as much as they want but if i</p>
+<p begin="00:02:41.040" end="00:02:45.280" style="s2">or you don&#39;t sign those invocations if</p>
+<p begin="00:02:43.519" end="00:02:47.840" style="s2">we don&#39;t sign those transactions the</p>
+<p begin="00:02:45.280" end="00:02:50.640" style="s2">code is not going to go through as we</p>
+<p begin="00:02:47.840" end="00:02:52.319" style="s2">said the code.openc is invoking lives in</p>
+<p begin="00:02:50.640" end="00:02:54.239" style="s2">something called a smart contract which</p>
+<p begin="00:02:52.319" end="00:02:56.000" style="s2">is the one in the ethereum blockchain</p>
+<p begin="00:02:54.239" end="00:02:57.760" style="s2">this smart contract is the one that has</p>
+<p begin="00:02:56.000" end="00:03:00.080" style="s2">all the instructions of what happens</p>
+<p begin="00:02:57.760" end="00:03:02.720" style="s2">after the invocation is confirmed with</p>
+<p begin="00:03:00.080" end="00:03:04.560" style="s2">our signature this smart contract is</p>
+<p begin="00:03:02.720" end="00:03:06.959" style="s2">public it&#39;s open source and it&#39;s</p>
+<p begin="00:03:04.560" end="00:03:08.879" style="s2">readable you can click and read to see</p>
+<p begin="00:03:06.959" end="00:03:11.440" style="s2">what a smart contract will do but of</p>
+<p begin="00:03:08.879" end="00:03:13.680" style="s2">course nobody reads it now if you have a</p>
+<p begin="00:03:11.440" end="00:03:15.840" style="s2">hacker mind which i&#39;m sure you do by now</p>
+<p begin="00:03:13.680" end="00:03:18.400" style="s2">you can probably see where this is going</p>
+<p begin="00:03:15.840" end="00:03:21.840" style="s2">you can probably realize why this is a</p>
+<p begin="00:03:18.400" end="00:03:24.879" style="s2">problem openc doesn&#39;t hold anyone&#39;s nfd</p>
+<p begin="00:03:21.840" end="00:03:26.560" style="s2">the users hold their nfts and the users</p>
+<p begin="00:03:24.879" end="00:03:28.799" style="s2">are very comfortable signing</p>
+<p begin="00:03:26.560" end="00:03:31.599" style="s2">transactions that are coming from the</p>
+<p begin="00:03:28.799" end="00:03:33.280" style="s2">openc website without checking what is</p>
+<p begin="00:03:31.599" end="00:03:36.239" style="s2">the contract that they are signing the</p>
+<p begin="00:03:33.280" end="00:03:38.959" style="s2">transaction to they trust that openc is</p>
+<p begin="00:03:36.239" end="00:03:41.120" style="s2">invoking the right code they trust that</p>
+<p begin="00:03:38.959" end="00:03:43.040" style="s2">openc is invoking the right functions</p>
+<p begin="00:03:41.120" end="00:03:45.440" style="s2">and is not invoking a function that is</p>
+<p begin="00:03:43.040" end="00:03:48.400" style="s2">going to give everybody&#39;s nfts to me</p>
+<p begin="00:03:45.440" end="00:03:50.080" style="s2">because that&#39;s it they trust openc so</p>
+<p begin="00:03:48.400" end="00:03:51.920" style="s2">that&#39;s it that&#39;s what the hackers did</p>
+<p begin="00:03:50.080" end="00:03:53.439" style="s2">they didn&#39;t have to hack the open c</p>
+<p begin="00:03:51.920" end="00:03:55.439" style="s2">smart contract they didn&#39;t have to hack</p>
+<p begin="00:03:53.439" end="00:03:57.680" style="s2">the ethereum virtual machine all they</p>
+<p begin="00:03:55.439" end="00:03:59.439" style="s2">had to do was hack the users trust since</p>
+<p begin="00:03:57.680" end="00:04:01.200" style="s2">they know that the users are the ones</p>
+<p begin="00:03:59.439" end="00:04:03.120" style="s2">that have the nfts and they know that</p>
+<p begin="00:04:01.200" end="00:04:05.519" style="s2">the users really trust websites that</p>
+<p begin="00:04:03.120" end="00:04:07.680" style="s2">look like openc and they don&#39;t read the</p>
+<p begin="00:04:05.519" end="00:04:09.840" style="s2">contracts that they are signing all the</p>
+<p begin="00:04:07.680" end="00:04:12.000" style="s2">hackers had to do was send an email that</p>
+<p begin="00:04:09.840" end="00:04:15.439" style="s2">looked like it was coming directly from</p>
+<p begin="00:04:12.000" end="00:04:18.000" style="s2">openc to a link to a website that looked</p>
+<p begin="00:04:15.439" end="00:04:20.000" style="s2">like openc and it was on that website</p>
+<p begin="00:04:18.000" end="00:04:23.280" style="s2">where the users were told that they had</p>
+<p begin="00:04:20.000" end="00:04:26.560" style="s2">to do a migration of their nfts the</p>
+<p begin="00:04:23.280" end="00:04:28.720" style="s2">website invoked some code that looked</p>
+<p begin="00:04:26.560" end="00:04:31.360" style="s2">like it was going to do the migration</p>
+<p begin="00:04:28.720" end="00:04:33.840" style="s2">the users signed that transaction but in</p>
+<p begin="00:04:31.360" end="00:04:36.080" style="s2">reality the code that they signed didn&#39;t</p>
+<p begin="00:04:33.840" end="00:04:38.240" style="s2">do any of those things instead the</p>
+<p begin="00:04:36.080" end="00:04:41.040" style="s2">hackers saved the signatures of the</p>
+<p begin="00:04:38.240" end="00:04:43.840" style="s2">users and with those valid signatures</p>
+<p begin="00:04:41.040" end="00:04:46.080" style="s2">the hackers invoked their own code to</p>
+<p begin="00:04:43.840" end="00:04:48.800" style="s2">make a transaction from the wallet of</p>
+<p begin="00:04:46.080" end="00:04:50.560" style="s2">the users to the wallet of the attackers</p>
+<p begin="00:04:48.800" end="00:04:52.479" style="s2">and because the attackers had the</p>
+<p begin="00:04:50.560" end="00:04:54.560" style="s2">signatures those transactions went</p>
+<p begin="00:04:52.479" end="00:04:56.800" style="s2">through without a problem after the</p>
+<p begin="00:04:54.560" end="00:04:58.320" style="s2">attackers had the nfts they resolved</p>
+<p begin="00:04:56.800" end="00:05:00.240" style="s2">them again the money was sent to</p>
+<p begin="00:04:58.320" end="00:05:02.400" style="s2">something called tornado cash which is</p>
+<p begin="00:05:00.240" end="00:05:04.479" style="s2">what many hackers use to hide the money</p>
+<p begin="00:05:02.400" end="00:05:06.320" style="s2">tornado cash basically mixes the</p>
+<p begin="00:05:04.479" end="00:05:08.639" style="s2">transactions so they are almost</p>
+<p begin="00:05:06.320" end="00:05:10.960" style="s2">untraceable let me know if you want a</p>
+<p begin="00:05:08.639" end="00:05:12.800" style="s2">video on that now so far looking at the</p>
+<p begin="00:05:10.960" end="00:05:14.520" style="s2">attacker&#39;s wallet we can see that they</p>
+<p begin="00:05:12.800" end="00:05:17.840" style="s2">sent 1</p>
+<p begin="00:05:14.520" end="00:05:20.240" style="s2">115 earth to tornado cash and since then</p>
+<p begin="00:05:17.840" end="00:05:22.560" style="s2">they haven&#39;t moved anymore so as you can</p>
+<p begin="00:05:20.240" end="00:05:24.800" style="s2">see there was no advanced hacking going</p>
+<p begin="00:05:22.560" end="00:05:27.199" style="s2">on it was just a phishing attack</p>
+<p begin="00:05:24.800" end="00:05:29.520" style="s2">where users that trust openc too much</p>
+<p begin="00:05:27.199" end="00:05:32.000" style="s2">and they sign whatever openc tells them</p>
+<p begin="00:05:29.520" end="00:05:33.759" style="s2">to were affected they signed the wrong</p>
+<p begin="00:05:32.000" end="00:05:35.680" style="s2">transaction and they approved it without</p>
+<p begin="00:05:33.759" end="00:05:37.759" style="s2">actually knowing what was going on now</p>
+<p begin="00:05:35.680" end="00:05:39.680" style="s2">keep in mind that this is the official</p>
+<p begin="00:05:37.759" end="00:05:42.000" style="s2">story this is what openc and other</p>
+<p begin="00:05:39.680" end="00:05:43.600" style="s2">people are saying so openc is saying</p>
+<p begin="00:05:42.000" end="00:05:45.680" style="s2">that it wasn&#39;t their fault it was the</p>
+<p begin="00:05:43.600" end="00:05:47.600" style="s2">user&#39;s fault for trusting and clicking</p>
+<p begin="00:05:45.680" end="00:05:49.360" style="s2">in the wrong link but the users are</p>
+<p begin="00:05:47.600" end="00:05:52.000" style="s2">saying that they didn&#39;t click anywhere</p>
+<p begin="00:05:49.360" end="00:05:53.840" style="s2">and that this is openc&#39;s fault so as you</p>
+<p begin="00:05:52.000" end="00:05:55.520" style="s2">can see this is very recent it&#39;s a</p>
+<p begin="00:05:53.840" end="00:05:57.680" style="s2">developing story almost so we have to</p>
+<p begin="00:05:55.520" end="00:05:59.600" style="s2">wait and see what happened but the moral</p>
+<p begin="00:05:57.680" end="00:06:03.199" style="s2">of the story is that as you can see this</p>
+<p begin="00:05:59.600" end="00:06:05.440" style="s2">industry is very very very very very</p>
+<p begin="00:06:03.199" end="00:06:07.680" style="s2">very very young where maybe the</p>
+<p begin="00:06:05.440" end="00:06:09.440" style="s2">developers of openc or the programming</p>
+<p begin="00:06:07.680" end="00:06:11.280" style="s2">languages used to program these</p>
+<p begin="00:06:09.440" end="00:06:14.720" style="s2">blockchains and these smart contracts</p>
+<p begin="00:06:11.280" end="00:06:17.280" style="s2">are not really ready to actually handle</p>
+<p begin="00:06:14.720" end="00:06:18.960" style="s2">billions of dollars of value or where</p>
+<p begin="00:06:17.280" end="00:06:20.800" style="s2">maybe the people that are using these</p>
+<p begin="00:06:18.960" end="00:06:22.880" style="s2">platforms don&#39;t have the technical</p>
+<p begin="00:06:20.800" end="00:06:25.120" style="s2">background to be able to use them well</p>
+<p begin="00:06:22.880" end="00:06:27.280" style="s2">and safely and where a tiny mistake a</p>
+<p begin="00:06:25.120" end="00:06:30.240" style="s2">single click can cost millions of</p>
+<p begin="00:06:27.280" end="00:06:32.319" style="s2">dollars in losses with no one to protect</p>
+<p begin="00:06:30.240" end="00:06:35.039" style="s2">them what i think is that having no</p>
+<p begin="00:06:32.319" end="00:06:36.720" style="s2">protection for anybody in this wild west</p>
+<p begin="00:06:35.039" end="00:06:38.319" style="s2">is a double-edged sword because</p>
+<p begin="00:06:36.720" end="00:06:40.400" style="s2">cryptocurrency projects and blockchains</p>
+<p begin="00:06:38.319" end="00:06:42.720" style="s2">they are all trying to eliminate the</p>
+<p begin="00:06:40.400" end="00:06:44.319" style="s2">government from our economical systems</p>
+<p begin="00:06:42.720" end="00:06:47.039" style="s2">they are trying to create</p>
+<p begin="00:06:44.319" end="00:06:49.039" style="s2">currencies away from the central banks</p>
+<p begin="00:06:47.039" end="00:06:51.840" style="s2">and all the normal systems of power that</p>
+<p begin="00:06:49.039" end="00:06:54.560" style="s2">we know so that means that if you don&#39;t</p>
+<p begin="00:06:51.840" end="00:06:56.000" style="s2">want them you also shouldn&#39;t go for them</p>
+<p begin="00:06:54.560" end="00:06:57.280" style="s2">when you need help</p>
+<p begin="00:06:56.000" end="00:07:00.000" style="s2">and that&#39;s something that we all have to</p>
+<p begin="00:06:57.280" end="00:07:02.240" style="s2">think about are people ready to be their</p>
+<p begin="00:07:00.000" end="00:07:04.000" style="s2">own banks are you ready to keep your</p>
+<p begin="00:07:02.240" end="00:07:05.919" style="s2">savings safe this is why the</p>
+<p begin="00:07:04.000" end="00:07:07.280" style="s2">fundamentals are so important and if you</p>
+<p begin="00:07:05.919" end="00:07:08.880" style="s2">learn such fundamentals if you</p>
+<p begin="00:07:07.280" end="00:07:10.960" style="s2">understand the concepts you will also be</p>
+<p begin="00:07:08.880" end="00:07:13.199" style="s2">able to identify the scammers the</p>
+<p begin="00:07:10.960" end="00:07:14.639" style="s2">scammers the hackers the ones that</p>
+<p begin="00:07:13.199" end="00:07:15.840" style="s2">actually know what you&#39;re talking about</p>
+<p begin="00:07:14.639" end="00:07:18.240" style="s2">the ones that understand the</p>
+<p begin="00:07:15.840" end="00:07:20.319" style="s2">fundamentals and the ones that hope that</p>
+<p begin="00:07:18.240" end="00:07:22.319" style="s2">people like you and me don&#39;t know what</p>
+<p begin="00:07:20.319" end="00:07:23.919" style="s2">we&#39;re talking about so they can confuse</p>
+<p begin="00:07:22.319" end="00:07:26.720" style="s2">us and they can trick us and they can</p>
+<p begin="00:07:23.919" end="00:07:28.400" style="s2">steal our money which is exactly what</p>
+<p begin="00:07:26.720" end="00:07:30.160" style="s2">happened with openc</p>
+<p begin="00:07:28.400" end="00:07:32.479" style="s2">i made a whole series on the</p>
+<p begin="00:07:30.160" end="00:07:33.840" style="s2">fundamentals of what makes up nfts</p>
+<p begin="00:07:32.479" end="00:07:35.520" style="s2">blockchains smart contracts and all</p>
+<p begin="00:07:33.840" end="00:07:37.039" style="s2">those things so please check it out it&#39;s</p>
+<p begin="00:07:35.520" end="00:07:38.720" style="s2">all youtube and it&#39;s all for free to</p>
+<p begin="00:07:37.039" end="00:07:40.000" style="s2">watch and also remember that if you want</p>
+<p begin="00:07:38.720" end="00:07:42.240" style="s2">to become a programmer and you want to</p>
+<p begin="00:07:40.000" end="00:07:44.639" style="s2">do it for free with me then please click</p>
+<p begin="00:07:42.240" end="00:07:46.319" style="s2">the link below there you will find many</p>
+<p begin="00:07:44.639" end="00:07:48.560" style="s2">free courses that you can take on things</p>
+<p begin="00:07:46.319" end="00:07:52.240" style="s2">like javascript python react react</p>
+<p begin="00:07:48.560" end="00:07:54.319" style="s2">native nest js next js go among many</p>
+<p begin="00:07:52.240" end="00:07:56.240" style="s2">other things more than a hundred</p>
+<p begin="00:07:54.319" end="00:07:59.280" style="s2">thousand people have taken our free</p>
+<p begin="00:07:56.240" end="00:08:01.360" style="s2">javascript react react native and python</p>
+<p begin="00:07:59.280" end="00:08:02.960" style="s2">courses so click the link below but</p>
+<p begin="00:08:01.360" end="00:08:04.879" style="s2">that&#39;s just what i think let me know</p>
+<p begin="00:08:02.960" end="00:08:06.879" style="s2">what you think what is your opinion of</p>
+<p begin="00:08:04.879" end="00:08:08.240" style="s2">this blockchain crypto entities all</p>
+<p begin="00:08:06.879" end="00:08:09.919" style="s2">those things let me know please on the</p>
+<p begin="00:08:08.240" end="00:08:12.400" style="s2">comments i&#39;m gonna be reading them right</p>
+<p begin="00:08:09.919" end="00:08:14.960" style="s2">now i think there is innovation i think</p>
+<p begin="00:08:12.400" end="00:08:16.800" style="s2">there is potential but i might be wrong</p>
+<p begin="00:08:14.960" end="00:08:18.080" style="s2">i don&#39;t claim to be an expert on these</p>
+<p begin="00:08:16.800" end="00:08:20.240" style="s2">things i&#39;m just somebody that feels</p>
+<p begin="00:08:18.080" end="00:08:21.840" style="s2">really passionate about this but i care</p>
+<p begin="00:08:20.240" end="00:08:23.759" style="s2">about your opinion do you think it&#39;s a</p>
+<p begin="00:08:21.840" end="00:08:25.840" style="s2">scam do you think it&#39;s not going to work</p>
+<p begin="00:08:23.759" end="00:08:27.280" style="s2">do you think it&#39;s going to get better do</p>
+<p begin="00:08:25.840" end="00:08:28.560" style="s2">you think these mistakes are going to</p>
+<p begin="00:08:27.280" end="00:08:30.319" style="s2">teach us something and we&#39;re going to</p>
+<p begin="00:08:28.560" end="00:08:31.680" style="s2">build better systems or better user</p>
+<p begin="00:08:30.319" end="00:08:33.599" style="s2">experience</p>
+<p begin="00:08:31.680" end="00:08:35.360" style="s2">i hope so i don&#39;t know thank you for</p>
+<p begin="00:08:33.599" end="00:08:38.000" style="s2">watching as always stay free stay</p>
+<p begin="00:08:35.360" end="00:08:42.760" style="s2">healthy stay happy eat kimchi kamzamida</p>
+<p begin="00:08:38.000" end="00:08:42.760" style="s2">salanghayo see you on the next one bye</p>
+</div>
+</body>
+</tt>

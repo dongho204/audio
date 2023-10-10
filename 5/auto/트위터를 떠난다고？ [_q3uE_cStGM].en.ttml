@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.000" end="00:00:06.540" style="s2">since Elon Musk took over Twitter many</p>
+<p begin="00:00:04.920" end="00:00:08.099" style="s2">people that don&#39;t like him or don&#39;t</p>
+<p begin="00:00:06.540" end="00:00:11.280" style="s2">agree with his policies have been</p>
+<p begin="00:00:08.099" end="00:00:13.860" style="s2">migrating to Mastodon a rival social</p>
+<p begin="00:00:11.280" end="00:00:17.279" style="s2">media platform in a matter of weeks</p>
+<p begin="00:00:13.860" end="00:00:21.000" style="s2">Marston went from 300 000 daily active</p>
+<p begin="00:00:17.279" end="00:00:22.680" style="s2">users to 2.5 million on the surface you</p>
+<p begin="00:00:21.000" end="00:00:24.720" style="s2">could say that Mastodon is a Twitter</p>
+<p begin="00:00:22.680" end="00:00:27.060" style="s2">Club because it sort of works the way</p>
+<p begin="00:00:24.720" end="00:00:29.279" style="s2">Twitter does you have a profile you can</p>
+<p begin="00:00:27.060" end="00:00:31.859" style="s2">follow some people you see their posts</p>
+<p begin="00:00:29.279" end="00:00:35.340" style="s2">you can retweet their posts like it or</p>
+<p begin="00:00:31.859" end="00:00:37.500" style="s2">reply to it but at its core Mastodon is</p>
+<p begin="00:00:35.340" end="00:00:39.899" style="s2">very different from Twitter first of all</p>
+<p begin="00:00:37.500" end="00:00:42.719" style="s2">there is no algorithm pushing ads or</p>
+<p begin="00:00:39.899" end="00:00:45.300" style="s2">Trends or suggested posts your timeline</p>
+<p begin="00:00:42.719" end="00:00:47.820" style="s2">is chronological from newest to oldest</p>
+<p begin="00:00:45.300" end="00:00:50.460" style="s2">and that&#39;s it second Mastodon is open</p>
+<p begin="00:00:47.820" end="00:00:52.559" style="s2">source we can go to the GitHub page and</p>
+<p begin="00:00:50.460" end="00:00:55.320" style="s2">see how the sausage is made the back end</p>
+<p begin="00:00:52.559" end="00:00:57.719" style="s2">is built with Ruby on Rails node.js is</p>
+<p begin="00:00:55.320" end="00:00:59.940" style="s2">used for streaming and react.js and</p>
+<p begin="00:00:57.719" end="00:01:02.100" style="s2">redox for the front end but the most</p>
+<p begin="00:00:59.940" end="00:01:04.799" style="s2">important thing of all and what makes</p>
+<p begin="00:01:02.100" end="00:01:07.200" style="s2">Mastodon so different from Twitter what</p>
+<p begin="00:01:04.799" end="00:01:10.619" style="s2">makes Mastodon awesome and what makes</p>
+<p begin="00:01:07.200" end="00:01:12.960" style="s2">people not want to use Mastodon is the</p>
+<p begin="00:01:10.619" end="00:01:15.180" style="s2">fact that Macedon is decentralized</p>
+<p begin="00:01:12.960" end="00:01:17.460" style="s2">thanks to the fact that Macedon is open</p>
+<p begin="00:01:15.180" end="00:01:19.560" style="s2">source anyone can download the code from</p>
+<p begin="00:01:17.460" end="00:01:22.080" style="s2">GitHub and run their own version of</p>
+<p begin="00:01:19.560" end="00:01:24.180" style="s2">Mastodon on their own server making what</p>
+<p begin="00:01:22.080" end="00:01:26.040" style="s2">is called an instance if you want to</p>
+<p begin="00:01:24.180" end="00:01:29.100" style="s2">join Mastodon you can run your own</p>
+<p begin="00:01:26.040" end="00:01:31.259" style="s2">instance which many people don&#39;t do or</p>
+<p begin="00:01:29.100" end="00:01:33.659" style="s2">you can find an already existing server</p>
+<p begin="00:01:31.259" end="00:01:35.880" style="s2">usually run by a volunteer that let you</p>
+<p begin="00:01:33.659" end="00:01:38.159" style="s2">join in this aspect Mastodon is less</p>
+<p begin="00:01:35.880" end="00:01:40.259" style="s2">than Twitter and more like email there</p>
+<p begin="00:01:38.159" end="00:01:42.299" style="s2">are many email providers and you get to</p>
+<p begin="00:01:40.259" end="00:01:43.979" style="s2">choose which one you use same with</p>
+<p begin="00:01:42.299" end="00:01:46.799" style="s2">muscle at the time of recording this</p>
+<p begin="00:01:43.979" end="00:01:49.020" style="s2">video there are more than 9 000 servers</p>
+<p begin="00:01:46.799" end="00:01:50.939" style="s2">running the Mastodon code but just</p>
+<p begin="00:01:49.020" end="00:01:53.040" style="s2">because they run the same software does</p>
+<p begin="00:01:50.939" end="00:01:54.780" style="s2">not mean that the servers are all the</p>
+<p begin="00:01:53.040" end="00:01:56.640" style="s2">same the person running the Mastodon</p>
+<p begin="00:01:54.780" end="00:01:59.100" style="s2">server has all the control and gets to</p>
+<p begin="00:01:56.640" end="00:02:01.320" style="s2">make all the rules some servers allow</p>
+<p begin="00:01:59.100" end="00:02:03.720" style="s2">you to join freely and some make you</p>
+<p begin="00:02:01.320" end="00:02:06.479" style="s2">apply for a membership some servers are</p>
+<p begin="00:02:03.720" end="00:02:08.099" style="s2">only for gamers or book readers with</p>
+<p begin="00:02:06.479" end="00:02:11.400" style="s2">strong moderation rules that would</p>
+<p begin="00:02:08.099" end="00:02:13.440" style="s2">delete or ban any off-topic posts there</p>
+<p begin="00:02:11.400" end="00:02:16.020" style="s2">are servers only for people of specific</p>
+<p begin="00:02:13.440" end="00:02:18.060" style="s2">political views Eco Chambers or people</p>
+<p begin="00:02:16.020" end="00:02:21.180" style="s2">that live in cities like Berlin or New</p>
+<p begin="00:02:18.060" end="00:02:22.739" style="s2">York or servers only for adults servers</p>
+<p begin="00:02:21.180" end="00:02:24.840" style="s2">where there is no moderation and</p>
+<p begin="00:02:22.739" end="00:02:27.599" style="s2">everything goes and even servers with</p>
+<p begin="00:02:24.840" end="00:02:30.120" style="s2">hateful content as well with email if I</p>
+<p begin="00:02:27.599" end="00:02:31.860" style="s2">use Gmail and you use protonmail we can</p>
+<p begin="00:02:30.120" end="00:02:34.560" style="s2">still talk to each other because both of</p>
+<p begin="00:02:31.860" end="00:02:37.319" style="s2">those email providers speak the email</p>
+<p begin="00:02:34.560" end="00:02:39.360" style="s2">protocol Mastodon is the same even if</p>
+<p begin="00:02:37.319" end="00:02:41.640" style="s2">you are on the Lord of the Rings server</p>
+<p begin="00:02:39.360" end="00:02:43.440" style="s2">and I am on the Thailand server we can</p>
+<p begin="00:02:41.640" end="00:02:45.660" style="s2">still follow each other and see each</p>
+<p begin="00:02:43.440" end="00:02:48.420" style="s2">other&#39;s posts that is because Mastodon</p>
+<p begin="00:02:45.660" end="00:02:50.519" style="s2">servers speak a protocol called activity</p>
+<p begin="00:02:48.420" end="00:02:51.959" style="s2">pop but this is not mandatory if you</p>
+<p begin="00:02:50.519" end="00:02:54.180" style="s2">want to you can make a completely</p>
+<p begin="00:02:51.959" end="00:02:57.060" style="s2">private Mastodon instance that does not</p>
+<p begin="00:02:54.180" end="00:02:58.620" style="s2">talk to anyone else these decentralized</p>
+<p begin="00:02:57.060" end="00:03:01.500" style="s2">architecture is the reason why a</p>
+<p begin="00:02:58.620" end="00:03:03.540" style="s2">mastodon username looks a lot more like</p>
+<p begin="00:03:01.500" end="00:03:05.340" style="s2">an email address first comes your</p>
+<p begin="00:03:03.540" end="00:03:07.379" style="s2">username and then the server where you</p>
+<p begin="00:03:05.340" end="00:03:08.760" style="s2">have your account on Mastered on that</p>
+<p begin="00:03:07.379" end="00:03:11.280" style="s2">social is one of the most popular</p>
+<p begin="00:03:08.760" end="00:03:13.580" style="s2">servers so if I was on that server my</p>
+<p begin="00:03:11.280" end="00:03:15.599" style="s2">username would be at Nico</p>
+<p begin="00:03:13.580" end="00:03:18.000" style="s2">macedon.social for example because</p>
+<p begin="00:03:15.599" end="00:03:20.819" style="s2">Mastodon is decentralized it cannot be</p>
+<p begin="00:03:18.000" end="00:03:23.220" style="s2">bought or sold it will not go bankrupt</p>
+<p begin="00:03:20.819" end="00:03:25.319" style="s2">and no person has absolute control over</p>
+<p begin="00:03:23.220" end="00:03:27.599" style="s2">it but because it is decentralized that</p>
+<p begin="00:03:25.319" end="00:03:29.819" style="s2">means that it has other challenges the</p>
+<p begin="00:03:27.599" end="00:03:31.920" style="s2">volunteer that runs the instance the</p>
+<p begin="00:03:29.819" end="00:03:34.319" style="s2">admin has to pay for the servers</p>
+<p begin="00:03:31.920" end="00:03:36.780" style="s2">databases and storage space from their</p>
+<p begin="00:03:34.319" end="00:03:39.180" style="s2">own pocket or using the donations that</p>
+<p begin="00:03:36.780" end="00:03:41.879" style="s2">same admin can see all the data on the</p>
+<p begin="00:03:39.180" end="00:03:43.920" style="s2">server including direct messages the</p>
+<p begin="00:03:41.879" end="00:03:45.840" style="s2">admin can ban you from the server and</p>
+<p begin="00:03:43.920" end="00:03:47.519" style="s2">kick you out if they feel like it and</p>
+<p begin="00:03:45.840" end="00:03:49.620" style="s2">there is nothing you can do and because</p>
+<p begin="00:03:47.519" end="00:03:52.260" style="s2">there is no Central authority to verify</p>
+<p begin="00:03:49.620" end="00:03:54.599" style="s2">if a user is real or not it is</p>
+<p begin="00:03:52.260" end="00:03:56.819" style="s2">relatively easy to impersonate a user</p>
+<p begin="00:03:54.599" end="00:03:58.739" style="s2">across many different servers with fake</p>
+<p begin="00:03:56.819" end="00:03:59.819" style="s2">accounts many people moved out of</p>
+<p begin="00:03:58.739" end="00:04:02.099" style="s2">Twitter because they don&#39;t want to trust</p>
+<p begin="00:03:59.819" end="00:04:04.140" style="s2">a billionaire with their data but</p>
+<p begin="00:04:02.099" end="00:04:06.000" style="s2">nevertheless unless they run their own</p>
+<p begin="00:04:04.140" end="00:04:08.580" style="s2">server they&#39;re going to have to trust</p>
+<p begin="00:04:06.000" end="00:04:10.560" style="s2">someone anyways maybe it&#39;s not Elon</p>
+<p begin="00:04:08.580" end="00:04:13.080" style="s2">anymore but it&#39;s now a random dude in</p>
+<p begin="00:04:10.560" end="00:04:15.299" style="s2">Bucharest many people including Mastodon</p>
+<p begin="00:04:13.080" end="00:04:17.519" style="s2">users don&#39;t see Mastodon replacing</p>
+<p begin="00:04:15.299" end="00:04:19.560" style="s2">Twitter because masterton as you can see</p>
+<p begin="00:04:17.519" end="00:04:21.840" style="s2">is different and it doesn&#39;t want to be</p>
+<p begin="00:04:19.560" end="00:04:23.520" style="s2">Twitter anyways that&#39;s it for this video</p>
+<p begin="00:04:21.840" end="00:04:25.199" style="s2">I hope that you like this tiny</p>
+<p begin="00:04:23.520" end="00:04:27.240" style="s2">introduction to masterton and I hope</p>
+<p begin="00:04:25.199" end="00:04:29.699" style="s2">that now you understand what is it and</p>
+<p begin="00:04:27.240" end="00:04:31.800" style="s2">how it is different from Twitter I now</p>
+<p begin="00:04:29.699" end="00:04:33.840" style="s2">would love to know what you think about</p>
+<p begin="00:04:31.800" end="00:04:35.820" style="s2">Mastodon did you know it was</p>
+<p begin="00:04:33.840" end="00:04:38.520" style="s2">decentralized do you think that it will</p>
+<p begin="00:04:35.820" end="00:04:40.380" style="s2">replace Twitter are you already using</p>
+<p begin="00:04:38.520" end="00:04:41.940" style="s2">Mastodon let me know in the comments and</p>
+<p begin="00:04:40.380" end="00:04:43.740" style="s2">if you like this kind of content please</p>
+<p begin="00:04:41.940" end="00:04:45.600" style="s2">consider leaving a like And subscribe</p>
+<p begin="00:04:43.740" end="00:04:47.639" style="s2">and don&#39;t forget that if you want to</p>
+<p begin="00:04:45.600" end="00:04:49.919" style="s2">learn things like JavaScript python</p>
+<p begin="00:04:47.639" end="00:04:52.320" style="s2">react react native gold dark Slaughter</p>
+<p begin="00:04:49.919" end="00:04:54.660" style="s2">among many others for absolutely free</p>
+<p begin="00:04:52.320" end="00:04:57.600" style="s2">all you have to do is click the link</p>
+<p begin="00:04:54.660" end="00:04:59.759" style="s2">below to join any of our many free</p>
+<p begin="00:04:57.600" end="00:05:02.520" style="s2">courses that you can take right now for</p>
+<p begin="00:04:59.759" end="00:05:04.759" style="s2">free click on the link below and I will</p>
+<p begin="00:05:02.520" end="00:05:08.780" style="s2">see you there</p>
+<p begin="00:05:04.759" end="00:05:08.780" style="s2">see you on the next one bye</p>
+<p begin="00:05:13.540" end="00:05:23.740" style="s2">[Music]</p>
+</div>
+</body>
+</tt>

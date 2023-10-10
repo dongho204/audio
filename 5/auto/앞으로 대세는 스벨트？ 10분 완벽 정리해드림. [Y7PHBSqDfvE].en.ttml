@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.960" end="00:00:08.559" style="s2">today we are going to talk about svet</p>
+<p begin="00:00:06.000" end="00:00:11.360" style="s2">svelt is a tool to build interactive</p>
+<p begin="00:00:08.559" end="00:00:14.559" style="s2">websites that was chosen as the most</p>
+<p begin="00:00:11.360" end="00:00:17.279" style="s2">loved web framework in last year&#39;s stack</p>
+<p begin="00:00:14.559" end="00:00:19.359" style="s2">overflow developer survey so today we</p>
+<p begin="00:00:17.279" end="00:00:22.400" style="s2">are going to find out what is and how</p>
+<p begin="00:00:19.359" end="00:00:24.880" style="s2">does svelt work what makes it different</p>
+<p begin="00:00:22.400" end="00:00:27.519" style="s2">from react what makes it faster than</p>
+<p begin="00:00:24.880" end="00:00:29.920" style="s2">react what makes people like it so much</p>
+<p begin="00:00:27.519" end="00:00:32.160" style="s2">and who should learn it we will also</p>
+<p begin="00:00:29.920" end="00:00:34.239" style="s2">take a look at how does his belt code</p>
+<p begin="00:00:32.160" end="00:00:37.360" style="s2">look like by making a couple of tiny</p>
+<p begin="00:00:34.239" end="00:00:39.280" style="s2">examples let&#39;s get started as i said</p>
+<p begin="00:00:37.360" end="00:00:41.680" style="s2">svelt is a tool that helps you make</p>
+<p begin="00:00:39.280" end="00:00:44.480" style="s2">interactive websites just like react</p>
+<p begin="00:00:41.680" end="00:00:47.680" style="s2">does but it does it in a very different</p>
+<p begin="00:00:44.480" end="00:00:50.320" style="s2">way unlike react.js or vjs as veldt is</p>
+<p begin="00:00:47.680" end="00:00:52.960" style="s2">not really a library or a framework</p>
+<p begin="00:00:50.320" end="00:00:54.879" style="s2">zvelt is more like a compiler which</p>
+<p begin="00:00:52.960" end="00:00:57.120" style="s2">makes it very very different from its</p>
+<p begin="00:00:54.879" end="00:00:59.280" style="s2">competition if we build our applications</p>
+<p begin="00:00:57.120" end="00:01:01.120" style="s2">using react for example after we finish</p>
+<p begin="00:00:59.280" end="00:01:03.680" style="s2">the application and we publish it to the</p>
+<p begin="00:01:01.120" end="00:01:05.920" style="s2">word when a user comes to our website</p>
+<p begin="00:01:03.680" end="00:01:08.240" style="s2">they will have to download two pieces of</p>
+<p begin="00:01:05.920" end="00:01:10.479" style="s2">code the first one is the code that we</p>
+<p begin="00:01:08.240" end="00:01:13.439" style="s2">wrote all the logic that makes up our</p>
+<p begin="00:01:10.479" end="00:01:16.320" style="s2">application the second code is a copy of</p>
+<p begin="00:01:13.439" end="00:01:19.680" style="s2">the react.js code this is because the</p>
+<p begin="00:01:16.320" end="00:01:21.600" style="s2">code that we wrote uses react.js so it</p>
+<p begin="00:01:19.680" end="00:01:23.600" style="s2">makes sense that to be able to run our</p>
+<p begin="00:01:21.600" end="00:01:26.159" style="s2">application our users are going to need</p>
+<p begin="00:01:23.600" end="00:01:27.840" style="s2">to download react as well react is not</p>
+<p begin="00:01:26.159" end="00:01:29.840" style="s2">alone in this this is like a standard</p>
+<p begin="00:01:27.840" end="00:01:31.520" style="s2">practice for example if you use jquery</p>
+<p begin="00:01:29.840" end="00:01:33.680" style="s2">in your code the user is going to have</p>
+<p begin="00:01:31.520" end="00:01:35.600" style="s2">to also download the jquery so they can</p>
+<p begin="00:01:33.680" end="00:01:38.159" style="s2">be able to run your code which makes</p>
+<p begin="00:01:35.600" end="00:01:40.799" style="s2">sense but this is not what&#39;s belt thus</p>
+<p begin="00:01:38.159" end="00:01:42.479" style="s2">when i first tried svelt long time ago</p>
+<p begin="00:01:40.799" end="00:01:44.880" style="s2">and they had the version one of their</p>
+<p begin="00:01:42.479" end="00:01:48.720" style="s2">website they were marketing svelte as</p>
+<p begin="00:01:44.880" end="00:01:50.960" style="s2">the magic ui framework that disappears</p>
+<p begin="00:01:48.720" end="00:01:53.200" style="s2">this is because it kind of does it sort</p>
+<p begin="00:01:50.960" end="00:01:54.880" style="s2">of disappears after you write your</p>
+<p begin="00:01:53.200" end="00:01:57.600" style="s2">application using svet and when you are</p>
+<p begin="00:01:54.880" end="00:02:00.240" style="s2">ready to publish it to the word svelte</p>
+<p begin="00:01:57.600" end="00:02:02.799" style="s2">analyzes and compiles or translates your</p>
+<p begin="00:02:00.240" end="00:02:04.799" style="s2">code into normal javascript code that</p>
+<p begin="00:02:02.799" end="00:02:07.680" style="s2">the browser will be able to understand</p>
+<p begin="00:02:04.799" end="00:02:10.080" style="s2">by itself there is no need to explain to</p>
+<p begin="00:02:07.680" end="00:02:11.920" style="s2">the browser what is belt is this means</p>
+<p begin="00:02:10.080" end="00:02:13.760" style="s2">that when the user comes to our website</p>
+<p begin="00:02:11.920" end="00:02:15.440" style="s2">and if we are using svelte we are going</p>
+<p begin="00:02:13.760" end="00:02:17.680" style="s2">to give to the user only the code</p>
+<p begin="00:02:15.440" end="00:02:19.360" style="s2">required to make our application run and</p>
+<p begin="00:02:17.680" end="00:02:21.920" style="s2">we are not going to also give to the</p>
+<p begin="00:02:19.360" end="00:02:24.400" style="s2">user a framework on top of that this</p>
+<p begin="00:02:21.920" end="00:02:26.800" style="s2">makes the size of svelte apps to be much</p>
+<p begin="00:02:24.400" end="00:02:28.480" style="s2">much much smaller than apps created with</p>
+<p begin="00:02:26.800" end="00:02:30.640" style="s2">react or vue.js</p>
+<p begin="00:02:28.480" end="00:02:34.319" style="s2">this to-do application implemented in</p>
+<p begin="00:02:30.640" end="00:02:36.720" style="s2">svelt only weighs 3.6 kilobytes the same</p>
+<p begin="00:02:34.319" end="00:02:40.239" style="s2">to do application implemented in reality</p>
+<p begin="00:02:36.720" end="00:02:42.239" style="s2">yes weights more than 45 kilobytes zvelt</p>
+<p begin="00:02:40.239" end="00:02:44.480" style="s2">applications are also faster than view</p>
+<p begin="00:02:42.239" end="00:02:47.200" style="s2">and react applications as you can see</p>
+<p begin="00:02:44.480" end="00:02:49.120" style="s2">here they are almost as fast as raw</p>
+<p begin="00:02:47.200" end="00:02:51.840" style="s2">vanilla javascript</p>
+<p begin="00:02:49.120" end="00:02:55.120" style="s2">as this veldt website says svelte is</p>
+<p begin="00:02:51.840" end="00:02:57.760" style="s2">basically as fast as vanilla js which</p>
+<p begin="00:02:55.120" end="00:03:00.080" style="s2">makes sense because it is vanilla js</p>
+<p begin="00:02:57.760" end="00:03:02.640" style="s2">just vanilla that you did not have to</p>
+<p begin="00:03:00.080" end="00:03:04.879" style="s2">write it&#39;s also because of this compiler</p>
+<p begin="00:03:02.640" end="00:03:06.560" style="s2">dansveld doesn&#39;t use something called</p>
+<p begin="00:03:04.879" end="00:03:08.720" style="s2">virtual dom</p>
+<p begin="00:03:06.560" end="00:03:11.040" style="s2">virtual dom is a representation of the</p>
+<p begin="00:03:08.720" end="00:03:13.680" style="s2">ui of your application that react.js</p>
+<p begin="00:03:11.040" end="00:03:16.080" style="s2">keeps on memory and that is synced from</p>
+<p begin="00:03:13.680" end="00:03:18.640" style="s2">time to time with the real ui that the</p>
+<p begin="00:03:16.080" end="00:03:21.040" style="s2">user is looking at and this allows real</p>
+<p begin="00:03:18.640" end="00:03:23.599" style="s2">gds to find the elements that need to be</p>
+<p begin="00:03:21.040" end="00:03:25.920" style="s2">refreshed to show the changes in the ui</p>
+<p begin="00:03:23.599" end="00:03:28.480" style="s2">back when react dds was released keeping</p>
+<p begin="00:03:25.920" end="00:03:30.400" style="s2">a copy of the ui in memory to check for</p>
+<p begin="00:03:28.480" end="00:03:32.560" style="s2">state changes was something that no</p>
+<p begin="00:03:30.400" end="00:03:34.239" style="s2">other frameworks were doing back then</p>
+<p begin="00:03:32.560" end="00:03:36.799" style="s2">where according to sveld there is no</p>
+<p begin="00:03:34.239" end="00:03:39.680" style="s2">need to use virtual dom anymore since</p>
+<p begin="00:03:36.799" end="00:03:42.319" style="s2">the compiler can generate more optimized</p>
+<p begin="00:03:39.680" end="00:03:44.879" style="s2">javascript code that can refresh the ui</p>
+<p begin="00:03:42.319" end="00:03:47.360" style="s2">in a faster way i personally don&#39;t think</p>
+<p begin="00:03:44.879" end="00:03:49.519" style="s2">that virtual dom versus no virtual dom</p>
+<p begin="00:03:47.360" end="00:03:51.120" style="s2">is something we should focus on there</p>
+<p begin="00:03:49.519" end="00:03:52.879" style="s2">are some frameworks out there that are</p>
+<p begin="00:03:51.120" end="00:03:55.200" style="s2">faster than svex like for example</p>
+<p begin="00:03:52.879" end="00:03:57.680" style="s2">inferno and they use virtual dom so</p>
+<p begin="00:03:55.200" end="00:04:01.280" style="s2">instead let&#39;s move on to our next point</p>
+<p begin="00:03:57.680" end="00:04:03.280" style="s2">why do people like svelte so much i</p>
+<p begin="00:04:01.280" end="00:04:05.439" style="s2">can&#39;t speak for everyone but based on my</p>
+<p begin="00:04:03.280" end="00:04:07.120" style="s2">own experience between using svelte and</p>
+<p begin="00:04:05.439" end="00:04:08.799" style="s2">react.js and by reading the comments</p>
+<p begin="00:04:07.120" end="00:04:11.040" style="s2">online i would say that the biggest</p>
+<p begin="00:04:08.799" end="00:04:13.519" style="s2">reason for the love is the developer</p>
+<p begin="00:04:11.040" end="00:04:16.479" style="s2">experience i actually enjoyed working</p>
+<p begin="00:04:13.519" end="00:04:18.799" style="s2">with svelte compared to react.js or vgs</p>
+<p begin="00:04:16.479" end="00:04:21.440" style="s2">i can really say that it feels like the</p>
+<p begin="00:04:18.799" end="00:04:23.680" style="s2">people making veldt actually care about</p>
+<p begin="00:04:21.440" end="00:04:26.000" style="s2">the developers using svelte they care</p>
+<p begin="00:04:23.680" end="00:04:28.800" style="s2">about the developer experience which is</p>
+<p begin="00:04:26.000" end="00:04:30.720" style="s2">super nice to feel also it&#39;s very</p>
+<p begin="00:04:28.800" end="00:04:33.199" style="s2">intuitive and very easy to learn if you</p>
+<p begin="00:04:30.720" end="00:04:35.280" style="s2">already come from react or view js i</p>
+<p begin="00:04:33.199" end="00:04:37.360" style="s2">would say the feeling is very similar to</p>
+<p begin="00:04:35.280" end="00:04:39.040" style="s2">what you might feel if you are a java</p>
+<p begin="00:04:37.360" end="00:04:40.720" style="s2">developer and you are used to all these</p>
+<p begin="00:04:39.040" end="00:04:42.800" style="s2">rules and all these concepts and all</p>
+<p begin="00:04:40.720" end="00:04:44.479" style="s2">those things and then you come to python</p>
+<p begin="00:04:42.800" end="00:04:46.800" style="s2">and you see the syntax and how clean it</p>
+<p begin="00:04:44.479" end="00:04:49.280" style="s2">is and how no rules there are to show</p>
+<p begin="00:04:46.800" end="00:04:52.160" style="s2">you what i mean let&#39;s build a tiny click</p>
+<p begin="00:04:49.280" end="00:04:54.720" style="s2">counter with svelte as well component is</p>
+<p begin="00:04:52.160" end="00:04:57.440" style="s2">composed of three parts one is the</p>
+<p begin="00:04:54.720" end="00:04:59.919" style="s2">script tag the other one is the style</p>
+<p begin="00:04:57.440" end="00:05:02.639" style="s2">tag and below those you can write</p>
+<p begin="00:04:59.919" end="00:05:04.560" style="s2">whatever html you want if you&#39;re a view</p>
+<p begin="00:05:02.639" end="00:05:06.880" style="s2">developer i am sure that this will look</p>
+<p begin="00:05:04.560" end="00:05:08.720" style="s2">familiar to you now in the style tag of</p>
+<p begin="00:05:06.880" end="00:05:10.560" style="s2">course we write the styles of our</p>
+<p begin="00:05:08.720" end="00:05:12.400" style="s2">components as you can see is pretty</p>
+<p begin="00:05:10.560" end="00:05:13.919" style="s2">intuitive already we know where to put</p>
+<p begin="00:05:12.400" end="00:05:16.320" style="s2">our logic we know where to put our</p>
+<p begin="00:05:13.919" end="00:05:18.639" style="s2">styles we know where to put our html now</p>
+<p begin="00:05:16.320" end="00:05:20.800" style="s2">it&#39;s time for the logic i want to make a</p>
+<p begin="00:05:18.639" end="00:05:22.880" style="s2">variable that will hold the value of the</p>
+<p begin="00:05:20.800" end="00:05:25.520" style="s2">amount of clicks and i want to show that</p>
+<p begin="00:05:22.880" end="00:05:27.840" style="s2">value to the user so we create a normal</p>
+<p begin="00:05:25.520" end="00:05:30.479" style="s2">javascript variable inside of the script</p>
+<p begin="00:05:27.840" end="00:05:33.280" style="s2">tag and we also include it in our html</p>
+<p begin="00:05:30.479" end="00:05:34.960" style="s2">making use of curly braces now i want to</p>
+<p begin="00:05:33.280" end="00:05:37.440" style="s2">make a function that increases the</p>
+<p begin="00:05:34.960" end="00:05:38.880" style="s2">number of clicks every time it runs now</p>
+<p begin="00:05:37.440" end="00:05:41.360" style="s2">we have to say that we want this</p>
+<p begin="00:05:38.880" end="00:05:44.560" style="s2">function to run every time our user</p>
+<p begin="00:05:41.360" end="00:05:46.720" style="s2">clicks on the button in our html and we</p>
+<p begin="00:05:44.560" end="00:05:49.039" style="s2">do this by doing this</p>
+<p begin="00:05:46.720" end="00:05:51.280" style="s2">and we are done we just built a counter</p>
+<p begin="00:05:49.039" end="00:05:54.080" style="s2">with svelte as you can see the code is</p>
+<p begin="00:05:51.280" end="00:05:56.560" style="s2">super easy to read anyone with a basic</p>
+<p begin="00:05:54.080" end="00:05:58.960" style="s2">level of html css and javascript is</p>
+<p begin="00:05:56.560" end="00:06:00.960" style="s2">going to understand what is going on and</p>
+<p begin="00:05:58.960" end="00:06:03.120" style="s2">unlike with react we didn&#39;t have to</p>
+<p begin="00:06:00.960" end="00:06:05.360" style="s2">learn concepts like hooks or state</p>
+<p begin="00:06:03.120" end="00:06:07.919" style="s2">beforehand to show you what i mean by</p>
+<p begin="00:06:05.360" end="00:06:10.639" style="s2">nice developer experience let&#39;s now</p>
+<p begin="00:06:07.919" end="00:06:14.080" style="s2">modify our example a little bit to only</p>
+<p begin="00:06:10.639" end="00:06:15.840" style="s2">allow the user to click one time right</p>
+<p begin="00:06:14.080" end="00:06:17.600" style="s2">now the user can click an unlimited</p>
+<p begin="00:06:15.840" end="00:06:20.080" style="s2">amount of time so to fulfill the</p>
+<p begin="00:06:17.600" end="00:06:22.639" style="s2">requirements we might be inclined to</p>
+<p begin="00:06:20.080" end="00:06:25.440" style="s2">write some code on the script tag but in</p>
+<p begin="00:06:22.639" end="00:06:28.160" style="s2">zvelt we don&#39;t have to instead we just</p>
+<p begin="00:06:25.440" end="00:06:30.400" style="s2">add the once event modifier to our</p>
+<p begin="00:06:28.160" end="00:06:32.560" style="s2">button and just by doing this as veldt</p>
+<p begin="00:06:30.400" end="00:06:35.520" style="s2">will run the increase click function</p>
+<p begin="00:06:32.560" end="00:06:37.360" style="s2">just once and never again this is what i</p>
+<p begin="00:06:35.520" end="00:06:39.680" style="s2">mean when i say nice developer</p>
+<p begin="00:06:37.360" end="00:06:41.759" style="s2">experiences vent is full of these tiny</p>
+<p begin="00:06:39.680" end="00:06:43.919" style="s2">little things that will save you time as</p>
+<p begin="00:06:41.759" end="00:06:45.919" style="s2">a developer another example of these are</p>
+<p begin="00:06:43.919" end="00:06:48.639" style="s2">bindings they make it super easy for you</p>
+<p begin="00:06:45.919" end="00:06:51.120" style="s2">to get input from the user to build a</p>
+<p begin="00:06:48.639" end="00:06:53.039" style="s2">simple hello world with the name of the</p>
+<p begin="00:06:51.120" end="00:06:55.599" style="s2">user all we have to do is create a</p>
+<p begin="00:06:53.039" end="00:06:58.880" style="s2">variable on the script tag along with an</p>
+<p begin="00:06:55.599" end="00:07:01.520" style="s2">input and an h2 and then in our input we</p>
+<p begin="00:06:58.880" end="00:07:04.319" style="s2">bind or connect which is what binding</p>
+<p begin="00:07:01.520" end="00:07:06.479" style="s2">sort of means the value of the variable</p>
+<p begin="00:07:04.319" end="00:07:08.319" style="s2">with the value of the input and that&#39;s</p>
+<p begin="00:07:06.479" end="00:07:10.319" style="s2">it that&#39;s how easy it is to capture</p>
+<p begin="00:07:08.319" end="00:07:12.720" style="s2">input and show it to the user using</p>
+<p begin="00:07:10.319" end="00:07:14.479" style="s2">svelte as you can see in our example if</p>
+<p begin="00:07:12.720" end="00:07:16.080" style="s2">the user doesn&#39;t write anything on the</p>
+<p begin="00:07:14.479" end="00:07:18.240" style="s2">input it just says hello in the</p>
+<p begin="00:07:16.080" end="00:07:21.280" style="s2">exclamation mark it looks kind of weird</p>
+<p begin="00:07:18.240" end="00:07:24.319" style="s2">why don&#39;t we instead hide the text using</p>
+<p begin="00:07:21.280" end="00:07:26.800" style="s2">if else to add the if else in its belt</p>
+<p begin="00:07:24.319" end="00:07:28.479" style="s2">all we have to do is this now as you can</p>
+<p begin="00:07:26.800" end="00:07:31.199" style="s2">see the syntax looks a little bit</p>
+<p begin="00:07:28.479" end="00:07:33.120" style="s2">different but it&#39;s pretty easy to read</p>
+<p begin="00:07:31.199" end="00:07:35.599" style="s2">as you can see svelt has these tiny</p>
+<p begin="00:07:33.120" end="00:07:37.599" style="s2">little things like bind or ones that</p>
+<p begin="00:07:35.599" end="00:07:40.479" style="s2">save us time in doing tasks that we</p>
+<p begin="00:07:37.599" end="00:07:42.720" style="s2">would usually implement just doing code</p>
+<p begin="00:07:40.479" end="00:07:45.120" style="s2">by hand in react.js</p>
+<p begin="00:07:42.720" end="00:07:47.440" style="s2">tasks so common as getting input from</p>
+<p begin="00:07:45.120" end="00:07:50.000" style="s2">the user as you can see don&#39;t take as</p>
+<p begin="00:07:47.440" end="00:07:52.319" style="s2">much time to build as if it was in react</p>
+<p begin="00:07:50.000" end="00:07:54.479" style="s2">also as you can see the code is very</p>
+<p begin="00:07:52.319" end="00:07:57.199" style="s2">readable even for somebody looking at it</p>
+<p begin="00:07:54.479" end="00:08:00.080" style="s2">for the first time so now it&#39;s time to</p>
+<p begin="00:07:57.199" end="00:08:02.000" style="s2">talk about who should learn svelt i</p>
+<p begin="00:08:00.080" end="00:08:03.440" style="s2">think that if you are a react.js or a</p>
+<p begin="00:08:02.000" end="00:08:05.599" style="s2">view developer and you don&#39;t really</p>
+<p begin="00:08:03.440" end="00:08:07.280" style="s2">enjoy your work anymore you&#39;re tired of</p>
+<p begin="00:08:05.599" end="00:08:10.560" style="s2">reality you&#39;re tired of you and you want</p>
+<p begin="00:08:07.280" end="00:08:11.840" style="s2">something more simpler to use and more</p>
+<p begin="00:08:10.560" end="00:08:14.479" style="s2">different and you want something to</p>
+<p begin="00:08:11.840" end="00:08:17.039" style="s2">refresh your eyes then i think svelte is</p>
+<p begin="00:08:14.479" end="00:08:19.759" style="s2">a very good choice if you are already</p>
+<p begin="00:08:17.039" end="00:08:21.599" style="s2">productive in react.js or vjs i am sure</p>
+<p begin="00:08:19.759" end="00:08:23.440" style="s2">that just by following the tutorial in</p>
+<p begin="00:08:21.599" end="00:08:25.680" style="s2">this veldt website which by the way is</p>
+<p begin="00:08:23.440" end="00:08:27.599" style="s2">an amazing tutorial it will take you</p>
+<p begin="00:08:25.680" end="00:08:29.919" style="s2">less than a couple of days to feel</p>
+<p begin="00:08:27.599" end="00:08:31.039" style="s2">productive inspect but if you are a</p>
+<p begin="00:08:29.919" end="00:08:33.039" style="s2">beginner and you&#39;re looking for</p>
+<p begin="00:08:31.039" end="00:08:36.000" style="s2">something that will give you a job i</p>
+<p begin="00:08:33.039" end="00:08:38.719" style="s2">think that in this area react gs wins</p>
+<p begin="00:08:36.000" end="00:08:42.080" style="s2">per week react.js has downloaded more</p>
+<p begin="00:08:38.719" end="00:08:44.480" style="s2">than 14 million times these compared</p>
+<p begin="00:08:42.080" end="00:08:46.160" style="s2">with vue.js that is downloaded more than</p>
+<p begin="00:08:44.480" end="00:08:48.399" style="s2">3 million times</p>
+<p begin="00:08:46.160" end="00:08:51.040" style="s2">compared with svet that is downloaded</p>
+<p begin="00:08:48.399" end="00:08:52.720" style="s2">only 200 000 times i&#39;m not saying that</p>
+<p begin="00:08:51.040" end="00:08:54.240" style="s2">you should learn something because it&#39;s</p>
+<p begin="00:08:52.720" end="00:08:56.720" style="s2">popular what i&#39;m saying is that</p>
+<p begin="00:08:54.240" end="00:08:59.360" style="s2">sometimes popularity also means a big</p>
+<p begin="00:08:56.720" end="00:09:01.839" style="s2">community more packages more frameworks</p>
+<p begin="00:08:59.360" end="00:09:03.120" style="s2">more tools more best practices and more</p>
+<p begin="00:09:01.839" end="00:09:04.560" style="s2">importantly</p>
+<p begin="00:09:03.120" end="00:09:06.959" style="s2">more jobs</p>
+<p begin="00:09:04.560" end="00:09:08.959" style="s2">i think that react is so stable and so</p>
+<p begin="00:09:06.959" end="00:09:11.279" style="s2">widely used and this is why we have</p>
+<p begin="00:09:08.959" end="00:09:13.519" style="s2">frameworks now built on top of react</p>
+<p begin="00:09:11.279" end="00:09:16.959" style="s2">like nextgs and gatsby which are a</p>
+<p begin="00:09:13.519" end="00:09:19.120" style="s2">complete joy and pleasure to use they</p>
+<p begin="00:09:16.959" end="00:09:21.040" style="s2">also have super huge communities behind</p>
+<p begin="00:09:19.120" end="00:09:22.640" style="s2">them and are used by some of the biggest</p>
+<p begin="00:09:21.040" end="00:09:25.680" style="s2">companies in the world like for example</p>
+<p begin="00:09:22.640" end="00:09:27.360" style="s2">tick tock web is built using next js</p>
+<p begin="00:09:25.680" end="00:09:29.040" style="s2">which by the way this just reminds me</p>
+<p begin="00:09:27.360" end="00:09:31.519" style="s2">that we just finished recording</p>
+<p begin="00:09:29.040" end="00:09:34.480" style="s2">uploading and subtitling in hangul a</p>
+<p begin="00:09:31.519" end="00:09:37.440" style="s2">free two and a half hour course in next</p>
+<p begin="00:09:34.480" end="00:09:39.519" style="s2">js for beginners so if you&#39;re wondering</p>
+<p begin="00:09:37.440" end="00:09:41.839" style="s2">what do i mean when i say next gs is</p>
+<p begin="00:09:39.519" end="00:09:43.760" style="s2">awesome and so enjoyable to use then</p>
+<p begin="00:09:41.839" end="00:09:45.600" style="s2">please take that course it&#39;s for free</p>
+<p begin="00:09:43.760" end="00:09:48.640" style="s2">and you are going to find out what makes</p>
+<p begin="00:09:45.600" end="00:09:51.279" style="s2">nexjs so special that makes developers</p>
+<p begin="00:09:48.640" end="00:09:53.279" style="s2">and big companies like it and use it so</p>
+<p begin="00:09:51.279" end="00:09:54.800" style="s2">much this veldt also has its framework</p>
+<p begin="00:09:53.279" end="00:09:57.360" style="s2">and it&#39;s called this belt kit which i</p>
+<p begin="00:09:54.800" end="00:09:58.800" style="s2">tried and i really liked but it&#39;s still</p>
+<p begin="00:09:57.360" end="00:10:00.560" style="s2">in beta and even though people are</p>
+<p begin="00:09:58.800" end="00:10:02.560" style="s2">already using it in production this</p>
+<p begin="00:10:00.560" end="00:10:05.040" style="s2">shows you a little bit about how young</p>
+<p begin="00:10:02.560" end="00:10:07.760" style="s2">this build community is now as you can</p>
+<p begin="00:10:05.040" end="00:10:10.480" style="s2">see so far my problems with veldt are</p>
+<p begin="00:10:07.760" end="00:10:12.720" style="s2">not problems with svelt as a tool i</p>
+<p begin="00:10:10.480" end="00:10:14.720" style="s2">think the tool is great and i like using</p>
+<p begin="00:10:12.720" end="00:10:17.200" style="s2">it and as you saw before it makes doing</p>
+<p begin="00:10:14.720" end="00:10:19.360" style="s2">things very very simple it&#39;s good</p>
+<p begin="00:10:17.200" end="00:10:21.839" style="s2">but my problems are basically with the</p>
+<p begin="00:10:19.360" end="00:10:24.480" style="s2">context or the point in time where the</p>
+<p begin="00:10:21.839" end="00:10:26.320" style="s2">tool is all these things can change the</p>
+<p begin="00:10:24.480" end="00:10:28.720" style="s2">community can grow there can be more</p>
+<p begin="00:10:26.320" end="00:10:30.320" style="s2">jobs maybe companies will adopt spelt</p>
+<p begin="00:10:28.720" end="00:10:32.720" style="s2">maybe they&#39;re going to be more tutorials</p>
+<p begin="00:10:30.320" end="00:10:34.480" style="s2">more packages more tooling who knows but</p>
+<p begin="00:10:32.720" end="00:10:36.880" style="s2">it&#39;s also important to remember that the</p>
+<p begin="00:10:34.480" end="00:10:39.120" style="s2">javascript ecosystem has stabilized a</p>
+<p begin="00:10:36.880" end="00:10:40.720" style="s2">lot developers have mostly settled down</p>
+<p begin="00:10:39.120" end="00:10:43.120" style="s2">with their own tools and what they like</p>
+<p begin="00:10:40.720" end="00:10:45.519" style="s2">and companies also don&#39;t really change</p>
+<p begin="00:10:43.120" end="00:10:47.360" style="s2">libraries or frameworks that often or</p>
+<p begin="00:10:45.519" end="00:10:49.279" style="s2">almost never but there is something that</p>
+<p begin="00:10:47.360" end="00:10:52.320" style="s2">sort of bothers me about recommending</p>
+<p begin="00:10:49.279" end="00:10:55.360" style="s2">svelte for beginners and that is how</p>
+<p begin="00:10:52.320" end="00:10:58.240" style="s2">magical it is as usual before svelta has</p>
+<p begin="00:10:55.360" end="00:11:01.040" style="s2">these nice things like ones or bind that</p>
+<p begin="00:10:58.240" end="00:11:03.440" style="s2">are literal magic or you see that the</p>
+<p begin="00:11:01.040" end="00:11:05.839" style="s2">way that they handle if and else are</p>
+<p begin="00:11:03.440" end="00:11:07.600" style="s2">very spelt specific they are not syntax</p>
+<p begin="00:11:05.839" end="00:11:09.440" style="s2">that we are used to and we have seen</p>
+<p begin="00:11:07.600" end="00:11:11.519" style="s2">before one of the reasons why i like and</p>
+<p begin="00:11:09.440" end="00:11:13.200" style="s2">recommend react so much is that by</p>
+<p begin="00:11:11.519" end="00:11:16.079" style="s2">learning and working with react and the</p>
+<p begin="00:11:13.200" end="00:11:19.279" style="s2">tools in the ecosystem i became a better</p>
+<p begin="00:11:16.079" end="00:11:22.240" style="s2">javascript developer overall react in my</p>
+<p begin="00:11:19.279" end="00:11:24.480" style="s2">opinion has less magic than svelt and i</p>
+<p begin="00:11:22.240" end="00:11:26.800" style="s2">think that when learning to code magic</p>
+<p begin="00:11:24.480" end="00:11:29.200" style="s2">can hurt you more than it can help you</p>
+<p begin="00:11:26.800" end="00:11:31.440" style="s2">for example when showing a list of items</p>
+<p begin="00:11:29.200" end="00:11:33.680" style="s2">to a user in react you would use a</p>
+<p begin="00:11:31.440" end="00:11:35.839" style="s2">function called map which is not</p>
+<p begin="00:11:33.680" end="00:11:37.440" style="s2">specific to react and if you learn it it</p>
+<p begin="00:11:35.839" end="00:11:40.240" style="s2">will help you everywhere you go in the</p>
+<p begin="00:11:37.440" end="00:11:42.240" style="s2">javascript world in belt to do the same</p>
+<p begin="00:11:40.240" end="00:11:43.440" style="s2">thing you will have to write something</p>
+<p begin="00:11:42.240" end="00:11:45.680" style="s2">like this</p>
+<p begin="00:11:43.440" end="00:11:47.680" style="s2">which is not ugly i understand it is</p>
+<p begin="00:11:45.680" end="00:11:49.760" style="s2">very readable and i would say is more</p>
+<p begin="00:11:47.680" end="00:11:51.680" style="s2">clear than map is and i&#39;m not saying</p>
+<p begin="00:11:49.760" end="00:11:54.160" style="s2">that one is better than the other but</p>
+<p begin="00:11:51.680" end="00:11:56.320" style="s2">i&#39;m saying that one is more pure</p>
+<p begin="00:11:54.160" end="00:11:57.360" style="s2">functional javascript and the other</p>
+<p begin="00:11:56.320" end="00:12:00.240" style="s2">isn&#39;t</p>
+<p begin="00:11:57.360" end="00:12:02.720" style="s2">and i personally prefer to be as close</p>
+<p begin="00:12:00.240" end="00:12:05.040" style="s2">to the language as possible i feel like</p>
+<p begin="00:12:02.720" end="00:12:07.120" style="s2">if the tools that we use are again as</p>
+<p begin="00:12:05.040" end="00:12:09.120" style="s2">close to the language as possible if</p>
+<p begin="00:12:07.120" end="00:12:11.839" style="s2">that tool that we are using goes away</p>
+<p begin="00:12:09.120" end="00:12:14.079" style="s2">tomorrow we are not going to lose as</p>
+<p begin="00:12:11.839" end="00:12:16.560" style="s2">much knowledge as we would do if we</p>
+<p begin="00:12:14.079" end="00:12:18.639" style="s2">learn specific syntax if we learn</p>
+<p begin="00:12:16.560" end="00:12:21.600" style="s2">specific magic tricks and then if that</p>
+<p begin="00:12:18.639" end="00:12:22.959" style="s2">tool goes away all that is lost picasso</p>
+<p begin="00:12:21.600" end="00:12:25.519" style="s2">said that you have to learn the rules</p>
+<p begin="00:12:22.959" end="00:12:27.600" style="s2">like a pro so you can break them like an</p>
+<p begin="00:12:25.519" end="00:12:29.519" style="s2">artist now he clearly learned the rules</p>
+<p begin="00:12:27.600" end="00:12:31.279" style="s2">like a pro if you look at some of his</p>
+<p begin="00:12:29.519" end="00:12:33.360" style="s2">early work you can tell that he knew the</p>
+<p begin="00:12:31.279" end="00:12:36.079" style="s2">rules very very well i feel like</p>
+<p begin="00:12:33.360" end="00:12:39.040" style="s2">react.js is a tool that puts food on the</p>
+<p begin="00:12:36.079" end="00:12:41.600" style="s2">table and i really feel like svelte is</p>
+<p begin="00:12:39.040" end="00:12:43.760" style="s2">art i just don&#39;t think that beginners</p>
+<p begin="00:12:41.600" end="00:12:45.680" style="s2">should start with svelte</p>
+<p begin="00:12:43.760" end="00:12:48.160" style="s2">i feel like we have to learn the rules</p>
+<p begin="00:12:45.680" end="00:12:49.920" style="s2">first so then we can break them now i</p>
+<p begin="00:12:48.160" end="00:12:51.839" style="s2">know what you think on the comments let</p>
+<p begin="00:12:49.920" end="00:12:53.440" style="s2">me know what are your opinions on zvelt</p>
+<p begin="00:12:51.839" end="00:12:55.040" style="s2">have you seen it before have you tried</p>
+<p begin="00:12:53.440" end="00:12:56.720" style="s2">it was this the first time are you</p>
+<p begin="00:12:55.040" end="00:12:58.240" style="s2">curious are you going to look into it</p>
+<p begin="00:12:56.720" end="00:12:59.519" style="s2">let me know everything i want to know</p>
+<p begin="00:12:58.240" end="00:13:01.519" style="s2">i&#39;m going to be reading the comments</p>
+<p begin="00:12:59.519" end="00:13:03.040" style="s2">right now thank you as always for</p>
+<p begin="00:13:01.519" end="00:13:04.959" style="s2">watching this video and don&#39;t forget if</p>
+<p begin="00:13:03.040" end="00:13:07.200" style="s2">you want to learn next gs and see why so</p>
+<p begin="00:13:04.959" end="00:13:08.639" style="s2">many people like nextgs including this</p>
+<p begin="00:13:07.200" end="00:13:10.800" style="s2">guy right here then please check the</p>
+<p begin="00:13:08.639" end="00:13:12.720" style="s2">link on the description it&#39;s a free two</p>
+<p begin="00:13:10.800" end="00:13:14.639" style="s2">hour and a half next js course that&#39;s</p>
+<p begin="00:13:12.720" end="00:13:17.279" style="s2">going to show you the best and most</p>
+<p begin="00:13:14.639" end="00:13:19.360" style="s2">shiny parts about this awesome framework</p>
+<p begin="00:13:17.279" end="00:13:21.680" style="s2">thank you for watching stay happy stay</p>
+<p begin="00:13:19.360" end="00:13:25.240" style="s2">free eat kimchi come see me</p>
+<p begin="00:13:21.680" end="00:13:25.240" style="s2">stay healthy bye</p>
+</div>
+</body>
+</tt>

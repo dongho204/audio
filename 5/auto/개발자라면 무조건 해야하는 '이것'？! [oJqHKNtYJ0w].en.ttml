@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.000" end="00:00:04.500" style="s2">on this video we are going to talk about</p>
+<p begin="00:00:01.979" end="00:00:06.899" style="s2">one of the best things you can do for</p>
+<p begin="00:00:04.500" end="00:00:10.280" style="s2">your career as a developer and that is</p>
+<p begin="00:00:06.899" end="00:00:13.080" style="s2">building side projects</p>
+<p begin="00:00:10.280" end="00:00:15.299" style="s2">Nicolas imida and my mission for this</p>
+<p begin="00:00:13.080" end="00:00:17.880" style="s2">video is to convince you to start your</p>
+<p begin="00:00:15.299" end="00:00:20.340" style="s2">side project and to help you finish it</p>
+<p begin="00:00:17.880" end="00:00:22.380" style="s2">so first let me tell you the reason why</p>
+<p begin="00:00:20.340" end="00:00:24.660" style="s2">you should start a side project today</p>
+<p begin="00:00:22.380" end="00:00:27.300" style="s2">and then I will show you how to finish</p>
+<p begin="00:00:24.660" end="00:00:30.539" style="s2">what you start by avoiding the mistakes</p>
+<p begin="00:00:27.300" end="00:00:33.059" style="s2">I made building a side project will help</p>
+<p begin="00:00:30.539" end="00:00:35.940" style="s2">you no matter what level you&#39;re on as a</p>
+<p begin="00:00:33.059" end="00:00:38.460" style="s2">developer if you are a beginner making a</p>
+<p begin="00:00:35.940" end="00:00:41.340" style="s2">side project is the ultimate way of</p>
+<p begin="00:00:38.460" end="00:00:43.800" style="s2">learning by doing it is also the only</p>
+<p begin="00:00:41.340" end="00:00:46.079" style="s2">way I found to escape from tutorial</p>
+<p begin="00:00:43.800" end="00:00:47.879" style="s2">Health tutorial hell is where many</p>
+<p begin="00:00:46.079" end="00:00:50.280" style="s2">people that are learning to code get</p>
+<p begin="00:00:47.879" end="00:00:52.739" style="s2">stuck they find themselves taking course</p>
+<p begin="00:00:50.280" end="00:00:55.440" style="s2">after course without feeling good enough</p>
+<p begin="00:00:52.739" end="00:00:58.140" style="s2">or ready to start a project on their own</p>
+<p begin="00:00:55.440" end="00:00:59.940" style="s2">I I&#39;ve been there when I was learning to</p>
+<p begin="00:00:58.140" end="00:01:02.640" style="s2">code I did feel like I could follow</p>
+<p begin="00:00:59.940" end="00:01:04.379" style="s2">tutorials and books but I always felt</p>
+<p begin="00:01:02.640" end="00:01:07.439" style="s2">paralyzed when I had to start a project</p>
+<p begin="00:01:04.379" end="00:01:10.200" style="s2">from zero by myself with no one to hold</p>
+<p begin="00:01:07.439" end="00:01:12.720" style="s2">my hand looking at an empty file that I</p>
+<p begin="00:01:10.200" end="00:01:14.400" style="s2">was supposed to fill with my code now</p>
+<p begin="00:01:12.720" end="00:01:16.140" style="s2">this happens because we have a voice in</p>
+<p begin="00:01:14.400" end="00:01:18.900" style="s2">our head that tells us that we don&#39;t</p>
+<p begin="00:01:16.140" end="00:01:21.360" style="s2">know enough yet that we are not ready</p>
+<p begin="00:01:18.900" end="00:01:24.299" style="s2">the best way to know if that voice is</p>
+<p begin="00:01:21.360" end="00:01:26.159" style="s2">correct or not is to build something if</p>
+<p begin="00:01:24.299" end="00:01:28.920" style="s2">that voice is correct if you actually</p>
+<p begin="00:01:26.159" end="00:01:31.560" style="s2">don&#39;t know enough by building something</p>
+<p begin="00:01:28.920" end="00:01:33.780" style="s2">you will know what you don&#39;t know and if</p>
+<p begin="00:01:31.560" end="00:01:35.700" style="s2">that voice is incorrect that means that</p>
+<p begin="00:01:33.780" end="00:01:37.380" style="s2">you are just lacking self-confidence and</p>
+<p begin="00:01:35.700" end="00:01:39.840" style="s2">it&#39;s time to move on to the next level</p>
+<p begin="00:01:37.380" end="00:01:41.640" style="s2">if you are not a beginner anymore and</p>
+<p begin="00:01:39.840" end="00:01:44.880" style="s2">now you feel ready to go out and look</p>
+<p begin="00:01:41.640" end="00:01:46.500" style="s2">for a job having 10 cool side projects</p>
+<p begin="00:01:44.880" end="00:01:48.720" style="s2">will look better than just having</p>
+<p begin="00:01:46.500" end="00:01:50.880" style="s2">certificates and a college degree if</p>
+<p begin="00:01:48.720" end="00:01:53.159" style="s2">there is a company you want to go to you</p>
+<p begin="00:01:50.880" end="00:01:54.899" style="s2">can build side projects related to the</p>
+<p begin="00:01:53.159" end="00:01:56.820" style="s2">company and what you would like to do</p>
+<p begin="00:01:54.899" end="00:01:59.040" style="s2">for them if you you want to be a</p>
+<p begin="00:01:56.820" end="00:02:00.960" style="s2">front-end developer then maybe clone the</p>
+<p begin="00:01:59.040" end="00:02:03.960" style="s2">company&#39;s website but make it better</p>
+<p begin="00:02:00.960" end="00:02:05.759" style="s2">give it a redesign and make it load</p>
+<p begin="00:02:03.960" end="00:02:08.580" style="s2">faster if you want to be a mobile</p>
+<p begin="00:02:05.759" end="00:02:11.400" style="s2">developer build an app related to the</p>
+<p begin="00:02:08.580" end="00:02:13.260" style="s2">company its products or its users and if</p>
+<p begin="00:02:11.400" end="00:02:15.180" style="s2">you want to be a freelancer build</p>
+<p begin="00:02:13.260" end="00:02:17.819" style="s2">projects that you would like to get</p>
+<p begin="00:02:15.180" end="00:02:20.220" style="s2">hired to make or if you want to be a</p>
+<p begin="00:02:17.819" end="00:02:23.340" style="s2">backend developer you can simulate the</p>
+<p begin="00:02:20.220" end="00:02:26.760" style="s2">design of an API and database models of</p>
+<p begin="00:02:23.340" end="00:02:29.879" style="s2">a big startup let your code speak for</p>
+<p begin="00:02:26.760" end="00:02:32.640" style="s2">you if you already have a job you still</p>
+<p begin="00:02:29.879" end="00:02:34.680" style="s2">need to build side projects as we know</p>
+<p begin="00:02:32.640" end="00:02:37.500" style="s2">this industry moves at the speed of</p>
+<p begin="00:02:34.680" end="00:02:39.900" style="s2">light and you my friend need to be up to</p>
+<p begin="00:02:37.500" end="00:02:42.060" style="s2">date a side project gives you the</p>
+<p begin="00:02:39.900" end="00:02:44.819" style="s2">perfect opportunity to try technologies</p>
+<p begin="00:02:42.060" end="00:02:46.500" style="s2">that you are curious about to try a new</p>
+<p begin="00:02:44.819" end="00:02:48.959" style="s2">programming language or to use and</p>
+<p begin="00:02:46.500" end="00:02:51.780" style="s2">evaluate a new database it gives you</p>
+<p begin="00:02:48.959" end="00:02:54.720" style="s2">room to feel like a beginner again it</p>
+<p begin="00:02:51.780" end="00:02:57.360" style="s2">keeps you humble it puts you out of your</p>
+<p begin="00:02:54.720" end="00:02:59.340" style="s2">comfort zone and who knows maybe it</p>
+<p begin="00:02:57.360" end="00:03:00.780" style="s2">would allow you to change your job or</p>
+<p begin="00:02:59.340" end="00:03:02.879" style="s2">learn something that will give you a</p>
+<p begin="00:03:00.780" end="00:03:04.980" style="s2">promotion it will also make you wear</p>
+<p begin="00:03:02.879" end="00:03:06.959" style="s2">different hats you might have to do</p>
+<p begin="00:03:04.980" end="00:03:09.900" style="s2">design maybe you will learn about</p>
+<p begin="00:03:06.959" end="00:03:12.540" style="s2">deploying Security customer service you</p>
+<p begin="00:03:09.900" end="00:03:14.879" style="s2">will grow as a person as well building</p>
+<p begin="00:03:12.540" end="00:03:17.400" style="s2">an idea from start to publishing it will</p>
+<p begin="00:03:14.879" end="00:03:19.500" style="s2">teach you a lot and lastly the reason</p>
+<p begin="00:03:17.400" end="00:03:21.420" style="s2">why you should build side projects no</p>
+<p begin="00:03:19.500" end="00:03:24.060" style="s2">matter what level of developer you are</p>
+<p begin="00:03:21.420" end="00:03:26.700" style="s2">is because it reminds you how cool your</p>
+<p begin="00:03:24.060" end="00:03:28.980" style="s2">job is we can build something out of</p>
+<p begin="00:03:26.700" end="00:03:31.680" style="s2">nothing and we don&#39;t have to ask anyone</p>
+<p begin="00:03:28.980" end="00:03:33.239" style="s2">for permission to do it you don&#39;t need a</p>
+<p begin="00:03:31.680" end="00:03:35.700" style="s2">license or a permit from the government</p>
+<p begin="00:03:33.239" end="00:03:38.040" style="s2">to make something and publish it there</p>
+<p begin="00:03:35.700" end="00:03:40.260" style="s2">isn&#39;t a middleman never in the history</p>
+<p begin="00:03:38.040" end="00:03:42.360" style="s2">of the world creativity has been this</p>
+<p begin="00:03:40.260" end="00:03:44.400" style="s2">permissionless and Unbound you can</p>
+<p begin="00:03:42.360" end="00:03:46.920" style="s2">literally start a company from your</p>
+<p begin="00:03:44.400" end="00:03:48.599" style="s2">couch if you already have an idea that</p>
+<p begin="00:03:46.920" end="00:03:50.819" style="s2">you want to make awesome but if you</p>
+<p begin="00:03:48.599" end="00:03:52.680" style="s2">don&#39;t don&#39;t worry the beautiful thing</p>
+<p begin="00:03:50.819" end="00:03:56.220" style="s2">about site projects is that you can make</p>
+<p begin="00:03:52.680" end="00:03:58.620" style="s2">them as big small serious or silly as</p>
+<p begin="00:03:56.220" end="00:04:01.200" style="s2">you want if you need ideas of something</p>
+<p begin="00:03:58.620" end="00:04:03.780" style="s2">to make see if you can scratch your own</p>
+<p begin="00:04:01.200" end="00:04:05.700" style="s2">itch this means don&#39;t worry about</p>
+<p begin="00:04:03.780" end="00:04:07.920" style="s2">building something that millions of</p>
+<p begin="00:04:05.700" end="00:04:10.200" style="s2">people are going to use build something</p>
+<p begin="00:04:07.920" end="00:04:12.840" style="s2">that you and maybe your friends and</p>
+<p begin="00:04:10.200" end="00:04:15.000" style="s2">family need now my family is fairly big</p>
+<p begin="00:04:12.840" end="00:04:16.620" style="s2">I have lots of uncles and cousins and</p>
+<p begin="00:04:15.000" end="00:04:19.440" style="s2">it&#39;s hard to keep track of all of their</p>
+<p begin="00:04:16.620" end="00:04:21.359" style="s2">birthdays so I built a tiny bot that</p>
+<p begin="00:04:19.440" end="00:04:23.820" style="s2">every day checked to see if it was</p>
+<p begin="00:04:21.359" end="00:04:25.740" style="s2">someone&#39;s birthday and if it was it</p>
+<p begin="00:04:23.820" end="00:04:27.479" style="s2">would send an SMS message to all the</p>
+<p begin="00:04:25.740" end="00:04:29.639" style="s2">family telling them whose birthday it</p>
+<p begin="00:04:27.479" end="00:04:31.259" style="s2">was that is just an example and I&#39;m sure</p>
+<p begin="00:04:29.639" end="00:04:33.840" style="s2">you will be able to find an idea like</p>
+<p begin="00:04:31.259" end="00:04:35.940" style="s2">that around you in no time and also</p>
+<p begin="00:04:33.840" end="00:04:38.639" style="s2">don&#39;t worry if your side project idea</p>
+<p begin="00:04:35.940" end="00:04:41.400" style="s2">already exists it does not have to be</p>
+<p begin="00:04:38.639" end="00:04:43.199" style="s2">unique if there is a similar product out</p>
+<p begin="00:04:41.400" end="00:04:46.080" style="s2">there you can learn from it and improve</p>
+<p begin="00:04:43.199" end="00:04:48.479" style="s2">it it is also a very good sign if you</p>
+<p begin="00:04:46.080" end="00:04:50.520" style="s2">have an idea but someone built it first</p>
+<p begin="00:04:48.479" end="00:04:53.220" style="s2">that means that your idea is actually</p>
+<p begin="00:04:50.520" end="00:04:55.620" style="s2">useful for older people which means you</p>
+<p begin="00:04:53.220" end="00:04:58.800" style="s2">have a high chance of getting real users</p>
+<p begin="00:04:55.620" end="00:05:01.440" style="s2">I did that once there is a side project</p>
+<p begin="00:04:58.800" end="00:05:04.139" style="s2">I made that is an improvement of an</p>
+<p begin="00:05:01.440" end="00:05:06.419" style="s2">already existing product just a bit</p>
+<p begin="00:05:04.139" end="00:05:08.580" style="s2">different and it&#39;s actually earning a</p>
+<p begin="00:05:06.419" end="00:05:10.500" style="s2">few dollars every month so if I</p>
+<p begin="00:05:08.580" end="00:05:13.440" style="s2">convinced you to start your side project</p>
+<p begin="00:05:10.500" end="00:05:15.900" style="s2">now is when the hard part comes which is</p>
+<p begin="00:05:13.440" end="00:05:17.880" style="s2">actually finishing it starting something</p>
+<p begin="00:05:15.900" end="00:05:19.919" style="s2">telling people you&#39;re starting something</p>
+<p begin="00:05:17.880" end="00:05:22.259" style="s2">going to Starbucks and taking a photo</p>
+<p begin="00:05:19.919" end="00:05:25.080" style="s2">with your laptop in an ice Americano</p>
+<p begin="00:05:22.259" end="00:05:27.419" style="s2">that is the easy part the hard part is</p>
+<p begin="00:05:25.080" end="00:05:30.120" style="s2">to complete what you started which is</p>
+<p begin="00:05:27.419" end="00:05:31.560" style="s2">where I have failed countless times and</p>
+<p begin="00:05:30.120" end="00:05:33.960" style="s2">I would like to share some of your</p>
+<p begin="00:05:31.560" end="00:05:36.060" style="s2">mistakes so you can avoid them the</p>
+<p begin="00:05:33.960" end="00:05:38.220" style="s2">biggest mistake I always make is being</p>
+<p begin="00:05:36.060" end="00:05:40.380" style="s2">too ambitious with the idea I want to</p>
+<p begin="00:05:38.220" end="00:05:43.020" style="s2">make the scope of the project is</p>
+<p begin="00:05:40.380" end="00:05:45.539" style="s2">directly related to the chances of you</p>
+<p begin="00:05:43.020" end="00:05:47.820" style="s2">not finishing it the bigger the scope is</p>
+<p begin="00:05:45.539" end="00:05:49.860" style="s2">the more features you plan and the</p>
+<p begin="00:05:47.820" end="00:05:52.500" style="s2">bigger the chances of you not finishing</p>
+<p begin="00:05:49.860" end="00:05:57.180" style="s2">the project are take an idea and reduce</p>
+<p begin="00:05:52.500" end="00:06:00.060" style="s2">it to its most basic features and mbb a</p>
+<p begin="00:05:57.180" end="00:06:02.220" style="s2">minimum viable product leave only the</p>
+<p begin="00:06:00.060" end="00:06:04.440" style="s2">features that are required for the app</p>
+<p begin="00:06:02.220" end="00:06:06.720" style="s2">to be able to work now do this</p>
+<p begin="00:06:04.440" end="00:06:09.240" style="s2">especially with your first site project</p>
+<p begin="00:06:06.720" end="00:06:11.280" style="s2">it is very easy to lose focus and</p>
+<p begin="00:06:09.240" end="00:06:14.160" style="s2">motivation so you need to help yourself</p>
+<p begin="00:06:11.280" end="00:06:16.400" style="s2">finish your projects by not being too</p>
+<p begin="00:06:14.160" end="00:06:19.080" style="s2">ambitious with what you want to build</p>
+<p begin="00:06:16.400" end="00:06:21.240" style="s2">instead make a list of all the features</p>
+<p begin="00:06:19.080" end="00:06:23.280" style="s2">you would like your project to have and</p>
+<p begin="00:06:21.240" end="00:06:25.919" style="s2">make a promise to yourself that after</p>
+<p begin="00:06:23.280" end="00:06:28.380" style="s2">you finish the project and if it gets 50</p>
+<p begin="00:06:25.919" end="00:06:30.660" style="s2">users then you will Implement those</p>
+<p begin="00:06:28.380" end="00:06:32.940" style="s2">features another mistake I make and the</p>
+<p begin="00:06:30.660" end="00:06:35.340" style="s2">reason why my computer is a graveyard of</p>
+<p begin="00:06:32.940" end="00:06:37.620" style="s2">Unfinished projects is not having a</p>
+<p begin="00:06:35.340" end="00:06:40.080" style="s2">deadline personally if I don&#39;t have a</p>
+<p begin="00:06:37.620" end="00:06:41.580" style="s2">deadline I don&#39;t get any work done so I</p>
+<p begin="00:06:40.080" end="00:06:43.979" style="s2">have to come up with an artificial</p>
+<p begin="00:06:41.580" end="00:06:47.100" style="s2">deadline something that gives me a sense</p>
+<p begin="00:06:43.979" end="00:06:49.380" style="s2">of urgency a date when things need to be</p>
+<p begin="00:06:47.100" end="00:06:51.720" style="s2">published and done having a deadline</p>
+<p begin="00:06:49.380" end="00:06:54.479" style="s2">also allows you to make a schedule to</p>
+<p begin="00:06:51.720" end="00:06:56.639" style="s2">plan ahead to know what kind of code you</p>
+<p begin="00:06:54.479" end="00:06:58.979" style="s2">should be writing today a very good way</p>
+<p begin="00:06:56.639" end="00:07:01.500" style="s2">to push yourself to finish your projects</p>
+<p begin="00:06:58.979" end="00:07:03.240" style="s2">is to join a hackathon an event where</p>
+<p begin="00:07:01.500" end="00:07:05.520" style="s2">you will meet like-minded people that</p>
+<p begin="00:07:03.240" end="00:07:08.340" style="s2">are Builders like you that need to</p>
+<p begin="00:07:05.520" end="00:07:10.560" style="s2">launch and finish before the hackathon</p>
+<p begin="00:07:08.340" end="00:07:13.319" style="s2">ends I still remember my first hackathon</p>
+<p begin="00:07:10.560" end="00:07:15.840" style="s2">and it was an amazing experience you can</p>
+<p begin="00:07:13.319" end="00:07:18.240" style="s2">join a physical hackathon or a virtual</p>
+<p begin="00:07:15.840" end="00:07:20.099" style="s2">one the point is to feel the peer</p>
+<p begin="00:07:18.240" end="00:07:22.680" style="s2">pressure of knowing that there are other</p>
+<p begin="00:07:20.099" end="00:07:25.199" style="s2">people working next to you and other</p>
+<p begin="00:07:22.680" end="00:07:27.479" style="s2">teams competing against you usually</p>
+<p begin="00:07:25.199" end="00:07:28.860" style="s2">hackathons also have a price so it&#39;s</p>
+<p begin="00:07:27.479" end="00:07:30.780" style="s2">also nice to know that you could</p>
+<p begin="00:07:28.860" end="00:07:32.819" style="s2">potentially be getting paid to build</p>
+<p begin="00:07:30.780" end="00:07:35.639" style="s2">your side product they also bring</p>
+<p begin="00:07:32.819" end="00:07:37.620" style="s2">exposure to you and your project you</p>
+<p begin="00:07:35.639" end="00:07:40.199" style="s2">might also be able to form a team and</p>
+<p begin="00:07:37.620" end="00:07:42.300" style="s2">launch a startup for real if you can&#39;t</p>
+<p begin="00:07:40.199" end="00:07:45.599" style="s2">find a hackathon then throw one yourself</p>
+<p begin="00:07:42.300" end="00:07:48.240" style="s2">find five co-workers or friends order</p>
+<p begin="00:07:45.599" end="00:07:50.699" style="s2">some pizza rent an office start Friday</p>
+<p begin="00:07:48.240" end="00:07:52.560" style="s2">and finish Sunday that brings me to</p>
+<p begin="00:07:50.699" end="00:07:54.960" style="s2">another thing that will help you finish</p>
+<p begin="00:07:52.560" end="00:07:57.660" style="s2">your ideas faster and that is having a</p>
+<p begin="00:07:54.960" end="00:07:59.880" style="s2">team made if you build an idea on your</p>
+<p begin="00:07:57.660" end="00:08:01.860" style="s2">own it is hard to find the motivation to</p>
+<p begin="00:07:59.880" end="00:08:04.319" style="s2">keep going sometimes this happens to me</p>
+<p begin="00:08:01.860" end="00:08:06.180" style="s2">a lot but if you have a teammate you can</p>
+<p begin="00:08:04.319" end="00:08:07.860" style="s2">motivate each other and you will find</p>
+<p begin="00:08:06.180" end="00:08:09.780" style="s2">yourself finishing the project because</p>
+<p begin="00:08:07.860" end="00:08:12.360" style="s2">you want to let the other person down</p>
+<p begin="00:08:09.780" end="00:08:13.860" style="s2">and last but not least something that</p>
+<p begin="00:08:12.360" end="00:08:16.500" style="s2">really helped me finish what I was</p>
+<p begin="00:08:13.860" end="00:08:18.720" style="s2">building is not talking about what I am</p>
+<p begin="00:08:16.500" end="00:08:20.400" style="s2">building sometimes talking about what</p>
+<p begin="00:08:18.720" end="00:08:22.560" style="s2">you are going to do and how you&#39;re going</p>
+<p begin="00:08:20.400" end="00:08:24.900" style="s2">to do it gives you a false sense of</p>
+<p begin="00:08:22.560" end="00:08:27.300" style="s2">accomplishment many people create a</p>
+<p begin="00:08:24.900" end="00:08:29.460" style="s2">GitHub page for their project they take</p>
+<p begin="00:08:27.300" end="00:08:31.319" style="s2">the coding at Starbucks photo they</p>
+<p begin="00:08:29.460" end="00:08:34.260" style="s2">choose the name for the project and they</p>
+<p begin="00:08:31.319" end="00:08:37.140" style="s2">even buy the.com domain even before they</p>
+<p begin="00:08:34.260" end="00:08:39.719" style="s2">write a single line of code most people</p>
+<p begin="00:08:37.140" end="00:08:42.479" style="s2">that do this including me don&#39;t actually</p>
+<p begin="00:08:39.719" end="00:08:45.540" style="s2">finish what they start because after the</p>
+<p begin="00:08:42.479" end="00:08:47.760" style="s2">Instagram pics and the.com domains come</p>
+<p begin="00:08:45.540" end="00:08:50.220" style="s2">the long days of code that are not</p>
+<p begin="00:08:47.760" end="00:08:53.040" style="s2">glamorous at all it&#39;s better to be quiet</p>
+<p begin="00:08:50.220" end="00:08:55.200" style="s2">and build in silence rather than being</p>
+<p begin="00:08:53.040" end="00:08:57.360" style="s2">noisy and having nothing to show for at</p>
+<p begin="00:08:55.200" end="00:08:59.700" style="s2">the end end of the day I hope that after</p>
+<p begin="00:08:57.360" end="00:09:01.740" style="s2">this video you feel inspired to start</p>
+<p begin="00:08:59.700" end="00:09:03.839" style="s2">your side project and I also hope that</p>
+<p begin="00:09:01.740" end="00:09:06.180" style="s2">you can finish and launch your project</p>
+<p begin="00:09:03.839" end="00:09:08.580" style="s2">and avoid the mistakes I made as I</p>
+<p begin="00:09:06.180" end="00:09:10.740" style="s2">mentioned before joining a hackathon is</p>
+<p begin="00:09:08.580" end="00:09:12.839" style="s2">an amazing way of building a product</p>
+<p begin="00:09:10.740" end="00:09:14.820" style="s2">practicing your skills and potentially</p>
+<p begin="00:09:12.839" end="00:09:17.040" style="s2">winning prizes for you and your team</p>
+<p begin="00:09:14.820" end="00:09:19.440" style="s2">this is why the sponsor of this video</p>
+<p begin="00:09:17.040" end="00:09:21.839" style="s2">appetizer wants to invite you to a free</p>
+<p begin="00:09:19.440" end="00:09:24.300" style="s2">hackathon the project of the hackathon</p>
+<p begin="00:09:21.839" end="00:09:27.899" style="s2">is to build a project utilizing the open</p>
+<p begin="00:09:24.300" end="00:09:29.640" style="s2">apis from appetizer.kr appetizer is a</p>
+<p begin="00:09:27.899" end="00:09:32.279" style="s2">platform where you can find all kinds of</p>
+<p begin="00:09:29.640" end="00:09:35.820" style="s2">apis for your projects they are like an</p>
+<p begin="00:09:32.279" end="00:09:38.820" style="s2">API aggregator currently they have 120</p>
+<p begin="00:09:35.820" end="00:09:41.220" style="s2">apis like text to video open banking</p>
+<p begin="00:09:38.820" end="00:09:43.260" style="s2">Healthcare data translation phase</p>
+<p begin="00:09:41.220" end="00:09:46.380" style="s2">recognition electronic contracts</p>
+<p begin="00:09:43.260" end="00:09:48.300" style="s2">payments among many others the hackathon</p>
+<p begin="00:09:46.380" end="00:09:50.339" style="s2">is organized with the help of the Korean</p>
+<p begin="00:09:48.300" end="00:09:52.500" style="s2">government and neighbor Cloud you can</p>
+<p begin="00:09:50.339" end="00:09:55.140" style="s2">register as an individual or as a team</p>
+<p begin="00:09:52.500" end="00:09:57.300" style="s2">of up to 5 people the total price pool</p>
+<p begin="00:09:55.140" end="00:09:59.279" style="s2">for for the event is twenty seven</p>
+<p begin="00:09:57.300" end="00:10:01.080" style="s2">thousand dollars and you can also</p>
+<p begin="00:09:59.279" end="00:10:02.940" style="s2">receive mentoring from the companies</p>
+<p begin="00:10:01.080" end="00:10:06.120" style="s2">that make the apis themselves</p>
+<p begin="00:10:02.940" end="00:10:07.920" style="s2">registration is open until October 7th</p>
+<p begin="00:10:06.120" end="00:10:09.959" style="s2">so click the link below to register</p>
+<p begin="00:10:07.920" end="00:10:12.980" style="s2">right now thank you for watching see you</p>
+<p begin="00:10:09.959" end="00:10:12.980" style="s2">on the next one bye</p>
+</div>
+</body>
+</tt>

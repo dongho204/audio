@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.240" end="00:00:03.679" style="s2">at the time of recording this video</p>
+<p begin="00:00:01.760" end="00:00:05.680" style="s2">dodge coin is worth 30</p>
+<p begin="00:00:03.679" end="00:00:07.520" style="s2">cents now hopefully by the time you</p>
+<p begin="00:00:05.680" end="00:00:08.000" style="s2">watch this video the bubble has already</p>
+<p begin="00:00:07.520" end="00:00:10.480" style="s2">popped</p>
+<p begin="00:00:08.000" end="00:00:12.400" style="s2">without too many people getting hurt now</p>
+<p begin="00:00:10.480" end="00:00:14.480" style="s2">i have mixed feelings about dodge coin</p>
+<p begin="00:00:12.400" end="00:00:14.880" style="s2">on one hand i think it&#39;s funny i think</p>
+<p begin="00:00:14.480" end="00:00:16.800" style="s2">what</p>
+<p begin="00:00:14.880" end="00:00:18.480" style="s2">elon musk is doing is hilarious and also</p>
+<p begin="00:00:16.800" end="00:00:19.119" style="s2">thanks to dodgecoin many people are</p>
+<p begin="00:00:18.480" end="00:00:20.880" style="s2">coming</p>
+<p begin="00:00:19.119" end="00:00:22.320" style="s2">into the crypto ecosystem and they are</p>
+<p begin="00:00:20.880" end="00:00:23.920" style="s2">talking about wallets and they are going</p>
+<p begin="00:00:22.320" end="00:00:24.240" style="s2">to look into other coins and it&#39;s good</p>
+<p begin="00:00:23.920" end="00:00:26.560" style="s2">for</p>
+<p begin="00:00:24.240" end="00:00:27.920" style="s2">adoption but on the other hand those</p>
+<p begin="00:00:26.560" end="00:00:29.519" style="s2">coins attracting the kind of people that</p>
+<p begin="00:00:27.920" end="00:00:30.800" style="s2">just want to gamble and those are the</p>
+<p begin="00:00:29.519" end="00:00:33.440" style="s2">people that are super</p>
+<p begin="00:00:30.800" end="00:00:35.360" style="s2">easily scammed also dodgecoin makes this</p>
+<p begin="00:00:33.440" end="00:00:37.120" style="s2">whole industry look like a joke it makes</p>
+<p begin="00:00:35.360" end="00:00:38.079" style="s2">it look like it&#39;s run by 14 year olds</p>
+<p begin="00:00:37.120" end="00:00:40.640" style="s2">with credit cards</p>
+<p begin="00:00:38.079" end="00:00:41.200" style="s2">now just to be clear dodgecoin is not a</p>
+<p begin="00:00:40.640" end="00:00:42.960" style="s2">scam</p>
+<p begin="00:00:41.200" end="00:00:44.879" style="s2">a scam usually means that people are</p>
+<p begin="00:00:42.960" end="00:00:45.520" style="s2">lying to you about the real value of</p>
+<p begin="00:00:44.879" end="00:00:47.840" style="s2">something</p>
+<p begin="00:00:45.520" end="00:00:49.520" style="s2">but in the case of dodgecoin the team of</p>
+<p begin="00:00:47.840" end="00:00:52.719" style="s2">developers and the community have</p>
+<p begin="00:00:49.520" end="00:00:56.079" style="s2">always been honest with us dot coin is a</p>
+<p begin="00:00:52.719" end="00:00:57.440" style="s2">joke coin it was made to be not take it</p>
+<p begin="00:00:56.079" end="00:00:59.760" style="s2">seriously it&#39;s all about</p>
+<p begin="00:00:57.440" end="00:01:01.280" style="s2">the memes now i&#39;m not saying don&#39;t buy</p>
+<p begin="00:00:59.760" end="00:01:03.199" style="s2">dodge coin i&#39;m saying do whatever you</p>
+<p begin="00:01:01.280" end="00:01:04.720" style="s2">want as long as you do your research and</p>
+<p begin="00:01:03.199" end="00:01:06.159" style="s2">as long as you are self-aware</p>
+<p begin="00:01:04.720" end="00:01:08.400" style="s2">for example i don&#39;t know if you knew</p>
+<p begin="00:01:06.159" end="00:01:11.040" style="s2">this but dodge coin is an infinite</p>
+<p begin="00:01:08.400" end="00:01:12.400" style="s2">currency there are 14 million dodge</p>
+<p begin="00:01:11.040" end="00:01:14.880" style="s2">coins being printed</p>
+<p begin="00:01:12.400" end="00:01:15.520" style="s2">every day that&#39;s crazy compared to for</p>
+<p begin="00:01:14.880" end="00:01:17.280" style="s2">example</p>
+<p begin="00:01:15.520" end="00:01:19.200" style="s2">bitcoin where in bitcoin there is a</p>
+<p begin="00:01:17.280" end="00:01:22.240" style="s2">maximum amount of bitcoins</p>
+<p begin="00:01:19.200" end="00:01:23.200" style="s2">forever of 21 million but we can&#39;t use</p>
+<p begin="00:01:22.240" end="00:01:26.159" style="s2">bitcoin</p>
+<p begin="00:01:23.200" end="00:01:28.479" style="s2">can we i mean it&#39;s really slow five</p>
+<p begin="00:01:26.159" end="00:01:29.400" style="s2">transactions maximum per second and also</p>
+<p begin="00:01:28.479" end="00:01:32.560" style="s2">is very</p>
+<p begin="00:01:29.400" end="00:01:34.159" style="s2">eco-unfriendly it wastes so much energy</p>
+<p begin="00:01:32.560" end="00:01:35.759" style="s2">like i told you on the previous video</p>
+<p begin="00:01:34.159" end="00:01:37.360" style="s2">so what&#39;s the alternative between a</p>
+<p begin="00:01:35.759" end="00:01:40.320" style="s2">cryptocurrency like dodge coin which is</p>
+<p begin="00:01:37.360" end="00:01:42.880" style="s2">a joke and something so slow and so econ</p>
+<p begin="00:01:40.320" end="00:01:46.079" style="s2">friendly like bitcoin anonymous</p>
+<p begin="00:01:42.880" end="00:01:46.960" style="s2">nicolas and welcome to the video number</p>
+<p begin="00:01:46.079" end="00:01:50.000" style="s2">eight</p>
+<p begin="00:01:46.960" end="00:01:51.600" style="s2">wow it&#39;s been two months that&#39;s insane</p>
+<p begin="00:01:50.000" end="00:01:53.200" style="s2">of this series where i&#39;m talking about</p>
+<p begin="00:01:51.600" end="00:01:54.960" style="s2">crypto bitcoin blockchain in all this</p>
+<p begin="00:01:53.200" end="00:01:56.479" style="s2">industry for developers and</p>
+<p begin="00:01:54.960" end="00:01:58.079" style="s2">beginners thank you so much for being</p>
+<p begin="00:01:56.479" end="00:01:59.759" style="s2">here if you&#39;re enjoying this series so</p>
+<p begin="00:01:58.079" end="00:02:01.759" style="s2">far consider leaving a like</p>
+<p begin="00:01:59.759" end="00:02:03.600" style="s2">and subscribing it really helps support</p>
+<p begin="00:02:01.759" end="00:02:05.119" style="s2">the channel on the last video we talked</p>
+<p begin="00:02:03.600" end="00:02:07.040" style="s2">about the problems of the crypto</p>
+<p begin="00:02:05.119" end="00:02:09.360" style="s2">industry from the government regulation</p>
+<p begin="00:02:07.040" end="00:02:10.640" style="s2">point of view and from the scamming and</p>
+<p begin="00:02:09.360" end="00:02:12.000" style="s2">cheating point of view</p>
+<p begin="00:02:10.640" end="00:02:14.480" style="s2">on this video we&#39;re going to talk about</p>
+<p begin="00:02:12.000" end="00:02:16.959" style="s2">the technical problems what developers</p>
+<p begin="00:02:14.480" end="00:02:17.680" style="s2">care about speed scalability programming</p>
+<p begin="00:02:16.959" end="00:02:19.440" style="s2">languages</p>
+<p begin="00:02:17.680" end="00:02:20.959" style="s2">all that and also we have an</p>
+<p begin="00:02:19.440" end="00:02:24.560" style="s2">announcement at the end of the video so</p>
+<p begin="00:02:20.959" end="00:02:24.560" style="s2">make sure you stick around to know</p>
+<p begin="00:02:24.720" end="00:02:28.640" style="s2">now bitcoin is a first generation</p>
+<p begin="00:02:26.560" end="00:02:31.120" style="s2">blockchain a first generation blockchain</p>
+<p begin="00:02:28.640" end="00:02:33.519" style="s2">is a blockchain that uses proof of work</p>
+<p begin="00:02:31.120" end="00:02:35.200" style="s2">to secure itself the goal of bitcoin was</p>
+<p begin="00:02:33.519" end="00:02:37.280" style="s2">to be internet money</p>
+<p begin="00:02:35.200" end="00:02:38.640" style="s2">that nobody could hack now did they</p>
+<p begin="00:02:37.280" end="00:02:41.120" style="s2">succeed yes</p>
+<p begin="00:02:38.640" end="00:02:41.920" style="s2">they did but bitcoin uses proof of work</p>
+<p begin="00:02:41.120" end="00:02:44.080" style="s2">to secure</p>
+<p begin="00:02:41.920" end="00:02:45.040" style="s2">the network as we saw on previous videos</p>
+<p begin="00:02:44.080" end="00:02:47.680" style="s2">now proof of</p>
+<p begin="00:02:45.040" end="00:02:49.200" style="s2">work requires your computer to work in</p>
+<p begin="00:02:47.680" end="00:02:51.200" style="s2">order to secure the network</p>
+<p begin="00:02:49.200" end="00:02:53.840" style="s2">and to get rewards from the network but</p>
+<p begin="00:02:51.200" end="00:02:56.000" style="s2">this work usually comes in the form of</p>
+<p begin="00:02:53.840" end="00:02:57.440" style="s2">electricity from your computer and the</p>
+<p begin="00:02:56.000" end="00:02:59.680" style="s2">more the network grows</p>
+<p begin="00:02:57.440" end="00:03:01.519" style="s2">the more energy it needs and the more it</p>
+<p begin="00:02:59.680" end="00:03:03.040" style="s2">damages the environment now you could</p>
+<p begin="00:03:01.519" end="00:03:04.959" style="s2">make the point that bitcoin is</p>
+<p begin="00:03:03.040" end="00:03:06.879" style="s2">eco-friendly or will be eco-friendly</p>
+<p begin="00:03:04.959" end="00:03:08.879" style="s2">once everything is running on</p>
+<p begin="00:03:06.879" end="00:03:10.720" style="s2">solar energy and that might be true but</p>
+<p begin="00:03:08.879" end="00:03:11.920" style="s2">that&#39;s not the case right now like for</p>
+<p begin="00:03:10.720" end="00:03:14.239" style="s2">example china</p>
+<p begin="00:03:11.920" end="00:03:16.159" style="s2">last week had a blackout on one of the</p>
+<p begin="00:03:14.239" end="00:03:18.480" style="s2">coal mines they had a mine</p>
+<p begin="00:03:16.159" end="00:03:19.760" style="s2">that mine got shot down and with that</p>
+<p begin="00:03:18.480" end="00:03:23.440" style="s2">shutdown of that mine</p>
+<p begin="00:03:19.760" end="00:03:26.720" style="s2">bitcoin lost 30 of its hash rate</p>
+<p begin="00:03:23.440" end="00:03:29.200" style="s2">china is responsible for 50</p>
+<p begin="00:03:26.720" end="00:03:31.040" style="s2">of the hash rate of bitcoin network so</p>
+<p begin="00:03:29.200" end="00:03:32.720" style="s2">for bitcoin to be really eco-friendly</p>
+<p begin="00:03:31.040" end="00:03:34.959" style="s2">you will have to take for example these</p>
+<p begin="00:03:32.720" end="00:03:36.560" style="s2">coal mines in china and replace them</p>
+<p begin="00:03:34.959" end="00:03:38.959" style="s2">with solar energy</p>
+<p begin="00:03:36.560" end="00:03:40.640" style="s2">also maybe proof of work is not that</p>
+<p begin="00:03:38.959" end="00:03:43.680" style="s2">decentralized and that</p>
+<p begin="00:03:40.640" end="00:03:44.239" style="s2">safe if most of the hash rate more than</p>
+<p begin="00:03:43.680" end="00:03:47.040" style="s2">50</p>
+<p begin="00:03:44.239" end="00:03:48.000" style="s2">of that would be located only in one</p>
+<p begin="00:03:47.040" end="00:03:50.400" style="s2">country that has</p>
+<p begin="00:03:48.000" end="00:03:51.440" style="s2">cheap electricity and cheap electronics</p>
+<p begin="00:03:50.400" end="00:03:53.760" style="s2">so to conclude</p>
+<p begin="00:03:51.440" end="00:03:54.480" style="s2">bitcoin is the most successful and</p>
+<p begin="00:03:53.760" end="00:03:56.879" style="s2">secure</p>
+<p begin="00:03:54.480" end="00:03:58.159" style="s2">cryptocurrency out there is the most</p>
+<p begin="00:03:56.879" end="00:04:00.959" style="s2">valuable as well</p>
+<p begin="00:03:58.159" end="00:04:01.200" style="s2">but this comes at the cost of being slow</p>
+<p begin="00:04:00.959" end="00:04:03.280" style="s2">and</p>
+<p begin="00:04:01.200" end="00:04:05.040" style="s2">energy inefficient it&#39;s also not</p>
+<p begin="00:04:03.280" end="00:04:06.480" style="s2">programmable we cannot do anything with</p>
+<p begin="00:04:05.040" end="00:04:07.519" style="s2">it the only thing we can do is send it</p>
+<p begin="00:04:06.480" end="00:04:10.080" style="s2">between each other it&#39;s</p>
+<p begin="00:04:07.519" end="00:04:10.720" style="s2">boring sort of like gold we can&#39;t have</p>
+<p begin="00:04:10.080" end="00:04:12.879" style="s2">defy</p>
+<p begin="00:04:10.720" end="00:04:14.480" style="s2">or any of these on bitcoin it&#39;s just not</p>
+<p begin="00:04:12.879" end="00:04:16.079" style="s2">possible now second generation</p>
+<p begin="00:04:14.480" end="00:04:17.519" style="s2">cryptocurrencies are the ones that</p>
+<p begin="00:04:16.079" end="00:04:19.359" style="s2">introduce the concept of</p>
+<p begin="00:04:17.519" end="00:04:20.880" style="s2">smart contracts we talked about smart</p>
+<p begin="00:04:19.359" end="00:04:22.960" style="s2">contracts before and as we know there</p>
+<p begin="00:04:20.880" end="00:04:24.000" style="s2">isn&#39;t only one cryptocurrency with smart</p>
+<p begin="00:04:22.960" end="00:04:25.919" style="s2">contracts there are actually</p>
+<p begin="00:04:24.000" end="00:04:27.360" style="s2">many of them very different but the one</p>
+<p begin="00:04:25.919" end="00:04:29.600" style="s2">that is the most famous one</p>
+<p begin="00:04:27.360" end="00:04:31.040" style="s2">is a theory ethereum was started by</p>
+<p begin="00:04:29.600" end="00:04:33.120" style="s2">people that wanted to do</p>
+<p begin="00:04:31.040" end="00:04:34.400" style="s2">more with bitcoin but couldn&#39;t the</p>
+<p begin="00:04:33.120" end="00:04:35.040" style="s2">reason why they couldn&#39;t is because</p>
+<p begin="00:04:34.400" end="00:04:37.520" style="s2">bitcoin</p>
+<p begin="00:04:35.040" end="00:04:39.120" style="s2">is not designed to be updated and also</p>
+<p begin="00:04:37.520" end="00:04:40.800" style="s2">the developers of bitcoin don&#39;t want to</p>
+<p begin="00:04:39.120" end="00:04:43.199" style="s2">update the way the network works</p>
+<p begin="00:04:40.800" end="00:04:44.400" style="s2">bitcoin is designed to run as is running</p>
+<p begin="00:04:43.199" end="00:04:46.560" style="s2">right now forever</p>
+<p begin="00:04:44.400" end="00:04:48.800" style="s2">is sort of like gold really but now</p>
+<p begin="00:04:46.560" end="00:04:49.759" style="s2">ethereum has one more goal on top of</p>
+<p begin="00:04:48.800" end="00:04:52.080" style="s2">bitcoin&#39;s goal</p>
+<p begin="00:04:49.759" end="00:04:52.880" style="s2">ethereum wants to be a world shared</p>
+<p begin="00:04:52.080" end="00:04:56.479" style="s2">computer</p>
+<p begin="00:04:52.880" end="00:05:00.080" style="s2">a programmable unhackable shared backend</p>
+<p begin="00:04:56.479" end="00:05:02.320" style="s2">where humans encode can interact create</p>
+<p begin="00:05:00.080" end="00:05:04.160" style="s2">lock do whatever they want with coins</p>
+<p begin="00:05:02.320" end="00:05:04.560" style="s2">now this creates other problems and that</p>
+<p begin="00:05:04.160" end="00:05:06.560" style="s2">is that</p>
+<p begin="00:05:04.560" end="00:05:07.759" style="s2">if we can build things on top of</p>
+<p begin="00:05:06.560" end="00:05:09.120" style="s2">ethereum for example</p>
+<p begin="00:05:07.759" end="00:05:11.440" style="s2">that means that the network is going to</p>
+<p begin="00:05:09.120" end="00:05:13.199" style="s2">be very very busy because we don&#39;t only</p>
+<p begin="00:05:11.440" end="00:05:15.840" style="s2">send and receive money like on bitcoin</p>
+<p begin="00:05:13.199" end="00:05:17.759" style="s2">we can also create a nft marketplace on</p>
+<p begin="00:05:15.840" end="00:05:19.360" style="s2">top of ethereum or a decentralized</p>
+<p begin="00:05:17.759" end="00:05:21.600" style="s2">exchange or a v5</p>
+<p begin="00:05:19.360" end="00:05:23.840" style="s2">farm or a blockchain based video game</p>
+<p begin="00:05:21.600" end="00:05:25.520" style="s2">now all that will have to be on top of</p>
+<p begin="00:05:23.840" end="00:05:26.560" style="s2">the ethereum network and that will make</p>
+<p begin="00:05:25.520" end="00:05:28.720" style="s2">it super busy</p>
+<p begin="00:05:26.560" end="00:05:31.120" style="s2">now this congested network makes</p>
+<p begin="00:05:28.720" end="00:05:32.880" style="s2">ethereum have crazy transaction fees</p>
+<p begin="00:05:31.120" end="00:05:35.520" style="s2">sometimes like for example right now as</p>
+<p begin="00:05:32.880" end="00:05:37.840" style="s2">of today if you wanted to send me</p>
+<p begin="00:05:35.520" end="00:05:38.800" style="s2">30 dollars in the ethereum network you</p>
+<p begin="00:05:37.840" end="00:05:41.039" style="s2">will have to pay</p>
+<p begin="00:05:38.800" end="00:05:43.360" style="s2">30 dollars of transaction fees that&#39;s</p>
+<p begin="00:05:41.039" end="00:05:44.800" style="s2">insane another problem that ethereum and</p>
+<p begin="00:05:43.360" end="00:05:46.160" style="s2">bitcoin have is the fact that they</p>
+<p begin="00:05:44.800" end="00:05:47.039" style="s2">cannot talk to each other actually they</p>
+<p begin="00:05:46.160" end="00:05:49.919" style="s2">can talk to</p>
+<p begin="00:05:47.039" end="00:05:51.440" style="s2">anybody there is no interoperability</p>
+<p begin="00:05:49.919" end="00:05:53.120" style="s2">between blockchains and blockchains</p>
+<p begin="00:05:51.440" end="00:05:54.720" style="s2">should be able to talk to each other</p>
+<p begin="00:05:53.120" end="00:05:56.319" style="s2">now maybe you&#39;re wondering why should</p>
+<p begin="00:05:54.720" end="00:05:58.160" style="s2">blockchains talk to each other well the</p>
+<p begin="00:05:56.319" end="00:05:59.280" style="s2">answer to this is because right now as</p>
+<p begin="00:05:58.160" end="00:06:01.360" style="s2">you can see we have</p>
+<p begin="00:05:59.280" end="00:06:02.560" style="s2">an immense amount of coins we have an</p>
+<p begin="00:06:01.360" end="00:06:04.639" style="s2">immense amount</p>
+<p begin="00:06:02.560" end="00:06:06.319" style="s2">of blockchain and it&#39;s very unrealistic</p>
+<p begin="00:06:04.639" end="00:06:08.800" style="s2">to expect one coin</p>
+<p begin="00:06:06.319" end="00:06:09.680" style="s2">to win everybody to be the only coin</p>
+<p begin="00:06:08.800" end="00:06:11.680" style="s2">that we will use</p>
+<p begin="00:06:09.680" end="00:06:14.000" style="s2">now some coins are good as a store of</p>
+<p begin="00:06:11.680" end="00:06:16.160" style="s2">value other coins are good for privacy</p>
+<p begin="00:06:14.000" end="00:06:17.840" style="s2">other coins are good for speed other</p>
+<p begin="00:06:16.160" end="00:06:18.960" style="s2">ones are stable coins now</p>
+<p begin="00:06:17.840" end="00:06:21.199" style="s2">as you can see this means that we are</p>
+<p begin="00:06:18.960" end="00:06:22.000" style="s2">going to end up with an immense amount</p>
+<p begin="00:06:21.199" end="00:06:23.600" style="s2">of coins</p>
+<p begin="00:06:22.000" end="00:06:25.280" style="s2">now this means that blockchains should</p>
+<p begin="00:06:23.600" end="00:06:27.680" style="s2">be able to talk to each other</p>
+<p begin="00:06:25.280" end="00:06:29.199" style="s2">imagine if somebody told you that if you</p>
+<p begin="00:06:27.680" end="00:06:31.919" style="s2">use gmail you cannot</p>
+<p begin="00:06:29.199" end="00:06:33.600" style="s2">send an email to hotmail for example</p>
+<p begin="00:06:31.919" end="00:06:34.000" style="s2">that doesn&#39;t happen the reason why all</p>
+<p begin="00:06:33.600" end="00:06:35.919" style="s2">these</p>
+<p begin="00:06:34.000" end="00:06:37.120" style="s2">email things can talk to each other</p>
+<p begin="00:06:35.919" end="00:06:38.800" style="s2">because they all implement</p>
+<p begin="00:06:37.120" end="00:06:40.800" style="s2">the same protocol and it has to be the</p>
+<p begin="00:06:38.800" end="00:06:42.880" style="s2">same with blockchain now the last</p>
+<p begin="00:06:40.800" end="00:06:44.720" style="s2">problem of ethereum to this course is</p>
+<p begin="00:06:42.880" end="00:06:46.639" style="s2">the programming language that it uses</p>
+<p begin="00:06:44.720" end="00:06:48.240" style="s2">if you want to make a smart contract</p>
+<p begin="00:06:46.639" end="00:06:49.840" style="s2">you&#39;re going to have to learn the</p>
+<p begin="00:06:48.240" end="00:06:51.919" style="s2">ethereum programming language and that</p>
+<p begin="00:06:49.840" end="00:06:53.520" style="s2">is solidity solidity isn&#39;t a hard</p>
+<p begin="00:06:51.919" end="00:06:53.840" style="s2">programming language to make it looks</p>
+<p begin="00:06:53.520" end="00:06:56.400" style="s2">like</p>
+<p begin="00:06:53.840" end="00:06:57.440" style="s2">typescript actually but it does have</p>
+<p begin="00:06:56.400" end="00:06:59.199" style="s2">some disadvantages</p>
+<p begin="00:06:57.440" end="00:07:01.280" style="s2">first of all it&#39;s a new language and it</p>
+<p begin="00:06:59.199" end="00:07:02.160" style="s2">will be better for adoption and for</p>
+<p begin="00:07:01.280" end="00:07:04.080" style="s2">developer</p>
+<p begin="00:07:02.160" end="00:07:05.520" style="s2">interest if we could write contracts</p>
+<p begin="00:07:04.080" end="00:07:06.880" style="s2">let&#39;s say in programming languages that</p>
+<p begin="00:07:05.520" end="00:07:09.520" style="s2">we like let&#39;s say go</p>
+<p begin="00:07:06.880" end="00:07:10.560" style="s2">rust haskell webassembly these languages</p>
+<p begin="00:07:09.520" end="00:07:12.240" style="s2">don&#39;t only have</p>
+<p begin="00:07:10.560" end="00:07:13.919" style="s2">bigger communities which will be good</p>
+<p begin="00:07:12.240" end="00:07:14.720" style="s2">for ethereum and the crypto ecosystem</p>
+<p begin="00:07:13.919" end="00:07:16.479" style="s2">but also</p>
+<p begin="00:07:14.720" end="00:07:17.759" style="s2">they have standards they have best</p>
+<p begin="00:07:16.479" end="00:07:20.160" style="s2">practices they also are</p>
+<p begin="00:07:17.759" end="00:07:21.759" style="s2">safer and more secure keep in mind that</p>
+<p begin="00:07:20.160" end="00:07:22.080" style="s2">the programming language that we choose</p>
+<p begin="00:07:21.759" end="00:07:24.560" style="s2">to</p>
+<p begin="00:07:22.080" end="00:07:25.759" style="s2">write a smart contract is very important</p>
+<p begin="00:07:24.560" end="00:07:28.479" style="s2">because a smart contract</p>
+<p begin="00:07:25.759" end="00:07:30.000" style="s2">should be really safe so if we really</p>
+<p begin="00:07:28.479" end="00:07:32.080" style="s2">want governments or stock</p>
+<p begin="00:07:30.000" end="00:07:33.599" style="s2">markets or very big official</p>
+<p begin="00:07:32.080" end="00:07:36.160" style="s2">institutions to consider</p>
+<p begin="00:07:33.599" end="00:07:36.880" style="s2">running on crypto or doing things with</p>
+<p begin="00:07:36.160" end="00:07:38.560" style="s2">the blockchain</p>
+<p begin="00:07:36.880" end="00:07:40.000" style="s2">we need to build these things in</p>
+<p begin="00:07:38.560" end="00:07:41.360" style="s2">programming languages that could be</p>
+<p begin="00:07:40.000" end="00:07:44.240" style="s2">formally verified</p>
+<p begin="00:07:41.360" end="00:07:46.319" style="s2">tested or have an industry behind them</p>
+<p begin="00:07:44.240" end="00:07:46.879" style="s2">not something super new as solidity for</p>
+<p begin="00:07:46.319" end="00:07:48.720" style="s2">example</p>
+<p begin="00:07:46.879" end="00:07:50.240" style="s2">mr vitalik buttering one of the</p>
+<p begin="00:07:48.720" end="00:07:51.919" style="s2">co-founders of ethereum</p>
+<p begin="00:07:50.240" end="00:07:54.240" style="s2">came up with something called the</p>
+<p begin="00:07:51.919" end="00:07:56.800" style="s2">excalibility trilemma which is like</p>
+<p begin="00:07:54.240" end="00:07:58.240" style="s2">a triangle like this on this trilemma</p>
+<p begin="00:07:56.800" end="00:08:00.879" style="s2">are three properties that</p>
+<p begin="00:07:58.240" end="00:08:01.879" style="s2">cryptocurrencies should have scalability</p>
+<p begin="00:08:00.879" end="00:08:04.000" style="s2">or speed</p>
+<p begin="00:08:01.879" end="00:08:05.680" style="s2">decentralization and security the</p>
+<p begin="00:08:04.000" end="00:08:07.520" style="s2">problem is that according to him a</p>
+<p begin="00:08:05.680" end="00:08:08.400" style="s2">cryptocurrency can only have two of</p>
+<p begin="00:08:07.520" end="00:08:10.879" style="s2">those</p>
+<p begin="00:08:08.400" end="00:08:12.400" style="s2">you can be decentralized and secure but</p>
+<p begin="00:08:10.879" end="00:08:13.520" style="s2">you will be slow let&#39;s say like for</p>
+<p begin="00:08:12.400" end="00:08:16.080" style="s2">example bitcoin</p>
+<p begin="00:08:13.520" end="00:08:17.440" style="s2">or you can be secure and scalable but</p>
+<p begin="00:08:16.080" end="00:08:19.440" style="s2">that means that you&#39;re not gonna be</p>
+<p begin="00:08:17.440" end="00:08:21.599" style="s2">decentralized so that would be like a</p>
+<p begin="00:08:19.440" end="00:08:23.199" style="s2">cryptocurrency controlled by a company</p>
+<p begin="00:08:21.599" end="00:08:24.879" style="s2">that they can just turn it off anytime</p>
+<p begin="00:08:23.199" end="00:08:27.520" style="s2">they want or you can be</p>
+<p begin="00:08:24.879" end="00:08:29.199" style="s2">scalable and decentralized but maybe</p>
+<p begin="00:08:27.520" end="00:08:31.599" style="s2">that means that you are not going to be</p>
+<p begin="00:08:29.199" end="00:08:33.120" style="s2">so secure but this was a long time ago</p>
+<p begin="00:08:31.599" end="00:08:34.000" style="s2">and there are some cryptocurrencies that</p>
+<p begin="00:08:33.120" end="00:08:35.760" style="s2">disagree</p>
+<p begin="00:08:34.000" end="00:08:37.519" style="s2">there are people that believe you can</p>
+<p begin="00:08:35.760" end="00:08:39.599" style="s2">have scalable fast</p>
+<p begin="00:08:37.519" end="00:08:41.919" style="s2">decentralized and secure</p>
+<p begin="00:08:39.599" end="00:08:44.080" style="s2">cryptocurrencies and those are called</p>
+<p begin="00:08:41.919" end="00:08:45.040" style="s2">third-generation blockchains now</p>
+<p begin="00:08:44.080" end="00:08:46.880" style="s2">ethereum is</p>
+<p begin="00:08:45.040" end="00:08:48.399" style="s2">transitioning to become a third</p>
+<p begin="00:08:46.880" end="00:08:50.640" style="s2">generation cryptocurrency</p>
+<p begin="00:08:48.399" end="00:08:52.720" style="s2">as well they&#39;re currently updating</p>
+<p begin="00:08:50.640" end="00:08:56.800" style="s2">ethereum to version number two</p>
+<p begin="00:08:52.720" end="00:09:00.720" style="s2">where ethereum is going to use 99.90</p>
+<p begin="00:08:56.800" end="00:09:02.399" style="s2">and percent less energy than before</p>
+<p begin="00:09:00.720" end="00:09:05.279" style="s2">and it will give them the ability to</p>
+<p begin="00:09:02.399" end="00:09:08.000" style="s2">process between 25 000 and 100</p>
+<p begin="00:09:05.279" end="00:09:09.279" style="s2">000 transactions per second so everybody</p>
+<p begin="00:09:08.000" end="00:09:12.160" style="s2">is really expected</p>
+<p begin="00:09:09.279" end="00:09:13.600" style="s2">on ethereum 2.0 so on the following</p>
+<p begin="00:09:12.160" end="00:09:15.440" style="s2">video we are going to explore</p>
+<p begin="00:09:13.600" end="00:09:17.839" style="s2">the world of the third generation</p>
+<p begin="00:09:15.440" end="00:09:18.880" style="s2">cryptocurrencies finally the stage has</p>
+<p begin="00:09:17.839" end="00:09:20.959" style="s2">been set and now</p>
+<p begin="00:09:18.880" end="00:09:22.880" style="s2">our players can come in now i&#39;ve been</p>
+<p begin="00:09:20.959" end="00:09:24.720" style="s2">getting many comments asking me if i&#39;m</p>
+<p begin="00:09:22.880" end="00:09:25.519" style="s2">going to launch an ecocoin or if i&#39;m</p>
+<p begin="00:09:24.720" end="00:09:28.560" style="s2">going to make</p>
+<p begin="00:09:25.519" end="00:09:31.600" style="s2">an ethereum smart contract nft</p>
+<p begin="00:09:28.560" end="00:09:33.279" style="s2">course the answer to this is yes but</p>
+<p begin="00:09:31.600" end="00:09:34.880" style="s2">not on the way you think i&#39;m not going</p>
+<p begin="00:09:33.279" end="00:09:37.120" style="s2">to make any ethereum</p>
+<p begin="00:09:34.880" end="00:09:38.720" style="s2">polka polkadot cosmos cardano course yet</p>
+<p begin="00:09:37.120" end="00:09:40.959" style="s2">and the reason why is because i</p>
+<p begin="00:09:38.720" end="00:09:41.920" style="s2">do not believe on any blockchain</p>
+<p begin="00:09:40.959" end="00:09:44.160" style="s2">platform</p>
+<p begin="00:09:41.920" end="00:09:45.279" style="s2">so far but i believe that this industry</p>
+<p begin="00:09:44.160" end="00:09:47.920" style="s2">is so far in like an</p>
+<p begin="00:09:45.279" end="00:09:49.120" style="s2">alpha state not even better yet in alpha</p>
+<p begin="00:09:47.920" end="00:09:50.880" style="s2">things are still breaking</p>
+<p begin="00:09:49.120" end="00:09:52.800" style="s2">things are changing and things are not</p>
+<p begin="00:09:50.880" end="00:09:55.040" style="s2">just good enough so this is why</p>
+<p begin="00:09:52.800" end="00:09:55.839" style="s2">i&#39;m not making this kind of courses now</p>
+<p begin="00:09:55.040" end="00:09:58.000" style="s2">let&#39;s talk about</p>
+<p begin="00:09:55.839" end="00:09:59.600" style="s2">nico coin i&#39;m also not going to launch</p>
+<p begin="00:09:58.000" end="00:10:01.120" style="s2">nico coin but instead what we&#39;re going</p>
+<p begin="00:09:59.600" end="00:10:02.480" style="s2">to do is i&#39;m going to teach you</p>
+<p begin="00:10:01.120" end="00:10:04.320" style="s2">how you can launch your own</p>
+<p begin="00:10:02.480" end="00:10:05.760" style="s2">cryptocurrency today we&#39;re launching a</p>
+<p begin="00:10:04.320" end="00:10:08.000" style="s2">course where you are going to learn</p>
+<p begin="00:10:05.760" end="00:10:09.680" style="s2">how to create your own cryptocurrency by</p>
+<p begin="00:10:08.000" end="00:10:11.279" style="s2">implementing things like for example</p>
+<p begin="00:10:09.680" end="00:10:13.120" style="s2">peer-to-peer transactions</p>
+<p begin="00:10:11.279" end="00:10:14.959" style="s2">blockchain of course mining with</p>
+<p begin="00:10:13.120" end="00:10:17.360" style="s2">proof-of-work wallets</p>
+<p begin="00:10:14.959" end="00:10:18.000" style="s2">all that stuff in the go programming</p>
+<p begin="00:10:17.360" end="00:10:19.760" style="s2">language</p>
+<p begin="00:10:18.000" end="00:10:21.279" style="s2">so i&#39;m not launching my own coin i&#39;m</p>
+<p begin="00:10:19.760" end="00:10:23.360" style="s2">launching a course that teaches you</p>
+<p begin="00:10:21.279" end="00:10:24.399" style="s2">how to make a coin i think that to</p>
+<p begin="00:10:23.360" end="00:10:26.880" style="s2">understand something</p>
+<p begin="00:10:24.399" end="00:10:27.920" style="s2">you need to build it yourself so this is</p>
+<p begin="00:10:26.880" end="00:10:29.760" style="s2">what this course does</p>
+<p begin="00:10:27.920" end="00:10:31.839" style="s2">we don&#39;t talk about any platform we</p>
+<p begin="00:10:29.760" end="00:10:32.720" style="s2">don&#39;t use ethereum or whatever that is</p>
+<p begin="00:10:31.839" end="00:10:34.720" style="s2">we just do</p>
+<p begin="00:10:32.720" end="00:10:35.839" style="s2">our own coin to understand the basics</p>
+<p begin="00:10:34.720" end="00:10:38.399" style="s2">and to implement everything</p>
+<p begin="00:10:35.839" end="00:10:39.360" style="s2">using the beautiful awesome sexy go</p>
+<p begin="00:10:38.399" end="00:10:41.600" style="s2">programming language</p>
+<p begin="00:10:39.360" end="00:10:43.440" style="s2">this course is for educational purposes</p>
+<p begin="00:10:41.600" end="00:10:45.680" style="s2">only of course we&#39;re not going to</p>
+<p begin="00:10:43.440" end="00:10:46.640" style="s2">learn how to put our coin in an exchange</p>
+<p begin="00:10:45.680" end="00:10:48.640" style="s2">to make the next</p>
+<p begin="00:10:46.640" end="00:10:50.240" style="s2">dodge coin no it&#39;s only to understand</p>
+<p begin="00:10:48.640" end="00:10:52.959" style="s2">bitcoin and crypto and everything</p>
+<p begin="00:10:50.240" end="00:10:54.320" style="s2">from the inside so check out the link on</p>
+<p begin="00:10:52.959" end="00:10:55.279" style="s2">the description if that&#39;s something</p>
+<p begin="00:10:54.320" end="00:10:57.839" style="s2">you&#39;re interested on</p>
+<p begin="00:10:55.279" end="00:10:59.200" style="s2">and i will see you on the next video</p>
+<p begin="00:10:57.839" end="00:11:00.800" style="s2">thank you so much for watching</p>
+<p begin="00:10:59.200" end="00:11:03.040" style="s2">please be happy today don&#39;t forget to</p>
+<p begin="00:11:00.800" end="00:11:07.120" style="s2">eat kimchi ham sandida sarangayo see you</p>
+<p begin="00:11:03.040" end="00:11:07.120" style="s2">on the next one proof of steak coming up</p>
+<p begin="00:11:11.959" end="00:11:14.959" style="s2">bye</p>
+</div>
+</body>
+</tt>

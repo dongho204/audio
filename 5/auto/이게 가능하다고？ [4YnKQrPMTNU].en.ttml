@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.179" end="00:00:07.259" style="s2">I have a question for you using</p>
+<p begin="00:00:05.160" end="00:00:10.320" style="s2">JavaScript how long do you think it will</p>
+<p begin="00:00:07.259" end="00:00:15.000" style="s2">take you to format this date into Korean</p>
+<p begin="00:00:10.320" end="00:00:18.180" style="s2">format or German or Arabic what about</p>
+<p begin="00:00:15.000" end="00:00:19.440" style="s2">taking a number and displaying it as a</p>
+<p begin="00:00:18.180" end="00:00:21.240" style="s2">currency</p>
+<p begin="00:00:19.440" end="00:00:24.000" style="s2">how long do you think it will take you</p>
+<p begin="00:00:21.240" end="00:00:26.039" style="s2">to take a number and format it in a</p>
+<p begin="00:00:24.000" end="00:00:28.859" style="s2">social media friendly way what about</p>
+<p begin="00:00:26.039" end="00:00:32.099" style="s2">taking another number and formatting it</p>
+<p begin="00:00:28.859" end="00:00:35.160" style="s2">to relative time without using any</p>
+<p begin="00:00:32.099" end="00:00:38.160" style="s2">Library how long would that take you I</p>
+<p begin="00:00:35.160" end="00:00:40.860" style="s2">know how long it would take me one line</p>
+<p begin="00:00:38.160" end="00:00:42.660" style="s2">of code and that is thanks to an API</p>
+<p begin="00:00:40.860" end="00:00:45.780" style="s2">that not many people know about called</p>
+<p begin="00:00:42.660" end="00:00:49.260" style="s2">the internationalization API the</p>
+<p begin="00:00:45.780" end="00:00:51.719" style="s2">internationalization API has a lot of</p>
+<p begin="00:00:49.260" end="00:00:55.440" style="s2">super useful functions that allow us to</p>
+<p begin="00:00:51.719" end="00:00:57.539" style="s2">format dates numbers and even lists into</p>
+<p begin="00:00:55.440" end="00:01:00.719" style="s2">the different languages and formats of</p>
+<p begin="00:00:57.539" end="00:01:03.300" style="s2">the world the internationalization API</p>
+<p begin="00:01:00.719" end="00:01:05.700" style="s2">has many different Constructors that</p>
+<p begin="00:01:03.300" end="00:01:08.580" style="s2">format different things the date time</p>
+<p begin="00:01:05.700" end="00:01:11.400" style="s2">format Constructor helps us format date</p>
+<p begin="00:01:08.580" end="00:01:14.520" style="s2">and time to use it first we need a date</p>
+<p begin="00:01:11.400" end="00:01:16.799" style="s2">then we initialize the date time format</p>
+<p begin="00:01:14.520" end="00:01:20.220" style="s2">Constructor with the locals that we want</p>
+<p begin="00:01:16.799" end="00:01:22.619" style="s2">to format our date to and then we call</p>
+<p begin="00:01:20.220" end="00:01:24.000" style="s2">the format method with the date we</p>
+<p begin="00:01:22.619" end="00:01:26.939" style="s2">created before</p>
+<p begin="00:01:24.000" end="00:01:29.580" style="s2">that will format our date according to</p>
+<p begin="00:01:26.939" end="00:01:32.340" style="s2">the local that we chose the daytime</p>
+<p begin="00:01:29.580" end="00:01:34.680" style="s2">format Constructor also supports options</p>
+<p begin="00:01:32.340" end="00:01:37.079" style="s2">if we want to we can specify how the</p>
+<p begin="00:01:34.680" end="00:01:39.479" style="s2">time and the date should look like in</p>
+<p begin="00:01:37.079" end="00:01:42.960" style="s2">this case with a date style set to</p>
+<p begin="00:01:39.479" end="00:01:45.840" style="s2">medium and time style set to full we</p>
+<p begin="00:01:42.960" end="00:01:48.060" style="s2">will get an output like this</p>
+<p begin="00:01:45.840" end="00:01:50.759" style="s2">you could even use a different calendar</p>
+<p begin="00:01:48.060" end="00:01:53.159" style="s2">if you wanted to and you will get</p>
+<p begin="00:01:50.759" end="00:01:56.460" style="s2">something like this</p>
+<p begin="00:01:53.159" end="00:02:00.119" style="s2">you can customize exactly how each unit</p>
+<p begin="00:01:56.460" end="00:02:02.759" style="s2">weekday year month hour minute and</p>
+<p begin="00:02:00.119" end="00:02:05.759" style="s2">seconds should be formatted with options</p>
+<p begin="00:02:02.759" end="00:02:08.459" style="s2">like these ones we can expect an output</p>
+<p begin="00:02:05.759" end="00:02:11.160" style="s2">that looks like this</p>
+<p begin="00:02:08.459" end="00:02:13.379" style="s2">in your options you can specify the time</p>
+<p begin="00:02:11.160" end="00:02:16.560" style="s2">zone and you can also choose if you want</p>
+<p begin="00:02:13.379" end="00:02:18.900" style="s2">to use the 12 hour format or not so if</p>
+<p begin="00:02:16.560" end="00:02:20.459" style="s2">you have a date in Korean time zone and</p>
+<p begin="00:02:18.900" end="00:02:22.920" style="s2">you want to show your customers in</p>
+<p begin="00:02:20.459" end="00:02:26.040" style="s2">America what time that would be all you</p>
+<p begin="00:02:22.920" end="00:02:28.860" style="s2">have to do is use the time zone name and</p>
+<p begin="00:02:26.040" end="00:02:31.680" style="s2">your users will see that date on their</p>
+<p begin="00:02:28.860" end="00:02:33.840" style="s2">time zone number format is another</p>
+<p begin="00:02:31.680" end="00:02:36.660" style="s2">Constructor that as you can guess helps</p>
+<p begin="00:02:33.840" end="00:02:39.300" style="s2">us format numbers the API is very</p>
+<p begin="00:02:36.660" end="00:02:41.760" style="s2">similar to the date time format instead</p>
+<p begin="00:02:39.300" end="00:02:43.980" style="s2">of update we use a number then we call</p>
+<p begin="00:02:41.760" end="00:02:45.900" style="s2">the Constructor with a local and we call</p>
+<p begin="00:02:43.980" end="00:02:48.900" style="s2">the format method</p>
+<p begin="00:02:45.900" end="00:02:51.720" style="s2">to get an output like this</p>
+<p begin="00:02:48.900" end="00:02:54.300" style="s2">the power of the number format is on the</p>
+<p begin="00:02:51.720" end="00:02:56.640" style="s2">options we can pass for example we can</p>
+<p begin="00:02:54.300" end="00:02:58.860" style="s2">format our numbers as a currency by</p>
+<p begin="00:02:56.640" end="00:03:02.760" style="s2">specifying this style and currency</p>
+<p begin="00:02:58.860" end="00:03:04.980" style="s2">options to get an output like this</p>
+<p begin="00:03:02.760" end="00:03:07.260" style="s2">and we can also choose how the currency</p>
+<p begin="00:03:04.980" end="00:03:11.280" style="s2">should be displayed to get an output</p>
+<p begin="00:03:07.260" end="00:03:14.099" style="s2">like this we can round amounts as well</p>
+<p begin="00:03:11.280" end="00:03:16.680" style="s2">getting this output</p>
+<p begin="00:03:14.099" end="00:03:19.319" style="s2">we can also for example format our</p>
+<p begin="00:03:16.680" end="00:03:22.560" style="s2">numbers as units like kilometers per</p>
+<p begin="00:03:19.319" end="00:03:25.560" style="s2">hour by specifying the style and unit</p>
+<p begin="00:03:22.560" end="00:03:29.340" style="s2">options that code will give us an output</p>
+<p begin="00:03:25.560" end="00:03:32.159" style="s2">like this one there are a lot of units</p>
+<p begin="00:03:29.340" end="00:03:34.019" style="s2">like for example litter giving us an</p>
+<p begin="00:03:32.159" end="00:03:38.099" style="s2">output like this</p>
+<p begin="00:03:34.019" end="00:03:40.140" style="s2">or gigabyte that looks like this</p>
+<p begin="00:03:38.099" end="00:03:42.299" style="s2">to format the numbers like the counters</p>
+<p begin="00:03:40.140" end="00:03:45.360" style="s2">we see in social media all we have to do</p>
+<p begin="00:03:42.299" end="00:03:48.900" style="s2">is set the notation option to compact</p>
+<p begin="00:03:45.360" end="00:03:51.120" style="s2">that will give us something like this</p>
+<p begin="00:03:48.900" end="00:03:54.060" style="s2">we also have other types of notations</p>
+<p begin="00:03:51.120" end="00:03:57.299" style="s2">like scientific notation or engineering</p>
+<p begin="00:03:54.060" end="00:03:59.760" style="s2">notation that look like this</p>
+<p begin="00:03:57.299" end="00:04:02.580" style="s2">a Constructor that maybe you did not</p>
+<p begin="00:03:59.760" end="00:04:05.819" style="s2">know you needed until today is the list</p>
+<p begin="00:04:02.580" end="00:04:08.640" style="s2">format Constructor list format allows</p>
+<p begin="00:04:05.819" end="00:04:11.099" style="s2">you to format lists if we have a list of</p>
+<p begin="00:04:08.640" end="00:04:13.200" style="s2">fruits like this one we can use list</p>
+<p begin="00:04:11.099" end="00:04:16.079" style="s2">format like the other Constructors</p>
+<p begin="00:04:13.200" end="00:04:19.199" style="s2">passing a local and some options and</p>
+<p begin="00:04:16.079" end="00:04:21.720" style="s2">that will give us an output like this</p>
+<p begin="00:04:19.199" end="00:04:23.940" style="s2">we can change the type from Conjunction</p>
+<p begin="00:04:21.720" end="00:04:25.560" style="s2">to this Junction and we will get</p>
+<p begin="00:04:23.940" end="00:04:28.680" style="s2">something like</p>
+<p begin="00:04:25.560" end="00:04:31.440" style="s2">this if you don&#39;t want to get and or or</p>
+<p begin="00:04:28.680" end="00:04:33.419" style="s2">to display units for example you can</p>
+<p begin="00:04:31.440" end="00:04:35.820" style="s2">change the type to unit getting</p>
+<p begin="00:04:33.419" end="00:04:37.800" style="s2">something like this</p>
+<p begin="00:04:35.820" end="00:04:40.620" style="s2">the last Constructor we are going to see</p>
+<p begin="00:04:37.800" end="00:04:43.199" style="s2">is relative time format this Constructor</p>
+<p begin="00:04:40.620" end="00:04:46.380" style="s2">allows you to format a number into one</p>
+<p begin="00:04:43.199" end="00:04:48.900" style="s2">day ago or in one month or after</p>
+<p begin="00:04:46.380" end="00:04:50.940" style="s2">tomorrow we use it like we use all the</p>
+<p begin="00:04:48.900" end="00:04:53.280" style="s2">other Constructors except that when we</p>
+<p begin="00:04:50.940" end="00:04:55.919" style="s2">call the format method we have to</p>
+<p begin="00:04:53.280" end="00:04:59.759" style="s2">specify what unit we want to format on</p>
+<p begin="00:04:55.919" end="00:05:03.840" style="s2">so with a code like this we get an</p>
+<p begin="00:04:59.759" end="00:05:06.720" style="s2">output like this if we pass a negative</p>
+<p begin="00:05:03.840" end="00:05:08.639" style="s2">number to the format function the format</p>
+<p begin="00:05:06.720" end="00:05:11.759" style="s2">will change to the Past</p>
+<p begin="00:05:08.639" end="00:05:13.740" style="s2">getting an output like this</p>
+<p begin="00:05:11.759" end="00:05:15.120" style="s2">that&#39;s it for this video I hope that you</p>
+<p begin="00:05:13.740" end="00:05:17.460" style="s2">found it useful and I hope that you</p>
+<p begin="00:05:15.120" end="00:05:19.680" style="s2">start using the internationalization API</p>
+<p begin="00:05:17.460" end="00:05:20.940" style="s2">if you haven&#39;t used it already let me</p>
+<p begin="00:05:19.680" end="00:05:23.759" style="s2">know in the comments what do you think</p>
+<p begin="00:05:20.940" end="00:05:27.120" style="s2">about this API are you already using it</p>
+<p begin="00:05:23.759" end="00:05:29.160" style="s2">are you going to use it I&#39;m very curious</p>
+<p begin="00:05:27.120" end="00:05:30.479" style="s2">to know and don&#39;t forget that if you</p>
+<p begin="00:05:29.160" end="00:05:33.780" style="s2">want to learn things like JavaScript</p>
+<p begin="00:05:30.479" end="00:05:36.780" style="s2">python react react native go start</p>
+<p begin="00:05:33.780" end="00:05:39.780" style="s2">flutter among many others for absolutely</p>
+<p begin="00:05:36.780" end="00:05:43.680" style="s2">free all you have to do is click the</p>
+<p begin="00:05:39.780" end="00:05:46.139" style="s2">link below to join any of our many free</p>
+<p begin="00:05:43.680" end="00:05:48.419" style="s2">courses that you can take right now for</p>
+<p begin="00:05:46.139" end="00:05:51.380" style="s2">absolutely free with me click the link</p>
+<p begin="00:05:48.419" end="00:05:55.919" style="s2">below and I will see you there</p>
+<p begin="00:05:51.380" end="00:05:55.919" style="s2">see you on the next one bye</p>
+</div>
+</body>
+</tt>

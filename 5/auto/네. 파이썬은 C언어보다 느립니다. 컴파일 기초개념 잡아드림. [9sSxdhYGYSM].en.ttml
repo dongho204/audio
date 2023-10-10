@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.030" end="00:00:03.920" style="s2">I knew either you today we&#39;re going to</p>
+<p begin="00:00:01.979" end="00:00:07.770" style="s2">learn why a programming language like</p>
+<p begin="00:00:03.920" end="00:00:11.130" style="s2">Python is a slower then a programming</p>
+<p begin="00:00:07.770" end="00:00:14.250" style="s2">language like C by the way I said slower</p>
+<p begin="00:00:11.130" end="00:00:16.230" style="s2">I didn&#39;t say slow slower all programming</p>
+<p begin="00:00:14.250" end="00:00:18.390" style="s2">languages are very fast okay they do</p>
+<p begin="00:00:16.230" end="00:00:20.609" style="s2">things fast in our computer faster than</p>
+<p begin="00:00:18.390" end="00:00:22.800" style="s2">our brains can do it so they&#39;re all fast</p>
+<p begin="00:00:20.609" end="00:00:26.369" style="s2">some of them are slow work doesn&#39;t mean</p>
+<p begin="00:00:22.800" end="00:00:30.560" style="s2">they&#39;re slow computers do not understand</p>
+<p begin="00:00:26.369" end="00:00:36.239" style="s2">humans computers speak zeros and ones</p>
+<p begin="00:00:30.560" end="00:00:37.980" style="s2">now humans we speak code in nutrition</p>
+<p begin="00:00:36.239" end="00:00:40.530" style="s2">programming language so we say for</p>
+<p begin="00:00:37.980" end="00:00:42.960" style="s2">example if else function variable we do</p>
+<p begin="00:00:40.530" end="00:00:45.180" style="s2">all the stuff right as you can see we</p>
+<p begin="00:00:42.960" end="00:00:47.910" style="s2">speak different languages code is here</p>
+<p begin="00:00:45.180" end="00:00:50.309" style="s2">zeros and ones are here two different</p>
+<p begin="00:00:47.910" end="00:00:52.890" style="s2">languages now there has to be a way of</p>
+<p begin="00:00:50.309" end="00:00:55.800" style="s2">translating if-else function whatever</p>
+<p begin="00:00:52.890" end="00:00:58.340" style="s2">two zeros and ones that produce in the</p>
+<p begin="00:00:55.800" end="00:01:01.079" style="s2">middle is called compilation or</p>
+<p begin="00:00:58.340" end="00:01:03.780" style="s2">interpretation let me give you an</p>
+<p begin="00:01:01.079" end="00:01:05.729" style="s2">example of interpretation and an example</p>
+<p begin="00:01:03.780" end="00:01:07.770" style="s2">of compilation so right now I&#39;m in</p>
+<p begin="00:01:05.729" end="00:01:10.470" style="s2">Turkey here they speak Turkish</p>
+<p begin="00:01:07.770" end="00:01:12.510" style="s2">I speak English so I don&#39;t understand if</p>
+<p begin="00:01:10.470" end="00:01:17.820" style="s2">I&#39;m walking down the street and some</p>
+<p begin="00:01:12.510" end="00:01:21.810" style="s2">Turkish person comes to me and they</p>
+<p begin="00:01:17.820" end="00:01:23.610" style="s2">start speaking I wouldn&#39;t know what</p>
+<p begin="00:01:21.810" end="00:01:25.770" style="s2">interpretation would do is that I will</p>
+<p begin="00:01:23.610" end="00:01:28.710" style="s2">have literally my friend here an</p>
+<p begin="00:01:25.770" end="00:01:31.049" style="s2">interpreter that will be speaking to my</p>
+<p begin="00:01:28.710" end="00:01:33.780" style="s2">ear and translating everything to</p>
+<p begin="00:01:31.049" end="00:01:35.729" style="s2">English I am getting some Turkey&#39;s</p>
+<p begin="00:01:33.780" end="00:01:38.070" style="s2">message here and my friend is</p>
+<p begin="00:01:35.729" end="00:01:40.829" style="s2">immediately translating everything into</p>
+<p begin="00:01:38.070" end="00:01:43.770" style="s2">English to my ear that is interpretation</p>
+<p begin="00:01:40.829" end="00:01:46.320" style="s2">it happens in real time now what is</p>
+<p begin="00:01:43.770" end="00:01:49.500" style="s2">compilation compilation doesn&#39;t happen</p>
+<p begin="00:01:46.320" end="00:01:52.500" style="s2">in real time compilation first my friend</p>
+<p begin="00:01:49.500" end="00:01:54.860" style="s2">will go my friend will listen to them</p>
+<p begin="00:01:52.500" end="00:01:57.630" style="s2">and then once my friend</p>
+<p begin="00:01:54.860" end="00:01:59.100" style="s2">understand the sentences once my friend</p>
+<p begin="00:01:57.630" end="00:02:00.960" style="s2">understands what they mean</p>
+<p begin="00:01:59.100" end="00:02:05.009" style="s2">my friend will translate the entire</p>
+<p begin="00:02:00.960" end="00:02:06.659" style="s2">message to me that is compilation versus</p>
+<p begin="00:02:05.009" end="00:02:08.700" style="s2">interpretation one of them</p>
+<p begin="00:02:06.659" end="00:02:09.990" style="s2">interpretation is done in real time and</p>
+<p begin="00:02:08.700" end="00:02:12.750" style="s2">the other one is done</p>
+<p begin="00:02:09.990" end="00:02:14.370" style="s2">not every attempt that that&#39;s what makes</p>
+<p begin="00:02:12.750" end="00:02:17.340" style="s2">a programming language is slower and</p>
+<p begin="00:02:14.370" end="00:02:21.480" style="s2">faster for example Python is interpreted</p>
+<p begin="00:02:17.340" end="00:02:24.510" style="s2">and C is compiled so on Titan there is</p>
+<p begin="00:02:21.480" end="00:02:26.760" style="s2">always a person here speaking to the</p>
+<p begin="00:02:24.510" end="00:02:29.340" style="s2">computer the zeros and the ones that he</p>
+<p begin="00:02:26.760" end="00:02:31.050" style="s2">needs to get for every line and that</p>
+<p begin="00:02:29.340" end="00:02:32.790" style="s2">could be slow that could be a slow</p>
+<p begin="00:02:31.050" end="00:02:34.800" style="s2">process because it is always a middle</p>
+<p begin="00:02:32.790" end="00:02:37.320" style="s2">man in the middle between your Python</p>
+<p begin="00:02:34.800" end="00:02:40.440" style="s2">code and the zeros and ones now when you</p>
+<p begin="00:02:37.320" end="00:02:42.450" style="s2">work with something like C C is compiled</p>
+<p begin="00:02:40.440" end="00:02:45.330" style="s2">that means that after you finish your</p>
+<p begin="00:02:42.450" end="00:02:48.060" style="s2">program you&#39;re going to press compile</p>
+<p begin="00:02:45.330" end="00:02:50.730" style="s2">the compiler will translate all your</p>
+<p begin="00:02:48.060" end="00:02:52.710" style="s2">code into zeros and ones and then you</p>
+<p begin="00:02:50.730" end="00:02:54.870" style="s2">will be able to open your program and of</p>
+<p begin="00:02:52.710" end="00:02:56.700" style="s2">course it will be faster because there</p>
+<p begin="00:02:54.870" end="00:02:59.250" style="s2">is no middleman there your code will be</p>
+<p begin="00:02:56.700" end="00:03:00.840" style="s2">comes using once immediately when you</p>
+<p begin="00:02:59.250" end="00:03:02.850" style="s2">open the program you will be seducing</p>
+<p begin="00:03:00.840" end="00:03:04.320" style="s2">ones there is no middleman there now</p>
+<p begin="00:03:02.850" end="00:03:06.210" style="s2">another example of this of white</p>
+<p begin="00:03:04.320" end="00:03:08.100" style="s2">difference between interpretation versus</p>
+<p begin="00:03:06.210" end="00:03:10.290" style="s2">compilation if my friend isn&#39;t is my</p>
+<p begin="00:03:08.100" end="00:03:12.930" style="s2">interpreter right here and the Turkish</p>
+<p begin="00:03:10.290" end="00:03:15.390" style="s2">person maybe he speaks a word that my</p>
+<p begin="00:03:12.930" end="00:03:18.000" style="s2">friend doesn&#39;t know my friend will say</p>
+<p begin="00:03:15.390" end="00:03:20.600" style="s2">OOP sorry I don&#39;t know and then we&#39;re</p>
+<p begin="00:03:18.000" end="00:03:22.290" style="s2">gonna be lost right that would be</p>
+<p begin="00:03:20.600" end="00:03:24.930" style="s2">interpretation now</p>
+<p begin="00:03:22.290" end="00:03:27.060" style="s2">if it was compilation and that Turkish</p>
+<p begin="00:03:24.930" end="00:03:28.680" style="s2">person it speaks to my friend some word</p>
+<p begin="00:03:27.060" end="00:03:29.790" style="s2">he doesn&#39;t know my friend will stop and</p>
+<p begin="00:03:28.680" end="00:03:31.620" style="s2">say like hey I don&#39;t know that word</p>
+<p begin="00:03:29.790" end="00:03:32.910" style="s2">change the world because I&#39;d need to</p>
+<p begin="00:03:31.620" end="00:03:34.830" style="s2">translate that and I don&#39;t understand</p>
+<p begin="00:03:32.910" end="00:03:37.320" style="s2">that word that would be the same thing</p>
+<p begin="00:03:34.830" end="00:03:40.080" style="s2">in compilation and interpretation when</p>
+<p begin="00:03:37.320" end="00:03:42.990" style="s2">we have errors for example on Python for</p>
+<p begin="00:03:40.080" end="00:03:45.360" style="s2">example or even JavaScript because it&#39;s</p>
+<p begin="00:03:42.990" end="00:03:48.540" style="s2">an interpreted language and it happens</p>
+<p begin="00:03:45.360" end="00:03:51.990" style="s2">in real time my code might have some</p>
+<p begin="00:03:48.540" end="00:03:54.390" style="s2">errors and I might don&#39;t know about</p>
+<p begin="00:03:51.990" end="00:03:56.580" style="s2">these errors until they happen and that</p>
+<p begin="00:03:54.390" end="00:03:59.190" style="s2">is not good at all I want to know about</p>
+<p begin="00:03:56.580" end="00:04:01.440" style="s2">my errors before they happen so I can</p>
+<p begin="00:03:59.190" end="00:04:03.690" style="s2">fix them but because it&#39;s interpreted it</p>
+<p begin="00:04:01.440" end="00:04:05.910" style="s2">would be real time now if it&#39;s compiled</p>
+<p begin="00:04:03.690" end="00:04:08.970" style="s2">for example when you have a mistake on C</p>
+<p begin="00:04:05.910" end="00:04:10.980" style="s2">or any compiled language when you try to</p>
+<p begin="00:04:08.970" end="00:04:13.080" style="s2">compile your program C will tell you</p>
+<p begin="00:04:10.980" end="00:04:15.540" style="s2">wait one second hold on that doesn&#39;t</p>
+<p begin="00:04:13.080" end="00:04:17.580" style="s2">work I don&#39;t understand that fix it so</p>
+<p begin="00:04:15.540" end="00:04:19.680" style="s2">you know that once you compile your</p>
+<p begin="00:04:17.580" end="00:04:22.590" style="s2">software using the C compiler for</p>
+<p begin="00:04:19.680" end="00:04:23.370" style="s2">example you know that that code doesn&#39;t</p>
+<p begin="00:04:22.590" end="00:04:26.650" style="s2">have a</p>
+<p begin="00:04:23.370" end="00:04:28.150" style="s2">because the compiler approved it</p>
+<p begin="00:04:26.650" end="00:04:29.980" style="s2">basically of course if you have an</p>
+<p begin="00:04:28.150" end="00:04:31.360" style="s2">interpreter there is a middleman if you</p>
+<p begin="00:04:29.980" end="00:04:33.520" style="s2">don&#39;t you have all the power of these</p>
+<p begin="00:04:31.360" end="00:04:35.500" style="s2">zeros and ones and you can access even</p>
+<p begin="00:04:33.520" end="00:04:36.940" style="s2">deeper parts of the computers without a</p>
+<p begin="00:04:35.500" end="00:04:39.750" style="s2">middleman that might be a little bit</p>
+<p begin="00:04:36.940" end="00:04:41.770" style="s2">slow so that&#39;s it I know I made big</p>
+<p begin="00:04:39.750" end="00:04:42.820" style="s2">generalizations on this video if you are</p>
+<p begin="00:04:41.770" end="00:04:44.590" style="s2">already a programmer and you&#39;re</p>
+<p begin="00:04:42.820" end="00:04:46.270" style="s2">experimented and you like the theory</p>
+<p begin="00:04:44.590" end="00:04:48.880" style="s2">then I know you can disagree with</p>
+<p begin="00:04:46.270" end="00:04:51.220" style="s2">something that I said but I allow myself</p>
+<p begin="00:04:48.880" end="00:04:53.770" style="s2">to generalize because that&#39;s easy to</p>
+<p begin="00:04:51.220" end="00:04:55.690" style="s2">explain concepts I know sometimes you</p>
+<p begin="00:04:53.770" end="00:04:57.790" style="s2">can make Python a compiled language</p>
+<p begin="00:04:55.690" end="00:05:00.790" style="s2">there are ways of doing that but</p>
+<p begin="00:04:57.790" end="00:05:03.880" style="s2">generally Python is interpreted and C is</p>
+<p begin="00:05:00.790" end="00:05:05.380" style="s2">compiled right thank you for watching I</p>
+<p begin="00:05:03.880" end="00:05:07.120" style="s2">hope that you understood a little bit</p>
+<p begin="00:05:05.380" end="00:05:08.650" style="s2">better about how we communicate with</p>
+<p begin="00:05:07.120" end="00:05:11.100" style="s2">computers and I hope that you like my</p>
+<p begin="00:05:08.650" end="00:05:13.330" style="s2">example of my turkeys and my translator</p>
+<p begin="00:05:11.100" end="00:05:14.770" style="s2">let me know what you think let me know</p>
+<p begin="00:05:13.330" end="00:05:16.990" style="s2">if you like this video share it with</p>
+<p begin="00:05:14.770" end="00:05:18.850" style="s2">your friends and don&#39;t worry about speed</p>
+<p begin="00:05:16.990" end="00:05:20.290" style="s2">really is not a big deal to choose the</p>
+<p begin="00:05:18.850" end="00:05:22.600" style="s2">fastest programming language in the</p>
+<p begin="00:05:20.290" end="00:05:24.430" style="s2">world not a big deal that&#39;s it thank you</p>
+<p begin="00:05:22.600" end="00:05:26.200" style="s2">very much thank you for watching see you</p>
+<p begin="00:05:24.430" end="00:05:28.560" style="s2">in the next one eat kimchi be happy Amy</p>
+<p begin="00:05:26.200" end="00:05:28.560" style="s2">bye</p>
+</div>
+</body>
+</tt>

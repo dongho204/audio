@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:01.879" end="00:00:07.200" style="s2">and today we are going to learn about</p>
+<p begin="00:00:04.140" end="00:00:09.420" style="s2">chat GPT plugins what they are how they</p>
+<p begin="00:00:07.200" end="00:00:11.760" style="s2">work internally and how we can build our</p>
+<p begin="00:00:09.420" end="00:00:14.639" style="s2">own some days ago openai announced the</p>
+<p begin="00:00:11.760" end="00:00:16.260" style="s2">support for plugins in chat GPT which I</p>
+<p begin="00:00:14.639" end="00:00:18.300" style="s2">think is going to be a total game</p>
+<p begin="00:00:16.260" end="00:00:20.160" style="s2">changer for businesses all around the</p>
+<p begin="00:00:18.300" end="00:00:22.920" style="s2">world free logins basically give charge</p>
+<p begin="00:00:20.160" end="00:00:25.199" style="s2">GPT ears and eyes they give charge GPT</p>
+<p begin="00:00:22.920" end="00:00:27.180" style="s2">access to data it has not seen before</p>
+<p begin="00:00:25.199" end="00:00:29.820" style="s2">they allow companies to seamlessly</p>
+<p begin="00:00:27.180" end="00:00:31.199" style="s2">integrate with the chat GPT interface if</p>
+<p begin="00:00:29.820" end="00:00:33.899" style="s2">they allow users to use multiple</p>
+<p begin="00:00:31.199" end="00:00:35.700" style="s2">Services just by writing a chat prompt</p>
+<p begin="00:00:33.899" end="00:00:37.559" style="s2">with that login strategypt can only</p>
+<p begin="00:00:35.700" end="00:00:40.260" style="s2">answer questions about things it already</p>
+<p begin="00:00:37.559" end="00:00:42.360" style="s2">knows about with plugins charge Deputy</p>
+<p begin="00:00:40.260" end="00:00:44.820" style="s2">can now browse the internet use other</p>
+<p begin="00:00:42.360" end="00:00:47.760" style="s2">sources of information and even take</p>
+<p begin="00:00:44.820" end="00:00:49.860" style="s2">action on behalf of the user here you</p>
+<p begin="00:00:47.760" end="00:00:52.920" style="s2">can see how after installing the plugins</p>
+<p begin="00:00:49.860" end="00:00:55.739" style="s2">the user asks chat GPT to find a</p>
+<p begin="00:00:52.920" end="00:00:58.680" style="s2">restaurant look for a recipe calculate</p>
+<p begin="00:00:55.739" end="00:01:01.379" style="s2">calories and Order ingredients instead</p>
+<p begin="00:00:58.680" end="00:01:04.260" style="s2">of providing an outdated wrong response</p>
+<p begin="00:01:01.379" end="00:01:06.299" style="s2">charge DPT uses Open Table to find our</p>
+<p begin="00:01:04.260" end="00:01:09.360" style="s2">restaurant and gives the user a link to</p>
+<p begin="00:01:06.299" end="00:01:11.400" style="s2">make a reservation it uses Wolfram Alpha</p>
+<p begin="00:01:09.360" end="00:01:13.920" style="s2">to calculate the calorie amount of the</p>
+<p begin="00:01:11.400" end="00:01:16.740" style="s2">recipe and then it uses the instacart</p>
+<p begin="00:01:13.920" end="00:01:19.740" style="s2">API to put those ingredients in a</p>
+<p begin="00:01:16.740" end="00:01:22.259" style="s2">shopping basket these my friends is a</p>
+<p begin="00:01:19.740" end="00:01:24.119" style="s2">game changer I don&#39;t know if you see it</p>
+<p begin="00:01:22.259" end="00:01:26.640" style="s2">yet but the implications of this are</p>
+<p begin="00:01:24.119" end="00:01:28.740" style="s2">enormous this basically means that Chad</p>
+<p begin="00:01:26.640" end="00:01:31.080" style="s2">DPT has an App Store now and if a</p>
+<p begin="00:01:28.740" end="00:01:33.659" style="s2">company wants to stay relevant they are</p>
+<p begin="00:01:31.080" end="00:01:35.159" style="s2">going to have to make a chat LGBT plugin</p>
+<p begin="00:01:33.659" end="00:01:37.680" style="s2">instead of going to the website or</p>
+<p begin="00:01:35.159" end="00:01:40.380" style="s2">downloading the apps of Airbnb Xperia</p>
+<p begin="00:01:37.680" end="00:01:43.259" style="s2">TripAdvisor in Amazon I will just ask</p>
+<p begin="00:01:40.380" end="00:01:47.040" style="s2">chargpt to find me a plane accommodation</p>
+<p begin="00:01:43.259" end="00:01:48.479" style="s2">the 5 best restaurants a tour guide and</p>
+<p begin="00:01:47.040" end="00:01:51.659" style="s2">to purchase me all the equipment</p>
+<p begin="00:01:48.479" end="00:01:54.360" style="s2">required to go hiking in Nepal this is</p>
+<p begin="00:01:51.659" end="00:01:56.100" style="s2">huge thanks to plugins strativity stops</p>
+<p begin="00:01:54.360" end="00:01:57.899" style="s2">being just a chatbot that answers</p>
+<p begin="00:01:56.100" end="00:01:59.880" style="s2">questions about the data it has seen</p>
+<p begin="00:01:57.899" end="00:02:02.159" style="s2">before and instead becomes an engine</p>
+<p begin="00:01:59.880" end="00:02:04.079" style="s2">interface to interact with services and</p>
+<p begin="00:02:02.159" end="00:02:06.420" style="s2">data sources in the outside world</p>
+<p begin="00:02:04.079" end="00:02:08.700" style="s2">plugins make chargpt better by</p>
+<p begin="00:02:06.420" end="00:02:10.500" style="s2">preventing hallucinations which is what</p>
+<p begin="00:02:08.700" end="00:02:12.540" style="s2">happens when chatipiti gives pretty</p>
+<p begin="00:02:10.500" end="00:02:14.700" style="s2">convincing answers that are completely</p>
+<p begin="00:02:12.540" end="00:02:16.500" style="s2">wrong this happened to me a couple of</p>
+<p begin="00:02:14.700" end="00:02:18.720" style="s2">times when I was asking it for book</p>
+<p begin="00:02:16.500" end="00:02:21.420" style="s2">recommendations and it gave me a list of</p>
+<p begin="00:02:18.720" end="00:02:23.340" style="s2">books with names authors and summaries</p>
+<p begin="00:02:21.420" end="00:02:25.680" style="s2">of books that were exactly what I was</p>
+<p begin="00:02:23.340" end="00:02:28.319" style="s2">looking for but that did not exist at</p>
+<p begin="00:02:25.680" end="00:02:30.480" style="s2">all using plugins we as users will also</p>
+<p begin="00:02:28.319" end="00:02:33.300" style="s2">be able to know what is the source of</p>
+<p begin="00:02:30.480" end="00:02:35.640" style="s2">the data that chagibiti is using for an</p>
+<p begin="00:02:33.300" end="00:02:38.040" style="s2">answer which will help us on judging if</p>
+<p begin="00:02:35.640" end="00:02:39.599" style="s2">something is true or false one of the</p>
+<p begin="00:02:38.040" end="00:02:41.760" style="s2">first plugins to be announced is the</p>
+<p begin="00:02:39.599" end="00:02:43.260" style="s2">browser plugin this plugin allows</p>
+<p begin="00:02:41.760" end="00:02:45.959" style="s2">chargeability to search on the internet</p>
+<p begin="00:02:43.260" end="00:02:48.180" style="s2">and browse websites here you can see a</p>
+<p begin="00:02:45.959" end="00:02:51.120" style="s2">demo where a user is asking about the</p>
+<p begin="00:02:48.180" end="00:02:52.739" style="s2">box office sales of this year&#39;s Oscars</p>
+<p begin="00:02:51.120" end="00:02:55.260" style="s2">movies which is something that by</p>
+<p begin="00:02:52.739" end="00:02:57.360" style="s2">default chagibiti does not know about on</p>
+<p begin="00:02:55.260" end="00:03:00.480" style="s2">the demo we can see how chargpt searches</p>
+<p begin="00:02:57.360" end="00:03:03.000" style="s2">the web clicks on links reads them and</p>
+<p begin="00:03:00.480" end="00:03:07.319" style="s2">then provides an answer with the data it</p>
+<p begin="00:03:03.000" end="00:03:10.140" style="s2">read this is amazing this really is an</p>
+<p begin="00:03:07.319" end="00:03:12.840" style="s2">important moment many many things are</p>
+<p begin="00:03:10.140" end="00:03:15.120" style="s2">about to change now that charge GPT has</p>
+<p begin="00:03:12.840" end="00:03:17.700" style="s2">basically an app store I think we will</p>
+<p begin="00:03:15.120" end="00:03:20.340" style="s2">see an explosion on Innovation the same</p>
+<p begin="00:03:17.700" end="00:03:23.220" style="s2">way we saw so many companies be born and</p>
+<p begin="00:03:20.340" end="00:03:25.080" style="s2">built on top of the iPhone and its App</p>
+<p begin="00:03:23.220" end="00:03:28.319" style="s2">Store but this also means that we have</p>
+<p begin="00:03:25.080" end="00:03:30.959" style="s2">to ask ourselves if apps websites and</p>
+<p begin="00:03:28.319" end="00:03:33.840" style="s2">custom user interfaces are going to</p>
+<p begin="00:03:30.959" end="00:03:36.239" style="s2">still be relevant in a future where</p>
+<p begin="00:03:33.840" end="00:03:38.580" style="s2">users do everything through chat GPT</p>
+<p begin="00:03:36.239" end="00:03:41.400" style="s2">rather than going to our website or</p>
+<p begin="00:03:38.580" end="00:03:43.620" style="s2">downloading our app will companies still</p>
+<p begin="00:03:41.400" end="00:03:45.780" style="s2">need to build websites IOS and Android</p>
+<p begin="00:03:43.620" end="00:03:47.940" style="s2">apps or will they just build a simple</p>
+<p begin="00:03:45.780" end="00:03:50.519" style="s2">website and put all the marketing and</p>
+<p begin="00:03:47.940" end="00:03:53.459" style="s2">Engineering efforts on building a chat</p>
+<p begin="00:03:50.519" end="00:03:56.340" style="s2">gbt plugin hosted on what will be the</p>
+<p begin="00:03:53.459" end="00:03:58.440" style="s2">App Store of open AI I think no other</p>
+<p begin="00:03:56.340" end="00:04:00.540" style="s2">group of professionals is working in</p>
+<p begin="00:03:58.440" end="00:04:02.760" style="s2">this hard to put themselves out of</p>
+<p begin="00:04:00.540" end="00:04:04.560" style="s2">business like programmers are and on</p>
+<p begin="00:04:02.760" end="00:04:07.200" style="s2">that period let&#39;s now take a look at how</p>
+<p begin="00:04:04.560" end="00:04:10.439" style="s2">you can make your own chat LGBT blogging</p>
+<p begin="00:04:07.200" end="00:04:13.200" style="s2">first you need to create an AI plugin</p>
+<p begin="00:04:10.439" end="00:04:15.420" style="s2">Json file this file needs to be publicly</p>
+<p begin="00:04:13.200" end="00:04:17.639" style="s2">accessible and hosted on the domain of</p>
+<p begin="00:04:15.420" end="00:04:20.880" style="s2">your API it also needs to be hosted</p>
+<p begin="00:04:17.639" end="00:04:22.860" style="s2">inside of a folder named that will Dash</p>
+<p begin="00:04:20.880" end="00:04:25.919" style="s2">no so if I was building a chargerbt</p>
+<p begin="00:04:22.860" end="00:04:29.000" style="s2">plugin for my website the AI plugin.json</p>
+<p begin="00:04:25.919" end="00:04:31.500" style="s2">file will be hosted on</p>
+<p begin="00:04:29.000" end="00:04:35.580" style="s2">nomadcoders.com.well known slash AI</p>
+<p begin="00:04:31.500" end="00:04:37.500" style="s2">plugin dot Json the AI plugin.json file</p>
+<p begin="00:04:35.580" end="00:04:40.380" style="s2">will have all the information of your</p>
+<p begin="00:04:37.500" end="00:04:42.240" style="s2">plugin for both humans and the AI on</p>
+<p begin="00:04:40.380" end="00:04:45.240" style="s2">this file we write the basic information</p>
+<p begin="00:04:42.240" end="00:04:47.580" style="s2">about our plugin which in this case is a</p>
+<p begin="00:04:45.240" end="00:04:50.280" style="s2">plugin that gives the users a list of</p>
+<p begin="00:04:47.580" end="00:04:52.080" style="s2">the winners of the Oscars Awards we</p>
+<p begin="00:04:50.280" end="00:04:54.479" style="s2">write down the name and description of</p>
+<p begin="00:04:52.080" end="00:04:56.820" style="s2">our plugin for both humans and the model</p>
+<p begin="00:04:54.479" end="00:04:59.699" style="s2">itself the two important things to</p>
+<p begin="00:04:56.820" end="00:05:01.620" style="s2">notice are the auth and the API part the</p>
+<p begin="00:04:59.699" end="00:05:04.139" style="s2">the oath part is where you can customize</p>
+<p begin="00:05:01.620" end="00:05:05.880" style="s2">how the user will be authenticated in</p>
+<p begin="00:05:04.139" end="00:05:08.460" style="s2">our case the authentication type is none</p>
+<p begin="00:05:05.880" end="00:05:10.139" style="s2">so the users will be anonymous but if we</p>
+<p begin="00:05:08.460" end="00:05:12.600" style="s2">want to we can authenticate the user</p>
+<p begin="00:05:10.139" end="00:05:15.540" style="s2">using token authentication HTTP</p>
+<p begin="00:05:12.600" end="00:05:18.720" style="s2">authentication or oauth authentication</p>
+<p begin="00:05:15.540" end="00:05:21.180" style="s2">as you can see the API part has a URL</p>
+<p begin="00:05:18.720" end="00:05:23.960" style="s2">key on that URL chatipity should be able</p>
+<p begin="00:05:21.180" end="00:05:26.100" style="s2">to find a file called</p>
+<p begin="00:05:23.960" end="00:05:28.860" style="s2">openapi.yamo here is where we will have</p>
+<p begin="00:05:26.100" end="00:05:31.560" style="s2">to describe to the chat GPT AI the</p>
+<p begin="00:05:28.860" end="00:05:34.800" style="s2">structure and functionality of our API</p>
+<p begin="00:05:31.560" end="00:05:36.900" style="s2">using the open API format this is the</p>
+<p begin="00:05:34.800" end="00:05:39.539" style="s2">file that chatipity will read when the</p>
+<p begin="00:05:36.900" end="00:05:42.479" style="s2">user asks a question so here is where we</p>
+<p begin="00:05:39.539" end="00:05:44.880" style="s2">explain what the endpoints of our API do</p>
+<p begin="00:05:42.479" end="00:05:47.880" style="s2">to chat GPT here you can see how we are</p>
+<p begin="00:05:44.880" end="00:05:50.160" style="s2">saying that our API has a slash Winner&#39;s</p>
+<p begin="00:05:47.880" end="00:05:52.620" style="s2">endpoint we are also providing a</p>
+<p begin="00:05:50.160" end="00:05:54.840" style="s2">description of what this endpoint does</p>
+<p begin="00:05:52.620" end="00:05:57.539" style="s2">we are telling child GPT that if the</p>
+<p begin="00:05:54.840" end="00:06:00.600" style="s2">slash Winner&#39;s endpoint is called our</p>
+<p begin="00:05:57.539" end="00:06:03.660" style="s2">API will return a list of of the names</p>
+<p begin="00:06:00.600" end="00:06:05.820" style="s2">of the Oscars winners for this year but</p>
+<p begin="00:06:03.660" end="00:06:08.639" style="s2">if the end point is called with a year</p>
+<p begin="00:06:05.820" end="00:06:11.039" style="s2">parameter like this the API will return</p>
+<p begin="00:06:08.639" end="00:06:13.440" style="s2">the names of the winners for that year</p>
+<p begin="00:06:11.039" end="00:06:16.440" style="s2">if we did a good job on describing the</p>
+<p begin="00:06:13.440" end="00:06:18.840" style="s2">API to chat GPT when the user asks</p>
+<p begin="00:06:16.440" end="00:06:22.380" style="s2">something like this chatibility will</p>
+<p begin="00:06:18.840" end="00:06:25.020" style="s2">read our open ai.yaml file it will look</p>
+<p begin="00:06:22.380" end="00:06:28.259" style="s2">through our summaries and it will decide</p>
+<p begin="00:06:25.020" end="00:06:30.840" style="s2">to call the slash winners endpoint if</p>
+<p begin="00:06:28.259" end="00:06:33.479" style="s2">the users ask something like this asking</p>
+<p begin="00:06:30.840" end="00:06:36.419" style="s2">for the winners of the Oscars on a</p>
+<p begin="00:06:33.479" end="00:06:39.180" style="s2">specific year chargpt should call the</p>
+<p begin="00:06:36.419" end="00:06:42.419" style="s2">slash Winner&#39;s endpoint but this time</p>
+<p begin="00:06:39.180" end="00:06:45.360" style="s2">with the year parameter when replying to</p>
+<p begin="00:06:42.419" end="00:06:47.699" style="s2">chat Deputy our API should not reply as</p>
+<p begin="00:06:45.360" end="00:06:49.800" style="s2">if it was a chatbot we should not reply</p>
+<p begin="00:06:47.699" end="00:06:52.860" style="s2">trying to pretend like we are cha GPT</p>
+<p begin="00:06:49.800" end="00:06:55.800" style="s2">like this instead we should reply like a</p>
+<p begin="00:06:52.860" end="00:06:58.800" style="s2">normal boring API it is chat deputy&#39;s</p>
+<p begin="00:06:55.800" end="00:07:01.080" style="s2">job to take our API response and add a</p>
+<p begin="00:06:58.800" end="00:07:03.180" style="s2">conversational layer to it as you can</p>
+<p begin="00:07:01.080" end="00:07:05.280" style="s2">see it is not that hard at all to make a</p>
+<p begin="00:07:03.180" end="00:07:07.080" style="s2">chat LGBT plugin keep in mind that we</p>
+<p begin="00:07:05.280" end="00:07:09.060" style="s2">did not write the actual code that will</p>
+<p begin="00:07:07.080" end="00:07:10.979" style="s2">get the movie&#39;s names that is something</p>
+<p begin="00:07:09.060" end="00:07:13.139" style="s2">that can be written on any language on</p>
+<p begin="00:07:10.979" end="00:07:15.539" style="s2">any server and also this is a very</p>
+<p begin="00:07:13.139" end="00:07:17.940" style="s2">simple plugin most plugins are going to</p>
+<p begin="00:07:15.539" end="00:07:20.699" style="s2">be more complex usually what you would</p>
+<p begin="00:07:17.940" end="00:07:23.039" style="s2">like to build is a chat GPT retrieval</p>
+<p begin="00:07:20.699" end="00:07:24.660" style="s2">plugin a retrieval plugin is what you</p>
+<p begin="00:07:23.039" end="00:07:27.960" style="s2">will need to build if you want to use</p>
+<p begin="00:07:24.660" end="00:07:30.419" style="s2">charge DBT to synthesize data found on</p>
+<p begin="00:07:27.960" end="00:07:33.240" style="s2">your company&#39;s documents databases</p>
+<p begin="00:07:30.419" end="00:07:35.580" style="s2">emails files slack messages</p>
+<p begin="00:07:33.240" end="00:07:37.979" style="s2">Etc to make chat DBT capable of</p>
+<p begin="00:07:35.580" end="00:07:40.199" style="s2">answering questions about your users and</p>
+<p begin="00:07:37.979" end="00:07:42.360" style="s2">your company&#39;s data a retrieval plugin</p>
+<p begin="00:07:40.199" end="00:07:44.880" style="s2">is much more complex and has more moving</p>
+<p begin="00:07:42.360" end="00:07:46.860" style="s2">Parts openai released a template of a</p>
+<p begin="00:07:44.880" end="00:07:49.740" style="s2">retrieval plugin where they explain how</p>
+<p begin="00:07:46.860" end="00:07:52.319" style="s2">it works and all the components and what</p>
+<p begin="00:07:49.740" end="00:07:54.180" style="s2">each part does I&#39;m studying it and</p>
+<p begin="00:07:52.319" end="00:07:55.800" style="s2">working my way through it so if you&#39;re</p>
+<p begin="00:07:54.180" end="00:07:57.840" style="s2">interested on a full tutorial of</p>
+<p begin="00:07:55.800" end="00:08:00.120" style="s2">retrieval plugins let me know on the</p>
+<p begin="00:07:57.840" end="00:08:01.979" style="s2">comments overall I feel super hopeful</p>
+<p begin="00:08:00.120" end="00:08:04.199" style="s2">about Ai and what it means for</p>
+<p begin="00:08:01.979" end="00:08:06.360" style="s2">developers the fact that we now have an</p>
+<p begin="00:08:04.199" end="00:08:08.819" style="s2">app store and a new platform to build on</p>
+<p begin="00:08:06.360" end="00:08:10.860" style="s2">top of is super cool I cannot imagine</p>
+<p begin="00:08:08.819" end="00:08:12.539" style="s2">all the companies and careers this is</p>
+<p begin="00:08:10.860" end="00:08:14.220" style="s2">going to create we as developers</p>
+<p begin="00:08:12.539" end="00:08:16.319" style="s2">shouldn&#39;t be afraid of AI and the</p>
+<p begin="00:08:14.220" end="00:08:18.660" style="s2">changes it will make instead we must be</p>
+<p begin="00:08:16.319" end="00:08:20.400" style="s2">ready and open to ride the wave which</p>
+<p begin="00:08:18.660" end="00:08:22.620" style="s2">brings me to my last point if you want</p>
+<p begin="00:08:20.400" end="00:08:24.840" style="s2">to be able to ride the AI wave with me</p>
+<p begin="00:08:22.620" end="00:08:27.240" style="s2">the best thing you can do is learn how</p>
+<p begin="00:08:24.840" end="00:08:29.940" style="s2">to code now and the best way of doing it</p>
+<p begin="00:08:27.240" end="00:08:32.039" style="s2">is for free and learning by doing if</p>
+<p begin="00:08:29.940" end="00:08:34.020" style="s2">that sounds good click the link below to</p>
+<p begin="00:08:32.039" end="00:08:37.440" style="s2">learn things like JavaScript python</p>
+<p begin="00:08:34.020" end="00:08:40.440" style="s2">react react native go dark flutter among</p>
+<p begin="00:08:37.440" end="00:08:42.539" style="s2">many many others for absolutely free</p>
+<p begin="00:08:40.440" end="00:08:44.279" style="s2">click the link below to join any of our</p>
+<p begin="00:08:42.539" end="00:08:46.980" style="s2">many free courses that you can take</p>
+<p begin="00:08:44.279" end="00:08:48.360" style="s2">right now for free with me click the</p>
+<p begin="00:08:46.980" end="00:08:50.240" style="s2">link below and I will see you there</p>
+<p begin="00:08:48.360" end="00:08:54.260" style="s2">honors</p>
+<p begin="00:08:50.240" end="00:08:54.260" style="s2">see you on the next one bye</p>
+<p begin="00:09:01.980" end="00:09:04.760" style="s2">thanks</p>
+</div>
+</body>
+</tt>

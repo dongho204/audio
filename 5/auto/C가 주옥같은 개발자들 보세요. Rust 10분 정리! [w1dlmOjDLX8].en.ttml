@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:05.759" end="00:00:08.960" style="s2">on this video we are going to talk about</p>
+<p begin="00:00:07.440" end="00:00:11.120" style="s2">a programming language that i believe</p>
+<p begin="00:00:08.960" end="00:00:14.000" style="s2">every developer should try at least once</p>
+<p begin="00:00:11.120" end="00:00:16.160" style="s2">and that is rust rust has been voted as</p>
+<p begin="00:00:14.000" end="00:00:18.320" style="s2">the most loved programming language for</p>
+<p begin="00:00:16.160" end="00:00:20.480" style="s2">six years in a row in the stack overflow</p>
+<p begin="00:00:18.320" end="00:00:22.400" style="s2">developer survey even though it&#39;s a</p>
+<p begin="00:00:20.480" end="00:00:24.640" style="s2">fairly young language compared to c and</p>
+<p begin="00:00:22.400" end="00:00:27.599" style="s2">c plus plus companies like amazon</p>
+<p begin="00:00:24.640" end="00:00:30.080" style="s2">cloudflare and microsoft are replacing c</p>
+<p begin="00:00:27.599" end="00:00:32.320" style="s2">and c plus plus with rust microsoft for</p>
+<p begin="00:00:30.080" end="00:00:34.800" style="s2">example has been rewriting low level</p>
+<p begin="00:00:32.320" end="00:00:37.120" style="s2">windows components in rust that used to</p>
+<p begin="00:00:34.800" end="00:00:39.280" style="s2">be in c and c plus plus and google is a</p>
+<p begin="00:00:37.120" end="00:00:41.760" style="s2">sponsoring the project that is trying to</p>
+<p begin="00:00:39.280" end="00:00:44.079" style="s2">bring rust as the second official</p>
+<p begin="00:00:41.760" end="00:00:46.640" style="s2">programming language of the linux kernel</p>
+<p begin="00:00:44.079" end="00:00:48.480" style="s2">which right now is based only in c even</p>
+<p begin="00:00:46.640" end="00:00:50.239" style="s2">intel is investing in working with ross</p>
+<p begin="00:00:48.480" end="00:00:52.480" style="s2">with the intel principal engineer</p>
+<p begin="00:00:50.239" end="00:00:54.480" style="s2">calling ross as the future of systems</p>
+<p begin="00:00:52.480" end="00:00:56.399" style="s2">programming and calling c as the new</p>
+<p begin="00:00:54.480" end="00:00:58.559" style="s2">assembly assembly being a language that</p>
+<p begin="00:00:56.399" end="00:01:00.800" style="s2">nobody actually writes on anymore it</p>
+<p begin="00:00:58.559" end="00:01:01.840" style="s2">also turns out that rust is eco-friendly</p>
+<p begin="00:01:00.800" end="00:01:04.080" style="s2">as well</p>
+<p begin="00:01:01.840" end="00:01:06.240" style="s2">rust and c are both 50 percent more</p>
+<p begin="00:01:04.080" end="00:01:07.600" style="s2">energy efficient than java and they are</p>
+<p begin="00:01:06.240" end="00:01:10.000" style="s2">98</p>
+<p begin="00:01:07.600" end="00:01:12.320" style="s2">more energy efficient than python but it</p>
+<p begin="00:01:10.000" end="00:01:15.520" style="s2">also turns out that rust code is more</p>
+<p begin="00:01:12.320" end="00:01:17.439" style="s2">secure than cnc plus plus code microsoft</p>
+<p begin="00:01:15.520" end="00:01:19.680" style="s2">says that if they use rust instead of c</p>
+<p begin="00:01:17.439" end="00:01:22.560" style="s2">and c plus plus they would have had 70</p>
+<p begin="00:01:19.680" end="00:01:26.159" style="s2">percent less security vulnerabilities</p>
+<p begin="00:01:22.560" end="00:01:28.000" style="s2">that is a lot rust also has a very good</p>
+<p begin="00:01:26.159" end="00:01:30.960" style="s2">developer experience and that is thanks</p>
+<p begin="00:01:28.000" end="00:01:33.600" style="s2">to the compiler it has the most helpful</p>
+<p begin="00:01:30.960" end="00:01:36.159" style="s2">compiler i have ever worked with for</p>
+<p begin="00:01:33.600" end="00:01:38.079" style="s2">sure the compiler of rust tells you that</p>
+<p begin="00:01:36.159" end="00:01:39.439" style="s2">the code is wrong but also it explains</p>
+<p begin="00:01:38.079" end="00:01:41.520" style="s2">to you why</p>
+<p begin="00:01:39.439" end="00:01:43.360" style="s2">it also tells you how you can fix it and</p>
+<p begin="00:01:41.520" end="00:01:45.439" style="s2">even sometimes will give you the code to</p>
+<p begin="00:01:43.360" end="00:01:46.960" style="s2">fix the problem it&#39;s amazing if all i</p>
+<p begin="00:01:45.439" end="00:01:48.960" style="s2">have said today has made you curious to</p>
+<p begin="00:01:46.960" end="00:01:50.640" style="s2">learn more about rust then please keep</p>
+<p begin="00:01:48.960" end="00:01:53.280" style="s2">watching because today we are going to</p>
+<p begin="00:01:50.640" end="00:01:54.960" style="s2">see what makes rust different from other</p>
+<p begin="00:01:53.280" end="00:01:57.920" style="s2">programming languages what makes it so</p>
+<p begin="00:01:54.960" end="00:02:00.560" style="s2">special what makes it as fast as c but</p>
+<p begin="00:01:57.920" end="00:02:02.159" style="s2">safer than c what does safety even mean</p>
+<p begin="00:02:00.560" end="00:02:04.719" style="s2">in the programming world what can you</p>
+<p begin="00:02:02.159" end="00:02:05.920" style="s2">build with rust who should learn rust</p>
+<p begin="00:02:04.719" end="00:02:08.800" style="s2">and we&#39;re going to be looking at the</p>
+<p begin="00:02:05.920" end="00:02:10.239" style="s2">code and compiler as well rust is a low</p>
+<p begin="00:02:08.800" end="00:02:12.800" style="s2">level programming language that is</p>
+<p begin="00:02:10.239" end="00:02:15.120" style="s2">focused on being fast and safe let&#39;s</p>
+<p begin="00:02:12.800" end="00:02:16.640" style="s2">start by looking at what low level means</p>
+<p begin="00:02:15.120" end="00:02:18.720" style="s2">we say that low level programming</p>
+<p begin="00:02:16.640" end="00:02:20.160" style="s2">languages are closer to the machine and</p>
+<p begin="00:02:18.720" end="00:02:22.319" style="s2">we say that high level programming</p>
+<p begin="00:02:20.160" end="00:02:24.080" style="s2">languages are closer to developers to</p>
+<p begin="00:02:22.319" end="00:02:26.319" style="s2">the way humans speak</p>
+<p begin="00:02:24.080" end="00:02:27.920" style="s2">from low to high the closest you can get</p>
+<p begin="00:02:26.319" end="00:02:29.680" style="s2">to the machine would be to write zeros</p>
+<p begin="00:02:27.920" end="00:02:31.920" style="s2">and ones but nobody does that so instead</p>
+<p begin="00:02:29.680" end="00:02:34.480" style="s2">we have assembly code assembly code is</p>
+<p begin="00:02:31.920" end="00:02:36.239" style="s2">literal instructions to the processor</p>
+<p begin="00:02:34.480" end="00:02:37.599" style="s2">but again nobody does that also so we</p>
+<p begin="00:02:36.239" end="00:02:39.840" style="s2">have something a little bit higher than</p>
+<p begin="00:02:37.599" end="00:02:41.760" style="s2">that and that is c and c plus plus then</p>
+<p begin="00:02:39.840" end="00:02:44.000" style="s2">maybe java would come and then at the</p>
+<p begin="00:02:41.760" end="00:02:45.680" style="s2">top would be javascript and python for</p>
+<p begin="00:02:44.000" end="00:02:47.360" style="s2">example what makes a language low or</p>
+<p begin="00:02:45.680" end="00:02:49.519" style="s2">high level is how many layers of</p>
+<p begin="00:02:47.360" end="00:02:51.440" style="s2">abstraction there are between the code</p>
+<p begin="00:02:49.519" end="00:02:53.200" style="s2">that the developer writes and the zeros</p>
+<p begin="00:02:51.440" end="00:02:54.640" style="s2">and ones that the machine understands if</p>
+<p begin="00:02:53.200" end="00:02:56.080" style="s2">you look at javascript in the browser</p>
+<p begin="00:02:54.640" end="00:02:57.920" style="s2">for example it is not a compiled</p>
+<p begin="00:02:56.080" end="00:03:00.080" style="s2">language and there is many abstraction</p>
+<p begin="00:02:57.920" end="00:03:02.159" style="s2">levels between javascript code and zeros</p>
+<p begin="00:03:00.080" end="00:03:04.400" style="s2">and ones because javascript has to be</p>
+<p begin="00:03:02.159" end="00:03:06.879" style="s2">understood and read by the browser the</p>
+<p begin="00:03:04.400" end="00:03:09.360" style="s2">browser is programmed maybe on c and c</p>
+<p begin="00:03:06.879" end="00:03:11.760" style="s2">plus so the browser reads your code the</p>
+<p begin="00:03:09.360" end="00:03:13.680" style="s2">browser will execute your code and then</p>
+<p begin="00:03:11.760" end="00:03:15.120" style="s2">the browser will tell the processor what</p>
+<p begin="00:03:13.680" end="00:03:17.120" style="s2">to do so as you can see there are many</p>
+<p begin="00:03:15.120" end="00:03:19.120" style="s2">steps between the machine and the code</p>
+<p begin="00:03:17.120" end="00:03:21.280" style="s2">that you wrote is the same with python</p>
+<p begin="00:03:19.120" end="00:03:23.599" style="s2">the interpreter of python is written in</p>
+<p begin="00:03:21.280" end="00:03:25.200" style="s2">c so when you write python code and you</p>
+<p begin="00:03:23.599" end="00:03:27.360" style="s2">run the code what you are doing is you</p>
+<p begin="00:03:25.200" end="00:03:28.959" style="s2">are giving your python code to a c</p>
+<p begin="00:03:27.360" end="00:03:30.560" style="s2">program and that z program is</p>
+<p begin="00:03:28.959" end="00:03:32.560" style="s2">understanding what you want to do and</p>
+<p begin="00:03:30.560" end="00:03:34.640" style="s2">that c program isn&#39;t talking to the</p>
+<p begin="00:03:32.560" end="00:03:36.720" style="s2">processor to do what you want to do in</p>
+<p begin="00:03:34.640" end="00:03:39.200" style="s2">contrast low level languages like c or</p>
+<p begin="00:03:36.720" end="00:03:41.440" style="s2">ros don&#39;t need this translation they</p>
+<p begin="00:03:39.200" end="00:03:43.599" style="s2">don&#39;t need this middleman because when</p>
+<p begin="00:03:41.440" end="00:03:45.599" style="s2">you finish working with rust or c when</p>
+<p begin="00:03:43.599" end="00:03:47.280" style="s2">you compile that code the code that you</p>
+<p begin="00:03:45.599" end="00:03:50.080" style="s2">will get the code that you will run will</p>
+<p begin="00:03:47.280" end="00:03:52.000" style="s2">be understood by the processor directly</p>
+<p begin="00:03:50.080" end="00:03:54.640" style="s2">this means there is no middleman between</p>
+<p begin="00:03:52.000" end="00:03:56.159" style="s2">your code and the computer as you can</p>
+<p begin="00:03:54.640" end="00:03:57.680" style="s2">imagine because we are closer to the</p>
+<p begin="00:03:56.159" end="00:03:59.840" style="s2">machine and because the code that we</p>
+<p begin="00:03:57.680" end="00:04:02.319" style="s2">wrote does not need a middleman to be</p>
+<p begin="00:03:59.840" end="00:04:04.560" style="s2">understood by the processor our programs</p>
+<p begin="00:04:02.319" end="00:04:06.080" style="s2">are going to run faster that also means</p>
+<p begin="00:04:04.560" end="00:04:08.400" style="s2">that our code is going to be more</p>
+<p begin="00:04:06.080" end="00:04:10.480" style="s2">powerful we are closer to the machine we</p>
+<p begin="00:04:08.400" end="00:04:12.319" style="s2">are right next to the machine so we can</p>
+<p begin="00:04:10.480" end="00:04:14.319" style="s2">do whatever we want but that means we</p>
+<p begin="00:04:12.319" end="00:04:16.320" style="s2">will have to be more careful like uncle</p>
+<p begin="00:04:14.319" end="00:04:18.479" style="s2">ben says with great power comes great</p>
+<p begin="00:04:16.320" end="00:04:20.320" style="s2">responsibility in low level languages</p>
+<p begin="00:04:18.479" end="00:04:22.479" style="s2">like c for example you have to manage</p>
+<p begin="00:04:20.320" end="00:04:24.479" style="s2">memory by yourself which means that for</p>
+<p begin="00:04:22.479" end="00:04:26.720" style="s2">example if you want to create a variable</p>
+<p begin="00:04:24.479" end="00:04:29.759" style="s2">to save a string of text you&#39;re going to</p>
+<p begin="00:04:26.720" end="00:04:31.919" style="s2">have to ask for a space in memory to be</p>
+<p begin="00:04:29.759" end="00:04:33.440" style="s2">able to put your variable there and when</p>
+<p begin="00:04:31.919" end="00:04:34.800" style="s2">you are done doing whatever you need to</p>
+<p begin="00:04:33.440" end="00:04:37.600" style="s2">do with that variable you also have to</p>
+<p begin="00:04:34.800" end="00:04:39.120" style="s2">remember to free that space in memory if</p>
+<p begin="00:04:37.600" end="00:04:41.120" style="s2">you just take space and memory and you</p>
+<p begin="00:04:39.120" end="00:04:42.960" style="s2">forget to free the memory then your</p>
+<p begin="00:04:41.120" end="00:04:44.560" style="s2">program will run out of memory and crash</p>
+<p begin="00:04:42.960" end="00:04:45.919" style="s2">if you come from a language like python</p>
+<p begin="00:04:44.560" end="00:04:48.160" style="s2">or javascript i am sure that this</p>
+<p begin="00:04:45.919" end="00:04:49.680" style="s2">concept feels very very foreign to you</p>
+<p begin="00:04:48.160" end="00:04:51.759" style="s2">in javascript or python when we are</p>
+<p begin="00:04:49.680" end="00:04:53.600" style="s2">using variables we just create variables</p>
+<p begin="00:04:51.759" end="00:04:55.680" style="s2">we don&#39;t have to ask for a space in</p>
+<p begin="00:04:53.600" end="00:04:57.520" style="s2">memory please we just have to just</p>
+<p begin="00:04:55.680" end="00:04:59.040" style="s2">create the variable and when we are done</p>
+<p begin="00:04:57.520" end="00:05:00.240" style="s2">using the variable we just don&#39;t do</p>
+<p begin="00:04:59.040" end="00:05:02.320" style="s2">anything with a variable we don&#39;t have</p>
+<p begin="00:05:00.240" end="00:05:04.160" style="s2">to remember to also free that memory</p>
+<p begin="00:05:02.320" end="00:05:06.080" style="s2">space now this is not because python and</p>
+<p begin="00:05:04.160" end="00:05:08.000" style="s2">javascript are magical and they never</p>
+<p begin="00:05:06.080" end="00:05:09.520" style="s2">run out of memory the reason why they</p>
+<p begin="00:05:08.000" end="00:05:11.520" style="s2">don&#39;t run out of memory is because there</p>
+<p begin="00:05:09.520" end="00:05:14.000" style="s2">is a magical little guy called the</p>
+<p begin="00:05:11.520" end="00:05:16.320" style="s2">garbage collector in the background</p>
+<p begin="00:05:14.000" end="00:05:18.320" style="s2">doing all this memory management for us</p>
+<p begin="00:05:16.320" end="00:05:20.560" style="s2">the garbage collector is a program that</p>
+<p begin="00:05:18.320" end="00:05:22.400" style="s2">is looking at your program while it&#39;s</p>
+<p begin="00:05:20.560" end="00:05:24.320" style="s2">running it is looking at the variables</p>
+<p begin="00:05:22.400" end="00:05:26.240" style="s2">that you create and is looking to see</p>
+<p begin="00:05:24.320" end="00:05:28.080" style="s2">which variables you don&#39;t use anymore if</p>
+<p begin="00:05:26.240" end="00:05:29.759" style="s2">nothing is pointing to a variable that</p>
+<p begin="00:05:28.080" end="00:05:31.520" style="s2">means that that variable is garbage so</p>
+<p begin="00:05:29.759" end="00:05:33.039" style="s2">it will be free from memory when a</p>
+<p begin="00:05:31.520" end="00:05:34.800" style="s2">programming language has a garbage</p>
+<p begin="00:05:33.039" end="00:05:36.560" style="s2">collector it will be very comfortable</p>
+<p begin="00:05:34.800" end="00:05:38.080" style="s2">for developers to write code in that</p>
+<p begin="00:05:36.560" end="00:05:40.160" style="s2">language because we don&#39;t have to think</p>
+<p begin="00:05:38.080" end="00:05:42.479" style="s2">about allocating any frame memory all</p>
+<p begin="00:05:40.160" end="00:05:44.080" style="s2">the time but but because of the garbage</p>
+<p begin="00:05:42.479" end="00:05:46.240" style="s2">collector our program is not going to</p>
+<p begin="00:05:44.080" end="00:05:47.919" style="s2">run as fast as if it was written in a</p>
+<p begin="00:05:46.240" end="00:05:49.919" style="s2">programming language like c that does</p>
+<p begin="00:05:47.919" end="00:05:51.520" style="s2">not have garbage collection now garbage</p>
+<p begin="00:05:49.919" end="00:05:54.479" style="s2">collection was one of the reasons why</p>
+<p begin="00:05:51.520" end="00:05:56.479" style="s2">this cord switched from go to rust go</p>
+<p begin="00:05:54.479" end="00:05:58.479" style="s2">has a garbage collector while rust</p>
+<p begin="00:05:56.479" end="00:06:00.720" style="s2">doesn&#39;t and in the case of discord they</p>
+<p begin="00:05:58.479" end="00:06:02.880" style="s2">saw some performance spikes happen</p>
+<p begin="00:06:00.720" end="00:06:04.880" style="s2">because of the garbage collector sea and</p>
+<p begin="00:06:02.880" end="00:06:07.440" style="s2">rust do not have garbage collectors</p>
+<p begin="00:06:04.880" end="00:06:09.199" style="s2">which makes them faster but that also</p>
+<p begin="00:06:07.440" end="00:06:11.840" style="s2">means that developers have to be careful</p>
+<p begin="00:06:09.199" end="00:06:14.479" style="s2">when they&#39;re accessing memory microsoft</p>
+<p begin="00:06:11.840" end="00:06:16.639" style="s2">says that 70 of the security issues that</p>
+<p begin="00:06:14.479" end="00:06:18.800" style="s2">they have to fix are related to memory</p>
+<p begin="00:06:16.639" end="00:06:21.199" style="s2">access memory access box can happen when</p>
+<p begin="00:06:18.800" end="00:06:22.800" style="s2">for example we access a place in memory</p>
+<p begin="00:06:21.199" end="00:06:25.120" style="s2">that doesn&#39;t exist it hasn&#39;t been</p>
+<p begin="00:06:22.800" end="00:06:26.960" style="s2">allocated or when we&#39;re trying to access</p>
+<p begin="00:06:25.120" end="00:06:29.440" style="s2">a part of memory that has already been</p>
+<p begin="00:06:26.960" end="00:06:31.520" style="s2">freed or when we free a part of memory</p>
+<p begin="00:06:29.440" end="00:06:33.520" style="s2">twice all these are mistakes that are</p>
+<p begin="00:06:31.520" end="00:06:36.400" style="s2">very easy to make and they will result</p>
+<p begin="00:06:33.520" end="00:06:38.319" style="s2">in a runtime error this is when rust</p>
+<p begin="00:06:36.400" end="00:06:40.319" style="s2">shines and this is why companies like</p>
+<p begin="00:06:38.319" end="00:06:42.720" style="s2">ross so much because it maybe is not</p>
+<p begin="00:06:40.319" end="00:06:45.120" style="s2">faster than c maybe it&#39;s not faster than</p>
+<p begin="00:06:42.720" end="00:06:47.440" style="s2">c plus plus but it is safer than them</p>
+<p begin="00:06:45.120" end="00:06:50.000" style="s2">providing almost the same performance</p>
+<p begin="00:06:47.440" end="00:06:52.080" style="s2">which is a huge win in rust we don&#39;t</p>
+<p begin="00:06:50.000" end="00:06:54.400" style="s2">have garbage collection but we also</p>
+<p begin="00:06:52.080" end="00:06:56.319" style="s2">don&#39;t have to allocate a free memory</p>
+<p begin="00:06:54.400" end="00:06:58.319" style="s2">manually and that&#39;s because rust has a</p>
+<p begin="00:06:56.319" end="00:07:00.560" style="s2">very cool way of thinking about memory</p>
+<p begin="00:06:58.319" end="00:07:02.960" style="s2">and is a concept called ownership</p>
+<p begin="00:07:00.560" end="00:07:04.479" style="s2">ownership is one if not the most</p>
+<p begin="00:07:02.960" end="00:07:06.400" style="s2">important concept to understand when</p>
+<p begin="00:07:04.479" end="00:07:08.080" style="s2">working with rust it makes you think</p>
+<p begin="00:07:06.400" end="00:07:09.759" style="s2">about the data in your program in a</p>
+<p begin="00:07:08.080" end="00:07:11.520" style="s2">different way than what we are used to</p>
+<p begin="00:07:09.759" end="00:07:14.000" style="s2">if you&#39;re using javascript python go or</p>
+<p begin="00:07:11.520" end="00:07:16.960" style="s2">even c with the concept of ownership the</p>
+<p begin="00:07:14.000" end="00:07:19.919" style="s2">data of your program is owned by</p>
+<p begin="00:07:16.960" end="00:07:23.039" style="s2">variables your data can only be owned by</p>
+<p begin="00:07:19.919" end="00:07:25.759" style="s2">one owner at a time and if the owner is</p>
+<p begin="00:07:23.039" end="00:07:28.080" style="s2">not in scope or used anymore the data is</p>
+<p begin="00:07:25.759" end="00:07:29.680" style="s2">dropped from memory if it sounds hard to</p>
+<p begin="00:07:28.080" end="00:07:31.440" style="s2">understand is because it is it&#39;s not a</p>
+<p begin="00:07:29.680" end="00:07:33.120" style="s2">very easy concept to grasp at the</p>
+<p begin="00:07:31.440" end="00:07:34.720" style="s2">beginning especially if we&#39;re coming</p>
+<p begin="00:07:33.120" end="00:07:36.720" style="s2">from a garbage collected language like</p>
+<p begin="00:07:34.720" end="00:07:38.960" style="s2">go javascript or python i won&#39;t explain</p>
+<p begin="00:07:36.720" end="00:07:40.160" style="s2">ownership 100 on this video but i do</p>
+<p begin="00:07:38.960" end="00:07:42.319" style="s2">want to give you a taste of how</p>
+<p begin="00:07:40.160" end="00:07:44.479" style="s2">ownership looks like here we have some</p>
+<p begin="00:07:42.319" end="00:07:46.800" style="s2">rust code with two functions</p>
+<p begin="00:07:44.479" end="00:07:49.280" style="s2">one is the main function where we are</p>
+<p begin="00:07:46.800" end="00:07:52.240" style="s2">creating a variable called myname that</p>
+<p begin="00:07:49.280" end="00:07:54.319" style="s2">holds the text nico the main function is</p>
+<p begin="00:07:52.240" end="00:07:56.960" style="s2">then calling the say high function and</p>
+<p begin="00:07:54.319" end="00:08:00.080" style="s2">it&#39;s sending the my name as an argument</p>
+<p begin="00:07:56.960" end="00:08:02.400" style="s2">on the say hi function we just print hi</p>
+<p begin="00:08:00.080" end="00:08:04.160" style="s2">plus the name that we received after</p>
+<p begin="00:08:02.400" end="00:08:06.319" style="s2">everything is done in the say hi</p>
+<p begin="00:08:04.160" end="00:08:08.800" style="s2">function we return to the main function</p>
+<p begin="00:08:06.319" end="00:08:11.440" style="s2">where we are printing the my name</p>
+<p begin="00:08:08.800" end="00:08:14.000" style="s2">variable one more time now think for a</p>
+<p begin="00:08:11.440" end="00:08:15.599" style="s2">second and tell me what do you think the</p>
+<p begin="00:08:14.000" end="00:08:18.319" style="s2">output would be</p>
+<p begin="00:08:15.599" end="00:08:20.720" style="s2">we have a variable with a string we give</p>
+<p begin="00:08:18.319" end="00:08:22.879" style="s2">that variable to a function the function</p>
+<p begin="00:08:20.720" end="00:08:25.440" style="s2">is going to print that variable on the</p>
+<p begin="00:08:22.879" end="00:08:27.280" style="s2">console when that function is finished</p>
+<p begin="00:08:25.440" end="00:08:29.520" style="s2">then we&#39;re going to print that variable</p>
+<p begin="00:08:27.280" end="00:08:31.919" style="s2">again in the console if we are</p>
+<p begin="00:08:29.520" end="00:08:34.159" style="s2">javascript python or even go developers</p>
+<p begin="00:08:31.919" end="00:08:37.200" style="s2">what we would expect would be to see</p>
+<p begin="00:08:34.159" end="00:08:39.599" style="s2">something like this on the output but in</p>
+<p begin="00:08:37.200" end="00:08:40.719" style="s2">the worst world that would not be</p>
+<p begin="00:08:39.599" end="00:08:43.200" style="s2">correct</p>
+<p begin="00:08:40.719" end="00:08:46.320" style="s2">that would not compile at all</p>
+<p begin="00:08:43.200" end="00:08:49.760" style="s2">this is because after we call the say hi</p>
+<p begin="00:08:46.320" end="00:08:50.880" style="s2">function with the my name variable as an</p>
+<p begin="00:08:49.760" end="00:08:53.279" style="s2">argument</p>
+<p begin="00:08:50.880" end="00:08:56.080" style="s2">the data which is the string that</p>
+<p begin="00:08:53.279" end="00:08:58.480" style="s2">contains nico is moved</p>
+<p begin="00:08:56.080" end="00:09:02.480" style="s2">not copied but moved</p>
+<p begin="00:08:58.480" end="00:09:05.519" style="s2">out of the my name variable into the say</p>
+<p begin="00:09:02.480" end="00:09:08.560" style="s2">hi function now the say hi function is</p>
+<p begin="00:09:05.519" end="00:09:10.800" style="s2">the owner of the nico string and the my</p>
+<p begin="00:09:08.560" end="00:09:13.760" style="s2">name variable in the main function</p>
+<p begin="00:09:10.800" end="00:09:15.839" style="s2">cannot be used anymore as you can see</p>
+<p begin="00:09:13.760" end="00:09:18.320" style="s2">with ownership we have to think about</p>
+<p begin="00:09:15.839" end="00:09:20.080" style="s2">how the data moves in our program in a</p>
+<p begin="00:09:18.320" end="00:09:21.600" style="s2">different way to what we are used to and</p>
+<p begin="00:09:20.080" end="00:09:24.560" style="s2">this is one of the reasons why learning</p>
+<p begin="00:09:21.600" end="00:09:27.040" style="s2">rust is not an easy task at all it has a</p>
+<p begin="00:09:24.560" end="00:09:29.279" style="s2">very steep learning curve in my opinion</p>
+<p begin="00:09:27.040" end="00:09:31.360" style="s2">when i learned go for the first time i</p>
+<p begin="00:09:29.279" end="00:09:33.360" style="s2">felt productive in goal in like a week</p>
+<p begin="00:09:31.360" end="00:09:35.360" style="s2">or less but i have been writing rose</p>
+<p begin="00:09:33.360" end="00:09:36.959" style="s2">code for a while now and i cannot really</p>
+<p begin="00:09:35.360" end="00:09:38.959" style="s2">say that i feel a hundred percent</p>
+<p begin="00:09:36.959" end="00:09:41.680" style="s2">comfortable with it but thankfully as i</p>
+<p begin="00:09:38.959" end="00:09:43.360" style="s2">said the rust compiler is super cool and</p>
+<p begin="00:09:41.680" end="00:09:45.279" style="s2">helpful if you make a mistake it is</p>
+<p begin="00:09:43.360" end="00:09:46.640" style="s2">going to help you fix that mistake it&#39;s</p>
+<p begin="00:09:45.279" end="00:09:48.480" style="s2">going to teach you it&#39;s even going to</p>
+<p begin="00:09:46.640" end="00:09:50.720" style="s2">give you the code that you need is</p>
+<p begin="00:09:48.480" end="00:09:52.560" style="s2">awesome if you try to run the code with</p>
+<p begin="00:09:50.720" end="00:09:54.560" style="s2">the ownership error for example it will</p>
+<p begin="00:09:52.560" end="00:09:56.800" style="s2">give you a pretty good message of how</p>
+<p begin="00:09:54.560" end="00:09:59.120" style="s2">the variable was created where was it</p>
+<p begin="00:09:56.800" end="00:10:00.880" style="s2">moved and where you made a mistake or</p>
+<p begin="00:09:59.120" end="00:10:02.720" style="s2">for example if you are new to rust and</p>
+<p begin="00:10:00.880" end="00:10:04.800" style="s2">you want to just print a number in the</p>
+<p begin="00:10:02.720" end="00:10:07.279" style="s2">console and you do the following code</p>
+<p begin="00:10:04.800" end="00:10:09.200" style="s2">that code is not going to work but the</p>
+<p begin="00:10:07.279" end="00:10:11.600" style="s2">error that you&#39;re going to see in the</p>
+<p begin="00:10:09.200" end="00:10:13.200" style="s2">compiler is going to be very helpful it</p>
+<p begin="00:10:11.600" end="00:10:14.560" style="s2">is going to point out at the place where</p>
+<p begin="00:10:13.200" end="00:10:16.480" style="s2">the error happened and it&#39;s also going</p>
+<p begin="00:10:14.560" end="00:10:18.480" style="s2">to even give you a helpful message to</p>
+<p begin="00:10:16.480" end="00:10:21.920" style="s2">tell you what code you might need</p>
+<p begin="00:10:18.480" end="00:10:23.920" style="s2">awesome so what can you build with rust</p>
+<p begin="00:10:21.920" end="00:10:25.839" style="s2">personally i am using rust to build</p>
+<p begin="00:10:23.920" end="00:10:27.760" style="s2">smart contracts for blockchain platforms</p>
+<p begin="00:10:25.839" end="00:10:30.480" style="s2">like polkadot and solana but people are</p>
+<p begin="00:10:27.760" end="00:10:32.560" style="s2">using rust to build all sorts of things</p>
+<p begin="00:10:30.480" end="00:10:34.320" style="s2">you can use rust to build command line</p>
+<p begin="00:10:32.560" end="00:10:36.399" style="s2">interfaces you could program your back</p>
+<p begin="00:10:34.320" end="00:10:38.800" style="s2">end in rust there are people writing</p>
+<p begin="00:10:36.399" end="00:10:41.120" style="s2">software for embedded devices in ros</p>
+<p begin="00:10:38.800" end="00:10:43.120" style="s2">there&#39;s also people making video game</p>
+<p begin="00:10:41.120" end="00:10:45.360" style="s2">engines in rust and you could even make</p>
+<p begin="00:10:43.120" end="00:10:48.079" style="s2">a web application in rust if you compile</p>
+<p begin="00:10:45.360" end="00:10:49.680" style="s2">it to web assembly just because we can</p>
+<p begin="00:10:48.079" end="00:10:51.760" style="s2">doesn&#39;t mean we should it&#39;s always</p>
+<p begin="00:10:49.680" end="00:10:53.440" style="s2">better to think about choosing the right</p>
+<p begin="00:10:51.760" end="00:10:56.480" style="s2">tool for the job so if you&#39;re looking</p>
+<p begin="00:10:53.440" end="00:10:58.800" style="s2">for raw speed safety and correctness</p>
+<p begin="00:10:56.480" end="00:11:00.880" style="s2">then i think rust is a very very good</p>
+<p begin="00:10:58.800" end="00:11:02.800" style="s2">choice if you are already a developer</p>
+<p begin="00:11:00.880" end="00:11:04.720" style="s2">and you have the time to learn it but if</p>
+<p begin="00:11:02.800" end="00:11:06.880" style="s2">instead of program speed you are looking</p>
+<p begin="00:11:04.720" end="00:11:08.720" style="s2">for developer speed but you still want a</p>
+<p begin="00:11:06.880" end="00:11:11.279" style="s2">language that is faster than python and</p>
+<p begin="00:11:08.720" end="00:11:14.160" style="s2">javascript then i would say that go is a</p>
+<p begin="00:11:11.279" end="00:11:16.800" style="s2">very good choice in rust the code runs</p>
+<p begin="00:11:14.160" end="00:11:18.959" style="s2">fast in go the programmer runs fast if</p>
+<p begin="00:11:16.800" end="00:11:20.640" style="s2">you are already a developer and you want</p>
+<p begin="00:11:18.959" end="00:11:22.959" style="s2">to learn go because you&#39;re curious you</p>
+<p begin="00:11:20.640" end="00:11:25.200" style="s2">want to see how fast the language can be</p>
+<p begin="00:11:22.959" end="00:11:27.279" style="s2">how simple can it be and how easy can it</p>
+<p begin="00:11:25.200" end="00:11:29.839" style="s2">be to learn then please click the link</p>
+<p begin="00:11:27.279" end="00:11:32.320" style="s2">below there you&#39;re going to find a free</p>
+<p begin="00:11:29.839" end="00:11:34.079" style="s2">golang course with subtitles in hangout</p>
+<p begin="00:11:32.320" end="00:11:35.920" style="s2">we&#39;re going to see what makes ghost</p>
+<p begin="00:11:34.079" end="00:11:37.440" style="s2">special what makes it faster than python</p>
+<p begin="00:11:35.920" end="00:11:39.120" style="s2">or javascript and we&#39;re going to build a</p>
+<p begin="00:11:37.440" end="00:11:41.120" style="s2">tiny project as well so please click the</p>
+<p begin="00:11:39.120" end="00:11:43.279" style="s2">link below and i will see you there now</p>
+<p begin="00:11:41.120" end="00:11:45.839" style="s2">coming back to rust even if you don&#39;t</p>
+<p begin="00:11:43.279" end="00:11:47.600" style="s2">have a use case right now for rust even</p>
+<p begin="00:11:45.839" end="00:11:48.880" style="s2">if you don&#39;t have an idea of a cli you</p>
+<p begin="00:11:47.600" end="00:11:50.079" style="s2">want to make or you don&#39;t want to make a</p>
+<p begin="00:11:48.880" end="00:11:51.279" style="s2">video game you don&#39;t want to make a</p>
+<p begin="00:11:50.079" end="00:11:52.800" style="s2">backing you don&#39;t want to deal with</p>
+<p begin="00:11:51.279" end="00:11:55.120" style="s2">blockchains and things even if you have</p>
+<p begin="00:11:52.800" end="00:11:57.200" style="s2">no use case for roast right now i would</p>
+<p begin="00:11:55.120" end="00:11:58.720" style="s2">still recommend to learn rust for at</p>
+<p begin="00:11:57.200" end="00:12:00.959" style="s2">least a couple of weeks</p>
+<p begin="00:11:58.720" end="00:12:02.480" style="s2">because i think that even then even if</p>
+<p begin="00:12:00.959" end="00:12:04.800" style="s2">you have no use case for rust it is</p>
+<p begin="00:12:02.480" end="00:12:06.639" style="s2">going to make you a better developer i</p>
+<p begin="00:12:04.800" end="00:12:09.200" style="s2">mean first of all you are going to have</p>
+<p begin="00:12:06.639" end="00:12:10.720" style="s2">access to a tool that is incredibly fast</p>
+<p begin="00:12:09.200" end="00:12:12.320" style="s2">and if you ever need to you&#39;re going to</p>
+<p begin="00:12:10.720" end="00:12:14.720" style="s2">be able to build incredibly fast</p>
+<p begin="00:12:12.320" end="00:12:16.480" style="s2">software but also i think that learning</p>
+<p begin="00:12:14.720" end="00:12:19.040" style="s2">rust is going to make you a better</p>
+<p begin="00:12:16.480" end="00:12:20.959" style="s2">developer outside of the ros programming</p>
+<p begin="00:12:19.040" end="00:12:22.240" style="s2">language in my case for example after</p>
+<p begin="00:12:20.959" end="00:12:24.560" style="s2">learning ros and understanding the</p>
+<p begin="00:12:22.240" end="00:12:27.040" style="s2">concept of ownership i became a better</p>
+<p begin="00:12:24.560" end="00:12:29.200" style="s2">developer outside of rust i think about</p>
+<p begin="00:12:27.040" end="00:12:31.680" style="s2">my code in a more organized way i think</p>
+<p begin="00:12:29.200" end="00:12:33.920" style="s2">about data in a different way and i find</p>
+<p begin="00:12:31.680" end="00:12:35.600" style="s2">myself that even if i&#39;m working in go or</p>
+<p begin="00:12:33.920" end="00:12:37.519" style="s2">javascript that don&#39;t have any ownership</p>
+<p begin="00:12:35.600" end="00:12:39.760" style="s2">roles i find myself still following</p>
+<p begin="00:12:37.519" end="00:12:41.680" style="s2">those rules that even if the language</p>
+<p begin="00:12:39.760" end="00:12:43.920" style="s2">doesn&#39;t enforce the rules i pretend like</p>
+<p begin="00:12:41.680" end="00:12:45.519" style="s2">they exist because it makes my code very</p>
+<p begin="00:12:43.920" end="00:12:47.680" style="s2">easy to think about it makes me think</p>
+<p begin="00:12:45.519" end="00:12:49.600" style="s2">about the data flow of my applications</p>
+<p begin="00:12:47.680" end="00:12:51.279" style="s2">in a very different and i would say more</p>
+<p begin="00:12:49.600" end="00:12:53.680" style="s2">organized way but that&#39;s just what i</p>
+<p begin="00:12:51.279" end="00:12:55.360" style="s2">think let me know what you think are you</p>
+<p begin="00:12:53.680" end="00:12:56.880" style="s2">going to try roast uh have you tried</p>
+<p begin="00:12:55.360" end="00:12:58.639" style="s2">roast already did you like it did you</p>
+<p begin="00:12:56.880" end="00:13:00.079" style="s2">hate it what are you building with rust</p>
+<p begin="00:12:58.639" end="00:13:01.519" style="s2">why do you want to build with roast let</p>
+<p begin="00:13:00.079" end="00:13:03.360" style="s2">me know in the comments i&#39;m going to be</p>
+<p begin="00:13:01.519" end="00:13:04.880" style="s2">looking at them right now as always</p>
+<p begin="00:13:03.360" end="00:13:08.000" style="s2">thank you for watching this video stay</p>
+<p begin="00:13:04.880" end="00:13:11.959" style="s2">happy stay free eat kimchi come champion</p>
+<p begin="00:13:08.000" end="00:13:11.959" style="s2">and see you on the next one</p>
+</div>
+</body>
+</tt>

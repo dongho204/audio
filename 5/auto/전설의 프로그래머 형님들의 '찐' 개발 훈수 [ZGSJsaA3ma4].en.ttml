@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:01.760" end="00:00:06.720" style="s2">on this video I would like to share with</p>
+<p begin="00:00:03.899" end="00:00:09.540" style="s2">you advice for programmers given by some</p>
+<p begin="00:00:06.720" end="00:00:10.980" style="s2">of the best programmers of all time I&#39;ve</p>
+<p begin="00:00:09.540" end="00:00:13.200" style="s2">been listening to The Lex Friedman</p>
+<p begin="00:00:10.980" end="00:00:15.960" style="s2">podcast with Legends like the creator of</p>
+<p begin="00:00:13.200" end="00:00:17.880" style="s2">Java or the creator of C plus plus among</p>
+<p begin="00:00:15.960" end="00:00:19.800" style="s2">many others and today I bring you a</p>
+<p begin="00:00:17.880" end="00:00:22.560" style="s2">compilation of the notes I have taken</p>
+<p begin="00:00:19.800" end="00:00:24.060" style="s2">that I hope can be helpful for you if</p>
+<p begin="00:00:22.560" end="00:00:25.320" style="s2">you like this kind of content and you</p>
+<p begin="00:00:24.060" end="00:00:26.880" style="s2">would like to see more of it then please</p>
+<p begin="00:00:25.320" end="00:00:29.220" style="s2">consider leaving a like and subscribing</p>
+<p begin="00:00:26.880" end="00:00:31.260" style="s2">to the channel just two clicks like And</p>
+<p begin="00:00:29.220" end="00:00:34.020" style="s2">subscribe it&#39;s free for you but it helps</p>
+<p begin="00:00:31.260" end="00:00:36.180" style="s2">me a lot now let&#39;s get started John</p>
+<p begin="00:00:34.020" end="00:00:39.300" style="s2">Carmack is one of the best computer</p>
+<p begin="00:00:36.180" end="00:00:41.460" style="s2">programmers ever Pioneer of 3D Graphics</p>
+<p begin="00:00:39.300" end="00:00:45.239" style="s2">he was the lead programmer of legendary</p>
+<p begin="00:00:41.460" end="00:00:48.120" style="s2">games like Wolfstein 3D doom and Quake</p>
+<p begin="00:00:45.239" end="00:00:51.180" style="s2">now he is working as the CTO of oculus</p>
+<p begin="00:00:48.120" end="00:00:53.039" style="s2">VR at meta and this is how he answered</p>
+<p begin="00:00:51.180" end="00:00:55.379" style="s2">the question what makes a good</p>
+<p begin="00:00:53.039" end="00:00:57.000" style="s2">programmer being proud about like a</p>
+<p begin="00:00:55.379" end="00:00:59.340" style="s2">specific architecture or specific</p>
+<p begin="00:00:57.000" end="00:01:01.559" style="s2">technology or specific code sequence</p>
+<p begin="00:00:59.340" end="00:01:03.359" style="s2">that you&#39;ve done it&#39;s great to get a</p>
+<p begin="00:01:01.559" end="00:01:05.220" style="s2">little smile like a tiny little dopamine</p>
+<p begin="00:01:03.359" end="00:01:06.900" style="s2">hit for that but the the top level</p>
+<p begin="00:01:05.220" end="00:01:09.479" style="s2">metric should be that you&#39;re building</p>
+<p begin="00:01:06.900" end="00:01:12.240" style="s2">things of value cases that providing</p>
+<p begin="00:01:09.479" end="00:01:15.119" style="s2">actual value for people building useful</p>
+<p begin="00:01:12.240" end="00:01:18.000" style="s2">things for our users is what our Focus</p>
+<p begin="00:01:15.119" end="00:01:19.640" style="s2">as developers should be on rather than</p>
+<p begin="00:01:18.000" end="00:01:22.020" style="s2">focusing too much on the tech</p>
+<p begin="00:01:19.640" end="00:01:25.380" style="s2">architecture or algorithms that we use</p>
+<p begin="00:01:22.020" end="00:01:27.900" style="s2">he also talks about how by making useful</p>
+<p begin="00:01:25.380" end="00:01:30.540" style="s2">products we are making the world a</p>
+<p begin="00:01:27.900" end="00:01:32.700" style="s2">better place I mean it sounds triter</p>
+<p begin="00:01:30.540" end="00:01:34.140" style="s2">corny but I fundamentally do think</p>
+<p begin="00:01:32.700" end="00:01:36.780" style="s2">that&#39;s how you make the world a better</p>
+<p begin="00:01:34.140" end="00:01:38.880" style="s2">place if you have given more value to</p>
+<p begin="00:01:36.780" end="00:01:41.159" style="s2">people than it took you and your team to</p>
+<p begin="00:01:38.880" end="00:01:43.079" style="s2">create people have they&#39;ve gone from</p>
+<p begin="00:01:41.159" end="00:01:44.880" style="s2">something of lesser value chosen to use</p>
+<p begin="00:01:43.079" end="00:01:46.920" style="s2">your product and their life feels better</p>
+<p begin="00:01:44.880" end="00:01:49.799" style="s2">for that and if you&#39;ve produced that</p>
+<p begin="00:01:46.920" end="00:01:52.079" style="s2">economically that&#39;s that&#39;s a really good</p>
+<p begin="00:01:49.799" end="00:01:54.119" style="s2">thing and this is what he thinks about</p>
+<p begin="00:01:52.079" end="00:01:57.119" style="s2">the value of obsessing over something</p>
+<p begin="00:01:54.119" end="00:01:59.520" style="s2">and working hard rather than having work</p>
+<p begin="00:01:57.119" end="00:02:01.860" style="s2">life balance I you know work life</p>
+<p begin="00:01:59.520" end="00:02:04.680" style="s2">balance once versus kind of your life&#39;s</p>
+<p begin="00:02:01.860" end="00:02:07.320" style="s2">work where there&#39;s a small subset of the</p>
+<p begin="00:02:04.680" end="00:02:10.080" style="s2">people that can be very happy being</p>
+<p begin="00:02:07.320" end="00:02:12.720" style="s2">obsessive about things and you know</p>
+<p begin="00:02:10.080" end="00:02:15.959" style="s2">Obsession can often get things done that</p>
+<p begin="00:02:12.720" end="00:02:18.360" style="s2">just practical prudent pedestrian work</p>
+<p begin="00:02:15.959" end="00:02:20.819" style="s2">won&#39;t or at least won&#39;t for a very long</p>
+<p begin="00:02:18.360" end="00:02:23.099" style="s2">time of course this depends on the kind</p>
+<p begin="00:02:20.819" end="00:02:25.980" style="s2">of work we are doing if we are doing our</p>
+<p begin="00:02:23.099" end="00:02:28.800" style="s2">lives work our Masterpiece our Magnus</p>
+<p begin="00:02:25.980" end="00:02:31.440" style="s2">Opus obsessing over it might be the way</p>
+<p begin="00:02:28.800" end="00:02:34.200" style="s2">to go James Gosling the creator of a</p>
+<p begin="00:02:31.440" end="00:02:36.000" style="s2">tiny unknown language called Java also</p>
+<p begin="00:02:34.200" end="00:02:38.340" style="s2">talks about the value of working hard</p>
+<p begin="00:02:36.000" end="00:02:39.959" style="s2">the people who say you should work smart</p>
+<p begin="00:02:38.340" end="00:02:42.599" style="s2">not hard</p>
+<p begin="00:02:39.959" end="00:02:44.580" style="s2">they pretty much always fail that&#39;s just</p>
+<p begin="00:02:42.599" end="00:02:46.379" style="s2">just a recipe for disaster he also</p>
+<p begin="00:02:44.580" end="00:02:48.959" style="s2">advises young people to not be afraid of</p>
+<p begin="00:02:46.379" end="00:02:51.480" style="s2">risks and do stupid things don&#39;t be</p>
+<p begin="00:02:48.959" end="00:02:53.940" style="s2">afraid of risk it&#39;s okay to do stupid</p>
+<p begin="00:02:51.480" end="00:02:55.920" style="s2">things once and he brings up a topic</p>
+<p begin="00:02:53.940" end="00:02:59.700" style="s2">that we developers don&#39;t talk much about</p>
+<p begin="00:02:55.920" end="00:03:02.160" style="s2">ethics I started to think about ethical</p>
+<p begin="00:02:59.700" end="00:03:05.099" style="s2">choices in my life a big science fiction</p>
+<p begin="00:03:02.160" end="00:03:07.500" style="s2">fan I got to thinking about just about</p>
+<p begin="00:03:05.099" end="00:03:10.019" style="s2">every technical decision I make</p>
+<p begin="00:03:07.500" end="00:03:12.420" style="s2">in terms of are you building Blade</p>
+<p begin="00:03:10.019" end="00:03:15.060" style="s2">Runner or Star Trek which which Future</p>
+<p begin="00:03:12.420" end="00:03:17.519" style="s2">Would you rather live in I guess what he</p>
+<p begin="00:03:15.060" end="00:03:19.980" style="s2">means is that we developers have the</p>
+<p begin="00:03:17.519" end="00:03:22.080" style="s2">power of creation at our fingertips and</p>
+<p begin="00:03:19.980" end="00:03:24.540" style="s2">we should spend time thinking what kind</p>
+<p begin="00:03:22.080" end="00:03:26.700" style="s2">of word are we building we should all</p>
+<p begin="00:03:24.540" end="00:03:29.040" style="s2">reflect on what kind of jobs we would</p>
+<p begin="00:03:26.700" end="00:03:30.720" style="s2">say no to like working for an oppressive</p>
+<p begin="00:03:29.040" end="00:03:33.840" style="s2">government or for a company building</p>
+<p begin="00:03:30.720" end="00:03:36.659" style="s2">harmful products Bjorn straws troop the</p>
+<p begin="00:03:33.840" end="00:03:38.580" style="s2">creator of C plus plus says that it is</p>
+<p begin="00:03:36.659" end="00:03:40.920" style="s2">good for a professional programmer to</p>
+<p begin="00:03:38.580" end="00:03:43.500" style="s2">know at least five programming languages</p>
+<p begin="00:03:40.920" end="00:03:45.659" style="s2">I mean if you&#39;re a monoclot you are</p>
+<p begin="00:03:43.500" end="00:03:48.120" style="s2">likely to think that your own culture is</p>
+<p begin="00:03:45.659" end="00:03:50.280" style="s2">the only ones period so everybody else&#39;s</p>
+<p begin="00:03:48.120" end="00:03:53.340" style="s2">a good learning of a foreign language</p>
+<p begin="00:03:50.280" end="00:03:55.500" style="s2">and a foreign country is important it</p>
+<p begin="00:03:53.340" end="00:03:58.140" style="s2">helps you think and be a better person</p>
+<p begin="00:03:55.500" end="00:04:00.840" style="s2">with programming languages you become a</p>
+<p begin="00:03:58.140" end="00:04:05.099" style="s2">better programmer now once you&#39;ve got to</p>
+<p begin="00:04:00.840" end="00:04:08.040" style="s2">the wager five is not that long it&#39;s the</p>
+<p begin="00:04:05.099" end="00:04:09.780" style="s2">second one that&#39;s most important he</p>
+<p begin="00:04:08.040" end="00:04:12.360" style="s2">recommends that we learn machine code</p>
+<p begin="00:04:09.780" end="00:04:14.340" style="s2">and C plus plus then learn a functional</p>
+<p begin="00:04:12.360" end="00:04:15.780" style="s2">programming language like Haskell and</p>
+<p begin="00:04:14.340" end="00:04:17.519" style="s2">choose other language to be able to</p>
+<p begin="00:04:15.780" end="00:04:20.400" style="s2">build something quickly like python</p>
+<p begin="00:04:17.519" end="00:04:22.620" style="s2">JavaScript or Ruby George Hots a</p>
+<p begin="00:04:20.400" end="00:04:25.440" style="s2">legendary programmer and hacker famous</p>
+<p begin="00:04:22.620" end="00:04:27.960" style="s2">on the iPhone jailbreaking scene ensued</p>
+<p begin="00:04:25.440" end="00:04:30.120" style="s2">by Sony for hacking into a PlayStation</p>
+<p begin="00:04:27.960" end="00:04:32.820" style="s2">says that the best way to learn to code</p>
+<p begin="00:04:30.120" end="00:04:34.680" style="s2">is to have a problem we want to solve</p>
+<p begin="00:04:32.820" end="00:04:36.960" style="s2">we&#39;re never going to learn programming</p>
+<p begin="00:04:34.680" end="00:04:39.000" style="s2">by watching a video called learn</p>
+<p begin="00:04:36.960" end="00:04:40.979" style="s2">programming the only way to learn</p>
+<p begin="00:04:39.000" end="00:04:43.080" style="s2">programming I think everyone I&#39;ve ever</p>
+<p begin="00:04:40.979" end="00:04:44.820" style="s2">met who can program well learned it all</p>
+<p begin="00:04:43.080" end="00:04:46.979" style="s2">the same way they had something they</p>
+<p begin="00:04:44.820" end="00:04:50.820" style="s2">wanted to do and then they tried to do</p>
+<p begin="00:04:46.979" end="00:04:52.680" style="s2">it and then they were like oh well okay</p>
+<p begin="00:04:50.820" end="00:04:54.120" style="s2">this is kind of you know be nice if the</p>
+<p begin="00:04:52.680" end="00:04:55.680" style="s2">computer could kind of do this thing and</p>
+<p begin="00:04:54.120" end="00:04:57.660" style="s2">then you know that&#39;s how you learn you</p>
+<p begin="00:04:55.680" end="00:05:00.180" style="s2">just keep pushing on a project</p>
+<p begin="00:04:57.660" end="00:05:02.280" style="s2">I super agree with this nothing is</p>
+<p begin="00:05:00.180" end="00:05:04.320" style="s2">better than learning by doing and</p>
+<p begin="00:05:02.280" end="00:05:07.199" style="s2">learning to solve a problem not just</p>
+<p begin="00:05:04.320" end="00:05:09.120" style="s2">learning to learn by using learning as a</p>
+<p begin="00:05:07.199" end="00:05:11.639" style="s2">vehicle to accomplish something else</p>
+<p begin="00:05:09.120" end="00:05:14.639" style="s2">Travis oliphan the creator of numpy</p>
+<p begin="00:05:11.639" end="00:05:17.280" style="s2">scipy and Anaconda has a pretty good</p>
+<p begin="00:05:14.639" end="00:05:18.120" style="s2">list of what makes a good programmer I</p>
+<p begin="00:05:17.280" end="00:05:21.060" style="s2">would say there&#39;s a number of things</p>
+<p begin="00:05:18.120" end="00:05:23.520" style="s2">couple things one is curiosity like you</p>
+<p begin="00:05:21.060" end="00:05:26.880" style="s2">I think a programmer without curiosity</p>
+<p begin="00:05:23.520" end="00:05:29.160" style="s2">is uh mundane like you&#39;ll lose interest</p>
+<p begin="00:05:26.880" end="00:05:30.780" style="s2">you&#39;ll do your best work if we are not</p>
+<p begin="00:05:29.160" end="00:05:33.479" style="s2">curious we&#39;re going to have a hard time</p>
+<p begin="00:05:30.780" end="00:05:35.580" style="s2">staying up to date as developers and</p>
+<p begin="00:05:33.479" end="00:05:38.340" style="s2">growing in our career learning new</p>
+<p begin="00:05:35.580" end="00:05:40.380" style="s2">things should not feel like a chore it</p>
+<p begin="00:05:38.340" end="00:05:43.680" style="s2">should feel like a hobby using other</p>
+<p begin="00:05:40.380" end="00:05:45.419" style="s2">people&#39;s work right don&#39;t be afraid that</p>
+<p begin="00:05:43.680" end="00:05:48.720" style="s2">somehow you&#39;re like you should do it all</p>
+<p begin="00:05:45.419" end="00:05:51.840" style="s2">like nobody does really you want to cut</p>
+<p begin="00:05:48.720" end="00:05:52.919" style="s2">and paste but but not blindly oh this is</p>
+<p begin="00:05:51.840" end="00:05:55.199" style="s2">what this means oh this is what it&#39;s</p>
+<p begin="00:05:52.919" end="00:05:56.940" style="s2">doing and understand as much as you can</p>
+<p begin="00:05:55.199" end="00:05:58.199" style="s2">so it&#39;s critical that&#39;s where the</p>
+<p begin="00:05:56.940" end="00:06:00.000" style="s2">Curiosity comes in if you&#39;re just</p>
+<p begin="00:05:58.199" end="00:06:01.860" style="s2">blindly cutting and pasting you&#39;re not</p>
+<p begin="00:06:00.000" end="00:06:03.960" style="s2">gonna understand it&#39;s okay to copy paste</p>
+<p begin="00:06:01.860" end="00:06:05.460" style="s2">someone else&#39;s work but the least thing</p>
+<p begin="00:06:03.960" end="00:06:07.919" style="s2">we can do as developers is to understand</p>
+<p begin="00:06:05.460" end="00:06:10.080" style="s2">what the code is doing and why it is</p>
+<p begin="00:06:07.919" end="00:06:11.940" style="s2">working when talking about the kind of</p>
+<p begin="00:06:10.080" end="00:06:14.699" style="s2">people that he hires he talks about</p>
+<p begin="00:06:11.940" end="00:06:16.320" style="s2">humility and wanting to learn one of the</p>
+<p begin="00:06:14.699" end="00:06:17.759" style="s2">big things I look for is somebody that</p>
+<p begin="00:06:16.320" end="00:06:19.560" style="s2">fundamentally recognizes their need to</p>
+<p begin="00:06:17.759" end="00:06:21.300" style="s2">learn to learn like one of the values</p>
+<p begin="00:06:19.560" end="00:06:23.100" style="s2">that we we have and all of the things we</p>
+<p begin="00:06:21.300" end="00:06:25.380" style="s2">do is learning if somebody thinks they</p>
+<p begin="00:06:23.100" end="00:06:27.240" style="s2">know it all they&#39;re going to struggle</p>
+<p begin="00:06:25.380" end="00:06:28.919" style="s2">thank you for watching this video and</p>
+<p begin="00:06:27.240" end="00:06:31.319" style="s2">please let me know in the comments what</p>
+<p begin="00:06:28.919" end="00:06:33.300" style="s2">advice do you like the most if you have</p>
+<p begin="00:06:31.319" end="00:06:34.199" style="s2">some advice to share please leave it on</p>
+<p begin="00:06:33.300" end="00:06:36.060" style="s2">the comments because I&#39;m going to be</p>
+<p begin="00:06:34.199" end="00:06:37.500" style="s2">looking at them right now and don&#39;t</p>
+<p begin="00:06:36.060" end="00:06:39.840" style="s2">forget if you want to Learn Python</p>
+<p begin="00:06:37.500" end="00:06:42.300" style="s2">JavaScript react react native go among</p>
+<p begin="00:06:39.840" end="00:06:44.280" style="s2">many other things for absolutely free</p>
+<p begin="00:06:42.300" end="00:06:46.800" style="s2">click the link below and I will see you</p>
+<p begin="00:06:44.280" end="00:06:49.280" style="s2">there honor though see you on the next</p>
+<p begin="00:06:46.800" end="00:06:49.280" style="s2">video bye</p>
+</div>
+</body>
+</tt>

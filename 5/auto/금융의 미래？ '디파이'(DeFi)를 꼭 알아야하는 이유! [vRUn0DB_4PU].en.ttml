@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.000" end="00:00:05.440" style="s2">elon musk says don&#39;t defy defy</p>
+<p begin="00:00:03.120" end="00:00:07.600" style="s2">the bank of america says that defy could</p>
+<p begin="00:00:05.440" end="00:00:10.800" style="s2">be potentially more disruptive than</p>
+<p begin="00:00:07.600" end="00:00:12.880" style="s2">bitcoin and mark cuban says that defy</p>
+<p begin="00:00:10.800" end="00:00:14.639" style="s2">is the future in a world where</p>
+<p begin="00:00:12.880" end="00:00:16.160" style="s2">governments are printing money like</p>
+<p begin="00:00:14.639" end="00:00:17.760" style="s2">crazy and if you put your money on a</p>
+<p begin="00:00:16.160" end="00:00:18.320" style="s2">bank account you are going to be lucky</p>
+<p begin="00:00:17.760" end="00:00:20.400" style="s2">if you get</p>
+<p begin="00:00:18.320" end="00:00:22.560" style="s2">two percent of interest rate there are</p>
+<p begin="00:00:20.400" end="00:00:23.359" style="s2">people on the defy space that are making</p>
+<p begin="00:00:22.560" end="00:00:27.119" style="s2">four percent</p>
+<p begin="00:00:23.359" end="00:00:27.760" style="s2">12 even 20 annually on their investments</p>
+<p begin="00:00:27.119" end="00:00:30.000" style="s2">so today</p>
+<p begin="00:00:27.760" end="00:00:31.359" style="s2">we are going to talk about defy or</p>
+<p begin="00:00:30.000" end="00:00:35.040" style="s2">decentralized</p>
+<p begin="00:00:31.359" end="00:00:37.040" style="s2">finance nicolas</p>
+<p begin="00:00:35.040" end="00:00:38.399" style="s2">and welcome to the video number six on</p>
+<p begin="00:00:37.040" end="00:00:39.920" style="s2">this series where i&#39;m trying to explain</p>
+<p begin="00:00:38.399" end="00:00:40.800" style="s2">bitcoin encryption all this crazy</p>
+<p begin="00:00:39.920" end="00:00:43.760" style="s2">ecosystem</p>
+<p begin="00:00:40.800" end="00:00:45.520" style="s2">for beginners and developers as well if</p>
+<p begin="00:00:43.760" end="00:00:47.200" style="s2">you have been watching our videos before</p>
+<p begin="00:00:45.520" end="00:00:48.559" style="s2">thank you so much for your support and</p>
+<p begin="00:00:47.200" end="00:00:50.079" style="s2">for still being here with us</p>
+<p begin="00:00:48.559" end="00:00:52.160" style="s2">and if you like my explanations and you</p>
+<p begin="00:00:50.079" end="00:00:53.600" style="s2">like the way i teach and explain things</p>
+<p begin="00:00:52.160" end="00:00:54.800" style="s2">please consider leaving a like and</p>
+<p begin="00:00:53.600" end="00:00:55.840" style="s2">subscribing to the channel because your</p>
+<p begin="00:00:54.800" end="00:00:57.680" style="s2">support helps me</p>
+<p begin="00:00:55.840" end="00:00:59.359" style="s2">continue with this series because still</p>
+<p begin="00:00:57.680" end="00:01:03.359" style="s2">there is too much to explain</p>
+<p begin="00:00:59.359" end="00:01:03.359" style="s2">so let&#39;s get started with d5</p>
+<p begin="00:01:04.479" end="00:01:09.119" style="s2">defy is an umbrella term for many kinds</p>
+<p begin="00:01:07.200" end="00:01:11.119" style="s2">of applications but at their core</p>
+<p begin="00:01:09.119" end="00:01:12.720" style="s2">they are all financial applications and</p>
+<p begin="00:01:11.119" end="00:01:13.439" style="s2">they are decentralized that means there</p>
+<p begin="00:01:12.720" end="00:01:15.200" style="s2">is no</p>
+<p begin="00:01:13.439" end="00:01:17.439" style="s2">middleman there is no third party and</p>
+<p begin="00:01:15.200" end="00:01:20.080" style="s2">everything runs on smart contracts</p>
+<p begin="00:01:17.439" end="00:01:21.280" style="s2">the d5 world is exploding there are too</p>
+<p begin="00:01:20.080" end="00:01:22.960" style="s2">many new things coming up</p>
+<p begin="00:01:21.280" end="00:01:24.320" style="s2">all the time so i&#39;m gonna give you some</p>
+<p begin="00:01:22.960" end="00:01:26.799" style="s2">examples of what you can do</p>
+<p begin="00:01:24.320" end="00:01:28.640" style="s2">right now with define for example we</p>
+<p begin="00:01:26.799" end="00:01:30.720" style="s2">have smart contract powered</p>
+<p begin="00:01:28.640" end="00:01:31.759" style="s2">banks we have applications right now</p>
+<p begin="00:01:30.720" end="00:01:34.400" style="s2">where you can go and</p>
+<p begin="00:01:31.759" end="00:01:36.479" style="s2">deposit money and you can lend it to</p>
+<p begin="00:01:34.400" end="00:01:38.640" style="s2">people and get interest rate or also</p>
+<p begin="00:01:36.479" end="00:01:39.680" style="s2">you can go and you can borrow money and</p>
+<p begin="00:01:38.640" end="00:01:40.960" style="s2">then of course you&#39;re going to have to</p>
+<p begin="00:01:39.680" end="00:01:42.960" style="s2">repay but all these</p>
+<p begin="00:01:40.960" end="00:01:44.560" style="s2">will be completely decentralized and</p>
+<p begin="00:01:42.960" end="00:01:46.720" style="s2">automatic without dealing with</p>
+<p begin="00:01:44.560" end="00:01:48.799" style="s2">any humans whatsoever we also have</p>
+<p begin="00:01:46.720" end="00:01:50.720" style="s2">decentralized exchanges where you can</p>
+<p begin="00:01:48.799" end="00:01:52.960" style="s2">trade your coins and you can buy</p>
+<p begin="00:01:50.720" end="00:01:55.119" style="s2">and sell without having to even reveal</p>
+<p begin="00:01:52.960" end="00:01:55.439" style="s2">your email for example you could even</p>
+<p begin="00:01:55.119" end="00:01:57.840" style="s2">buy</p>
+<p begin="00:01:55.439" end="00:01:58.640" style="s2">insurance against hackers and you can</p>
+<p begin="00:01:57.840" end="00:02:01.119" style="s2">even bet</p>
+<p begin="00:01:58.640" end="00:02:02.799" style="s2">on decentralized casinos now before we</p>
+<p begin="00:02:01.119" end="00:02:04.799" style="s2">keep going just make sure that all these</p>
+<p begin="00:02:02.799" end="00:02:06.320" style="s2">videos are for educational purposes</p>
+<p begin="00:02:04.799" end="00:02:08.160" style="s2">only you should do your own research and</p>
+<p begin="00:02:06.320" end="00:02:10.239" style="s2">you should use them at your own risk</p>
+<p begin="00:02:08.160" end="00:02:12.080" style="s2">this is only for educational purposes</p>
+<p begin="00:02:10.239" end="00:02:13.920" style="s2">only now before i can get started</p>
+<p begin="00:02:12.080" end="00:02:16.400" style="s2">showing you the biggest players of the</p>
+<p begin="00:02:13.920" end="00:02:18.160" style="s2">d5 ecosystem first we need to understand</p>
+<p begin="00:02:16.400" end="00:02:19.920" style="s2">one concept that is very very important</p>
+<p begin="00:02:18.160" end="00:02:22.239" style="s2">for the d5 world and that is</p>
+<p begin="00:02:19.920" end="00:02:23.200" style="s2">the concept of stable coins a stable</p>
+<p begin="00:02:22.239" end="00:02:24.879" style="s2">coin is</p>
+<p begin="00:02:23.200" end="00:02:26.319" style="s2">a cryptocurrency literally a</p>
+<p begin="00:02:24.879" end="00:02:27.840" style="s2">cryptocurrency you can send it</p>
+<p begin="00:02:26.319" end="00:02:29.920" style="s2">you can trade it you can put in your</p>
+<p begin="00:02:27.840" end="00:02:32.560" style="s2">wallet all that stuff but</p>
+<p begin="00:02:29.920" end="00:02:34.000" style="s2">it is packed or anchored to the us</p>
+<p begin="00:02:32.560" end="00:02:36.239" style="s2">dollar that means that the value of one</p>
+<p begin="00:02:34.000" end="00:02:37.360" style="s2">stable coin is equal to one u.s dollar</p>
+<p begin="00:02:36.239" end="00:02:39.599" style="s2">that&#39;s why they say</p>
+<p begin="00:02:37.360" end="00:02:41.360" style="s2">stable coin in the name it&#39;s stable it</p>
+<p begin="00:02:39.599" end="00:02:43.920" style="s2">doesn&#39;t go up and down like bitcoin does</p>
+<p begin="00:02:41.360" end="00:02:45.760" style="s2">it&#39;s stable one two one usually these</p>
+<p begin="00:02:43.920" end="00:02:46.879" style="s2">cryptocurrencies are backed by a company</p>
+<p begin="00:02:45.760" end="00:02:50.080" style="s2">so for example we have</p>
+<p begin="00:02:46.879" end="00:02:52.000" style="s2">usdt we have usdc we have also b usd in</p>
+<p begin="00:02:50.080" end="00:02:53.680" style="s2">the case of bus this is backed by</p>
+<p begin="00:02:52.000" end="00:02:56.560" style="s2">binance which is an exchange</p>
+<p begin="00:02:53.680" end="00:02:57.360" style="s2">so binance is promising that your one b</p>
+<p begin="00:02:56.560" end="00:02:59.440" style="s2">usd</p>
+<p begin="00:02:57.360" end="00:03:01.360" style="s2">equals to one u.s dollar that they have</p>
+<p begin="00:02:59.440" end="00:03:03.200" style="s2">on their bank account for example</p>
+<p begin="00:03:01.360" end="00:03:04.720" style="s2">now the cool thing about stable coins is</p>
+<p begin="00:03:03.200" end="00:03:06.800" style="s2">that of course first of all it&#39;s a</p>
+<p begin="00:03:04.720" end="00:03:08.480" style="s2">stable so if i buy stablecoin today</p>
+<p begin="00:03:06.800" end="00:03:09.840" style="s2">tomorrow is gonna be worth the same one</p>
+<p begin="00:03:08.480" end="00:03:12.080" style="s2">dollar one stablecoin</p>
+<p begin="00:03:09.840" end="00:03:14.480" style="s2">but also the fact that they are a</p>
+<p begin="00:03:12.080" end="00:03:15.920" style="s2">cryptocurrency means that i can do stuff</p>
+<p begin="00:03:14.480" end="00:03:17.840" style="s2">with them i can program things with them</p>
+<p begin="00:03:15.920" end="00:03:18.400" style="s2">we can use smart contracts with stable</p>
+<p begin="00:03:17.840" end="00:03:20.159" style="s2">coins</p>
+<p begin="00:03:18.400" end="00:03:21.599" style="s2">here is when we start building awesome</p>
+<p begin="00:03:20.159" end="00:03:24.799" style="s2">stuff one example of an</p>
+<p begin="00:03:21.599" end="00:03:26.239" style="s2">awesome d5 project is ave or eve i don&#39;t</p>
+<p begin="00:03:24.799" end="00:03:28.400" style="s2">know how to say it the point is</p>
+<p begin="00:03:26.239" end="00:03:30.400" style="s2">ave it is a liquidity pool what that</p>
+<p begin="00:03:28.400" end="00:03:30.879" style="s2">means is basically like a bank where you</p>
+<p begin="00:03:30.400" end="00:03:32.879" style="s2">can</p>
+<p begin="00:03:30.879" end="00:03:33.920" style="s2">borrow money or also you can go and lend</p>
+<p begin="00:03:32.879" end="00:03:36.239" style="s2">money to people</p>
+<p begin="00:03:33.920" end="00:03:39.599" style="s2">here for example is where as of today</p>
+<p begin="00:03:36.239" end="00:03:41.760" style="s2">you can deposit usdt or let&#39;s say busd</p>
+<p begin="00:03:39.599" end="00:03:43.920" style="s2">and you can make 9 to 12</p>
+<p begin="00:03:41.760" end="00:03:45.519" style="s2">per year just borrowing that money to</p>
+<p begin="00:03:43.920" end="00:03:47.280" style="s2">people now the coolest thing about all</p>
+<p begin="00:03:45.519" end="00:03:48.000" style="s2">these is that it&#39;s decentralized i can</p>
+<p begin="00:03:47.280" end="00:03:49.519" style="s2">just</p>
+<p begin="00:03:48.000" end="00:03:51.440" style="s2">lend my money to people and i can</p>
+<p begin="00:03:49.519" end="00:03:53.200" style="s2">receive interest rate on that money</p>
+<p begin="00:03:51.440" end="00:03:54.959" style="s2">without having to deal with any human</p>
+<p begin="00:03:53.200" end="00:03:56.720" style="s2">everything is programmed everything is</p>
+<p begin="00:03:54.959" end="00:03:58.400" style="s2">on the smart contract which is amazing</p>
+<p begin="00:03:56.720" end="00:03:58.799" style="s2">now thanks to smart contracts thanks to</p>
+<p begin="00:03:58.400" end="00:04:01.840" style="s2">this</p>
+<p begin="00:03:58.799" end="00:04:04.400" style="s2">awesomeness right now ave or eve has</p>
+<p begin="00:04:01.840" end="00:04:05.120" style="s2">nine billion dollars under management</p>
+<p begin="00:04:04.400" end="00:04:08.000" style="s2">there are nine</p>
+<p begin="00:04:05.120" end="00:04:09.599" style="s2">billion dollars of people depositing and</p>
+<p begin="00:04:08.000" end="00:04:11.680" style="s2">loaning from the other platform</p>
+<p begin="00:04:09.599" end="00:04:14.319" style="s2">and here there are no humans on the</p>
+<p begin="00:04:11.680" end="00:04:14.879" style="s2">process now let&#39;s move on from ave and</p>
+<p begin="00:04:14.319" end="00:04:18.400" style="s2">talk about</p>
+<p begin="00:04:14.879" end="00:04:20.639" style="s2">decentralized exchanges or taxes finance</p>
+<p begin="00:04:18.400" end="00:04:22.400" style="s2">coinbase bitcom all these are</p>
+<p begin="00:04:20.639" end="00:04:23.840" style="s2">centralized exchanges this means that if</p>
+<p begin="00:04:22.400" end="00:04:26.400" style="s2">i want to sell you</p>
+<p begin="00:04:23.840" end="00:04:28.320" style="s2">my bitcoin on binance binance is going</p>
+<p begin="00:04:26.400" end="00:04:30.160" style="s2">to take a commission a trading fee</p>
+<p begin="00:04:28.320" end="00:04:31.360" style="s2">also binance can close my account they</p>
+<p begin="00:04:30.160" end="00:04:32.400" style="s2">can limit my account they can do</p>
+<p begin="00:04:31.360" end="00:04:34.320" style="s2">whatever they want with my account</p>
+<p begin="00:04:32.400" end="00:04:36.000" style="s2">because it&#39;s a centralized exchange</p>
+<p begin="00:04:34.320" end="00:04:37.520" style="s2">now decentralized exchanges are the</p>
+<p begin="00:04:36.000" end="00:04:39.919" style="s2">complete opposite for example</p>
+<p begin="00:04:37.520" end="00:04:41.600" style="s2">uni swap or sushi swap or pancake swap</p>
+<p begin="00:04:39.919" end="00:04:44.080" style="s2">or so many of them out there</p>
+<p begin="00:04:41.600" end="00:04:44.639" style="s2">they are run by code they are not run by</p>
+<p begin="00:04:44.080" end="00:04:46.560" style="s2">people</p>
+<p begin="00:04:44.639" end="00:04:48.320" style="s2">in a decentralized exchange the users</p>
+<p begin="00:04:46.560" end="00:04:49.280" style="s2">are the ones that provide the liquidity</p>
+<p begin="00:04:48.320" end="00:04:51.840" style="s2">and for doing this</p>
+<p begin="00:04:49.280" end="00:04:52.720" style="s2">they receive some trading fees a pool is</p>
+<p begin="00:04:51.840" end="00:04:55.120" style="s2">how we can exchange</p>
+<p begin="00:04:52.720" end="00:04:56.000" style="s2">tokens without a middlemen for example</p>
+<p begin="00:04:55.120" end="00:04:58.320" style="s2">if i want to exchange</p>
+<p begin="00:04:56.000" end="00:04:59.680" style="s2">my wi-fi tokens for linked tokens i will</p>
+<p begin="00:04:58.320" end="00:05:01.919" style="s2">have to go to a wi-fi</p>
+<p begin="00:04:59.680" end="00:05:03.840" style="s2">link liquidity pool a liquidity pool is</p>
+<p begin="00:05:01.919" end="00:05:07.039" style="s2">basically like a smart contract that has</p>
+<p begin="00:05:03.840" end="00:05:07.600" style="s2">two symbols wi-fi and link and now what</p>
+<p begin="00:05:07.039" end="00:05:10.720" style="s2">i will do</p>
+<p begin="00:05:07.600" end="00:05:12.720" style="s2">is i will put some wi-fi tokens on that</p>
+<p begin="00:05:10.720" end="00:05:14.479" style="s2">contract and that contract will give me</p>
+<p begin="00:05:12.720" end="00:05:16.880" style="s2">some link tokens as you can see it&#39;s a</p>
+<p begin="00:05:14.479" end="00:05:18.960" style="s2">hundred percent automated process</p>
+<p begin="00:05:16.880" end="00:05:20.160" style="s2">so that&#39;s a liquidity pool again a smart</p>
+<p begin="00:05:18.960" end="00:05:22.160" style="s2">contract that has two</p>
+<p begin="00:05:20.160" end="00:05:23.199" style="s2">sets of tokens that it receives one and</p>
+<p begin="00:05:22.160" end="00:05:26.240" style="s2">you can spill the other</p>
+<p begin="00:05:23.199" end="00:05:27.360" style="s2">okay now the point is that users can be</p>
+<p begin="00:05:26.240" end="00:05:29.120" style="s2">the ones providing</p>
+<p begin="00:05:27.360" end="00:05:30.479" style="s2">the liquidity for the pool so let&#39;s say</p>
+<p begin="00:05:29.120" end="00:05:31.840" style="s2">for example that you have a thousand</p>
+<p begin="00:05:30.479" end="00:05:33.360" style="s2">dollars right and you want to invest</p>
+<p begin="00:05:31.840" end="00:05:34.400" style="s2">this thousand dollars what you can do is</p>
+<p begin="00:05:33.360" end="00:05:38.080" style="s2">let&#39;s say you buy</p>
+<p begin="00:05:34.400" end="00:05:40.639" style="s2">500 b usd or usdt some stablecoin and</p>
+<p begin="00:05:38.080" end="00:05:41.360" style="s2">then you buy 500 worth of ethereum now</p>
+<p begin="00:05:40.639" end="00:05:44.000" style="s2">you have</p>
+<p begin="00:05:41.360" end="00:05:45.039" style="s2">busd and ethereum you are going to put</p>
+<p begin="00:05:44.000" end="00:05:48.560" style="s2">your busd</p>
+<p begin="00:05:45.039" end="00:05:50.800" style="s2">and your ethereum into a usd ethereum</p>
+<p begin="00:05:48.560" end="00:05:52.639" style="s2">pool and if i for example i&#39;m using a</p>
+<p begin="00:05:50.800" end="00:05:54.800" style="s2">decentralized exchange and i want to buy</p>
+<p begin="00:05:52.639" end="00:05:55.600" style="s2">ethereum and i have busd what i will do</p>
+<p begin="00:05:54.800" end="00:05:57.360" style="s2">is i will use</p>
+<p begin="00:05:55.600" end="00:05:58.720" style="s2">your pool and because i&#39;m using your</p>
+<p begin="00:05:57.360" end="00:06:00.639" style="s2">pool you will get</p>
+<p begin="00:05:58.720" end="00:06:02.560" style="s2">some fees of the transaction because i&#39;m</p>
+<p begin="00:06:00.639" end="00:06:03.919" style="s2">basically using the pool that you are</p>
+<p begin="00:06:02.560" end="00:06:05.759" style="s2">the liquidity provider of</p>
+<p begin="00:06:03.919" end="00:06:07.120" style="s2">remember the coolest thing about all</p>
+<p begin="00:06:05.759" end="00:06:09.440" style="s2">these is that that&#39;s all</p>
+<p begin="00:06:07.120" end="00:06:11.360" style="s2">in code code is low literally in all</p>
+<p begin="00:06:09.440" end="00:06:13.120" style="s2">this process there is no humans involved</p>
+<p begin="00:06:11.360" end="00:06:14.880" style="s2">this is all automatic you are going to</p>
+<p begin="00:06:13.120" end="00:06:16.000" style="s2">put your busd and your ethereum you&#39;re</p>
+<p begin="00:06:14.880" end="00:06:16.960" style="s2">going to start getting the fizz</p>
+<p begin="00:06:16.000" end="00:06:18.639" style="s2">automatically and</p>
+<p begin="00:06:16.960" end="00:06:20.560" style="s2">if i want to let&#39;s say buy ethereum with</p>
+<p begin="00:06:18.639" end="00:06:21.039" style="s2">my busd i&#39;m gonna use your pool and i&#39;m</p>
+<p begin="00:06:20.560" end="00:06:23.280" style="s2">gonna</p>
+<p begin="00:06:21.039" end="00:06:24.240" style="s2">just get my cons automatically nobody is</p>
+<p begin="00:06:23.280" end="00:06:26.400" style="s2">gonna interfere</p>
+<p begin="00:06:24.240" end="00:06:28.160" style="s2">on the trade there is no exchange</p>
+<p begin="00:06:26.400" end="00:06:29.919" style="s2">checking my email or my papers</p>
+<p begin="00:06:28.160" end="00:06:31.600" style="s2">nothing like that everything is running</p>
+<p begin="00:06:29.919" end="00:06:33.919" style="s2">on code literally and now</p>
+<p begin="00:06:31.600" end="00:06:36.240" style="s2">for our last example of applications in</p>
+<p begin="00:06:33.919" end="00:06:38.319" style="s2">this crazy d5 world there are websites</p>
+<p begin="00:06:36.240" end="00:06:39.280" style="s2">right now where using stable coins like</p>
+<p begin="00:06:38.319" end="00:06:41.520" style="s2">usdt</p>
+<p begin="00:06:39.280" end="00:06:42.639" style="s2">usdc all those things you can literally</p>
+<p begin="00:06:41.520" end="00:06:44.000" style="s2">bet on almost</p>
+<p begin="00:06:42.639" end="00:06:45.600" style="s2">anything that you want like anything</p>
+<p begin="00:06:44.000" end="00:06:46.080" style="s2">that&#39;s going on in the world you can bet</p>
+<p begin="00:06:45.600" end="00:06:48.319" style="s2">on that</p>
+<p begin="00:06:46.080" end="00:06:50.000" style="s2">for example just now i found two crazy</p>
+<p begin="00:06:48.319" end="00:06:51.599" style="s2">bits one is that you can bet if the</p>
+<p begin="00:06:50.000" end="00:06:52.479" style="s2">tokyo olympics are going to be cancelled</p>
+<p begin="00:06:51.599" end="00:06:54.639" style="s2">or not</p>
+<p begin="00:06:52.479" end="00:06:56.479" style="s2">and also you can bet who is going to</p>
+<p begin="00:06:54.639" end="00:06:58.880" style="s2">have more money by the end of</p>
+<p begin="00:06:56.479" end="00:07:00.560" style="s2">april is it going to be ill mosque or</p>
+<p begin="00:06:58.880" end="00:07:03.440" style="s2">jeff bezos you can literally</p>
+<p begin="00:07:00.560" end="00:07:05.280" style="s2">bet on that as you can see d5 is crazy</p>
+<p begin="00:07:03.440" end="00:07:06.960" style="s2">it&#39;s unstoppable and is only getting</p>
+<p begin="00:07:05.280" end="00:07:07.440" style="s2">started we are only seeing the beginning</p>
+<p begin="00:07:06.960" end="00:07:09.360" style="s2">of that</p>
+<p begin="00:07:07.440" end="00:07:10.960" style="s2">now before i go i just want to let you</p>
+<p begin="00:07:09.360" end="00:07:12.479" style="s2">know that i agree with you if you&#39;re</p>
+<p begin="00:07:10.960" end="00:07:14.720" style="s2">thinking that everything that i say</p>
+<p begin="00:07:12.479" end="00:07:16.639" style="s2">sounds too good to be true like i talked</p>
+<p begin="00:07:14.720" end="00:07:18.880" style="s2">about defy today we talked about nfts</p>
+<p begin="00:07:16.639" end="00:07:20.960" style="s2">before smart contracts shared computer</p>
+<p begin="00:07:18.880" end="00:07:22.479" style="s2">mining like all these things yeah they</p>
+<p begin="00:07:20.960" end="00:07:24.160" style="s2">sound too good to be true maybe you&#39;re</p>
+<p begin="00:07:22.479" end="00:07:25.440" style="s2">thinking like hey what is the catch like</p>
+<p begin="00:07:24.160" end="00:07:27.120" style="s2">there has to be something wrong with</p>
+<p begin="00:07:25.440" end="00:07:28.560" style="s2">this there has to be a problem with this</p>
+<p begin="00:07:27.120" end="00:07:29.360" style="s2">industry there is something that i&#39;m not</p>
+<p begin="00:07:28.560" end="00:07:31.120" style="s2">telling you</p>
+<p begin="00:07:29.360" end="00:07:32.800" style="s2">and that&#39;s true i haven&#39;t been talking</p>
+<p begin="00:07:31.120" end="00:07:33.520" style="s2">about the problems of the bitcoin</p>
+<p begin="00:07:32.800" end="00:07:35.840" style="s2">industry</p>
+<p begin="00:07:33.520" end="00:07:37.520" style="s2">how for example mining bitcoin might be</p>
+<p begin="00:07:35.840" end="00:07:39.199" style="s2">bad for the environment and</p>
+<p begin="00:07:37.520" end="00:07:40.800" style="s2">all the things we have to consider like</p>
+<p begin="00:07:39.199" end="00:07:41.840" style="s2">all these things i haven&#39;t talked about</p>
+<p begin="00:07:40.800" end="00:07:43.440" style="s2">and that&#39;s what&#39;s gonna be</p>
+<p begin="00:07:41.840" end="00:07:45.120" style="s2">on the next video the next video is</p>
+<p begin="00:07:43.440" end="00:07:46.160" style="s2">going to be about the problems of the</p>
+<p begin="00:07:45.120" end="00:07:48.080" style="s2">crypto industries</p>
+<p begin="00:07:46.160" end="00:07:49.680" style="s2">so if you have any comments any</p>
+<p begin="00:07:48.080" end="00:07:51.599" style="s2">questions anything that you think that</p>
+<p begin="00:07:49.680" end="00:07:52.879" style="s2">maybe crypt is not so good at like what</p>
+<p begin="00:07:51.599" end="00:07:54.639" style="s2">about this what about that</p>
+<p begin="00:07:52.879" end="00:07:55.840" style="s2">all these things please leave them on</p>
+<p begin="00:07:54.639" end="00:07:56.879" style="s2">the comments because i&#39;m going to be</p>
+<p begin="00:07:55.840" end="00:07:58.000" style="s2">looking at those comments and we&#39;re</p>
+<p begin="00:07:56.879" end="00:08:00.160" style="s2">going to talk about the</p>
+<p begin="00:07:58.000" end="00:08:02.000" style="s2">problems of this whole industry on the</p>
+<p begin="00:08:00.160" end="00:08:02.479" style="s2">next video i want to be the first one to</p>
+<p begin="00:08:02.000" end="00:08:04.400" style="s2">tell you</p>
+<p begin="00:08:02.479" end="00:08:05.919" style="s2">that it&#39;s not perfect everything is not</p>
+<p begin="00:08:04.400" end="00:08:07.440" style="s2">as good as it looks</p>
+<p begin="00:08:05.919" end="00:08:09.280" style="s2">there are some problems and we&#39;re going</p>
+<p begin="00:08:07.440" end="00:08:11.039" style="s2">to discuss it on the next video so make</p>
+<p begin="00:08:09.280" end="00:08:12.560" style="s2">sure you leave all your skepticism and</p>
+<p begin="00:08:11.039" end="00:08:14.319" style="s2">all your questions and all your things</p>
+<p begin="00:08:12.560" end="00:08:15.520" style="s2">on the comments okay thank you so much</p>
+<p begin="00:08:14.319" end="00:08:16.639" style="s2">for your support i wouldn&#39;t be able to</p>
+<p begin="00:08:15.520" end="00:08:17.360" style="s2">do this without you and without your</p>
+<p begin="00:08:16.639" end="00:08:19.199" style="s2">support</p>
+<p begin="00:08:17.360" end="00:08:20.479" style="s2">like i said that&#39;s it thank you leave a</p>
+<p begin="00:08:19.199" end="00:08:22.400" style="s2">like please subscribe</p>
+<p begin="00:08:20.479" end="00:08:23.919" style="s2">leave a comment and don&#39;t forget to be</p>
+<p begin="00:08:22.400" end="00:08:24.960" style="s2">happy don&#39;t forget to eat kimchi thumbs</p>
+<p begin="00:08:23.919" end="00:08:26.879" style="s2">up</p>
+<p begin="00:08:24.960" end="00:08:30.160" style="s2">see you on the next one problems of</p>
+<p begin="00:08:26.879" end="00:08:30.160" style="s2">crypto coming up next</p>
+<p begin="00:08:34.839" end="00:08:37.839" style="s2">bye</p>
+</div>
+</body>
+</tt>

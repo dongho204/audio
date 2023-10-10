@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:01.639" end="00:00:06.060" style="s2">today we&#39;re going to take a look at some</p>
+<p begin="00:00:03.840" end="00:00:08.460" style="s2">of the coolest and most useful CSS</p>
+<p begin="00:00:06.060" end="00:00:10.620" style="s2">Frameworks that you need to know about</p>
+<p begin="00:00:08.460" end="00:00:12.840" style="s2">we will take a look at Frameworks on</p>
+<p begin="00:00:10.620" end="00:00:15.480" style="s2">different categories like general</p>
+<p begin="00:00:12.840" end="00:00:17.900" style="s2">purpose Frameworks utility based</p>
+<p begin="00:00:15.480" end="00:00:20.820" style="s2">Frameworks classless Frameworks</p>
+<p begin="00:00:17.900" end="00:00:24.000" style="s2">specialized framework super lightweight</p>
+<p begin="00:00:20.820" end="00:00:25.980" style="s2">Frameworks and finally react UI</p>
+<p begin="00:00:24.000" end="00:00:28.199" style="s2">Frameworks if you don&#39;t know what they</p>
+<p begin="00:00:25.980" end="00:00:29.939" style="s2">are or why you need them a CSS framework</p>
+<p begin="00:00:28.199" end="00:00:33.000" style="s2">is just a collection of pre-made</p>
+<p begin="00:00:29.939" end="00:00:35.820" style="s2">components or utilities like buttons</p>
+<p begin="00:00:33.000" end="00:00:37.980" style="s2">navigation bars drop downs forms Etc</p>
+<p begin="00:00:35.820" end="00:00:40.200" style="s2">that you can use to move quicker and</p>
+<p begin="00:00:37.980" end="00:00:42.180" style="s2">finish your projects faster a general</p>
+<p begin="00:00:40.200" end="00:00:44.520" style="s2">purpose Frameworks are all in one</p>
+<p begin="00:00:42.180" end="00:00:46.739" style="s2">toolkit for building websites they are</p>
+<p begin="00:00:44.520" end="00:00:49.800" style="s2">big bulky and they&#39;ve got everything you</p>
+<p begin="00:00:46.739" end="00:00:53.280" style="s2">need grids typography buttons forms</p>
+<p begin="00:00:49.800" end="00:00:55.219" style="s2">models alerts accordions Etc bootstrap</p>
+<p begin="00:00:53.280" end="00:00:57.719" style="s2">is a super popular</p>
+<p begin="00:00:55.219" end="00:00:59.699" style="s2">well-established CSS framework that is</p>
+<p begin="00:00:57.719" end="00:01:03.000" style="s2">great for beginners and experts it</p>
+<p begin="00:00:59.699" end="00:01:05.519" style="s2">offers a very wide range of pre-designed</p>
+<p begin="00:01:03.000" end="00:01:08.400" style="s2">components which makes it a go-to choice</p>
+<p begin="00:01:05.519" end="00:01:10.500" style="s2">for quick prototyping however its</p>
+<p begin="00:01:08.400" end="00:01:13.020" style="s2">popularity can be a double-edged sword</p>
+<p begin="00:01:10.500" end="00:01:15.360" style="s2">as many websites using bootstrap can end</p>
+<p begin="00:01:13.020" end="00:01:17.700" style="s2">up looking similar unless you put effort</p>
+<p begin="00:01:15.360" end="00:01:20.220" style="s2">on applying a custom styling Foundation</p>
+<p begin="00:01:17.700" end="00:01:22.320" style="s2">is another very robust flexible</p>
+<p begin="00:01:20.220" end="00:01:24.600" style="s2">framework that is excellent for creating</p>
+<p begin="00:01:22.320" end="00:01:26.400" style="s2">responsive designs it is highly</p>
+<p begin="00:01:24.600" end="00:01:28.920" style="s2">customizable allowing you to build</p>
+<p begin="00:01:26.400" end="00:01:30.720" style="s2">complex layouts with ease but it might</p>
+<p begin="00:01:28.920" end="00:01:33.180" style="s2">have a steeper learning curve compared</p>
+<p begin="00:01:30.720" end="00:01:36.180" style="s2">to other Frameworks websites built with</p>
+<p begin="00:01:33.180" end="00:01:39.299" style="s2">Foundation include Mini Cooper Pixar Dr</p>
+<p begin="00:01:36.180" end="00:01:41.820" style="s2">Martens Ford Outback Steakhouse and many</p>
+<p begin="00:01:39.299" end="00:01:44.280" style="s2">more Bulma is one of my favorite ones</p>
+<p begin="00:01:41.820" end="00:01:46.740" style="s2">it&#39;s a lightweight CSS framework based</p>
+<p begin="00:01:44.280" end="00:01:48.659" style="s2">on flexbox that is easy to learn and use</p>
+<p begin="00:01:46.740" end="00:01:50.880" style="s2">with a clean syntax and good</p>
+<p begin="00:01:48.659" end="00:01:52.979" style="s2">documentation it does not have as many</p>
+<p begin="00:01:50.880" end="00:01:54.899" style="s2">pre-designed components as a bootstrap</p>
+<p begin="00:01:52.979" end="00:01:57.060" style="s2">or Foundation which makes it more</p>
+<p begin="00:01:54.899" end="00:01:58.979" style="s2">lightweight and easier to learn also</p>
+<p begin="00:01:57.060" end="00:02:01.820" style="s2">because it is really easy to customize</p>
+<p begin="00:01:58.979" end="00:02:03.960" style="s2">no Bulma website looks the same</p>
+<p begin="00:02:01.820" end="00:02:06.479" style="s2">utility-based Frameworks are like Lego</p>
+<p begin="00:02:03.960" end="00:02:08.880" style="s2">blocks of CSS they give you a bunch of</p>
+<p begin="00:02:06.479" end="00:02:10.800" style="s2">small single purpose classes that you</p>
+<p begin="00:02:08.880" end="00:02:13.140" style="s2">can mix and match to build your website</p>
+<p begin="00:02:10.800" end="00:02:15.599" style="s2">they don&#39;t have pre-made components such</p>
+<p begin="00:02:13.140" end="00:02:17.580" style="s2">as form or a gallery like the ones in</p>
+<p begin="00:02:15.599" end="00:02:20.160" style="s2">the previous category instead they have</p>
+<p begin="00:02:17.580" end="00:02:23.819" style="s2">a bunch of classes like padding top 20</p>
+<p begin="00:02:20.160" end="00:02:25.800" style="s2">or font size large they might take a bit</p>
+<p begin="00:02:23.819" end="00:02:27.780" style="s2">of getting used to but once you get the</p>
+<p begin="00:02:25.800" end="00:02:30.599" style="s2">hang of it you can create some really</p>
+<p begin="00:02:27.780" end="00:02:32.340" style="s2">Unique Designs Tailwind CSS is by far</p>
+<p begin="00:02:30.599" end="00:02:34.860" style="s2">the most popular framework on this</p>
+<p begin="00:02:32.340" end="00:02:36.840" style="s2">category it has got utility classes for</p>
+<p begin="00:02:34.860" end="00:02:39.599" style="s2">almost everything you will need flexbox</p>
+<p begin="00:02:36.840" end="00:02:41.040" style="s2">and grid facing sizing typography</p>
+<p begin="00:02:39.599" end="00:02:44.640" style="s2">backgrounds Transformations</p>
+<p begin="00:02:41.040" end="00:02:47.280" style="s2">interactivity Etc it even has a just in</p>
+<p begin="00:02:44.640" end="00:02:49.739" style="s2">time compiler that creates classes on</p>
+<p begin="00:02:47.280" end="00:02:52.080" style="s2">demand when you need to use arbitrary</p>
+<p begin="00:02:49.739" end="00:02:55.080" style="s2">values because all it does is give you</p>
+<p begin="00:02:52.080" end="00:02:57.780" style="s2">some CSS classes and no Tailwind website</p>
+<p begin="00:02:55.080" end="00:03:00.420" style="s2">looks the same open props is another</p>
+<p begin="00:02:57.780" end="00:03:02.220" style="s2">utility based framework that just like</p>
+<p begin="00:03:00.420" end="00:03:04.739" style="s2">Tailwind comes with a lot of building</p>
+<p begin="00:03:02.220" end="00:03:06.420" style="s2">blocks but unlike Tailwind those</p>
+<p begin="00:03:04.739" end="00:03:09.000" style="s2">building blocks don&#39;t come on the shape</p>
+<p begin="00:03:06.420" end="00:03:12.120" style="s2">of class names on open props they come</p>
+<p begin="00:03:09.000" end="00:03:14.400" style="s2">on the shape of CSS variables open props</p>
+<p begin="00:03:12.120" end="00:03:17.220" style="s2">comes with a bunch of pre-made CSS</p>
+<p begin="00:03:14.400" end="00:03:19.800" style="s2">variables that you call from your CSS</p>
+<p begin="00:03:17.220" end="00:03:21.840" style="s2">code this way you keep your HTML clean</p>
+<p begin="00:03:19.800" end="00:03:23.940" style="s2">of class names which is something that</p>
+<p begin="00:03:21.840" end="00:03:26.700" style="s2">people that don&#39;t like Tailwind CSS</p>
+<p begin="00:03:23.940" end="00:03:29.400" style="s2">complain about open props has CSS</p>
+<p begin="00:03:26.700" end="00:03:31.739" style="s2">variables for colors gradients Shadows</p>
+<p begin="00:03:29.400" end="00:03:35.519" style="s2">aspect ratios typography animations</p>
+<p begin="00:03:31.739" end="00:03:37.680" style="s2">sizes media queries and more base CSS is</p>
+<p begin="00:03:35.519" end="00:03:40.260" style="s2">another utility based framework and just</p>
+<p begin="00:03:37.680" end="00:03:43.080" style="s2">like Tailwind it uses class names but</p>
+<p begin="00:03:40.260" end="00:03:46.980" style="s2">unlike Tailwind base CSS is pretty small</p>
+<p begin="00:03:43.080" end="00:03:49.680" style="s2">it only weighs 2.13 kilobytes it comes</p>
+<p begin="00:03:46.980" end="00:03:52.440" style="s2">with just enough utilities to help you</p>
+<p begin="00:03:49.680" end="00:03:55.200" style="s2">get the foundation of your design before</p>
+<p begin="00:03:52.440" end="00:03:57.720" style="s2">adding extra custom code going from one</p>
+<p begin="00:03:55.200" end="00:03:59.459" style="s2">extreme to the next classless Frameworks</p>
+<p begin="00:03:57.720" end="00:04:02.340" style="s2">are CSS Frameworks that don&#39;t require</p>
+<p begin="00:03:59.459" end="00:04:04.680" style="s2">you to predefined class names instead</p>
+<p begin="00:04:02.340" end="00:04:06.780" style="s2">they apply Styles directly to the HTML</p>
+<p begin="00:04:04.680" end="00:04:09.000" style="s2">elements making them ideal for simple</p>
+<p begin="00:04:06.780" end="00:04:11.159" style="s2">projects and quick prototypes all you</p>
+<p begin="00:04:09.000" end="00:04:12.720" style="s2">have to do is import the CSS file of</p>
+<p begin="00:04:11.159" end="00:04:15.480" style="s2">these Frameworks and your page will</p>
+<p begin="00:04:12.720" end="00:04:18.000" style="s2">automatically look great the water CSS</p>
+<p begin="00:04:15.480" end="00:04:20.459" style="s2">is super minimalistic but it does the</p>
+<p begin="00:04:18.000" end="00:04:22.620" style="s2">job well it comes with dark and light</p>
+<p begin="00:04:20.459" end="00:04:25.940" style="s2">theme it is responsive and it makes</p>
+<p begin="00:04:22.620" end="00:04:29.160" style="s2">forms and buttons look really nice</p>
+<p begin="00:04:25.940" end="00:04:31.080" style="s2">mvp.css comes with a layout system as</p>
+<p begin="00:04:29.160" end="00:04:33.780" style="s2">well it has cards with shadows</p>
+<p begin="00:04:31.080" end="00:04:35.639" style="s2">accordions Stables headers and Heroes</p>
+<p begin="00:04:33.780" end="00:04:39.060" style="s2">all you have to do is use the correct</p>
+<p begin="00:04:35.639" end="00:04:41.699" style="s2">HTML tag and MVP CSS will make it look</p>
+<p begin="00:04:39.060" end="00:04:43.460" style="s2">good specialized Frameworks are designed</p>
+<p begin="00:04:41.699" end="00:04:46.500" style="s2">to do one thing and do it well</p>
+<p begin="00:04:43.460" end="00:04:49.320" style="s2">materialize is a specialized framework</p>
+<p begin="00:04:46.500" end="00:04:51.960" style="s2">that implements Google&#39;s material design</p>
+<p begin="00:04:49.320" end="00:04:55.320" style="s2">system CSS is a framework for building</p>
+<p begin="00:04:51.960" end="00:04:58.500" style="s2">retro Apple inspired interfaces it comes</p>
+<p begin="00:04:55.320" end="00:05:01.080" style="s2">with buttons menus text boxes titles</p>
+<p begin="00:04:58.500" end="00:05:03.000" style="s2">dialogues and more components that will</p>
+<p begin="00:05:01.080" end="00:05:07.500" style="s2">make your website look like Apple</p>
+<p begin="00:05:03.000" end="00:05:10.380" style="s2">Computers did back in 1984. Nest CSS is</p>
+<p begin="00:05:07.500" end="00:05:13.080" style="s2">a framework with buttons inputs forms</p>
+<p begin="00:05:10.380" end="00:05:15.240" style="s2">containers tables and even icons with</p>
+<p begin="00:05:13.080" end="00:05:19.919" style="s2">the style of the Nintendo Entertainment</p>
+<p begin="00:05:15.240" end="00:05:22.199" style="s2">System PS1 CSS inspired by Nest CSS is</p>
+<p begin="00:05:19.919" end="00:05:24.900" style="s2">the same but on the styles of the</p>
+<p begin="00:05:22.199" end="00:05:28.500" style="s2">PlayStation 1. and in the case that you</p>
+<p begin="00:05:24.900" end="00:05:30.419" style="s2">like Windows you can use 98 CSS a CSS</p>
+<p begin="00:05:28.500" end="00:05:32.940" style="s2">library for building interfaces that</p>
+<p begin="00:05:30.419" end="00:05:35.820" style="s2">look like Windows 98 it comes with all</p>
+<p begin="00:05:32.940" end="00:05:37.919" style="s2">the forms sliders title bars tabs tables</p>
+<p begin="00:05:35.820" end="00:05:41.100" style="s2">and more if you prefer a more modern</p>
+<p begin="00:05:37.919" end="00:05:43.800" style="s2">flavor of Windows you can use XP CSS</p>
+<p begin="00:05:41.100" end="00:05:46.740" style="s2">which has got the same components but in</p>
+<p begin="00:05:43.800" end="00:05:50.160" style="s2">the Windows XP style or you can use 7</p>
+<p begin="00:05:46.740" end="00:05:52.199" style="s2">CSS if you like the Windows 7 style more</p>
+<p begin="00:05:50.160" end="00:05:54.539" style="s2">Bosch there is another specialized</p>
+<p begin="00:05:52.199" end="00:05:56.639" style="s2">framework for developing a responsive</p>
+<p begin="00:05:54.539" end="00:05:58.919" style="s2">email templates if you have experience</p>
+<p begin="00:05:56.639" end="00:06:00.960" style="s2">with email template development you know</p>
+<p begin="00:05:58.919" end="00:06:03.720" style="s2">that it sucks there are so many email</p>
+<p begin="00:06:00.960" end="00:06:06.180" style="s2">clients so many devices and not all</p>
+<p begin="00:06:03.720" end="00:06:08.639" style="s2">modern CSS works on email templates</p>
+<p begin="00:06:06.180" end="00:06:10.620" style="s2">Butler comes with a bunch of components</p>
+<p begin="00:06:08.639" end="00:06:13.020" style="s2">for your email templates that have been</p>
+<p begin="00:06:10.620" end="00:06:17.039" style="s2">tested on email clients like Apple Mail</p>
+<p begin="00:06:13.020" end="00:06:19.320" style="s2">Outlook Gmail Yahoo iPhones and Androids</p>
+<p begin="00:06:17.039" end="00:06:21.660" style="s2">super lightweight Frameworks are the</p>
+<p begin="00:06:19.320" end="00:06:23.880" style="s2">featherweights of CSS Frameworks they</p>
+<p begin="00:06:21.660" end="00:06:26.520" style="s2">are all about being as light and fast as</p>
+<p begin="00:06:23.880" end="00:06:28.620" style="s2">possible providing just the essentials</p>
+<p begin="00:06:26.520" end="00:06:30.600" style="s2">they are great for small projects or</p>
+<p begin="00:06:28.620" end="00:06:33.539" style="s2">when you need your website to be super</p>
+<p begin="00:06:30.600" end="00:06:36.300" style="s2">quick Joda is a necro framework that</p>
+<p begin="00:06:33.539" end="00:06:41.340" style="s2">comes with grids CSS variables buttons</p>
+<p begin="00:06:36.300" end="00:06:44.580" style="s2">navigations and More in only 3 KB of CSS</p>
+<p begin="00:06:41.340" end="00:06:47.220" style="s2">Pico CSS is also super small it has a</p>
+<p begin="00:06:44.580" end="00:06:49.139" style="s2">couple of classes for grids tables and</p>
+<p begin="00:06:47.220" end="00:06:51.360" style="s2">containers but apart from that it is</p>
+<p begin="00:06:49.139" end="00:06:53.940" style="s2">almost classless and very easy to use</p>
+<p begin="00:06:51.360" end="00:06:56.400" style="s2">all the Frameworks on this video can in</p>
+<p begin="00:06:53.940" end="00:06:58.620" style="s2">theory be used with react but there are</p>
+<p begin="00:06:56.400" end="00:07:01.560" style="s2">some Frameworks that are react specific</p>
+<p begin="00:06:58.620" end="00:07:04.440" style="s2">Frameworks and com with many pre-built</p>
+<p begin="00:07:01.560" end="00:07:06.660" style="s2">react components and very nice things my</p>
+<p begin="00:07:04.440" end="00:07:09.780" style="s2">favorite react specific framework is</p>
+<p begin="00:07:06.660" end="00:07:11.400" style="s2">chakra UI chakra UI not only comes with</p>
+<p begin="00:07:09.780" end="00:07:14.100" style="s2">the beautiful components but it also</p>
+<p begin="00:07:11.400" end="00:07:16.560" style="s2">helps you write less JavaScript code as</p>
+<p begin="00:07:14.100" end="00:07:20.160" style="s2">well it comes with models notifications</p>
+<p begin="00:07:16.560" end="00:07:22.680" style="s2">alerts menus loaders switches and many</p>
+<p begin="00:07:20.160" end="00:07:25.139" style="s2">more components that need some kind of</p>
+<p begin="00:07:22.680" end="00:07:28.500" style="s2">JavaScript logic and it abstracts it all</p>
+<p begin="00:07:25.139" end="00:07:30.900" style="s2">for you Mantine is a library of a lot</p>
+<p begin="00:07:28.500" end="00:07:33.360" style="s2">ready to use react component just like</p>
+<p begin="00:07:30.900" end="00:07:36.360" style="s2">with chakra it not only looks nice but</p>
+<p begin="00:07:33.360" end="00:07:39.300" style="s2">it also abstracts a lot of logic for you</p>
+<p begin="00:07:36.360" end="00:07:41.580" style="s2">and design developed by Alibaba has got</p>
+<p begin="00:07:39.300" end="00:07:44.099" style="s2">a ton of components and is designed for</p>
+<p begin="00:07:41.580" end="00:07:46.259" style="s2">Enterprise level applications it&#39;s got a</p>
+<p begin="00:07:44.099" end="00:07:48.240" style="s2">unique design language that&#39;s clean and</p>
+<p begin="00:07:46.259" end="00:07:51.300" style="s2">professional but that some people find</p>
+<p begin="00:07:48.240" end="00:07:53.400" style="s2">hard to customize material UI is a</p>
+<p begin="00:07:51.300" end="00:07:56.039" style="s2">library of react UI components that</p>
+<p begin="00:07:53.400" end="00:07:57.780" style="s2">implements Google&#39;s material design it</p>
+<p begin="00:07:56.039" end="00:08:00.240" style="s2">has a ton of components that follow the</p>
+<p begin="00:07:57.780" end="00:08:02.460" style="s2">material design guidelines it&#39;s super</p>
+<p begin="00:08:00.240" end="00:08:04.560" style="s2">customizable if you&#39;re a fan of material</p>
+<p begin="00:08:02.460" end="00:08:07.919" style="s2">design you&#39;re going to love material UI</p>
+<p begin="00:08:04.560" end="00:08:10.319" style="s2">and next UI is a fairly new framework</p>
+<p begin="00:08:07.919" end="00:08:12.960" style="s2">that was inspired by the design system</p>
+<p begin="00:08:10.319" end="00:08:15.900" style="s2">of versaille it&#39;s got a clean modern</p>
+<p begin="00:08:12.960" end="00:08:18.720" style="s2">design and it&#39;s got dark mode support it</p>
+<p begin="00:08:15.900" end="00:08:21.240" style="s2">is on beta which means that it has some</p>
+<p begin="00:08:18.720" end="00:08:23.460" style="s2">ready to use components but not all the</p>
+<p begin="00:08:21.240" end="00:08:26.220" style="s2">ones that you may need for a real life</p>
+<p begin="00:08:23.460" end="00:08:27.960" style="s2">project just yet that&#39;s it for this</p>
+<p begin="00:08:26.220" end="00:08:29.699" style="s2">video I hope that you liked it and I</p>
+<p begin="00:08:27.960" end="00:08:31.740" style="s2">hope that you discovered Frameworks that</p>
+<p begin="00:08:29.699" end="00:08:33.659" style="s2">you did not know about that can save you</p>
+<p begin="00:08:31.740" end="00:08:35.339" style="s2">time in the future let me know in the</p>
+<p begin="00:08:33.659" end="00:08:38.700" style="s2">comments what your favorite framework is</p>
+<p begin="00:08:35.339" end="00:08:41.159" style="s2">my favorite ones are Bulma telwyn and</p>
+<p begin="00:08:38.700" end="00:08:42.779" style="s2">chakra UI and the Retro apple one as</p>
+<p begin="00:08:41.159" end="00:08:44.520" style="s2">well if there is a framework that you</p>
+<p begin="00:08:42.779" end="00:08:46.080" style="s2">like that I forgot to mention leave it</p>
+<p begin="00:08:44.520" end="00:08:47.880" style="s2">in the comments so we can all check it</p>
+<p begin="00:08:46.080" end="00:08:49.800" style="s2">out and don&#39;t forget that if you want to</p>
+<p begin="00:08:47.880" end="00:08:52.440" style="s2">learn things like JavaScript python</p>
+<p begin="00:08:49.800" end="00:08:55.260" style="s2">react react native gold Dart flutter</p>
+<p begin="00:08:52.440" end="00:08:57.240" style="s2">among many others for absolutely free</p>
+<p begin="00:08:55.260" end="00:08:59.399" style="s2">all you have to do is click the link</p>
+<p begin="00:08:57.240" end="00:09:01.560" style="s2">below if you join any of our many free</p>
+<p begin="00:08:59.399" end="00:09:03.899" style="s2">core that you can take right now for</p>
+<p begin="00:09:01.560" end="00:09:06.200" style="s2">absolutely free with me click the link</p>
+<p begin="00:09:03.899" end="00:09:08.760" style="s2">below and I will see you there</p>
+<p begin="00:09:06.200" end="00:09:15.500" style="s2">see you on the next one bye</p>
+<p begin="00:09:08.760" end="00:09:15.500" style="s2">[Music]</p>
+<p begin="00:09:18.610" end="00:09:21.869" style="s2">[Music]</p>
+<p begin="00:09:22.019" end="00:09:28.109" style="s2">foreign</p>
+<p begin="00:09:23.080" end="00:09:28.109" style="s2">[Music]</p>
+</div>
+</body>
+</tt>

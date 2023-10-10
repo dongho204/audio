@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:03.360" end="00:00:07.559" style="s2">i would like to give you a tiny</p>
+<p begin="00:00:05.200" end="00:00:10.000" style="s2">introduction to the core concepts of</p>
+<p begin="00:00:07.559" end="00:00:11.759" style="s2">object-oriented programming the way i</p>
+<p begin="00:00:10.000" end="00:00:14.000" style="s2">would have liked to learn them when i</p>
+<p begin="00:00:11.759" end="00:00:16.000" style="s2">was learning to code object-oriented</p>
+<p begin="00:00:14.000" end="00:00:18.160" style="s2">programming is a program paradigm which</p>
+<p begin="00:00:16.000" end="00:00:20.080" style="s2">is basically a way of organizing your</p>
+<p begin="00:00:18.160" end="00:00:22.400" style="s2">code a way of thinking and structuring</p>
+<p begin="00:00:20.080" end="00:00:24.160" style="s2">your data it&#39;s actually very very</p>
+<p begin="00:00:22.400" end="00:00:25.840" style="s2">popular because some of the most</p>
+<p begin="00:00:24.160" end="00:00:28.320" style="s2">dominant programming languages like</p>
+<p begin="00:00:25.840" end="00:00:30.240" style="s2">c-sharp and java that have huge</p>
+<p begin="00:00:28.320" end="00:00:33.280" style="s2">communities and very big enterprise</p>
+<p begin="00:00:30.240" end="00:00:35.200" style="s2">adoption are object oriented languages</p>
+<p begin="00:00:33.280" end="00:00:36.719" style="s2">and it&#39;s even more popular because</p>
+<p begin="00:00:35.200" end="00:00:38.559" style="s2">programming languages like javascript</p>
+<p begin="00:00:36.719" end="00:00:41.920" style="s2">and python that are not specifically</p>
+<p begin="00:00:38.559" end="00:00:44.160" style="s2">object oriented support most of the</p>
+<p begin="00:00:41.920" end="00:00:46.399" style="s2">object oriented features required to</p>
+<p begin="00:00:44.160" end="00:00:47.600" style="s2">write object-oriented code this means</p>
+<p begin="00:00:46.399" end="00:00:50.559" style="s2">that if you learn how to do</p>
+<p begin="00:00:47.600" end="00:00:52.399" style="s2">object-oriented programming or oop you</p>
+<p begin="00:00:50.559" end="00:00:55.199" style="s2">are going to be able to transfer your</p>
+<p begin="00:00:52.399" end="00:00:57.600" style="s2">skills to a wide array of languages you</p>
+<p begin="00:00:55.199" end="00:01:00.480" style="s2">can move from java to typescript and</p>
+<p begin="00:00:57.600" end="00:01:03.120" style="s2">c-sharp very very easy i would say that</p>
+<p begin="00:01:00.480" end="00:01:05.199" style="s2">learning oop is very very easy because</p>
+<p begin="00:01:03.120" end="00:01:07.200" style="s2">humans intuitively think in an</p>
+<p begin="00:01:05.199" end="00:01:08.880" style="s2">object-oriented way you will see what</p>
+<p begin="00:01:07.200" end="00:01:11.280" style="s2">that means by the end of this video i</p>
+<p begin="00:01:08.880" end="00:01:12.159" style="s2">promise so let&#39;s get started what we&#39;re</p>
+<p begin="00:01:11.280" end="00:01:13.920" style="s2">going to do now is we&#39;re going to</p>
+<p begin="00:01:12.159" end="00:01:15.680" style="s2">pretend that we are going to create a</p>
+<p begin="00:01:13.920" end="00:01:17.759" style="s2">video game if we&#39;re creating a video</p>
+<p begin="00:01:15.680" end="00:01:19.520" style="s2">game we would need to create a player</p>
+<p begin="00:01:17.759" end="00:01:21.439" style="s2">object this player object is the one</p>
+<p begin="00:01:19.520" end="00:01:23.280" style="s2">that is going to hold the data of our</p>
+<p begin="00:01:21.439" end="00:01:25.840" style="s2">players and in javascript code it could</p>
+<p begin="00:01:23.280" end="00:01:27.840" style="s2">look something like this creating</p>
+<p begin="00:01:25.840" end="00:01:30.000" style="s2">players like this it&#39;s okay when we only</p>
+<p begin="00:01:27.840" end="00:01:32.720" style="s2">have to create one player the problem</p>
+<p begin="00:01:30.000" end="00:01:34.799" style="s2">happens when this number starts to grow</p>
+<p begin="00:01:32.720" end="00:01:36.720" style="s2">when we have more players as you can see</p>
+<p begin="00:01:34.799" end="00:01:39.600" style="s2">we can see some patterns starting to</p>
+<p begin="00:01:36.720" end="00:01:41.520" style="s2">emerge but also some issues the patterns</p>
+<p begin="00:01:39.600" end="00:01:43.600" style="s2">are that for example as you can see</p>
+<p begin="00:01:41.520" end="00:01:46.000" style="s2">these players all share the same</p>
+<p begin="00:01:43.600" end="00:01:46.880" style="s2">properties they all have name health and</p>
+<p begin="00:01:46.000" end="00:01:48.640" style="s2">skill</p>
+<p begin="00:01:46.880" end="00:01:51.439" style="s2">the only difference between them is the</p>
+<p begin="00:01:48.640" end="00:01:54.399" style="s2">data the issue here as you can see is</p>
+<p begin="00:01:51.439" end="00:01:57.439" style="s2">that there is nobody telling us that we</p>
+<p begin="00:01:54.399" end="00:01:59.680" style="s2">should have a specific shape of what</p>
+<p begin="00:01:57.439" end="00:02:01.520" style="s2">makes up a player we could make a</p>
+<p begin="00:01:59.680" end="00:02:04.240" style="s2">mistake when we are creating a player</p>
+<p begin="00:02:01.520" end="00:02:06.640" style="s2">and we might forget to add skills to one</p>
+<p begin="00:02:04.240" end="00:02:08.479" style="s2">player or we might misspell a property</p>
+<p begin="00:02:06.640" end="00:02:10.879" style="s2">and those misspelling errors might be</p>
+<p begin="00:02:08.479" end="00:02:13.520" style="s2">very hard to catch for example somewhere</p>
+<p begin="00:02:10.879" end="00:02:16.480" style="s2">in this code i put some silly spelling</p>
+<p begin="00:02:13.520" end="00:02:18.560" style="s2">mistakes that i am 100 going to make and</p>
+<p begin="00:02:16.480" end="00:02:20.720" style="s2">they will be very very hard to find at a</p>
+<p begin="00:02:18.560" end="00:02:22.879" style="s2">first glance another problem of</p>
+<p begin="00:02:20.720" end="00:02:25.200" style="s2">duplicating code and creating players in</p>
+<p begin="00:02:22.879" end="00:02:27.280" style="s2">this way is the fact that if for example</p>
+<p begin="00:02:25.200" end="00:02:29.360" style="s2">i want to create a new property let&#39;s</p>
+<p begin="00:02:27.280" end="00:02:31.760" style="s2">say experience points and i want to add</p>
+<p begin="00:02:29.360" end="00:02:33.760" style="s2">experience points to all my players i</p>
+<p begin="00:02:31.760" end="00:02:35.519" style="s2">will have to search in my code for all</p>
+<p begin="00:02:33.760" end="00:02:37.440" style="s2">the player objects that i created and i</p>
+<p begin="00:02:35.519" end="00:02:39.920" style="s2">would have to add the experience points</p>
+<p begin="00:02:37.440" end="00:02:42.959" style="s2">property one by one</p>
+<p begin="00:02:39.920" end="00:02:45.440" style="s2">that does not sound like a good idea a</p>
+<p begin="00:02:42.959" end="00:02:48.560" style="s2">better idea would be to have a player</p>
+<p begin="00:02:45.440" end="00:02:50.879" style="s2">factory some function or something where</p>
+<p begin="00:02:48.560" end="00:02:53.760" style="s2">i can just input some data and i can</p>
+<p begin="00:02:50.879" end="00:02:55.519" style="s2">receive a player object as output this</p>
+<p begin="00:02:53.760" end="00:02:57.519" style="s2">means i wouldn&#39;t have to duplicate so</p>
+<p begin="00:02:55.519" end="00:02:59.440" style="s2">much code and i will minimize spelling</p>
+<p begin="00:02:57.519" end="00:03:01.280" style="s2">mistakes also this means that if we</p>
+<p begin="00:02:59.440" end="00:03:03.519" style="s2">wanted to add the experience points</p>
+<p begin="00:03:01.280" end="00:03:04.480" style="s2">property to all our players i just have</p>
+<p begin="00:03:03.519" end="00:03:06.959" style="s2">to modify</p>
+<p begin="00:03:04.480" end="00:03:09.120" style="s2">one place and that is the player factory</p>
+<p begin="00:03:06.959" end="00:03:11.200" style="s2">if i modify the player factory then all</p>
+<p begin="00:03:09.120" end="00:03:12.560" style="s2">the players will be updated as well and</p>
+<p begin="00:03:11.200" end="00:03:15.440" style="s2">this is when i want to introduce the</p>
+<p begin="00:03:12.560" end="00:03:18.560" style="s2">cornerstone of oop and that is the</p>
+<p begin="00:03:15.440" end="00:03:21.120" style="s2">concept of classes classes allow us to</p>
+<p begin="00:03:18.560" end="00:03:24.000" style="s2">create factories for objects that have</p>
+<p begin="00:03:21.120" end="00:03:27.040" style="s2">the same properties but different data</p>
+<p begin="00:03:24.000" end="00:03:29.760" style="s2">classes allow us to define a shape a</p>
+<p begin="00:03:27.040" end="00:03:31.680" style="s2">blueprint of how our player object</p>
+<p begin="00:03:29.760" end="00:03:33.440" style="s2">should look like now the cool examples</p>
+<p begin="00:03:31.680" end="00:03:35.120" style="s2">on this video are on javascript and</p>
+<p begin="00:03:33.440" end="00:03:36.799" style="s2">python if you don&#39;t know javascript or</p>
+<p begin="00:03:35.120" end="00:03:39.440" style="s2">python and you want to learn to code for</p>
+<p begin="00:03:36.799" end="00:03:41.599" style="s2">free with me with subtitles in hangul</p>
+<p begin="00:03:39.440" end="00:03:43.680" style="s2">then please click the link below there</p>
+<p begin="00:03:41.599" end="00:03:46.319" style="s2">you will find an eight hour free</p>
+<p begin="00:03:43.680" end="00:03:48.480" style="s2">javascript course and a five hour free</p>
+<p begin="00:03:46.319" end="00:03:50.640" style="s2">python course that i&#39;m going to update</p>
+<p begin="00:03:48.480" end="00:03:52.560" style="s2">very very soon please check out the link</p>
+<p begin="00:03:50.640" end="00:03:53.840" style="s2">below if you already know javascript and</p>
+<p begin="00:03:52.560" end="00:03:58.159" style="s2">python but you want to learn things like</p>
+<p begin="00:03:53.840" end="00:04:00.400" style="s2">react.js react native go redox graphql</p>
+<p begin="00:03:58.159" end="00:04:02.560" style="s2">for free click the link below because we</p>
+<p begin="00:04:00.400" end="00:04:04.560" style="s2">have courses on those things as well</p>
+<p begin="00:04:02.560" end="00:04:06.959" style="s2">using classes our code will look</p>
+<p begin="00:04:04.560" end="00:04:09.040" style="s2">something like this now don&#39;t worry</p>
+<p begin="00:04:06.959" end="00:04:12.319" style="s2">we&#39;re going to see what constructure and</p>
+<p begin="00:04:09.040" end="00:04:15.120" style="s2">init means and does later for now let&#39;s</p>
+<p begin="00:04:12.319" end="00:04:18.239" style="s2">focus on the result let&#39;s focus on how</p>
+<p begin="00:04:15.120" end="00:04:20.799" style="s2">beautiful and easy the code becomes when</p>
+<p begin="00:04:18.239" end="00:04:22.880" style="s2">we want to create new players as we can</p>
+<p begin="00:04:20.799" end="00:04:25.120" style="s2">see we don&#39;t have to copy paste as much</p>
+<p begin="00:04:22.880" end="00:04:27.120" style="s2">as before and just like if we were</p>
+<p begin="00:04:25.120" end="00:04:28.960" style="s2">talking about objects we can access</p>
+<p begin="00:04:27.120" end="00:04:31.440" style="s2">their properties as well as you can see</p>
+<p begin="00:04:28.960" end="00:04:34.000" style="s2">the player class is a blueprint is a</p>
+<p begin="00:04:31.440" end="00:04:36.400" style="s2">mode is the factory that allows us to</p>
+<p begin="00:04:34.000" end="00:04:38.560" style="s2">create player objects that all have the</p>
+<p begin="00:04:36.400" end="00:04:40.720" style="s2">same properties but different data you</p>
+<p begin="00:04:38.560" end="00:04:42.880" style="s2">can think of classes like cookie cutters</p>
+<p begin="00:04:40.720" end="00:04:45.440" style="s2">they are the template that we use to</p>
+<p begin="00:04:42.880" end="00:04:47.360" style="s2">mold our data in whatever shape we want</p>
+<p begin="00:04:45.440" end="00:04:50.240" style="s2">when we use a class like for example</p>
+<p begin="00:04:47.360" end="00:04:51.520" style="s2">when we create an elon using the player</p>
+<p begin="00:04:50.240" end="00:04:54.639" style="s2">cookie cutter</p>
+<p begin="00:04:51.520" end="00:04:57.680" style="s2">we refer to elon as an instance or an</p>
+<p begin="00:04:54.639" end="00:05:00.479" style="s2">object of the player class instances or</p>
+<p begin="00:04:57.680" end="00:05:03.039" style="s2">objects are the cookies that we get</p>
+<p begin="00:05:00.479" end="00:05:05.120" style="s2">after we use the cookie cutter but let&#39;s</p>
+<p begin="00:05:03.039" end="00:05:06.639" style="s2">go back to the code and now see that in</p>
+<p begin="00:05:05.120" end="00:05:08.639" style="s2">the javascript class there is something</p>
+<p begin="00:05:06.639" end="00:05:10.479" style="s2">called constructure and in the python</p>
+<p begin="00:05:08.639" end="00:05:12.639" style="s2">class there is something called init</p>
+<p begin="00:05:10.479" end="00:05:14.880" style="s2">these things are normal functions as you</p>
+<p begin="00:05:12.639" end="00:05:16.880" style="s2">can see but because they are inside of</p>
+<p begin="00:05:14.880" end="00:05:18.800" style="s2">classes we don&#39;t call them functions we</p>
+<p begin="00:05:16.880" end="00:05:20.880" style="s2">call them methods instead the</p>
+<p begin="00:05:18.800" end="00:05:23.039" style="s2">constructor and the init methods are</p>
+<p begin="00:05:20.880" end="00:05:25.520" style="s2">called automatically by javascript in</p>
+<p begin="00:05:23.039" end="00:05:27.680" style="s2">python when we create a new object from</p>
+<p begin="00:05:25.520" end="00:05:29.680" style="s2">a class in the constructor method is</p>
+<p begin="00:05:27.680" end="00:05:32.160" style="s2">where you can choose how to construct</p>
+<p begin="00:05:29.680" end="00:05:33.120" style="s2">your class what properties is it going</p>
+<p begin="00:05:32.160" end="00:05:35.199" style="s2">to have</p>
+<p begin="00:05:33.120" end="00:05:37.600" style="s2">as you can see our constructor methods</p>
+<p begin="00:05:35.199" end="00:05:39.520" style="s2">take arguments just like a function does</p>
+<p begin="00:05:37.600" end="00:05:41.680" style="s2">this is why i can say new player and</p>
+<p begin="00:05:39.520" end="00:05:43.440" style="s2">then i write elon musk which will be the</p>
+<p begin="00:05:41.680" end="00:05:45.600" style="s2">first argument which will be the name of</p>
+<p begin="00:05:43.440" end="00:05:47.680" style="s2">the player then i write the health and</p>
+<p begin="00:05:45.600" end="00:05:50.160" style="s2">then i write the skill but also as you</p>
+<p begin="00:05:47.680" end="00:05:52.560" style="s2">can see we can choose to program all our</p>
+<p begin="00:05:50.160" end="00:05:56.160" style="s2">players to always start their experience</p>
+<p begin="00:05:52.560" end="00:05:58.639" style="s2">points on xero the word this or self is</p>
+<p begin="00:05:56.160" end="00:06:01.600" style="s2">how we can refer to properties and</p>
+<p begin="00:05:58.639" end="00:06:03.759" style="s2">methods inside of the player class it is</p>
+<p begin="00:06:01.600" end="00:06:06.639" style="s2">very easy to read as well we can say</p>
+<p begin="00:06:03.759" end="00:06:09.360" style="s2">that this player has a property called</p>
+<p begin="00:06:06.639" end="00:06:12.240" style="s2">xp for experience points and its initial</p>
+<p begin="00:06:09.360" end="00:06:14.720" style="s2">value is 0. so far as you can see</p>
+<p begin="00:06:12.240" end="00:06:17.360" style="s2">classes are pretty cool they allow us to</p>
+<p begin="00:06:14.720" end="00:06:20.479" style="s2">create factories or cookie cutters for</p>
+<p begin="00:06:17.360" end="00:06:23.280" style="s2">objects with the same shapes we also saw</p>
+<p begin="00:06:20.479" end="00:06:26.000" style="s2">that classes have methods inside of them</p>
+<p begin="00:06:23.280" end="00:06:28.960" style="s2">and methods are the things that take</p>
+<p begin="00:06:26.000" end="00:06:31.280" style="s2">classes to the next level apart from the</p>
+<p begin="00:06:28.960" end="00:06:33.919" style="s2">constructor an innit method a class</p>
+<p begin="00:06:31.280" end="00:06:36.160" style="s2">could have as many methods as we need</p>
+<p begin="00:06:33.919" end="00:06:39.280" style="s2">for example we can create a method to</p>
+<p begin="00:06:36.160" end="00:06:41.680" style="s2">teach our players to say hello now all</p>
+<p begin="00:06:39.280" end="00:06:44.639" style="s2">the objects created using the player</p>
+<p begin="00:06:41.680" end="00:06:47.280" style="s2">class will be able to call the say hello</p>
+<p begin="00:06:44.639" end="00:06:49.280" style="s2">method or if we were creating a combat</p>
+<p begin="00:06:47.280" end="00:06:51.199" style="s2">game for example we could create a</p>
+<p begin="00:06:49.280" end="00:06:53.360" style="s2">method to program what happens when a</p>
+<p begin="00:06:51.199" end="00:06:56.080" style="s2">player takes a hit as you can see</p>
+<p begin="00:06:53.360" end="00:06:58.400" style="s2">methods make our classes way smarter</p>
+<p begin="00:06:56.080" end="00:07:01.039" style="s2">than before before we&#39;re using classes</p>
+<p begin="00:06:58.400" end="00:07:04.000" style="s2">to just organize data but now with</p>
+<p begin="00:07:01.039" end="00:07:06.960" style="s2">methods we can specify interfaces of how</p>
+<p begin="00:07:04.000" end="00:07:09.039" style="s2">to manipulate and how to read data to</p>
+<p begin="00:07:06.960" end="00:07:12.000" style="s2">finish this intro let&#39;s take a look at a</p>
+<p begin="00:07:09.039" end="00:07:14.639" style="s2">very important oop concept called</p>
+<p begin="00:07:12.000" end="00:07:17.360" style="s2">inheritance inheritance allows us to</p>
+<p begin="00:07:14.639" end="00:07:20.479" style="s2">reduce code duplication and divide our</p>
+<p begin="00:07:17.360" end="00:07:22.560" style="s2">code in many reusable pieces in the</p>
+<p begin="00:07:20.479" end="00:07:24.560" style="s2">offline world inheritance happens when</p>
+<p begin="00:07:22.560" end="00:07:27.039" style="s2">the parents die and the kids get all</p>
+<p begin="00:07:24.560" end="00:07:29.520" style="s2">their money in the object-oriented world</p>
+<p begin="00:07:27.039" end="00:07:32.240" style="s2">nobody dies but the child&#39;s classes get</p>
+<p begin="00:07:29.520" end="00:07:34.000" style="s2">all the properties of the father classes</p>
+<p begin="00:07:32.240" end="00:07:35.840" style="s2">if we were making a game like the sims</p>
+<p begin="00:07:34.000" end="00:07:38.000" style="s2">for example which is a people simulator</p>
+<p begin="00:07:35.840" end="00:07:40.639" style="s2">we will need to start with a class for a</p>
+<p begin="00:07:38.000" end="00:07:43.680" style="s2">human but we would also need a baby</p>
+<p begin="00:07:40.639" end="00:07:45.840" style="s2">class that is a human that is cute and</p>
+<p begin="00:07:43.680" end="00:07:48.319" style="s2">knows how to cry and maybe we need a</p>
+<p begin="00:07:45.840" end="00:07:50.400" style="s2">teenager class that is a human and then</p>
+<p begin="00:07:48.319" end="00:07:53.280" style="s2">knows how to curse as you can see there</p>
+<p begin="00:07:50.400" end="00:07:55.440" style="s2">is some code duplication going on here</p>
+<p begin="00:07:53.280" end="00:07:57.440" style="s2">even though all the classes are a little</p>
+<p begin="00:07:55.440" end="00:07:59.759" style="s2">bit different they all share the fact</p>
+<p begin="00:07:57.440" end="00:08:02.319" style="s2">that they are all human they all have a</p>
+<p begin="00:07:59.759" end="00:08:04.960" style="s2">name two arms and two legs and this is</p>
+<p begin="00:08:02.319" end="00:08:07.360" style="s2">when inheritance comes into play instead</p>
+<p begin="00:08:04.960" end="00:08:10.080" style="s2">of writing down this that name these</p>
+<p begin="00:08:07.360" end="00:08:12.720" style="s2">that arms and these that legs in every</p>
+<p begin="00:08:10.080" end="00:08:15.919" style="s2">class that we create we can instead</p>
+<p begin="00:08:12.720" end="00:08:18.560" style="s2">extend from a class that has these that</p>
+<p begin="00:08:15.919" end="00:08:21.039" style="s2">name these that arms and these that lex</p>
+<p begin="00:08:18.560" end="00:08:23.759" style="s2">and that class is human so the code</p>
+<p begin="00:08:21.039" end="00:08:25.919" style="s2">would look something like this when we</p>
+<p begin="00:08:23.759" end="00:08:29.039" style="s2">say that the baby class or the teenager</p>
+<p begin="00:08:25.919" end="00:08:32.159" style="s2">class extend from human what we are</p>
+<p begin="00:08:29.039" end="00:08:34.320" style="s2">saying is that we want baby and teenager</p>
+<p begin="00:08:32.159" end="00:08:37.440" style="s2">to have all the properties that human</p>
+<p begin="00:08:34.320" end="00:08:39.440" style="s2">has plus their own properties as well so</p>
+<p begin="00:08:37.440" end="00:08:42.080" style="s2">this means that a baby instance will</p>
+<p begin="00:08:39.440" end="00:08:44.159" style="s2">have a name legs and arms it will also</p>
+<p begin="00:08:42.080" end="00:08:46.320" style="s2">be cute and you will know how to cry but</p>
+<p begin="00:08:44.159" end="00:08:47.839" style="s2">this code doesn&#39;t really work yet and</p>
+<p begin="00:08:46.320" end="00:08:49.839" style="s2">the reason why it doesn&#39;t work yet is</p>
+<p begin="00:08:47.839" end="00:08:52.080" style="s2">because if we think about it the human</p>
+<p begin="00:08:49.839" end="00:08:54.480" style="s2">constructor is the one that says the</p>
+<p begin="00:08:52.080" end="00:08:56.480" style="s2">name of the human according to the</p>
+<p begin="00:08:54.480" end="00:08:58.560" style="s2">constructor arguments but we are not</p>
+<p begin="00:08:56.480" end="00:09:01.120" style="s2">creating humans directly instead we are</p>
+<p begin="00:08:58.560" end="00:09:03.279" style="s2">creating babies and teenagers to call</p>
+<p begin="00:09:01.120" end="00:09:06.720" style="s2">the constructor method of the human</p>
+<p begin="00:09:03.279" end="00:09:09.920" style="s2">class from the baby and teenager classes</p>
+<p begin="00:09:06.720" end="00:09:12.240" style="s2">we have to call the super method from</p>
+<p begin="00:09:09.920" end="00:09:14.800" style="s2">the constructor of the baby and teenager</p>
+<p begin="00:09:12.240" end="00:09:16.800" style="s2">classes and everything will work well</p>
+<p begin="00:09:14.800" end="00:09:19.440" style="s2">and that&#39;s it for this video as you can</p>
+<p begin="00:09:16.800" end="00:09:21.440" style="s2">see the way we model our data the way we</p>
+<p begin="00:09:19.440" end="00:09:23.839" style="s2">access it and the way we manipulate it</p>
+<p begin="00:09:21.440" end="00:09:26.080" style="s2">in the object-oriented programming world</p>
+<p begin="00:09:23.839" end="00:09:28.800" style="s2">is very comfortable and i hope that by</p>
+<p begin="00:09:26.080" end="00:09:30.560" style="s2">now you can see why oop is so popular</p>
+<p begin="00:09:28.800" end="00:09:32.320" style="s2">and why so many people like it this is</p>
+<p begin="00:09:30.560" end="00:09:34.080" style="s2">not all of course this is just a tiny</p>
+<p begin="00:09:32.320" end="00:09:35.760" style="s2">introduction to oop and these are the</p>
+<p begin="00:09:34.080" end="00:09:39.040" style="s2">concepts that i think you are going to</p>
+<p begin="00:09:35.760" end="00:09:41.200" style="s2">be able to use everywhere across any oop</p>
+<p begin="00:09:39.040" end="00:09:43.680" style="s2">programming language after this if you</p>
+<p begin="00:09:41.200" end="00:09:47.200" style="s2">want to dive deeper into oop you need to</p>
+<p begin="00:09:43.680" end="00:09:49.440" style="s2">learn about private public and protected</p>
+<p begin="00:09:47.200" end="00:09:52.080" style="s2">methods and properties you also need to</p>
+<p begin="00:09:49.440" end="00:09:53.760" style="s2">learn what are abstract classes static</p>
+<p begin="00:09:52.080" end="00:09:56.320" style="s2">methods and it will be very useful to</p>
+<p begin="00:09:53.760" end="00:09:58.080" style="s2">learn what interfaces do as well i on</p>
+<p begin="00:09:56.320" end="00:09:59.920" style="s2">purpose did not want to use words like</p>
+<p begin="00:09:58.080" end="00:10:01.920" style="s2">abstraction encapsulation and</p>
+<p begin="00:09:59.920" end="00:10:03.680" style="s2">polymorphism in this video because i</p>
+<p begin="00:10:01.920" end="00:10:06.399" style="s2">wanted to focus more on the practical</p>
+<p begin="00:10:03.680" end="00:10:08.320" style="s2">aspect of oop and how it can improve our</p>
+<p begin="00:10:06.399" end="00:10:10.560" style="s2">code if you would like me to do a more</p>
+<p begin="00:10:08.320" end="00:10:11.760" style="s2">theory video of oop then please let me</p>
+<p begin="00:10:10.560" end="00:10:14.480" style="s2">know in the comments i&#39;m going to be</p>
+<p begin="00:10:11.760" end="00:10:16.160" style="s2">looking at them right now and also if</p>
+<p begin="00:10:14.480" end="00:10:18.079" style="s2">you are waiting for the second video of</p>
+<p begin="00:10:16.160" end="00:10:20.160" style="s2">the functional programming series don&#39;t</p>
+<p begin="00:10:18.079" end="00:10:22.160" style="s2">worry because it&#39;s coming as well i</p>
+<p begin="00:10:20.160" end="00:10:23.519" style="s2">wanted to make this oop video first</p>
+<p begin="00:10:22.160" end="00:10:25.920" style="s2">because we&#39;re going to be comparing</p>
+<p begin="00:10:23.519" end="00:10:28.240" style="s2">functional programming with oop a lot so</p>
+<p begin="00:10:25.920" end="00:10:30.320" style="s2">we have to basically know the enemy</p>
+<p begin="00:10:28.240" end="00:10:32.399" style="s2">first thank you stay happy stay free eat</p>
+<p begin="00:10:30.320" end="00:10:35.800" style="s2">kimchi ham something heyo see you on the</p>
+<p begin="00:10:32.399" end="00:10:35.800" style="s2">next one bye</p>
+</div>
+</body>
+</tt>

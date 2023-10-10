@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:03.600" end="00:00:09.599" style="s2">the area of ai and machine learning</p>
+<p begin="00:00:06.480" end="00:00:12.320" style="s2">looks very intimidating and magical from</p>
+<p begin="00:00:09.599" end="00:00:14.480" style="s2">the outside from self-driving cars to</p>
+<p begin="00:00:12.320" end="00:00:16.800" style="s2">chatbots and even github co-pilot is</p>
+<p begin="00:00:14.480" end="00:00:18.800" style="s2">very easy to get impressed with what ai</p>
+<p begin="00:00:16.800" end="00:00:20.320" style="s2">can do and of course we should be</p>
+<p begin="00:00:18.800" end="00:00:22.640" style="s2">impressed when we see what can be done</p>
+<p begin="00:00:20.320" end="00:00:25.279" style="s2">using ai because it is awesome it is</p>
+<p begin="00:00:22.640" end="00:00:28.560" style="s2">mind blowing but we also have to</p>
+<p begin="00:00:25.279" end="00:00:30.800" style="s2">remember that ai isn&#39;t magic in fact the</p>
+<p begin="00:00:28.560" end="00:00:33.600" style="s2">more you work with ai the closer you are</p>
+<p begin="00:00:30.800" end="00:00:35.360" style="s2">to ai the less magical it will seem so i</p>
+<p begin="00:00:33.600" end="00:00:37.600" style="s2">wanted to make this video to pull back</p>
+<p begin="00:00:35.360" end="00:00:39.760" style="s2">the curtain a little bit in ai to see</p>
+<p begin="00:00:37.600" end="00:00:41.920" style="s2">how it works from a bird&#39;s eye point of</p>
+<p begin="00:00:39.760" end="00:00:43.520" style="s2">view today we are going to see that even</p>
+<p begin="00:00:41.920" end="00:00:45.120" style="s2">though we talk about artificial</p>
+<p begin="00:00:43.520" end="00:00:47.039" style="s2">intelligence there is very little</p>
+<p begin="00:00:45.120" end="00:00:49.520" style="s2">intelligence involved instead there is a</p>
+<p begin="00:00:47.039" end="00:00:51.920" style="s2">lot of data processing statistics</p>
+<p begin="00:00:49.520" end="00:00:54.239" style="s2">pattern recognition and just a lot of</p>
+<p begin="00:00:51.920" end="00:00:56.239" style="s2">numbers that does not sound of course as</p>
+<p begin="00:00:54.239" end="00:00:58.079" style="s2">sexy as artificial intelligence there</p>
+<p begin="00:00:56.239" end="00:00:59.840" style="s2">are not movies being made of data</p>
+<p begin="00:00:58.079" end="00:01:01.920" style="s2">processing and pattern recognition</p>
+<p begin="00:00:59.840" end="00:01:03.520" style="s2">machines taking over the world but even</p>
+<p begin="00:01:01.920" end="00:01:06.320" style="s2">though there is no intelligence it is</p>
+<p begin="00:01:03.520" end="00:01:08.560" style="s2">still an amazing almost magical thing</p>
+<p begin="00:01:06.320" end="00:01:09.920" style="s2">but also i hope that by the end of this</p>
+<p begin="00:01:08.560" end="00:01:12.400" style="s2">video you feel a little bit less</p>
+<p begin="00:01:09.920" end="00:01:14.799" style="s2">intimidated by ai and more curious about</p>
+<p begin="00:01:12.400" end="00:01:16.720" style="s2">it i made a tiny demo application where</p>
+<p begin="00:01:14.799" end="00:01:18.799" style="s2">we can drag and drop photos of different</p>
+<p begin="00:01:16.720" end="00:01:21.119" style="s2">objects or animals the app is going to</p>
+<p begin="00:01:18.799" end="00:01:23.600" style="s2">try to guess what is on the photo what</p>
+<p begin="00:01:21.119" end="00:01:25.680" style="s2">animal or what object is there so let&#39;s</p>
+<p begin="00:01:23.600" end="00:01:27.920" style="s2">take a look as you can see it works</p>
+<p begin="00:01:25.680" end="00:01:31.200" style="s2">pretty well also as you can see the</p>
+<p begin="00:01:27.920" end="00:01:33.040" style="s2">machine never says that is 100 sure of</p>
+<p begin="00:01:31.200" end="00:01:36.000" style="s2">anything and instead gives you a</p>
+<p begin="00:01:33.040" end="00:01:36.000" style="s2">confidence score</p>
+<p begin="00:01:38.880" end="00:01:42.799" style="s2">now let&#39;s try again but this time let&#39;s</p>
+<p begin="00:01:40.960" end="00:01:44.799" style="s2">choose less common objects and less</p>
+<p begin="00:01:42.799" end="00:01:46.479" style="s2">common animals and as you will see the</p>
+<p begin="00:01:44.799" end="00:01:48.960" style="s2">confidence score is going to start to</p>
+<p begin="00:01:46.479" end="00:01:51.200" style="s2">drop and the guesses are going to be all</p>
+<p begin="00:01:48.960" end="00:01:51.200" style="s2">wrong</p>
+<p begin="00:01:53.600" end="00:01:58.640" style="s2">now we might wonder why is this model</p>
+<p begin="00:01:56.079" end="00:02:00.880" style="s2">able to recognize some things super well</p>
+<p begin="00:01:58.640" end="00:02:03.200" style="s2">but some other things like my face not</p>
+<p begin="00:02:00.880" end="00:02:04.960" style="s2">so well the reason why it doesn&#39;t know</p>
+<p begin="00:02:03.200" end="00:02:07.360" style="s2">about everything is because the model</p>
+<p begin="00:02:04.960" end="00:02:09.840" style="s2">that we are using maybe hasn&#39;t seen</p>
+<p begin="00:02:07.360" end="00:02:11.920" style="s2">those images or that kind of object</p>
+<p begin="00:02:09.840" end="00:02:13.920" style="s2">before but hold on a second because now</p>
+<p begin="00:02:11.920" end="00:02:15.599" style="s2">you have to define what is that word</p>
+<p begin="00:02:13.920" end="00:02:18.000" style="s2">model because i keep saying model model</p>
+<p begin="00:02:15.599" end="00:02:20.080" style="s2">model what does that mean the model that</p>
+<p begin="00:02:18.000" end="00:02:22.319" style="s2">we are using right now is called mobile</p>
+<p begin="00:02:20.080" end="00:02:24.720" style="s2">net and mobile net was trained using</p>
+<p begin="00:02:22.319" end="00:02:27.840" style="s2">something called supervised learning</p>
+<p begin="00:02:24.720" end="00:02:30.080" style="s2">wonderful people took 50 000 photos of</p>
+<p begin="00:02:27.840" end="00:02:32.319" style="s2">all kinds of animals and objects and</p>
+<p begin="00:02:30.080" end="00:02:35.280" style="s2">hand labeled them and classified them in</p>
+<p begin="00:02:32.319" end="00:02:38.239" style="s2">totaling 1000 categories they said</p>
+<p begin="00:02:35.280" end="00:02:40.720" style="s2">basically this is a cat this is a dog</p>
+<p begin="00:02:38.239" end="00:02:43.280" style="s2">this is a shoe this is a cat again</p>
+<p begin="00:02:40.720" end="00:02:45.200" style="s2">another shoe so on and so on and so on</p>
+<p begin="00:02:43.280" end="00:02:47.680" style="s2">so for example they ended up with a</p>
+<p begin="00:02:45.200" end="00:02:49.599" style="s2">bunch of different dog photos dogs of</p>
+<p begin="00:02:47.680" end="00:02:52.080" style="s2">different breeds dogs of different</p>
+<p begin="00:02:49.599" end="00:02:53.920" style="s2">colors a photo from the face of the dog</p>
+<p begin="00:02:52.080" end="00:02:55.760" style="s2">a photo from the bomb of the dog from</p>
+<p begin="00:02:53.920" end="00:02:58.640" style="s2">looking up looking down all kinds of</p>
+<p begin="00:02:55.760" end="00:03:00.319" style="s2">photos of a dog so they took this group</p>
+<p begin="00:02:58.640" end="00:03:01.920" style="s2">of photos and they gave them to a</p>
+<p begin="00:03:00.319" end="00:03:05.360" style="s2">machine learning algorithm and they</p>
+<p begin="00:03:01.920" end="00:03:08.239" style="s2">basically say hey look in these photos</p>
+<p begin="00:03:05.360" end="00:03:10.080" style="s2">there is something that we humans call a</p>
+<p begin="00:03:08.239" end="00:03:12.319" style="s2">dog so please take a look at these</p>
+<p begin="00:03:10.080" end="00:03:14.959" style="s2">photos and draw your own conclusions</p>
+<p begin="00:03:12.319" end="00:03:16.640" style="s2">into what makes up a doc so the machine</p>
+<p begin="00:03:14.959" end="00:03:18.400" style="s2">learning algorithm went to work and</p>
+<p begin="00:03:16.640" end="00:03:20.640" style="s2">looked at each one of these photos but</p>
+<p begin="00:03:18.400" end="00:03:23.040" style="s2">not the way humans would but the way a</p>
+<p begin="00:03:20.640" end="00:03:26.239" style="s2">computer would looking at the image not</p>
+<p begin="00:03:23.040" end="00:03:28.480" style="s2">as an image but as data as numbers as</p>
+<p begin="00:03:26.239" end="00:03:30.959" style="s2">pixels trying to find patterns and</p>
+<p begin="00:03:28.480" end="00:03:33.760" style="s2">extract features to know what it is that</p>
+<p begin="00:03:30.959" end="00:03:35.200" style="s2">makes up a dog increasing and decreasing</p>
+<p begin="00:03:33.760" end="00:03:37.120" style="s2">the brightness of the photo to do</p>
+<p begin="00:03:35.200" end="00:03:40.000" style="s2">something called a convolution to try to</p>
+<p begin="00:03:37.120" end="00:03:42.480" style="s2">reduce a photo of a dog to its most</p>
+<p begin="00:03:40.000" end="00:03:45.120" style="s2">important features here you can see an</p>
+<p begin="00:03:42.480" end="00:03:47.840" style="s2">image of what this algorithm might see</p>
+<p begin="00:03:45.120" end="00:03:50.080" style="s2">while it&#39;s processing a beagle&#39;s photo</p>
+<p begin="00:03:47.840" end="00:03:53.040" style="s2">what the algorithm finds those features</p>
+<p begin="00:03:50.080" end="00:03:55.760" style="s2">those patterns of what makes up a dock</p>
+<p begin="00:03:53.040" end="00:03:58.159" style="s2">are just a lot of numbers and they are</p>
+<p begin="00:03:55.760" end="00:04:00.640" style="s2">what is saved into a model now this</p>
+<p begin="00:03:58.159" end="00:04:02.560" style="s2">process of looking at the image and</p>
+<p begin="00:04:00.640" end="00:04:05.360" style="s2">processing the image and extracting the</p>
+<p begin="00:04:02.560" end="00:04:08.319" style="s2">features that happen for each image for</p>
+<p begin="00:04:05.360" end="00:04:10.319" style="s2">each one of those 1000 categories in the</p>
+<p begin="00:04:08.319" end="00:04:12.480" style="s2">mobile net model that we are working</p>
+<p begin="00:04:10.319" end="00:04:14.560" style="s2">with this is why when we show a photo of</p>
+<p begin="00:04:12.480" end="00:04:17.120" style="s2">my face to the model it wouldn&#39;t know</p>
+<p begin="00:04:14.560" end="00:04:19.519" style="s2">what it is because the model wasn&#39;t</p>
+<p begin="00:04:17.120" end="00:04:21.440" style="s2">trained with those kinds of photos the</p>
+<p begin="00:04:19.519" end="00:04:23.680" style="s2">good news for us is that we are able to</p>
+<p begin="00:04:21.440" end="00:04:26.000" style="s2">extend the model a little bit to teach</p>
+<p begin="00:04:23.680" end="00:04:27.919" style="s2">it things that it doesn&#39;t know yet</p>
+<p begin="00:04:26.000" end="00:04:30.479" style="s2">because the model is already pretty good</p>
+<p begin="00:04:27.919" end="00:04:32.160" style="s2">at extracting features from images and</p>
+<p begin="00:04:30.479" end="00:04:34.880" style="s2">then making a prediction between a</p>
+<p begin="00:04:32.160" end="00:04:37.759" style="s2">thousand categories what we can do now</p>
+<p begin="00:04:34.880" end="00:04:39.759" style="s2">is take this extraction power and use it</p>
+<p begin="00:04:37.759" end="00:04:42.639" style="s2">to make the model predict between the</p>
+<p begin="00:04:39.759" end="00:04:44.560" style="s2">categories that we decide in this demo</p>
+<p begin="00:04:42.639" end="00:04:46.639" style="s2">that i prepared we can write down the</p>
+<p begin="00:04:44.560" end="00:04:49.600" style="s2">labels that we want to train our model</p>
+<p begin="00:04:46.639" end="00:04:51.919" style="s2">on and using the camera i will show to</p>
+<p begin="00:04:49.600" end="00:04:53.759" style="s2">the model the images that it needs to be</p>
+<p begin="00:04:51.919" end="00:04:55.840" style="s2">able to train so let&#39;s see if we are</p>
+<p begin="00:04:53.759" end="00:04:58.160" style="s2">able to train our model to distinguish</p>
+<p begin="00:04:55.840" end="00:05:00.639" style="s2">between a happy face and a sad face so</p>
+<p begin="00:04:58.160" end="00:05:03.440" style="s2">let&#39;s show the model first what a happy</p>
+<p begin="00:05:00.639" end="00:05:05.840" style="s2">face looks like</p>
+<p begin="00:05:03.440" end="00:05:08.160" style="s2">and now let&#39;s do the same with a sad</p>
+<p begin="00:05:05.840" end="00:05:08.160" style="s2">face</p>
+<p begin="00:05:08.560" end="00:05:11.680" style="s2">now we will wait a little bit for the</p>
+<p begin="00:05:10.000" end="00:05:13.759" style="s2">features to be extracted and for the</p>
+<p begin="00:05:11.680" end="00:05:15.840" style="s2">model to be trained and then we can test</p>
+<p begin="00:05:13.759" end="00:05:19.919" style="s2">and see if it works and booyah as you</p>
+<p begin="00:05:15.840" end="00:05:19.919" style="s2">can see it works like a charm awesome</p>
+<p begin="00:05:20.320" end="00:05:25.600" style="s2">and that&#39;s it for today i hope that this</p>
+<p begin="00:05:22.560" end="00:05:28.639" style="s2">video gave you a small little overview</p>
+<p begin="00:05:25.600" end="00:05:30.400" style="s2">of how machine learning sort of works</p>
+<p begin="00:05:28.639" end="00:05:32.320" style="s2">and i hope that by now you feel less</p>
+<p begin="00:05:30.400" end="00:05:34.400" style="s2">intimidated and more comfortable as you</p>
+<p begin="00:05:32.320" end="00:05:35.199" style="s2">can see it&#39;s not magic but still pretty</p>
+<p begin="00:05:34.400" end="00:05:37.199" style="s2">cool</p>
+<p begin="00:05:35.199" end="00:05:38.800" style="s2">now the thing is that here we are not</p>
+<p begin="00:05:37.199" end="00:05:40.800" style="s2">really doing machine learning by</p>
+<p begin="00:05:38.800" end="00:05:42.479" style="s2">ourselves because if you think about it</p>
+<p begin="00:05:40.800" end="00:05:45.039" style="s2">we are just using the models that</p>
+<p begin="00:05:42.479" end="00:05:46.320" style="s2">somebody else built and trained which i</p>
+<p begin="00:05:45.039" end="00:05:48.560" style="s2">don&#39;t think it&#39;s so bad when you are</p>
+<p begin="00:05:46.320" end="00:05:50.240" style="s2">getting started with ai actually if you</p>
+<p begin="00:05:48.560" end="00:05:52.720" style="s2">look at what many people are doing in</p>
+<p begin="00:05:50.240" end="00:05:55.039" style="s2">the ai space many of them are actually</p>
+<p begin="00:05:52.720" end="00:05:56.960" style="s2">using a model that somebody else built</p>
+<p begin="00:05:55.039" end="00:05:59.520" style="s2">what we&#39;re doing here today is basically</p>
+<p begin="00:05:56.960" end="00:06:01.919" style="s2">driving a car without knowing how the</p>
+<p begin="00:05:59.520" end="00:06:03.759" style="s2">engine works maybe it&#39;s fine to drive</p>
+<p begin="00:06:01.919" end="00:06:05.440" style="s2">the car around town it&#39;s not a problem</p>
+<p begin="00:06:03.759" end="00:06:08.000" style="s2">but if the car breaks down and you have</p>
+<p begin="00:06:05.440" end="00:06:09.759" style="s2">to open the hood this is when it&#39;s good</p>
+<p begin="00:06:08.000" end="00:06:11.280" style="s2">to know what the basics are and this is</p>
+<p begin="00:06:09.759" end="00:06:13.919" style="s2">when we talk about the sponsor of</p>
+<p begin="00:06:11.280" end="00:06:17.120" style="s2">today&#39;s video the korea startup agency</p>
+<p begin="00:06:13.919" end="00:06:19.919" style="s2">is recruiting 200 people to join a free</p>
+<p begin="00:06:17.120" end="00:06:22.880" style="s2">ai education program called year dream</p>
+<p begin="00:06:19.919" end="00:06:25.360" style="s2">school year dream school runs for 10</p>
+<p begin="00:06:22.880" end="00:06:27.680" style="s2">months teaches from the very basics of</p>
+<p begin="00:06:25.360" end="00:06:30.720" style="s2">programming to the advanced level such</p>
+<p begin="00:06:27.680" end="00:06:33.840" style="s2">as data engineering machine learning and</p>
+<p begin="00:06:30.720" end="00:06:35.600" style="s2">deep learning it is an intensive ai</p>
+<p begin="00:06:33.840" end="00:06:37.919" style="s2">education program that is almost</p>
+<p begin="00:06:35.600" end="00:06:41.280" style="s2">equivalent as to attending a four-year</p>
+<p begin="00:06:37.919" end="00:06:43.759" style="s2">college with a major in ai also the</p>
+<p begin="00:06:41.280" end="00:06:46.479" style="s2">students of a year dream school will get</p>
+<p begin="00:06:43.759" end="00:06:50.080" style="s2">to have field experience by working with</p>
+<p begin="00:06:46.479" end="00:06:52.080" style="s2">various startups solving real life tasks</p>
+<p begin="00:06:50.080" end="00:06:54.560" style="s2">there will also be parts of kaggle</p>
+<p begin="00:06:52.080" end="00:06:56.880" style="s2">competitions so after graduating from</p>
+<p begin="00:06:54.560" end="00:06:59.680" style="s2">these schools students will be competent</p>
+<p begin="00:06:56.880" end="00:07:02.960" style="s2">enough to get a job at a korean tech</p>
+<p begin="00:06:59.680" end="00:07:05.919" style="s2">company or to make their own ai startup</p>
+<p begin="00:07:02.960" end="00:07:09.680" style="s2">all of these 10 months of education are</p>
+<p begin="00:07:05.919" end="00:07:11.919" style="s2">a hundred percent free anyone under 39</p>
+<p begin="00:07:09.680" end="00:07:14.560" style="s2">years old that wants to learn about ai</p>
+<p begin="00:07:11.919" end="00:07:17.120" style="s2">can apply for this program regardless of</p>
+<p begin="00:07:14.560" end="00:07:19.360" style="s2">the education or career background</p>
+<p begin="00:07:17.120" end="00:07:21.440" style="s2">applications are open right now so click</p>
+<p begin="00:07:19.360" end="00:07:24.160" style="s2">the link below so you will be able to</p>
+<p begin="00:07:21.440" end="00:07:26.240" style="s2">know the behind the scenes of what makes</p>
+<p begin="00:07:24.160" end="00:07:28.560" style="s2">up the models and the machine learning</p>
+<p begin="00:07:26.240" end="00:07:29.919" style="s2">algorithms that we have been using today</p>
+<p begin="00:07:28.560" end="00:07:31.199" style="s2">thank you for watching as always let me</p>
+<p begin="00:07:29.919" end="00:07:34.240" style="s2">know in the comments if you would like</p>
+<p begin="00:07:31.199" end="00:07:35.680" style="s2">me to make more videos related to ai and</p>
+<p begin="00:07:34.240" end="00:07:37.280" style="s2">if you enjoyed the demos today let me</p>
+<p begin="00:07:35.680" end="00:07:39.120" style="s2">know if you would like a tutorial on</p>
+<p begin="00:07:37.280" end="00:07:41.120" style="s2">that because it turns out it&#39;s very easy</p>
+<p begin="00:07:39.120" end="00:07:43.120" style="s2">to build machine learning stuff in the</p>
+<p begin="00:07:41.120" end="00:07:45.039" style="s2">browser using just vanilla javascript</p>
+<p begin="00:07:43.120" end="00:07:46.479" style="s2">and ml5.js so if that is something you</p>
+<p begin="00:07:45.039" end="00:07:48.080" style="s2">are interested on let me know in the</p>
+<p begin="00:07:46.479" end="00:07:50.080" style="s2">comments as well thank you for watching</p>
+<p begin="00:07:48.080" end="00:07:52.160" style="s2">as always stay happy stay free stay</p>
+<p begin="00:07:50.080" end="00:07:57.000" style="s2">healthy eat kimchi come sammy dah salan</p>
+<p begin="00:07:52.160" end="00:07:57.000" style="s2">hail see you on the next one bye</p>
+<p begin="00:07:59.759" end="00:08:01.840" style="s2">you</p>
+</div>
+</body>
+</tt>

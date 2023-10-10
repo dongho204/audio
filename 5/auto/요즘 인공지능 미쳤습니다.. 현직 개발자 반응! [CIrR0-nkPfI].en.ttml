@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:02.179" end="00:00:08.280" style="s2">and I tried chat GPT and I have to say I</p>
+<p begin="00:00:06.060" end="00:00:10.320" style="s2">am a little bit worried and with the</p>
+<p begin="00:00:08.280" end="00:00:13.200" style="s2">demo I&#39;m going to show you I think you</p>
+<p begin="00:00:10.320" end="00:00:16.500" style="s2">will get worried as well chat GPT is a</p>
+<p begin="00:00:13.200" end="00:00:19.740" style="s2">variant of the gpt3 model specifically</p>
+<p begin="00:00:16.500" end="00:00:22.199" style="s2">designed for chatbot applications gpt3</p>
+<p begin="00:00:19.740" end="00:00:24.840" style="s2">is a language processing model developed</p>
+<p begin="00:00:22.199" end="00:00:26.820" style="s2">by open AI it is a type of artificial</p>
+<p begin="00:00:24.840" end="00:00:29.460" style="s2">intelligence that is trained on massive</p>
+<p begin="00:00:26.820" end="00:00:31.920" style="s2">amounts of Text data and it can write</p>
+<p begin="00:00:29.460" end="00:00:34.440" style="s2">news articles science fiction novels</p>
+<p begin="00:00:31.920" end="00:00:36.840" style="s2">comments whatever you can think of and</p>
+<p begin="00:00:34.440" end="00:00:39.239" style="s2">some if not most of the time it is very</p>
+<p begin="00:00:36.840" end="00:00:42.260" style="s2">hard to identify what was written by a</p>
+<p begin="00:00:39.239" end="00:00:44.399" style="s2">human and what by the AI it almost</p>
+<p begin="00:00:42.260" end="00:00:46.680" style="s2">unrecognizable people have been doing</p>
+<p begin="00:00:44.399" end="00:00:49.920" style="s2">all sorts of crazy stuff with chat GPT</p>
+<p begin="00:00:46.680" end="00:00:52.620" style="s2">and gpt3 like for example training the</p>
+<p begin="00:00:49.920" end="00:00:55.199" style="s2">AI model with the contents of childhood</p>
+<p begin="00:00:52.620" end="00:00:57.600" style="s2">journals to later being able to chat</p>
+<p begin="00:00:55.199" end="00:00:59.760" style="s2">with their younger self at the time of</p>
+<p begin="00:00:57.600" end="00:01:02.100" style="s2">recording this video chat GPT has been</p>
+<p begin="00:00:59.760" end="00:01:05.220" style="s2">out for less than a week and it already</p>
+<p begin="00:01:02.100" end="00:01:07.680" style="s2">has more than 1 million users people are</p>
+<p begin="00:01:05.220" end="00:01:10.260" style="s2">finding chat GPT more useful when</p>
+<p begin="00:01:07.680" end="00:01:12.060" style="s2">answering questions than Google here you</p>
+<p begin="00:01:10.260" end="00:01:15.840" style="s2">can see the same question asked to</p>
+<p begin="00:01:12.060" end="00:01:18.299" style="s2">Google and chat GPT one answer is way</p>
+<p begin="00:01:15.840" end="00:01:21.720" style="s2">better than the other someone was able</p>
+<p begin="00:01:18.299" end="00:01:24.600" style="s2">to trick the chat GPT bot into thinking</p>
+<p begin="00:01:21.720" end="00:01:28.020" style="s2">it was a Linux terminal they both run</p>
+<p begin="00:01:24.600" end="00:01:30.900" style="s2">Linux commands listed directories and</p>
+<p begin="00:01:28.020" end="00:01:33.540" style="s2">created files it was also able to pull</p>
+<p begin="00:01:30.900" end="00:01:36.540" style="s2">an image from Docker and it was able to</p>
+<p begin="00:01:33.540" end="00:01:38.820" style="s2">navigate to its own website meaning that</p>
+<p begin="00:01:36.540" end="00:01:42.380" style="s2">the AI was able to go to the website</p>
+<p begin="00:01:38.820" end="00:01:44.880" style="s2">where the AI was hosted making the AI</p>
+<p begin="00:01:42.380" end="00:01:46.799" style="s2">self-aware this shows that the AI</p>
+<p begin="00:01:44.880" end="00:01:50.340" style="s2">understands the concept of files</p>
+<p begin="00:01:46.799" end="00:01:53.280" style="s2">commands Linux machines Docker and it</p>
+<p begin="00:01:50.340" end="00:01:55.320" style="s2">knows about websites URLs and the</p>
+<p begin="00:01:53.280" end="00:01:59.340" style="s2">responses that a server should make</p>
+<p begin="00:01:55.320" end="00:02:01.500" style="s2">that&#39;s mind blowing chat DPT is pretty</p>
+<p begin="00:01:59.340" end="00:02:04.259" style="s2">good at coding in a different way from</p>
+<p begin="00:02:01.500" end="00:02:06.439" style="s2">GitHub compiler GitHub copilot works</p>
+<p begin="00:02:04.259" end="00:02:09.539" style="s2">with you alongside your code</p>
+<p begin="00:02:06.439" end="00:02:12.599" style="s2">chargibility works for you it generates</p>
+<p begin="00:02:09.539" end="00:02:15.300" style="s2">code from a natural language from so</p>
+<p begin="00:02:12.599" end="00:02:17.400" style="s2">let&#39;s ask chat GPT to generate a</p>
+<p begin="00:02:15.300" end="00:02:20.520" style="s2">JavaScript code that paints a tomato</p>
+<p begin="00:02:17.400" end="00:02:23.580" style="s2">color circle on the center of a 500 by</p>
+<p begin="00:02:20.520" end="00:02:26.459" style="s2">500 pixels canvas the canvas should have</p>
+<p begin="00:02:23.580" end="00:02:28.379" style="s2">a 5 pixel tomato color border the circle</p>
+<p begin="00:02:26.459" end="00:02:30.540" style="s2">should be controlled by the position of</p>
+<p begin="00:02:28.379" end="00:02:32.700" style="s2">the mouse and when the circle is clicked</p>
+<p begin="00:02:30.540" end="00:02:36.120" style="s2">it should change to a random background</p>
+<p begin="00:02:32.700" end="00:02:38.340" style="s2">color after the AI is done we can copy</p>
+<p begin="00:02:36.120" end="00:02:41.280" style="s2">paste the code and as you can see</p>
+<p begin="00:02:38.340" end="00:02:44.640" style="s2">without touching the code at all it just</p>
+<p begin="00:02:41.280" end="00:02:46.680" style="s2">works now let&#39;s try to go to lidco a</p>
+<p begin="00:02:44.640" end="00:02:48.720" style="s2">website where developers prepare for job</p>
+<p begin="00:02:46.680" end="00:02:51.239" style="s2">interviews by solving programming</p>
+<p begin="00:02:48.720" end="00:02:53.700" style="s2">problems on lead code let&#39;s choose a</p>
+<p begin="00:02:51.239" end="00:02:56.160" style="s2">hard level problem and all we have to do</p>
+<p begin="00:02:53.700" end="00:02:59.459" style="s2">is copy the question and paste it on</p>
+<p begin="00:02:56.160" end="00:03:02.160" style="s2">chat GPT and as you can see the AI not</p>
+<p begin="00:02:59.459" end="00:03:04.860" style="s2">only write the code but explains how the</p>
+<p begin="00:03:02.160" end="00:03:08.459" style="s2">code works and it also provides examples</p>
+<p begin="00:03:04.860" end="00:03:10.680" style="s2">of how to use the generated code after</p>
+<p begin="00:03:08.459" end="00:03:12.959" style="s2">copy pasting the code and just changing</p>
+<p begin="00:03:10.680" end="00:03:15.900" style="s2">the name of the function we can submit</p>
+<p begin="00:03:12.959" end="00:03:18.360" style="s2">the solution which as you can see is</p>
+<p begin="00:03:15.900" end="00:03:20.400" style="s2">correct what&#39;s interesting about this</p>
+<p begin="00:03:18.360" end="00:03:23.519" style="s2">solution is that as you can see is very</p>
+<p begin="00:03:20.400" end="00:03:28.019" style="s2">slow it&#39;s only better than 11 of the</p>
+<p begin="00:03:23.519" end="00:03:30.840" style="s2">other Solutions but it is better than 91</p>
+<p begin="00:03:28.019" end="00:03:33.360" style="s2">percent of the other Solutions when it</p>
+<p begin="00:03:30.840" end="00:03:35.340" style="s2">comes to memory consumption the best</p>
+<p begin="00:03:33.360" end="00:03:37.319" style="s2">thing about this AI is that it will</p>
+<p begin="00:03:35.340" end="00:03:39.659" style="s2">generate code without a technical</p>
+<p begin="00:03:37.319" end="00:03:42.120" style="s2">description as you can see on this long</p>
+<p begin="00:03:39.659" end="00:03:44.040" style="s2">prompt we are asking the AI to make a</p>
+<p begin="00:03:42.120" end="00:03:46.680" style="s2">vertically aligned form that has a</p>
+<p begin="00:03:44.040" end="00:03:49.319" style="s2">background color with three inputs that</p>
+<p begin="00:03:46.680" end="00:03:52.799" style="s2">should be pretty and should have a</p>
+<p begin="00:03:49.319" end="00:03:55.620" style="s2">subtle Shadow along with a pink button</p>
+<p begin="00:03:52.799" end="00:03:58.019" style="s2">with white text when we get the code and</p>
+<p begin="00:03:55.620" end="00:04:01.379" style="s2">copy paste it as you can see the result</p>
+<p begin="00:03:58.019" end="00:04:04.920" style="s2">is a pretty input and it does have a</p>
+<p begin="00:04:01.379" end="00:04:07.620" style="s2">subtle box Shadow the AI knows how to</p>
+<p begin="00:04:04.920" end="00:04:11.099" style="s2">translate the words pretty and subtle</p>
+<p begin="00:04:07.620" end="00:04:13.620" style="s2">box Shadow into actual CSS on this next</p>
+<p begin="00:04:11.099" end="00:04:16.079" style="s2">example we are asking the AI to create a</p>
+<p begin="00:04:13.620" end="00:04:18.720" style="s2">flask application that renders a page</p>
+<p begin="00:04:16.079" end="00:04:20.940" style="s2">that shows a counter stored in memory</p>
+<p begin="00:04:18.720" end="00:04:22.620" style="s2">the page should have two buttons that</p>
+<p begin="00:04:20.940" end="00:04:24.780" style="s2">will increase the counter and redirect</p>
+<p begin="00:04:22.620" end="00:04:27.960" style="s2">the user to the home page as you can see</p>
+<p begin="00:04:24.780" end="00:04:30.000" style="s2">with very natural language we are saying</p>
+<p begin="00:04:27.960" end="00:04:33.360" style="s2">that when the user goes to slash</p>
+<p begin="00:04:30.000" end="00:04:34.699" style="s2">increase or slash decrease the counter</p>
+<p begin="00:04:33.360" end="00:04:37.080" style="s2">should increase and decrease</p>
+<p begin="00:04:34.699" end="00:04:39.300" style="s2">respectively we are also saying that</p>
+<p begin="00:04:37.080" end="00:04:41.820" style="s2">both routes should redirect the user</p>
+<p begin="00:04:39.300" end="00:04:44.940" style="s2">back home the generated code of course</p>
+<p begin="00:04:41.820" end="00:04:47.460" style="s2">Works which is absolutely incredible but</p>
+<p begin="00:04:44.940" end="00:04:50.280" style="s2">what blew my mind the most is how we can</p>
+<p begin="00:04:47.460" end="00:04:52.800" style="s2">ask the AI to refactor the code we can</p>
+<p begin="00:04:50.280" end="00:04:54.960" style="s2">copy paste the same code and ask the AI</p>
+<p begin="00:04:52.800" end="00:04:58.080" style="s2">to refactor it into a JavaScript</p>
+<p begin="00:04:54.960" end="00:05:00.960" style="s2">cloudflare worker and as you can see it</p>
+<p begin="00:04:58.080" end="00:05:03.419" style="s2">will do that as well the logic is the</p>
+<p begin="00:05:00.960" end="00:05:05.759" style="s2">same there is a counter stored in memory</p>
+<p begin="00:05:03.419" end="00:05:08.280" style="s2">slash increase and slash decrease as</p>
+<p begin="00:05:05.759" end="00:05:11.820" style="s2">well as a home page but the language is</p>
+<p begin="00:05:08.280" end="00:05:15.240" style="s2">different and the AI also knows the API</p>
+<p begin="00:05:11.820" end="00:05:17.340" style="s2">of a cloudflare worker incredible the</p>
+<p begin="00:05:15.240" end="00:05:20.100" style="s2">amount of Concepts these AI knows and</p>
+<p begin="00:05:17.340" end="00:05:21.960" style="s2">how it connects them is insane here you</p>
+<p begin="00:05:20.100" end="00:05:24.539" style="s2">can see how we can ask the AI to</p>
+<p begin="00:05:21.960" end="00:05:28.080" style="s2">refactor a react class component into a</p>
+<p begin="00:05:24.539" end="00:05:31.919" style="s2">functional component how amazing is that</p>
+<p begin="00:05:28.080" end="00:05:35.100" style="s2">so as developers how worried should we</p>
+<p begin="00:05:31.919" end="00:05:37.440" style="s2">be I would say not that much the example</p>
+<p begin="00:05:35.100" end="00:05:39.960" style="s2">that you saw today did not appear on the</p>
+<p begin="00:05:37.440" end="00:05:42.539" style="s2">first try most of the time the code did</p>
+<p begin="00:05:39.960" end="00:05:46.080" style="s2">not work and the most important thing of</p>
+<p begin="00:05:42.539" end="00:05:47.820" style="s2">all is that the code the AI generated I</p>
+<p begin="00:05:46.080" end="00:05:50.280" style="s2">could have found it by doing a Google</p>
+<p begin="00:05:47.820" end="00:05:52.680" style="s2">search anyways and also don&#39;t forget</p>
+<p begin="00:05:50.280" end="00:05:55.560" style="s2">that this AI isn&#39;t creating something</p>
+<p begin="00:05:52.680" end="00:05:58.080" style="s2">completely new it&#39;s doing a remix of</p>
+<p begin="00:05:55.560" end="00:06:01.680" style="s2">something it has already seen before for</p>
+<p begin="00:05:58.080" end="00:06:04.440" style="s2">new ideas you still need humans the code</p>
+<p begin="00:06:01.680" end="00:06:06.780" style="s2">generated by the AI still needs to be</p>
+<p begin="00:06:04.440" end="00:06:09.419" style="s2">read by a developer who needs to make</p>
+<p begin="00:06:06.780" end="00:06:12.180" style="s2">sure the code works that it is safe and</p>
+<p begin="00:06:09.419" end="00:06:14.759" style="s2">that it isn&#39;t incredibly slow a problem</p>
+<p begin="00:06:12.180" end="00:06:17.220" style="s2">with code generated by chat GPT and</p>
+<p begin="00:06:14.759" end="00:06:19.979" style="s2">GitHub copilot is the fact that for</p>
+<p begin="00:06:17.220" end="00:06:22.199" style="s2">unexperienced eyes the code looks great</p>
+<p begin="00:06:19.979" end="00:06:25.080" style="s2">but because these AIS don&#39;t know what</p>
+<p begin="00:06:22.199" end="00:06:27.060" style="s2">code quality is the AI generated code</p>
+<p begin="00:06:25.080" end="00:06:29.220" style="s2">might be introduced in box in the</p>
+<p begin="00:06:27.060" end="00:06:31.380" style="s2">program creating more problems than it</p>
+<p begin="00:06:29.220" end="00:06:33.120" style="s2">solves so now I don&#39;t think the human</p>
+<p begin="00:06:31.380" end="00:06:35.639" style="s2">behind the machine is going to be</p>
+<p begin="00:06:33.120" end="00:06:38.280" style="s2">replaced I think this is a win for</p>
+<p begin="00:06:35.639" end="00:06:40.680" style="s2">developers a lot of developer time is</p>
+<p begin="00:06:38.280" end="00:06:42.720" style="s2">wasted trying to solve a problem that</p>
+<p begin="00:06:40.680" end="00:06:45.419" style="s2">another developer already solved before</p>
+<p begin="00:06:42.720" end="00:06:48.000" style="s2">now we have an AI that will generate the</p>
+<p begin="00:06:45.419" end="00:06:49.919" style="s2">repetitive code for us what I am worried</p>
+<p begin="00:06:48.000" end="00:06:52.500" style="s2">about has nothing to do with coding but</p>
+<p begin="00:06:49.919" end="00:06:55.680" style="s2">with the implications of these AI models</p>
+<p begin="00:06:52.500" end="00:06:58.020" style="s2">for society the levels of spam fake news</p>
+<p begin="00:06:55.680" end="00:07:00.660" style="s2">fake comments fake product reviews are</p>
+<p begin="00:06:58.020" end="00:07:02.819" style="s2">gonna go through the roof if we cannot</p>
+<p begin="00:07:00.660" end="00:07:04.500" style="s2">tell what is real and what isn&#39;t we are</p>
+<p begin="00:07:02.819" end="00:07:08.160" style="s2">going to be at the mercy of the people</p>
+<p begin="00:07:04.500" end="00:07:10.500" style="s2">controlling the AI with chat DPT ngpt3</p>
+<p begin="00:07:08.160" end="00:07:13.020" style="s2">combined with stable diffusion we have</p>
+<p begin="00:07:10.500" end="00:07:16.440" style="s2">all the ingredients required to create a</p>
+<p begin="00:07:13.020" end="00:07:18.060" style="s2">dystopian deep fake future maybe I&#39;m</p>
+<p begin="00:07:16.440" end="00:07:19.860" style="s2">being paranoid let me know in the</p>
+<p begin="00:07:18.060" end="00:07:21.419" style="s2">comments what do you think let me know</p>
+<p begin="00:07:19.860" end="00:07:23.759" style="s2">in the comments if you think we are</p>
+<p begin="00:07:21.419" end="00:07:25.800" style="s2">going to be replaced as developers and</p>
+<p begin="00:07:23.759" end="00:07:28.080" style="s2">what do you think we should do as a</p>
+<p begin="00:07:25.800" end="00:07:30.840" style="s2">society not to destroy ourselves with</p>
+<p begin="00:07:28.080" end="00:07:32.639" style="s2">this great power that&#39;s it for this</p>
+<p begin="00:07:30.840" end="00:07:34.020" style="s2">video thank you for watching if you like</p>
+<p begin="00:07:32.639" end="00:07:35.940" style="s2">this content and you want to see more</p>
+<p begin="00:07:34.020" end="00:07:37.979" style="s2">then please consider clicking like And</p>
+<p begin="00:07:35.940" end="00:07:39.360" style="s2">subscribe and don&#39;t forget that if you</p>
+<p begin="00:07:37.979" end="00:07:41.759" style="s2">want to learn things like JavaScript</p>
+<p begin="00:07:39.360" end="00:07:44.220" style="s2">python react react native go dark</p>
+<p begin="00:07:41.759" end="00:07:46.620" style="s2">flutter among many many others for</p>
+<p begin="00:07:44.220" end="00:07:49.139" style="s2">absolutely free all you have to do is</p>
+<p begin="00:07:46.620" end="00:07:51.180" style="s2">click the link below free courses that</p>
+<p begin="00:07:49.139" end="00:07:54.300" style="s2">you can take right now for absolutely</p>
+<p begin="00:07:51.180" end="00:07:56.660" style="s2">free with me click the link below and I</p>
+<p begin="00:07:54.300" end="00:08:01.199" style="s2">will see you there</p>
+<p begin="00:07:56.660" end="00:08:01.199" style="s2">see you on the next one bye-bye</p>
+<p begin="00:08:06.479" end="00:08:09.479" style="s2">foreign</p>
+</div>
+</body>
+</tt>
