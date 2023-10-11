@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en-US" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.000" end="00:00:06.840" style="s2">Hello, this is Week 32 release notes, let&#39;s get started now</p>
+<p begin="00:00:12.860" end="00:00:19.780" style="s2">Yeah, I&#39;ll start with the new features. We were originally only able to add YouTube videos.</p>
+<p begin="00:00:20.060" end="00:00:29.100" style="s2">Now that we&#39;ve added support for uploading video and audio files, we&#39;re able to offer trough summaries for a wide variety of content.</p>
+<p begin="00:00:29.820" end="00:00:38.780" style="s2">So, for example, if we&#39;re having a meeting offline, or if we&#39;re listening to a lecture, and we record it, or if we have a recording of it</p>
+<p begin="00:00:38.820" end="00:00:47.380" style="s2">we can create a Traw summarization based on that and even if we don&#39;t have subtitles, Traw will automatically create them for us.</p>
+<p begin="00:00:47.420" end="00:00:54.340" style="s2">So you can easily create summaries by just uploading a file, and it&#39;s a feature that a lot of people have been asking for.</p>
+<p begin="00:00:54.340" end="00:01:01.280" style="s2">We&#39;ve released a Zapier integration so you can automate your summaries on the Traw.</p>
+<p begin="00:01:01.380" end="00:01:08.240" style="s2">So what you can do with this automation is you can share a trough summer with multiple services.</p>
+<p begin="00:01:08.460" end="00:01:15.880" style="s2">So, for example, you could send those transcribed summaries from a YouTube video to a notion, or you could organize them into a spreadsheet.</p>
+<p begin="00:01:15.880" end="00:01:24.580" style="s2">and a whole bunch of other services, making it much easier for people to utilize Traw in their own workflows.</p>
+<p begin="00:01:25.620" end="00:01:35.740" style="s2">And then lastly, the iOS application, because a lot of people use YouTube on mobile, how can we make it easier to watch YouTube videos</p>
+<p begin="00:01:35.740" end="00:01:43.720" style="s2">and we&#39;ve been working on that, and if you download the Traw AI application, which is now available on the app store</p>
+<p begin="00:01:43.820" end="00:01:53.540" style="s2">and you can now add a YouTube video from your mobile, or you can upload a file that you&#39;ve taken or recorded on your phone and turn it into a summer.</p>
+<p begin="00:01:54.580" end="00:02:05.820" style="s2">And in the YouTube application, if you&#39;re watching a video and you hit share, and you select the Tumblr app, it will automatically add the video summer to the</p>
+<p begin="00:02:06.780" end="00:02:07.720" style="s2">you can create</p>
+<p begin="00:02:09.060" end="00:02:20.020" style="s2">Yeah, and then there&#39;s a bunch of minor changes, because our Traw is still in its early stages, so it doesn&#39;t have a lot of bells and whistles.</p>
+<p begin="00:02:20.020" end="00:02:28.560" style="s2">There were some things that weren&#39;t working.</p>
+<p begin="00:02:28.560" end="00:02:34.080" style="s2">We&#39;ve now switched the video between collections so that it can now be moved between them.</p>
+<p begin="00:02:34.460" end="00:02:42.940" style="s2">And then there was an issue where sometimes foreign language videos would now come up in English when you summarize them.</p>
+<p begin="00:02:42.940" end="00:02:50.300" style="s2">We&#39;ve added an update to recognize and translate languages a little more accurately.</p>
+<p begin="00:02:50.820" end="00:02:59.600" style="s2">We&#39;ve also made a number of changes to the quality of our summaries to ensure that users always get the same quality results.</p>
+<p begin="00:02:59.600" end="00:03:08.140" style="s2">We&#39;ve also made improvements to the quality of the documentation. And the original service menu names were originally only available in English.</p>
+<p begin="00:03:08.220" end="00:03:17.960" style="s2">The service has now started to support a wider range of languages in the UI for six different countries.</p>
+<p begin="00:03:19.260" end="00:03:26.960" style="s2">That&#39;s all for now, and I&#39;d like to give you a quick overview of our upcoming updates.</p>
+<p begin="00:03:27.740" end="00:03:37.760" style="s2">Traw has been provided for free until now, but since we are using a lot of AI features, we are inevitably going to charge for it.</p>
+<p begin="00:03:37.820" end="00:03:47.920" style="s2">That&#39;s coming soon, and we&#39;ll let you know, and if you sign up before it&#39;s paid, you&#39;ll get some special perks.</p>
+<p begin="00:03:47.920" end="00:03:56.300" style="s2">So stay tuned, and we&#39;ll be releasing an Android app just like we did for iOS.</p>
+<p begin="00:03:56.380" end="00:04:06.980" style="s2">Right now, the Zapier integration is focused on utilizing Traw summary, but in the future, we&#39;ll be able to do things like automatically add videos from YouTube.</p>
+<p begin="00:04:06.980" end="00:04:14.760" style="s2">will be added, and we&#39;re also working on some design updates to the UI across the service.</p>
+<p begin="00:04:14.860" end="00:04:23.940" style="s2">And there&#39;s a lot more in the works. That concludes our release notes. Thank you.</p>
+</div>
+</body>
+</tt>
