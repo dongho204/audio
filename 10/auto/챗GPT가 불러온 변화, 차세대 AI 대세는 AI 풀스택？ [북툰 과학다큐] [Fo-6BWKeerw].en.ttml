@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.920" end="00:00:06.060" style="s2">In 1737, French mechanical engineer Jacques</p>
+<p begin="00:00:04.140" end="00:00:08.519" style="s2">Bosqueson created an amazing masterpiece: a</p>
+<p begin="00:00:06.060" end="00:00:10.679" style="s2">flute-</p>
+<p begin="00:00:08.519" end="00:00:13.559" style="s2">playing automaton. This</p>
+<p begin="00:00:10.679" end="00:00:15.360" style="s2">automaton played the flute like a real person, by precisely moving its fingers and</p>
+<p begin="00:00:13.559" end="00:00:16.920" style="s2">blowing air through its mouth.</p>
+<p begin="00:00:15.360" end="00:00:19.619" style="s2"></p>
+<p begin="00:00:16.920" end="00:00:20.699" style="s2"></p>
+<p begin="00:00:19.619" end="00:00:22.800" style="s2">Although there were dolls that made movements, it</p>
+<p begin="00:00:20.699" end="00:00:24.779" style="s2"></p>
+<p begin="00:00:22.800" end="00:00:26.760" style="s2">was the first time that a person&#39;s movements could be elaborated like the Jade Hwang&#39;s doll. It</p>
+<p begin="00:00:24.779" end="00:00:28.920" style="s2">looked as if the</p>
+<p begin="00:00:26.760" end="00:00:31.700" style="s2">doll was imitating human intelligence.</p>
+<p begin="00:00:28.920" end="00:00:34.860" style="s2">People called these automatic dolls</p>
+<p begin="00:00:31.700" end="00:00:36.780" style="s2">automata. Automata are large  It</p>
+<p begin="00:00:34.860" end="00:00:37.190" style="s2">gained popularity and became a hot topic wherever it went.</p>
+<p begin="00:00:36.780" end="00:00:38.700" style="s2"></p>
+<p begin="00:00:37.190" end="00:00:40.440" style="s2">[Music]</p>
+<p begin="00:00:38.700" end="00:00:42.840" style="s2">In modern times, a tomata refers to an</p>
+<p begin="00:00:40.440" end="00:00:45.059" style="s2">abstract machine that automatically processes certain tasks. In</p>
+<p begin="00:00:42.840" end="00:00:47.579" style="s2">that sense, artificial intelligence</p>
+<p begin="00:00:45.059" end="00:00:48.480" style="s2">can be said to be the digital automata of the 21st century.</p>
+<p begin="00:00:47.579" end="00:00:50.940" style="s2"></p>
+<p begin="00:00:48.480" end="00:00:53.160" style="s2">Digital automata are like chess.  It made an impressive debut for</p>
+<p begin="00:00:50.940" end="00:00:55.559" style="s2">the public by defeating the champion and the Go team one</p>
+<p begin="00:00:53.160" end="00:00:58.260" style="s2">after another. As a result, it</p>
+<p begin="00:00:55.559" end="00:01:00.360" style="s2"></p>
+<p begin="00:00:58.260" end="00:01:02.699" style="s2">was quickly applied to various industries, including self-driving cars. When AlphaGo beat people,</p>
+<p begin="00:01:00.360" end="00:01:04.920" style="s2">the public</p>
+<p begin="00:01:02.699" end="00:01:07.740" style="s2">did not really realize the changes brought about by artificial intelligence.</p>
+<p begin="00:01:04.920" end="00:01:10.020" style="s2">However, at the end of last year.  The first gpt that appeared in</p>
+<p begin="00:01:07.740" end="00:01:12.299" style="s2">completely changed the atmosphere. The</p>
+<p begin="00:01:10.020" end="00:01:14.220" style="s2"></p>
+<p begin="00:01:12.299" end="00:01:15.180" style="s2">era has come where not only the industry but also general consumers can experience artificial intelligence.</p>
+<p begin="00:01:14.220" end="00:01:16.500" style="s2"></p>
+<p begin="00:01:15.180" end="00:01:17.880" style="s2">Artificial intelligence is now</p>
+<p begin="00:01:16.500" end="00:01:20.659" style="s2"></p>
+<p begin="00:01:17.880" end="00:01:20.659" style="s2">becoming a part of daily life, not a vague technology. The</p>
+<p begin="00:01:21.200" end="00:01:26.700" style="s2">artificial intelligence craze brought about is strong.</p>
+<p begin="00:01:24.360" end="00:01:29.580" style="s2">In the past, the iPhone  Just as the full-fledged</p>
+<p begin="00:01:26.700" end="00:01:31.799" style="s2">mobile Internet world has opened</p>
+<p begin="00:01:29.580" end="00:01:33.780" style="s2">with the advent of Whip PT, expectations are high that a full-fledged AI</p>
+<p begin="00:01:31.799" end="00:01:36.119" style="s2">world will arrive with the advent of Whip PT.</p>
+<p begin="00:01:33.780" end="00:01:38.119" style="s2">Accordingly, global tech</p>
+<p begin="00:01:36.119" end="00:01:40.320" style="s2">companies are also moving quickly.</p>
+<p begin="00:01:38.119" end="00:01:43.140" style="s2">Microsoft is</p>
+<p begin="00:01:40.320" end="00:01:45.299" style="s2">using technology to develop everything from search engines to PowerPoint.</p>
+<p begin="00:01:43.140" end="00:01:47.159" style="s2">All of its products are armed with AI. As</p>
+<p begin="00:01:45.299" end="00:01:49.680" style="s2">Microsoft</p>
+<p begin="00:01:47.159" end="00:01:52.320" style="s2">took the lead, Google also began to jump in.</p>
+<p begin="00:01:49.680" end="00:01:54.240" style="s2">Meta, Amazon, and Apple</p>
+<p begin="00:01:52.320" end="00:01:57.540" style="s2">are also introducing AI services. In fact,</p>
+<p begin="00:01:54.240" end="00:01:59.040" style="s2">almost all global tech companies seem to be jumping into AI.</p>
+<p begin="00:01:57.540" end="00:02:00.479" style="s2"></p>
+<p begin="00:01:59.040" end="00:02:02.820" style="s2">Domestic companies are responding quickly as well.</p>
+<p begin="00:02:00.479" end="00:02:05.100" style="s2">All of this</p>
+<p begin="00:02:02.820" end="00:02:06.600" style="s2"></p>
+<p begin="00:02:05.100" end="00:02:09.119" style="s2">happened only half a year after the collection PT was released.</p>
+<p begin="00:02:06.600" end="00:02:10.920" style="s2">Yes, today, we will summarize the changes in the AI ​​market that have occurred over the past six months</p>
+<p begin="00:02:09.119" end="00:02:12.840" style="s2"></p>
+<p begin="00:02:10.920" end="00:02:15.260" style="s2">focusing on four keywords.</p>
+<p begin="00:02:12.840" end="00:02:17.520" style="s2">Knowing these four keywords</p>
+<p begin="00:02:15.260" end="00:02:19.620" style="s2"></p>
+<p begin="00:02:17.520" end="00:02:21.660" style="s2">will help you understand the swirling situation.  I think that</p>
+<p begin="00:02:19.620" end="00:02:24.020" style="s2">even in a whirlpool, updates are necessary anyway. The</p>
+<p begin="00:02:21.660" end="00:02:24.020" style="s2"></p>
+<p begin="00:02:24.840" end="00:02:28.980" style="s2">most frequently encountered term since the collection PT came out</p>
+<p begin="00:02:26.760" end="00:02:30.300" style="s2"></p>
+<p begin="00:02:28.980" end="00:02:32.040" style="s2">is probably generative AI. Not only in the</p>
+<p begin="00:02:30.300" end="00:02:35.280" style="s2">new language field of AR, but also</p>
+<p begin="00:02:32.040" end="00:02:37.560" style="s2">in the art, music and video field AI, there</p>
+<p begin="00:02:35.280" end="00:02:38.520" style="s2"></p>
+<p begin="00:02:37.560" end="00:02:41.400" style="s2">is no place where the modifier &quot;generative&quot; is not used.</p>
+<p begin="00:02:38.520" end="00:02:44.580" style="s2"></p>
+<p begin="00:02:41.400" end="00:02:46.980" style="s2">How is type AI different from existing traditional AI? While traditional</p>
+<p begin="00:02:44.580" end="00:02:48.060" style="s2">AI aims to better analyze data, the</p>
+<p begin="00:02:46.980" end="00:02:50.220" style="s2"></p>
+<p begin="00:02:48.060" end="00:02:51.060" style="s2"></p>
+<p begin="00:02:50.220" end="00:02:53.099" style="s2"></p>
+<p begin="00:02:51.060" end="00:02:55.440" style="s2">difference between generative AI is that it derives new results based on the obtained data. For</p>
+<p begin="00:02:53.099" end="00:02:58.080" style="s2">example, photos of dogs and cats.  In</p>
+<p begin="00:02:55.440" end="00:03:00.060" style="s2">this case, traditional AI is better at determining which of the two is</p>
+<p begin="00:02:58.080" end="00:03:02.220" style="s2">stronger and which is</p>
+<p begin="00:03:00.060" end="00:03:05.700" style="s2">the hometown. On the</p>
+<p begin="00:03:02.220" end="00:03:07.440" style="s2">other hand, generative AI can</p>
+<p begin="00:03:05.700" end="00:03:09.480" style="s2"></p>
+<p begin="00:03:07.440" end="00:03:10.440" style="s2">draw pictures of dogs and cats, write novels, or compose music. It is</p>
+<p begin="00:03:09.480" end="00:03:12.780" style="s2"></p>
+<p begin="00:03:10.440" end="00:03:13.800" style="s2">strong in analysis.  If AlphaGo was close to traditional AI,</p>
+<p begin="00:03:12.780" end="00:03:16.620" style="s2"></p>
+<p begin="00:03:13.800" end="00:03:19.640" style="s2">Whippet, which communicates skillfully,</p>
+<p begin="00:03:16.620" end="00:03:19.640" style="s2">is a completely generative AI. To</p>
+<p begin="00:03:19.739" end="00:03:23.700" style="s2">learn more about generative AI, let&#39;s</p>
+<p begin="00:03:22.140" end="00:03:25.440" style="s2"></p>
+<p begin="00:03:23.700" end="00:03:27.420" style="s2">take a look at the name of Whip</p>
+<p begin="00:03:25.440" end="00:03:28.560" style="s2">PD. It is a generative AI that communicates in natural language like a whip holder and has</p>
+<p begin="00:03:27.420" end="00:03:31.739" style="s2"></p>
+<p begin="00:03:28.560" end="00:03:34.019" style="s2">a vast  This is a Transformer pre-trained with data.</p>
+<p begin="00:03:31.739" end="00:03:35.159" style="s2"></p>
+<p begin="00:03:34.019" end="00:03:37.379" style="s2">Transformer</p>
+<p begin="00:03:35.159" end="00:03:38.580" style="s2">Of course, I&#39;m not talking about Bumblebee or Optimus Prime.</p>
+<p begin="00:03:37.379" end="00:03:40.319" style="s2"></p>
+<p begin="00:03:38.580" end="00:03:41.459" style="s2">Transformer is one of the deep learning models.</p>
+<p begin="00:03:40.319" end="00:03:43.799" style="s2"></p>
+<p begin="00:03:41.459" end="00:03:45.360" style="s2">Transformer looks at a given sentence and</p>
+<p begin="00:03:43.799" end="00:03:49.019" style="s2">probabilistically predicts what the next word will be. For</p>
+<p begin="00:03:45.360" end="00:03:51.000" style="s2">example, 1+1 is</p>
+<p begin="00:03:49.019" end="00:03:52.980" style="s2">the answer.  Rather than obtaining it through calculation like a human, it</p>
+<p begin="00:03:51.000" end="00:03:54.599" style="s2"></p>
+<p begin="00:03:52.980" end="00:03:56.159" style="s2"></p>
+<p begin="00:03:54.599" end="00:03:58.560" style="s2"></p>
+<p begin="00:03:56.159" end="00:04:01.379" style="s2">selects the word that appears most frequently after 1+1 from the data it has learned. Because of this,</p>
+<p begin="00:03:58.560" end="00:04:02.599" style="s2">1+1 easily answers the same question, but there is</p>
+<p begin="00:04:01.379" end="00:04:06.180" style="s2"></p>
+<p begin="00:04:02.599" end="00:04:07.560" style="s2"></p>
+<p begin="00:04:06.180" end="00:04:09.840" style="s2">a lot of data like 29,486 + 5,959.  It may</p>
+<p begin="00:04:07.560" end="00:04:12.060" style="s2">give wrong answers to unlikely questions. In other words, the</p>
+<p begin="00:04:09.840" end="00:04:14.700" style="s2">Transformer is not a model that answers life and lies,</p>
+<p begin="00:04:12.060" end="00:04:17.820" style="s2">but is a model trained to give the most plausible answer.</p>
+<p begin="00:04:14.700" end="00:04:19.680" style="s2">If there is a Transformer</p>
+<p begin="00:04:17.820" end="00:04:22.560" style="s2">trained only with data related to Korean entertainment,</p>
+<p begin="00:04:19.680" end="00:04:24.080" style="s2">1+1 is</p>
+<p begin="00:04:22.560" end="00:04:27.120" style="s2">the answer.  You might say that.</p>
+<p begin="00:04:24.080" end="00:04:29.160" style="s2">Anyway, most of the recent generative AI</p>
+<p begin="00:04:27.120" end="00:04:31.340" style="s2">uses the transformer model. I</p>
+<p begin="00:04:29.160" end="00:04:31.340" style="s2"></p>
+<p begin="00:04:31.800" end="00:04:35.639" style="s2"></p>
+<p begin="00:04:34.259" end="00:04:36.780" style="s2">said earlier that the transformer is one of the deep learning models. Deep learning</p>
+<p begin="00:04:35.639" end="00:04:39.000" style="s2"></p>
+<p begin="00:04:36.780" end="00:04:41.759" style="s2"></p>
+<p begin="00:04:39.000" end="00:04:43.979" style="s2">is a learning method that imitates the neural network in the human brain among machine learning. Our</p>
+<p begin="00:04:41.759" end="00:04:45.960" style="s2">brains are made up of neurons.</p>
+<p begin="00:04:43.979" end="00:04:46.919" style="s2">Information is transmitted and processed through synapses that connect neurons.</p>
+<p begin="00:04:45.960" end="00:04:48.960" style="s2"></p>
+<p begin="00:04:46.919" end="00:04:50.820" style="s2">Deep learning also</p>
+<p begin="00:04:48.960" end="00:04:53.820" style="s2">processes information through parameters corresponding to synapses.</p>
+<p begin="00:04:50.820" end="00:04:56.460" style="s2">So the more parameters deep learning has, the</p>
+<p begin="00:04:53.820" end="00:04:58.160" style="s2">more sophisticated learning can be done. The</p>
+<p begin="00:04:56.460" end="00:05:01.020" style="s2">parameters that are whip pts are</p>
+<p begin="00:04:58.160" end="00:05:01.919" style="s2">There are as many as 175 billion parameters. When we</p>
+<p begin="00:05:01.020" end="00:05:03.360" style="s2"></p>
+<p begin="00:05:01.919" end="00:05:05.460" style="s2"></p>
+<p begin="00:05:03.360" end="00:05:07.740" style="s2">pre-trained with 300 billion words and 5 trillion documents for these parameters, we</p>
+<p begin="00:05:05.460" end="00:05:10.199" style="s2">got results that surprised people.</p>
+<p begin="00:05:07.740" end="00:05:12.600" style="s2"></p>
+<p begin="00:05:10.199" end="00:05:15.300" style="s2">AI that has countless parameters and is trained with massive data like this is</p>
+<p begin="00:05:12.600" end="00:05:17.400" style="s2">usually called ultra-advanced AI.</p>
+<p begin="00:05:15.300" end="00:05:19.380" style="s2">Transformers can ultimately be said to be ultra-large AI.</p>
+<p begin="00:05:17.400" end="00:05:21.840" style="s2"></p>
+<p begin="00:05:19.380" end="00:05:24.479" style="s2">The performance of ultra-large AI depends</p>
+<p begin="00:05:21.840" end="00:05:25.440" style="s2">on the scale of parameters and data rather than the excellence of the model itself.</p>
+<p begin="00:05:24.479" end="00:05:28.080" style="s2"></p>
+<p begin="00:05:25.440" end="00:05:30.360" style="s2">Even for an ordinary model, if it has many parameters,</p>
+<p begin="00:05:28.080" end="00:05:32.460" style="s2">a lot of data, or both, it can</p>
+<p begin="00:05:30.360" end="00:05:34.139" style="s2">excel at artificial intelligence.  This means that it can be intelligent.</p>
+<p begin="00:05:32.460" end="00:05:36.900" style="s2">For this reason, the</p>
+<p begin="00:05:34.139" end="00:05:38.580" style="s2">race to develop super-large AI is similar to an arms race. The</p>
+<p begin="00:05:36.900" end="00:05:40.979" style="s2"></p>
+<p begin="00:05:38.580" end="00:05:43.440" style="s2">more military you invest, the</p>
+<p begin="00:05:40.979" end="00:05:45.539" style="s2">stronger your military power becomes than the other side. The</p>
+<p begin="00:05:43.440" end="00:05:47.820" style="s2">reason everyone is unable to develop ultra-large AI is not because of</p>
+<p begin="00:05:45.539" end="00:05:49.979" style="s2">lack of technology, but because they are confident of winning the arms race.</p>
+<p begin="00:05:47.820" end="00:05:51.780" style="s2">Because there is no such thing, it</p>
+<p begin="00:05:49.979" end="00:05:53.820" style="s2"></p>
+<p begin="00:05:51.780" end="00:05:56.100" style="s2">costs an astronomical amount of money to develop and operate ultra-advanced AI. It</p>
+<p begin="00:05:53.820" end="00:05:57.960" style="s2"></p>
+<p begin="00:05:56.100" end="00:06:00.060" style="s2">costs a lot of money to provide massive data and pre-train, but the</p>
+<p begin="00:05:57.960" end="00:06:02.280" style="s2">real money-maker is in the hardware side. It</p>
+<p begin="00:06:00.060" end="00:06:05.340" style="s2"></p>
+<p begin="00:06:02.280" end="00:06:08.160" style="s2">is the AI ​​semiconductor optimized for artificial intelligence calculation.  In some ways,</p>
+<p begin="00:06:05.340" end="00:06:10.440" style="s2">all industries that face change</p>
+<p begin="00:06:08.160" end="00:06:12.720" style="s2">always have money at the center of that change.</p>
+<p begin="00:06:10.440" end="00:06:13.440" style="s2">Therefore, if you know about AI semiconductors, which are money-consuming creatures, you</p>
+<p begin="00:06:12.720" end="00:06:15.539" style="s2"></p>
+<p begin="00:06:13.440" end="00:06:17.780" style="s2">can see changes in the AI ​​industry at a glance.</p>
+<p begin="00:06:15.539" end="00:06:17.780" style="s2"></p>
+<p begin="00:06:18.300" end="00:06:21.240" style="s2">Computers have a CPU that is in charge of calculations. The</p>
+<p begin="00:06:20.400" end="00:06:23.220" style="s2"></p>
+<p begin="00:06:21.240" end="00:06:25.860" style="s2">CPU&#39;s calculation method.  is a</p>
+<p begin="00:06:23.220" end="00:06:27.960" style="s2">serial operation that processes data in order.</p>
+<p begin="00:06:25.860" end="00:06:28.979" style="s2">AI algorithms</p>
+<p begin="00:06:27.960" end="00:06:30.120" style="s2">can be calculated using serial operations, but the</p>
+<p begin="00:06:28.979" end="00:06:32.520" style="s2">speed is slow.</p>
+<p begin="00:06:30.120" end="00:06:34.440" style="s2"></p>
+<p begin="00:06:32.520" end="00:06:36.479" style="s2"></p>
+<p begin="00:06:34.440" end="00:06:38.940" style="s2">Parallel operation is essential, especially for algorithms that need to process data simultaneously, such as deep learning. An</p>
+<p begin="00:06:36.479" end="00:06:40.740" style="s2">unexpected trick for engineers who were struggling.  It</p>
+<p begin="00:06:38.940" end="00:06:42.960" style="s2">occurred to me that it uses none other than the</p>
+<p begin="00:06:40.740" end="00:06:43.680" style="s2">GPU used as a graphics card.</p>
+<p begin="00:06:42.960" end="00:06:45.600" style="s2"></p>
+<p begin="00:06:43.680" end="00:06:48.240" style="s2">GPU is a semiconductor that is specialized in calculating</p>
+<p begin="00:06:45.600" end="00:06:50.280" style="s2">numerous numbers simultaneously in order to quickly display images or videos on a monitor.</p>
+<p begin="00:06:48.240" end="00:06:52.919" style="s2"></p>
+<p begin="00:06:50.280" end="00:06:55.919" style="s2">This simultaneous calculation</p>
+<p begin="00:06:52.919" end="00:06:57.720" style="s2">ability is perfect for parallel computing in artificial intelligence.  They say</p>
+<p begin="00:06:55.919" end="00:07:00.479" style="s2"></p>
+<p begin="00:06:57.720" end="00:07:03.479" style="s2">people who are good at drawing are also good at drawing, but</p>
+<p begin="00:07:00.479" end="00:07:05.340" style="s2">I didn&#39;t know this also applies to semiconductors. When the</p>
+<p begin="00:07:03.479" end="00:07:06.539" style="s2"></p>
+<p begin="00:07:05.340" end="00:07:08.699" style="s2"></p>
+<p begin="00:07:06.539" end="00:07:11.340" style="s2">parallel computing performance of GPU was confirmed at an AI competition held in 2012,</p>
+<p begin="00:07:08.699" end="00:07:13.680" style="s2"></p>
+<p begin="00:07:11.340" end="00:07:16.319" style="s2">GPU was used in most artificial intelligence learning from then on.</p>
+<p begin="00:07:13.680" end="00:07:18.900" style="s2">Currently, nbdi artificial intelligence  The intelligent semiconductor market</p>
+<p begin="00:07:16.319" end="00:07:22.319" style="s2">share is about 80%. The</p>
+<p begin="00:07:18.900" end="00:07:24.240" style="s2">problem is that GPUs are too expensive.</p>
+<p begin="00:07:22.319" end="00:07:27.000" style="s2">NVIDIA&#39;s GPU called A100</p>
+<p begin="00:07:24.240" end="00:07:28.440" style="s2"></p>
+<p begin="00:07:27.000" end="00:07:30.720" style="s2">can add and subtract as many as 312 times per second.</p>
+<p begin="00:07:28.440" end="00:07:33.120" style="s2">Harvest PT uses as many as 10,000 of these A10s.</p>
+<p begin="00:07:30.720" end="00:07:34.440" style="s2">10,000  The price of the product is</p>
+<p begin="00:07:33.120" end="00:07:37.020" style="s2">not cheap, but if you</p>
+<p begin="00:07:34.440" end="00:07:38.699" style="s2"></p>
+<p begin="00:07:37.020" end="00:07:40.080" style="s2"></p>
+<p begin="00:07:38.699" end="00:07:42.180" style="s2">include the huge amount of electricity and coolant costs, engineer technical support costs, and management and operation costs, it</p>
+<p begin="00:07:40.080" end="00:07:43.560" style="s2"></p>
+<p begin="00:07:42.180" end="00:07:46.380" style="s2">will cost hundreds of billions of won for large-scale AI learning.In addition,</p>
+<p begin="00:07:43.560" end="00:07:48.539" style="s2">whip bits cost about 26 won per search,</p>
+<p begin="00:07:46.380" end="00:07:51.300" style="s2">even though one person per month  Just by</p>
+<p begin="00:07:48.539" end="00:07:52.319" style="s2">searching 10 times, it costs 26 billion won.</p>
+<p begin="00:07:51.300" end="00:07:54.300" style="s2"></p>
+<p begin="00:07:52.319" end="00:07:57.000" style="s2">From learning costs to operating costs, it is</p>
+<p begin="00:07:54.300" end="00:07:59.699" style="s2"></p>
+<p begin="00:07:57.000" end="00:08:02.400" style="s2">difficult for most companies to develop ultra-large AI using GPUs. The</p>
+<p begin="00:07:59.699" end="00:08:05.039" style="s2">reason it costs so much is</p>
+<p begin="00:08:02.400" end="00:08:05.940" style="s2"></p>
+<p begin="00:08:05.039" end="00:08:08.099" style="s2">because GPUs are not true AI semiconductors.</p>
+<p begin="00:08:05.940" end="00:08:10.139" style="s2">GPU is bound to be</p>
+<p begin="00:08:08.099" end="00:08:12.599" style="s2">less efficient in AI calculations.</p>
+<p begin="00:08:10.139" end="00:08:14.460" style="s2">To solve this problem, we</p>
+<p begin="00:08:12.599" end="00:08:17.160" style="s2"></p>
+<p begin="00:08:14.460" end="00:08:20.220" style="s2">need to develop AI semiconductors to replace GPU. There</p>
+<p begin="00:08:17.160" end="00:08:21.780" style="s2"></p>
+<p begin="00:08:20.220" end="00:08:23.580" style="s2">may not be many gamers who made their own GPU because it is expensive and inefficient, but</p>
+<p begin="00:08:21.780" end="00:08:25.979" style="s2">it is possible for companies.</p>
+<p begin="00:08:23.580" end="00:08:28.860" style="s2">Google aims to respond to GPU.</p>
+<p begin="00:08:25.979" end="00:08:30.780" style="s2">In 2016, we developed a semiconductor tpu dedicated to AI learning.</p>
+<p begin="00:08:28.860" end="00:08:33.000" style="s2"></p>
+<p begin="00:08:30.780" end="00:08:35.339" style="s2">AWS also developed AI semiconductors separately.</p>
+<p begin="00:08:33.000" end="00:08:37.380" style="s2">Other companies are also</p>
+<p begin="00:08:35.339" end="00:08:40.440" style="s2"></p>
+<p begin="00:08:37.380" end="00:08:42.779" style="s2">aiming to develop their own AI semiconductors in the long term. The</p>
+<p begin="00:08:40.440" end="00:08:44.279" style="s2">generational replacement of AI semiconductors is much more</p>
+<p begin="00:08:42.779" end="00:08:45.959" style="s2">complicated than this, but the</p>
+<p begin="00:08:44.279" end="00:08:48.300" style="s2">core  It is simple.</p>
+<p begin="00:08:45.959" end="00:08:51.120" style="s2">Move away from general-purpose and expensive GPUs and</p>
+<p begin="00:08:48.300" end="00:08:53.880" style="s2"></p>
+<p begin="00:08:51.120" end="00:08:55.860" style="s2">move toward dedicated and efficient AI semiconductors.</p>
+<p begin="00:08:53.880" end="00:08:58.560" style="s2">Once you have your own AI semiconductor, the rest is relatively</p>
+<p begin="00:08:55.860" end="00:09:00.600" style="s2">easy. So, the future AI competition is</p>
+<p begin="00:08:58.560" end="00:09:01.620" style="s2">likely to unfold like this.</p>
+<p begin="00:09:00.600" end="00:09:04.140" style="s2"></p>
+<p begin="00:09:01.620" end="00:09:07.019" style="s2">Develop your own AI semiconductors and build your own</p>
+<p begin="00:09:04.140" end="00:09:09.120" style="s2">AI infrastructure.  We build and provide</p>
+<p begin="00:09:07.019" end="00:09:11.820" style="s2">integrated AI services to customers based on this.</p>
+<p begin="00:09:09.120" end="00:09:12.420" style="s2">This</p>
+<p begin="00:09:11.820" end="00:09:13.399" style="s2"></p>
+<p begin="00:09:12.420" end="00:09:15.540" style="s2"></p>
+<p begin="00:09:13.399" end="00:09:18.300" style="s2">is the AI ​​full stack, which has been attracting attention recently. Let&#39;s take a look at the AI ​​full stack, which is the last</p>
+<p begin="00:09:15.540" end="00:09:22.040" style="s2">keyword and the end point of the whirlwind. The</p>
+<p begin="00:09:18.300" end="00:09:22.040" style="s2"></p>
+<p begin="00:09:22.620" end="00:09:27.480" style="s2">term full stack is mainly used in IT-related</p>
+<p begin="00:09:24.839" end="00:09:29.339" style="s2">areas.  This</p>
+<p begin="00:09:27.480" end="00:09:30.600" style="s2">means a developer who knows how to handle</p>
+<p begin="00:09:29.339" end="00:09:33.300" style="s2"></p>
+<p begin="00:09:30.600" end="00:09:35.040" style="s2">all aspects of software and hardware. However, in</p>
+<p begin="00:09:33.300" end="00:09:37.980" style="s2">reality, it</p>
+<p begin="00:09:35.040" end="00:09:40.500" style="s2">is close to impossible to have a full-stack developer who can really handle all of these areas. A realistic meaning would be a</p>
+<p begin="00:09:37.980" end="00:09:43.019" style="s2">developer who has a high understanding of the overall area.</p>
+<p begin="00:09:40.500" end="00:09:46.140" style="s2">However,</p>
+<p begin="00:09:43.019" end="00:09:48.480" style="s2">people  What if it is a system that is not like that?</p>
+<p begin="00:09:46.140" end="00:09:50.160" style="s2"></p>
+<p begin="00:09:48.480" end="00:09:52.380" style="s2">Wouldn&#39;t it be possible to achieve a full stack in the true sense of the word? A</p>
+<p begin="00:09:50.160" end="00:09:54.959" style="s2"></p>
+<p begin="00:09:52.380" end="00:09:56.519" style="s2"></p>
+<p begin="00:09:54.959" end="00:09:59.220" style="s2"></p>
+<p begin="00:09:56.519" end="00:10:03.500" style="s2"></p>
+<p begin="00:09:59.220" end="00:10:03.500" style="s2">system that builds its own AI infrastructure, including AI semiconductors, and provides customized AI services to businesses and consumers based on this. It is an AI full stack.</p>
+<p begin="00:10:03.540" end="00:10:06.899" style="s2">AI  Building a full stack</p>
+<p begin="00:10:05.580" end="00:10:09.180" style="s2">requires enormous investment. Just</p>
+<p begin="00:10:06.899" end="00:10:09.959" style="s2"></p>
+<p begin="00:10:09.180" end="00:10:12.120" style="s2">like growing the device industry, such as petrochemicals or steel,</p>
+<p begin="00:10:09.959" end="00:10:14.160" style="s2">long-term and continuous investment must be made.</p>
+<p begin="00:10:12.120" end="00:10:16.680" style="s2">Nevertheless,</p>
+<p begin="00:10:14.160" end="00:10:18.899" style="s2">interest in the AI ​​full stack is high. As</p>
+<p begin="00:10:16.680" end="00:10:21.180" style="s2">competition in AI semiconductor development intensifies, it will</p>
+<p begin="00:10:18.899" end="00:10:23.279" style="s2">eventually lead to the expansion of overall AI services.  This is</p>
+<p begin="00:10:21.180" end="00:10:24.300" style="s2"></p>
+<p begin="00:10:23.279" end="00:10:26.940" style="s2">because there is a high possibility that it will expand into a battle of size.</p>
+<p begin="00:10:24.300" end="00:10:28.740" style="s2">Even in Korea, companies with capabilities are</p>
+<p begin="00:10:26.940" end="00:10:31.380" style="s2">showing moves to build an AI full stack.</p>
+<p begin="00:10:28.740" end="00:10:33.060" style="s2">Among them, KT already has the</p>
+<p begin="00:10:31.380" end="00:10:35.040" style="s2">necessary environment to build an AI full stack.</p>
+<p begin="00:10:33.060" end="00:10:37.920" style="s2"></p>
+<p begin="00:10:35.040" end="00:10:40.560" style="s2">KT was a reporter at the end of last year.  We held a meeting and</p>
+<p begin="00:10:37.920" end="00:10:43.200" style="s2"></p>
+<p begin="00:10:40.560" end="00:10:43.920" style="s2">announced plans to complete the Korean</p>
+<p begin="00:10:43.200" end="00:10:46.200" style="s2"></p>
+<p begin="00:10:43.920" end="00:10:48.779" style="s2">AI Full Stack in 2023. If so, let&#39;s take a look at the progress of the Korean AI Full Stack.</p>
+<p begin="00:10:46.200" end="00:10:50.820" style="s2"></p>
+<p begin="00:10:48.779" end="00:10:53.820" style="s2">Kate made strategic investments in Rebellion, an AI semiconductor</p>
+<p begin="00:10:50.820" end="00:10:56.220" style="s2">design company, and Moret, an AI infrastructure</p>
+<p begin="00:10:53.820" end="00:10:58.019" style="s2">solution company, last year.  We have</p>
+<p begin="00:10:56.220" end="00:10:59.160" style="s2"></p>
+<p begin="00:10:58.019" end="00:11:01.500" style="s2">established an AI infrastructure environment. We are</p>
+<p begin="00:10:59.160" end="00:11:03.779" style="s2"></p>
+<p begin="00:11:01.500" end="00:11:06.060" style="s2">researching the latest AI algorithms through industry-academic cooperation.</p>
+<p begin="00:11:03.779" end="00:11:08.820" style="s2">Based on this, we plan to commercialize super-large AI within this year. In</p>
+<p begin="00:11:06.060" end="00:11:11.519" style="s2">addition, we are already</p>
+<p begin="00:11:08.820" end="00:11:13.860" style="s2">applying AI technology to</p>
+<p begin="00:11:11.519" end="00:11:16.079" style="s2">existing business</p>
+<p begin="00:11:13.860" end="00:11:17.100" style="s2">areas such as artificial intelligence contact centers, robots, logistics AI, etc.  We plan to apply ultra-advanced AI.</p>
+<p begin="00:11:16.079" end="00:11:19.019" style="s2"></p>
+<p begin="00:11:17.100" end="00:11:21.480" style="s2">KT Cloud, KT&#39;s data center,</p>
+<p begin="00:11:19.019" end="00:11:23.399" style="s2"></p>
+<p begin="00:11:21.480" end="00:11:25.019" style="s2"></p>
+<p begin="00:11:23.399" end="00:11:27.300" style="s2">launched a pay-as-you-go infrastructure service that allows you to borrow GPUs as needed.</p>
+<p begin="00:11:25.019" end="00:11:30.240" style="s2">On the 28th, KT Cloud launched</p>
+<p begin="00:11:27.300" end="00:11:31.079" style="s2"></p>
+<p begin="00:11:30.240" end="00:11:32.820" style="s2"></p>
+<p begin="00:11:31.079" end="00:11:34.800" style="s2">next-generation memory technology with the goal of implementing a Korean-style AI full stack with Samsung Electronics.  A</p>
+<p begin="00:11:32.820" end="00:11:36.899" style="s2">business agreement has been signed for cooperation.</p>
+<p begin="00:11:34.800" end="00:11:39.060" style="s2">The most meaningful progress is that</p>
+<p begin="00:11:36.899" end="00:11:40.980" style="s2">the development of AI semiconductors has received a green light.</p>
+<p begin="00:11:39.060" end="00:11:43.320" style="s2"></p>
+<p begin="00:11:40.980" end="00:11:45.600" style="s2">Rebellion&#39;s AR</p>
+<p begin="00:11:43.320" end="00:11:48.839" style="s2">semiconductor Atombe was first introduced on April 6.</p>
+<p begin="00:11:45.600" end="00:11:50.820" style="s2">Atom is the first in Korea to develop a Transformer-based</p>
+<p begin="00:11:48.839" end="00:11:52.140" style="s2">natural language model.  It is an AI semiconductor that supports not only</p>
+<p begin="00:11:50.820" end="00:11:53.820" style="s2"></p>
+<p begin="00:11:52.140" end="00:11:55.560" style="s2">language models but also vision modelers such as image search.</p>
+<p begin="00:11:53.820" end="00:11:57.360" style="s2"></p>
+<p begin="00:11:55.560" end="00:11:59.459" style="s2">Atom</p>
+<p begin="00:11:57.360" end="00:12:02.100" style="s2"></p>
+<p begin="00:11:59.459" end="00:12:03.860" style="s2">was up to 2 times faster than Qualcomm and NVIDIA with language models, and</p>
+<p begin="00:12:02.100" end="00:12:06.779" style="s2">up to 3 times faster with vision models.</p>
+<p begin="00:12:03.860" end="00:12:10.140" style="s2">Power consumption is lower than NVIDIA.</p>
+<p begin="00:12:06.779" end="00:12:10.680" style="s2"></p>
+<p begin="00:12:10.140" end="00:12:12.839" style="s2">If Atom is commercialized, it will</p>
+<p begin="00:12:10.680" end="00:12:13.920" style="s2"></p>
+<p begin="00:12:12.839" end="00:12:16.260" style="s2">be able to gradually replace NVIDIA&#39;s GPU.</p>
+<p begin="00:12:13.920" end="00:12:20.000" style="s2">If that happens, I think the Korean AI full stack will also</p>
+<p begin="00:12:16.260" end="00:12:20.000" style="s2">gradually become competitive.</p>
+<p begin="00:12:29.150" end="00:12:32.179" style="s2">[Music] [</p>
+<p begin="00:13:14.140" end="00:13:19.890" style="s2">Music]</p>
+<p begin="00:13:17.940" end="00:13:22.950" style="s2">Thank you for watching</p>
+<p begin="00:13:19.890" end="00:13:22.950" style="s2">[Music]</p>
+</div>
+</body>
+</tt>
