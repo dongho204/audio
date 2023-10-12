@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.240" end="00:00:07.100" style="s2">OpenAI has introduced a new tool named GPTBot,<br />marking a significant milestone in the effort</p>
+<p begin="00:00:07.100" end="00:00:09.680" style="s2">to develop artificial intelligence.</p>
+<p begin="00:00:09.680" end="00:00:15.129" style="s2">GPTBot is an automated web data collector<br />with the ability to navigate the entire internet</p>
+<p begin="00:00:15.129" end="00:00:17.840" style="s2">and gather text from web pages.</p>
+<p begin="00:00:17.840" end="00:00:23.170" style="s2">The vast amount of textual data that GPTBot<br />can accumulate will provide a valuable resource</p>
+<p begin="00:00:23.170" end="00:00:26.770" style="s2">for training OpenAI&#39;s upcoming language models.</p>
+<p begin="00:00:26.770" end="00:00:32.759" style="s2">Specifically, GPTBot is designed to support<br />GPT-5, the next iteration of the renowned</p>
+<p begin="00:00:32.759" end="00:00:36.100" style="s2">language model after GPT-4.</p>
+<p begin="00:00:36.100" end="00:00:42.239" style="s2">With GPT-5, OpenAI aims to achieve a breakthrough<br />in the development of Artificial General Intelligence</p>
+<p begin="00:00:42.239" end="00:00:43.660" style="s2">(AGI).</p>
+<p begin="00:00:43.660" end="00:00:50.690" style="s2">Upon success, GPT-5 will be the first AI model<br />capable of thinking, reasoning, and problem-solving</p>
+<p begin="00:00:50.690" end="00:00:52.790" style="s2">at a human-like level.</p>
+<p begin="00:00:52.790" end="00:00:58.100" style="s2">This will unlock new applications and possibilities<br />for AI that we have never seen before.</p>
+<p begin="00:00:58.100" end="00:01:05.180" style="s2">In reality, the reason behind ChatGPT&#39;s ability<br />to generate such great content lies in the</p>
+<p begin="00:01:05.180" end="00:01:11.470" style="s2">massive amount of text data collected from<br />the internet, all thanks to GPTBot.</p>
+<p begin="00:01:11.470" end="00:01:16.360" style="s2">It&#39;s like an enormous information library<br />that the models use to understand and respond</p>
+<p begin="00:01:16.360" end="00:01:18.040" style="s2">to your requests.</p>
+<p begin="00:01:18.040" end="00:01:23.270" style="s2">And if you&#39;re curious about how GPTBot selects<br />which websites to explore and which ones to</p>
+<p begin="00:01:23.270" end="00:01:30.729" style="s2">avoid, GPTBot follows specific rules and principles<br />to ensure the collected data is of high quality</p>
+<p begin="00:01:30.729" end="00:01:35.140" style="s2">and respects both privacy rights and the rights<br />of individuals.</p>
+<p begin="00:01:35.140" end="00:01:40.990" style="s2">To illustrate, GPTBot exclusively explores<br />websites that anyone can access without needing</p>
+<p begin="00:01:40.990" end="00:01:46.060" style="s2">to go through paywalls or log in with usernames<br />and passwords.</p>
+<p begin="00:01:46.060" end="00:01:50.640" style="s2">It deliberately avoids collecting data from<br />websites containing Personally Identifiable</p>
+<p begin="00:01:50.640" end="00:01:57.810" style="s2">Information (PII), such as names, addresses,<br />phone numbers, or email addresses of individuals.</p>
+<p begin="00:01:57.810" end="00:02:04.670" style="s2">Moreover, it filters out content that violates<br />OpenAI&#39;s policies, such as content containing</p>
+<p begin="00:02:04.670" end="00:02:07.880" style="s2">provocative, violent, or explicit language.</p>
+<p begin="00:02:07.880" end="00:02:12.800" style="s2">But what if you&#39;re a website owner and you<br />don&#39;t want GPTBot to gather data from your</p>
+<p begin="00:02:12.800" end="00:02:13.800" style="s2">website?</p>
+<p begin="00:02:13.800" end="00:02:15.360" style="s2">You have the option to do that.</p>
+<p begin="00:02:15.360" end="00:02:21.330" style="s2">You can insert a specific line into your website&#39;s<br />robots.txt file to instruct the information-gathering</p>
+<p begin="00:02:21.330" end="00:02:25.150" style="s2">process to stay away from your website.</p>
+<p begin="00:02:25.150" end="00:02:29.580" style="s2">This requires GPTBot not to crawl any pages<br />on your website.</p>
+<p begin="00:02:29.580" end="00:02:35.170" style="s2">Now, GPT-5 is the next major language model<br />expected from OpenAI, following the previous</p>
+<p begin="00:02:35.170" end="00:02:39.220" style="s2">releases of GPT-3.5 and GPT-4.</p>
+<p begin="00:02:39.220" end="00:02:43.349" style="s2">Although there&#39;s still very little information<br />about it, there are some clues indicating</p>
+<p begin="00:02:43.349" end="00:02:47.850" style="s2">that OpenAI is working on it and has plans<br />to release it soon.</p>
+<p begin="00:02:47.850" end="00:02:54.510" style="s2">For instance, OpenAI filed a trademark application<br />for &quot;GPT-5&quot; with the United States Patent</p>
+<p begin="00:02:54.510" end="00:02:59.520" style="s2">and Trademark Office (USPTO) in July 2023.</p>
+<p begin="00:02:59.520" end="00:03:04.879" style="s2">This application covers various types of software<br />related to language models and AI.</p>
+<p begin="00:03:04.879" end="00:03:09.300" style="s2">The application is currently pending examination<br />by the USPTO.</p>
+<p begin="00:03:09.300" end="00:03:15.599" style="s2">But what can we expect from GPT-5 in terms<br />of capabilities and features?</p>
+<p begin="00:03:15.599" end="00:03:21.900" style="s2">Well, based on previous versions of the GPT<br />model, we can assume GPT-5 will be a major</p>
+<p begin="00:03:21.900" end="00:03:26.599" style="s2">upgrade over GPT-4 in size, accuracy, and<br />flexibility.</p>
+<p begin="00:03:26.599" end="00:03:27.709" style="s2">For example:</p>
+<p begin="00:03:27.709" end="00:03:34.170" style="s2">In terms of size, GPT-4 comprised 175 billion<br />parameters.</p>
+<p begin="00:03:34.170" end="00:03:39.640" style="s2">This was already hugely significant when comparing<br />it to most other existing language models.</p>
+<p begin="00:03:39.640" end="00:03:46.420" style="s2">Now, GPT-5 is predicted to have an even larger<br />number of parameters, potentially in the trillions.</p>
+<p begin="00:03:46.420" end="00:03:49.150" style="s2">What does this mean for us?</p>
+<p begin="00:03:49.150" end="00:03:54.709" style="s2">Basically, GPT-5 will be able to store more<br />information and have a larger memory capacity</p>
+<p begin="00:03:54.709" end="00:03:59.189" style="s2">than any human, making it an extremely powerful<br />tool.</p>
+<p begin="00:03:59.189" end="00:04:04.930" style="s2">When it comes to accuracy, GPT-4 demonstrated<br />superior performance on various natural language</p>
+<p begin="00:04:04.930" end="00:04:09.049" style="s2">processing (NLP) tasks and benchmarks.</p>
+<p begin="00:04:09.049" end="00:04:14.380" style="s2">These include areas like natural language<br />understanding (NLU), natural language generation</p>
+<p begin="00:04:14.380" end="00:04:18.580" style="s2">(NLG), question answering (QA), etc.</p>
+<p begin="00:04:18.580" end="00:04:23.710" style="s2">However, GPT-5 is expected to surpass these<br />achievements even further.</p>
+<p begin="00:04:23.710" end="00:04:29.630" style="s2">It may reach new heights in accuracy and fluency,<br />generating text and speech that is more human-like</p>
+<p begin="00:04:29.630" end="00:04:31.320" style="s2">in communication.</p>
+<p begin="00:04:31.320" end="00:04:36.020" style="s2">Flexibility is another area where GPT-5 will<br />excel.</p>
+<p begin="00:04:36.020" end="00:04:42.600" style="s2">GPT-4 was already able to handle various types<br />of inputs and outputs, such as text, speech,</p>
+<p begin="00:04:42.600" end="00:04:44.669" style="s2">images, and code.</p>
+<p begin="00:04:44.669" end="00:04:50.310" style="s2">However, GPT-5 may take this even further,<br />expanding its multimodal capabilities.</p>
+<p begin="00:04:50.310" end="00:04:55.830" style="s2">It may also be able to sync with third-party<br />platforms and tools, such as social media</p>
+<p begin="00:04:55.830" end="00:05:02.060" style="s2">platforms, search engines, and productivity<br />tools (e.g. Microsoft Office).</p>
+<p begin="00:05:02.060" end="00:05:08.080" style="s2">These improvements will make GPT-5 more adaptable<br />and useful across different industries and</p>
+<p begin="00:05:08.080" end="00:05:09.080" style="s2">applications.</p>
+<p begin="00:05:09.080" end="00:05:15.130" style="s2">Now, one question many may wonder is when<br />will GPT-5 be released?</p>
+<p begin="00:05:15.130" end="00:05:19.900" style="s2">This is really a tricky question to answer,<br />mainly because OpenAI has not provided any</p>
+<p begin="00:05:19.900" end="00:05:24.090" style="s2">official timelines or announcements related<br />to the GPT-5 launch.</p>
+<p begin="00:05:24.090" end="00:05:30.630" style="s2">But we can try to make some educated guesses<br />based on release patterns of previous iterations.</p>
+<p begin="00:05:30.630" end="00:05:39.169" style="s2">GPT-3.5 was introduced in November 2022, followed<br />by GPT-4 in March 2023, making those two iterations</p>
+<p begin="00:05:39.169" end="00:05:41.530" style="s2">roughly 4 months apart.</p>
+<p begin="00:05:41.530" end="00:05:46.910" style="s2">If this trend continues, we could potentially<br />see GPT-5 by late this year.</p>
+<p begin="00:05:46.910" end="00:05:52.240" style="s2">However, it&#39;s important to recognize this<br />is just speculation with some basis.</p>
+<p begin="00:05:52.240" end="00:05:58.720" style="s2">The ever-changing AI ecosystem can cause unexpected<br />delays or setbacks that could alter GPT-5&#39;s</p>
+<p begin="00:05:58.720" end="00:06:00.050" style="s2">release date.</p>
+<p begin="00:06:00.050" end="00:06:04.970" style="s2">One of the most intriguing and controversial<br />questions surrounding GPT-5 is whether or</p>
+<p begin="00:06:04.970" end="00:06:09.729" style="s2">not it will reach the level of artificial<br />general intelligence or AGI.</p>
+<p begin="00:06:09.729" end="00:06:13.340" style="s2">To understand this, we first need to know<br />what AGI is.</p>
+<p begin="00:06:13.340" end="00:06:19.011" style="s2">It is a theoretical concept of an AI that<br />could learn and understand anything a human</p>
+<p begin="00:06:19.011" end="00:06:20.400" style="s2">can.</p>
+<p begin="00:06:20.400" end="00:06:25.860" style="s2">This should not be confused with what we have<br />today, called narrow AI, where AI can only</p>
+<p begin="00:06:25.860" end="00:06:28.979" style="s2">perform certain specific tasks or functions.</p>
+<p begin="00:06:28.979" end="00:06:35.120" style="s2">AGI represents a higher level of AI, one that<br />is not limited to particular capabilities.</p>
+<p begin="00:06:35.120" end="00:06:42.669" style="s2">There have been some initial reports and rumors<br />that GPT-5 could achieve AGI by late 2023.</p>
+<p begin="00:06:42.669" end="00:06:47.470" style="s2">People are making this claim because they<br />believe GPT-5 will generate text and speech</p>
+<p begin="00:06:47.470" end="00:06:52.190" style="s2">so realistic it will be indistinguishable<br />from human communication.</p>
+<p begin="00:06:52.190" end="00:06:57.060" style="s2">They also think it will be able to answer<br />any question or prompt a human can handle.</p>
+<p begin="00:06:57.060" end="00:07:02.599" style="s2">But most experts and researchers view this<br />idea as far-fetched and too early to predict.</p>
+<p begin="00:07:02.599" end="00:07:08.180" style="s2">They emphasize we could still be many years<br />away from AGI and GPT-5 will face various</p>
+<p begin="00:07:08.180" end="00:07:13.900" style="s2">obstacles and limitations, especially around<br />generalization, reasoning, common sense, and</p>
+<p begin="00:07:13.900" end="00:07:15.550" style="s2">ethical considerations.</p>
+<p begin="00:07:15.550" end="00:07:19.599" style="s2">So what would happen if GPT-5 does achieve<br />AGI?</p>
+<p begin="00:07:19.599" end="00:07:22.960" style="s2">This is a complex topic, but let&#39;s try to<br />summarize it.</p>
+<p begin="00:07:22.960" end="00:07:29.599" style="s2">On the positive side, GPT-5 could boost productivity<br />and creativity by accelerating AI-assisted</p>
+<p begin="00:07:29.599" end="00:07:33.370" style="s2">processes, freeing humans from repetitive<br />tasks.</p>
+<p begin="00:07:33.370" end="00:07:38.360" style="s2">This could lead to breakthroughs in areas<br />like education, entertainment, and media by</p>
+<p begin="00:07:38.360" end="00:07:42.780" style="s2">providing relevant, engaging content and services.</p>
+<p begin="00:07:42.780" end="00:07:46.009" style="s2">On the other hand, there could be significant<br />risks.</p>
+<p begin="00:07:46.009" end="00:07:53.180" style="s2">GPT-5 could harm human society and principles<br />by spreading misinformation, propaganda, or</p>
+<p begin="00:07:53.180" end="00:07:55.750" style="s2">engaging in manipulation.</p>
+<p begin="00:07:55.750" end="00:08:00.830" style="s2">Ethical concerns and ethically-challenging<br />situations could also arise, challenging human</p>
+<p begin="00:08:00.830" end="00:08:03.970" style="s2">dignity, identity, and freedom.</p>
+<p begin="00:08:03.970" end="00:08:10.909" style="s2">Now, I&#39;d like to know your perspective on<br />GPT-5 and its potential for achieving AGI.</p>
+<p begin="00:08:10.909" end="00:08:15.060" style="s2">Is this something you believe could happen<br />or do you find it unlikely?</p>
+<p begin="00:08:15.060" end="00:08:18.330" style="s2">Is it a breakthrough or a murky issue?</p>
+<p begin="00:08:18.330" end="00:08:20.659" style="s2">Share your thoughts in the comments below.</p>
+<p begin="00:08:20.659" end="00:08:25.600" style="s2">If you found this video interesting, please<br />like and share it with your friends.</p>
+<p begin="00:08:25.600" end="00:08:29.860" style="s2">Be sure to subscribe to my channel to learn<br />more about AI advancements.</p>
+<p begin="00:08:29.860" end="00:08:42.239" style="s2">Thank you for watching and I&#39;ll see you in<br />the next video.</p>
+</div>
+</body>
+</tt>
